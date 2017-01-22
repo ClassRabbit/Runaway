@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{D3FF5324-C291-EF96-9B3D-851EA736DCE0}|단위 테스트">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/NGUI/Examples/Scripts/InventorySystem/System/InvEquipment.cs">
+    <Files>
+      <File FileName="Assets/NGUI/Examples/Scripts/InventorySystem/Game/UICursor.cs" Line="67" Column="30" />
+      <File FileName="Assets/NGUI/Examples/Scripts/InventorySystem/System/InvEquipment.cs" Line="58" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
