@@ -1,10 +1,7 @@
 ﻿<Properties StartupConfiguration="{D3FF5324-C291-EF96-9B3D-851EA736DCE0}|단위 테스트">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editors/GroundEditor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI/Controller.cs">
     <Files>
-      <File FileName="Assets/Editors/GroundEditor.cs" Line="67" Column="60" />
-      <File FileName="Assets/Editors/TileEditor.cs" Line="13" Column="1" />
-      <File FileName="Assets/Scripts/Ground.cs" Line="15" Column="29" NotebookId="1" />
-      <File FileName="Assets/Scripts/Tile.cs" Line="8" Column="23" NotebookId="1" />
+      <File FileName="Assets/Scripts/UI/Controller.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

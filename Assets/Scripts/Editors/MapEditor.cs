@@ -59,11 +59,11 @@ public class MapEditor : Editor {
 	{
 		initWall();
 
-		leftWall.localPosition = new Vector3(-tileWidth, basePositionY, 0);
+		leftWall.localPosition = new Vector3(0, basePositionY, 0);
 
 		int count = map.groundsTarget.transform.childCount;
 
-		float extandValue = tileWidth * count;
+		float extandValue = tileWidth * (count - 1);
 
 		rightWall.localPosition = new Vector3(extandValue, basePositionY, 0);
 	}
