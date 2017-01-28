@@ -136,7 +136,7 @@
      <Compile Include="Assets\Resources\Spine 4 char\spine-unity\Assets\spine-unity\SkeletonUtility\SkeletonUtilityConstraint.cs" />
      <Compile Include="Assets\Resources\Spine 4 char\spine-unity\Assets\spine-unity\SkeletonUtility\SkeletonUtilitySubmeshRenderer.cs" />
      <Compile Include="Assets\Resources\Spine 4 char\spine-unity\Assets\spine-unity\SpineAttributes.cs" />
-     <Compile Include="Assets\Scripts\Manager\GUIManager.cs" />
+     <Compile Include="Assets\Scripts\Controller\CameraController.cs" />
      <Compile Include="Assets\Scripts\Map\Ground.cs" />
      <Compile Include="Assets\Scripts\Map\Map.cs" />
      <Compile Include="Assets\Scripts\Map\Tile.cs" />
