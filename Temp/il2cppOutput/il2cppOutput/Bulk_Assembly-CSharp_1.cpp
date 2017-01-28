@@ -1,0 +1,24085 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+// Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator/SmartMesh
+struct SmartMesh_t2415772704;
+// UnityEngine.Vector3[]
+struct Vector3U5BU5D_t215400611;
+// UnityEngine.Vector2[]
+struct Vector2U5BU5D_t4024180168;
+// UnityEngine.Color32[]
+struct Color32U5BU5D_t2960766953;
+// Spine.Unity.MeshGeneration.SubmeshedMeshInstruction
+struct SubmeshedMeshInstruction_t1095166029;
+// Spine.Unity.MeshGeneration.ArraysSubmeshSetMeshGenerator
+struct ArraysSubmeshSetMeshGenerator_t2045020741;
+// Spine.ExposedList`1<Spine.Unity.MeshGeneration.SubmeshInstruction>
+struct ExposedList_1_t723286955;
+// Spine.Unity.MeshGeneration.ArraysSubmeshSetMeshGenerator/SmartMesh
+struct SmartMesh_t1508871033;
+// Spine.ExposedList`1<Spine.Attachment>
+struct ExposedList_1_t4224666065;
+// UnityEngine.Mesh
+struct Mesh_t4241756145;
+// UnityEngine.Material[]
+struct MaterialU5BU5D_t170856778;
+// Spine.Unity.Modules.AtlasRegionAttacher
+struct AtlasRegionAttacher_t463209143;
+// Spine.Unity.SkeletonRenderer
+struct SkeletonRenderer_t3766155010;
+// System.Object
+struct Il2CppObject;
+// Spine.Unity.Modules.AtlasRegionAttacher/SlotRegionPair
+struct SlotRegionPair_t202331861;
+// Spine.Unity.Modules.CustomSkin
+struct CustomSkin_t3376942026;
+// Spine.Unity.Modules.CustomSkin/SkinPair
+struct SkinPair_t1581379405;
+// Spine.Unity.Modules.SkeletonGhost
+struct SkeletonGhost_t125999752;
+// UnityEngine.MeshFilter
+struct MeshFilter_t3839065225;
+// UnityEngine.MeshRenderer
+struct MeshRenderer_t2804666580;
+// Spine.Unity.Modules.SkeletonGhostRenderer
+struct SkeletonGhostRenderer_t2396092523;
+// Spine.AnimationState
+struct AnimationState_t964829161;
+// Spine.Event
+struct Event_t365432928;
+// System.String
+struct String_t;
+// System.Collections.IEnumerator
+struct IEnumerator_t3464575207;
+// Spine.Unity.Modules.SkeletonGhostRenderer/<Fade>c__Iterator8
+struct U3CFadeU3Ec__Iterator8_t3402563106;
+// Spine.Unity.Modules.SkeletonGhostRenderer/<FadeAdditive>c__Iterator9
+struct U3CFadeAdditiveU3Ec__Iterator9_t3508023479;
+// Spine.Unity.Modules.SkeletonPartsRenderer
+struct SkeletonPartsRenderer_t3661907900;
+// Spine.Unity.MeshGeneration.ISubmeshSetMeshGenerator
+struct ISubmeshSetMeshGenerator_t3306192096;
+// UnityEngine.MaterialPropertyBlock
+struct MaterialPropertyBlock_t1322387783;
+// UnityEngine.Transform
+struct Transform_t1659122786;
+// Spine.Unity.Modules.SkeletonRagdoll
+struct SkeletonRagdoll_t105860444;
+// UnityEngine.Rigidbody
+struct Rigidbody_t3346577219;
+// Spine.Bone
+struct Bone_t1650489600;
+// UnityEngine.Rigidbody[]
+struct RigidbodyU5BU5D_t1403726930;
+// UnityEngine.Collider
+struct Collider_t2939674232;
+// UnityEngine.HingeJoint
+struct HingeJoint_t1734115043;
+// Spine.Unity.SkeletonUtilityBone[]
+struct SkeletonUtilityBoneU5BU5D_t3282724192;
+// System.Object[]
+struct ObjectU5BU5D_t1108656482;
+// UnityEngine.Coroutine
+struct Coroutine_t3621161934;
+// UnityEngine.SphereCollider
+struct SphereCollider_t111527973;
+// UnityEngine.BoxCollider
+struct BoxCollider_t2538127765;
+// Spine.Unity.ISkeletonAnimation
+struct ISkeletonAnimation_t1666901536;
+// System.Collections.Generic.List`1<UnityEngine.Collider>
+struct List_1_t12892488;
+// Spine.Unity.Modules.SkeletonRagdoll/<SmoothMixCoroutine>c__IteratorB
+struct U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957;
+// Spine.Unity.Modules.SkeletonRagdoll/<Start>c__IteratorA
+struct U3CStartU3Ec__IteratorA_t3031973476;
+// Spine.Unity.Modules.SkeletonRagdoll/LayerFieldAttribute
+struct LayerFieldAttribute_t3209403375;
+// Spine.Unity.Modules.SkeletonRagdoll2D
+struct SkeletonRagdoll2D_t1262458094;
+// UnityEngine.Rigidbody2D
+struct Rigidbody2D_t1743771669;
+// UnityEngine.Rigidbody2D[]
+struct Rigidbody2DU5BU5D_t23929848;
+// UnityEngine.Collider2D
+struct Collider2D_t1552025098;
+// UnityEngine.HingeJoint2D
+struct HingeJoint2D_t2650814389;
+// UnityEngine.CircleCollider2D
+struct CircleCollider2D_t3380110778;
+// UnityEngine.BoxCollider2D
+struct BoxCollider2D_t2212926951;
+// System.Collections.Generic.List`1<UnityEngine.Collider2D>
+struct List_1_t2920210650;
+// UnityEngine.GameObject
+struct GameObject_t3674682005;
+// Spine.Skeleton
+struct Skeleton_t2209335561;
+// Spine.Unity.Modules.SkeletonRagdoll2D/<SmoothMixCoroutine>c__IteratorD
+struct U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909;
+// Spine.Unity.Modules.SkeletonRagdoll2D/<Start>c__IteratorC
+struct U3CStartU3Ec__IteratorC_t3170568440;
+// Spine.Unity.Modules.SkeletonRendererCustomMaterials
+struct SkeletonRendererCustomMaterials_t2297186929;
+// Spine.Unity.Modules.SkeletonRenderSeparator
+struct SkeletonRenderSeparator_t3234766824;
+// Spine.Unity.SkeletonRenderer/SmartMesh/Instruction
+struct Instruction_t629699354;
+// Spine.Unity.Modules.SkeletonUtilityEyeConstraint
+struct SkeletonUtilityEyeConstraint_t1100357451;
+// Spine.Unity.Modules.SkeletonUtilityGroundConstraint
+struct SkeletonUtilityGroundConstraint_t3057777225;
+// Spine.Unity.Modules.SkeletonUtilityKinematicShadow
+struct SkeletonUtilityKinematicShadow_t2419233506;
+// UnityEngine.Joint[]
+struct JointU5BU5D_t518044161;
+// UnityEngine.Collider[]
+struct ColliderU5BU5D_t2697150633;
+// UnityEngine.Component[]
+struct ComponentU5BU5D_t663911650;
+// Spine.Unity.Modules.SkeletonUtilitySubmeshRenderer
+struct SkeletonUtilitySubmeshRenderer_t3659091309;
+// UnityEngine.Renderer
+struct Renderer_t3076687687;
+// UnityEngine.Material
+struct Material_t3870600107;
+// Spine.Unity.Modules.SpriteAttacher
+struct SpriteAttacher_t3811563859;
+// Spine.Attachment
+struct Attachment_t2849733407;
+// UnityEngine.Sprite
+struct Sprite_t3199167241;
+// Spine.SkeletonData
+struct SkeletonData_t3387199699;
+// Spine.RegionAttachment
+struct RegionAttachment_t2459988211;
+// Spine.Unity.Modules.SpriteAttachmentLoader
+struct SpriteAttachmentLoader_t3928570551;
+// UnityEngine.Shader
+struct Shader_t3191267369;
+// Spine.Skin
+struct Skin_t1650992057;
+// Spine.MeshAttachment
+struct MeshAttachment_t3373030252;
+// Spine.BoundingBoxAttachment
+struct BoundingBoxAttachment_t3933059536;
+// Spine.PathAttachment
+struct PathAttachment_t3159049124;
+// Spine.Unity.SkeletonAnimation
+struct SkeletonAnimation_t3721178561;
+// Spine.Unity.UpdateBonesDelegate
+struct UpdateBonesDelegate_t4020151189;
+// Spine.Unity.SkeletonDataAsset
+struct SkeletonDataAsset_t2211567523;
+// Spine.Unity.SkeletonAnimator
+struct SkeletonAnimator_t3465797926;
+// UnityEngine.Animator
+struct Animator_t2776330603;
+// Spine.Unity.SkeletonAnimator/MixMode[]
+struct MixModeU5BU5D_t213042809;
+// UnityEngine.AnimationClip
+struct AnimationClip_t2007702890;
+// Spine.AnimationStateData
+struct AnimationStateData_t250640307;
+// Spine.Slot
+struct Slot_t1650993210;
+// Spine.Unity.SkeletonGraphic
+struct SkeletonGraphic_t438418661;
+// UnityEngine.Texture
+struct Texture_t2526458961;
+// Spine.Unity.MeshGeneration.ISimpleMeshGenerator
+struct ISimpleMeshGenerator_t1368828227;
+// Spine.Unity.SkeletonRenderer/InstructionDelegate
+struct InstructionDelegate_t1629107544;
+// System.Collections.Generic.Dictionary`2<UnityEngine.Material,UnityEngine.Material>
+struct Dictionary_2_t807872303;
+// System.Collections.Generic.Dictionary`2<Spine.Slot,UnityEngine.Material>
+struct Dictionary_2_t3744150404;
+// System.IAsyncResult
+struct IAsyncResult_t2754620036;
+// System.AsyncCallback
+struct AsyncCallback_t1369114871;
+// Spine.Unity.SkeletonRenderer/SkeletonRendererDelegate
+struct SkeletonRendererDelegate_t1530399696;
+// Spine.Unity.SkeletonRenderer/SmartMesh
+struct SmartMesh_t2976236219;
+// Spine.Unity.SkeletonUtility
+struct SkeletonUtility_t43096937;
+// Spine.Unity.SkeletonUtility/SkeletonUtilityDelegate
+struct SkeletonUtilityDelegate_t3470925072;
+// UnityEngine.PolygonCollider2D
+struct PolygonCollider2D_t2156524054;
+// Spine.Unity.SkeletonUtilityBone
+struct SkeletonUtilityBone_t1973204173;
+// Spine.Unity.SkeletonUtilityConstraint
+struct SkeletonUtilityConstraint_t3501047718;
+// Spine.Unity.SpineAnimation
+struct SpineAnimation_t1374059059;
+// Spine.Unity.SpineAtlasRegion
+struct SpineAtlasRegion_t3299345870;
+// Spine.Unity.SpineAttachment
+struct SpineAttachment_t1024217328;
+// Spine.Unity.SpineAttributeBase
+struct SpineAttributeBase_t1862282684;
+// Spine.Unity.SpineBone
+struct SpineBone_t1341052369;
+// Spine.BoneData
+struct BoneData_t2151574858;
+// Spine.Unity.SpineEvent
+struct SpineEvent_t2281552329;
+// Spine.Unity.SpineSkin
+struct SpineSkin_t1341554826;
+// Spine.Unity.SpineSlot
+struct SpineSlot_t1341555979;
+// Spine.Unity.WaitForSpineAnimationComplete
+struct WaitForSpineAnimationComplete_t2719088888;
+// Spine.TrackEntry
+struct TrackEntry_t1654022115;
+// Spine.Unity.WaitForSpineEvent
+struct WaitForSpineEvent_t3828335157;
+// Spine.EventData
+struct EventData_t2102088874;
+// Spine.VertexAttachment
+struct VertexAttachment_t2433703843;
+// System.Int32[]
+struct Int32U5BU5D_t3230847821;
+// System.Single[]
+struct SingleU5BU5D_t2316563989;
+// SpineBeginnerTwo
+struct SpineBeginnerTwo_t517921879;
+// SpineBeginnerTwo/<DoDemoRoutine>c__Iterator1
+struct U3CDoDemoRoutineU3Ec__Iterator1_t95077388;
+// SpineBlinkPlayer
+struct SpineBlinkPlayer_t726077722;
+// SpineBlinkPlayer/<Start>c__Iterator2
+struct U3CStartU3Ec__Iterator2_t2936432708;
+// Spineboy
+struct Spineboy_t2351289001;
+// SpineboyBeginnerInput
+struct SpineboyBeginnerInput_t3247046255;
+// SpineboyBeginnerModel
+struct SpineboyBeginnerModel_t3250758094;
+// System.Action
+struct Action_t3771233898;
+// SpineboyBeginnerModel/<JumpRoutine>c__Iterator3
+struct U3CJumpRoutineU3Ec__Iterator3_t3510013669;
+// SpineboyBeginnerView
+struct SpineboyBeginnerView_t1352051552;
+// SpineboyPole
+struct SpineboyPole_t2321572353;
+// SpineboyPole/<Start>c__Iterator7
+struct U3CStartU3Ec__Iterator7_t2992455600;
+// SpineGauge
+struct SpineGauge_t410579574;
+// Tile
+struct Tile_t2606798;
+
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Array1146569071.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2415772704.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2415772704MethodDeclarations.h"
+#include "mscorlib_System_Void2863195528.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineMesh1341370618MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen4224666065MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen723286955MethodDeclarations.h"
+#include "mscorlib_System_Object4170816371MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Mesh4241756145.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen4224666065.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen723286955.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Subme1095166029.h"
+#include "UnityEngine_ArrayTypes.h"
+#include "UnityEngine_UnityEngine_Vector34282066566.h"
+#include "UnityEngine_UnityEngine_Vector24282066565.h"
+#include "UnityEngine_UnityEngine_Color32598853688.h"
+#include "UnityEngine_UnityEngine_Mesh4241756145MethodDeclarations.h"
+#include "mscorlib_System_Boolean476798718.h"
+#include "mscorlib_System_Int321153838500.h"
+#include "Assembly-CSharp_ArrayTypes.h"
+#include "AssemblyU2DCSharp_Spine_Attachment2849733407.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Subme3643321593.h"
+#include "UnityEngine_UnityEngine_Object3071478659MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Material3870600107.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2045020741.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2045020741MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_DoubleBuffered_1_gen834133753MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen1435450047MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2793983610MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_DoubleBuffered_1_gen834133753.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen1435450047.h"
+#include "mscorlib_System_Single4291918972.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_MeshAn234526394.h"
+#include "AssemblyU2DCSharp_Spine_Skeleton2209335561MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array1508871033MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Subme2454074797MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array1508871033.h"
+#include "AssemblyU2DCSharp_Spine_Skeleton2209335561.h"
+#include "AssemblyU2DCSharp_Spine_Slot1650993210.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_ArraysM60517389.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2793983610.h"
+#include "UnityEngine_UnityEngine_Vector34282066566MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen3025925868.h"
+#include "mscorlib_ArrayTypes.h"
+#include "UnityEngine_UnityEngine_Bounds2711641849.h"
+#include "UnityEngine_UnityEngine_Vector44282066567.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_MeshAn234526394MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Subme1095166029MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Subme3643321593MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Subme2454074797.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_AtlasRegionAt463209143.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_AtlasRegionAt463209143MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour667441552MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Component3501516275MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonRenderer_Ske1530399696MethodDeclarations.h"
+#include "mscorlib_System_Delegate3310234105MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonRenderer3766155010.h"
+#include "UnityEngine_UnityEngine_Component3501516275.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonRenderer_Ske1530399696.h"
+#include "mscorlib_System_Object4170816371.h"
+#include "mscorlib_System_IntPtr4010401971.h"
+#include "mscorlib_System_Delegate3310234105.h"
+#include "AssemblyU2DCSharp_Spine_Unity_AtlasAsset1266833143MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_AtlasAttachmentLoader384955783MethodDeclarations.h"
+#include "mscorlib_System_Array1146569071MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_RegionAttachment2459988211MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonExtensions924557843MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Slot1650993210MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_AtlasAttachmentLoader384955783.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_AtlasRegionAt202331861.h"
+#include "AssemblyU2DCSharp_Spine_RegionAttachment2459988211.h"
+#include "AssemblyU2DCSharp_Spine_Unity_AtlasAsset1266833143.h"
+#include "AssemblyU2DCSharp_Spine_Atlas361685585.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonDataAsset2211567523.h"
+#include "mscorlib_System_String7231557.h"
+#include "AssemblyU2DCSharp_Spine_Skin1650992057.h"
+#include "UnityEngine_UnityEngine_Color4194546905.h"
+#include "UnityEngine_UnityEngine_Color4194546905MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_AtlasRegionAt202331861MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_CustomSkin3376942026.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_CustomSkin3376942026MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Skin1650992057MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineAttachment1024217328MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_CustomSkin_S1581379405.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_CustomSkin_S1581379405MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonGhost125999752.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonGhost125999752MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ge807872303MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Color32598853688MethodDeclarations.h"
+#include "mscorlib_System_Byte2862609660.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ge807872303.h"
+#include "UnityEngine_UnityEngine_Shader3191267369MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Time4241968337MethodDeclarations.h"
+#include "mscorlib_System_String7231557MethodDeclarations.h"
+#include "mscorlib_System_Type2863145774MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GameObject3674682005MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_AnimationState_EventDelega3743540456MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_AnimationState964829161MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GameObject3674682005.h"
+#include "UnityEngine_UnityEngine_Shader3191267369.h"
+#include "UnityEngine_UnityEngine_Object3071478659.h"
+#include "UnityEngine_UnityEngine_MeshFilter3839065225.h"
+#include "UnityEngine_UnityEngine_MeshRenderer2804666580.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonGhos2396092523.h"
+#include "mscorlib_System_Type2863145774.h"
+#include "mscorlib_System_RuntimeTypeHandle2669177232.h"
+#include "UnityEngine_UnityEngine_HideFlags1436803931.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonAnimation3721178561.h"
+#include "AssemblyU2DCSharp_Spine_AnimationState964829161.h"
+#include "AssemblyU2DCSharp_Spine_Event365432928.h"
+#include "AssemblyU2DCSharp_Spine_AnimationState_EventDelega3743540456.h"
+#include "AssemblyU2DCSharp_Spine_Event365432928MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_EventData2102088874MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_EventData2102088874.h"
+#include "UnityEngine_UnityEngine_Renderer3076687687MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Material3870600107MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Transform1659122786MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_MeshFilter3839065225MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonGhos2396092523MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Quaternion1553702882MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Transform1659122786.h"
+#include "UnityEngine_UnityEngine_Quaternion1553702882.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_V3803445312MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_V3034673007.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_V3803445312.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_V3034673007MethodDeclarations.h"
+#include "mscorlib_System_Byte2862609660MethodDeclarations.h"
+#include "mscorlib_System_Globalization_NumberStyles2609490573.h"
+#include "UnityEngine_UnityEngine_Coroutine3621161934.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonGhos3402563106MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonGhos3402563106.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonGhos3508023479MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonGhos3508023479.h"
+#include "mscorlib_System_UInt3224667981.h"
+#include "mscorlib_System_NotSupportedException1732551818MethodDeclarations.h"
+#include "mscorlib_System_NotSupportedException1732551818.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonPart3661907900.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonPart3661907900MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_MaterialPropertyBlock1322387783.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRagdo105860444.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRagdo105860444MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1375417109MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_gen21045661MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1375417109.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_gen21045661.h"
+#include "UnityEngine_UnityEngine_Rigidbody3346577219.h"
+#include "AssemblyU2DCSharp_Spine_Bone1650489600.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRagd3031973476MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRagd3031973476.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_V3016618670MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_V2247846365.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_V3016618670.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_V2247846365MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rigidbody3346577219MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen12892488MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Bone1650489600MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Joint4201008640MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_HingeJoint1734115043MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Physics3358180733MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Debug4195163081MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_UpdateBonesDelegate4020151189MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen12892488.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_24214793663.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_E1338369053.h"
+#include "UnityEngine_UnityEngine_HingeJoint1734115043.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonUtilityBone1973204173.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen2496032397.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen326730273.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen2012139280.h"
+#include "UnityEngine_UnityEngine_JointLimits3539604472.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_E1338369053MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_24214793663MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Collider2939674232.h"
+#include "UnityEngine_UnityEngine_JointLimits3539604472MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonUtilityBone_3772442675.h"
+#include "AssemblyU2DCSharp_Spine_IkConstraint1121099739.h"
+#include "AssemblyU2DCSharp_Spine_TransformConstraint3246764911.h"
+#include "AssemblyU2DCSharp_Spine_PathConstraint637206622.h"
+#include "AssemblyU2DCSharp_Spine_Unity_UpdateBonesDelegate4020151189.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRagdo590758957MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRagdo590758957.h"
+#include "AssemblyU2DCSharp_Spine_BoneData2151574858MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_SphereCollider111527973MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_BoxCollider2538127765MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen3025422258MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_SphereCollider111527973.h"
+#include "UnityEngine_UnityEngine_BoxCollider2538127765.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_Enumerator_g1535068636.h"
+#include "AssemblyU2DCSharp_Spine_BoneData2151574858.h"
+#include "UnityEngine_UnityEngine_RigidbodyConstraints1602554285.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen3025422258.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_Enumerator_g1535068636MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Mathf4203372500MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_SkeletonData3387199699MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen4217918959MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen3025925868MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Attachment2849733407MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonUtility43096937MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen4217918959.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_Enumerator_g1535572246.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera4237591729.h"
+#include "AssemblyU2DCSharp_Spine_BoundingBoxAttachment3933059536.h"
+#include "AssemblyU2DCSharp_Spine_SkeletonData3387199699.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_Enumerator_g1535572246MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera4237591729MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Bounds2711641849MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRagd3209403375.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRagd3209403375MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_PropertyAttribute3531521085MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRagd1262458094.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRagd1262458094MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rigidbody2D1743771669.h"
+#include "UnityEngine_UnityEngine_Vector24282066565MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRagd3170568440MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRagd3170568440.h"
+#include "UnityEngine_UnityEngine_Rigidbody2D1743771669MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2920210650MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Joint2D2513613714MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AnchoredJoint2D1716788702MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_HingeJoint2D2650814389MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Physics2D9846735MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2920210650.h"
+#include "UnityEngine_UnityEngine_HingeJoint2D2650814389.h"
+#include "UnityEngine_UnityEngine_JointAngleLimits2D2258250679.h"
+#include "UnityEngine_UnityEngine_Collider2D1552025098.h"
+#include "UnityEngine_UnityEngine_JointAngleLimits2D2258250679MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRagd3888690909MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRagd3888690909.h"
+#include "UnityEngine_UnityEngine_CircleCollider2D3380110778MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_BoxCollider2D2212926951MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Collider2D1552025098MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_CircleCollider2D3380110778.h"
+#include "UnityEngine_UnityEngine_BoxCollider2D2212926951.h"
+#include "UnityEngine_UnityEngine_PolygonCollider2D2156524054.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRend2297186929.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRend2297186929MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3109896976MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3740439903MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3109896976.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3740439903.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonRenderer3766155010MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3744150404MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRend1741711424.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3744150404.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRend2372254351.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRend2372254351MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRend1741711424MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRend3234766824.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonRend3234766824MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen735126156MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen735126156.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonRenderer_Ins1629107544MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Behaviour200106419MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonRenderer_Smar629699354.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonRenderer_Ins1629107544.h"
+#include "UnityEngine_UnityEngine_MaterialPropertyBlock1322387783MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rendering_LightProbeUsage1880553733.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat754798926.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerat754798926MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonUtil1100357451.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonUtil1100357451MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonUtilityConst3501047718MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Application2856536070MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonUtilityConst3501047718.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonUtil3057777225.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonUtil3057777225MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_LayerMask3236759763MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_RaycastHit2D1374744384.h"
+#include "UnityEngine_UnityEngine_RaycastHit4003175726.h"
+#include "UnityEngine_UnityEngine_LayerMask3236759763.h"
+#include "UnityEngine_UnityEngine_RaycastHit2D1374744384MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_RaycastHit4003175726MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Gizmos2849394813MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonUtil2419233506.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonUtil2419233506MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2719412408MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2719412408.h"
+#include "UnityEngine_UnityEngine_Joint4201008640.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonUtil1351226856.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonUtil1351226856MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonUtil3659091309.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SkeletonUtil3659091309MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Renderer3076687687.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SpriteAttach3811563859.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SpriteAttach3811563859MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SpriteAttach3928570551MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SpriteAttach3928570551.h"
+#include "UnityEngine_UnityEngine_Sprite3199167241.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SpriteAttach4158637368.h"
+#include "AssemblyU2DCSharp_Spine_Unity_Modules_SpriteAttach4158637368MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Sprite3199167241MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2522024052MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture2D3884108195MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture2D3884108195.h"
+#include "UnityEngine_UnityEngine_SpritePackingMode1573190749.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2522024052.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g1134293740MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g1134293740.h"
+#include "AssemblyU2DCSharp_Spine_AtlasRegion1137030501MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_AtlasPage3096131840MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_AtlasRegion1137030501.h"
+#include "AssemblyU2DCSharp_Spine_AtlasPage3096131840.h"
+#include "UnityEngine_UnityEngine_Rect4241904616.h"
+#include "UnityEngine_UnityEngine_Texture2526458961.h"
+#include "UnityEngine_UnityEngine_Texture2526458961MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rect4241904616MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_SpritePackingRotation1204540344.h"
+#include "AssemblyU2DCSharp_Spine_MeshAttachment3373030252.h"
+#include "AssemblyU2DCSharp_Spine_PathAttachment3159049124.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonAnimation3721178561MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_TrackEntry1654022115MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Animation3189667530MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_TrackEntry1654022115.h"
+#include "AssemblyU2DCSharp_Spine_Animation3189667530.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonDataAsset2211567523MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_AnimationStateData250640307.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonAnimator3465797926.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonAnimator3465797926MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3186930769MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g2106381709MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonAnimator_Mix1511821544.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3186930769.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g2106381709.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen269632892MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_Enumerator_g3074246566.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen269632892.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_Enumerator_g3074246566MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Animator2776330603.h"
+#include "UnityEngine_UnityEngine_Animator2776330603MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AnimationClip2007702890MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AnimatorStateInfo323110318.h"
+#include "UnityEngine_UnityEngine_AnimatorClipInfo2746035113.h"
+#include "UnityEngine_UnityEngine_AnimatorClipInfo2746035113MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AnimatorStateInfo323110318MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AnimationClip2007702890.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen1740365586.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonAnimator_Mix1511821544MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ScriptableObject2970544072MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_TextAsset3836129977MethodDeclarations.h"
+#include "mscorlib_System_IO_MemoryStream418716369MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_SkeletonBinary1569363754MethodDeclarations.h"
+#include "mscorlib_System_IO_StringReader4061477668MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_SkeletonJson3387395601MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_AnimationStateData250640307MethodDeclarations.h"
+#include "mscorlib_System_IO_MemoryStream418716369.h"
+#include "AssemblyU2DCSharp_Spine_SkeletonBinary1569363754.h"
+#include "mscorlib_System_IO_StringReader4061477668.h"
+#include "AssemblyU2DCSharp_Spine_SkeletonJson3387395601.h"
+#include "mscorlib_System_Exception3991598821.h"
+#include "UnityEngine_UnityEngine_TextAsset3836129977.h"
+#include "mscorlib_System_IO_Stream1561764144.h"
+#include "mscorlib_System_IO_TextReader2148718976.h"
+#include "mscorlib_System_Exception3991598821MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonExtensions924557843.h"
+#include "AssemblyU2DCSharp_Spine_MeshAttachment3373030252MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Matrix4x41651859333.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonGraphic438418661.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonGraphic438418661MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_MaskableGraphic3186046376MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou2511441271MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou2511441271.h"
+#include "UnityEngine_UI_UnityEngine_UI_CanvasUpdate2847075725.h"
+#include "UnityEngine_UI_UnityEngine_UI_Graphic836799438MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_CanvasRenderer3950887807MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Graphic836799438.h"
+#include "UnityEngine_UnityEngine_CanvasRenderer3950887807.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2506830120MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2506830120.h"
+#include "UnityEngine_UnityEngine_Canvas2727140764MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Canvas2727140764.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3019178762MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonRenderer_Smar629699354MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen950565469MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3019178762.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen950565469.h"
+#include "AssemblyU2DCSharp_Spine_Unity_DoubleBuffered_1_gen2301498939MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_DoubleBuffered_1_gen2301498939.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_ArraysM60517389MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonRenderer_Sma2976236219.h"
+#include "AssemblyU2DCSharp_Spine_VertexAttachment2433703843.h"
+#include "mscorlib_System_AsyncCallback1369114871.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonRenderer_Sma2976236219MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonUtility43096937.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3341389725MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen574265974MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3341389725.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen574265974.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonUtility_Skel3470925072.h"
+#include "AssemblyU2DCSharp_Spine_VertexAttachment2433703843MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_PolygonCollider2D2156524054MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonUtility_Skel3470925072MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_IkConstraint1121099739MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonUtilityBone1973204173MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SkeletonUtilityBone_3772442675MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineAnimation1374059059.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineAnimation1374059059MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineAttributeBase1862282684MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineAttributeBase1862282684.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineAtlasRegion3299345870.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineAtlasRegion3299345870MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineAttachment1024217328.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineAttachment_Hiera262310408.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineAttachment_Hiera262310408MethodDeclarations.h"
+#include "mscorlib_System_Char2862622538.h"
+#include "mscorlib_System_StringSplitOptions3126613641.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineBone1341052369.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineBone1341052369MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineEvent2281552329.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineEvent2281552329MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineMesh1341370618.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineSkin1341554826.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineSkin1341554826MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineSlot1341555979.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineSlot1341555979MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_WaitForSpineAnimatio2719088888.h"
+#include "AssemblyU2DCSharp_Spine_Unity_WaitForSpineAnimatio2719088888MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_AnimationState_CompleteDel1469797013MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_AnimationState_CompleteDel1469797013.h"
+#include "AssemblyU2DCSharp_Spine_Unity_WaitForSpineEvent3828335157.h"
+#include "AssemblyU2DCSharp_Spine_Unity_WaitForSpineEvent3828335157MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen1371884334.h"
+#include "AssemblyU2DCSharp_SpineBeginnerBodyState3071047130.h"
+#include "AssemblyU2DCSharp_SpineBeginnerBodyState3071047130MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpineBeginnerTwo517921879.h"
+#include "AssemblyU2DCSharp_SpineBeginnerTwo517921879MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpineBeginnerTwo_U3CDoDemoRoutineU95077388MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpineBeginnerTwo_U3CDoDemoRoutineU95077388.h"
+#include "UnityEngine_UnityEngine_WaitForSeconds1615819279MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_WaitForSeconds1615819279.h"
+#include "AssemblyU2DCSharp_SpineBlinkPlayer726077722.h"
+#include "AssemblyU2DCSharp_SpineBlinkPlayer726077722MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpineBlinkPlayer_U3CStartU3Ec__I2936432708MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpineBlinkPlayer_U3CStartU3Ec__I2936432708.h"
+#include "UnityEngine_UnityEngine_Random3156561159MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spineboy2351289001.h"
+#include "AssemblyU2DCSharp_Spineboy2351289001MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_AnimationState_StartEndDel3416038005MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_AnimationState_StartEndDel3416038005.h"
+#include "AssemblyU2DCSharp_SpineboyBeginnerInput3247046255.h"
+#include "AssemblyU2DCSharp_SpineboyBeginnerInput3247046255MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpineboyBeginnerModel3250758094.h"
+#include "UnityEngine_UnityEngine_Input4200062272MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpineboyBeginnerModel3250758094MethodDeclarations.h"
+#include "System_Core_System_Action3771233898.h"
+#include "System_Core_System_Action3771233898MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpineboyBeginnerModel_U3CJumpRou3510013669MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpineboyBeginnerModel_U3CJumpRou3510013669.h"
+#include "AssemblyU2DCSharp_SpineboyBeginnerView1352051552.h"
+#include "AssemblyU2DCSharp_SpineboyBeginnerView1352051552MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AudioSource1740077639MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AudioSource1740077639.h"
+#include "UnityEngine_UnityEngine_ParticleSystem381473177MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ParticleSystem381473177.h"
+#include "AssemblyU2DCSharp_SpineboyPole2321572353.h"
+#include "AssemblyU2DCSharp_SpineboyPole2321572353MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpineboyPole_U3CStartU3Ec__Itera2992455600MethodDeclarations.h"
+#include "AssemblyU2DCSharp_SpineboyPole_U3CStartU3Ec__Itera2992455600.h"
+#include "AssemblyU2DCSharp_SpineGauge410579574.h"
+#include "AssemblyU2DCSharp_SpineGauge410579574MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Tile2606798.h"
+#include "AssemblyU2DCSharp_Tile2606798MethodDeclarations.h"
+
+// !!0 UnityEngine.Component::GetComponent<System.Object>()
+extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m267839954_gshared (Component_t3501516275 * __this, const MethodInfo* method);
+#define Component_GetComponent_TisIl2CppObject_m267839954(__this, method) ((  Il2CppObject * (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<Spine.Unity.SkeletonRenderer>()
+#define Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865(__this, method) ((  SkeletonRenderer_t3766155010 * (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.MeshFilter>()
+#define Component_GetComponent_TisMeshFilter_t3839065225_m3816897097(__this, method) ((  MeshFilter_t3839065225 * (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.MeshRenderer>()
+#define Component_GetComponent_TisMeshRenderer_t2804666580_m3731621022(__this, method) ((  MeshRenderer_t2804666580 * (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m3652735468_gshared (GameObject_t3674682005 * __this, const MethodInfo* method);
+#define GameObject_GetComponent_TisIl2CppObject_m3652735468(__this, method) ((  Il2CppObject * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m3652735468_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<Spine.Unity.Modules.SkeletonGhostRenderer>()
+#define GameObject_GetComponent_TisSkeletonGhostRenderer_t2396092523_m1653139303(__this, method) ((  SkeletonGhostRenderer_t2396092523 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m3652735468_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m337943659_gshared (GameObject_t3674682005 * __this, const MethodInfo* method);
+#define GameObject_AddComponent_TisIl2CppObject_m337943659(__this, method) ((  Il2CppObject * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.MeshRenderer>()
+#define GameObject_AddComponent_TisMeshRenderer_t2804666580_m3074975883(__this, method) ((  MeshRenderer_t2804666580 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.MeshFilter>()
+#define GameObject_AddComponent_TisMeshFilter_t3839065225_m638563702(__this, method) ((  MeshFilter_t3839065225 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+// !!0 UnityEngine.Object::Instantiate<System.Object>(!!0)
+extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m3133387403_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
+#define Object_Instantiate_TisIl2CppObject_m3133387403(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3133387403_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.Object::Instantiate<UnityEngine.Mesh>(!!0)
+#define Object_Instantiate_TisMesh_t4241756145_m1182015290(__this /* static, unused */, p0, method) ((  Mesh_t4241756145 * (*) (Il2CppObject * /* static, unused */, Mesh_t4241756145 *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3133387403_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.GameObject::AddComponent<Spine.Unity.Modules.SkeletonPartsRenderer>()
+#define GameObject_AddComponent_TisSkeletonPartsRenderer_t3661907900_m4028673409(__this, method) ((  SkeletonPartsRenderer_t3661907900 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Rigidbody>()
+#define Component_GetComponent_TisRigidbody_t3346577219_m2174365699(__this, method) ((  Rigidbody_t3346577219 * (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Collider>()
+#define Component_GetComponent_TisCollider_t2939674232_m3246438266(__this, method) ((  Collider_t2939674232 * (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.HingeJoint>()
+#define GameObject_AddComponent_TisHingeJoint_t1734115043_m2885180636(__this, method) ((  HingeJoint_t1734115043 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+// !!0[] UnityEngine.Component::GetComponentsInChildren<System.Object>()
+extern "C"  ObjectU5BU5D_t1108656482* Component_GetComponentsInChildren_TisIl2CppObject_m2266473418_gshared (Component_t3501516275 * __this, const MethodInfo* method);
+#define Component_GetComponentsInChildren_TisIl2CppObject_m2266473418(__this, method) ((  ObjectU5BU5D_t1108656482* (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponentsInChildren_TisIl2CppObject_m2266473418_gshared)(__this, method)
+// !!0[] UnityEngine.Component::GetComponentsInChildren<Spine.Unity.SkeletonUtilityBone>()
+#define Component_GetComponentsInChildren_TisSkeletonUtilityBone_t1973204173_m1854961193(__this, method) ((  SkeletonUtilityBoneU5BU5D_t3282724192* (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponentsInChildren_TisIl2CppObject_m2266473418_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.SphereCollider>()
+#define GameObject_AddComponent_TisSphereCollider_t111527973_m3283911386(__this, method) ((  SphereCollider_t111527973 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.BoxCollider>()
+#define GameObject_AddComponent_TisBoxCollider_t2538127765_m1849671780(__this, method) ((  BoxCollider_t2538127765 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.Rigidbody>()
+#define GameObject_AddComponent_TisRigidbody_t3346577219_m686365494(__this, method) ((  Rigidbody_t3346577219 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Rigidbody2D>()
+#define Component_GetComponent_TisRigidbody2D_t1743771669_m2201104241(__this, method) ((  Rigidbody2D_t1743771669 * (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Collider2D>()
+#define Component_GetComponent_TisCollider2D_t1552025098_m1670690088(__this, method) ((  Collider2D_t1552025098 * (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.HingeJoint2D>()
+#define GameObject_AddComponent_TisHingeJoint2D_t2650814389_m2394458634(__this, method) ((  HingeJoint2D_t2650814389 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.CircleCollider2D>()
+#define GameObject_AddComponent_TisCircleCollider2D_t3380110778_m3552727141(__this, method) ((  CircleCollider2D_t3380110778 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.BoxCollider2D>()
+#define GameObject_AddComponent_TisBoxCollider2D_t2212926951_m3702860690(__this, method) ((  BoxCollider2D_t2212926951 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.Rigidbody2D>()
+#define GameObject_AddComponent_TisRigidbody2D_t1743771669_m2457016804(__this, method) ((  Rigidbody2D_t1743771669 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+// !!0 UnityEngine.Object::Instantiate<UnityEngine.GameObject>(!!0)
+#define Object_Instantiate_TisGameObject_t3674682005_m3917608929(__this /* static, unused */, p0, method) ((  GameObject_t3674682005 * (*) (Il2CppObject * /* static, unused */, GameObject_t3674682005 *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3133387403_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.GameObject::GetComponent<Spine.Unity.Modules.SkeletonUtilityKinematicShadow>()
+#define GameObject_GetComponent_TisSkeletonUtilityKinematicShadow_t2419233506_m2161859212(__this, method) ((  SkeletonUtilityKinematicShadow_t2419233506 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m3652735468_gshared)(__this, method)
+// !!0[] UnityEngine.GameObject::GetComponentsInChildren<System.Object>()
+extern "C"  ObjectU5BU5D_t1108656482* GameObject_GetComponentsInChildren_TisIl2CppObject_m3418406430_gshared (GameObject_t3674682005 * __this, const MethodInfo* method);
+#define GameObject_GetComponentsInChildren_TisIl2CppObject_m3418406430(__this, method) ((  ObjectU5BU5D_t1108656482* (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisIl2CppObject_m3418406430_gshared)(__this, method)
+// !!0[] UnityEngine.GameObject::GetComponentsInChildren<UnityEngine.Joint>()
+#define GameObject_GetComponentsInChildren_TisJoint_t4201008640_m1983852969(__this, method) ((  JointU5BU5D_t518044161* (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisIl2CppObject_m3418406430_gshared)(__this, method)
+// !!0[] UnityEngine.GameObject::GetComponentsInChildren<Spine.Unity.SkeletonUtilityBone>()
+#define GameObject_GetComponentsInChildren_TisSkeletonUtilityBone_t1973204173_m80683901(__this, method) ((  SkeletonUtilityBoneU5BU5D_t3282724192* (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisIl2CppObject_m3418406430_gshared)(__this, method)
+// !!0[] UnityEngine.Component::GetComponentsInChildren<UnityEngine.Joint>()
+#define Component_GetComponentsInChildren_TisJoint_t4201008640_m991125845(__this, method) ((  JointU5BU5D_t518044161* (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponentsInChildren_TisIl2CppObject_m2266473418_gshared)(__this, method)
+// !!0[] UnityEngine.Component::GetComponentsInChildren<UnityEngine.Rigidbody>()
+#define Component_GetComponentsInChildren_TisRigidbody_t3346577219_m912101554(__this, method) ((  RigidbodyU5BU5D_t1403726930* (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponentsInChildren_TisIl2CppObject_m2266473418_gshared)(__this, method)
+// !!0[] UnityEngine.Component::GetComponentsInChildren<UnityEngine.Collider>()
+#define Component_GetComponentsInChildren_TisCollider_t2939674232_m2374436075(__this, method) ((  ColliderU5BU5D_t2697150633* (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponentsInChildren_TisIl2CppObject_m2266473418_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Rigidbody>()
+#define GameObject_GetComponent_TisRigidbody_t3346577219_m2158183595(__this, method) ((  Rigidbody_t3346577219 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m3652735468_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Renderer>()
+#define Component_GetComponent_TisRenderer_t3076687687_m500377675(__this, method) ((  Renderer_t3076687687 * (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 Spine.Unity.SkeletonRenderer::AddSpineComponent<System.Object>(UnityEngine.GameObject,Spine.Unity.SkeletonDataAsset)
+extern "C"  Il2CppObject * SkeletonRenderer_AddSpineComponent_TisIl2CppObject_m3608004240_gshared (Il2CppObject * __this /* static, unused */, GameObject_t3674682005 * p0, SkeletonDataAsset_t2211567523 * p1, const MethodInfo* method);
+#define SkeletonRenderer_AddSpineComponent_TisIl2CppObject_m3608004240(__this /* static, unused */, p0, p1, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, GameObject_t3674682005 *, SkeletonDataAsset_t2211567523 *, const MethodInfo*))SkeletonRenderer_AddSpineComponent_TisIl2CppObject_m3608004240_gshared)(__this /* static, unused */, p0, p1, method)
+// !!0 Spine.Unity.SkeletonRenderer::AddSpineComponent<Spine.Unity.SkeletonAnimation>(UnityEngine.GameObject,Spine.Unity.SkeletonDataAsset)
+#define SkeletonRenderer_AddSpineComponent_TisSkeletonAnimation_t3721178561_m2094994491(__this /* static, unused */, p0, p1, method) ((  SkeletonAnimation_t3721178561 * (*) (Il2CppObject * /* static, unused */, GameObject_t3674682005 *, SkeletonDataAsset_t2211567523 *, const MethodInfo*))SkeletonRenderer_AddSpineComponent_TisIl2CppObject_m3608004240_gshared)(__this /* static, unused */, p0, p1, method)
+// !!0 Spine.Unity.SkeletonRenderer::NewSpineGameObject<System.Object>(Spine.Unity.SkeletonDataAsset)
+extern "C"  Il2CppObject * SkeletonRenderer_NewSpineGameObject_TisIl2CppObject_m4223921107_gshared (Il2CppObject * __this /* static, unused */, SkeletonDataAsset_t2211567523 * p0, const MethodInfo* method);
+#define SkeletonRenderer_NewSpineGameObject_TisIl2CppObject_m4223921107(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, SkeletonDataAsset_t2211567523 *, const MethodInfo*))SkeletonRenderer_NewSpineGameObject_TisIl2CppObject_m4223921107_gshared)(__this /* static, unused */, p0, method)
+// !!0 Spine.Unity.SkeletonRenderer::NewSpineGameObject<Spine.Unity.SkeletonAnimation>(Spine.Unity.SkeletonDataAsset)
+#define SkeletonRenderer_NewSpineGameObject_TisSkeletonAnimation_t3721178561_m2597672072(__this /* static, unused */, p0, method) ((  SkeletonAnimation_t3721178561 * (*) (Il2CppObject * /* static, unused */, SkeletonDataAsset_t2211567523 *, const MethodInfo*))SkeletonRenderer_NewSpineGameObject_TisIl2CppObject_m4223921107_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Animator>()
+#define Component_GetComponent_TisAnimator_t2776330603_m4147395588(__this, method) ((  Animator_t2776330603 * (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// System.Void System.Array::Resize<Spine.Unity.SkeletonAnimator/MixMode>(!!0[]&,System.Int32)
+extern "C"  void Array_Resize_TisMixMode_t1511821544_m1343055226_gshared (Il2CppObject * __this /* static, unused */, MixModeU5BU5D_t213042809** p0, int32_t p1, const MethodInfo* method);
+#define Array_Resize_TisMixMode_t1511821544_m1343055226(__this /* static, unused */, p0, p1, method) ((  void (*) (Il2CppObject * /* static, unused */, MixModeU5BU5D_t213042809**, int32_t, const MethodInfo*))Array_Resize_TisMixMode_t1511821544_m1343055226_gshared)(__this /* static, unused */, p0, p1, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.PolygonCollider2D>()
+#define GameObject_AddComponent_TisPolygonCollider2D_t2156524054_m3343978115(__this, method) ((  PolygonCollider2D_t2156524054 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<Spine.Unity.SkeletonAnimation>()
+#define Component_GetComponent_TisSkeletonAnimation_t3721178561_m3586698566(__this, method) ((  SkeletonAnimation_t3721178561 * (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<Spine.Unity.SkeletonAnimator>()
+#define Component_GetComponent_TisSkeletonAnimator_t3465797926_m2892230285(__this, method) ((  SkeletonAnimator_t3465797926 * (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Spine.Unity.SkeletonUtilityBone>()
+#define GameObject_AddComponent_TisSkeletonUtilityBone_t1973204173_m4255361965(__this, method) ((  SkeletonUtilityBone_t1973204173 * (*) (GameObject_t3674682005 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+// !!0 Spine.Unity.SkeletonUtility::GetInParent<System.Object>(UnityEngine.Transform)
+extern "C"  Il2CppObject * SkeletonUtility_GetInParent_TisIl2CppObject_m4039357077_gshared (Il2CppObject * __this /* static, unused */, Transform_t1659122786 * p0, const MethodInfo* method);
+#define SkeletonUtility_GetInParent_TisIl2CppObject_m4039357077(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Transform_t1659122786 *, const MethodInfo*))SkeletonUtility_GetInParent_TisIl2CppObject_m4039357077_gshared)(__this /* static, unused */, p0, method)
+// !!0 Spine.Unity.SkeletonUtility::GetInParent<Spine.Unity.SkeletonUtility>(UnityEngine.Transform)
+#define SkeletonUtility_GetInParent_TisSkeletonUtility_t43096937_m207893554(__this /* static, unused */, p0, method) ((  SkeletonUtility_t43096937 * (*) (Il2CppObject * /* static, unused */, Transform_t1659122786 *, const MethodInfo*))SkeletonUtility_GetInParent_TisIl2CppObject_m4039357077_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.Component::GetComponent<Spine.Unity.SkeletonUtilityBone>()
+#define Component_GetComponent_TisSkeletonUtilityBone_t1973204173_m103736378(__this, method) ((  SkeletonUtilityBone_t1973204173 * (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<SpineboyBeginnerModel>()
+#define Component_GetComponent_TisSpineboyBeginnerModel_t3250758094_m33706539(__this, method) ((  SpineboyBeginnerModel_t3250758094 * (*) (Component_t3501516275 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator/SmartMesh::.ctor()
+extern Il2CppClass* ExposedList_1_t4224666065_il2cpp_TypeInfo_var;
+extern Il2CppClass* ExposedList_1_t723286955_il2cpp_TypeInfo_var;
+extern const MethodInfo* ExposedList_1__ctor_m2763196499_MethodInfo_var;
+extern const MethodInfo* ExposedList_1__ctor_m3679996747_MethodInfo_var;
+extern const uint32_t SmartMesh__ctor_m2426150219_MetadataUsageId;
+extern "C"  void SmartMesh__ctor_m2426150219 (SmartMesh_t2415772704 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SmartMesh__ctor_m2426150219_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Mesh_t4241756145 * L_0 = SpineMesh_NewMesh_m740765763(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_mesh_0(L_0);
+		ExposedList_1_t4224666065 * L_1 = (ExposedList_1_t4224666065 *)il2cpp_codegen_object_new(ExposedList_1_t4224666065_il2cpp_TypeInfo_var);
+		ExposedList_1__ctor_m2763196499(L_1, /*hidden argument*/ExposedList_1__ctor_m2763196499_MethodInfo_var);
+		__this->set_attachmentsUsed_1(L_1);
+		ExposedList_1_t723286955 * L_2 = (ExposedList_1_t723286955 *)il2cpp_codegen_object_new(ExposedList_1_t723286955_il2cpp_TypeInfo_var);
+		ExposedList_1__ctor_m3679996747(L_2, /*hidden argument*/ExposedList_1__ctor_m3679996747_MethodInfo_var);
+		__this->set_instructionsUsed_2(L_2);
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator/SmartMesh::Set(UnityEngine.Vector3[],UnityEngine.Vector2[],UnityEngine.Color32[],Spine.Unity.MeshGeneration.SubmeshedMeshInstruction)
+extern const MethodInfo* ExposedList_1_Clear_m1335215477_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_get_Capacity_m2952797190_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_GrowIfNeeded_m398750215_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_CopyTo_m917847547_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Clear_m527332973_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_get_Capacity_m2922746346_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_GrowIfNeeded_m1795922959_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_CopyTo_m1116751091_MethodInfo_var;
+extern const uint32_t SmartMesh_Set_m2819399087_MetadataUsageId;
+extern "C"  void SmartMesh_Set_m2819399087 (SmartMesh_t2415772704 * __this, Vector3U5BU5D_t215400611* ___verts0, Vector2U5BU5D_t4024180168* ___uvs1, Color32U5BU5D_t2960766953* ___colors2, SubmeshedMeshInstruction_t1095166029 * ___instruction3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SmartMesh_Set_m2819399087_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Mesh_t4241756145 * L_0 = __this->get_mesh_0();
+		Vector3U5BU5D_t215400611* L_1 = ___verts0;
+		NullCheck(L_0);
+		Mesh_set_vertices_m2628866109(L_0, L_1, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_2 = __this->get_mesh_0();
+		Vector2U5BU5D_t4024180168* L_3 = ___uvs1;
+		NullCheck(L_2);
+		Mesh_set_uv_m498907190(L_2, L_3, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_4 = __this->get_mesh_0();
+		Color32U5BU5D_t2960766953* L_5 = ___colors2;
+		NullCheck(L_4);
+		Mesh_set_colors32_m119130293(L_4, L_5, /*hidden argument*/NULL);
+		ExposedList_1_t4224666065 * L_6 = __this->get_attachmentsUsed_1();
+		NullCheck(L_6);
+		ExposedList_1_Clear_m1335215477(L_6, (bool)0, /*hidden argument*/ExposedList_1_Clear_m1335215477_MethodInfo_var);
+		ExposedList_1_t4224666065 * L_7 = __this->get_attachmentsUsed_1();
+		SubmeshedMeshInstruction_t1095166029 * L_8 = ___instruction3;
+		NullCheck(L_8);
+		ExposedList_1_t4224666065 * L_9 = L_8->get_attachmentList_1();
+		NullCheck(L_9);
+		int32_t L_10 = ExposedList_1_get_Capacity_m2952797190(L_9, /*hidden argument*/ExposedList_1_get_Capacity_m2952797190_MethodInfo_var);
+		NullCheck(L_7);
+		ExposedList_1_GrowIfNeeded_m398750215(L_7, L_10, /*hidden argument*/ExposedList_1_GrowIfNeeded_m398750215_MethodInfo_var);
+		ExposedList_1_t4224666065 * L_11 = __this->get_attachmentsUsed_1();
+		SubmeshedMeshInstruction_t1095166029 * L_12 = ___instruction3;
+		NullCheck(L_12);
+		ExposedList_1_t4224666065 * L_13 = L_12->get_attachmentList_1();
+		NullCheck(L_13);
+		int32_t L_14 = L_13->get_Count_2();
+		NullCheck(L_11);
+		L_11->set_Count_2(L_14);
+		SubmeshedMeshInstruction_t1095166029 * L_15 = ___instruction3;
+		NullCheck(L_15);
+		ExposedList_1_t4224666065 * L_16 = L_15->get_attachmentList_1();
+		ExposedList_1_t4224666065 * L_17 = __this->get_attachmentsUsed_1();
+		NullCheck(L_17);
+		AttachmentU5BU5D_t3539071366* L_18 = L_17->get_Items_1();
+		NullCheck(L_16);
+		ExposedList_1_CopyTo_m917847547(L_16, L_18, /*hidden argument*/ExposedList_1_CopyTo_m917847547_MethodInfo_var);
+		ExposedList_1_t723286955 * L_19 = __this->get_instructionsUsed_2();
+		NullCheck(L_19);
+		ExposedList_1_Clear_m527332973(L_19, (bool)0, /*hidden argument*/ExposedList_1_Clear_m527332973_MethodInfo_var);
+		ExposedList_1_t723286955 * L_20 = __this->get_instructionsUsed_2();
+		SubmeshedMeshInstruction_t1095166029 * L_21 = ___instruction3;
+		NullCheck(L_21);
+		ExposedList_1_t723286955 * L_22 = L_21->get_submeshInstructions_0();
+		NullCheck(L_22);
+		int32_t L_23 = ExposedList_1_get_Capacity_m2922746346(L_22, /*hidden argument*/ExposedList_1_get_Capacity_m2922746346_MethodInfo_var);
+		NullCheck(L_20);
+		ExposedList_1_GrowIfNeeded_m1795922959(L_20, L_23, /*hidden argument*/ExposedList_1_GrowIfNeeded_m1795922959_MethodInfo_var);
+		ExposedList_1_t723286955 * L_24 = __this->get_instructionsUsed_2();
+		SubmeshedMeshInstruction_t1095166029 * L_25 = ___instruction3;
+		NullCheck(L_25);
+		ExposedList_1_t723286955 * L_26 = L_25->get_submeshInstructions_0();
+		NullCheck(L_26);
+		int32_t L_27 = L_26->get_Count_2();
+		NullCheck(L_24);
+		L_24->set_Count_2(L_27);
+		SubmeshedMeshInstruction_t1095166029 * L_28 = ___instruction3;
+		NullCheck(L_28);
+		ExposedList_1_t723286955 * L_29 = L_28->get_submeshInstructions_0();
+		ExposedList_1_t723286955 * L_30 = __this->get_instructionsUsed_2();
+		NullCheck(L_30);
+		SubmeshInstructionU5BU5D_t2859174660* L_31 = L_30->get_Items_1();
+		NullCheck(L_29);
+		ExposedList_1_CopyTo_m1116751091(L_29, L_31, /*hidden argument*/ExposedList_1_CopyTo_m1116751091_MethodInfo_var);
+		return;
+	}
+}
+// System.Boolean Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator/SmartMesh::StructureDoesntMatch(Spine.Unity.MeshGeneration.SubmeshedMeshInstruction)
+extern "C"  bool SmartMesh_StructureDoesntMatch_m991738336 (SmartMesh_t2415772704 * __this, SubmeshedMeshInstruction_t1095166029 * ___instructions0, const MethodInfo* method)
+{
+	AttachmentU5BU5D_t3539071366* V_0 = NULL;
+	AttachmentU5BU5D_t3539071366* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	SubmeshInstructionU5BU5D_t2859174660* V_4 = NULL;
+	SubmeshInstructionU5BU5D_t2859174660* V_5 = NULL;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	SubmeshInstruction_t3643321593  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	SubmeshInstruction_t3643321593  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	{
+		SubmeshedMeshInstruction_t1095166029 * L_0 = ___instructions0;
+		NullCheck(L_0);
+		ExposedList_1_t4224666065 * L_1 = L_0->get_attachmentList_1();
+		NullCheck(L_1);
+		int32_t L_2 = L_1->get_Count_2();
+		ExposedList_1_t4224666065 * L_3 = __this->get_attachmentsUsed_1();
+		NullCheck(L_3);
+		int32_t L_4 = L_3->get_Count_2();
+		if ((((int32_t)L_2) == ((int32_t)L_4)))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_001d:
+	{
+		SubmeshedMeshInstruction_t1095166029 * L_5 = ___instructions0;
+		NullCheck(L_5);
+		ExposedList_1_t723286955 * L_6 = L_5->get_submeshInstructions_0();
+		NullCheck(L_6);
+		int32_t L_7 = L_6->get_Count_2();
+		ExposedList_1_t723286955 * L_8 = __this->get_instructionsUsed_2();
+		NullCheck(L_8);
+		int32_t L_9 = L_8->get_Count_2();
+		if ((((int32_t)L_7) == ((int32_t)L_9)))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_003a:
+	{
+		SubmeshedMeshInstruction_t1095166029 * L_10 = ___instructions0;
+		NullCheck(L_10);
+		ExposedList_1_t4224666065 * L_11 = L_10->get_attachmentList_1();
+		NullCheck(L_11);
+		AttachmentU5BU5D_t3539071366* L_12 = L_11->get_Items_1();
+		V_0 = L_12;
+		ExposedList_1_t4224666065 * L_13 = __this->get_attachmentsUsed_1();
+		NullCheck(L_13);
+		AttachmentU5BU5D_t3539071366* L_14 = L_13->get_Items_1();
+		V_1 = L_14;
+		V_2 = 0;
+		ExposedList_1_t4224666065 * L_15 = __this->get_attachmentsUsed_1();
+		NullCheck(L_15);
+		int32_t L_16 = L_15->get_Count_2();
+		V_3 = L_16;
+		goto IL_0076;
+	}
+
+IL_0065:
+	{
+		AttachmentU5BU5D_t3539071366* L_17 = V_0;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_17, L_18);
+		int32_t L_19 = L_18;
+		Attachment_t2849733407 * L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		AttachmentU5BU5D_t3539071366* L_21 = V_1;
+		int32_t L_22 = V_2;
+		NullCheck(L_21);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_21, L_22);
+		int32_t L_23 = L_22;
+		Attachment_t2849733407 * L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		if ((((Il2CppObject*)(Attachment_t2849733407 *)L_20) == ((Il2CppObject*)(Attachment_t2849733407 *)L_24)))
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0072:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)((int32_t)L_25+(int32_t)1));
+	}
+
+IL_0076:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_3;
+		if ((((int32_t)L_26) < ((int32_t)L_27)))
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		SubmeshedMeshInstruction_t1095166029 * L_28 = ___instructions0;
+		NullCheck(L_28);
+		ExposedList_1_t723286955 * L_29 = L_28->get_submeshInstructions_0();
+		NullCheck(L_29);
+		SubmeshInstructionU5BU5D_t2859174660* L_30 = L_29->get_Items_1();
+		V_4 = L_30;
+		ExposedList_1_t723286955 * L_31 = __this->get_instructionsUsed_2();
+		NullCheck(L_31);
+		SubmeshInstructionU5BU5D_t2859174660* L_32 = L_31->get_Items_1();
+		V_5 = L_32;
+		V_6 = 0;
+		ExposedList_1_t723286955 * L_33 = __this->get_instructionsUsed_2();
+		NullCheck(L_33);
+		int32_t L_34 = L_33->get_Count_2();
+		V_7 = L_34;
+		goto IL_0150;
+	}
+
+IL_00ac:
+	{
+		SubmeshInstructionU5BU5D_t2859174660* L_35 = V_4;
+		int32_t L_36 = V_6;
+		NullCheck(L_35);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_35, L_36);
+		V_8 = (*(SubmeshInstruction_t3643321593 *)((L_35)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_36))));
+		SubmeshInstructionU5BU5D_t2859174660* L_37 = V_5;
+		int32_t L_38 = V_6;
+		NullCheck(L_37);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_37, L_38);
+		V_9 = (*(SubmeshInstruction_t3643321593 *)((L_37)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_38))));
+		Material_t3870600107 * L_39 = (&V_8)->get_material_3();
+		NullCheck(L_39);
+		int32_t L_40 = Object_GetInstanceID_m200424466(L_39, /*hidden argument*/NULL);
+		Material_t3870600107 * L_41 = (&V_9)->get_material_3();
+		NullCheck(L_41);
+		int32_t L_42 = Object_GetInstanceID_m200424466(L_41, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_40) == ((uint32_t)L_42))))
+		{
+			goto IL_0148;
+		}
+	}
+	{
+		int32_t L_43 = (&V_8)->get_startSlot_1();
+		int32_t L_44 = (&V_9)->get_startSlot_1();
+		if ((!(((uint32_t)L_43) == ((uint32_t)L_44))))
+		{
+			goto IL_0148;
+		}
+	}
+	{
+		int32_t L_45 = (&V_8)->get_endSlot_2();
+		int32_t L_46 = (&V_9)->get_endSlot_2();
+		if ((!(((uint32_t)L_45) == ((uint32_t)L_46))))
+		{
+			goto IL_0148;
+		}
+	}
+	{
+		int32_t L_47 = (&V_8)->get_triangleCount_4();
+		int32_t L_48 = (&V_9)->get_triangleCount_4();
+		if ((!(((uint32_t)L_47) == ((uint32_t)L_48))))
+		{
+			goto IL_0148;
+		}
+	}
+	{
+		int32_t L_49 = (&V_8)->get_vertexCount_5();
+		int32_t L_50 = (&V_9)->get_vertexCount_5();
+		if ((!(((uint32_t)L_49) == ((uint32_t)L_50))))
+		{
+			goto IL_0148;
+		}
+	}
+	{
+		int32_t L_51 = (&V_8)->get_firstVertexIndex_6();
+		int32_t L_52 = (&V_9)->get_firstVertexIndex_6();
+		if ((((int32_t)L_51) == ((int32_t)L_52)))
+		{
+			goto IL_014a;
+		}
+	}
+
+IL_0148:
+	{
+		return (bool)1;
+	}
+
+IL_014a:
+	{
+		int32_t L_53 = V_6;
+		V_6 = ((int32_t)((int32_t)L_53+(int32_t)1));
+	}
+
+IL_0150:
+	{
+		int32_t L_54 = V_6;
+		int32_t L_55 = V_7;
+		if ((((int32_t)L_54) < ((int32_t)L_55)))
+		{
+			goto IL_00ac;
+		}
+	}
+	{
+		return (bool)0;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.ArraysSubmeshSetMeshGenerator::.ctor()
+extern Il2CppClass* DoubleBuffered_1_t834133753_il2cpp_TypeInfo_var;
+extern Il2CppClass* ExposedList_1_t723286955_il2cpp_TypeInfo_var;
+extern Il2CppClass* ExposedList_1_t4224666065_il2cpp_TypeInfo_var;
+extern Il2CppClass* ExposedList_1_t1435450047_il2cpp_TypeInfo_var;
+extern Il2CppClass* MaterialU5BU5D_t170856778_il2cpp_TypeInfo_var;
+extern const MethodInfo* DoubleBuffered_1__ctor_m3029565293_MethodInfo_var;
+extern const MethodInfo* ExposedList_1__ctor_m3679996747_MethodInfo_var;
+extern const MethodInfo* ExposedList_1__ctor_m2763196499_MethodInfo_var;
+extern const MethodInfo* ExposedList_1__ctor_m875623890_MethodInfo_var;
+extern const uint32_t ArraysSubmeshSetMeshGenerator__ctor_m4171358409_MetadataUsageId;
+extern "C"  void ArraysSubmeshSetMeshGenerator__ctor_m4171358409 (ArraysSubmeshSetMeshGenerator_t2045020741 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ArraysSubmeshSetMeshGenerator__ctor_m4171358409_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		DoubleBuffered_1_t834133753 * L_0 = (DoubleBuffered_1_t834133753 *)il2cpp_codegen_object_new(DoubleBuffered_1_t834133753_il2cpp_TypeInfo_var);
+		DoubleBuffered_1__ctor_m3029565293(L_0, /*hidden argument*/DoubleBuffered_1__ctor_m3029565293_MethodInfo_var);
+		__this->set_doubleBufferedSmartMesh_10(L_0);
+		ExposedList_1_t723286955 * L_1 = (ExposedList_1_t723286955 *)il2cpp_codegen_object_new(ExposedList_1_t723286955_il2cpp_TypeInfo_var);
+		ExposedList_1__ctor_m3679996747(L_1, /*hidden argument*/ExposedList_1__ctor_m3679996747_MethodInfo_var);
+		__this->set_currentInstructions_11(L_1);
+		ExposedList_1_t4224666065 * L_2 = (ExposedList_1_t4224666065 *)il2cpp_codegen_object_new(ExposedList_1_t4224666065_il2cpp_TypeInfo_var);
+		ExposedList_1__ctor_m2763196499(L_2, /*hidden argument*/ExposedList_1__ctor_m2763196499_MethodInfo_var);
+		__this->set_attachmentBuffer_12(L_2);
+		ExposedList_1_t1435450047 * L_3 = (ExposedList_1_t1435450047 *)il2cpp_codegen_object_new(ExposedList_1_t1435450047_il2cpp_TypeInfo_var);
+		ExposedList_1__ctor_m875623890(L_3, /*hidden argument*/ExposedList_1__ctor_m875623890_MethodInfo_var);
+		__this->set_submeshBuffers_13(L_3);
+		__this->set_sharedMaterials_14(((MaterialU5BU5D_t170856778*)SZArrayNew(MaterialU5BU5D_t170856778_il2cpp_TypeInfo_var, (uint32_t)0)));
+		ArraysMeshGenerator__ctor_m2920990260(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Single Spine.Unity.MeshGeneration.ArraysSubmeshSetMeshGenerator::get_ZSpacing()
+extern "C"  float ArraysSubmeshSetMeshGenerator_get_ZSpacing_m1161376473 (ArraysSubmeshSetMeshGenerator_t2045020741 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = __this->get_U3CZSpacingU3Ek__BackingField_15();
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.ArraysSubmeshSetMeshGenerator::set_ZSpacing(System.Single)
+extern "C"  void ArraysSubmeshSetMeshGenerator_set_ZSpacing_m1134839242 (ArraysSubmeshSetMeshGenerator_t2045020741 * __this, float ___value0, const MethodInfo* method)
+{
+	{
+		float L_0 = ___value0;
+		__this->set_U3CZSpacingU3Ek__BackingField_15(L_0);
+		return;
+	}
+}
+// Spine.Unity.MeshGeneration.MeshAndMaterials Spine.Unity.MeshGeneration.ArraysSubmeshSetMeshGenerator::GenerateMesh(Spine.ExposedList`1<Spine.Unity.MeshGeneration.SubmeshInstruction>,System.Int32,System.Int32)
+extern const MethodInfo* ExposedList_1_Clear_m527332973_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Add_m3711082452_MethodInfo_var;
+extern const MethodInfo* DoubleBuffered_1_GetNext_m2914097749_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Clear_m1335215477_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Add_m1049108940_MethodInfo_var;
+extern const uint32_t ArraysSubmeshSetMeshGenerator_GenerateMesh_m1303913113_MetadataUsageId;
+extern "C"  MeshAndMaterials_t234526394  ArraysSubmeshSetMeshGenerator_GenerateMesh_m1303913113 (ArraysSubmeshSetMeshGenerator_t2045020741 * __this, ExposedList_1_t723286955 * ___instructions0, int32_t ___startSubmesh1, int32_t ___endSubmesh2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ArraysSubmeshSetMeshGenerator_GenerateMesh_m1303913113_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	SubmeshInstructionU5BU5D_t2859174660* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	SmartMesh_t1508871033 * V_3 = NULL;
+	Mesh_t4241756145 * V_4 = NULL;
+	int32_t V_5 = 0;
+	SubmeshInstructionU5BU5D_t2859174660* V_6 = NULL;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	bool V_9 = false;
+	bool V_10 = false;
+	Vector3_t4282066566  V_11;
+	memset(&V_11, 0, sizeof(V_11));
+	Vector3_t4282066566  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	float V_13 = 0.0f;
+	int32_t V_14 = 0;
+	ExposedList_1_t4224666065 * V_15 = NULL;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	SubmeshInstruction_t3643321593  V_18;
+	memset(&V_18, 0, sizeof(V_18));
+	int32_t V_19 = 0;
+	int32_t V_20 = 0;
+	Skeleton_t2209335561 * V_21 = NULL;
+	SlotU5BU5D_t3107134879* V_22 = NULL;
+	int32_t V_23 = 0;
+	Attachment_t2849733407 * V_24 = NULL;
+	bool V_25 = false;
+	int32_t V_26 = 0;
+	SubmeshInstruction_t3643321593  V_27;
+	memset(&V_27, 0, sizeof(V_27));
+	SubmeshTriangleBuffer_t60517389 * V_28 = NULL;
+	bool V_29 = false;
+	int32_t V_30 = 0;
+	int32_t V_31 = 0;
+	int32_t V_32 = 0;
+	SubmeshTriangleBuffer_t60517389 * V_33 = NULL;
+	int32_t G_B23_0 = 0;
+	{
+		ExposedList_1_t723286955 * L_0 = ___instructions0;
+		NullCheck(L_0);
+		SubmeshInstructionU5BU5D_t2859174660* L_1 = L_0->get_Items_1();
+		V_0 = L_1;
+		ExposedList_1_t723286955 * L_2 = __this->get_currentInstructions_11();
+		NullCheck(L_2);
+		ExposedList_1_Clear_m527332973(L_2, (bool)0, /*hidden argument*/ExposedList_1_Clear_m527332973_MethodInfo_var);
+		int32_t L_3 = ___startSubmesh1;
+		V_1 = L_3;
+		int32_t L_4 = ___endSubmesh2;
+		V_2 = L_4;
+		goto IL_0037;
+	}
+
+IL_001c:
+	{
+		ExposedList_1_t723286955 * L_5 = __this->get_currentInstructions_11();
+		SubmeshInstructionU5BU5D_t2859174660* L_6 = V_0;
+		int32_t L_7 = V_1;
+		NullCheck(L_6);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, L_7);
+		NullCheck(L_5);
+		ExposedList_1_Add_m3711082452(L_5, (*(SubmeshInstruction_t3643321593 *)((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_7)))), /*hidden argument*/ExposedList_1_Add_m3711082452_MethodInfo_var);
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_0037:
+	{
+		int32_t L_9 = V_1;
+		int32_t L_10 = V_2;
+		if ((((int32_t)L_9) < ((int32_t)L_10)))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		DoubleBuffered_1_t834133753 * L_11 = __this->get_doubleBufferedSmartMesh_10();
+		NullCheck(L_11);
+		SmartMesh_t1508871033 * L_12 = DoubleBuffered_1_GetNext_m2914097749(L_11, /*hidden argument*/DoubleBuffered_1_GetNext_m2914097749_MethodInfo_var);
+		V_3 = L_12;
+		SmartMesh_t1508871033 * L_13 = V_3;
+		NullCheck(L_13);
+		Mesh_t4241756145 * L_14 = L_13->get_mesh_0();
+		V_4 = L_14;
+		ExposedList_1_t723286955 * L_15 = __this->get_currentInstructions_11();
+		NullCheck(L_15);
+		int32_t L_16 = L_15->get_Count_2();
+		V_5 = L_16;
+		ExposedList_1_t723286955 * L_17 = __this->get_currentInstructions_11();
+		NullCheck(L_17);
+		SubmeshInstructionU5BU5D_t2859174660* L_18 = L_17->get_Items_1();
+		V_6 = L_18;
+		V_7 = 0;
+		V_8 = 0;
+		goto IL_00a0;
+	}
+
+IL_0077:
+	{
+		SubmeshInstructionU5BU5D_t2859174660* L_19 = V_6;
+		int32_t L_20 = V_8;
+		NullCheck(L_19);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_19, L_20);
+		int32_t L_21 = V_7;
+		((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20)))->set_firstVertexIndex_6(L_21);
+		int32_t L_22 = V_7;
+		SubmeshInstructionU5BU5D_t2859174660* L_23 = V_6;
+		int32_t L_24 = V_8;
+		NullCheck(L_23);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_23, L_24);
+		int32_t L_25 = ((L_23)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_24)))->get_vertexCount_5();
+		V_7 = ((int32_t)((int32_t)L_22+(int32_t)L_25));
+		int32_t L_26 = V_8;
+		V_8 = ((int32_t)((int32_t)L_26+(int32_t)1));
+	}
+
+IL_00a0:
+	{
+		int32_t L_27 = V_8;
+		int32_t L_28 = V_5;
+		if ((((int32_t)L_27) < ((int32_t)L_28)))
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		int32_t L_29 = V_7;
+		Vector3U5BU5D_t215400611** L_30 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_meshVertices_3();
+		Vector2U5BU5D_t4024180168** L_31 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_meshUVs_5();
+		Color32U5BU5D_t2960766953** L_32 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_meshColors32_4();
+		bool L_33 = ArraysMeshGenerator_EnsureSize_m2934786490(NULL /*static, unused*/, L_29, L_30, L_31, L_32, /*hidden argument*/NULL);
+		V_9 = L_33;
+		ExposedList_1_t1435450047 * L_34 = __this->get_submeshBuffers_13();
+		int32_t L_35 = V_5;
+		SubmeshInstructionU5BU5D_t2859174660* L_36 = V_6;
+		bool L_37 = ArraysMeshGenerator_EnsureTriangleBuffersSize_m2273925646(NULL /*static, unused*/, L_34, L_35, L_36, /*hidden argument*/NULL);
+		V_10 = L_37;
+		float L_38 = ArraysSubmeshSetMeshGenerator_get_ZSpacing_m1161376473(__this, /*hidden argument*/NULL);
+		V_13 = L_38;
+		int32_t L_39 = V_7;
+		if ((((int32_t)L_39) > ((int32_t)0)))
+		{
+			goto IL_0116;
+		}
+	}
+	{
+		Vector3__ctor_m2926210380((&V_11), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380((&V_12), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		goto IL_019b;
+	}
+
+IL_0116:
+	{
+		(&V_11)->set_x_1((2.14748365E+09f));
+		(&V_11)->set_y_2((2.14748365E+09f));
+		(&V_12)->set_x_1((-2.14748365E+09f));
+		(&V_12)->set_y_2((-2.14748365E+09f));
+		SubmeshInstructionU5BU5D_t2859174660* L_40 = V_6;
+		int32_t L_41 = V_5;
+		NullCheck(L_40);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_40, ((int32_t)((int32_t)L_41-(int32_t)1)));
+		int32_t L_42 = ((L_40)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_41-(int32_t)1)))))->get_endSlot_2();
+		V_14 = L_42;
+		float L_43 = V_13;
+		if ((!(((float)L_43) > ((float)(0.0f)))))
+		{
+			goto IL_0182;
+		}
+	}
+	{
+		(&V_11)->set_z_3((0.0f));
+		float L_44 = V_13;
+		int32_t L_45 = V_14;
+		(&V_12)->set_z_3(((float)((float)L_44*(float)(((float)((float)L_45))))));
+		goto IL_019b;
+	}
+
+IL_0182:
+	{
+		float L_46 = V_13;
+		int32_t L_47 = V_14;
+		(&V_11)->set_z_3(((float)((float)L_46*(float)(((float)((float)L_47))))));
+		(&V_12)->set_z_3((0.0f));
+	}
+
+IL_019b:
+	{
+		ExposedList_1_t4224666065 * L_48 = __this->get_attachmentBuffer_12();
+		V_15 = L_48;
+		ExposedList_1_t4224666065 * L_49 = V_15;
+		NullCheck(L_49);
+		ExposedList_1_Clear_m1335215477(L_49, (bool)0, /*hidden argument*/ExposedList_1_Clear_m1335215477_MethodInfo_var);
+		V_16 = 0;
+		V_17 = 0;
+		goto IL_025b;
+	}
+
+IL_01b6:
+	{
+		SubmeshInstructionU5BU5D_t2859174660* L_50 = V_6;
+		int32_t L_51 = V_17;
+		NullCheck(L_50);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_50, L_51);
+		V_18 = (*(SubmeshInstruction_t3643321593 *)((L_50)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_51))));
+		int32_t L_52 = (&V_18)->get_startSlot_1();
+		V_19 = L_52;
+		int32_t L_53 = (&V_18)->get_endSlot_2();
+		V_20 = L_53;
+		Skeleton_t2209335561 * L_54 = (&V_18)->get_skeleton_0();
+		V_21 = L_54;
+		Skeleton_t2209335561 * L_55 = V_21;
+		NullCheck(L_55);
+		ExposedList_1_t3025925868 * L_56 = Skeleton_get_DrawOrder_m3306655596(L_55, /*hidden argument*/NULL);
+		NullCheck(L_56);
+		SlotU5BU5D_t3107134879* L_57 = L_56->get_Items_1();
+		V_22 = L_57;
+		int32_t L_58 = V_19;
+		V_23 = L_58;
+		goto IL_021a;
+	}
+
+IL_01f8:
+	{
+		SlotU5BU5D_t3107134879* L_59 = V_22;
+		int32_t L_60 = V_23;
+		NullCheck(L_59);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_59, L_60);
+		int32_t L_61 = L_60;
+		Slot_t1650993210 * L_62 = (L_59)->GetAt(static_cast<il2cpp_array_size_t>(L_61));
+		NullCheck(L_62);
+		Attachment_t2849733407 * L_63 = L_62->get_attachment_6();
+		V_24 = L_63;
+		Attachment_t2849733407 * L_64 = V_24;
+		if (!L_64)
+		{
+			goto IL_0214;
+		}
+	}
+	{
+		ExposedList_1_t4224666065 * L_65 = V_15;
+		Attachment_t2849733407 * L_66 = V_24;
+		NullCheck(L_65);
+		ExposedList_1_Add_m1049108940(L_65, L_66, /*hidden argument*/ExposedList_1_Add_m1049108940_MethodInfo_var);
+	}
+
+IL_0214:
+	{
+		int32_t L_67 = V_23;
+		V_23 = ((int32_t)((int32_t)L_67+(int32_t)1));
+	}
+
+IL_021a:
+	{
+		int32_t L_68 = V_23;
+		int32_t L_69 = V_20;
+		if ((((int32_t)L_68) < ((int32_t)L_69)))
+		{
+			goto IL_01f8;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_70 = V_21;
+		int32_t L_71 = V_19;
+		int32_t L_72 = V_20;
+		float L_73 = V_13;
+		bool L_74 = ArraysMeshGenerator_get_PremultiplyVertexColors_m2173277072(__this, /*hidden argument*/NULL);
+		Vector3U5BU5D_t215400611* L_75 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshVertices_3();
+		Vector2U5BU5D_t4024180168* L_76 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshUVs_5();
+		Color32U5BU5D_t2960766953* L_77 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshColors32_4();
+		SingleU5BU5D_t2316563989** L_78 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_attachmentVertexBuffer_2();
+		ArraysMeshGenerator_FillVerts_m2669771114(NULL /*static, unused*/, L_70, L_71, L_72, L_73, L_74, L_75, L_76, L_77, (&V_16), L_78, (&V_11), (&V_12), (bool)1, /*hidden argument*/NULL);
+		int32_t L_79 = V_17;
+		V_17 = ((int32_t)((int32_t)L_79+(int32_t)1));
+	}
+
+IL_025b:
+	{
+		int32_t L_80 = V_17;
+		int32_t L_81 = V_5;
+		if ((((int32_t)L_80) < ((int32_t)L_81)))
+		{
+			goto IL_01b6;
+		}
+	}
+	{
+		bool L_82 = V_9;
+		if (L_82)
+		{
+			goto IL_0282;
+		}
+	}
+	{
+		bool L_83 = V_10;
+		if (L_83)
+		{
+			goto IL_0282;
+		}
+	}
+	{
+		SmartMesh_t1508871033 * L_84 = V_3;
+		ExposedList_1_t4224666065 * L_85 = V_15;
+		ExposedList_1_t723286955 * L_86 = __this->get_currentInstructions_11();
+		NullCheck(L_84);
+		bool L_87 = SmartMesh_StructureDoesntMatch_m77370725(L_84, L_85, L_86, /*hidden argument*/NULL);
+		G_B23_0 = ((int32_t)(L_87));
+		goto IL_0283;
+	}
+
+IL_0282:
+	{
+		G_B23_0 = 1;
+	}
+
+IL_0283:
+	{
+		V_25 = (bool)G_B23_0;
+		V_26 = 0;
+		goto IL_0311;
+	}
+
+IL_028d:
+	{
+		SubmeshInstructionU5BU5D_t2859174660* L_88 = V_6;
+		int32_t L_89 = V_26;
+		NullCheck(L_88);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_88, L_89);
+		V_27 = (*(SubmeshInstruction_t3643321593 *)((L_88)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_89))));
+		bool L_90 = V_25;
+		if (!L_90)
+		{
+			goto IL_030b;
+		}
+	}
+	{
+		ExposedList_1_t1435450047 * L_91 = __this->get_submeshBuffers_13();
+		NullCheck(L_91);
+		SubmeshTriangleBufferU5BU5D_t1627892000* L_92 = L_91->get_Items_1();
+		int32_t L_93 = V_26;
+		NullCheck(L_92);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_92, L_93);
+		int32_t L_94 = L_93;
+		SubmeshTriangleBuffer_t60517389 * L_95 = (L_92)->GetAt(static_cast<il2cpp_array_size_t>(L_94));
+		V_28 = L_95;
+		int32_t L_96 = V_26;
+		int32_t L_97 = V_5;
+		V_29 = (bool)((((int32_t)L_96) == ((int32_t)((int32_t)((int32_t)L_97-(int32_t)1))))? 1 : 0);
+		SubmeshTriangleBuffer_t60517389 * L_98 = V_28;
+		NullCheck(L_98);
+		Int32U5BU5D_t3230847821** L_99 = L_98->get_address_of_triangles_0();
+		Skeleton_t2209335561 * L_100 = (&V_27)->get_skeleton_0();
+		int32_t L_101 = (&V_27)->get_triangleCount_4();
+		int32_t L_102 = (&V_27)->get_firstVertexIndex_6();
+		int32_t L_103 = (&V_27)->get_startSlot_1();
+		int32_t L_104 = (&V_27)->get_endSlot_2();
+		bool L_105 = V_29;
+		ArraysMeshGenerator_FillTriangles_m877837554(NULL /*static, unused*/, L_99, L_100, L_101, L_102, L_103, L_104, L_105, /*hidden argument*/NULL);
+		SubmeshTriangleBuffer_t60517389 * L_106 = V_28;
+		int32_t L_107 = (&V_27)->get_triangleCount_4();
+		NullCheck(L_106);
+		L_106->set_triangleCount_1(L_107);
+		SubmeshTriangleBuffer_t60517389 * L_108 = V_28;
+		int32_t L_109 = (&V_27)->get_firstVertexIndex_6();
+		NullCheck(L_108);
+		L_108->set_firstVertex_2(L_109);
+	}
+
+IL_030b:
+	{
+		int32_t L_110 = V_26;
+		V_26 = ((int32_t)((int32_t)L_110+(int32_t)1));
+	}
+
+IL_0311:
+	{
+		int32_t L_111 = V_26;
+		int32_t L_112 = V_5;
+		if ((((int32_t)L_111) < ((int32_t)L_112)))
+		{
+			goto IL_028d;
+		}
+	}
+	{
+		bool L_113 = V_25;
+		if (!L_113)
+		{
+			goto IL_033f;
+		}
+	}
+	{
+		Mesh_t4241756145 * L_114 = V_4;
+		NullCheck(L_114);
+		Mesh_Clear_m90337099(L_114, /*hidden argument*/NULL);
+		ExposedList_1_t723286955 * L_115 = __this->get_currentInstructions_11();
+		MaterialU5BU5D_t170856778* L_116 = __this->get_sharedMaterials_14();
+		MaterialU5BU5D_t170856778* L_117 = SubmeshInstructionExtensions_GetUpdatedMaterialArray_m3285136061(NULL /*static, unused*/, L_115, L_116, /*hidden argument*/NULL);
+		__this->set_sharedMaterials_14(L_117);
+	}
+
+IL_033f:
+	{
+		SmartMesh_t1508871033 * L_118 = V_3;
+		Vector3U5BU5D_t215400611* L_119 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshVertices_3();
+		Vector2U5BU5D_t4024180168* L_120 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshUVs_5();
+		Color32U5BU5D_t2960766953* L_121 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshColors32_4();
+		ExposedList_1_t4224666065 * L_122 = V_15;
+		ExposedList_1_t723286955 * L_123 = __this->get_currentInstructions_11();
+		NullCheck(L_118);
+		SmartMesh_Set_m1167493596(L_118, L_119, L_120, L_121, L_122, L_123, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_124 = V_4;
+		Vector3_t4282066566  L_125 = V_11;
+		Vector3_t4282066566  L_126 = V_12;
+		Bounds_t2711641849  L_127 = ArraysMeshGenerator_ToBounds_m1571046811(NULL /*static, unused*/, L_125, L_126, /*hidden argument*/NULL);
+		NullCheck(L_124);
+		Mesh_set_bounds_m1860910602(L_124, L_127, /*hidden argument*/NULL);
+		bool L_128 = V_25;
+		if (!L_128)
+		{
+			goto IL_03bc;
+		}
+	}
+	{
+		Mesh_t4241756145 * L_129 = V_4;
+		int32_t L_130 = V_5;
+		NullCheck(L_129);
+		Mesh_set_subMeshCount_m1647706132(L_129, L_130, /*hidden argument*/NULL);
+		V_30 = 0;
+		goto IL_03a9;
+	}
+
+IL_0387:
+	{
+		Mesh_t4241756145 * L_131 = V_4;
+		ExposedList_1_t1435450047 * L_132 = __this->get_submeshBuffers_13();
+		NullCheck(L_132);
+		SubmeshTriangleBufferU5BU5D_t1627892000* L_133 = L_132->get_Items_1();
+		int32_t L_134 = V_30;
+		NullCheck(L_133);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_133, L_134);
+		int32_t L_135 = L_134;
+		SubmeshTriangleBuffer_t60517389 * L_136 = (L_133)->GetAt(static_cast<il2cpp_array_size_t>(L_135));
+		NullCheck(L_136);
+		Int32U5BU5D_t3230847821* L_137 = L_136->get_triangles_0();
+		int32_t L_138 = V_30;
+		NullCheck(L_131);
+		Mesh_SetTriangles_m636210907(L_131, L_137, L_138, /*hidden argument*/NULL);
+		int32_t L_139 = V_30;
+		V_30 = ((int32_t)((int32_t)L_139+(int32_t)1));
+	}
+
+IL_03a9:
+	{
+		int32_t L_140 = V_30;
+		int32_t L_141 = V_5;
+		if ((((int32_t)L_140) < ((int32_t)L_141)))
+		{
+			goto IL_0387;
+		}
+	}
+	{
+		Mesh_t4241756145 * L_142 = V_4;
+		int32_t L_143 = V_7;
+		ArraysMeshGenerator_TryAddNormalsTo_m3347834056(__this, L_142, L_143, /*hidden argument*/NULL);
+	}
+
+IL_03bc:
+	{
+		bool L_144 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_addTangents_1();
+		if (!L_144)
+		{
+			goto IL_043f;
+		}
+	}
+	{
+		Vector4U5BU5D_t701588350** L_145 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_meshTangents_7();
+		Vector2U5BU5D_t4024180168** L_146 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_tempTanBuffer_8();
+		int32_t L_147 = V_7;
+		ArraysMeshGenerator_SolveTangents2DEnsureSize_m4137525859(NULL /*static, unused*/, L_145, L_146, L_147, /*hidden argument*/NULL);
+		V_31 = 0;
+		int32_t L_148 = V_5;
+		V_32 = L_148;
+		goto IL_0423;
+	}
+
+IL_03e6:
+	{
+		ExposedList_1_t1435450047 * L_149 = __this->get_submeshBuffers_13();
+		NullCheck(L_149);
+		SubmeshTriangleBufferU5BU5D_t1627892000* L_150 = L_149->get_Items_1();
+		int32_t L_151 = V_31;
+		NullCheck(L_150);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_150, L_151);
+		int32_t L_152 = L_151;
+		SubmeshTriangleBuffer_t60517389 * L_153 = (L_150)->GetAt(static_cast<il2cpp_array_size_t>(L_152));
+		V_33 = L_153;
+		Vector2U5BU5D_t4024180168* L_154 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_tempTanBuffer_8();
+		SubmeshTriangleBuffer_t60517389 * L_155 = V_33;
+		NullCheck(L_155);
+		Int32U5BU5D_t3230847821* L_156 = L_155->get_triangles_0();
+		SubmeshTriangleBuffer_t60517389 * L_157 = V_33;
+		NullCheck(L_157);
+		int32_t L_158 = L_157->get_triangleCount_1();
+		Vector3U5BU5D_t215400611* L_159 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshVertices_3();
+		Vector2U5BU5D_t4024180168* L_160 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshUVs_5();
+		int32_t L_161 = V_7;
+		ArraysMeshGenerator_SolveTangents2DTriangles_m3522333974(NULL /*static, unused*/, L_154, L_156, L_158, L_159, L_160, L_161, /*hidden argument*/NULL);
+		int32_t L_162 = V_31;
+		V_31 = ((int32_t)((int32_t)L_162+(int32_t)1));
+	}
+
+IL_0423:
+	{
+		int32_t L_163 = V_31;
+		int32_t L_164 = V_32;
+		if ((((int32_t)L_163) < ((int32_t)L_164)))
+		{
+			goto IL_03e6;
+		}
+	}
+	{
+		Vector4U5BU5D_t701588350* L_165 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshTangents_7();
+		Vector2U5BU5D_t4024180168* L_166 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_tempTanBuffer_8();
+		int32_t L_167 = V_7;
+		ArraysMeshGenerator_SolveTangents2DBuffer_m3725871264(NULL /*static, unused*/, L_165, L_166, L_167, /*hidden argument*/NULL);
+	}
+
+IL_043f:
+	{
+		SmartMesh_t1508871033 * L_168 = V_3;
+		NullCheck(L_168);
+		Mesh_t4241756145 * L_169 = L_168->get_mesh_0();
+		MaterialU5BU5D_t170856778* L_170 = __this->get_sharedMaterials_14();
+		MeshAndMaterials_t234526394  L_171;
+		memset(&L_171, 0, sizeof(L_171));
+		MeshAndMaterials__ctor_m354985446(&L_171, L_169, L_170, /*hidden argument*/NULL);
+		return L_171;
+	}
+}
+// System.Boolean Spine.Unity.MeshGeneration.ArraysSubmeshSetMeshGenerator::Spine.Unity.MeshGeneration.ISubmeshSetMeshGenerator.get_AddNormals()
+extern "C"  bool ArraysSubmeshSetMeshGenerator_Spine_Unity_MeshGeneration_ISubmeshSetMeshGenerator_get_AddNormals_m3717705924 (ArraysSubmeshSetMeshGenerator_t2045020741 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = ArraysMeshGenerator_get_AddNormals_m1870987416(__this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.ArraysSubmeshSetMeshGenerator::Spine.Unity.MeshGeneration.ISubmeshSetMeshGenerator.set_AddNormals(System.Boolean)
+extern "C"  void ArraysSubmeshSetMeshGenerator_Spine_Unity_MeshGeneration_ISubmeshSetMeshGenerator_set_AddNormals_m2688649723 (ArraysSubmeshSetMeshGenerator_t2045020741 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		ArraysMeshGenerator_set_AddNormals_m42095567(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Spine.Unity.MeshGeneration.ArraysSubmeshSetMeshGenerator::Spine.Unity.MeshGeneration.ISubmeshSetMeshGenerator.get_AddTangents()
+extern "C"  bool ArraysSubmeshSetMeshGenerator_Spine_Unity_MeshGeneration_ISubmeshSetMeshGenerator_get_AddTangents_m2640315608 (ArraysSubmeshSetMeshGenerator_t2045020741 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = ArraysMeshGenerator_get_AddTangents_m1226616708(__this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.ArraysSubmeshSetMeshGenerator::Spine.Unity.MeshGeneration.ISubmeshSetMeshGenerator.set_AddTangents(System.Boolean)
+extern "C"  void ArraysSubmeshSetMeshGenerator_Spine_Unity_MeshGeneration_ISubmeshSetMeshGenerator_set_AddTangents_m3058757007 (ArraysSubmeshSetMeshGenerator_t2045020741 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		ArraysMeshGenerator_set_AddTangents_m2619956795(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.ArraysSubmeshSetMeshGenerator/SmartMesh::.ctor()
+extern Il2CppClass* ExposedList_1_t4224666065_il2cpp_TypeInfo_var;
+extern Il2CppClass* ExposedList_1_t723286955_il2cpp_TypeInfo_var;
+extern const MethodInfo* ExposedList_1__ctor_m2763196499_MethodInfo_var;
+extern const MethodInfo* ExposedList_1__ctor_m3679996747_MethodInfo_var;
+extern const uint32_t SmartMesh__ctor_m2236595522_MetadataUsageId;
+extern "C"  void SmartMesh__ctor_m2236595522 (SmartMesh_t1508871033 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SmartMesh__ctor_m2236595522_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Mesh_t4241756145 * L_0 = SpineMesh_NewMesh_m740765763(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_mesh_0(L_0);
+		ExposedList_1_t4224666065 * L_1 = (ExposedList_1_t4224666065 *)il2cpp_codegen_object_new(ExposedList_1_t4224666065_il2cpp_TypeInfo_var);
+		ExposedList_1__ctor_m2763196499(L_1, /*hidden argument*/ExposedList_1__ctor_m2763196499_MethodInfo_var);
+		__this->set_attachmentsUsed_1(L_1);
+		ExposedList_1_t723286955 * L_2 = (ExposedList_1_t723286955 *)il2cpp_codegen_object_new(ExposedList_1_t723286955_il2cpp_TypeInfo_var);
+		ExposedList_1__ctor_m3679996747(L_2, /*hidden argument*/ExposedList_1__ctor_m3679996747_MethodInfo_var);
+		__this->set_instructionsUsed_2(L_2);
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.ArraysSubmeshSetMeshGenerator/SmartMesh::Set(UnityEngine.Vector3[],UnityEngine.Vector2[],UnityEngine.Color32[],Spine.ExposedList`1<Spine.Attachment>,Spine.ExposedList`1<Spine.Unity.MeshGeneration.SubmeshInstruction>)
+extern const MethodInfo* ExposedList_1_Clear_m1335215477_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_get_Capacity_m2952797190_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_GrowIfNeeded_m398750215_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_CopyTo_m917847547_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Clear_m527332973_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_get_Capacity_m2922746346_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_GrowIfNeeded_m1795922959_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_CopyTo_m1116751091_MethodInfo_var;
+extern const uint32_t SmartMesh_Set_m1167493596_MetadataUsageId;
+extern "C"  void SmartMesh_Set_m1167493596 (SmartMesh_t1508871033 * __this, Vector3U5BU5D_t215400611* ___verts0, Vector2U5BU5D_t4024180168* ___uvs1, Color32U5BU5D_t2960766953* ___colors2, ExposedList_1_t4224666065 * ___attachments3, ExposedList_1_t723286955 * ___instructions4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SmartMesh_Set_m1167493596_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Mesh_t4241756145 * L_0 = __this->get_mesh_0();
+		Vector3U5BU5D_t215400611* L_1 = ___verts0;
+		NullCheck(L_0);
+		Mesh_set_vertices_m2628866109(L_0, L_1, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_2 = __this->get_mesh_0();
+		Vector2U5BU5D_t4024180168* L_3 = ___uvs1;
+		NullCheck(L_2);
+		Mesh_set_uv_m498907190(L_2, L_3, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_4 = __this->get_mesh_0();
+		Color32U5BU5D_t2960766953* L_5 = ___colors2;
+		NullCheck(L_4);
+		Mesh_set_colors32_m119130293(L_4, L_5, /*hidden argument*/NULL);
+		ExposedList_1_t4224666065 * L_6 = __this->get_attachmentsUsed_1();
+		NullCheck(L_6);
+		ExposedList_1_Clear_m1335215477(L_6, (bool)0, /*hidden argument*/ExposedList_1_Clear_m1335215477_MethodInfo_var);
+		ExposedList_1_t4224666065 * L_7 = __this->get_attachmentsUsed_1();
+		ExposedList_1_t4224666065 * L_8 = ___attachments3;
+		NullCheck(L_8);
+		int32_t L_9 = ExposedList_1_get_Capacity_m2952797190(L_8, /*hidden argument*/ExposedList_1_get_Capacity_m2952797190_MethodInfo_var);
+		NullCheck(L_7);
+		ExposedList_1_GrowIfNeeded_m398750215(L_7, L_9, /*hidden argument*/ExposedList_1_GrowIfNeeded_m398750215_MethodInfo_var);
+		ExposedList_1_t4224666065 * L_10 = __this->get_attachmentsUsed_1();
+		ExposedList_1_t4224666065 * L_11 = ___attachments3;
+		NullCheck(L_11);
+		int32_t L_12 = L_11->get_Count_2();
+		NullCheck(L_10);
+		L_10->set_Count_2(L_12);
+		ExposedList_1_t4224666065 * L_13 = ___attachments3;
+		ExposedList_1_t4224666065 * L_14 = __this->get_attachmentsUsed_1();
+		NullCheck(L_14);
+		AttachmentU5BU5D_t3539071366* L_15 = L_14->get_Items_1();
+		NullCheck(L_13);
+		ExposedList_1_CopyTo_m917847547(L_13, L_15, /*hidden argument*/ExposedList_1_CopyTo_m917847547_MethodInfo_var);
+		ExposedList_1_t723286955 * L_16 = __this->get_instructionsUsed_2();
+		NullCheck(L_16);
+		ExposedList_1_Clear_m527332973(L_16, (bool)0, /*hidden argument*/ExposedList_1_Clear_m527332973_MethodInfo_var);
+		ExposedList_1_t723286955 * L_17 = __this->get_instructionsUsed_2();
+		ExposedList_1_t723286955 * L_18 = ___instructions4;
+		NullCheck(L_18);
+		int32_t L_19 = ExposedList_1_get_Capacity_m2922746346(L_18, /*hidden argument*/ExposedList_1_get_Capacity_m2922746346_MethodInfo_var);
+		NullCheck(L_17);
+		ExposedList_1_GrowIfNeeded_m1795922959(L_17, L_19, /*hidden argument*/ExposedList_1_GrowIfNeeded_m1795922959_MethodInfo_var);
+		ExposedList_1_t723286955 * L_20 = __this->get_instructionsUsed_2();
+		ExposedList_1_t723286955 * L_21 = ___instructions4;
+		NullCheck(L_21);
+		int32_t L_22 = L_21->get_Count_2();
+		NullCheck(L_20);
+		L_20->set_Count_2(L_22);
+		ExposedList_1_t723286955 * L_23 = ___instructions4;
+		ExposedList_1_t723286955 * L_24 = __this->get_instructionsUsed_2();
+		NullCheck(L_24);
+		SubmeshInstructionU5BU5D_t2859174660* L_25 = L_24->get_Items_1();
+		NullCheck(L_23);
+		ExposedList_1_CopyTo_m1116751091(L_23, L_25, /*hidden argument*/ExposedList_1_CopyTo_m1116751091_MethodInfo_var);
+		return;
+	}
+}
+// System.Boolean Spine.Unity.MeshGeneration.ArraysSubmeshSetMeshGenerator/SmartMesh::StructureDoesntMatch(Spine.ExposedList`1<Spine.Attachment>,Spine.ExposedList`1<Spine.Unity.MeshGeneration.SubmeshInstruction>)
+extern "C"  bool SmartMesh_StructureDoesntMatch_m77370725 (SmartMesh_t1508871033 * __this, ExposedList_1_t4224666065 * ___attachments0, ExposedList_1_t723286955 * ___instructions1, const MethodInfo* method)
+{
+	AttachmentU5BU5D_t3539071366* V_0 = NULL;
+	AttachmentU5BU5D_t3539071366* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	SubmeshInstructionU5BU5D_t2859174660* V_4 = NULL;
+	SubmeshInstructionU5BU5D_t2859174660* V_5 = NULL;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	SubmeshInstruction_t3643321593  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	SubmeshInstruction_t3643321593  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	{
+		ExposedList_1_t4224666065 * L_0 = ___attachments0;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_Count_2();
+		ExposedList_1_t4224666065 * L_2 = __this->get_attachmentsUsed_1();
+		NullCheck(L_2);
+		int32_t L_3 = L_2->get_Count_2();
+		if ((((int32_t)L_1) == ((int32_t)L_3)))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0018:
+	{
+		ExposedList_1_t723286955 * L_4 = ___instructions1;
+		NullCheck(L_4);
+		int32_t L_5 = L_4->get_Count_2();
+		ExposedList_1_t723286955 * L_6 = __this->get_instructionsUsed_2();
+		NullCheck(L_6);
+		int32_t L_7 = L_6->get_Count_2();
+		if ((((int32_t)L_5) == ((int32_t)L_7)))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0030:
+	{
+		ExposedList_1_t4224666065 * L_8 = ___attachments0;
+		NullCheck(L_8);
+		AttachmentU5BU5D_t3539071366* L_9 = L_8->get_Items_1();
+		V_0 = L_9;
+		ExposedList_1_t4224666065 * L_10 = __this->get_attachmentsUsed_1();
+		NullCheck(L_10);
+		AttachmentU5BU5D_t3539071366* L_11 = L_10->get_Items_1();
+		V_1 = L_11;
+		V_2 = 0;
+		ExposedList_1_t4224666065 * L_12 = __this->get_attachmentsUsed_1();
+		NullCheck(L_12);
+		int32_t L_13 = L_12->get_Count_2();
+		V_3 = L_13;
+		goto IL_0067;
+	}
+
+IL_0056:
+	{
+		AttachmentU5BU5D_t3539071366* L_14 = V_0;
+		int32_t L_15 = V_2;
+		NullCheck(L_14);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_14, L_15);
+		int32_t L_16 = L_15;
+		Attachment_t2849733407 * L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		AttachmentU5BU5D_t3539071366* L_18 = V_1;
+		int32_t L_19 = V_2;
+		NullCheck(L_18);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_18, L_19);
+		int32_t L_20 = L_19;
+		Attachment_t2849733407 * L_21 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
+		if ((((Il2CppObject*)(Attachment_t2849733407 *)L_17) == ((Il2CppObject*)(Attachment_t2849733407 *)L_21)))
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0063:
+	{
+		int32_t L_22 = V_2;
+		V_2 = ((int32_t)((int32_t)L_22+(int32_t)1));
+	}
+
+IL_0067:
+	{
+		int32_t L_23 = V_2;
+		int32_t L_24 = V_3;
+		if ((((int32_t)L_23) < ((int32_t)L_24)))
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		ExposedList_1_t723286955 * L_25 = ___instructions1;
+		NullCheck(L_25);
+		SubmeshInstructionU5BU5D_t2859174660* L_26 = L_25->get_Items_1();
+		V_4 = L_26;
+		ExposedList_1_t723286955 * L_27 = __this->get_instructionsUsed_2();
+		NullCheck(L_27);
+		SubmeshInstructionU5BU5D_t2859174660* L_28 = L_27->get_Items_1();
+		V_5 = L_28;
+		V_6 = 0;
+		ExposedList_1_t723286955 * L_29 = __this->get_instructionsUsed_2();
+		NullCheck(L_29);
+		int32_t L_30 = L_29->get_Count_2();
+		V_7 = L_30;
+		goto IL_013c;
+	}
+
+IL_0098:
+	{
+		SubmeshInstructionU5BU5D_t2859174660* L_31 = V_4;
+		int32_t L_32 = V_6;
+		NullCheck(L_31);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_31, L_32);
+		V_8 = (*(SubmeshInstruction_t3643321593 *)((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32))));
+		SubmeshInstructionU5BU5D_t2859174660* L_33 = V_5;
+		int32_t L_34 = V_6;
+		NullCheck(L_33);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_33, L_34);
+		V_9 = (*(SubmeshInstruction_t3643321593 *)((L_33)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_34))));
+		Material_t3870600107 * L_35 = (&V_8)->get_material_3();
+		NullCheck(L_35);
+		int32_t L_36 = Object_GetInstanceID_m200424466(L_35, /*hidden argument*/NULL);
+		Material_t3870600107 * L_37 = (&V_9)->get_material_3();
+		NullCheck(L_37);
+		int32_t L_38 = Object_GetInstanceID_m200424466(L_37, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_36) == ((uint32_t)L_38))))
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		int32_t L_39 = (&V_8)->get_startSlot_1();
+		int32_t L_40 = (&V_9)->get_startSlot_1();
+		if ((!(((uint32_t)L_39) == ((uint32_t)L_40))))
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		int32_t L_41 = (&V_8)->get_endSlot_2();
+		int32_t L_42 = (&V_9)->get_endSlot_2();
+		if ((!(((uint32_t)L_41) == ((uint32_t)L_42))))
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		int32_t L_43 = (&V_8)->get_triangleCount_4();
+		int32_t L_44 = (&V_9)->get_triangleCount_4();
+		if ((!(((uint32_t)L_43) == ((uint32_t)L_44))))
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		int32_t L_45 = (&V_8)->get_vertexCount_5();
+		int32_t L_46 = (&V_9)->get_vertexCount_5();
+		if ((!(((uint32_t)L_45) == ((uint32_t)L_46))))
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		int32_t L_47 = (&V_8)->get_firstVertexIndex_6();
+		int32_t L_48 = (&V_9)->get_firstVertexIndex_6();
+		if ((((int32_t)L_47) == ((int32_t)L_48)))
+		{
+			goto IL_0136;
+		}
+	}
+
+IL_0134:
+	{
+		return (bool)1;
+	}
+
+IL_0136:
+	{
+		int32_t L_49 = V_6;
+		V_6 = ((int32_t)((int32_t)L_49+(int32_t)1));
+	}
+
+IL_013c:
+	{
+		int32_t L_50 = V_6;
+		int32_t L_51 = V_7;
+		if ((((int32_t)L_50) < ((int32_t)L_51)))
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		return (bool)0;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.MeshAndMaterials::.ctor(UnityEngine.Mesh,UnityEngine.Material[])
+extern "C"  void MeshAndMaterials__ctor_m354985446 (MeshAndMaterials_t234526394 * __this, Mesh_t4241756145 * ___mesh0, MaterialU5BU5D_t170856778* ___materials1, const MethodInfo* method)
+{
+	{
+		Mesh_t4241756145 * L_0 = ___mesh0;
+		__this->set_mesh_0(L_0);
+		MaterialU5BU5D_t170856778* L_1 = ___materials1;
+		__this->set_materials_1(L_1);
+		return;
+	}
+}
+extern "C"  void MeshAndMaterials__ctor_m354985446_AdjustorThunk (Il2CppObject * __this, Mesh_t4241756145 * ___mesh0, MaterialU5BU5D_t170856778* ___materials1, const MethodInfo* method)
+{
+	MeshAndMaterials_t234526394 * _thisAdjusted = reinterpret_cast<MeshAndMaterials_t234526394 *>(__this + 1);
+	MeshAndMaterials__ctor_m354985446(_thisAdjusted, ___mesh0, ___materials1, method);
+}
+// Conversion methods for marshalling of: Spine.Unity.MeshGeneration.MeshAndMaterials
+extern "C" void MeshAndMaterials_t234526394_marshal_pinvoke(const MeshAndMaterials_t234526394& unmarshaled, MeshAndMaterials_t234526394_marshaled_pinvoke& marshaled)
+{
+	Il2CppCodeGenException* ___mesh_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'mesh' of type 'MeshAndMaterials': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___mesh_0Exception);
+}
+extern "C" void MeshAndMaterials_t234526394_marshal_pinvoke_back(const MeshAndMaterials_t234526394_marshaled_pinvoke& marshaled, MeshAndMaterials_t234526394& unmarshaled)
+{
+	Il2CppCodeGenException* ___mesh_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'mesh' of type 'MeshAndMaterials': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___mesh_0Exception);
+}
+// Conversion method for clean up from marshalling of: Spine.Unity.MeshGeneration.MeshAndMaterials
+extern "C" void MeshAndMaterials_t234526394_marshal_pinvoke_cleanup(MeshAndMaterials_t234526394_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Spine.Unity.MeshGeneration.MeshAndMaterials
+extern "C" void MeshAndMaterials_t234526394_marshal_com(const MeshAndMaterials_t234526394& unmarshaled, MeshAndMaterials_t234526394_marshaled_com& marshaled)
+{
+	Il2CppCodeGenException* ___mesh_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'mesh' of type 'MeshAndMaterials': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___mesh_0Exception);
+}
+extern "C" void MeshAndMaterials_t234526394_marshal_com_back(const MeshAndMaterials_t234526394_marshaled_com& marshaled, MeshAndMaterials_t234526394& unmarshaled)
+{
+	Il2CppCodeGenException* ___mesh_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'mesh' of type 'MeshAndMaterials': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___mesh_0Exception);
+}
+// Conversion method for clean up from marshalling of: Spine.Unity.MeshGeneration.MeshAndMaterials
+extern "C" void MeshAndMaterials_t234526394_marshal_com_cleanup(MeshAndMaterials_t234526394_marshaled_com& marshaled)
+{
+}
+// System.Void Spine.Unity.MeshGeneration.SubmeshedMeshInstruction::.ctor()
+extern Il2CppClass* ExposedList_1_t723286955_il2cpp_TypeInfo_var;
+extern Il2CppClass* ExposedList_1_t4224666065_il2cpp_TypeInfo_var;
+extern const MethodInfo* ExposedList_1__ctor_m3679996747_MethodInfo_var;
+extern const MethodInfo* ExposedList_1__ctor_m2763196499_MethodInfo_var;
+extern const uint32_t SubmeshedMeshInstruction__ctor_m644485265_MetadataUsageId;
+extern "C"  void SubmeshedMeshInstruction__ctor_m644485265 (SubmeshedMeshInstruction_t1095166029 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SubmeshedMeshInstruction__ctor_m644485265_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		ExposedList_1_t723286955 * L_0 = (ExposedList_1_t723286955 *)il2cpp_codegen_object_new(ExposedList_1_t723286955_il2cpp_TypeInfo_var);
+		ExposedList_1__ctor_m3679996747(L_0, /*hidden argument*/ExposedList_1__ctor_m3679996747_MethodInfo_var);
+		__this->set_submeshInstructions_0(L_0);
+		ExposedList_1_t4224666065 * L_1 = (ExposedList_1_t4224666065 *)il2cpp_codegen_object_new(ExposedList_1_t4224666065_il2cpp_TypeInfo_var);
+		ExposedList_1__ctor_m2763196499(L_1, /*hidden argument*/ExposedList_1__ctor_m2763196499_MethodInfo_var);
+		__this->set_attachmentList_1(L_1);
+		__this->set_vertexCount_2((-1));
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Material[] Spine.Unity.MeshGeneration.SubmeshedMeshInstruction::GetUpdatedMaterialArray(UnityEngine.Material[])
+extern "C"  MaterialU5BU5D_t170856778* SubmeshedMeshInstruction_GetUpdatedMaterialArray_m3675659929 (SubmeshedMeshInstruction_t1095166029 * __this, MaterialU5BU5D_t170856778* ___materials0, const MethodInfo* method)
+{
+	{
+		ExposedList_1_t723286955 * L_0 = __this->get_submeshInstructions_0();
+		MaterialU5BU5D_t170856778* L_1 = ___materials0;
+		MaterialU5BU5D_t170856778* L_2 = SubmeshInstructionExtensions_GetUpdatedMaterialArray_m3285136061(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Int32 Spine.Unity.MeshGeneration.SubmeshInstruction::get_SlotCount()
+extern "C"  int32_t SubmeshInstruction_get_SlotCount_m448636441 (SubmeshInstruction_t3643321593 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_endSlot_2();
+		int32_t L_1 = __this->get_startSlot_1();
+		return ((int32_t)((int32_t)L_0-(int32_t)L_1));
+	}
+}
+extern "C"  int32_t SubmeshInstruction_get_SlotCount_m448636441_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	SubmeshInstruction_t3643321593 * _thisAdjusted = reinterpret_cast<SubmeshInstruction_t3643321593 *>(__this + 1);
+	return SubmeshInstruction_get_SlotCount_m448636441(_thisAdjusted, method);
+}
+// Conversion methods for marshalling of: Spine.Unity.MeshGeneration.SubmeshInstruction
+extern "C" void SubmeshInstruction_t3643321593_marshal_pinvoke(const SubmeshInstruction_t3643321593& unmarshaled, SubmeshInstruction_t3643321593_marshaled_pinvoke& marshaled)
+{
+	Il2CppCodeGenException* ___skeleton_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'skeleton' of type 'SubmeshInstruction': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___skeleton_0Exception);
+}
+extern "C" void SubmeshInstruction_t3643321593_marshal_pinvoke_back(const SubmeshInstruction_t3643321593_marshaled_pinvoke& marshaled, SubmeshInstruction_t3643321593& unmarshaled)
+{
+	Il2CppCodeGenException* ___skeleton_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'skeleton' of type 'SubmeshInstruction': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___skeleton_0Exception);
+}
+// Conversion method for clean up from marshalling of: Spine.Unity.MeshGeneration.SubmeshInstruction
+extern "C" void SubmeshInstruction_t3643321593_marshal_pinvoke_cleanup(SubmeshInstruction_t3643321593_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Spine.Unity.MeshGeneration.SubmeshInstruction
+extern "C" void SubmeshInstruction_t3643321593_marshal_com(const SubmeshInstruction_t3643321593& unmarshaled, SubmeshInstruction_t3643321593_marshaled_com& marshaled)
+{
+	Il2CppCodeGenException* ___skeleton_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'skeleton' of type 'SubmeshInstruction': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___skeleton_0Exception);
+}
+extern "C" void SubmeshInstruction_t3643321593_marshal_com_back(const SubmeshInstruction_t3643321593_marshaled_com& marshaled, SubmeshInstruction_t3643321593& unmarshaled)
+{
+	Il2CppCodeGenException* ___skeleton_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'skeleton' of type 'SubmeshInstruction': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___skeleton_0Exception);
+}
+// Conversion method for clean up from marshalling of: Spine.Unity.MeshGeneration.SubmeshInstruction
+extern "C" void SubmeshInstruction_t3643321593_marshal_com_cleanup(SubmeshInstruction_t3643321593_marshaled_com& marshaled)
+{
+}
+// UnityEngine.Material[] Spine.Unity.MeshGeneration.SubmeshInstructionExtensions::GetUpdatedMaterialArray(Spine.ExposedList`1<Spine.Unity.MeshGeneration.SubmeshInstruction>,UnityEngine.Material[])
+extern Il2CppClass* MaterialU5BU5D_t170856778_il2cpp_TypeInfo_var;
+extern const uint32_t SubmeshInstructionExtensions_GetUpdatedMaterialArray_m3285136061_MetadataUsageId;
+extern "C"  MaterialU5BU5D_t170856778* SubmeshInstructionExtensions_GetUpdatedMaterialArray_m3285136061 (Il2CppObject * __this /* static, unused */, ExposedList_1_t723286955 * ___instructions0, MaterialU5BU5D_t170856778* ___materials1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SubmeshInstructionExtensions_GetUpdatedMaterialArray_m3285136061_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		ExposedList_1_t723286955 * L_0 = ___instructions0;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_Count_2();
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		MaterialU5BU5D_t170856778* L_3 = ___materials1;
+		NullCheck(L_3);
+		if ((((int32_t)L_2) == ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_3)->max_length)))))))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		int32_t L_4 = V_0;
+		___materials1 = ((MaterialU5BU5D_t170856778*)SZArrayNew(MaterialU5BU5D_t170856778_il2cpp_TypeInfo_var, (uint32_t)L_4));
+	}
+
+IL_0018:
+	{
+		V_1 = 0;
+		MaterialU5BU5D_t170856778* L_5 = ___materials1;
+		NullCheck(L_5);
+		V_2 = (((int32_t)((int32_t)(((Il2CppArray *)L_5)->max_length))));
+		goto IL_003b;
+	}
+
+IL_0023:
+	{
+		MaterialU5BU5D_t170856778* L_6 = ___materials1;
+		int32_t L_7 = V_1;
+		ExposedList_1_t723286955 * L_8 = ___instructions0;
+		NullCheck(L_8);
+		SubmeshInstructionU5BU5D_t2859174660* L_9 = L_8->get_Items_1();
+		int32_t L_10 = V_1;
+		NullCheck(L_9);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_9, L_10);
+		Material_t3870600107 * L_11 = ((L_9)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_10)))->get_material_3();
+		NullCheck(L_6);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, L_7);
+		ArrayElementTypeCheck (L_6, L_11);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (Material_t3870600107 *)L_11);
+		int32_t L_12 = V_1;
+		V_1 = ((int32_t)((int32_t)L_12+(int32_t)1));
+	}
+
+IL_003b:
+	{
+		int32_t L_13 = V_1;
+		int32_t L_14 = V_2;
+		if ((((int32_t)L_13) < ((int32_t)L_14)))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		MaterialU5BU5D_t170856778* L_15 = ___materials1;
+		return L_15;
+	}
+}
+// System.Void Spine.Unity.Modules.AtlasRegionAttacher::.ctor()
+extern "C"  void AtlasRegionAttacher__ctor_m560367397 (AtlasRegionAttacher_t463209143 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.AtlasRegionAttacher::Awake()
+extern Il2CppClass* SkeletonRendererDelegate_t1530399696_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var;
+extern const MethodInfo* AtlasRegionAttacher_Apply_m2869323485_MethodInfo_var;
+extern const uint32_t AtlasRegionAttacher_Awake_m797972616_MetadataUsageId;
+extern "C"  void AtlasRegionAttacher_Awake_m797972616 (AtlasRegionAttacher_t463209143 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AtlasRegionAttacher_Awake_m797972616_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SkeletonRenderer_t3766155010 * L_0 = Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865(__this, /*hidden argument*/Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var);
+		SkeletonRenderer_t3766155010 * L_1 = L_0;
+		NullCheck(L_1);
+		SkeletonRendererDelegate_t1530399696 * L_2 = L_1->get_OnRebuild_2();
+		IntPtr_t L_3;
+		L_3.set_m_value_0((void*)(void*)AtlasRegionAttacher_Apply_m2869323485_MethodInfo_var);
+		SkeletonRendererDelegate_t1530399696 * L_4 = (SkeletonRendererDelegate_t1530399696 *)il2cpp_codegen_object_new(SkeletonRendererDelegate_t1530399696_il2cpp_TypeInfo_var);
+		SkeletonRendererDelegate__ctor_m4163935143(L_4, __this, L_3, /*hidden argument*/NULL);
+		Delegate_t3310234105 * L_5 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		L_1->set_OnRebuild_2(((SkeletonRendererDelegate_t1530399696 *)CastclassSealed(L_5, SkeletonRendererDelegate_t1530399696_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.AtlasRegionAttacher::Apply(Spine.Unity.SkeletonRenderer)
+extern Il2CppClass* AtlasU5BU5D_t3146571084_il2cpp_TypeInfo_var;
+extern Il2CppClass* AtlasAttachmentLoader_t384955783_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t3464575207_il2cpp_TypeInfo_var;
+extern Il2CppClass* SlotRegionPair_t202331861_il2cpp_TypeInfo_var;
+extern const uint32_t AtlasRegionAttacher_Apply_m2869323485_MetadataUsageId;
+extern "C"  void AtlasRegionAttacher_Apply_m2869323485 (AtlasRegionAttacher_t463209143 * __this, SkeletonRenderer_t3766155010 * ___skeletonRenderer0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AtlasRegionAttacher_Apply_m2869323485_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	AtlasAttachmentLoader_t384955783 * V_0 = NULL;
+	float V_1 = 0.0f;
+	Il2CppObject * V_2 = NULL;
+	SlotRegionPair_t202331861 * V_3 = NULL;
+	RegionAttachment_t2459988211 * V_4 = NULL;
+	Slot_t1650993210 * V_5 = NULL;
+	{
+		AtlasAsset_t1266833143 * L_0 = __this->get_atlasAsset_2();
+		NullCheck(L_0);
+		Atlas_t361685585 * L_1 = AtlasAsset_GetAtlas_m580989178(L_0, /*hidden argument*/NULL);
+		__this->set_atlas_4(L_1);
+		AtlasU5BU5D_t3146571084* L_2 = ((AtlasU5BU5D_t3146571084*)SZArrayNew(AtlasU5BU5D_t3146571084_il2cpp_TypeInfo_var, (uint32_t)1));
+		Atlas_t361685585 * L_3 = __this->get_atlas_4();
+		NullCheck(L_2);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Atlas_t361685585 *)L_3);
+		AtlasAttachmentLoader_t384955783 * L_4 = (AtlasAttachmentLoader_t384955783 *)il2cpp_codegen_object_new(AtlasAttachmentLoader_t384955783_il2cpp_TypeInfo_var);
+		AtlasAttachmentLoader__ctor_m2851248059(L_4, L_2, /*hidden argument*/NULL);
+		V_0 = L_4;
+		SkeletonRenderer_t3766155010 * L_5 = ___skeletonRenderer0;
+		NullCheck(L_5);
+		SkeletonDataAsset_t2211567523 * L_6 = L_5->get_skeletonDataAsset_3();
+		NullCheck(L_6);
+		float L_7 = L_6->get_scale_3();
+		V_1 = L_7;
+		SlotRegionPairU5BU5D_t504631864* L_8 = __this->get_attachments_3();
+		NullCheck((Il2CppArray *)(Il2CppArray *)L_8);
+		Il2CppObject * L_9 = Array_GetEnumerator_m2728734362((Il2CppArray *)(Il2CppArray *)L_8, /*hidden argument*/NULL);
+		V_2 = L_9;
+		goto IL_00c7;
+	}
+
+IL_0043:
+	{
+		Il2CppObject * L_10 = V_2;
+		NullCheck(L_10);
+		Il2CppObject * L_11 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t3464575207_il2cpp_TypeInfo_var, L_10);
+		V_3 = ((SlotRegionPair_t202331861 *)CastclassClass(L_11, SlotRegionPair_t202331861_il2cpp_TypeInfo_var));
+		AtlasAttachmentLoader_t384955783 * L_12 = V_0;
+		SlotRegionPair_t202331861 * L_13 = V_3;
+		NullCheck(L_13);
+		String_t* L_14 = L_13->get_region_1();
+		SlotRegionPair_t202331861 * L_15 = V_3;
+		NullCheck(L_15);
+		String_t* L_16 = L_15->get_region_1();
+		NullCheck(L_12);
+		RegionAttachment_t2459988211 * L_17 = AtlasAttachmentLoader_NewRegionAttachment_m3668100149(L_12, (Skin_t1650992057 *)NULL, L_14, L_16, /*hidden argument*/NULL);
+		V_4 = L_17;
+		RegionAttachment_t2459988211 * L_18 = V_4;
+		RegionAttachment_t2459988211 * L_19 = V_4;
+		NullCheck(L_19);
+		float L_20 = RegionAttachment_get_RegionOriginalWidth_m3485918467(L_19, /*hidden argument*/NULL);
+		float L_21 = V_1;
+		NullCheck(L_18);
+		RegionAttachment_set_Width_m3300741355(L_18, ((float)((float)L_20*(float)L_21)), /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_22 = V_4;
+		RegionAttachment_t2459988211 * L_23 = V_4;
+		NullCheck(L_23);
+		float L_24 = RegionAttachment_get_RegionOriginalHeight_m1193104428(L_23, /*hidden argument*/NULL);
+		float L_25 = V_1;
+		NullCheck(L_22);
+		RegionAttachment_set_Height_m1689782780(L_22, ((float)((float)L_24*(float)L_25)), /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_26 = V_4;
+		Color_t4194546905  L_27;
+		memset(&L_27, 0, sizeof(L_27));
+		Color__ctor_m2252924356(&L_27, (1.0f), (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		SkeletonExtensions_SetColor_m2414534605(NULL /*static, unused*/, L_26, L_27, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_28 = V_4;
+		NullCheck(L_28);
+		RegionAttachment_UpdateOffset_m1076850343(L_28, /*hidden argument*/NULL);
+		SkeletonRenderer_t3766155010 * L_29 = ___skeletonRenderer0;
+		NullCheck(L_29);
+		Skeleton_t2209335561 * L_30 = L_29->get_skeleton_20();
+		SlotRegionPair_t202331861 * L_31 = V_3;
+		NullCheck(L_31);
+		String_t* L_32 = L_31->get_slot_0();
+		NullCheck(L_30);
+		Slot_t1650993210 * L_33 = Skeleton_FindSlot_m43661110(L_30, L_32, /*hidden argument*/NULL);
+		V_5 = L_33;
+		Slot_t1650993210 * L_34 = V_5;
+		RegionAttachment_t2459988211 * L_35 = V_4;
+		NullCheck(L_34);
+		Slot_set_Attachment_m3001848068(L_34, L_35, /*hidden argument*/NULL);
+	}
+
+IL_00c7:
+	{
+		Il2CppObject * L_36 = V_2;
+		NullCheck(L_36);
+		bool L_37 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t3464575207_il2cpp_TypeInfo_var, L_36);
+		if (L_37)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.AtlasRegionAttacher/SlotRegionPair::.ctor()
+extern "C"  void SlotRegionPair__ctor_m3681705318 (SlotRegionPair_t202331861 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.CustomSkin::.ctor()
+extern "C"  void CustomSkin__ctor_m17764514 (CustomSkin_t3376942026 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.CustomSkin::Start()
+extern Il2CppClass* Skin_t1650992057_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral411738286;
+extern const uint32_t CustomSkin_Start_m3259869602_MetadataUsageId;
+extern "C"  void CustomSkin_Start_m3259869602 (CustomSkin_t3376942026 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (CustomSkin_Start_m3259869602_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Skeleton_t2209335561 * V_0 = NULL;
+	SkinPair_t1581379405 * V_1 = NULL;
+	SkinPairU5BU5D_t2030596320* V_2 = NULL;
+	int32_t V_3 = 0;
+	Attachment_t2849733407 * V_4 = NULL;
+	{
+		SkeletonRenderer_t3766155010 * L_0 = Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865(__this, /*hidden argument*/Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var);
+		__this->set_skeletonRenderer_5(L_0);
+		SkeletonRenderer_t3766155010 * L_1 = __this->get_skeletonRenderer_5();
+		NullCheck(L_1);
+		Skeleton_t2209335561 * L_2 = L_1->get_skeleton_20();
+		V_0 = L_2;
+		Skin_t1650992057 * L_3 = (Skin_t1650992057 *)il2cpp_codegen_object_new(Skin_t1650992057_il2cpp_TypeInfo_var);
+		Skin__ctor_m683376815(L_3, _stringLiteral411738286, /*hidden argument*/NULL);
+		__this->set_customSkin_4(L_3);
+		SkinPairU5BU5D_t2030596320* L_4 = __this->get_skinItems_3();
+		V_2 = L_4;
+		V_3 = 0;
+		goto IL_0070;
+	}
+
+IL_0036:
+	{
+		SkinPairU5BU5D_t2030596320* L_5 = V_2;
+		int32_t L_6 = V_3;
+		NullCheck(L_5);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, L_6);
+		int32_t L_7 = L_6;
+		SkinPair_t1581379405 * L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		V_1 = L_8;
+		SkinPair_t1581379405 * L_9 = V_1;
+		NullCheck(L_9);
+		String_t* L_10 = L_9->get_sourceAttachmentPath_0();
+		SkeletonDataAsset_t2211567523 * L_11 = __this->get_skinSource_2();
+		Attachment_t2849733407 * L_12 = SpineAttachment_GetAttachment_m3148733994(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		V_4 = L_12;
+		Skin_t1650992057 * L_13 = __this->get_customSkin_4();
+		Skeleton_t2209335561 * L_14 = V_0;
+		SkinPair_t1581379405 * L_15 = V_1;
+		NullCheck(L_15);
+		String_t* L_16 = L_15->get_targetSlot_1();
+		NullCheck(L_14);
+		int32_t L_17 = Skeleton_FindSlotIndex_m2031976852(L_14, L_16, /*hidden argument*/NULL);
+		SkinPair_t1581379405 * L_18 = V_1;
+		NullCheck(L_18);
+		String_t* L_19 = L_18->get_targetAttachment_2();
+		Attachment_t2849733407 * L_20 = V_4;
+		NullCheck(L_13);
+		Skin_AddAttachment_m2154207030(L_13, L_17, L_19, L_20, /*hidden argument*/NULL);
+		int32_t L_21 = V_3;
+		V_3 = ((int32_t)((int32_t)L_21+(int32_t)1));
+	}
+
+IL_0070:
+	{
+		int32_t L_22 = V_3;
+		SkinPairU5BU5D_t2030596320* L_23 = V_2;
+		NullCheck(L_23);
+		if ((((int32_t)L_22) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_23)->max_length)))))))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_24 = V_0;
+		Skin_t1650992057 * L_25 = __this->get_customSkin_4();
+		NullCheck(L_24);
+		Skeleton_SetSkin_m3714687000(L_24, L_25, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.CustomSkin/SkinPair::.ctor()
+extern "C"  void SkinPair__ctor_m1327859390 (SkinPair_t1581379405 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonGhost::.ctor()
+extern Il2CppClass* Dictionary_2_t807872303_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m8450372_MethodInfo_var;
+extern const uint32_t SkeletonGhost__ctor_m1935177844_MetadataUsageId;
+extern "C"  void SkeletonGhost__ctor_m1935177844 (SkeletonGhost_t125999752 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGhost__ctor_m1935177844_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		__this->set_ghostingEnabled_2((bool)1);
+		__this->set_spawnRate_3((0.05f));
+		Color32_t598853688  L_0;
+		memset(&L_0, 0, sizeof(L_0));
+		Color32__ctor_m576906339(&L_0, ((int32_t)255), ((int32_t)255), ((int32_t)255), 0, /*hidden argument*/NULL);
+		__this->set_color_4(L_0);
+		__this->set_additive_5((bool)1);
+		__this->set_maximumGhosts_6(((int32_t)10));
+		__this->set_fadeSpeed_7((10.0f));
+		__this->set_textureFade_9((1.0f));
+		Dictionary_2_t807872303 * L_1 = (Dictionary_2_t807872303 *)il2cpp_codegen_object_new(Dictionary_2_t807872303_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m8450372(L_1, /*hidden argument*/Dictionary_2__ctor_m8450372_MethodInfo_var);
+		__this->set_materialTable_18(L_1);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonGhost::Start()
+extern const Il2CppType* SkeletonGhostRenderer_t2396092523_0_0_0_var;
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* SkeletonGhostRendererU5BU5D_t132364682_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* TypeU5BU5D_t3339007067_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObject_t3674682005_il2cpp_TypeInfo_var;
+extern Il2CppClass* SkeletonAnimation_t3721178561_il2cpp_TypeInfo_var;
+extern Il2CppClass* EventDelegate_t3743540456_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisMeshFilter_t3839065225_m3816897097_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisMeshRenderer_t2804666580_m3731621022_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisSkeletonGhostRenderer_t2396092523_m1653139303_MethodInfo_var;
+extern const MethodInfo* SkeletonGhost_OnEvent_m3386603903_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4191467104;
+extern Il2CppCodeGenString* _stringLiteral984911439;
+extern const uint32_t SkeletonGhost_Start_m882315636_MetadataUsageId;
+extern "C"  void SkeletonGhost_Start_m882315636 (SkeletonGhost_t125999752 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGhost_Start_m882315636_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	GameObject_t3674682005 * V_1 = NULL;
+	{
+		Shader_t3191267369 * L_0 = __this->get_ghostShader_8();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Shader_t3191267369 * L_2 = Shader_Find_m4048047578(NULL /*static, unused*/, _stringLiteral4191467104, /*hidden argument*/NULL);
+		__this->set_ghostShader_8(L_2);
+	}
+
+IL_0021:
+	{
+		SkeletonRenderer_t3766155010 * L_3 = Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865(__this, /*hidden argument*/Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var);
+		__this->set_skeletonRenderer_15(L_3);
+		MeshFilter_t3839065225 * L_4 = Component_GetComponent_TisMeshFilter_t3839065225_m3816897097(__this, /*hidden argument*/Component_GetComponent_TisMeshFilter_t3839065225_m3816897097_MethodInfo_var);
+		__this->set_meshFilter_17(L_4);
+		MeshRenderer_t2804666580 * L_5 = Component_GetComponent_TisMeshRenderer_t2804666580_m3731621022(__this, /*hidden argument*/Component_GetComponent_TisMeshRenderer_t2804666580_m3731621022_MethodInfo_var);
+		__this->set_meshRenderer_16(L_5);
+		float L_6 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_7 = __this->get_spawnRate_3();
+		__this->set_nextSpawnTime_12(((float)((float)L_6+(float)L_7)));
+		int32_t L_8 = __this->get_maximumGhosts_6();
+		__this->set_pool_13(((SkeletonGhostRendererU5BU5D_t132364682*)SZArrayNew(SkeletonGhostRendererU5BU5D_t132364682_il2cpp_TypeInfo_var, (uint32_t)L_8)));
+		V_0 = 0;
+		goto IL_00bd;
+	}
+
+IL_006f:
+	{
+		GameObject_t3674682005 * L_9 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		String_t* L_10 = Object_get_name_m3709440845(L_9, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_11 = String_Concat_m138640077(NULL /*static, unused*/, L_10, _stringLiteral984911439, /*hidden argument*/NULL);
+		TypeU5BU5D_t3339007067* L_12 = ((TypeU5BU5D_t3339007067*)SZArrayNew(TypeU5BU5D_t3339007067_il2cpp_TypeInfo_var, (uint32_t)1));
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_13 = Type_GetTypeFromHandle_m3806905434(NULL /*static, unused*/, LoadTypeToken(SkeletonGhostRenderer_t2396092523_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_12);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, 0);
+		ArrayElementTypeCheck (L_12, L_13);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_13);
+		GameObject_t3674682005 * L_14 = (GameObject_t3674682005 *)il2cpp_codegen_object_new(GameObject_t3674682005_il2cpp_TypeInfo_var);
+		GameObject__ctor_m176066391(L_14, L_11, L_12, /*hidden argument*/NULL);
+		V_1 = L_14;
+		SkeletonGhostRendererU5BU5D_t132364682* L_15 = __this->get_pool_13();
+		int32_t L_16 = V_0;
+		GameObject_t3674682005 * L_17 = V_1;
+		NullCheck(L_17);
+		SkeletonGhostRenderer_t2396092523 * L_18 = GameObject_GetComponent_TisSkeletonGhostRenderer_t2396092523_m1653139303(L_17, /*hidden argument*/GameObject_GetComponent_TisSkeletonGhostRenderer_t2396092523_m1653139303_MethodInfo_var);
+		NullCheck(L_15);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_15, L_16);
+		ArrayElementTypeCheck (L_15, L_18);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(L_16), (SkeletonGhostRenderer_t2396092523 *)L_18);
+		GameObject_t3674682005 * L_19 = V_1;
+		NullCheck(L_19);
+		GameObject_SetActive_m3538205401(L_19, (bool)0, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_20 = V_1;
+		NullCheck(L_20);
+		Object_set_hideFlags_m41317712(L_20, 1, /*hidden argument*/NULL);
+		int32_t L_21 = V_0;
+		V_0 = ((int32_t)((int32_t)L_21+(int32_t)1));
+	}
+
+IL_00bd:
+	{
+		int32_t L_22 = V_0;
+		int32_t L_23 = __this->get_maximumGhosts_6();
+		if ((((int32_t)L_22) < ((int32_t)L_23)))
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		SkeletonRenderer_t3766155010 * L_24 = __this->get_skeletonRenderer_15();
+		if (!((SkeletonAnimation_t3721178561 *)IsInstClass(L_24, SkeletonAnimation_t3721178561_il2cpp_TypeInfo_var)))
+		{
+			goto IL_00fa;
+		}
+	}
+	{
+		SkeletonRenderer_t3766155010 * L_25 = __this->get_skeletonRenderer_15();
+		NullCheck(((SkeletonAnimation_t3721178561 *)CastclassClass(L_25, SkeletonAnimation_t3721178561_il2cpp_TypeInfo_var)));
+		AnimationState_t964829161 * L_26 = ((SkeletonAnimation_t3721178561 *)CastclassClass(L_25, SkeletonAnimation_t3721178561_il2cpp_TypeInfo_var))->get_state_34();
+		IntPtr_t L_27;
+		L_27.set_m_value_0((void*)(void*)SkeletonGhost_OnEvent_m3386603903_MethodInfo_var);
+		EventDelegate_t3743540456 * L_28 = (EventDelegate_t3743540456 *)il2cpp_codegen_object_new(EventDelegate_t3743540456_il2cpp_TypeInfo_var);
+		EventDelegate__ctor_m2728612751(L_28, __this, L_27, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		AnimationState_add_Event_m3939231669(L_26, L_28, /*hidden argument*/NULL);
+	}
+
+IL_00fa:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonGhost::OnEvent(Spine.AnimationState,System.Int32,Spine.Event)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral284185363;
+extern const uint32_t SkeletonGhost_OnEvent_m3386603903_MetadataUsageId;
+extern "C"  void SkeletonGhost_OnEvent_m3386603903 (SkeletonGhost_t125999752 * __this, AnimationState_t964829161 * ___state0, int32_t ___trackIndex1, Event_t365432928 * ___e2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGhost_OnEvent_m3386603903_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Event_t365432928 * L_0 = ___e2;
+		NullCheck(L_0);
+		EventData_t2102088874 * L_1 = Event_get_Data_m2079788065(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		String_t* L_2 = EventData_get_Name_m2073634083(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_3 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_2, _stringLiteral284185363, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		Event_t365432928 * L_4 = ___e2;
+		NullCheck(L_4);
+		int32_t L_5 = Event_get_Int_m2521891758(L_4, /*hidden argument*/NULL);
+		__this->set_ghostingEnabled_2((bool)((((int32_t)L_5) > ((int32_t)0))? 1 : 0));
+		Event_t365432928 * L_6 = ___e2;
+		NullCheck(L_6);
+		float L_7 = Event_get_Float_m548806681(L_6, /*hidden argument*/NULL);
+		if ((!(((float)L_7) > ((float)(0.0f)))))
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		Event_t365432928 * L_8 = ___e2;
+		NullCheck(L_8);
+		float L_9 = Event_get_Float_m548806681(L_8, /*hidden argument*/NULL);
+		__this->set_spawnRate_3(L_9);
+	}
+
+IL_0045:
+	{
+		Event_t365432928 * L_10 = ___e2;
+		NullCheck(L_10);
+		String_t* L_11 = Event_get_String_m2027142943(L_10, /*hidden argument*/NULL);
+		if (!L_11)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		Event_t365432928 * L_12 = ___e2;
+		NullCheck(L_12);
+		String_t* L_13 = Event_get_String_m2027142943(L_12, /*hidden argument*/NULL);
+		Color32_t598853688  L_14 = SkeletonGhost_HexToColor_m2873058893(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		__this->set_color_4(L_14);
+	}
+
+IL_0061:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonGhost::Ghosting(System.Single)
+extern "C"  void SkeletonGhost_Ghosting_m761883016 (SkeletonGhost_t125999752 * __this, float ___val0, const MethodInfo* method)
+{
+	{
+		float L_0 = ___val0;
+		__this->set_ghostingEnabled_2((bool)((((float)L_0) > ((float)(0.0f)))? 1 : 0));
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonGhost::Update()
+extern Il2CppClass* Material_t3870600107_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_ContainsKey_m4279160223_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m2670788706_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m1903721114_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2659131480;
+extern const uint32_t SkeletonGhost_Update_m1587833113_MetadataUsageId;
+extern "C"  void SkeletonGhost_Update_m1587833113 (SkeletonGhost_t125999752 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGhost_Update_m1587833113_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	GameObject_t3674682005 * V_0 = NULL;
+	MaterialU5BU5D_t170856778* V_1 = NULL;
+	int32_t V_2 = 0;
+	Material_t3870600107 * V_3 = NULL;
+	Material_t3870600107 * V_4 = NULL;
+	Transform_t1659122786 * V_5 = NULL;
+	int32_t G_B13_0 = 0;
+	float G_B13_1 = 0.0f;
+	bool G_B13_2 = false;
+	Color32_t598853688  G_B13_3;
+	memset(&G_B13_3, 0, sizeof(G_B13_3));
+	MaterialU5BU5D_t170856778* G_B13_4 = NULL;
+	Mesh_t4241756145 * G_B13_5 = NULL;
+	SkeletonGhostRenderer_t2396092523 * G_B13_6 = NULL;
+	int32_t G_B12_0 = 0;
+	float G_B12_1 = 0.0f;
+	bool G_B12_2 = false;
+	Color32_t598853688  G_B12_3;
+	memset(&G_B12_3, 0, sizeof(G_B12_3));
+	MaterialU5BU5D_t170856778* G_B12_4 = NULL;
+	Mesh_t4241756145 * G_B12_5 = NULL;
+	SkeletonGhostRenderer_t2396092523 * G_B12_6 = NULL;
+	int32_t G_B14_0 = 0;
+	int32_t G_B14_1 = 0;
+	float G_B14_2 = 0.0f;
+	bool G_B14_3 = false;
+	Color32_t598853688  G_B14_4;
+	memset(&G_B14_4, 0, sizeof(G_B14_4));
+	MaterialU5BU5D_t170856778* G_B14_5 = NULL;
+	Mesh_t4241756145 * G_B14_6 = NULL;
+	SkeletonGhostRenderer_t2396092523 * G_B14_7 = NULL;
+	{
+		bool L_0 = __this->get_ghostingEnabled_2();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		float L_1 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_2 = __this->get_nextSpawnTime_12();
+		if ((!(((float)L_1) >= ((float)L_2))))
+		{
+			goto IL_01bc;
+		}
+	}
+	{
+		SkeletonGhostRendererU5BU5D_t132364682* L_3 = __this->get_pool_13();
+		int32_t L_4 = __this->get_poolIndex_14();
+		NullCheck(L_3);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, L_4);
+		int32_t L_5 = L_4;
+		SkeletonGhostRenderer_t2396092523 * L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		NullCheck(L_6);
+		GameObject_t3674682005 * L_7 = Component_get_gameObject_m1170635899(L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+		MeshRenderer_t2804666580 * L_8 = __this->get_meshRenderer_16();
+		NullCheck(L_8);
+		MaterialU5BU5D_t170856778* L_9 = Renderer_get_sharedMaterials_m1981818007(L_8, /*hidden argument*/NULL);
+		V_1 = L_9;
+		V_2 = 0;
+		goto IL_00c5;
+	}
+
+IL_0042:
+	{
+		MaterialU5BU5D_t170856778* L_10 = V_1;
+		int32_t L_11 = V_2;
+		NullCheck(L_10);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, L_11);
+		int32_t L_12 = L_11;
+		Material_t3870600107 * L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		V_3 = L_13;
+		Dictionary_2_t807872303 * L_14 = __this->get_materialTable_18();
+		Material_t3870600107 * L_15 = V_3;
+		NullCheck(L_14);
+		bool L_16 = Dictionary_2_ContainsKey_m4279160223(L_14, L_15, /*hidden argument*/Dictionary_2_ContainsKey_m4279160223_MethodInfo_var);
+		if (L_16)
+		{
+			goto IL_00ae;
+		}
+	}
+	{
+		Material_t3870600107 * L_17 = V_3;
+		Material_t3870600107 * L_18 = (Material_t3870600107 *)il2cpp_codegen_object_new(Material_t3870600107_il2cpp_TypeInfo_var);
+		Material__ctor_m2546967560(L_18, L_17, /*hidden argument*/NULL);
+		V_4 = L_18;
+		Material_t3870600107 * L_19 = V_4;
+		Shader_t3191267369 * L_20 = __this->get_ghostShader_8();
+		NullCheck(L_19);
+		Material_set_shader_m3742529604(L_19, L_20, /*hidden argument*/NULL);
+		Material_t3870600107 * L_21 = V_4;
+		Color_t4194546905  L_22 = Color_get_white_m3038282331(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		Material_set_color_m3296857020(L_21, L_22, /*hidden argument*/NULL);
+		Material_t3870600107 * L_23 = V_4;
+		NullCheck(L_23);
+		bool L_24 = Material_HasProperty_m2077312757(L_23, _stringLiteral2659131480, /*hidden argument*/NULL);
+		if (!L_24)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		Material_t3870600107 * L_25 = V_4;
+		float L_26 = __this->get_textureFade_9();
+		NullCheck(L_25);
+		Material_SetFloat_m981710063(L_25, _stringLiteral2659131480, L_26, /*hidden argument*/NULL);
+	}
+
+IL_009b:
+	{
+		Dictionary_2_t807872303 * L_27 = __this->get_materialTable_18();
+		Material_t3870600107 * L_28 = V_3;
+		Material_t3870600107 * L_29 = V_4;
+		NullCheck(L_27);
+		Dictionary_2_Add_m2670788706(L_27, L_28, L_29, /*hidden argument*/Dictionary_2_Add_m2670788706_MethodInfo_var);
+		goto IL_00bc;
+	}
+
+IL_00ae:
+	{
+		Dictionary_2_t807872303 * L_30 = __this->get_materialTable_18();
+		Material_t3870600107 * L_31 = V_3;
+		NullCheck(L_30);
+		Material_t3870600107 * L_32 = Dictionary_2_get_Item_m1903721114(L_30, L_31, /*hidden argument*/Dictionary_2_get_Item_m1903721114_MethodInfo_var);
+		V_4 = L_32;
+	}
+
+IL_00bc:
+	{
+		MaterialU5BU5D_t170856778* L_33 = V_1;
+		int32_t L_34 = V_2;
+		Material_t3870600107 * L_35 = V_4;
+		NullCheck(L_33);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_33, L_34);
+		ArrayElementTypeCheck (L_33, L_35);
+		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(L_34), (Material_t3870600107 *)L_35);
+		int32_t L_36 = V_2;
+		V_2 = ((int32_t)((int32_t)L_36+(int32_t)1));
+	}
+
+IL_00c5:
+	{
+		int32_t L_37 = V_2;
+		MaterialU5BU5D_t170856778* L_38 = V_1;
+		NullCheck(L_38);
+		if ((((int32_t)L_37) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_38)->max_length)))))))
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		GameObject_t3674682005 * L_39 = V_0;
+		NullCheck(L_39);
+		Transform_t1659122786 * L_40 = GameObject_get_transform_m1278640159(L_39, /*hidden argument*/NULL);
+		V_5 = L_40;
+		Transform_t1659122786 * L_41 = V_5;
+		Transform_t1659122786 * L_42 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_41);
+		Transform_set_parent_m3231272063(L_41, L_42, /*hidden argument*/NULL);
+		SkeletonGhostRendererU5BU5D_t132364682* L_43 = __this->get_pool_13();
+		int32_t L_44 = __this->get_poolIndex_14();
+		NullCheck(L_43);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_43, L_44);
+		int32_t L_45 = L_44;
+		SkeletonGhostRenderer_t2396092523 * L_46 = (L_43)->GetAt(static_cast<il2cpp_array_size_t>(L_45));
+		MeshFilter_t3839065225 * L_47 = __this->get_meshFilter_17();
+		NullCheck(L_47);
+		Mesh_t4241756145 * L_48 = MeshFilter_get_sharedMesh_m2700148450(L_47, /*hidden argument*/NULL);
+		MaterialU5BU5D_t170856778* L_49 = V_1;
+		Color32_t598853688  L_50 = __this->get_color_4();
+		bool L_51 = __this->get_additive_5();
+		float L_52 = __this->get_fadeSpeed_7();
+		MeshRenderer_t2804666580 * L_53 = __this->get_meshRenderer_16();
+		NullCheck(L_53);
+		int32_t L_54 = Renderer_get_sortingLayerID_m1954594923(L_53, /*hidden argument*/NULL);
+		bool L_55 = __this->get_sortWithDistanceOnly_10();
+		G_B12_0 = L_54;
+		G_B12_1 = L_52;
+		G_B12_2 = L_51;
+		G_B12_3 = L_50;
+		G_B12_4 = L_49;
+		G_B12_5 = L_48;
+		G_B12_6 = L_46;
+		if (!L_55)
+		{
+			G_B13_0 = L_54;
+			G_B13_1 = L_52;
+			G_B13_2 = L_51;
+			G_B13_3 = L_50;
+			G_B13_4 = L_49;
+			G_B13_5 = L_48;
+			G_B13_6 = L_46;
+			goto IL_0134;
+		}
+	}
+	{
+		MeshRenderer_t2804666580 * L_56 = __this->get_meshRenderer_16();
+		NullCheck(L_56);
+		int32_t L_57 = Renderer_get_sortingOrder_m3623465101(L_56, /*hidden argument*/NULL);
+		G_B14_0 = L_57;
+		G_B14_1 = G_B12_0;
+		G_B14_2 = G_B12_1;
+		G_B14_3 = G_B12_2;
+		G_B14_4 = G_B12_3;
+		G_B14_5 = G_B12_4;
+		G_B14_6 = G_B12_5;
+		G_B14_7 = G_B12_6;
+		goto IL_0141;
+	}
+
+IL_0134:
+	{
+		MeshRenderer_t2804666580 * L_58 = __this->get_meshRenderer_16();
+		NullCheck(L_58);
+		int32_t L_59 = Renderer_get_sortingOrder_m3623465101(L_58, /*hidden argument*/NULL);
+		G_B14_0 = ((int32_t)((int32_t)L_59-(int32_t)1));
+		G_B14_1 = G_B13_0;
+		G_B14_2 = G_B13_1;
+		G_B14_3 = G_B13_2;
+		G_B14_4 = G_B13_3;
+		G_B14_5 = G_B13_4;
+		G_B14_6 = G_B13_5;
+		G_B14_7 = G_B13_6;
+	}
+
+IL_0141:
+	{
+		NullCheck(G_B14_7);
+		SkeletonGhostRenderer_Initialize_m2213837402(G_B14_7, G_B14_6, G_B14_5, G_B14_4, G_B14_3, G_B14_2, G_B14_1, G_B14_0, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_60 = V_5;
+		float L_61 = __this->get_zOffset_11();
+		Vector3_t4282066566  L_62;
+		memset(&L_62, 0, sizeof(L_62));
+		Vector3__ctor_m2926210380(&L_62, (0.0f), (0.0f), L_61, /*hidden argument*/NULL);
+		NullCheck(L_60);
+		Transform_set_localPosition_m3504330903(L_60, L_62, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_63 = V_5;
+		Quaternion_t1553702882  L_64 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_63);
+		Transform_set_localRotation_m3719981474(L_63, L_64, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_65 = V_5;
+		Vector3_t4282066566  L_66 = Vector3_get_one_m886467710(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_65);
+		Transform_set_localScale_m310756934(L_65, L_66, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_67 = V_5;
+		NullCheck(L_67);
+		Transform_set_parent_m3231272063(L_67, (Transform_t1659122786 *)NULL, /*hidden argument*/NULL);
+		int32_t L_68 = __this->get_poolIndex_14();
+		__this->set_poolIndex_14(((int32_t)((int32_t)L_68+(int32_t)1)));
+		int32_t L_69 = __this->get_poolIndex_14();
+		SkeletonGhostRendererU5BU5D_t132364682* L_70 = __this->get_pool_13();
+		NullCheck(L_70);
+		if ((!(((uint32_t)L_69) == ((uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_70)->max_length))))))))
+		{
+			goto IL_01aa;
+		}
+	}
+	{
+		__this->set_poolIndex_14(0);
+	}
+
+IL_01aa:
+	{
+		float L_71 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_72 = __this->get_spawnRate_3();
+		__this->set_nextSpawnTime_12(((float)((float)L_71+(float)L_72)));
+	}
+
+IL_01bc:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonGhost::OnDestroy()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t3034673007_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Values_m3559228466_MethodInfo_var;
+extern const MethodInfo* ValueCollection_GetEnumerator_m2314515130_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3654504404_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3707728251_MethodInfo_var;
+extern const uint32_t SkeletonGhost_OnDestroy_m949023597_MetadataUsageId;
+extern "C"  void SkeletonGhost_OnDestroy_m949023597 (SkeletonGhost_t125999752 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGhost_OnDestroy_m949023597_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	Material_t3870600107 * V_1 = NULL;
+	Enumerator_t3034673007  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		V_0 = 0;
+		goto IL_002b;
+	}
+
+IL_0007:
+	{
+		SkeletonGhostRendererU5BU5D_t132364682* L_0 = __this->get_pool_13();
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, L_1);
+		int32_t L_2 = L_1;
+		SkeletonGhostRenderer_t2396092523 * L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_3, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		SkeletonGhostRendererU5BU5D_t132364682* L_5 = __this->get_pool_13();
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, L_6);
+		int32_t L_7 = L_6;
+		SkeletonGhostRenderer_t2396092523 * L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		NullCheck(L_8);
+		SkeletonGhostRenderer_Cleanup_m252934451(L_8, /*hidden argument*/NULL);
+	}
+
+IL_0027:
+	{
+		int32_t L_9 = V_0;
+		V_0 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_002b:
+	{
+		int32_t L_10 = V_0;
+		int32_t L_11 = __this->get_maximumGhosts_6();
+		if ((((int32_t)L_10) < ((int32_t)L_11)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		Dictionary_2_t807872303 * L_12 = __this->get_materialTable_18();
+		NullCheck(L_12);
+		ValueCollection_t3803445312 * L_13 = Dictionary_2_get_Values_m3559228466(L_12, /*hidden argument*/Dictionary_2_get_Values_m3559228466_MethodInfo_var);
+		NullCheck(L_13);
+		Enumerator_t3034673007  L_14 = ValueCollection_GetEnumerator_m2314515130(L_13, /*hidden argument*/ValueCollection_GetEnumerator_m2314515130_MethodInfo_var);
+		V_2 = L_14;
+	}
+
+IL_0048:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_005b;
+		}
+
+IL_004d:
+		{
+			Material_t3870600107 * L_15 = Enumerator_get_Current_m3654504404((&V_2), /*hidden argument*/Enumerator_get_Current_m3654504404_MethodInfo_var);
+			V_1 = L_15;
+			Material_t3870600107 * L_16 = V_1;
+			IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+			Object_Destroy_m176400816(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		}
+
+IL_005b:
+		{
+			bool L_17 = Enumerator_MoveNext_m3707728251((&V_2), /*hidden argument*/Enumerator_MoveNext_m3707728251_MethodInfo_var);
+			if (L_17)
+			{
+				goto IL_004d;
+			}
+		}
+
+IL_0067:
+		{
+			IL2CPP_LEAVE(0x78, FINALLY_006c);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_006c;
+	}
+
+FINALLY_006c:
+	{ // begin finally (depth: 1)
+		Enumerator_t3034673007  L_18 = V_2;
+		Enumerator_t3034673007  L_19 = L_18;
+		Il2CppObject * L_20 = Box(Enumerator_t3034673007_il2cpp_TypeInfo_var, &L_19);
+		NullCheck((Il2CppObject *)L_20);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_20);
+		IL2CPP_END_FINALLY(108)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(108)
+	{
+		IL2CPP_JUMP_TBL(0x78, IL_0078)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_0078:
+	{
+		return;
+	}
+}
+// UnityEngine.Color32 Spine.Unity.Modules.SkeletonGhost::HexToColor(System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral35;
+extern const uint32_t SkeletonGhost_HexToColor_m2873058893_MetadataUsageId;
+extern "C"  Color32_t598853688  SkeletonGhost_HexToColor_m2873058893 (Il2CppObject * __this /* static, unused */, String_t* ___hex0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGhost_HexToColor_m2873058893_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint8_t V_0 = 0x0;
+	uint8_t V_1 = 0x0;
+	uint8_t V_2 = 0x0;
+	uint8_t V_3 = 0x0;
+	{
+		String_t* L_0 = ___hex0;
+		NullCheck(L_0);
+		int32_t L_1 = String_get_Length_m2979997331(L_0, /*hidden argument*/NULL);
+		if ((((int32_t)L_1) >= ((int32_t)6)))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		Color_t4194546905  L_2 = Color_get_magenta_m2892617371(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Color32_t598853688  L_3 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+
+IL_0017:
+	{
+		String_t* L_4 = ___hex0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		NullCheck(L_4);
+		String_t* L_6 = String_Replace_m2915759397(L_4, _stringLiteral35, L_5, /*hidden argument*/NULL);
+		___hex0 = L_6;
+		String_t* L_7 = ___hex0;
+		NullCheck(L_7);
+		String_t* L_8 = String_Substring_m675079568(L_7, 0, 2, /*hidden argument*/NULL);
+		uint8_t L_9 = Byte_Parse_m3258091085(NULL /*static, unused*/, L_8, ((int32_t)515), /*hidden argument*/NULL);
+		V_0 = L_9;
+		String_t* L_10 = ___hex0;
+		NullCheck(L_10);
+		String_t* L_11 = String_Substring_m675079568(L_10, 2, 2, /*hidden argument*/NULL);
+		uint8_t L_12 = Byte_Parse_m3258091085(NULL /*static, unused*/, L_11, ((int32_t)515), /*hidden argument*/NULL);
+		V_1 = L_12;
+		String_t* L_13 = ___hex0;
+		NullCheck(L_13);
+		String_t* L_14 = String_Substring_m675079568(L_13, 4, 2, /*hidden argument*/NULL);
+		uint8_t L_15 = Byte_Parse_m3258091085(NULL /*static, unused*/, L_14, ((int32_t)515), /*hidden argument*/NULL);
+		V_2 = L_15;
+		V_3 = ((int32_t)255);
+		String_t* L_16 = ___hex0;
+		NullCheck(L_16);
+		int32_t L_17 = String_get_Length_m2979997331(L_16, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_17) == ((uint32_t)8))))
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		String_t* L_18 = ___hex0;
+		NullCheck(L_18);
+		String_t* L_19 = String_Substring_m675079568(L_18, 6, 2, /*hidden argument*/NULL);
+		uint8_t L_20 = Byte_Parse_m3258091085(NULL /*static, unused*/, L_19, ((int32_t)515), /*hidden argument*/NULL);
+		V_3 = L_20;
+	}
+
+IL_0087:
+	{
+		uint8_t L_21 = V_0;
+		uint8_t L_22 = V_1;
+		uint8_t L_23 = V_2;
+		uint8_t L_24 = V_3;
+		Color32_t598853688  L_25;
+		memset(&L_25, 0, sizeof(L_25));
+		Color32__ctor_m576906339(&L_25, L_21, L_22, L_23, L_24, /*hidden argument*/NULL);
+		return L_25;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonGhostRenderer::.ctor()
+extern "C"  void SkeletonGhostRenderer__ctor_m1744970225 (SkeletonGhostRenderer_t2396092523 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_fadeSpeed_2((10.0f));
+		Color32_t598853688  L_0;
+		memset(&L_0, 0, sizeof(L_0));
+		Color32__ctor_m576906339(&L_0, 0, 0, 0, 0, /*hidden argument*/NULL);
+		__this->set_black_4(L_0);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonGhostRenderer::Awake()
+extern const MethodInfo* GameObject_AddComponent_TisMeshRenderer_t2804666580_m3074975883_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisMeshFilter_t3839065225_m638563702_MethodInfo_var;
+extern const uint32_t SkeletonGhostRenderer_Awake_m1982575444_MetadataUsageId;
+extern "C"  void SkeletonGhostRenderer_Awake_m1982575444 (SkeletonGhostRenderer_t2396092523 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGhostRenderer_Awake_m1982575444_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		GameObject_t3674682005 * L_0 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		MeshRenderer_t2804666580 * L_1 = GameObject_AddComponent_TisMeshRenderer_t2804666580_m3074975883(L_0, /*hidden argument*/GameObject_AddComponent_TisMeshRenderer_t2804666580_m3074975883_MethodInfo_var);
+		__this->set_meshRenderer_6(L_1);
+		GameObject_t3674682005 * L_2 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		MeshFilter_t3839065225 * L_3 = GameObject_AddComponent_TisMeshFilter_t3839065225_m638563702(L_2, /*hidden argument*/GameObject_AddComponent_TisMeshFilter_t3839065225_m638563702_MethodInfo_var);
+		__this->set_meshFilter_5(L_3);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonGhostRenderer::Initialize(UnityEngine.Mesh,UnityEngine.Material[],UnityEngine.Color32,System.Boolean,System.Single,System.Int32,System.Int32)
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_Instantiate_TisMesh_t4241756145_m1182015290_MethodInfo_var;
+extern const uint32_t SkeletonGhostRenderer_Initialize_m2213837402_MetadataUsageId;
+extern "C"  void SkeletonGhostRenderer_Initialize_m2213837402 (SkeletonGhostRenderer_t2396092523 * __this, Mesh_t4241756145 * ___mesh0, MaterialU5BU5D_t170856778* ___materials1, Color32_t598853688  ___color2, bool ___additive3, float ___speed4, int32_t ___sortingLayerID5, int32_t ___sortingOrder6, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGhostRenderer_Initialize_m2213837402_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		MonoBehaviour_StopAllCoroutines_m1437893335(__this, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_0 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		GameObject_SetActive_m3538205401(L_0, (bool)1, /*hidden argument*/NULL);
+		MeshRenderer_t2804666580 * L_1 = __this->get_meshRenderer_6();
+		MaterialU5BU5D_t170856778* L_2 = ___materials1;
+		NullCheck(L_1);
+		Renderer_set_sharedMaterials_m1255100914(L_1, L_2, /*hidden argument*/NULL);
+		MeshRenderer_t2804666580 * L_3 = __this->get_meshRenderer_6();
+		int32_t L_4 = ___sortingLayerID5;
+		NullCheck(L_3);
+		Renderer_set_sortingLayerID_m1509940016(L_3, L_4, /*hidden argument*/NULL);
+		MeshRenderer_t2804666580 * L_5 = __this->get_meshRenderer_6();
+		int32_t L_6 = ___sortingOrder6;
+		NullCheck(L_5);
+		Renderer_set_sortingOrder_m3971126610(L_5, L_6, /*hidden argument*/NULL);
+		MeshFilter_t3839065225 * L_7 = __this->get_meshFilter_5();
+		Mesh_t4241756145 * L_8 = ___mesh0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		Mesh_t4241756145 * L_9 = Object_Instantiate_TisMesh_t4241756145_m1182015290(NULL /*static, unused*/, L_8, /*hidden argument*/Object_Instantiate_TisMesh_t4241756145_m1182015290_MethodInfo_var);
+		NullCheck(L_7);
+		MeshFilter_set_sharedMesh_m793190055(L_7, L_9, /*hidden argument*/NULL);
+		MeshFilter_t3839065225 * L_10 = __this->get_meshFilter_5();
+		NullCheck(L_10);
+		Mesh_t4241756145 * L_11 = MeshFilter_get_sharedMesh_m2700148450(L_10, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		Color32U5BU5D_t2960766953* L_12 = Mesh_get_colors32_m192356802(L_11, /*hidden argument*/NULL);
+		__this->set_colors_3(L_12);
+		uint8_t L_13 = (&___color2)->get_a_3();
+		uint8_t L_14 = (&___color2)->get_r_0();
+		uint8_t L_15 = (&___color2)->get_g_1();
+		uint8_t L_16 = (&___color2)->get_b_2();
+		if ((((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_13+(int32_t)L_14))+(int32_t)L_15))+(int32_t)L_16))) <= ((int32_t)0)))
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_00a1;
+	}
+
+IL_008b:
+	{
+		Color32U5BU5D_t2960766953* L_17 = __this->get_colors_3();
+		int32_t L_18 = V_0;
+		NullCheck(L_17);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_17, L_18);
+		Color32_t598853688  L_19 = ___color2;
+		(*(Color32_t598853688 *)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))) = L_19;
+		int32_t L_20 = V_0;
+		V_0 = ((int32_t)((int32_t)L_20+(int32_t)1));
+	}
+
+IL_00a1:
+	{
+		int32_t L_21 = V_0;
+		Color32U5BU5D_t2960766953* L_22 = __this->get_colors_3();
+		NullCheck(L_22);
+		if ((((int32_t)L_21) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_22)->max_length)))))))
+		{
+			goto IL_008b;
+		}
+	}
+
+IL_00af:
+	{
+		float L_23 = ___speed4;
+		__this->set_fadeSpeed_2(L_23);
+		bool L_24 = ___additive3;
+		if (!L_24)
+		{
+			goto IL_00d0;
+		}
+	}
+	{
+		Il2CppObject * L_25 = SkeletonGhostRenderer_FadeAdditive_m268515923(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_25, /*hidden argument*/NULL);
+		goto IL_00dd;
+	}
+
+IL_00d0:
+	{
+		Il2CppObject * L_26 = SkeletonGhostRenderer_Fade_m2911710055(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_26, /*hidden argument*/NULL);
+	}
+
+IL_00dd:
+	{
+		return;
+	}
+}
+// System.Collections.IEnumerator Spine.Unity.Modules.SkeletonGhostRenderer::Fade()
+extern Il2CppClass* U3CFadeU3Ec__Iterator8_t3402563106_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonGhostRenderer_Fade_m2911710055_MetadataUsageId;
+extern "C"  Il2CppObject * SkeletonGhostRenderer_Fade_m2911710055 (SkeletonGhostRenderer_t2396092523 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGhostRenderer_Fade_m2911710055_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CFadeU3Ec__Iterator8_t3402563106 * V_0 = NULL;
+	{
+		U3CFadeU3Ec__Iterator8_t3402563106 * L_0 = (U3CFadeU3Ec__Iterator8_t3402563106 *)il2cpp_codegen_object_new(U3CFadeU3Ec__Iterator8_t3402563106_il2cpp_TypeInfo_var);
+		U3CFadeU3Ec__Iterator8__ctor_m895625913(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CFadeU3Ec__Iterator8_t3402563106 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U3CU3Ef__this_6(__this);
+		U3CFadeU3Ec__Iterator8_t3402563106 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Collections.IEnumerator Spine.Unity.Modules.SkeletonGhostRenderer::FadeAdditive()
+extern Il2CppClass* U3CFadeAdditiveU3Ec__Iterator9_t3508023479_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonGhostRenderer_FadeAdditive_m268515923_MetadataUsageId;
+extern "C"  Il2CppObject * SkeletonGhostRenderer_FadeAdditive_m268515923 (SkeletonGhostRenderer_t2396092523 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGhostRenderer_FadeAdditive_m268515923_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CFadeAdditiveU3Ec__Iterator9_t3508023479 * V_0 = NULL;
+	{
+		U3CFadeAdditiveU3Ec__Iterator9_t3508023479 * L_0 = (U3CFadeAdditiveU3Ec__Iterator9_t3508023479 *)il2cpp_codegen_object_new(U3CFadeAdditiveU3Ec__Iterator9_t3508023479_il2cpp_TypeInfo_var);
+		U3CFadeAdditiveU3Ec__Iterator9__ctor_m3993008068(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CFadeAdditiveU3Ec__Iterator9_t3508023479 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U3CU3Ef__this_7(__this);
+		U3CFadeAdditiveU3Ec__Iterator9_t3508023479 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonGhostRenderer::Cleanup()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonGhostRenderer_Cleanup_m252934451_MetadataUsageId;
+extern "C"  void SkeletonGhostRenderer_Cleanup_m252934451 (SkeletonGhostRenderer_t2396092523 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGhostRenderer_Cleanup_m252934451_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		MeshFilter_t3839065225 * L_0 = __this->get_meshFilter_5();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		MeshFilter_t3839065225 * L_2 = __this->get_meshFilter_5();
+		NullCheck(L_2);
+		Mesh_t4241756145 * L_3 = MeshFilter_get_sharedMesh_m2700148450(L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_3, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		MeshFilter_t3839065225 * L_5 = __this->get_meshFilter_5();
+		NullCheck(L_5);
+		Mesh_t4241756145 * L_6 = MeshFilter_get_sharedMesh_m2700148450(L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+	}
+
+IL_0037:
+	{
+		GameObject_t3674682005 * L_7 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonGhostRenderer/<Fade>c__Iterator8::.ctor()
+extern "C"  void U3CFadeU3Ec__Iterator8__ctor_m895625913 (U3CFadeU3Ec__Iterator8_t3402563106 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object Spine.Unity.Modules.SkeletonGhostRenderer/<Fade>c__Iterator8::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CFadeU3Ec__Iterator8_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4017807171 (U3CFadeU3Ec__Iterator8_t3402563106 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_5();
+		return L_0;
+	}
+}
+// System.Object Spine.Unity.Modules.SkeletonGhostRenderer/<Fade>c__Iterator8::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CFadeU3Ec__Iterator8_System_Collections_IEnumerator_get_Current_m3059861719 (U3CFadeU3Ec__Iterator8_t3402563106 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_5();
+		return L_0;
+	}
+}
+// System.Boolean Spine.Unity.Modules.SkeletonGhostRenderer/<Fade>c__Iterator8::MoveNext()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const uint32_t U3CFadeU3Ec__Iterator8_MoveNext_m2676801155_MetadataUsageId;
+extern "C"  bool U3CFadeU3Ec__Iterator8_MoveNext_m2676801155 (U3CFadeU3Ec__Iterator8_t3402563106 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CFadeU3Ec__Iterator8_MoveNext_m2676801155_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->get_U24PC_4();
+		V_0 = L_0;
+		__this->set_U24PC_4((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		goto IL_016f;
+	}
+
+IL_0021:
+	{
+		__this->set_U3CtU3E__0_0(0);
+		goto IL_0132;
+	}
+
+IL_002d:
+	{
+		__this->set_U3CbreakoutU3E__1_1((bool)1);
+		__this->set_U3CiU3E__2_2(0);
+		goto IL_00c9;
+	}
+
+IL_0040:
+	{
+		SkeletonGhostRenderer_t2396092523 * L_2 = __this->get_U3CU3Ef__this_6();
+		NullCheck(L_2);
+		Color32U5BU5D_t2960766953* L_3 = L_2->get_colors_3();
+		int32_t L_4 = __this->get_U3CiU3E__2_2();
+		NullCheck(L_3);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, L_4);
+		__this->set_U3CcU3E__3_3((*(Color32_t598853688 *)((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)))));
+		Color32_t598853688 * L_5 = __this->get_address_of_U3CcU3E__3_3();
+		uint8_t L_6 = L_5->get_a_3();
+		if ((((int32_t)L_6) <= ((int32_t)0)))
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		__this->set_U3CbreakoutU3E__1_1((bool)0);
+	}
+
+IL_0079:
+	{
+		SkeletonGhostRenderer_t2396092523 * L_7 = __this->get_U3CU3Ef__this_6();
+		NullCheck(L_7);
+		Color32U5BU5D_t2960766953* L_8 = L_7->get_colors_3();
+		int32_t L_9 = __this->get_U3CiU3E__2_2();
+		NullCheck(L_8);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, L_9);
+		Color32_t598853688  L_10 = __this->get_U3CcU3E__3_3();
+		SkeletonGhostRenderer_t2396092523 * L_11 = __this->get_U3CU3Ef__this_6();
+		NullCheck(L_11);
+		Color32_t598853688  L_12 = L_11->get_black_4();
+		float L_13 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		SkeletonGhostRenderer_t2396092523 * L_14 = __this->get_U3CU3Ef__this_6();
+		NullCheck(L_14);
+		float L_15 = L_14->get_fadeSpeed_2();
+		Color32_t598853688  L_16 = Color32_Lerp_m3254893809(NULL /*static, unused*/, L_10, L_12, ((float)((float)L_13*(float)L_15)), /*hidden argument*/NULL);
+		(*(Color32_t598853688 *)((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)))) = L_16;
+		int32_t L_17 = __this->get_U3CiU3E__2_2();
+		__this->set_U3CiU3E__2_2(((int32_t)((int32_t)L_17+(int32_t)1)));
+	}
+
+IL_00c9:
+	{
+		int32_t L_18 = __this->get_U3CiU3E__2_2();
+		SkeletonGhostRenderer_t2396092523 * L_19 = __this->get_U3CU3Ef__this_6();
+		NullCheck(L_19);
+		Color32U5BU5D_t2960766953* L_20 = L_19->get_colors_3();
+		NullCheck(L_20);
+		if ((((int32_t)L_18) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_20)->max_length)))))))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		SkeletonGhostRenderer_t2396092523 * L_21 = __this->get_U3CU3Ef__this_6();
+		NullCheck(L_21);
+		MeshFilter_t3839065225 * L_22 = L_21->get_meshFilter_5();
+		NullCheck(L_22);
+		Mesh_t4241756145 * L_23 = MeshFilter_get_sharedMesh_m2700148450(L_22, /*hidden argument*/NULL);
+		SkeletonGhostRenderer_t2396092523 * L_24 = __this->get_U3CU3Ef__this_6();
+		NullCheck(L_24);
+		Color32U5BU5D_t2960766953* L_25 = L_24->get_colors_3();
+		NullCheck(L_23);
+		Mesh_set_colors32_m119130293(L_23, L_25, /*hidden argument*/NULL);
+		bool L_26 = __this->get_U3CbreakoutU3E__1_1();
+		if (!L_26)
+		{
+			goto IL_0111;
+		}
+	}
+	{
+		goto IL_0142;
+	}
+
+IL_0111:
+	{
+		__this->set_U24current_5(NULL);
+		__this->set_U24PC_4(1);
+		goto IL_0171;
+	}
+
+IL_0124:
+	{
+		int32_t L_27 = __this->get_U3CtU3E__0_0();
+		__this->set_U3CtU3E__0_0(((int32_t)((int32_t)L_27+(int32_t)1)));
+	}
+
+IL_0132:
+	{
+		int32_t L_28 = __this->get_U3CtU3E__0_0();
+		if ((((int32_t)L_28) < ((int32_t)((int32_t)500))))
+		{
+			goto IL_002d;
+		}
+	}
+
+IL_0142:
+	{
+		SkeletonGhostRenderer_t2396092523 * L_29 = __this->get_U3CU3Ef__this_6();
+		NullCheck(L_29);
+		MeshFilter_t3839065225 * L_30 = L_29->get_meshFilter_5();
+		NullCheck(L_30);
+		Mesh_t4241756145 * L_31 = MeshFilter_get_sharedMesh_m2700148450(L_30, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
+		SkeletonGhostRenderer_t2396092523 * L_32 = __this->get_U3CU3Ef__this_6();
+		NullCheck(L_32);
+		GameObject_t3674682005 * L_33 = Component_get_gameObject_m1170635899(L_32, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		GameObject_SetActive_m3538205401(L_33, (bool)0, /*hidden argument*/NULL);
+		__this->set_U24PC_4((-1));
+	}
+
+IL_016f:
+	{
+		return (bool)0;
+	}
+
+IL_0171:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_0173: ldloc.1
+}
+// System.Void Spine.Unity.Modules.SkeletonGhostRenderer/<Fade>c__Iterator8::Dispose()
+extern "C"  void U3CFadeU3Ec__Iterator8_Dispose_m1601326262 (U3CFadeU3Ec__Iterator8_t3402563106 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_4((-1));
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonGhostRenderer/<Fade>c__Iterator8::Reset()
+extern Il2CppClass* NotSupportedException_t1732551818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CFadeU3Ec__Iterator8_Reset_m2837026150_MetadataUsageId;
+extern "C"  void U3CFadeU3Ec__Iterator8_Reset_m2837026150 (U3CFadeU3Ec__Iterator8_t3402563106 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CFadeU3Ec__Iterator8_Reset_m2837026150_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1732551818 * L_0 = (NotSupportedException_t1732551818 *)il2cpp_codegen_object_new(NotSupportedException_t1732551818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonGhostRenderer/<FadeAdditive>c__Iterator9::.ctor()
+extern "C"  void U3CFadeAdditiveU3Ec__Iterator9__ctor_m3993008068 (U3CFadeAdditiveU3Ec__Iterator9_t3508023479 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object Spine.Unity.Modules.SkeletonGhostRenderer/<FadeAdditive>c__Iterator9::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CFadeAdditiveU3Ec__Iterator9_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1445977624 (U3CFadeAdditiveU3Ec__Iterator9_t3508023479 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_6();
+		return L_0;
+	}
+}
+// System.Object Spine.Unity.Modules.SkeletonGhostRenderer/<FadeAdditive>c__Iterator9::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CFadeAdditiveU3Ec__Iterator9_System_Collections_IEnumerator_get_Current_m4149285292 (U3CFadeAdditiveU3Ec__Iterator9_t3508023479 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_6();
+		return L_0;
+	}
+}
+// System.Boolean Spine.Unity.Modules.SkeletonGhostRenderer/<FadeAdditive>c__Iterator9::MoveNext()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const uint32_t U3CFadeAdditiveU3Ec__Iterator9_MoveNext_m978869656_MetadataUsageId;
+extern "C"  bool U3CFadeAdditiveU3Ec__Iterator9_MoveNext_m978869656 (U3CFadeAdditiveU3Ec__Iterator9_t3508023479 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CFadeAdditiveU3Ec__Iterator9_MoveNext_m978869656_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->get_U24PC_5();
+		V_0 = L_0;
+		__this->set_U24PC_5((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0168;
+		}
+	}
+	{
+		goto IL_01b3;
+	}
+
+IL_0021:
+	{
+		SkeletonGhostRenderer_t2396092523 * L_2 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_2);
+		Color32_t598853688  L_3 = L_2->get_black_4();
+		__this->set_U3CblackU3E__0_0(L_3);
+		__this->set_U3CtU3E__1_1(0);
+		goto IL_0176;
+	}
+
+IL_003e:
+	{
+		__this->set_U3CbreakoutU3E__2_2((bool)1);
+		__this->set_U3CiU3E__3_3(0);
+		goto IL_010d;
+	}
+
+IL_0051:
+	{
+		SkeletonGhostRenderer_t2396092523 * L_4 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_4);
+		Color32U5BU5D_t2960766953* L_5 = L_4->get_colors_3();
+		int32_t L_6 = __this->get_U3CiU3E__3_3();
+		NullCheck(L_5);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, L_6);
+		__this->set_U3CcU3E__4_4((*(Color32_t598853688 *)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))));
+		Color32_t598853688 * L_7 = __this->get_address_of_U3CblackU3E__0_0();
+		Color32_t598853688 * L_8 = __this->get_address_of_U3CcU3E__4_4();
+		uint8_t L_9 = L_8->get_a_3();
+		L_7->set_a_3(L_9);
+		Color32_t598853688 * L_10 = __this->get_address_of_U3CcU3E__4_4();
+		uint8_t L_11 = L_10->get_r_0();
+		if ((((int32_t)L_11) > ((int32_t)0)))
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		Color32_t598853688 * L_12 = __this->get_address_of_U3CcU3E__4_4();
+		uint8_t L_13 = L_12->get_g_1();
+		if ((((int32_t)L_13) > ((int32_t)0)))
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		Color32_t598853688 * L_14 = __this->get_address_of_U3CcU3E__4_4();
+		uint8_t L_15 = L_14->get_b_2();
+		if ((((int32_t)L_15) <= ((int32_t)0)))
+		{
+			goto IL_00c2;
+		}
+	}
+
+IL_00bb:
+	{
+		__this->set_U3CbreakoutU3E__2_2((bool)0);
+	}
+
+IL_00c2:
+	{
+		SkeletonGhostRenderer_t2396092523 * L_16 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_16);
+		Color32U5BU5D_t2960766953* L_17 = L_16->get_colors_3();
+		int32_t L_18 = __this->get_U3CiU3E__3_3();
+		NullCheck(L_17);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_17, L_18);
+		Color32_t598853688  L_19 = __this->get_U3CcU3E__4_4();
+		Color32_t598853688  L_20 = __this->get_U3CblackU3E__0_0();
+		float L_21 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		SkeletonGhostRenderer_t2396092523 * L_22 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_22);
+		float L_23 = L_22->get_fadeSpeed_2();
+		Color32_t598853688  L_24 = Color32_Lerp_m3254893809(NULL /*static, unused*/, L_19, L_20, ((float)((float)L_21*(float)L_23)), /*hidden argument*/NULL);
+		(*(Color32_t598853688 *)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))) = L_24;
+		int32_t L_25 = __this->get_U3CiU3E__3_3();
+		__this->set_U3CiU3E__3_3(((int32_t)((int32_t)L_25+(int32_t)1)));
+	}
+
+IL_010d:
+	{
+		int32_t L_26 = __this->get_U3CiU3E__3_3();
+		SkeletonGhostRenderer_t2396092523 * L_27 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_27);
+		Color32U5BU5D_t2960766953* L_28 = L_27->get_colors_3();
+		NullCheck(L_28);
+		if ((((int32_t)L_26) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_28)->max_length)))))))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		SkeletonGhostRenderer_t2396092523 * L_29 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_29);
+		MeshFilter_t3839065225 * L_30 = L_29->get_meshFilter_5();
+		NullCheck(L_30);
+		Mesh_t4241756145 * L_31 = MeshFilter_get_sharedMesh_m2700148450(L_30, /*hidden argument*/NULL);
+		SkeletonGhostRenderer_t2396092523 * L_32 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_32);
+		Color32U5BU5D_t2960766953* L_33 = L_32->get_colors_3();
+		NullCheck(L_31);
+		Mesh_set_colors32_m119130293(L_31, L_33, /*hidden argument*/NULL);
+		bool L_34 = __this->get_U3CbreakoutU3E__2_2();
+		if (!L_34)
+		{
+			goto IL_0155;
+		}
+	}
+	{
+		goto IL_0186;
+	}
+
+IL_0155:
+	{
+		__this->set_U24current_6(NULL);
+		__this->set_U24PC_5(1);
+		goto IL_01b5;
+	}
+
+IL_0168:
+	{
+		int32_t L_35 = __this->get_U3CtU3E__1_1();
+		__this->set_U3CtU3E__1_1(((int32_t)((int32_t)L_35+(int32_t)1)));
+	}
+
+IL_0176:
+	{
+		int32_t L_36 = __this->get_U3CtU3E__1_1();
+		if ((((int32_t)L_36) < ((int32_t)((int32_t)500))))
+		{
+			goto IL_003e;
+		}
+	}
+
+IL_0186:
+	{
+		SkeletonGhostRenderer_t2396092523 * L_37 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_37);
+		MeshFilter_t3839065225 * L_38 = L_37->get_meshFilter_5();
+		NullCheck(L_38);
+		Mesh_t4241756145 * L_39 = MeshFilter_get_sharedMesh_m2700148450(L_38, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
+		SkeletonGhostRenderer_t2396092523 * L_40 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_40);
+		GameObject_t3674682005 * L_41 = Component_get_gameObject_m1170635899(L_40, /*hidden argument*/NULL);
+		NullCheck(L_41);
+		GameObject_SetActive_m3538205401(L_41, (bool)0, /*hidden argument*/NULL);
+		__this->set_U24PC_5((-1));
+	}
+
+IL_01b3:
+	{
+		return (bool)0;
+	}
+
+IL_01b5:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_01b7: ldloc.1
+}
+// System.Void Spine.Unity.Modules.SkeletonGhostRenderer/<FadeAdditive>c__Iterator9::Dispose()
+extern "C"  void U3CFadeAdditiveU3Ec__Iterator9_Dispose_m1773241089 (U3CFadeAdditiveU3Ec__Iterator9_t3508023479 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_5((-1));
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonGhostRenderer/<FadeAdditive>c__Iterator9::Reset()
+extern Il2CppClass* NotSupportedException_t1732551818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CFadeAdditiveU3Ec__Iterator9_Reset_m1639441009_MetadataUsageId;
+extern "C"  void U3CFadeAdditiveU3Ec__Iterator9_Reset_m1639441009 (U3CFadeAdditiveU3Ec__Iterator9_t3508023479 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CFadeAdditiveU3Ec__Iterator9_Reset_m1639441009_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1732551818 * L_0 = (NotSupportedException_t1732551818 *)il2cpp_codegen_object_new(NotSupportedException_t1732551818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonPartsRenderer::.ctor()
+extern "C"  void SkeletonPartsRenderer__ctor_m2323971520 (SkeletonPartsRenderer_t3661907900 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Spine.Unity.MeshGeneration.ISubmeshSetMeshGenerator Spine.Unity.Modules.SkeletonPartsRenderer::get_MeshGenerator()
+extern "C"  Il2CppObject * SkeletonPartsRenderer_get_MeshGenerator_m3096151393 (SkeletonPartsRenderer_t3661907900 * __this, const MethodInfo* method)
+{
+	{
+		SkeletonPartsRenderer_LazyIntialize_m200107321(__this, /*hidden argument*/NULL);
+		Il2CppObject * L_0 = __this->get_meshGenerator_2();
+		return L_0;
+	}
+}
+// UnityEngine.MeshRenderer Spine.Unity.Modules.SkeletonPartsRenderer::get_MeshRenderer()
+extern "C"  MeshRenderer_t2804666580 * SkeletonPartsRenderer_get_MeshRenderer_m1306459527 (SkeletonPartsRenderer_t3661907900 * __this, const MethodInfo* method)
+{
+	{
+		SkeletonPartsRenderer_LazyIntialize_m200107321(__this, /*hidden argument*/NULL);
+		MeshRenderer_t2804666580 * L_0 = __this->get_meshRenderer_3();
+		return L_0;
+	}
+}
+// UnityEngine.MeshFilter Spine.Unity.Modules.SkeletonPartsRenderer::get_MeshFilter()
+extern "C"  MeshFilter_t3839065225 * SkeletonPartsRenderer_get_MeshFilter_m2990257329 (SkeletonPartsRenderer_t3661907900 * __this, const MethodInfo* method)
+{
+	{
+		SkeletonPartsRenderer_LazyIntialize_m200107321(__this, /*hidden argument*/NULL);
+		MeshFilter_t3839065225 * L_0 = __this->get_meshFilter_4();
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonPartsRenderer::LazyIntialize()
+extern Il2CppClass* ArraysSubmeshSetMeshGenerator_t2045020741_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisMeshFilter_t3839065225_m3816897097_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisMeshRenderer_t2804666580_m3731621022_MethodInfo_var;
+extern const uint32_t SkeletonPartsRenderer_LazyIntialize_m200107321_MetadataUsageId;
+extern "C"  void SkeletonPartsRenderer_LazyIntialize_m200107321 (SkeletonPartsRenderer_t3661907900 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonPartsRenderer_LazyIntialize_m200107321_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get_meshGenerator_2();
+		if (!L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		ArraysSubmeshSetMeshGenerator_t2045020741 * L_1 = (ArraysSubmeshSetMeshGenerator_t2045020741 *)il2cpp_codegen_object_new(ArraysSubmeshSetMeshGenerator_t2045020741_il2cpp_TypeInfo_var);
+		ArraysSubmeshSetMeshGenerator__ctor_m4171358409(L_1, /*hidden argument*/NULL);
+		__this->set_meshGenerator_2(L_1);
+		MeshFilter_t3839065225 * L_2 = Component_GetComponent_TisMeshFilter_t3839065225_m3816897097(__this, /*hidden argument*/Component_GetComponent_TisMeshFilter_t3839065225_m3816897097_MethodInfo_var);
+		__this->set_meshFilter_4(L_2);
+		MeshRenderer_t2804666580 * L_3 = Component_GetComponent_TisMeshRenderer_t2804666580_m3731621022(__this, /*hidden argument*/Component_GetComponent_TisMeshRenderer_t2804666580_m3731621022_MethodInfo_var);
+		__this->set_meshRenderer_3(L_3);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonPartsRenderer::ClearMesh()
+extern "C"  void SkeletonPartsRenderer_ClearMesh_m1375432632 (SkeletonPartsRenderer_t3661907900 * __this, const MethodInfo* method)
+{
+	{
+		SkeletonPartsRenderer_LazyIntialize_m200107321(__this, /*hidden argument*/NULL);
+		MeshFilter_t3839065225 * L_0 = __this->get_meshFilter_4();
+		NullCheck(L_0);
+		MeshFilter_set_sharedMesh_m793190055(L_0, (Mesh_t4241756145 *)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonPartsRenderer::RenderParts(Spine.ExposedList`1<Spine.Unity.MeshGeneration.SubmeshInstruction>,System.Int32,System.Int32)
+extern Il2CppClass* ISubmeshSetMeshGenerator_t3306192096_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonPartsRenderer_RenderParts_m4026733528_MetadataUsageId;
+extern "C"  void SkeletonPartsRenderer_RenderParts_m4026733528 (SkeletonPartsRenderer_t3661907900 * __this, ExposedList_1_t723286955 * ___instructions0, int32_t ___startSubmesh1, int32_t ___endSubmesh2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonPartsRenderer_RenderParts_m4026733528_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	MeshAndMaterials_t234526394  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		SkeletonPartsRenderer_LazyIntialize_m200107321(__this, /*hidden argument*/NULL);
+		Il2CppObject * L_0 = __this->get_meshGenerator_2();
+		ExposedList_1_t723286955 * L_1 = ___instructions0;
+		int32_t L_2 = ___startSubmesh1;
+		int32_t L_3 = ___endSubmesh2;
+		NullCheck(L_0);
+		MeshAndMaterials_t234526394  L_4 = InterfaceFuncInvoker3< MeshAndMaterials_t234526394 , ExposedList_1_t723286955 *, int32_t, int32_t >::Invoke(0 /* Spine.Unity.MeshGeneration.MeshAndMaterials Spine.Unity.MeshGeneration.ISubmeshSetMeshGenerator::GenerateMesh(Spine.ExposedList`1<Spine.Unity.MeshGeneration.SubmeshInstruction>,System.Int32,System.Int32) */, ISubmeshSetMeshGenerator_t3306192096_il2cpp_TypeInfo_var, L_0, L_1, L_2, L_3);
+		V_0 = L_4;
+		MeshFilter_t3839065225 * L_5 = __this->get_meshFilter_4();
+		Mesh_t4241756145 * L_6 = (&V_0)->get_mesh_0();
+		NullCheck(L_5);
+		MeshFilter_set_sharedMesh_m793190055(L_5, L_6, /*hidden argument*/NULL);
+		MeshRenderer_t2804666580 * L_7 = __this->get_meshRenderer_3();
+		MaterialU5BU5D_t170856778* L_8 = (&V_0)->get_materials_1();
+		NullCheck(L_7);
+		Renderer_set_sharedMaterials_m1255100914(L_7, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonPartsRenderer::SetPropertyBlock(UnityEngine.MaterialPropertyBlock)
+extern "C"  void SkeletonPartsRenderer_SetPropertyBlock_m3147267262 (SkeletonPartsRenderer_t3661907900 * __this, MaterialPropertyBlock_t1322387783 * ___block0, const MethodInfo* method)
+{
+	{
+		SkeletonPartsRenderer_LazyIntialize_m200107321(__this, /*hidden argument*/NULL);
+		MeshRenderer_t2804666580 * L_0 = __this->get_meshRenderer_3();
+		MaterialPropertyBlock_t1322387783 * L_1 = ___block0;
+		NullCheck(L_0);
+		Renderer_SetPropertyBlock_m1621888008(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Spine.Unity.Modules.SkeletonPartsRenderer Spine.Unity.Modules.SkeletonPartsRenderer::NewPartsRendererGameObject(UnityEngine.Transform,System.String)
+extern const Il2CppType* MeshFilter_t3839065225_0_0_0_var;
+extern const Il2CppType* MeshRenderer_t2804666580_0_0_0_var;
+extern Il2CppClass* TypeU5BU5D_t3339007067_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObject_t3674682005_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisSkeletonPartsRenderer_t3661907900_m4028673409_MethodInfo_var;
+extern const uint32_t SkeletonPartsRenderer_NewPartsRendererGameObject_m2382428393_MetadataUsageId;
+extern "C"  SkeletonPartsRenderer_t3661907900 * SkeletonPartsRenderer_NewPartsRendererGameObject_m2382428393 (Il2CppObject * __this /* static, unused */, Transform_t1659122786 * ___parent0, String_t* ___name1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonPartsRenderer_NewPartsRendererGameObject_m2382428393_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	GameObject_t3674682005 * V_0 = NULL;
+	SkeletonPartsRenderer_t3661907900 * V_1 = NULL;
+	{
+		String_t* L_0 = ___name1;
+		TypeU5BU5D_t3339007067* L_1 = ((TypeU5BU5D_t3339007067*)SZArrayNew(TypeU5BU5D_t3339007067_il2cpp_TypeInfo_var, (uint32_t)2));
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_2 = Type_GetTypeFromHandle_m3806905434(NULL /*static, unused*/, LoadTypeToken(MeshFilter_t3839065225_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_1);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
+		ArrayElementTypeCheck (L_1, L_2);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_2);
+		TypeU5BU5D_t3339007067* L_3 = L_1;
+		Type_t * L_4 = Type_GetTypeFromHandle_m3806905434(NULL /*static, unused*/, LoadTypeToken(MeshRenderer_t2804666580_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_3);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, 1);
+		ArrayElementTypeCheck (L_3, L_4);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (Type_t *)L_4);
+		GameObject_t3674682005 * L_5 = (GameObject_t3674682005 *)il2cpp_codegen_object_new(GameObject_t3674682005_il2cpp_TypeInfo_var);
+		GameObject__ctor_m176066391(L_5, L_0, L_3, /*hidden argument*/NULL);
+		V_0 = L_5;
+		GameObject_t3674682005 * L_6 = V_0;
+		NullCheck(L_6);
+		Transform_t1659122786 * L_7 = GameObject_get_transform_m1278640159(L_6, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_8 = ___parent0;
+		NullCheck(L_7);
+		Transform_SetParent_m263985879(L_7, L_8, (bool)0, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_9 = V_0;
+		NullCheck(L_9);
+		SkeletonPartsRenderer_t3661907900 * L_10 = GameObject_AddComponent_TisSkeletonPartsRenderer_t3661907900_m4028673409(L_9, /*hidden argument*/GameObject_AddComponent_TisSkeletonPartsRenderer_t3661907900_m4028673409_MethodInfo_var);
+		V_1 = L_10;
+		SkeletonPartsRenderer_t3661907900 * L_11 = V_1;
+		return L_11;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll::.ctor()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1375417109_il2cpp_TypeInfo_var;
+extern Il2CppClass* Dictionary_2_t21045661_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m459821414_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2534008106_MethodInfo_var;
+extern const uint32_t SkeletonRagdoll__ctor_m2621708832_MetadataUsageId;
+extern "C"  void SkeletonRagdoll__ctor_m2621708832 (SkeletonRagdoll_t105860444 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll__ctor_m2621708832_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_startingBoneName_3(L_0);
+		List_1_t1375417109 * L_1 = (List_1_t1375417109 *)il2cpp_codegen_object_new(List_1_t1375417109_il2cpp_TypeInfo_var);
+		List_1__ctor_m459821414(L_1, /*hidden argument*/List_1__ctor_m459821414_MethodInfo_var);
+		__this->set_stopBoneNames_4(L_1);
+		__this->set_disableIK_6((bool)1);
+		__this->set_useGravity_10((bool)1);
+		__this->set_thickness_11((0.125f));
+		__this->set_rotationLimit_12((20.0f));
+		__this->set_rootMass_13((20.0f));
+		__this->set_massFalloffFactor_14((0.4f));
+		__this->set_mix_16((1.0f));
+		Dictionary_2_t21045661 * L_2 = (Dictionary_2_t21045661 *)il2cpp_codegen_object_new(Dictionary_2_t21045661_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m2534008106(L_2, /*hidden argument*/Dictionary_2__ctor_m2534008106_MethodInfo_var);
+		__this->set_boneTable_19(L_2);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Rigidbody Spine.Unity.Modules.SkeletonRagdoll::get_RootRigidbody()
+extern "C"  Rigidbody_t3346577219 * SkeletonRagdoll_get_RootRigidbody_m715571261 (SkeletonRagdoll_t105860444 * __this, const MethodInfo* method)
+{
+	{
+		Rigidbody_t3346577219 * L_0 = __this->get_U3CRootRigidbodyU3Ek__BackingField_23();
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll::set_RootRigidbody(UnityEngine.Rigidbody)
+extern "C"  void SkeletonRagdoll_set_RootRigidbody_m579177808 (SkeletonRagdoll_t105860444 * __this, Rigidbody_t3346577219 * ___value0, const MethodInfo* method)
+{
+	{
+		Rigidbody_t3346577219 * L_0 = ___value0;
+		__this->set_U3CRootRigidbodyU3Ek__BackingField_23(L_0);
+		return;
+	}
+}
+// Spine.Bone Spine.Unity.Modules.SkeletonRagdoll::get_StartingBone()
+extern "C"  Bone_t1650489600 * SkeletonRagdoll_get_StartingBone_m241031523 (SkeletonRagdoll_t105860444 * __this, const MethodInfo* method)
+{
+	{
+		Bone_t1650489600 * L_0 = __this->get_U3CStartingBoneU3Ek__BackingField_24();
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll::set_StartingBone(Spine.Bone)
+extern "C"  void SkeletonRagdoll_set_StartingBone_m4257538934 (SkeletonRagdoll_t105860444 * __this, Bone_t1650489600 * ___value0, const MethodInfo* method)
+{
+	{
+		Bone_t1650489600 * L_0 = ___value0;
+		__this->set_U3CStartingBoneU3Ek__BackingField_24(L_0);
+		return;
+	}
+}
+// UnityEngine.Vector3 Spine.Unity.Modules.SkeletonRagdoll::get_RootOffset()
+extern "C"  Vector3_t4282066566  SkeletonRagdoll_get_RootOffset_m2825303880 (SkeletonRagdoll_t105860444 * __this, const MethodInfo* method)
+{
+	{
+		Vector3_t4282066566  L_0 = __this->get_rootOffset_21();
+		return L_0;
+	}
+}
+// System.Boolean Spine.Unity.Modules.SkeletonRagdoll::get_IsActive()
+extern "C"  bool SkeletonRagdoll_get_IsActive_m3186383433 (SkeletonRagdoll_t105860444 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_isActive_22();
+		return L_0;
+	}
+}
+// System.Collections.IEnumerator Spine.Unity.Modules.SkeletonRagdoll::Start()
+extern Il2CppClass* U3CStartU3Ec__IteratorA_t3031973476_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonRagdoll_Start_m1719723368_MetadataUsageId;
+extern "C"  Il2CppObject * SkeletonRagdoll_Start_m1719723368 (SkeletonRagdoll_t105860444 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll_Start_m1719723368_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CStartU3Ec__IteratorA_t3031973476 * V_0 = NULL;
+	{
+		U3CStartU3Ec__IteratorA_t3031973476 * L_0 = (U3CStartU3Ec__IteratorA_t3031973476 *)il2cpp_codegen_object_new(U3CStartU3Ec__IteratorA_t3031973476_il2cpp_TypeInfo_var);
+		U3CStartU3Ec__IteratorA__ctor_m488010119(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CStartU3Ec__IteratorA_t3031973476 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U3CU3Ef__this_2(__this);
+		U3CStartU3Ec__IteratorA_t3031973476 * L_2 = V_0;
+		return L_2;
+	}
+}
+// UnityEngine.Rigidbody[] Spine.Unity.Modules.SkeletonRagdoll::get_RigidbodyArray()
+extern Il2CppClass* RigidbodyU5BU5D_t1403726930_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t2247846365_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Count_m1879153596_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Values_m4257690398_MethodInfo_var;
+extern const MethodInfo* ValueCollection_GetEnumerator_m3250200228_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2652612534_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRigidbody_t3346577219_m2174365699_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2860981703_MethodInfo_var;
+extern const uint32_t SkeletonRagdoll_get_RigidbodyArray_m1009795038_MetadataUsageId;
+extern "C"  RigidbodyU5BU5D_t1403726930* SkeletonRagdoll_get_RigidbodyArray_m1009795038 (SkeletonRagdoll_t105860444 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll_get_RigidbodyArray_m1009795038_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	RigidbodyU5BU5D_t1403726930* V_0 = NULL;
+	int32_t V_1 = 0;
+	Transform_t1659122786 * V_2 = NULL;
+	Enumerator_t2247846365  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		bool L_0 = __this->get_isActive_22();
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return ((RigidbodyU5BU5D_t1403726930*)SZArrayNew(RigidbodyU5BU5D_t1403726930_il2cpp_TypeInfo_var, (uint32_t)0));
+	}
+
+IL_0012:
+	{
+		Dictionary_2_t21045661 * L_1 = __this->get_boneTable_19();
+		NullCheck(L_1);
+		int32_t L_2 = Dictionary_2_get_Count_m1879153596(L_1, /*hidden argument*/Dictionary_2_get_Count_m1879153596_MethodInfo_var);
+		V_0 = ((RigidbodyU5BU5D_t1403726930*)SZArrayNew(RigidbodyU5BU5D_t1403726930_il2cpp_TypeInfo_var, (uint32_t)L_2));
+		V_1 = 0;
+		Dictionary_2_t21045661 * L_3 = __this->get_boneTable_19();
+		NullCheck(L_3);
+		ValueCollection_t3016618670 * L_4 = Dictionary_2_get_Values_m4257690398(L_3, /*hidden argument*/Dictionary_2_get_Values_m4257690398_MethodInfo_var);
+		NullCheck(L_4);
+		Enumerator_t2247846365  L_5 = ValueCollection_GetEnumerator_m3250200228(L_4, /*hidden argument*/ValueCollection_GetEnumerator_m3250200228_MethodInfo_var);
+		V_3 = L_5;
+	}
+
+IL_0036:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0050;
+		}
+
+IL_003b:
+		{
+			Transform_t1659122786 * L_6 = Enumerator_get_Current_m2652612534((&V_3), /*hidden argument*/Enumerator_get_Current_m2652612534_MethodInfo_var);
+			V_2 = L_6;
+			RigidbodyU5BU5D_t1403726930* L_7 = V_0;
+			int32_t L_8 = V_1;
+			Transform_t1659122786 * L_9 = V_2;
+			NullCheck(L_9);
+			Rigidbody_t3346577219 * L_10 = Component_GetComponent_TisRigidbody_t3346577219_m2174365699(L_9, /*hidden argument*/Component_GetComponent_TisRigidbody_t3346577219_m2174365699_MethodInfo_var);
+			NullCheck(L_7);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_7, L_8);
+			ArrayElementTypeCheck (L_7, L_10);
+			(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (Rigidbody_t3346577219 *)L_10);
+			int32_t L_11 = V_1;
+			V_1 = ((int32_t)((int32_t)L_11+(int32_t)1));
+		}
+
+IL_0050:
+		{
+			bool L_12 = Enumerator_MoveNext_m2860981703((&V_3), /*hidden argument*/Enumerator_MoveNext_m2860981703_MethodInfo_var);
+			if (L_12)
+			{
+				goto IL_003b;
+			}
+		}
+
+IL_005c:
+		{
+			IL2CPP_LEAVE(0x6D, FINALLY_0061);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_0061;
+	}
+
+FINALLY_0061:
+	{ // begin finally (depth: 1)
+		Enumerator_t2247846365  L_13 = V_3;
+		Enumerator_t2247846365  L_14 = L_13;
+		Il2CppObject * L_15 = Box(Enumerator_t2247846365_il2cpp_TypeInfo_var, &L_14);
+		NullCheck((Il2CppObject *)L_15);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_15);
+		IL2CPP_END_FINALLY(97)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(97)
+	{
+		IL2CPP_JUMP_TBL(0x6D, IL_006d)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_006d:
+	{
+		RigidbodyU5BU5D_t1403726930* L_16 = V_0;
+		return L_16;
+	}
+}
+// UnityEngine.Vector3 Spine.Unity.Modules.SkeletonRagdoll::get_EstimatedSkeletonPosition()
+extern "C"  Vector3_t4282066566  SkeletonRagdoll_get_EstimatedSkeletonPosition_m1935990721 (SkeletonRagdoll_t105860444 * __this, const MethodInfo* method)
+{
+	{
+		Rigidbody_t3346577219 * L_0 = SkeletonRagdoll_get_RootRigidbody_m715571261(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Vector3_t4282066566  L_1 = Rigidbody_get_position_m1751901360(L_0, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_2 = __this->get_rootOffset_21();
+		Vector3_t4282066566  L_3 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll::Apply()
+extern Il2CppClass* List_1_t12892488_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObject_t3674682005_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* JointLimits_t3539604472_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t1338369053_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1375417109_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m684300090_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRigidbody_t3346577219_m2174365699_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m4097552150_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m1258019364_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3438782534_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m3038660598_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m1562041383_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisCollider_t2939674232_m3246438266_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m3791912966_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisHingeJoint_t1734115043_m2885180636_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3952993927_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m3531351725_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m1891366696_MethodInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisSkeletonUtilityBone_t1973204173_m1854961193_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m459821414_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m4975193_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m935595982_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1424439513_MethodInfo_var;
+extern const MethodInfo* SkeletonRagdoll_UpdateSpineSkeleton_m2953477267_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral717963973;
+extern Il2CppCodeGenString* _stringLiteral3504801402;
+extern Il2CppCodeGenString* _stringLiteral44;
+extern const uint32_t SkeletonRagdoll_Apply_m2672811820_MetadataUsageId;
+extern "C"  void SkeletonRagdoll_Apply_m2672811820 (SkeletonRagdoll_t105860444 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll_Apply_m2672811820_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t12892488 * V_0 = NULL;
+	KeyValuePair_2_t4214793663  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Enumerator_t1338369053  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Bone_t1650489600 * V_3 = NULL;
+	Transform_t1659122786 * V_4 = NULL;
+	Transform_t1659122786 * V_5 = NULL;
+	Rigidbody_t3346577219 * V_6 = NULL;
+	HingeJoint_t1734115043 * V_7 = NULL;
+	Vector3_t4282066566  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	SkeletonUtilityBoneU5BU5D_t3282724192* V_11 = NULL;
+	List_1_t1375417109 * V_12 = NULL;
+	SkeletonUtilityBone_t1973204173 * V_13 = NULL;
+	SkeletonUtilityBoneU5BU5D_t3282724192* V_14 = NULL;
+	int32_t V_15 = 0;
+	String_t* V_16 = NULL;
+	int32_t V_17 = 0;
+	ExposedList_1_t2496032397 * V_18 = NULL;
+	int32_t V_19 = 0;
+	int32_t V_20 = 0;
+	ExposedList_1_t326730273 * V_21 = NULL;
+	int32_t V_22 = 0;
+	int32_t V_23 = 0;
+	ExposedList_1_t2012139280 * V_24 = NULL;
+	int32_t V_25 = 0;
+	int32_t V_26 = 0;
+	JointLimits_t3539604472  V_27;
+	memset(&V_27, 0, sizeof(V_27));
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		__this->set_isActive_22((bool)1);
+		__this->set_mix_16((1.0f));
+		Skeleton_t2209335561 * L_0 = __this->get_skeleton_18();
+		String_t* L_1 = __this->get_startingBoneName_3();
+		NullCheck(L_0);
+		Bone_t1650489600 * L_2 = Skeleton_FindBone_m2568164470(L_0, L_1, /*hidden argument*/NULL);
+		SkeletonRagdoll_set_StartingBone_m4257538934(__this, L_2, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_3 = SkeletonRagdoll_get_StartingBone_m241031523(__this, /*hidden argument*/NULL);
+		SkeletonRagdoll_RecursivelyCreateBoneProxies_m2236597026(__this, L_3, /*hidden argument*/NULL);
+		Dictionary_2_t21045661 * L_4 = __this->get_boneTable_19();
+		Bone_t1650489600 * L_5 = SkeletonRagdoll_get_StartingBone_m241031523(__this, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Transform_t1659122786 * L_6 = Dictionary_2_get_Item_m684300090(L_4, L_5, /*hidden argument*/Dictionary_2_get_Item_m684300090_MethodInfo_var);
+		NullCheck(L_6);
+		Rigidbody_t3346577219 * L_7 = Component_GetComponent_TisRigidbody_t3346577219_m2174365699(L_6, /*hidden argument*/Component_GetComponent_TisRigidbody_t3346577219_m2174365699_MethodInfo_var);
+		SkeletonRagdoll_set_RootRigidbody_m579177808(__this, L_7, /*hidden argument*/NULL);
+		Rigidbody_t3346577219 * L_8 = SkeletonRagdoll_get_RootRigidbody_m715571261(__this, /*hidden argument*/NULL);
+		bool L_9 = __this->get_pinStartBone_8();
+		NullCheck(L_8);
+		Rigidbody_set_isKinematic_m294703295(L_8, L_9, /*hidden argument*/NULL);
+		Rigidbody_t3346577219 * L_10 = SkeletonRagdoll_get_RootRigidbody_m715571261(__this, /*hidden argument*/NULL);
+		float L_11 = __this->get_rootMass_13();
+		NullCheck(L_10);
+		Rigidbody_set_mass_m1579962594(L_10, L_11, /*hidden argument*/NULL);
+		List_1_t12892488 * L_12 = (List_1_t12892488 *)il2cpp_codegen_object_new(List_1_t12892488_il2cpp_TypeInfo_var);
+		List_1__ctor_m4097552150(L_12, /*hidden argument*/List_1__ctor_m4097552150_MethodInfo_var);
+		V_0 = L_12;
+		Dictionary_2_t21045661 * L_13 = __this->get_boneTable_19();
+		NullCheck(L_13);
+		Enumerator_t1338369053  L_14 = Dictionary_2_GetEnumerator_m1258019364(L_13, /*hidden argument*/Dictionary_2_GetEnumerator_m1258019364_MethodInfo_var);
+		V_2 = L_14;
+	}
+
+IL_0085:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_028c;
+		}
+
+IL_008a:
+		{
+			KeyValuePair_2_t4214793663  L_15 = Enumerator_get_Current_m3438782534((&V_2), /*hidden argument*/Enumerator_get_Current_m3438782534_MethodInfo_var);
+			V_1 = L_15;
+			Bone_t1650489600 * L_16 = KeyValuePair_2_get_Key_m3038660598((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m3038660598_MethodInfo_var);
+			V_3 = L_16;
+			Transform_t1659122786 * L_17 = KeyValuePair_2_get_Value_m1562041383((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m1562041383_MethodInfo_var);
+			V_4 = L_17;
+			List_1_t12892488 * L_18 = V_0;
+			Transform_t1659122786 * L_19 = V_4;
+			NullCheck(L_19);
+			Collider_t2939674232 * L_20 = Component_GetComponent_TisCollider_t2939674232_m3246438266(L_19, /*hidden argument*/Component_GetComponent_TisCollider_t2939674232_m3246438266_MethodInfo_var);
+			NullCheck(L_18);
+			List_1_Add_m3791912966(L_18, L_20, /*hidden argument*/List_1_Add_m3791912966_MethodInfo_var);
+			Bone_t1650489600 * L_21 = V_3;
+			Bone_t1650489600 * L_22 = SkeletonRagdoll_get_StartingBone_m241031523(__this, /*hidden argument*/NULL);
+			if ((!(((Il2CppObject*)(Bone_t1650489600 *)L_21) == ((Il2CppObject*)(Bone_t1650489600 *)L_22))))
+			{
+				goto IL_01b4;
+			}
+		}
+
+IL_00bc:
+		{
+			GameObject_t3674682005 * L_23 = (GameObject_t3674682005 *)il2cpp_codegen_object_new(GameObject_t3674682005_il2cpp_TypeInfo_var);
+			GameObject__ctor_m3920833606(L_23, _stringLiteral717963973, /*hidden argument*/NULL);
+			NullCheck(L_23);
+			Transform_t1659122786 * L_24 = GameObject_get_transform_m1278640159(L_23, /*hidden argument*/NULL);
+			__this->set_ragdollRoot_20(L_24);
+			Transform_t1659122786 * L_25 = __this->get_ragdollRoot_20();
+			Transform_t1659122786 * L_26 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+			NullCheck(L_25);
+			Transform_SetParent_m263985879(L_25, L_26, (bool)0, /*hidden argument*/NULL);
+			Bone_t1650489600 * L_27 = V_3;
+			Skeleton_t2209335561 * L_28 = __this->get_skeleton_18();
+			NullCheck(L_28);
+			Bone_t1650489600 * L_29 = Skeleton_get_RootBone_m2819736574(L_28, /*hidden argument*/NULL);
+			if ((!(((Il2CppObject*)(Bone_t1650489600 *)L_27) == ((Il2CppObject*)(Bone_t1650489600 *)L_29))))
+			{
+				goto IL_013a;
+			}
+		}
+
+IL_00f4:
+		{
+			Transform_t1659122786 * L_30 = __this->get_ragdollRoot_20();
+			Bone_t1650489600 * L_31 = V_3;
+			NullCheck(L_31);
+			float L_32 = Bone_get_WorldX_m3532706771(L_31, /*hidden argument*/NULL);
+			Bone_t1650489600 * L_33 = V_3;
+			NullCheck(L_33);
+			float L_34 = Bone_get_WorldY_m3532707732(L_33, /*hidden argument*/NULL);
+			Vector3_t4282066566  L_35;
+			memset(&L_35, 0, sizeof(L_35));
+			Vector3__ctor_m2926210380(&L_35, L_32, L_34, (0.0f), /*hidden argument*/NULL);
+			NullCheck(L_30);
+			Transform_set_localPosition_m3504330903(L_30, L_35, /*hidden argument*/NULL);
+			Transform_t1659122786 * L_36 = __this->get_ragdollRoot_20();
+			Bone_t1650489600 * L_37 = V_3;
+			float L_38 = SkeletonRagdoll_GetPropagatedRotation_m3661269354(NULL /*static, unused*/, L_37, /*hidden argument*/NULL);
+			Quaternion_t1553702882  L_39 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, (0.0f), (0.0f), L_38, /*hidden argument*/NULL);
+			NullCheck(L_36);
+			Transform_set_localRotation_m3719981474(L_36, L_39, /*hidden argument*/NULL);
+			goto IL_018a;
+		}
+
+IL_013a:
+		{
+			Transform_t1659122786 * L_40 = __this->get_ragdollRoot_20();
+			Bone_t1650489600 * L_41 = V_3;
+			NullCheck(L_41);
+			Bone_t1650489600 * L_42 = Bone_get_Parent_m3059819865(L_41, /*hidden argument*/NULL);
+			NullCheck(L_42);
+			float L_43 = Bone_get_WorldX_m3532706771(L_42, /*hidden argument*/NULL);
+			Bone_t1650489600 * L_44 = V_3;
+			NullCheck(L_44);
+			Bone_t1650489600 * L_45 = Bone_get_Parent_m3059819865(L_44, /*hidden argument*/NULL);
+			NullCheck(L_45);
+			float L_46 = Bone_get_WorldY_m3532707732(L_45, /*hidden argument*/NULL);
+			Vector3_t4282066566  L_47;
+			memset(&L_47, 0, sizeof(L_47));
+			Vector3__ctor_m2926210380(&L_47, L_43, L_46, (0.0f), /*hidden argument*/NULL);
+			NullCheck(L_40);
+			Transform_set_localPosition_m3504330903(L_40, L_47, /*hidden argument*/NULL);
+			Transform_t1659122786 * L_48 = __this->get_ragdollRoot_20();
+			Bone_t1650489600 * L_49 = V_3;
+			NullCheck(L_49);
+			Bone_t1650489600 * L_50 = Bone_get_Parent_m3059819865(L_49, /*hidden argument*/NULL);
+			float L_51 = SkeletonRagdoll_GetPropagatedRotation_m3661269354(NULL /*static, unused*/, L_50, /*hidden argument*/NULL);
+			Quaternion_t1553702882  L_52 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, (0.0f), (0.0f), L_51, /*hidden argument*/NULL);
+			NullCheck(L_48);
+			Transform_set_localRotation_m3719981474(L_48, L_52, /*hidden argument*/NULL);
+		}
+
+IL_018a:
+		{
+			Transform_t1659122786 * L_53 = __this->get_ragdollRoot_20();
+			V_5 = L_53;
+			Transform_t1659122786 * L_54 = V_4;
+			NullCheck(L_54);
+			Vector3_t4282066566  L_55 = Transform_get_position_m2211398607(L_54, /*hidden argument*/NULL);
+			Transform_t1659122786 * L_56 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+			NullCheck(L_56);
+			Vector3_t4282066566  L_57 = Transform_get_position_m2211398607(L_56, /*hidden argument*/NULL);
+			Vector3_t4282066566  L_58 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_55, L_57, /*hidden argument*/NULL);
+			__this->set_rootOffset_21(L_58);
+			goto IL_01c7;
+		}
+
+IL_01b4:
+		{
+			Dictionary_2_t21045661 * L_59 = __this->get_boneTable_19();
+			Bone_t1650489600 * L_60 = V_3;
+			NullCheck(L_60);
+			Bone_t1650489600 * L_61 = Bone_get_Parent_m3059819865(L_60, /*hidden argument*/NULL);
+			NullCheck(L_59);
+			Transform_t1659122786 * L_62 = Dictionary_2_get_Item_m684300090(L_59, L_61, /*hidden argument*/Dictionary_2_get_Item_m684300090_MethodInfo_var);
+			V_5 = L_62;
+		}
+
+IL_01c7:
+		{
+			Transform_t1659122786 * L_63 = V_5;
+			NullCheck(L_63);
+			Rigidbody_t3346577219 * L_64 = Component_GetComponent_TisRigidbody_t3346577219_m2174365699(L_63, /*hidden argument*/Component_GetComponent_TisRigidbody_t3346577219_m2174365699_MethodInfo_var);
+			V_6 = L_64;
+			Rigidbody_t3346577219 * L_65 = V_6;
+			IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+			bool L_66 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_65, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+			if (!L_66)
+			{
+				goto IL_028c;
+			}
+		}
+
+IL_01dd:
+		{
+			Transform_t1659122786 * L_67 = V_4;
+			NullCheck(L_67);
+			GameObject_t3674682005 * L_68 = Component_get_gameObject_m1170635899(L_67, /*hidden argument*/NULL);
+			NullCheck(L_68);
+			HingeJoint_t1734115043 * L_69 = GameObject_AddComponent_TisHingeJoint_t1734115043_m2885180636(L_68, /*hidden argument*/GameObject_AddComponent_TisHingeJoint_t1734115043_m2885180636_MethodInfo_var);
+			V_7 = L_69;
+			HingeJoint_t1734115043 * L_70 = V_7;
+			Rigidbody_t3346577219 * L_71 = V_6;
+			NullCheck(L_70);
+			Joint_set_connectedBody_m2794572257(L_70, L_71, /*hidden argument*/NULL);
+			Transform_t1659122786 * L_72 = V_5;
+			Transform_t1659122786 * L_73 = V_4;
+			NullCheck(L_73);
+			Vector3_t4282066566  L_74 = Transform_get_position_m2211398607(L_73, /*hidden argument*/NULL);
+			NullCheck(L_72);
+			Vector3_t4282066566  L_75 = Transform_InverseTransformPoint_m1626812000(L_72, L_74, /*hidden argument*/NULL);
+			V_8 = L_75;
+			Vector3_t4282066566 * L_76 = (&V_8);
+			float L_77 = L_76->get_x_1();
+			L_76->set_x_1(((float)((float)L_77*(float)(1.0f))));
+			HingeJoint_t1734115043 * L_78 = V_7;
+			Vector3_t4282066566  L_79 = V_8;
+			NullCheck(L_78);
+			Joint_set_connectedAnchor_m1591545163(L_78, L_79, /*hidden argument*/NULL);
+			HingeJoint_t1734115043 * L_80 = V_7;
+			Vector3_t4282066566  L_81 = Vector3_get_forward_m1039372701(NULL /*static, unused*/, /*hidden argument*/NULL);
+			NullCheck(L_80);
+			Joint_set_axis_m3406737510(L_80, L_81, /*hidden argument*/NULL);
+			HingeJoint_t1734115043 * L_82 = V_7;
+			NullCheck(L_82);
+			Rigidbody_t3346577219 * L_83 = Component_GetComponent_TisRigidbody_t3346577219_m2174365699(L_82, /*hidden argument*/Component_GetComponent_TisRigidbody_t3346577219_m2174365699_MethodInfo_var);
+			HingeJoint_t1734115043 * L_84 = V_7;
+			NullCheck(L_84);
+			Rigidbody_t3346577219 * L_85 = Joint_get_connectedBody_m3483565964(L_84, /*hidden argument*/NULL);
+			NullCheck(L_85);
+			float L_86 = Rigidbody_get_mass_m3953106025(L_85, /*hidden argument*/NULL);
+			float L_87 = __this->get_massFalloffFactor_14();
+			NullCheck(L_83);
+			Rigidbody_set_mass_m1579962594(L_83, ((float)((float)L_86*(float)L_87)), /*hidden argument*/NULL);
+			HingeJoint_t1734115043 * L_88 = V_7;
+			Initobj (JointLimits_t3539604472_il2cpp_TypeInfo_var, (&V_27));
+			float L_89 = __this->get_rotationLimit_12();
+			JointLimits_set_min_m225618337((&V_27), ((-L_89)), /*hidden argument*/NULL);
+			float L_90 = __this->get_rotationLimit_12();
+			JointLimits_set_max_m1473668175((&V_27), L_90, /*hidden argument*/NULL);
+			JointLimits_t3539604472  L_91 = V_27;
+			NullCheck(L_88);
+			HingeJoint_set_limits_m1161805436(L_88, L_91, /*hidden argument*/NULL);
+			HingeJoint_t1734115043 * L_92 = V_7;
+			NullCheck(L_92);
+			HingeJoint_set_useLimits_m495449925(L_92, (bool)1, /*hidden argument*/NULL);
+			HingeJoint_t1734115043 * L_93 = V_7;
+			bool L_94 = __this->get_enableJointCollision_9();
+			NullCheck(L_93);
+			Joint_set_enableCollision_m2305836182(L_93, L_94, /*hidden argument*/NULL);
+		}
+
+IL_028c:
+		{
+			bool L_95 = Enumerator_MoveNext_m3952993927((&V_2), /*hidden argument*/Enumerator_MoveNext_m3952993927_MethodInfo_var);
+			if (L_95)
+			{
+				goto IL_008a;
+			}
+		}
+
+IL_0298:
+		{
+			IL2CPP_LEAVE(0x2A9, FINALLY_029d);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_029d;
+	}
+
+FINALLY_029d:
+	{ // begin finally (depth: 1)
+		Enumerator_t1338369053  L_96 = V_2;
+		Enumerator_t1338369053  L_97 = L_96;
+		Il2CppObject * L_98 = Box(Enumerator_t1338369053_il2cpp_TypeInfo_var, &L_97);
+		NullCheck((Il2CppObject *)L_98);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_98);
+		IL2CPP_END_FINALLY(669)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(669)
+	{
+		IL2CPP_JUMP_TBL(0x2A9, IL_02a9)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_02a9:
+	{
+		V_9 = 0;
+		goto IL_02f5;
+	}
+
+IL_02b1:
+	{
+		V_10 = 0;
+		goto IL_02e2;
+	}
+
+IL_02b9:
+	{
+		int32_t L_99 = V_9;
+		int32_t L_100 = V_10;
+		if ((!(((uint32_t)L_99) == ((uint32_t)L_100))))
+		{
+			goto IL_02c7;
+		}
+	}
+	{
+		goto IL_02dc;
+	}
+
+IL_02c7:
+	{
+		List_1_t12892488 * L_101 = V_0;
+		int32_t L_102 = V_9;
+		NullCheck(L_101);
+		Collider_t2939674232 * L_103 = List_1_get_Item_m3531351725(L_101, L_102, /*hidden argument*/List_1_get_Item_m3531351725_MethodInfo_var);
+		List_1_t12892488 * L_104 = V_0;
+		int32_t L_105 = V_10;
+		NullCheck(L_104);
+		Collider_t2939674232 * L_106 = List_1_get_Item_m3531351725(L_104, L_105, /*hidden argument*/List_1_get_Item_m3531351725_MethodInfo_var);
+		Physics_IgnoreCollision_m2033495766(NULL /*static, unused*/, L_103, L_106, /*hidden argument*/NULL);
+	}
+
+IL_02dc:
+	{
+		int32_t L_107 = V_10;
+		V_10 = ((int32_t)((int32_t)L_107+(int32_t)1));
+	}
+
+IL_02e2:
+	{
+		int32_t L_108 = V_10;
+		List_1_t12892488 * L_109 = V_0;
+		NullCheck(L_109);
+		int32_t L_110 = List_1_get_Count_m1891366696(L_109, /*hidden argument*/List_1_get_Count_m1891366696_MethodInfo_var);
+		if ((((int32_t)L_108) < ((int32_t)L_110)))
+		{
+			goto IL_02b9;
+		}
+	}
+	{
+		int32_t L_111 = V_9;
+		V_9 = ((int32_t)((int32_t)L_111+(int32_t)1));
+	}
+
+IL_02f5:
+	{
+		int32_t L_112 = V_9;
+		List_1_t12892488 * L_113 = V_0;
+		NullCheck(L_113);
+		int32_t L_114 = List_1_get_Count_m1891366696(L_113, /*hidden argument*/List_1_get_Count_m1891366696_MethodInfo_var);
+		if ((((int32_t)L_112) < ((int32_t)L_114)))
+		{
+			goto IL_02b1;
+		}
+	}
+	{
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_115 = Component_GetComponentsInChildren_TisSkeletonUtilityBone_t1973204173_m1854961193(__this, /*hidden argument*/Component_GetComponentsInChildren_TisSkeletonUtilityBone_t1973204173_m1854961193_MethodInfo_var);
+		V_11 = L_115;
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_116 = V_11;
+		NullCheck(L_116);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_116)->max_length))))) <= ((int32_t)0)))
+		{
+			goto IL_03d2;
+		}
+	}
+	{
+		List_1_t1375417109 * L_117 = (List_1_t1375417109 *)il2cpp_codegen_object_new(List_1_t1375417109_il2cpp_TypeInfo_var);
+		List_1__ctor_m459821414(L_117, /*hidden argument*/List_1__ctor_m459821414_MethodInfo_var);
+		V_12 = L_117;
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_118 = V_11;
+		V_14 = L_118;
+		V_15 = 0;
+		goto IL_0360;
+	}
+
+IL_0327:
+	{
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_119 = V_14;
+		int32_t L_120 = V_15;
+		NullCheck(L_119);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_119, L_120);
+		int32_t L_121 = L_120;
+		SkeletonUtilityBone_t1973204173 * L_122 = (L_119)->GetAt(static_cast<il2cpp_array_size_t>(L_121));
+		V_13 = L_122;
+		SkeletonUtilityBone_t1973204173 * L_123 = V_13;
+		NullCheck(L_123);
+		int32_t L_124 = L_123->get_mode_5();
+		if ((!(((uint32_t)L_124) == ((uint32_t)1))))
+		{
+			goto IL_035a;
+		}
+	}
+	{
+		List_1_t1375417109 * L_125 = V_12;
+		SkeletonUtilityBone_t1973204173 * L_126 = V_13;
+		NullCheck(L_126);
+		GameObject_t3674682005 * L_127 = Component_get_gameObject_m1170635899(L_126, /*hidden argument*/NULL);
+		NullCheck(L_127);
+		String_t* L_128 = Object_get_name_m3709440845(L_127, /*hidden argument*/NULL);
+		NullCheck(L_125);
+		List_1_Add_m4975193(L_125, L_128, /*hidden argument*/List_1_Add_m4975193_MethodInfo_var);
+		SkeletonUtilityBone_t1973204173 * L_129 = V_13;
+		NullCheck(L_129);
+		GameObject_t3674682005 * L_130 = Component_get_gameObject_m1170635899(L_129, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_130, /*hidden argument*/NULL);
+	}
+
+IL_035a:
+	{
+		int32_t L_131 = V_15;
+		V_15 = ((int32_t)((int32_t)L_131+(int32_t)1));
+	}
+
+IL_0360:
+	{
+		int32_t L_132 = V_15;
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_133 = V_14;
+		NullCheck(L_133);
+		if ((((int32_t)L_132) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_133)->max_length)))))))
+		{
+			goto IL_0327;
+		}
+	}
+	{
+		List_1_t1375417109 * L_134 = V_12;
+		NullCheck(L_134);
+		int32_t L_135 = List_1_get_Count_m935595982(L_134, /*hidden argument*/List_1_get_Count_m935595982_MethodInfo_var);
+		if ((((int32_t)L_135) <= ((int32_t)0)))
+		{
+			goto IL_03d2;
+		}
+	}
+	{
+		V_16 = _stringLiteral3504801402;
+		V_17 = 0;
+		goto IL_03bd;
+	}
+
+IL_0387:
+	{
+		String_t* L_136 = V_16;
+		List_1_t1375417109 * L_137 = V_12;
+		int32_t L_138 = V_17;
+		NullCheck(L_137);
+		String_t* L_139 = List_1_get_Item_m1424439513(L_137, L_138, /*hidden argument*/List_1_get_Item_m1424439513_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_140 = String_Concat_m138640077(NULL /*static, unused*/, L_136, L_139, /*hidden argument*/NULL);
+		V_16 = L_140;
+		int32_t L_141 = V_17;
+		List_1_t1375417109 * L_142 = V_12;
+		NullCheck(L_142);
+		int32_t L_143 = List_1_get_Count_m935595982(L_142, /*hidden argument*/List_1_get_Count_m935595982_MethodInfo_var);
+		if ((((int32_t)L_141) == ((int32_t)((int32_t)((int32_t)L_143-(int32_t)1)))))
+		{
+			goto IL_03b7;
+		}
+	}
+	{
+		String_t* L_144 = V_16;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_145 = String_Concat_m138640077(NULL /*static, unused*/, L_144, _stringLiteral44, /*hidden argument*/NULL);
+		V_16 = L_145;
+	}
+
+IL_03b7:
+	{
+		int32_t L_146 = V_17;
+		V_17 = ((int32_t)((int32_t)L_146+(int32_t)1));
+	}
+
+IL_03bd:
+	{
+		int32_t L_147 = V_17;
+		List_1_t1375417109 * L_148 = V_12;
+		NullCheck(L_148);
+		int32_t L_149 = List_1_get_Count_m935595982(L_148, /*hidden argument*/List_1_get_Count_m935595982_MethodInfo_var);
+		if ((((int32_t)L_147) < ((int32_t)L_149)))
+		{
+			goto IL_0387;
+		}
+	}
+	{
+		String_t* L_150 = V_16;
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m3123317694(NULL /*static, unused*/, L_150, /*hidden argument*/NULL);
+	}
+
+IL_03d2:
+	{
+		bool L_151 = __this->get_disableIK_6();
+		if (!L_151)
+		{
+			goto IL_041e;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_152 = __this->get_skeleton_18();
+		NullCheck(L_152);
+		ExposedList_1_t2496032397 * L_153 = Skeleton_get_IkConstraints_m168078261(L_152, /*hidden argument*/NULL);
+		V_18 = L_153;
+		V_19 = 0;
+		ExposedList_1_t2496032397 * L_154 = V_18;
+		NullCheck(L_154);
+		int32_t L_155 = L_154->get_Count_2();
+		V_20 = L_155;
+		goto IL_0415;
+	}
+
+IL_03fb:
+	{
+		ExposedList_1_t2496032397 * L_156 = V_18;
+		NullCheck(L_156);
+		IkConstraintU5BU5D_t2201310810* L_157 = L_156->get_Items_1();
+		int32_t L_158 = V_19;
+		NullCheck(L_157);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_157, L_158);
+		int32_t L_159 = L_158;
+		IkConstraint_t1121099739 * L_160 = (L_157)->GetAt(static_cast<il2cpp_array_size_t>(L_159));
+		NullCheck(L_160);
+		L_160->set_mix_3((0.0f));
+		int32_t L_161 = V_19;
+		V_19 = ((int32_t)((int32_t)L_161+(int32_t)1));
+	}
+
+IL_0415:
+	{
+		int32_t L_162 = V_19;
+		int32_t L_163 = V_20;
+		if ((((int32_t)L_162) < ((int32_t)L_163)))
+		{
+			goto IL_03fb;
+		}
+	}
+
+IL_041e:
+	{
+		bool L_164 = __this->get_disableOtherConstraints_7();
+		if (!L_164)
+		{
+			goto IL_04fb;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_165 = __this->get_skeleton_18();
+		NullCheck(L_165);
+		ExposedList_1_t326730273 * L_166 = L_165->get_transformConstraints_6();
+		V_21 = L_166;
+		V_22 = 0;
+		ExposedList_1_t326730273 * L_167 = V_21;
+		NullCheck(L_167);
+		int32_t L_168 = L_167->get_Count_2();
+		V_23 = L_168;
+		goto IL_049d;
+	}
+
+IL_0447:
+	{
+		ExposedList_1_t326730273 * L_169 = V_21;
+		NullCheck(L_169);
+		TransformConstraintU5BU5D_t2270346742* L_170 = L_169->get_Items_1();
+		int32_t L_171 = V_22;
+		NullCheck(L_170);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_170, L_171);
+		int32_t L_172 = L_171;
+		TransformConstraint_t3246764911 * L_173 = (L_170)->GetAt(static_cast<il2cpp_array_size_t>(L_172));
+		NullCheck(L_173);
+		L_173->set_rotateMix_3((0.0f));
+		ExposedList_1_t326730273 * L_174 = V_21;
+		NullCheck(L_174);
+		TransformConstraintU5BU5D_t2270346742* L_175 = L_174->get_Items_1();
+		int32_t L_176 = V_22;
+		NullCheck(L_175);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_175, L_176);
+		int32_t L_177 = L_176;
+		TransformConstraint_t3246764911 * L_178 = (L_175)->GetAt(static_cast<il2cpp_array_size_t>(L_177));
+		NullCheck(L_178);
+		L_178->set_scaleMix_5((0.0f));
+		ExposedList_1_t326730273 * L_179 = V_21;
+		NullCheck(L_179);
+		TransformConstraintU5BU5D_t2270346742* L_180 = L_179->get_Items_1();
+		int32_t L_181 = V_22;
+		NullCheck(L_180);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_180, L_181);
+		int32_t L_182 = L_181;
+		TransformConstraint_t3246764911 * L_183 = (L_180)->GetAt(static_cast<il2cpp_array_size_t>(L_182));
+		NullCheck(L_183);
+		L_183->set_shearMix_6((0.0f));
+		ExposedList_1_t326730273 * L_184 = V_21;
+		NullCheck(L_184);
+		TransformConstraintU5BU5D_t2270346742* L_185 = L_184->get_Items_1();
+		int32_t L_186 = V_22;
+		NullCheck(L_185);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_185, L_186);
+		int32_t L_187 = L_186;
+		TransformConstraint_t3246764911 * L_188 = (L_185)->GetAt(static_cast<il2cpp_array_size_t>(L_187));
+		NullCheck(L_188);
+		L_188->set_translateMix_4((0.0f));
+		int32_t L_189 = V_22;
+		V_22 = ((int32_t)((int32_t)L_189+(int32_t)1));
+	}
+
+IL_049d:
+	{
+		int32_t L_190 = V_22;
+		int32_t L_191 = V_23;
+		if ((((int32_t)L_190) < ((int32_t)L_191)))
+		{
+			goto IL_0447;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_192 = __this->get_skeleton_18();
+		NullCheck(L_192);
+		ExposedList_1_t2012139280 * L_193 = L_192->get_pathConstraints_7();
+		V_24 = L_193;
+		V_25 = 0;
+		ExposedList_1_t2012139280 * L_194 = V_24;
+		NullCheck(L_194);
+		int32_t L_195 = L_194->get_Count_2();
+		V_26 = L_195;
+		goto IL_04f2;
+	}
+
+IL_04c4:
+	{
+		ExposedList_1_t2012139280 * L_196 = V_24;
+		NullCheck(L_196);
+		PathConstraintU5BU5D_t4156607595* L_197 = L_196->get_Items_1();
+		int32_t L_198 = V_25;
+		NullCheck(L_197);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_197, L_198);
+		int32_t L_199 = L_198;
+		PathConstraint_t637206622 * L_200 = (L_197)->GetAt(static_cast<il2cpp_array_size_t>(L_199));
+		NullCheck(L_200);
+		L_200->set_rotateMix_8((0.0f));
+		ExposedList_1_t2012139280 * L_201 = V_24;
+		NullCheck(L_201);
+		PathConstraintU5BU5D_t4156607595* L_202 = L_201->get_Items_1();
+		int32_t L_203 = V_25;
+		NullCheck(L_202);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_202, L_203);
+		int32_t L_204 = L_203;
+		PathConstraint_t637206622 * L_205 = (L_202)->GetAt(static_cast<il2cpp_array_size_t>(L_204));
+		NullCheck(L_205);
+		L_205->set_translateMix_9((0.0f));
+		int32_t L_206 = V_25;
+		V_25 = ((int32_t)((int32_t)L_206+(int32_t)1));
+	}
+
+IL_04f2:
+	{
+		int32_t L_207 = V_25;
+		int32_t L_208 = V_26;
+		if ((((int32_t)L_207) < ((int32_t)L_208)))
+		{
+			goto IL_04c4;
+		}
+	}
+
+IL_04fb:
+	{
+		Il2CppObject * L_209 = __this->get_targetSkeletonComponent_17();
+		IntPtr_t L_210;
+		L_210.set_m_value_0((void*)(void*)SkeletonRagdoll_UpdateSpineSkeleton_m2953477267_MethodInfo_var);
+		UpdateBonesDelegate_t4020151189 * L_211 = (UpdateBonesDelegate_t4020151189 *)il2cpp_codegen_object_new(UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var);
+		UpdateBonesDelegate__ctor_m2218992318(L_211, __this, L_210, /*hidden argument*/NULL);
+		NullCheck(L_209);
+		InterfaceActionInvoker1< UpdateBonesDelegate_t4020151189 * >::Invoke(2 /* System.Void Spine.Unity.ISkeletonAnimation::add_UpdateWorld(Spine.Unity.UpdateBonesDelegate) */, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var, L_209, L_211);
+		return;
+	}
+}
+// UnityEngine.Coroutine Spine.Unity.Modules.SkeletonRagdoll::SmoothMix(System.Single,System.Single)
+extern "C"  Coroutine_t3621161934 * SkeletonRagdoll_SmoothMix_m2186138898 (SkeletonRagdoll_t105860444 * __this, float ___target0, float ___duration1, const MethodInfo* method)
+{
+	{
+		float L_0 = ___target0;
+		float L_1 = ___duration1;
+		Il2CppObject * L_2 = SkeletonRagdoll_SmoothMixCoroutine_m3852618442(__this, L_0, L_1, /*hidden argument*/NULL);
+		Coroutine_t3621161934 * L_3 = MonoBehaviour_StartCoroutine_m2135303124(__this, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Collections.IEnumerator Spine.Unity.Modules.SkeletonRagdoll::SmoothMixCoroutine(System.Single,System.Single)
+extern Il2CppClass* U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonRagdoll_SmoothMixCoroutine_m3852618442_MetadataUsageId;
+extern "C"  Il2CppObject * SkeletonRagdoll_SmoothMixCoroutine_m3852618442 (SkeletonRagdoll_t105860444 * __this, float ___target0, float ___duration1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll_SmoothMixCoroutine_m3852618442_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957 * V_0 = NULL;
+	{
+		U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957 * L_0 = (U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957 *)il2cpp_codegen_object_new(U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957_il2cpp_TypeInfo_var);
+		U3CSmoothMixCoroutineU3Ec__IteratorB__ctor_m719448334(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957 * L_1 = V_0;
+		float L_2 = ___target0;
+		NullCheck(L_1);
+		L_1->set_target_2(L_2);
+		U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957 * L_3 = V_0;
+		float L_4 = ___duration1;
+		NullCheck(L_3);
+		L_3->set_duration_3(L_4);
+		U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957 * L_5 = V_0;
+		float L_6 = ___target0;
+		NullCheck(L_5);
+		L_5->set_U3CU24U3Etarget_6(L_6);
+		U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957 * L_7 = V_0;
+		float L_8 = ___duration1;
+		NullCheck(L_7);
+		L_7->set_U3CU24U3Eduration_7(L_8);
+		U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957 * L_9 = V_0;
+		NullCheck(L_9);
+		L_9->set_U3CU3Ef__this_8(__this);
+		U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957 * L_10 = V_0;
+		return L_10;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll::SetSkeletonPosition(UnityEngine.Vector3)
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t2247846365_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Values_m4257690398_MethodInfo_var;
+extern const MethodInfo* ValueCollection_GetEnumerator_m3250200228_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2652612534_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2860981703_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4128841867;
+extern const uint32_t SkeletonRagdoll_SetSkeletonPosition_m3661540483_MetadataUsageId;
+extern "C"  void SkeletonRagdoll_SetSkeletonPosition_m3661540483 (SkeletonRagdoll_t105860444 * __this, Vector3_t4282066566  ___worldPosition0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll_SetSkeletonPosition_m3661540483_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Vector3_t4282066566  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Transform_t1659122786 * V_1 = NULL;
+	Enumerator_t2247846365  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		bool L_0 = __this->get_isActive_22();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m3123317694(NULL /*static, unused*/, _stringLiteral4128841867, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0016:
+	{
+		Vector3_t4282066566  L_1 = ___worldPosition0;
+		Transform_t1659122786 * L_2 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Vector3_t4282066566  L_3 = Transform_get_position_m2211398607(L_2, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_4 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_1, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		Transform_t1659122786 * L_5 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_6 = ___worldPosition0;
+		NullCheck(L_5);
+		Transform_set_position_m3111394108(L_5, L_6, /*hidden argument*/NULL);
+		Dictionary_2_t21045661 * L_7 = __this->get_boneTable_19();
+		NullCheck(L_7);
+		ValueCollection_t3016618670 * L_8 = Dictionary_2_get_Values_m4257690398(L_7, /*hidden argument*/Dictionary_2_get_Values_m4257690398_MethodInfo_var);
+		NullCheck(L_8);
+		Enumerator_t2247846365  L_9 = ValueCollection_GetEnumerator_m3250200228(L_8, /*hidden argument*/ValueCollection_GetEnumerator_m3250200228_MethodInfo_var);
+		V_2 = L_9;
+	}
+
+IL_0045:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0064;
+		}
+
+IL_004a:
+		{
+			Transform_t1659122786 * L_10 = Enumerator_get_Current_m2652612534((&V_2), /*hidden argument*/Enumerator_get_Current_m2652612534_MethodInfo_var);
+			V_1 = L_10;
+			Transform_t1659122786 * L_11 = V_1;
+			Transform_t1659122786 * L_12 = L_11;
+			NullCheck(L_12);
+			Vector3_t4282066566  L_13 = Transform_get_position_m2211398607(L_12, /*hidden argument*/NULL);
+			Vector3_t4282066566  L_14 = V_0;
+			Vector3_t4282066566  L_15 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_13, L_14, /*hidden argument*/NULL);
+			NullCheck(L_12);
+			Transform_set_position_m3111394108(L_12, L_15, /*hidden argument*/NULL);
+		}
+
+IL_0064:
+		{
+			bool L_16 = Enumerator_MoveNext_m2860981703((&V_2), /*hidden argument*/Enumerator_MoveNext_m2860981703_MethodInfo_var);
+			if (L_16)
+			{
+				goto IL_004a;
+			}
+		}
+
+IL_0070:
+		{
+			IL2CPP_LEAVE(0x81, FINALLY_0075);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_0075;
+	}
+
+FINALLY_0075:
+	{ // begin finally (depth: 1)
+		Enumerator_t2247846365  L_17 = V_2;
+		Enumerator_t2247846365  L_18 = L_17;
+		Il2CppObject * L_19 = Box(Enumerator_t2247846365_il2cpp_TypeInfo_var, &L_18);
+		NullCheck((Il2CppObject *)L_19);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_19);
+		IL2CPP_END_FINALLY(117)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(117)
+	{
+		IL2CPP_JUMP_TBL(0x81, IL_0081)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_0081:
+	{
+		SkeletonRagdoll_UpdateSpineSkeleton_m2953477267(__this, (Il2CppObject *)NULL, /*hidden argument*/NULL);
+		Skeleton_t2209335561 * L_20 = __this->get_skeleton_18();
+		NullCheck(L_20);
+		Skeleton_UpdateWorldTransform_m2487614308(L_20, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll::Remove()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t2247846365_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Values_m4257690398_MethodInfo_var;
+extern const MethodInfo* ValueCollection_GetEnumerator_m3250200228_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2652612534_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2860981703_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Clear_m4235108693_MethodInfo_var;
+extern const MethodInfo* SkeletonRagdoll_UpdateSpineSkeleton_m2953477267_MethodInfo_var;
+extern const uint32_t SkeletonRagdoll_Remove_m3855006184_MetadataUsageId;
+extern "C"  void SkeletonRagdoll_Remove_m3855006184 (SkeletonRagdoll_t105860444 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll_Remove_m3855006184_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Transform_t1659122786 * V_0 = NULL;
+	Enumerator_t2247846365  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		__this->set_isActive_22((bool)0);
+		Dictionary_2_t21045661 * L_0 = __this->get_boneTable_19();
+		NullCheck(L_0);
+		ValueCollection_t3016618670 * L_1 = Dictionary_2_get_Values_m4257690398(L_0, /*hidden argument*/Dictionary_2_get_Values_m4257690398_MethodInfo_var);
+		NullCheck(L_1);
+		Enumerator_t2247846365  L_2 = ValueCollection_GetEnumerator_m3250200228(L_1, /*hidden argument*/ValueCollection_GetEnumerator_m3250200228_MethodInfo_var);
+		V_1 = L_2;
+	}
+
+IL_0018:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0030;
+		}
+
+IL_001d:
+		{
+			Transform_t1659122786 * L_3 = Enumerator_get_Current_m2652612534((&V_1), /*hidden argument*/Enumerator_get_Current_m2652612534_MethodInfo_var);
+			V_0 = L_3;
+			Transform_t1659122786 * L_4 = V_0;
+			NullCheck(L_4);
+			GameObject_t3674682005 * L_5 = Component_get_gameObject_m1170635899(L_4, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+			Object_Destroy_m176400816(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		}
+
+IL_0030:
+		{
+			bool L_6 = Enumerator_MoveNext_m2860981703((&V_1), /*hidden argument*/Enumerator_MoveNext_m2860981703_MethodInfo_var);
+			if (L_6)
+			{
+				goto IL_001d;
+			}
+		}
+
+IL_003c:
+		{
+			IL2CPP_LEAVE(0x4D, FINALLY_0041);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_0041;
+	}
+
+FINALLY_0041:
+	{ // begin finally (depth: 1)
+		Enumerator_t2247846365  L_7 = V_1;
+		Enumerator_t2247846365  L_8 = L_7;
+		Il2CppObject * L_9 = Box(Enumerator_t2247846365_il2cpp_TypeInfo_var, &L_8);
+		NullCheck((Il2CppObject *)L_9);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_9);
+		IL2CPP_END_FINALLY(65)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(65)
+	{
+		IL2CPP_JUMP_TBL(0x4D, IL_004d)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_004d:
+	{
+		Transform_t1659122786 * L_10 = __this->get_ragdollRoot_20();
+		NullCheck(L_10);
+		GameObject_t3674682005 * L_11 = Component_get_gameObject_m1170635899(L_10, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		Dictionary_2_t21045661 * L_12 = __this->get_boneTable_19();
+		NullCheck(L_12);
+		Dictionary_2_Clear_m4235108693(L_12, /*hidden argument*/Dictionary_2_Clear_m4235108693_MethodInfo_var);
+		Il2CppObject * L_13 = __this->get_targetSkeletonComponent_17();
+		IntPtr_t L_14;
+		L_14.set_m_value_0((void*)(void*)SkeletonRagdoll_UpdateSpineSkeleton_m2953477267_MethodInfo_var);
+		UpdateBonesDelegate_t4020151189 * L_15 = (UpdateBonesDelegate_t4020151189 *)il2cpp_codegen_object_new(UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var);
+		UpdateBonesDelegate__ctor_m2218992318(L_15, __this, L_14, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		InterfaceActionInvoker1< UpdateBonesDelegate_t4020151189 * >::Invoke(3 /* System.Void Spine.Unity.ISkeletonAnimation::remove_UpdateWorld(Spine.Unity.UpdateBonesDelegate) */, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var, L_13, L_15);
+		return;
+	}
+}
+// UnityEngine.Rigidbody Spine.Unity.Modules.SkeletonRagdoll::GetRigidbody(System.String)
+extern const MethodInfo* Dictionary_2_ContainsKey_m3178134637_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m684300090_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRigidbody_t3346577219_m2174365699_MethodInfo_var;
+extern const uint32_t SkeletonRagdoll_GetRigidbody_m3919234692_MetadataUsageId;
+extern "C"  Rigidbody_t3346577219 * SkeletonRagdoll_GetRigidbody_m3919234692 (SkeletonRagdoll_t105860444 * __this, String_t* ___boneName0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll_GetRigidbody_m3919234692_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Bone_t1650489600 * V_0 = NULL;
+	Rigidbody_t3346577219 * G_B4_0 = NULL;
+	{
+		Skeleton_t2209335561 * L_0 = __this->get_skeleton_18();
+		String_t* L_1 = ___boneName0;
+		NullCheck(L_0);
+		Bone_t1650489600 * L_2 = Skeleton_FindBone_m2568164470(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		Bone_t1650489600 * L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		Dictionary_2_t21045661 * L_4 = __this->get_boneTable_19();
+		Bone_t1650489600 * L_5 = V_0;
+		NullCheck(L_4);
+		bool L_6 = Dictionary_2_ContainsKey_m3178134637(L_4, L_5, /*hidden argument*/Dictionary_2_ContainsKey_m3178134637_MethodInfo_var);
+		if (!L_6)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		Dictionary_2_t21045661 * L_7 = __this->get_boneTable_19();
+		Bone_t1650489600 * L_8 = V_0;
+		NullCheck(L_7);
+		Transform_t1659122786 * L_9 = Dictionary_2_get_Item_m684300090(L_7, L_8, /*hidden argument*/Dictionary_2_get_Item_m684300090_MethodInfo_var);
+		NullCheck(L_9);
+		Rigidbody_t3346577219 * L_10 = Component_GetComponent_TisRigidbody_t3346577219_m2174365699(L_9, /*hidden argument*/Component_GetComponent_TisRigidbody_t3346577219_m2174365699_MethodInfo_var);
+		G_B4_0 = L_10;
+		goto IL_003b;
+	}
+
+IL_003a:
+	{
+		G_B4_0 = ((Rigidbody_t3346577219 *)(NULL));
+	}
+
+IL_003b:
+	{
+		return G_B4_0;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll::RecursivelyCreateBoneProxies(Spine.Bone)
+extern Il2CppClass* GameObject_t3674682005_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t1535068636_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Contains_m3796021657_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m2324150972_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m1891366696_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisSphereCollider_t111527973_m3283911386_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisBoxCollider_t2538127765_m1849671780_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisRigidbody_t3346577219_m686365494_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_GetEnumerator_m4205972584_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2949583624_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3508483779_MethodInfo_var;
+extern const uint32_t SkeletonRagdoll_RecursivelyCreateBoneProxies_m2236597026_MetadataUsageId;
+extern "C"  void SkeletonRagdoll_RecursivelyCreateBoneProxies_m2236597026 (SkeletonRagdoll_t105860444 * __this, Bone_t1650489600 * ___b0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll_RecursivelyCreateBoneProxies_m2236597026_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = NULL;
+	GameObject_t3674682005 * V_1 = NULL;
+	Transform_t1659122786 * V_2 = NULL;
+	List_1_t12892488 * V_3 = NULL;
+	float V_4 = 0.0f;
+	SphereCollider_t111527973 * V_5 = NULL;
+	BoxCollider_t2538127765 * V_6 = NULL;
+	Rigidbody_t3346577219 * V_7 = NULL;
+	Bone_t1650489600 * V_8 = NULL;
+	Enumerator_t1535068636  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Bone_t1650489600 * L_0 = ___b0;
+		NullCheck(L_0);
+		BoneData_t2151574858 * L_1 = L_0->get_data_1();
+		NullCheck(L_1);
+		String_t* L_2 = L_1->get_name_1();
+		V_0 = L_2;
+		List_1_t1375417109 * L_3 = __this->get_stopBoneNames_4();
+		String_t* L_4 = V_0;
+		NullCheck(L_3);
+		bool L_5 = List_1_Contains_m3796021657(L_3, L_4, /*hidden argument*/List_1_Contains_m3796021657_MethodInfo_var);
+		if (!L_5)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001e:
+	{
+		String_t* L_6 = V_0;
+		GameObject_t3674682005 * L_7 = (GameObject_t3674682005 *)il2cpp_codegen_object_new(GameObject_t3674682005_il2cpp_TypeInfo_var);
+		GameObject__ctor_m3920833606(L_7, L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
+		GameObject_t3674682005 * L_8 = V_1;
+		int32_t L_9 = __this->get_colliderLayer_15();
+		NullCheck(L_8);
+		GameObject_set_layer_m1872241535(L_8, L_9, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_10 = V_1;
+		NullCheck(L_10);
+		Transform_t1659122786 * L_11 = GameObject_get_transform_m1278640159(L_10, /*hidden argument*/NULL);
+		V_2 = L_11;
+		Dictionary_2_t21045661 * L_12 = __this->get_boneTable_19();
+		Bone_t1650489600 * L_13 = ___b0;
+		Transform_t1659122786 * L_14 = V_2;
+		NullCheck(L_12);
+		Dictionary_2_Add_m2324150972(L_12, L_13, L_14, /*hidden argument*/Dictionary_2_Add_m2324150972_MethodInfo_var);
+		Transform_t1659122786 * L_15 = V_2;
+		Transform_t1659122786 * L_16 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		Transform_set_parent_m3231272063(L_15, L_16, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_17 = V_2;
+		Bone_t1650489600 * L_18 = ___b0;
+		NullCheck(L_18);
+		float L_19 = Bone_get_WorldX_m3532706771(L_18, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_20 = ___b0;
+		NullCheck(L_20);
+		float L_21 = Bone_get_WorldY_m3532707732(L_20, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_22;
+		memset(&L_22, 0, sizeof(L_22));
+		Vector3__ctor_m2926210380(&L_22, L_19, L_21, (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Transform_set_localPosition_m3504330903(L_17, L_22, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_23 = V_2;
+		Bone_t1650489600 * L_24 = ___b0;
+		NullCheck(L_24);
+		float L_25 = Bone_get_WorldRotationX_m2678405493(L_24, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_26 = ___b0;
+		NullCheck(L_26);
+		float L_27 = L_26->get_shearX_10();
+		Quaternion_t1553702882  L_28 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, (0.0f), (0.0f), ((float)((float)L_25-(float)L_27)), /*hidden argument*/NULL);
+		NullCheck(L_23);
+		Transform_set_localRotation_m3719981474(L_23, L_28, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_29 = V_2;
+		Bone_t1650489600 * L_30 = ___b0;
+		NullCheck(L_30);
+		float L_31 = Bone_get_WorldScaleX_m1298392501(L_30, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_32 = ___b0;
+		NullCheck(L_32);
+		float L_33 = Bone_get_WorldScaleY_m1298393462(L_32, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_34;
+		memset(&L_34, 0, sizeof(L_34));
+		Vector3__ctor_m2926210380(&L_34, L_31, L_33, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_29);
+		Transform_set_localScale_m310756934(L_29, L_34, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_35 = ___b0;
+		List_1_t12892488 * L_36 = SkeletonRagdoll_AttachBoundingBoxRagdollColliders_m4147200491(__this, L_35, /*hidden argument*/NULL);
+		V_3 = L_36;
+		List_1_t12892488 * L_37 = V_3;
+		NullCheck(L_37);
+		int32_t L_38 = List_1_get_Count_m1891366696(L_37, /*hidden argument*/List_1_get_Count_m1891366696_MethodInfo_var);
+		if (L_38)
+		{
+			goto IL_0132;
+		}
+	}
+	{
+		Bone_t1650489600 * L_39 = ___b0;
+		NullCheck(L_39);
+		BoneData_t2151574858 * L_40 = Bone_get_Data_m2284260815(L_39, /*hidden argument*/NULL);
+		NullCheck(L_40);
+		float L_41 = BoneData_get_Length_m2346184829(L_40, /*hidden argument*/NULL);
+		V_4 = L_41;
+		float L_42 = V_4;
+		if ((!(((float)L_42) == ((float)(0.0f)))))
+		{
+			goto IL_00f7;
+		}
+	}
+	{
+		GameObject_t3674682005 * L_43 = V_1;
+		NullCheck(L_43);
+		SphereCollider_t111527973 * L_44 = GameObject_AddComponent_TisSphereCollider_t111527973_m3283911386(L_43, /*hidden argument*/GameObject_AddComponent_TisSphereCollider_t111527973_m3283911386_MethodInfo_var);
+		V_5 = L_44;
+		SphereCollider_t111527973 * L_45 = V_5;
+		float L_46 = __this->get_thickness_11();
+		NullCheck(L_45);
+		SphereCollider_set_radius_m1893499780(L_45, ((float)((float)L_46*(float)(0.5f))), /*hidden argument*/NULL);
+		goto IL_0132;
+	}
+
+IL_00f7:
+	{
+		GameObject_t3674682005 * L_47 = V_1;
+		NullCheck(L_47);
+		BoxCollider_t2538127765 * L_48 = GameObject_AddComponent_TisBoxCollider_t2538127765_m1849671780(L_47, /*hidden argument*/GameObject_AddComponent_TisBoxCollider_t2538127765_m1849671780_MethodInfo_var);
+		V_6 = L_48;
+		BoxCollider_t2538127765 * L_49 = V_6;
+		float L_50 = V_4;
+		float L_51 = __this->get_thickness_11();
+		float L_52 = __this->get_thickness_11();
+		Vector3_t4282066566  L_53;
+		memset(&L_53, 0, sizeof(L_53));
+		Vector3__ctor_m2926210380(&L_53, L_50, L_51, L_52, /*hidden argument*/NULL);
+		NullCheck(L_49);
+		BoxCollider_set_size_m2674293393(L_49, L_53, /*hidden argument*/NULL);
+		BoxCollider_t2538127765 * L_54 = V_6;
+		float L_55 = V_4;
+		Vector3_t4282066566  L_56;
+		memset(&L_56, 0, sizeof(L_56));
+		Vector3__ctor_m1846874791(&L_56, ((float)((float)L_55*(float)(0.5f))), (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_54);
+		BoxCollider_set_center_m1759609917(L_54, L_56, /*hidden argument*/NULL);
+	}
+
+IL_0132:
+	{
+		GameObject_t3674682005 * L_57 = V_1;
+		NullCheck(L_57);
+		Rigidbody_t3346577219 * L_58 = GameObject_AddComponent_TisRigidbody_t3346577219_m686365494(L_57, /*hidden argument*/GameObject_AddComponent_TisRigidbody_t3346577219_m686365494_MethodInfo_var);
+		V_7 = L_58;
+		Rigidbody_t3346577219 * L_59 = V_7;
+		NullCheck(L_59);
+		Rigidbody_set_constraints_m3626026339(L_59, 8, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_60 = ___b0;
+		NullCheck(L_60);
+		ExposedList_1_t3025422258 * L_61 = Bone_get_Children_m834854748(L_60, /*hidden argument*/NULL);
+		NullCheck(L_61);
+		Enumerator_t1535068636  L_62 = ExposedList_1_GetEnumerator_m4205972584(L_61, /*hidden argument*/ExposedList_1_GetEnumerator_m4205972584_MethodInfo_var);
+		V_9 = L_62;
+	}
+
+IL_014f:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0165;
+		}
+
+IL_0154:
+		{
+			Bone_t1650489600 * L_63 = Enumerator_get_Current_m2949583624((&V_9), /*hidden argument*/Enumerator_get_Current_m2949583624_MethodInfo_var);
+			V_8 = L_63;
+			Bone_t1650489600 * L_64 = V_8;
+			SkeletonRagdoll_RecursivelyCreateBoneProxies_m2236597026(__this, L_64, /*hidden argument*/NULL);
+		}
+
+IL_0165:
+		{
+			bool L_65 = Enumerator_MoveNext_m3508483779((&V_9), /*hidden argument*/Enumerator_MoveNext_m3508483779_MethodInfo_var);
+			if (L_65)
+			{
+				goto IL_0154;
+			}
+		}
+
+IL_0171:
+		{
+			IL2CPP_LEAVE(0x183, FINALLY_0176);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_0176;
+	}
+
+FINALLY_0176:
+	{ // begin finally (depth: 1)
+		Enumerator_t1535068636  L_66 = V_9;
+		Enumerator_t1535068636  L_67 = L_66;
+		Il2CppObject * L_68 = Box(Enumerator_t1535068636_il2cpp_TypeInfo_var, &L_67);
+		NullCheck((Il2CppObject *)L_68);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_68);
+		IL2CPP_END_FINALLY(374)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(374)
+	{
+		IL2CPP_JUMP_TBL(0x183, IL_0183)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_0183:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll::UpdateSpineSkeleton(Spine.Unity.ISkeletonAnimation)
+extern Il2CppClass* SkeletonRagdoll_t105860444_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t4203372500_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t1338369053_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m1258019364_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3438782534_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m3038660598_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m1562041383_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m684300090_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3952993927_MethodInfo_var;
+extern const uint32_t SkeletonRagdoll_UpdateSpineSkeleton_m2953477267_MetadataUsageId;
+extern "C"  void SkeletonRagdoll_UpdateSpineSkeleton_m2953477267 (SkeletonRagdoll_t105860444 * __this, Il2CppObject * ___skeletonRenderer0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll_UpdateSpineSkeleton_m2953477267_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	KeyValuePair_2_t4214793663  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Enumerator_t1338369053  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Bone_t1650489600 * V_6 = NULL;
+	Transform_t1659122786 * V_7 = NULL;
+	bool V_8 = false;
+	Transform_t1659122786 * V_9 = NULL;
+	Vector3_t4282066566  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	Quaternion_t1553702882  V_11;
+	memset(&V_11, 0, sizeof(V_11));
+	Vector3_t4282066566  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	Vector3_t4282066566  V_13;
+	memset(&V_13, 0, sizeof(V_13));
+	Vector3_t4282066566  V_14;
+	memset(&V_14, 0, sizeof(V_14));
+	float V_15 = 0.0f;
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	int32_t G_B3_0 = 0;
+	Transform_t1659122786 * G_B8_0 = NULL;
+	float G_B16_0 = 0.0f;
+	float G_B15_0 = 0.0f;
+	float G_B17_0 = 0.0f;
+	float G_B17_1 = 0.0f;
+	{
+		Skeleton_t2209335561 * L_0 = __this->get_skeleton_18();
+		NullCheck(L_0);
+		bool L_1 = L_0->get_flipX_15();
+		V_0 = L_1;
+		Skeleton_t2209335561 * L_2 = __this->get_skeleton_18();
+		NullCheck(L_2);
+		bool L_3 = L_2->get_flipY_16();
+		V_1 = L_3;
+		bool L_4 = V_0;
+		bool L_5 = V_1;
+		V_2 = (bool)((int32_t)((int32_t)L_4^(int32_t)L_5));
+		bool L_6 = V_0;
+		if (L_6)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		bool L_7 = V_1;
+		G_B3_0 = ((int32_t)(L_7));
+		goto IL_0026;
+	}
+
+IL_0025:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0026:
+	{
+		V_3 = (bool)G_B3_0;
+		Dictionary_2_t21045661 * L_8 = __this->get_boneTable_19();
+		NullCheck(L_8);
+		Enumerator_t1338369053  L_9 = Dictionary_2_GetEnumerator_m1258019364(L_8, /*hidden argument*/Dictionary_2_GetEnumerator_m1258019364_MethodInfo_var);
+		V_5 = L_9;
+	}
+
+IL_0034:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_020d;
+		}
+
+IL_0039:
+		{
+			KeyValuePair_2_t4214793663  L_10 = Enumerator_get_Current_m3438782534((&V_5), /*hidden argument*/Enumerator_get_Current_m3438782534_MethodInfo_var);
+			V_4 = L_10;
+			Bone_t1650489600 * L_11 = KeyValuePair_2_get_Key_m3038660598((&V_4), /*hidden argument*/KeyValuePair_2_get_Key_m3038660598_MethodInfo_var);
+			V_6 = L_11;
+			Transform_t1659122786 * L_12 = KeyValuePair_2_get_Value_m1562041383((&V_4), /*hidden argument*/KeyValuePair_2_get_Value_m1562041383_MethodInfo_var);
+			V_7 = L_12;
+			Bone_t1650489600 * L_13 = V_6;
+			Bone_t1650489600 * L_14 = SkeletonRagdoll_get_StartingBone_m241031523(__this, /*hidden argument*/NULL);
+			V_8 = (bool)((((Il2CppObject*)(Bone_t1650489600 *)L_13) == ((Il2CppObject*)(Bone_t1650489600 *)L_14))? 1 : 0);
+			bool L_15 = V_8;
+			if (!L_15)
+			{
+				goto IL_0072;
+			}
+		}
+
+IL_0067:
+		{
+			Transform_t1659122786 * L_16 = __this->get_ragdollRoot_20();
+			G_B8_0 = L_16;
+			goto IL_0084;
+		}
+
+IL_0072:
+		{
+			Dictionary_2_t21045661 * L_17 = __this->get_boneTable_19();
+			Bone_t1650489600 * L_18 = V_6;
+			NullCheck(L_18);
+			Bone_t1650489600 * L_19 = Bone_get_Parent_m3059819865(L_18, /*hidden argument*/NULL);
+			NullCheck(L_17);
+			Transform_t1659122786 * L_20 = Dictionary_2_get_Item_m684300090(L_17, L_19, /*hidden argument*/Dictionary_2_get_Item_m684300090_MethodInfo_var);
+			G_B8_0 = L_20;
+		}
+
+IL_0084:
+		{
+			V_9 = G_B8_0;
+			Transform_t1659122786 * L_21 = V_9;
+			NullCheck(L_21);
+			Vector3_t4282066566  L_22 = Transform_get_position_m2211398607(L_21, /*hidden argument*/NULL);
+			V_10 = L_22;
+			Transform_t1659122786 * L_23 = V_9;
+			NullCheck(L_23);
+			Quaternion_t1553702882  L_24 = Transform_get_rotation_m11483428(L_23, /*hidden argument*/NULL);
+			V_11 = L_24;
+			Transform_t1659122786 * L_25 = ((SkeletonRagdoll_t105860444_StaticFields*)SkeletonRagdoll_t105860444_il2cpp_TypeInfo_var->static_fields)->get_parentSpaceHelper_2();
+			Vector3_t4282066566  L_26 = V_10;
+			NullCheck(L_25);
+			Transform_set_position_m3111394108(L_25, L_26, /*hidden argument*/NULL);
+			Transform_t1659122786 * L_27 = ((SkeletonRagdoll_t105860444_StaticFields*)SkeletonRagdoll_t105860444_il2cpp_TypeInfo_var->static_fields)->get_parentSpaceHelper_2();
+			Quaternion_t1553702882  L_28 = V_11;
+			NullCheck(L_27);
+			Transform_set_rotation_m1525803229(L_27, L_28, /*hidden argument*/NULL);
+			Transform_t1659122786 * L_29 = ((SkeletonRagdoll_t105860444_StaticFields*)SkeletonRagdoll_t105860444_il2cpp_TypeInfo_var->static_fields)->get_parentSpaceHelper_2();
+			Transform_t1659122786 * L_30 = V_9;
+			NullCheck(L_30);
+			Vector3_t4282066566  L_31 = Transform_get_localScale_m3886572677(L_30, /*hidden argument*/NULL);
+			NullCheck(L_29);
+			Transform_set_localScale_m310756934(L_29, L_31, /*hidden argument*/NULL);
+			Transform_t1659122786 * L_32 = V_7;
+			NullCheck(L_32);
+			Vector3_t4282066566  L_33 = Transform_get_position_m2211398607(L_32, /*hidden argument*/NULL);
+			V_12 = L_33;
+			Transform_t1659122786 * L_34 = ((SkeletonRagdoll_t105860444_StaticFields*)SkeletonRagdoll_t105860444_il2cpp_TypeInfo_var->static_fields)->get_parentSpaceHelper_2();
+			Transform_t1659122786 * L_35 = V_7;
+			NullCheck(L_35);
+			Vector3_t4282066566  L_36 = Transform_get_right_m2070836824(L_35, /*hidden argument*/NULL);
+			NullCheck(L_34);
+			Vector3_t4282066566  L_37 = Transform_InverseTransformDirection_m416562129(L_34, L_36, /*hidden argument*/NULL);
+			V_13 = L_37;
+			Transform_t1659122786 * L_38 = ((SkeletonRagdoll_t105860444_StaticFields*)SkeletonRagdoll_t105860444_il2cpp_TypeInfo_var->static_fields)->get_parentSpaceHelper_2();
+			Vector3_t4282066566  L_39 = V_12;
+			NullCheck(L_38);
+			Vector3_t4282066566  L_40 = Transform_InverseTransformPoint_m1626812000(L_38, L_39, /*hidden argument*/NULL);
+			V_14 = L_40;
+			float L_41 = (&V_13)->get_y_2();
+			float L_42 = (&V_13)->get_x_1();
+			IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+			float L_43 = atan2f(L_41, L_42);
+			V_15 = ((float)((float)L_43*(float)(57.29578f)));
+			bool L_44 = V_3;
+			if (!L_44)
+			{
+				goto IL_0197;
+			}
+		}
+
+IL_010c:
+		{
+			bool L_45 = V_8;
+			if (!L_45)
+			{
+				goto IL_0174;
+			}
+		}
+
+IL_0113:
+		{
+			bool L_46 = V_0;
+			if (!L_46)
+			{
+				goto IL_012c;
+			}
+		}
+
+IL_0119:
+		{
+			Vector3_t4282066566 * L_47 = (&V_14);
+			float L_48 = L_47->get_x_1();
+			L_47->set_x_1(((float)((float)L_48*(float)(-1.0f))));
+		}
+
+IL_012c:
+		{
+			bool L_49 = V_1;
+			if (!L_49)
+			{
+				goto IL_0145;
+			}
+		}
+
+IL_0132:
+		{
+			Vector3_t4282066566 * L_50 = (&V_14);
+			float L_51 = L_50->get_y_2();
+			L_50->set_y_2(((float)((float)L_51*(float)(-1.0f))));
+		}
+
+IL_0145:
+		{
+			float L_52 = V_15;
+			bool L_53 = V_2;
+			G_B15_0 = L_52;
+			if (!L_53)
+			{
+				G_B16_0 = L_52;
+				goto IL_0157;
+			}
+		}
+
+IL_014d:
+		{
+			G_B17_0 = (-1.0f);
+			G_B17_1 = G_B15_0;
+			goto IL_015c;
+		}
+
+IL_0157:
+		{
+			G_B17_0 = (1.0f);
+			G_B17_1 = G_B16_0;
+		}
+
+IL_015c:
+		{
+			V_15 = ((float)((float)G_B17_1*(float)G_B17_0));
+			bool L_54 = V_0;
+			if (!L_54)
+			{
+				goto IL_016f;
+			}
+		}
+
+IL_0165:
+		{
+			float L_55 = V_15;
+			V_15 = ((float)((float)L_55+(float)(180.0f)));
+		}
+
+IL_016f:
+		{
+			goto IL_0197;
+		}
+
+IL_0174:
+		{
+			bool L_56 = V_2;
+			if (!L_56)
+			{
+				goto IL_0197;
+			}
+		}
+
+IL_017a:
+		{
+			float L_57 = V_15;
+			V_15 = ((float)((float)L_57*(float)(-1.0f)));
+			Vector3_t4282066566 * L_58 = (&V_14);
+			float L_59 = L_58->get_y_2();
+			L_58->set_y_2(((float)((float)L_59*(float)(-1.0f))));
+		}
+
+IL_0197:
+		{
+			Bone_t1650489600 * L_60 = V_6;
+			Bone_t1650489600 * L_61 = V_6;
+			NullCheck(L_61);
+			float L_62 = L_61->get_x_5();
+			float L_63 = (&V_14)->get_x_1();
+			float L_64 = __this->get_mix_16();
+			IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+			float L_65 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_62, L_63, L_64, /*hidden argument*/NULL);
+			NullCheck(L_60);
+			L_60->set_x_5(L_65);
+			Bone_t1650489600 * L_66 = V_6;
+			Bone_t1650489600 * L_67 = V_6;
+			NullCheck(L_67);
+			float L_68 = L_67->get_y_6();
+			float L_69 = (&V_14)->get_y_2();
+			float L_70 = __this->get_mix_16();
+			float L_71 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_68, L_69, L_70, /*hidden argument*/NULL);
+			NullCheck(L_66);
+			L_66->set_y_6(L_71);
+			Bone_t1650489600 * L_72 = V_6;
+			Bone_t1650489600 * L_73 = V_6;
+			NullCheck(L_73);
+			float L_74 = L_73->get_rotation_7();
+			float L_75 = V_15;
+			float L_76 = __this->get_mix_16();
+			float L_77 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_74, L_75, L_76, /*hidden argument*/NULL);
+			NullCheck(L_72);
+			L_72->set_rotation_7(L_77);
+			Bone_t1650489600 * L_78 = V_6;
+			Bone_t1650489600 * L_79 = V_6;
+			NullCheck(L_79);
+			float L_80 = L_79->get_appliedRotation_12();
+			float L_81 = V_15;
+			float L_82 = __this->get_mix_16();
+			float L_83 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_80, L_81, L_82, /*hidden argument*/NULL);
+			NullCheck(L_78);
+			L_78->set_appliedRotation_12(L_83);
+		}
+
+IL_020d:
+		{
+			bool L_84 = Enumerator_MoveNext_m3952993927((&V_5), /*hidden argument*/Enumerator_MoveNext_m3952993927_MethodInfo_var);
+			if (L_84)
+			{
+				goto IL_0039;
+			}
+		}
+
+IL_0219:
+		{
+			IL2CPP_LEAVE(0x22B, FINALLY_021e);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_021e;
+	}
+
+FINALLY_021e:
+	{ // begin finally (depth: 1)
+		Enumerator_t1338369053  L_85 = V_5;
+		Enumerator_t1338369053  L_86 = L_85;
+		Il2CppObject * L_87 = Box(Enumerator_t1338369053_il2cpp_TypeInfo_var, &L_86);
+		NullCheck((Il2CppObject *)L_87);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_87);
+		IL2CPP_END_FINALLY(542)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(542)
+	{
+		IL2CPP_JUMP_TBL(0x22B, IL_022b)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_022b:
+	{
+		return;
+	}
+}
+// System.Collections.Generic.List`1<UnityEngine.Collider> Spine.Unity.Modules.SkeletonRagdoll::AttachBoundingBoxRagdollColliders(Spine.Bone)
+extern Il2CppClass* List_1_t12892488_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t4217918959_il2cpp_TypeInfo_var;
+extern Il2CppClass* BoundingBoxAttachment_t3933059536_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t4237591729_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t1535572246_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m4097552150_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m684300090_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m443909113_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_GetEnumerator_m3093700898_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m655691330_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_IndexOf_m3857670939_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2131213318_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3828472754_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisBoxCollider_t2538127765_m1849671780_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m3791912966_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m127921642_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m495687113_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral971444067;
+extern const uint32_t SkeletonRagdoll_AttachBoundingBoxRagdollColliders_m4147200491_MetadataUsageId;
+extern "C"  List_1_t12892488 * SkeletonRagdoll_AttachBoundingBoxRagdollColliders_m4147200491 (SkeletonRagdoll_t105860444 * __this, Bone_t1650489600 * ___b0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll_AttachBoundingBoxRagdollColliders_m4147200491_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = NULL;
+	List_1_t12892488 * V_1 = NULL;
+	Transform_t1659122786 * V_2 = NULL;
+	GameObject_t3674682005 * V_3 = NULL;
+	Skin_t1650992057 * V_4 = NULL;
+	List_1_t4217918959 * V_5 = NULL;
+	Slot_t1650993210 * V_6 = NULL;
+	Enumerator_t1535572246  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	Attachment_t2849733407 * V_8 = NULL;
+	Enumerator_t4237591729  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	BoundingBoxAttachment_t3933059536 * V_10 = NULL;
+	BoxCollider_t2538127765 * V_11 = NULL;
+	Bounds_t2711641849  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	Skin_t1650992057 * G_B2_0 = NULL;
+	Skin_t1650992057 * G_B1_0 = NULL;
+	{
+		List_1_t12892488 * L_0 = (List_1_t12892488 *)il2cpp_codegen_object_new(List_1_t12892488_il2cpp_TypeInfo_var);
+		List_1__ctor_m4097552150(L_0, /*hidden argument*/List_1__ctor_m4097552150_MethodInfo_var);
+		V_1 = L_0;
+		Dictionary_2_t21045661 * L_1 = __this->get_boneTable_19();
+		Bone_t1650489600 * L_2 = ___b0;
+		NullCheck(L_1);
+		Transform_t1659122786 * L_3 = Dictionary_2_get_Item_m684300090(L_1, L_2, /*hidden argument*/Dictionary_2_get_Item_m684300090_MethodInfo_var);
+		V_2 = L_3;
+		Transform_t1659122786 * L_4 = V_2;
+		NullCheck(L_4);
+		GameObject_t3674682005 * L_5 = Component_get_gameObject_m1170635899(L_4, /*hidden argument*/NULL);
+		V_3 = L_5;
+		Skeleton_t2209335561 * L_6 = __this->get_skeleton_18();
+		NullCheck(L_6);
+		Skin_t1650992057 * L_7 = Skeleton_get_Skin_m937084444(L_6, /*hidden argument*/NULL);
+		Skin_t1650992057 * L_8 = L_7;
+		G_B1_0 = L_8;
+		if (L_8)
+		{
+			G_B2_0 = L_8;
+			goto IL_003c;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_9 = __this->get_skeleton_18();
+		NullCheck(L_9);
+		SkeletonData_t3387199699 * L_10 = Skeleton_get_Data_m427316911(L_9, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Skin_t1650992057 * L_11 = SkeletonData_get_DefaultSkin_m1855694519(L_10, /*hidden argument*/NULL);
+		G_B2_0 = L_11;
+	}
+
+IL_003c:
+	{
+		V_4 = G_B2_0;
+		List_1_t4217918959 * L_12 = (List_1_t4217918959 *)il2cpp_codegen_object_new(List_1_t4217918959_il2cpp_TypeInfo_var);
+		List_1__ctor_m443909113(L_12, /*hidden argument*/List_1__ctor_m443909113_MethodInfo_var);
+		V_5 = L_12;
+		Skeleton_t2209335561 * L_13 = __this->get_skeleton_18();
+		NullCheck(L_13);
+		ExposedList_1_t3025925868 * L_14 = Skeleton_get_Slots_m616231671(L_13, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		Enumerator_t1535572246  L_15 = ExposedList_1_GetEnumerator_m3093700898(L_14, /*hidden argument*/ExposedList_1_GetEnumerator_m3093700898_MethodInfo_var);
+		V_7 = L_15;
+	}
+
+IL_0057:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_012d;
+		}
+
+IL_005c:
+		{
+			Slot_t1650993210 * L_16 = Enumerator_get_Current_m655691330((&V_7), /*hidden argument*/Enumerator_get_Current_m655691330_MethodInfo_var);
+			V_6 = L_16;
+			Slot_t1650993210 * L_17 = V_6;
+			NullCheck(L_17);
+			Bone_t1650489600 * L_18 = Slot_get_Bone_m166040749(L_17, /*hidden argument*/NULL);
+			Bone_t1650489600 * L_19 = ___b0;
+			if ((!(((Il2CppObject*)(Bone_t1650489600 *)L_18) == ((Il2CppObject*)(Bone_t1650489600 *)L_19))))
+			{
+				goto IL_012d;
+			}
+		}
+
+IL_0072:
+		{
+			Skin_t1650992057 * L_20 = V_4;
+			Skeleton_t2209335561 * L_21 = __this->get_skeleton_18();
+			NullCheck(L_21);
+			ExposedList_1_t3025925868 * L_22 = Skeleton_get_Slots_m616231671(L_21, /*hidden argument*/NULL);
+			Slot_t1650993210 * L_23 = V_6;
+			NullCheck(L_22);
+			int32_t L_24 = ExposedList_1_IndexOf_m3857670939(L_22, L_23, /*hidden argument*/ExposedList_1_IndexOf_m3857670939_MethodInfo_var);
+			List_1_t4217918959 * L_25 = V_5;
+			NullCheck(L_20);
+			Skin_FindAttachmentsForSlot_m1082383852(L_20, L_24, L_25, /*hidden argument*/NULL);
+			List_1_t4217918959 * L_26 = V_5;
+			NullCheck(L_26);
+			Enumerator_t4237591729  L_27 = List_1_GetEnumerator_m2131213318(L_26, /*hidden argument*/List_1_GetEnumerator_m2131213318_MethodInfo_var);
+			V_9 = L_27;
+		}
+
+IL_0096:
+		try
+		{ // begin try (depth: 2)
+			{
+				goto IL_010f;
+			}
+
+IL_009b:
+			{
+				Attachment_t2849733407 * L_28 = Enumerator_get_Current_m3828472754((&V_9), /*hidden argument*/Enumerator_get_Current_m3828472754_MethodInfo_var);
+				V_8 = L_28;
+				Attachment_t2849733407 * L_29 = V_8;
+				V_10 = ((BoundingBoxAttachment_t3933059536 *)IsInstClass(L_29, BoundingBoxAttachment_t3933059536_il2cpp_TypeInfo_var));
+				BoundingBoxAttachment_t3933059536 * L_30 = V_10;
+				if (!L_30)
+				{
+					goto IL_010f;
+				}
+			}
+
+IL_00b4:
+			{
+				Attachment_t2849733407 * L_31 = V_8;
+				NullCheck(L_31);
+				String_t* L_32 = Attachment_get_Name_m4098311822(L_31, /*hidden argument*/NULL);
+				NullCheck(L_32);
+				String_t* L_33 = String_ToLower_m2421900555(L_32, /*hidden argument*/NULL);
+				NullCheck(L_33);
+				bool L_34 = String_Contains_m3032019141(L_33, _stringLiteral971444067, /*hidden argument*/NULL);
+				if (L_34)
+				{
+					goto IL_00d4;
+				}
+			}
+
+IL_00cf:
+			{
+				goto IL_010f;
+			}
+
+IL_00d4:
+			{
+				GameObject_t3674682005 * L_35 = V_3;
+				NullCheck(L_35);
+				BoxCollider_t2538127765 * L_36 = GameObject_AddComponent_TisBoxCollider_t2538127765_m1849671780(L_35, /*hidden argument*/GameObject_AddComponent_TisBoxCollider_t2538127765_m1849671780_MethodInfo_var);
+				V_11 = L_36;
+				BoundingBoxAttachment_t3933059536 * L_37 = V_10;
+				float L_38 = __this->get_thickness_11();
+				Bounds_t2711641849  L_39 = SkeletonUtility_GetBoundingBoxBounds_m162189167(NULL /*static, unused*/, L_37, L_38, /*hidden argument*/NULL);
+				V_12 = L_39;
+				BoxCollider_t2538127765 * L_40 = V_11;
+				Vector3_t4282066566  L_41 = Bounds_get_center_m4084610404((&V_12), /*hidden argument*/NULL);
+				NullCheck(L_40);
+				BoxCollider_set_center_m1759609917(L_40, L_41, /*hidden argument*/NULL);
+				BoxCollider_t2538127765 * L_42 = V_11;
+				Vector3_t4282066566  L_43 = Bounds_get_size_m3666348432((&V_12), /*hidden argument*/NULL);
+				NullCheck(L_42);
+				BoxCollider_set_size_m2674293393(L_42, L_43, /*hidden argument*/NULL);
+				List_1_t12892488 * L_44 = V_1;
+				BoxCollider_t2538127765 * L_45 = V_11;
+				NullCheck(L_44);
+				List_1_Add_m3791912966(L_44, L_45, /*hidden argument*/List_1_Add_m3791912966_MethodInfo_var);
+			}
+
+IL_010f:
+			{
+				bool L_46 = Enumerator_MoveNext_m127921642((&V_9), /*hidden argument*/Enumerator_MoveNext_m127921642_MethodInfo_var);
+				if (L_46)
+				{
+					goto IL_009b;
+				}
+			}
+
+IL_011b:
+			{
+				IL2CPP_LEAVE(0x12D, FINALLY_0120);
+			}
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+			goto FINALLY_0120;
+		}
+
+FINALLY_0120:
+		{ // begin finally (depth: 2)
+			Enumerator_t4237591729  L_47 = V_9;
+			Enumerator_t4237591729  L_48 = L_47;
+			Il2CppObject * L_49 = Box(Enumerator_t4237591729_il2cpp_TypeInfo_var, &L_48);
+			NullCheck((Il2CppObject *)L_49);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_49);
+			IL2CPP_END_FINALLY(288)
+		} // end finally (depth: 2)
+		IL2CPP_CLEANUP(288)
+		{
+			IL2CPP_JUMP_TBL(0x12D, IL_012d)
+			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+		}
+
+IL_012d:
+		{
+			bool L_50 = Enumerator_MoveNext_m495687113((&V_7), /*hidden argument*/Enumerator_MoveNext_m495687113_MethodInfo_var);
+			if (L_50)
+			{
+				goto IL_005c;
+			}
+		}
+
+IL_0139:
+		{
+			IL2CPP_LEAVE(0x14B, FINALLY_013e);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_013e;
+	}
+
+FINALLY_013e:
+	{ // begin finally (depth: 1)
+		Enumerator_t1535572246  L_51 = V_7;
+		Enumerator_t1535572246  L_52 = L_51;
+		Il2CppObject * L_53 = Box(Enumerator_t1535572246_il2cpp_TypeInfo_var, &L_52);
+		NullCheck((Il2CppObject *)L_53);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_53);
+		IL2CPP_END_FINALLY(318)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(318)
+	{
+		IL2CPP_JUMP_TBL(0x14B, IL_014b)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_014b:
+	{
+		List_1_t12892488 * L_54 = V_1;
+		return L_54;
+	}
+}
+// System.Single Spine.Unity.Modules.SkeletonRagdoll::GetPropagatedRotation(Spine.Bone)
+extern "C"  float SkeletonRagdoll_GetPropagatedRotation_m3661269354 (Il2CppObject * __this /* static, unused */, Bone_t1650489600 * ___b0, const MethodInfo* method)
+{
+	Bone_t1650489600 * V_0 = NULL;
+	float V_1 = 0.0f;
+	{
+		Bone_t1650489600 * L_0 = ___b0;
+		NullCheck(L_0);
+		Bone_t1650489600 * L_1 = Bone_get_Parent_m3059819865(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Bone_t1650489600 * L_2 = ___b0;
+		NullCheck(L_2);
+		float L_3 = Bone_get_AppliedRotation_m1950815632(L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		goto IL_0023;
+	}
+
+IL_0013:
+	{
+		float L_4 = V_1;
+		Bone_t1650489600 * L_5 = V_0;
+		NullCheck(L_5);
+		float L_6 = Bone_get_AppliedRotation_m1950815632(L_5, /*hidden argument*/NULL);
+		V_1 = ((float)((float)L_4+(float)L_6));
+		Bone_t1650489600 * L_7 = V_0;
+		NullCheck(L_7);
+		Bone_t1650489600 * L_8 = L_7->get_parent_3();
+		V_0 = L_8;
+	}
+
+IL_0023:
+	{
+		Bone_t1650489600 * L_9 = V_0;
+		if (L_9)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		float L_10 = V_1;
+		return L_10;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll/<SmoothMixCoroutine>c__IteratorB::.ctor()
+extern "C"  void U3CSmoothMixCoroutineU3Ec__IteratorB__ctor_m719448334 (U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object Spine.Unity.Modules.SkeletonRagdoll/<SmoothMixCoroutine>c__IteratorB::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CSmoothMixCoroutineU3Ec__IteratorB_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2462426894 (U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_5();
+		return L_0;
+	}
+}
+// System.Object Spine.Unity.Modules.SkeletonRagdoll/<SmoothMixCoroutine>c__IteratorB::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CSmoothMixCoroutineU3Ec__IteratorB_System_Collections_IEnumerator_get_Current_m2081654434 (U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_5();
+		return L_0;
+	}
+}
+// System.Boolean Spine.Unity.Modules.SkeletonRagdoll/<SmoothMixCoroutine>c__IteratorB::MoveNext()
+extern Il2CppClass* Mathf_t4203372500_il2cpp_TypeInfo_var;
+extern const uint32_t U3CSmoothMixCoroutineU3Ec__IteratorB_MoveNext_m4183224334_MetadataUsageId;
+extern "C"  bool U3CSmoothMixCoroutineU3Ec__IteratorB_MoveNext_m4183224334 (U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CSmoothMixCoroutineU3Ec__IteratorB_MoveNext_m4183224334_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->get_U24PC_4();
+		V_0 = L_0;
+		__this->set_U24PC_4((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0084;
+		}
+	}
+	{
+		goto IL_00a0;
+	}
+
+IL_0021:
+	{
+		float L_2 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_U3CstartTimeU3E__0_0(L_2);
+		SkeletonRagdoll_t105860444 * L_3 = __this->get_U3CU3Ef__this_8();
+		NullCheck(L_3);
+		float L_4 = L_3->get_mix_16();
+		__this->set_U3CstartMixU3E__1_1(L_4);
+		goto IL_0084;
+	}
+
+IL_0042:
+	{
+		SkeletonRagdoll_t105860444 * L_5 = __this->get_U3CU3Ef__this_8();
+		float L_6 = __this->get_U3CstartMixU3E__1_1();
+		float L_7 = __this->get_target_2();
+		float L_8 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_9 = __this->get_U3CstartTimeU3E__0_0();
+		float L_10 = __this->get_duration_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_11 = Mathf_SmoothStep_m1876640478(NULL /*static, unused*/, L_6, L_7, ((float)((float)((float)((float)L_8-(float)L_9))/(float)L_10)), /*hidden argument*/NULL);
+		NullCheck(L_5);
+		L_5->set_mix_16(L_11);
+		__this->set_U24current_5(NULL);
+		__this->set_U24PC_4(1);
+		goto IL_00a2;
+	}
+
+IL_0084:
+	{
+		SkeletonRagdoll_t105860444 * L_12 = __this->get_U3CU3Ef__this_8();
+		NullCheck(L_12);
+		float L_13 = L_12->get_mix_16();
+		if ((((float)L_13) > ((float)(0.0f))))
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		__this->set_U24PC_4((-1));
+	}
+
+IL_00a0:
+	{
+		return (bool)0;
+	}
+
+IL_00a2:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_00a4: ldloc.1
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll/<SmoothMixCoroutine>c__IteratorB::Dispose()
+extern "C"  void U3CSmoothMixCoroutineU3Ec__IteratorB_Dispose_m4093364683 (U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_4((-1));
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll/<SmoothMixCoroutine>c__IteratorB::Reset()
+extern Il2CppClass* NotSupportedException_t1732551818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CSmoothMixCoroutineU3Ec__IteratorB_Reset_m2660848571_MetadataUsageId;
+extern "C"  void U3CSmoothMixCoroutineU3Ec__IteratorB_Reset_m2660848571 (U3CSmoothMixCoroutineU3Ec__IteratorB_t590758957 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CSmoothMixCoroutineU3Ec__IteratorB_Reset_m2660848571_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1732551818 * L_0 = (NotSupportedException_t1732551818 *)il2cpp_codegen_object_new(NotSupportedException_t1732551818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll/<Start>c__IteratorA::.ctor()
+extern "C"  void U3CStartU3Ec__IteratorA__ctor_m488010119 (U3CStartU3Ec__IteratorA_t3031973476 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object Spine.Unity.Modules.SkeletonRagdoll/<Start>c__IteratorA::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CStartU3Ec__IteratorA_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3919124267 (U3CStartU3Ec__IteratorA_t3031973476 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Object Spine.Unity.Modules.SkeletonRagdoll/<Start>c__IteratorA::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CStartU3Ec__IteratorA_System_Collections_IEnumerator_get_Current_m2273104063 (U3CStartU3Ec__IteratorA_t3031973476 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Boolean Spine.Unity.Modules.SkeletonRagdoll/<Start>c__IteratorA::MoveNext()
+extern Il2CppClass* SkeletonRagdoll_t105860444_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObject_t3674682005_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral302852062;
+extern Il2CppCodeGenString* _stringLiteral3508277567;
+extern const uint32_t U3CStartU3Ec__IteratorA_MoveNext_m1415235341_MetadataUsageId;
+extern "C"  bool U3CStartU3Ec__IteratorA_MoveNext_m1415235341 (U3CStartU3Ec__IteratorA_t3031973476 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStartU3Ec__IteratorA_MoveNext_m1415235341_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->get_U24PC_0();
+		V_0 = L_0;
+		__this->set_U24PC_0((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		goto IL_00d5;
+	}
+
+IL_0021:
+	{
+		Transform_t1659122786 * L_2 = ((SkeletonRagdoll_t105860444_StaticFields*)SkeletonRagdoll_t105860444_il2cpp_TypeInfo_var->static_fields)->get_parentSpaceHelper_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_2, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		GameObject_t3674682005 * L_4 = (GameObject_t3674682005 *)il2cpp_codegen_object_new(GameObject_t3674682005_il2cpp_TypeInfo_var);
+		GameObject__ctor_m3920833606(L_4, _stringLiteral302852062, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Transform_t1659122786 * L_5 = GameObject_get_transform_m1278640159(L_4, /*hidden argument*/NULL);
+		((SkeletonRagdoll_t105860444_StaticFields*)SkeletonRagdoll_t105860444_il2cpp_TypeInfo_var->static_fields)->set_parentSpaceHelper_2(L_5);
+		Transform_t1659122786 * L_6 = ((SkeletonRagdoll_t105860444_StaticFields*)SkeletonRagdoll_t105860444_il2cpp_TypeInfo_var->static_fields)->get_parentSpaceHelper_2();
+		NullCheck(L_6);
+		Object_set_hideFlags_m41317712(L_6, 1, /*hidden argument*/NULL);
+	}
+
+IL_0050:
+	{
+		SkeletonRagdoll_t105860444 * L_7 = __this->get_U3CU3Ef__this_2();
+		SkeletonRagdoll_t105860444 * L_8 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_8);
+		SkeletonRenderer_t3766155010 * L_9 = Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865(L_8, /*hidden argument*/Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var);
+		NullCheck(L_7);
+		L_7->set_targetSkeletonComponent_17(((Il2CppObject *)IsInst(L_9, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var)));
+		SkeletonRagdoll_t105860444 * L_10 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_10);
+		Il2CppObject * L_11 = L_10->get_targetSkeletonComponent_17();
+		if (L_11)
+		{
+			goto IL_0085;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, _stringLiteral3508277567, /*hidden argument*/NULL);
+	}
+
+IL_0085:
+	{
+		SkeletonRagdoll_t105860444 * L_12 = __this->get_U3CU3Ef__this_2();
+		SkeletonRagdoll_t105860444 * L_13 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_13);
+		Il2CppObject * L_14 = L_13->get_targetSkeletonComponent_17();
+		NullCheck(L_14);
+		Skeleton_t2209335561 * L_15 = InterfaceFuncInvoker0< Skeleton_t2209335561 * >::Invoke(7 /* Spine.Skeleton Spine.Unity.ISkeletonAnimation::get_Skeleton() */, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var, L_14);
+		NullCheck(L_12);
+		L_12->set_skeleton_18(L_15);
+		SkeletonRagdoll_t105860444 * L_16 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_16);
+		bool L_17 = L_16->get_applyOnStart_5();
+		if (!L_17)
+		{
+			goto IL_00ce;
+		}
+	}
+	{
+		__this->set_U24current_1(NULL);
+		__this->set_U24PC_0(1);
+		goto IL_00d7;
+	}
+
+IL_00c3:
+	{
+		SkeletonRagdoll_t105860444 * L_18 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_18);
+		SkeletonRagdoll_Apply_m2672811820(L_18, /*hidden argument*/NULL);
+	}
+
+IL_00ce:
+	{
+		__this->set_U24PC_0((-1));
+	}
+
+IL_00d5:
+	{
+		return (bool)0;
+	}
+
+IL_00d7:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_00d9: ldloc.1
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll/<Start>c__IteratorA::Dispose()
+extern "C"  void U3CStartU3Ec__IteratorA_Dispose_m724572164 (U3CStartU3Ec__IteratorA_t3031973476 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_0((-1));
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll/<Start>c__IteratorA::Reset()
+extern Il2CppClass* NotSupportedException_t1732551818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CStartU3Ec__IteratorA_Reset_m2429410356_MetadataUsageId;
+extern "C"  void U3CStartU3Ec__IteratorA_Reset_m2429410356 (U3CStartU3Ec__IteratorA_t3031973476 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStartU3Ec__IteratorA_Reset_m2429410356_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1732551818 * L_0 = (NotSupportedException_t1732551818 *)il2cpp_codegen_object_new(NotSupportedException_t1732551818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll/LayerFieldAttribute::.ctor()
+extern "C"  void LayerFieldAttribute__ctor_m2581340252 (LayerFieldAttribute_t3209403375 * __this, const MethodInfo* method)
+{
+	{
+		PropertyAttribute__ctor_m1741701746(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll2D::.ctor()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1375417109_il2cpp_TypeInfo_var;
+extern Il2CppClass* Dictionary_2_t21045661_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m459821414_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m2534008106_MethodInfo_var;
+extern const uint32_t SkeletonRagdoll2D__ctor_m1146297550_MetadataUsageId;
+extern "C"  void SkeletonRagdoll2D__ctor_m1146297550 (SkeletonRagdoll2D_t1262458094 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll2D__ctor_m1146297550_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_startingBoneName_3(L_0);
+		List_1_t1375417109 * L_1 = (List_1_t1375417109 *)il2cpp_codegen_object_new(List_1_t1375417109_il2cpp_TypeInfo_var);
+		List_1__ctor_m459821414(L_1, /*hidden argument*/List_1__ctor_m459821414_MethodInfo_var);
+		__this->set_stopBoneNames_4(L_1);
+		__this->set_disableIK_6((bool)1);
+		__this->set_gravityScale_9((1.0f));
+		__this->set_thickness_10((0.125f));
+		__this->set_rotationLimit_11((20.0f));
+		__this->set_rootMass_12((20.0f));
+		__this->set_massFalloffFactor_13((0.4f));
+		__this->set_mix_15((1.0f));
+		Dictionary_2_t21045661 * L_2 = (Dictionary_2_t21045661 *)il2cpp_codegen_object_new(Dictionary_2_t21045661_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m2534008106(L_2, /*hidden argument*/Dictionary_2__ctor_m2534008106_MethodInfo_var);
+		__this->set_boneTable_18(L_2);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Rigidbody2D Spine.Unity.Modules.SkeletonRagdoll2D::get_RootRigidbody()
+extern "C"  Rigidbody2D_t1743771669 * SkeletonRagdoll2D_get_RootRigidbody_m619570137 (SkeletonRagdoll2D_t1262458094 * __this, const MethodInfo* method)
+{
+	{
+		Rigidbody2D_t1743771669 * L_0 = __this->get_U3CRootRigidbodyU3Ek__BackingField_22();
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll2D::set_RootRigidbody(UnityEngine.Rigidbody2D)
+extern "C"  void SkeletonRagdoll2D_set_RootRigidbody_m3193025040 (SkeletonRagdoll2D_t1262458094 * __this, Rigidbody2D_t1743771669 * ___value0, const MethodInfo* method)
+{
+	{
+		Rigidbody2D_t1743771669 * L_0 = ___value0;
+		__this->set_U3CRootRigidbodyU3Ek__BackingField_22(L_0);
+		return;
+	}
+}
+// Spine.Bone Spine.Unity.Modules.SkeletonRagdoll2D::get_StartingBone()
+extern "C"  Bone_t1650489600 * SkeletonRagdoll2D_get_StartingBone_m2323915125 (SkeletonRagdoll2D_t1262458094 * __this, const MethodInfo* method)
+{
+	{
+		Bone_t1650489600 * L_0 = __this->get_U3CStartingBoneU3Ek__BackingField_23();
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll2D::set_StartingBone(Spine.Bone)
+extern "C"  void SkeletonRagdoll2D_set_StartingBone_m3211786632 (SkeletonRagdoll2D_t1262458094 * __this, Bone_t1650489600 * ___value0, const MethodInfo* method)
+{
+	{
+		Bone_t1650489600 * L_0 = ___value0;
+		__this->set_U3CStartingBoneU3Ek__BackingField_23(L_0);
+		return;
+	}
+}
+// UnityEngine.Vector3 Spine.Unity.Modules.SkeletonRagdoll2D::get_RootOffset()
+extern "C"  Vector3_t4282066566  SkeletonRagdoll2D_get_RootOffset_m1932476122 (SkeletonRagdoll2D_t1262458094 * __this, const MethodInfo* method)
+{
+	{
+		Vector2_t4282066565  L_0 = __this->get_rootOffset_20();
+		Vector3_t4282066566  L_1 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Boolean Spine.Unity.Modules.SkeletonRagdoll2D::get_IsActive()
+extern "C"  bool SkeletonRagdoll2D_get_IsActive_m4091516123 (SkeletonRagdoll2D_t1262458094 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_isActive_21();
+		return L_0;
+	}
+}
+// System.Collections.IEnumerator Spine.Unity.Modules.SkeletonRagdoll2D::Start()
+extern Il2CppClass* U3CStartU3Ec__IteratorC_t3170568440_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonRagdoll2D_Start_m3352065558_MetadataUsageId;
+extern "C"  Il2CppObject * SkeletonRagdoll2D_Start_m3352065558 (SkeletonRagdoll2D_t1262458094 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll2D_Start_m3352065558_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CStartU3Ec__IteratorC_t3170568440 * V_0 = NULL;
+	{
+		U3CStartU3Ec__IteratorC_t3170568440 * L_0 = (U3CStartU3Ec__IteratorC_t3170568440 *)il2cpp_codegen_object_new(U3CStartU3Ec__IteratorC_t3170568440_il2cpp_TypeInfo_var);
+		U3CStartU3Ec__IteratorC__ctor_m3524932467(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CStartU3Ec__IteratorC_t3170568440 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U3CU3Ef__this_2(__this);
+		U3CStartU3Ec__IteratorC_t3170568440 * L_2 = V_0;
+		return L_2;
+	}
+}
+// UnityEngine.Rigidbody2D[] Spine.Unity.Modules.SkeletonRagdoll2D::get_RigidbodyArray()
+extern Il2CppClass* Rigidbody2DU5BU5D_t23929848_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t2247846365_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Count_m1879153596_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Values_m4257690398_MethodInfo_var;
+extern const MethodInfo* ValueCollection_GetEnumerator_m3250200228_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2652612534_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRigidbody2D_t1743771669_m2201104241_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2860981703_MethodInfo_var;
+extern const uint32_t SkeletonRagdoll2D_get_RigidbodyArray_m2997269186_MetadataUsageId;
+extern "C"  Rigidbody2DU5BU5D_t23929848* SkeletonRagdoll2D_get_RigidbodyArray_m2997269186 (SkeletonRagdoll2D_t1262458094 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll2D_get_RigidbodyArray_m2997269186_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Rigidbody2DU5BU5D_t23929848* V_0 = NULL;
+	int32_t V_1 = 0;
+	Transform_t1659122786 * V_2 = NULL;
+	Enumerator_t2247846365  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		bool L_0 = __this->get_isActive_21();
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return ((Rigidbody2DU5BU5D_t23929848*)SZArrayNew(Rigidbody2DU5BU5D_t23929848_il2cpp_TypeInfo_var, (uint32_t)0));
+	}
+
+IL_0012:
+	{
+		Dictionary_2_t21045661 * L_1 = __this->get_boneTable_18();
+		NullCheck(L_1);
+		int32_t L_2 = Dictionary_2_get_Count_m1879153596(L_1, /*hidden argument*/Dictionary_2_get_Count_m1879153596_MethodInfo_var);
+		V_0 = ((Rigidbody2DU5BU5D_t23929848*)SZArrayNew(Rigidbody2DU5BU5D_t23929848_il2cpp_TypeInfo_var, (uint32_t)L_2));
+		V_1 = 0;
+		Dictionary_2_t21045661 * L_3 = __this->get_boneTable_18();
+		NullCheck(L_3);
+		ValueCollection_t3016618670 * L_4 = Dictionary_2_get_Values_m4257690398(L_3, /*hidden argument*/Dictionary_2_get_Values_m4257690398_MethodInfo_var);
+		NullCheck(L_4);
+		Enumerator_t2247846365  L_5 = ValueCollection_GetEnumerator_m3250200228(L_4, /*hidden argument*/ValueCollection_GetEnumerator_m3250200228_MethodInfo_var);
+		V_3 = L_5;
+	}
+
+IL_0036:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0050;
+		}
+
+IL_003b:
+		{
+			Transform_t1659122786 * L_6 = Enumerator_get_Current_m2652612534((&V_3), /*hidden argument*/Enumerator_get_Current_m2652612534_MethodInfo_var);
+			V_2 = L_6;
+			Rigidbody2DU5BU5D_t23929848* L_7 = V_0;
+			int32_t L_8 = V_1;
+			Transform_t1659122786 * L_9 = V_2;
+			NullCheck(L_9);
+			Rigidbody2D_t1743771669 * L_10 = Component_GetComponent_TisRigidbody2D_t1743771669_m2201104241(L_9, /*hidden argument*/Component_GetComponent_TisRigidbody2D_t1743771669_m2201104241_MethodInfo_var);
+			NullCheck(L_7);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_7, L_8);
+			ArrayElementTypeCheck (L_7, L_10);
+			(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (Rigidbody2D_t1743771669 *)L_10);
+			int32_t L_11 = V_1;
+			V_1 = ((int32_t)((int32_t)L_11+(int32_t)1));
+		}
+
+IL_0050:
+		{
+			bool L_12 = Enumerator_MoveNext_m2860981703((&V_3), /*hidden argument*/Enumerator_MoveNext_m2860981703_MethodInfo_var);
+			if (L_12)
+			{
+				goto IL_003b;
+			}
+		}
+
+IL_005c:
+		{
+			IL2CPP_LEAVE(0x6D, FINALLY_0061);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_0061;
+	}
+
+FINALLY_0061:
+	{ // begin finally (depth: 1)
+		Enumerator_t2247846365  L_13 = V_3;
+		Enumerator_t2247846365  L_14 = L_13;
+		Il2CppObject * L_15 = Box(Enumerator_t2247846365_il2cpp_TypeInfo_var, &L_14);
+		NullCheck((Il2CppObject *)L_15);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_15);
+		IL2CPP_END_FINALLY(97)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(97)
+	{
+		IL2CPP_JUMP_TBL(0x6D, IL_006d)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_006d:
+	{
+		Rigidbody2DU5BU5D_t23929848* L_16 = V_0;
+		return L_16;
+	}
+}
+// UnityEngine.Vector3 Spine.Unity.Modules.SkeletonRagdoll2D::get_EstimatedSkeletonPosition()
+extern "C"  Vector3_t4282066566  SkeletonRagdoll2D_get_EstimatedSkeletonPosition_m1355678191 (SkeletonRagdoll2D_t1262458094 * __this, const MethodInfo* method)
+{
+	{
+		Rigidbody2D_t1743771669 * L_0 = SkeletonRagdoll2D_get_RootRigidbody_m619570137(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Vector2_t4282066565  L_1 = Rigidbody2D_get_position_m3766784193(L_0, /*hidden argument*/NULL);
+		Vector2_t4282066565  L_2 = __this->get_rootOffset_20();
+		Vector2_t4282066565  L_3 = Vector2_op_Subtraction_m2097149401(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_4 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll2D::Apply()
+extern Il2CppClass* List_1_t2920210650_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObject_t3674682005_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* JointAngleLimits2D_t2258250679_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t1338369053_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern Il2CppClass* Physics2D_t9846735_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1375417109_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m684300090_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRigidbody2D_t1743771669_m2201104241_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3737220776_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m1258019364_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3438782534_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m3038660598_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m1562041383_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisCollider2D_t1552025098_m1670690088_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m3431581592_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisHingeJoint2D_t2650814389_m2394458634_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3952993927_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2447002715_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m721230394_MethodInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisSkeletonUtilityBone_t1973204173_m1854961193_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m459821414_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m4975193_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m935595982_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1424439513_MethodInfo_var;
+extern const MethodInfo* SkeletonRagdoll2D_UpdateSpineSkeleton_m409121345_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral717963973;
+extern Il2CppCodeGenString* _stringLiteral3504801402;
+extern Il2CppCodeGenString* _stringLiteral44;
+extern const uint32_t SkeletonRagdoll2D_Apply_m1197400538_MetadataUsageId;
+extern "C"  void SkeletonRagdoll2D_Apply_m1197400538 (SkeletonRagdoll2D_t1262458094 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll2D_Apply_m1197400538_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Bone_t1650489600 * V_0 = NULL;
+	List_1_t2920210650 * V_1 = NULL;
+	KeyValuePair_2_t4214793663  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Enumerator_t1338369053  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Bone_t1650489600 * V_4 = NULL;
+	Transform_t1659122786 * V_5 = NULL;
+	Transform_t1659122786 * V_6 = NULL;
+	Rigidbody2D_t1743771669 * V_7 = NULL;
+	HingeJoint2D_t2650814389 * V_8 = NULL;
+	Vector3_t4282066566  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	SkeletonUtilityBoneU5BU5D_t3282724192* V_12 = NULL;
+	List_1_t1375417109 * V_13 = NULL;
+	SkeletonUtilityBone_t1973204173 * V_14 = NULL;
+	SkeletonUtilityBoneU5BU5D_t3282724192* V_15 = NULL;
+	int32_t V_16 = 0;
+	String_t* V_17 = NULL;
+	int32_t V_18 = 0;
+	ExposedList_1_t2496032397 * V_19 = NULL;
+	int32_t V_20 = 0;
+	int32_t V_21 = 0;
+	ExposedList_1_t326730273 * V_22 = NULL;
+	int32_t V_23 = 0;
+	int32_t V_24 = 0;
+	ExposedList_1_t2012139280 * V_25 = NULL;
+	int32_t V_26 = 0;
+	int32_t V_27 = 0;
+	Bone_t1650489600 * V_28 = NULL;
+	JointAngleLimits2D_t2258250679  V_29;
+	memset(&V_29, 0, sizeof(V_29));
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		__this->set_isActive_21((bool)1);
+		__this->set_mix_15((1.0f));
+		Skeleton_t2209335561 * L_0 = __this->get_skeleton_17();
+		String_t* L_1 = __this->get_startingBoneName_3();
+		NullCheck(L_0);
+		Bone_t1650489600 * L_2 = Skeleton_FindBone_m2568164470(L_0, L_1, /*hidden argument*/NULL);
+		V_28 = L_2;
+		Bone_t1650489600 * L_3 = V_28;
+		SkeletonRagdoll2D_set_StartingBone_m3211786632(__this, L_3, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_4 = V_28;
+		V_0 = L_4;
+		Bone_t1650489600 * L_5 = V_0;
+		SkeletonRagdoll2D_RecursivelyCreateBoneProxies_m641748532(__this, L_5, /*hidden argument*/NULL);
+		Dictionary_2_t21045661 * L_6 = __this->get_boneTable_18();
+		Bone_t1650489600 * L_7 = V_0;
+		NullCheck(L_6);
+		Transform_t1659122786 * L_8 = Dictionary_2_get_Item_m684300090(L_6, L_7, /*hidden argument*/Dictionary_2_get_Item_m684300090_MethodInfo_var);
+		NullCheck(L_8);
+		Rigidbody2D_t1743771669 * L_9 = Component_GetComponent_TisRigidbody2D_t1743771669_m2201104241(L_8, /*hidden argument*/Component_GetComponent_TisRigidbody2D_t1743771669_m2201104241_MethodInfo_var);
+		SkeletonRagdoll2D_set_RootRigidbody_m3193025040(__this, L_9, /*hidden argument*/NULL);
+		Rigidbody2D_t1743771669 * L_10 = SkeletonRagdoll2D_get_RootRigidbody_m619570137(__this, /*hidden argument*/NULL);
+		bool L_11 = __this->get_pinStartBone_8();
+		NullCheck(L_10);
+		Rigidbody2D_set_isKinematic_m222467693(L_10, L_11, /*hidden argument*/NULL);
+		Rigidbody2D_t1743771669 * L_12 = SkeletonRagdoll2D_get_RootRigidbody_m619570137(__this, /*hidden argument*/NULL);
+		float L_13 = __this->get_rootMass_12();
+		NullCheck(L_12);
+		Rigidbody2D_set_mass_m610116752(L_12, L_13, /*hidden argument*/NULL);
+		List_1_t2920210650 * L_14 = (List_1_t2920210650 *)il2cpp_codegen_object_new(List_1_t2920210650_il2cpp_TypeInfo_var);
+		List_1__ctor_m3737220776(L_14, /*hidden argument*/List_1__ctor_m3737220776_MethodInfo_var);
+		V_1 = L_14;
+		Dictionary_2_t21045661 * L_15 = __this->get_boneTable_18();
+		NullCheck(L_15);
+		Enumerator_t1338369053  L_16 = Dictionary_2_GetEnumerator_m1258019364(L_15, /*hidden argument*/Dictionary_2_GetEnumerator_m1258019364_MethodInfo_var);
+		V_3 = L_16;
+	}
+
+IL_0082:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_026c;
+		}
+
+IL_0087:
+		{
+			KeyValuePair_2_t4214793663  L_17 = Enumerator_get_Current_m3438782534((&V_3), /*hidden argument*/Enumerator_get_Current_m3438782534_MethodInfo_var);
+			V_2 = L_17;
+			Bone_t1650489600 * L_18 = KeyValuePair_2_get_Key_m3038660598((&V_2), /*hidden argument*/KeyValuePair_2_get_Key_m3038660598_MethodInfo_var);
+			V_4 = L_18;
+			Transform_t1659122786 * L_19 = KeyValuePair_2_get_Value_m1562041383((&V_2), /*hidden argument*/KeyValuePair_2_get_Value_m1562041383_MethodInfo_var);
+			V_5 = L_19;
+			List_1_t2920210650 * L_20 = V_1;
+			Transform_t1659122786 * L_21 = V_5;
+			NullCheck(L_21);
+			Collider2D_t1552025098 * L_22 = Component_GetComponent_TisCollider2D_t1552025098_m1670690088(L_21, /*hidden argument*/Component_GetComponent_TisCollider2D_t1552025098_m1670690088_MethodInfo_var);
+			NullCheck(L_20);
+			List_1_Add_m3431581592(L_20, L_22, /*hidden argument*/List_1_Add_m3431581592_MethodInfo_var);
+			Bone_t1650489600 * L_23 = V_4;
+			Bone_t1650489600 * L_24 = V_0;
+			if ((!(((Il2CppObject*)(Bone_t1650489600 *)L_23) == ((Il2CppObject*)(Bone_t1650489600 *)L_24))))
+			{
+				goto IL_01ba;
+			}
+		}
+
+IL_00b6:
+		{
+			GameObject_t3674682005 * L_25 = (GameObject_t3674682005 *)il2cpp_codegen_object_new(GameObject_t3674682005_il2cpp_TypeInfo_var);
+			GameObject__ctor_m3920833606(L_25, _stringLiteral717963973, /*hidden argument*/NULL);
+			NullCheck(L_25);
+			Transform_t1659122786 * L_26 = GameObject_get_transform_m1278640159(L_25, /*hidden argument*/NULL);
+			__this->set_ragdollRoot_19(L_26);
+			Transform_t1659122786 * L_27 = __this->get_ragdollRoot_19();
+			Transform_t1659122786 * L_28 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+			NullCheck(L_27);
+			Transform_SetParent_m263985879(L_27, L_28, (bool)0, /*hidden argument*/NULL);
+			Bone_t1650489600 * L_29 = V_4;
+			Skeleton_t2209335561 * L_30 = __this->get_skeleton_17();
+			NullCheck(L_30);
+			Bone_t1650489600 * L_31 = Skeleton_get_RootBone_m2819736574(L_30, /*hidden argument*/NULL);
+			if ((!(((Il2CppObject*)(Bone_t1650489600 *)L_29) == ((Il2CppObject*)(Bone_t1650489600 *)L_31))))
+			{
+				goto IL_0138;
+			}
+		}
+
+IL_00ef:
+		{
+			Transform_t1659122786 * L_32 = __this->get_ragdollRoot_19();
+			Bone_t1650489600 * L_33 = V_4;
+			NullCheck(L_33);
+			float L_34 = Bone_get_WorldX_m3532706771(L_33, /*hidden argument*/NULL);
+			Bone_t1650489600 * L_35 = V_4;
+			NullCheck(L_35);
+			float L_36 = Bone_get_WorldY_m3532707732(L_35, /*hidden argument*/NULL);
+			Vector3_t4282066566  L_37;
+			memset(&L_37, 0, sizeof(L_37));
+			Vector3__ctor_m2926210380(&L_37, L_34, L_36, (0.0f), /*hidden argument*/NULL);
+			NullCheck(L_32);
+			Transform_set_localPosition_m3504330903(L_32, L_37, /*hidden argument*/NULL);
+			Transform_t1659122786 * L_38 = __this->get_ragdollRoot_19();
+			Bone_t1650489600 * L_39 = V_4;
+			float L_40 = SkeletonRagdoll2D_GetPropagatedRotation_m659991448(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
+			Quaternion_t1553702882  L_41 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, (0.0f), (0.0f), L_40, /*hidden argument*/NULL);
+			NullCheck(L_38);
+			Transform_set_localRotation_m3719981474(L_38, L_41, /*hidden argument*/NULL);
+			goto IL_018b;
+		}
+
+IL_0138:
+		{
+			Transform_t1659122786 * L_42 = __this->get_ragdollRoot_19();
+			Bone_t1650489600 * L_43 = V_4;
+			NullCheck(L_43);
+			Bone_t1650489600 * L_44 = Bone_get_Parent_m3059819865(L_43, /*hidden argument*/NULL);
+			NullCheck(L_44);
+			float L_45 = Bone_get_WorldX_m3532706771(L_44, /*hidden argument*/NULL);
+			Bone_t1650489600 * L_46 = V_4;
+			NullCheck(L_46);
+			Bone_t1650489600 * L_47 = Bone_get_Parent_m3059819865(L_46, /*hidden argument*/NULL);
+			NullCheck(L_47);
+			float L_48 = Bone_get_WorldY_m3532707732(L_47, /*hidden argument*/NULL);
+			Vector3_t4282066566  L_49;
+			memset(&L_49, 0, sizeof(L_49));
+			Vector3__ctor_m2926210380(&L_49, L_45, L_48, (0.0f), /*hidden argument*/NULL);
+			NullCheck(L_42);
+			Transform_set_localPosition_m3504330903(L_42, L_49, /*hidden argument*/NULL);
+			Transform_t1659122786 * L_50 = __this->get_ragdollRoot_19();
+			Bone_t1650489600 * L_51 = V_4;
+			NullCheck(L_51);
+			Bone_t1650489600 * L_52 = Bone_get_Parent_m3059819865(L_51, /*hidden argument*/NULL);
+			float L_53 = SkeletonRagdoll2D_GetPropagatedRotation_m659991448(NULL /*static, unused*/, L_52, /*hidden argument*/NULL);
+			Quaternion_t1553702882  L_54 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, (0.0f), (0.0f), L_53, /*hidden argument*/NULL);
+			NullCheck(L_50);
+			Transform_set_localRotation_m3719981474(L_50, L_54, /*hidden argument*/NULL);
+		}
+
+IL_018b:
+		{
+			Transform_t1659122786 * L_55 = __this->get_ragdollRoot_19();
+			V_6 = L_55;
+			Transform_t1659122786 * L_56 = V_5;
+			NullCheck(L_56);
+			Vector3_t4282066566  L_57 = Transform_get_position_m2211398607(L_56, /*hidden argument*/NULL);
+			Transform_t1659122786 * L_58 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+			NullCheck(L_58);
+			Vector3_t4282066566  L_59 = Transform_get_position_m2211398607(L_58, /*hidden argument*/NULL);
+			Vector3_t4282066566  L_60 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_57, L_59, /*hidden argument*/NULL);
+			Vector2_t4282066565  L_61 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_60, /*hidden argument*/NULL);
+			__this->set_rootOffset_20(L_61);
+			goto IL_01ce;
+		}
+
+IL_01ba:
+		{
+			Dictionary_2_t21045661 * L_62 = __this->get_boneTable_18();
+			Bone_t1650489600 * L_63 = V_4;
+			NullCheck(L_63);
+			Bone_t1650489600 * L_64 = Bone_get_Parent_m3059819865(L_63, /*hidden argument*/NULL);
+			NullCheck(L_62);
+			Transform_t1659122786 * L_65 = Dictionary_2_get_Item_m684300090(L_62, L_64, /*hidden argument*/Dictionary_2_get_Item_m684300090_MethodInfo_var);
+			V_6 = L_65;
+		}
+
+IL_01ce:
+		{
+			Transform_t1659122786 * L_66 = V_6;
+			NullCheck(L_66);
+			Rigidbody2D_t1743771669 * L_67 = Component_GetComponent_TisRigidbody2D_t1743771669_m2201104241(L_66, /*hidden argument*/Component_GetComponent_TisRigidbody2D_t1743771669_m2201104241_MethodInfo_var);
+			V_7 = L_67;
+			Rigidbody2D_t1743771669 * L_68 = V_7;
+			IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+			bool L_69 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_68, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+			if (!L_69)
+			{
+				goto IL_026c;
+			}
+		}
+
+IL_01e4:
+		{
+			Transform_t1659122786 * L_70 = V_5;
+			NullCheck(L_70);
+			GameObject_t3674682005 * L_71 = Component_get_gameObject_m1170635899(L_70, /*hidden argument*/NULL);
+			NullCheck(L_71);
+			HingeJoint2D_t2650814389 * L_72 = GameObject_AddComponent_TisHingeJoint2D_t2650814389_m2394458634(L_71, /*hidden argument*/GameObject_AddComponent_TisHingeJoint2D_t2650814389_m2394458634_MethodInfo_var);
+			V_8 = L_72;
+			HingeJoint2D_t2650814389 * L_73 = V_8;
+			Rigidbody2D_t1743771669 * L_74 = V_7;
+			NullCheck(L_73);
+			Joint2D_set_connectedBody_m2661778977(L_73, L_74, /*hidden argument*/NULL);
+			Transform_t1659122786 * L_75 = V_6;
+			Transform_t1659122786 * L_76 = V_5;
+			NullCheck(L_76);
+			Vector3_t4282066566  L_77 = Transform_get_position_m2211398607(L_76, /*hidden argument*/NULL);
+			NullCheck(L_75);
+			Vector3_t4282066566  L_78 = Transform_InverseTransformPoint_m1626812000(L_75, L_77, /*hidden argument*/NULL);
+			V_9 = L_78;
+			HingeJoint2D_t2650814389 * L_79 = V_8;
+			Vector3_t4282066566  L_80 = V_9;
+			Vector2_t4282066565  L_81 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_80, /*hidden argument*/NULL);
+			NullCheck(L_79);
+			AnchoredJoint2D_set_connectedAnchor_m4183292490(L_79, L_81, /*hidden argument*/NULL);
+			HingeJoint2D_t2650814389 * L_82 = V_8;
+			NullCheck(L_82);
+			Rigidbody2D_t1743771669 * L_83 = Component_GetComponent_TisRigidbody2D_t1743771669_m2201104241(L_82, /*hidden argument*/Component_GetComponent_TisRigidbody2D_t1743771669_m2201104241_MethodInfo_var);
+			HingeJoint2D_t2650814389 * L_84 = V_8;
+			NullCheck(L_84);
+			Rigidbody2D_t1743771669 * L_85 = Joint2D_get_connectedBody_m4114977064(L_84, /*hidden argument*/NULL);
+			NullCheck(L_85);
+			float L_86 = Rigidbody2D_get_mass_m3688503547(L_85, /*hidden argument*/NULL);
+			float L_87 = __this->get_massFalloffFactor_13();
+			NullCheck(L_83);
+			Rigidbody2D_set_mass_m610116752(L_83, ((float)((float)L_86*(float)L_87)), /*hidden argument*/NULL);
+			HingeJoint2D_t2650814389 * L_88 = V_8;
+			Initobj (JointAngleLimits2D_t2258250679_il2cpp_TypeInfo_var, (&V_29));
+			float L_89 = __this->get_rotationLimit_11();
+			JointAngleLimits2D_set_min_m653194046((&V_29), ((-L_89)), /*hidden argument*/NULL);
+			float L_90 = __this->get_rotationLimit_11();
+			JointAngleLimits2D_set_max_m1901243884((&V_29), L_90, /*hidden argument*/NULL);
+			JointAngleLimits2D_t2258250679  L_91 = V_29;
+			NullCheck(L_88);
+			HingeJoint2D_set_limits_m2122926515(L_88, L_91, /*hidden argument*/NULL);
+			HingeJoint2D_t2650814389 * L_92 = V_8;
+			NullCheck(L_92);
+			HingeJoint2D_set_useLimits_m2925139955(L_92, (bool)1, /*hidden argument*/NULL);
+		}
+
+IL_026c:
+		{
+			bool L_93 = Enumerator_MoveNext_m3952993927((&V_3), /*hidden argument*/Enumerator_MoveNext_m3952993927_MethodInfo_var);
+			if (L_93)
+			{
+				goto IL_0087;
+			}
+		}
+
+IL_0278:
+		{
+			IL2CPP_LEAVE(0x289, FINALLY_027d);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_027d;
+	}
+
+FINALLY_027d:
+	{ // begin finally (depth: 1)
+		Enumerator_t1338369053  L_94 = V_3;
+		Enumerator_t1338369053  L_95 = L_94;
+		Il2CppObject * L_96 = Box(Enumerator_t1338369053_il2cpp_TypeInfo_var, &L_95);
+		NullCheck((Il2CppObject *)L_96);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_96);
+		IL2CPP_END_FINALLY(637)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(637)
+	{
+		IL2CPP_JUMP_TBL(0x289, IL_0289)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_0289:
+	{
+		V_10 = 0;
+		goto IL_02d5;
+	}
+
+IL_0291:
+	{
+		V_11 = 0;
+		goto IL_02c2;
+	}
+
+IL_0299:
+	{
+		int32_t L_97 = V_10;
+		int32_t L_98 = V_11;
+		if ((!(((uint32_t)L_97) == ((uint32_t)L_98))))
+		{
+			goto IL_02a7;
+		}
+	}
+	{
+		goto IL_02bc;
+	}
+
+IL_02a7:
+	{
+		List_1_t2920210650 * L_99 = V_1;
+		int32_t L_100 = V_10;
+		NullCheck(L_99);
+		Collider2D_t1552025098 * L_101 = List_1_get_Item_m2447002715(L_99, L_100, /*hidden argument*/List_1_get_Item_m2447002715_MethodInfo_var);
+		List_1_t2920210650 * L_102 = V_1;
+		int32_t L_103 = V_11;
+		NullCheck(L_102);
+		Collider2D_t1552025098 * L_104 = List_1_get_Item_m2447002715(L_102, L_103, /*hidden argument*/List_1_get_Item_m2447002715_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t9846735_il2cpp_TypeInfo_var);
+		Physics2D_IgnoreCollision_m4213588200(NULL /*static, unused*/, L_101, L_104, /*hidden argument*/NULL);
+	}
+
+IL_02bc:
+	{
+		int32_t L_105 = V_11;
+		V_11 = ((int32_t)((int32_t)L_105+(int32_t)1));
+	}
+
+IL_02c2:
+	{
+		int32_t L_106 = V_11;
+		List_1_t2920210650 * L_107 = V_1;
+		NullCheck(L_107);
+		int32_t L_108 = List_1_get_Count_m721230394(L_107, /*hidden argument*/List_1_get_Count_m721230394_MethodInfo_var);
+		if ((((int32_t)L_106) < ((int32_t)L_108)))
+		{
+			goto IL_0299;
+		}
+	}
+	{
+		int32_t L_109 = V_10;
+		V_10 = ((int32_t)((int32_t)L_109+(int32_t)1));
+	}
+
+IL_02d5:
+	{
+		int32_t L_110 = V_10;
+		List_1_t2920210650 * L_111 = V_1;
+		NullCheck(L_111);
+		int32_t L_112 = List_1_get_Count_m721230394(L_111, /*hidden argument*/List_1_get_Count_m721230394_MethodInfo_var);
+		if ((((int32_t)L_110) < ((int32_t)L_112)))
+		{
+			goto IL_0291;
+		}
+	}
+	{
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_113 = Component_GetComponentsInChildren_TisSkeletonUtilityBone_t1973204173_m1854961193(__this, /*hidden argument*/Component_GetComponentsInChildren_TisSkeletonUtilityBone_t1973204173_m1854961193_MethodInfo_var);
+		V_12 = L_113;
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_114 = V_12;
+		NullCheck(L_114);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_114)->max_length))))) <= ((int32_t)0)))
+		{
+			goto IL_03b2;
+		}
+	}
+	{
+		List_1_t1375417109 * L_115 = (List_1_t1375417109 *)il2cpp_codegen_object_new(List_1_t1375417109_il2cpp_TypeInfo_var);
+		List_1__ctor_m459821414(L_115, /*hidden argument*/List_1__ctor_m459821414_MethodInfo_var);
+		V_13 = L_115;
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_116 = V_12;
+		V_15 = L_116;
+		V_16 = 0;
+		goto IL_0340;
+	}
+
+IL_0307:
+	{
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_117 = V_15;
+		int32_t L_118 = V_16;
+		NullCheck(L_117);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_117, L_118);
+		int32_t L_119 = L_118;
+		SkeletonUtilityBone_t1973204173 * L_120 = (L_117)->GetAt(static_cast<il2cpp_array_size_t>(L_119));
+		V_14 = L_120;
+		SkeletonUtilityBone_t1973204173 * L_121 = V_14;
+		NullCheck(L_121);
+		int32_t L_122 = L_121->get_mode_5();
+		if ((!(((uint32_t)L_122) == ((uint32_t)1))))
+		{
+			goto IL_033a;
+		}
+	}
+	{
+		List_1_t1375417109 * L_123 = V_13;
+		SkeletonUtilityBone_t1973204173 * L_124 = V_14;
+		NullCheck(L_124);
+		GameObject_t3674682005 * L_125 = Component_get_gameObject_m1170635899(L_124, /*hidden argument*/NULL);
+		NullCheck(L_125);
+		String_t* L_126 = Object_get_name_m3709440845(L_125, /*hidden argument*/NULL);
+		NullCheck(L_123);
+		List_1_Add_m4975193(L_123, L_126, /*hidden argument*/List_1_Add_m4975193_MethodInfo_var);
+		SkeletonUtilityBone_t1973204173 * L_127 = V_14;
+		NullCheck(L_127);
+		GameObject_t3674682005 * L_128 = Component_get_gameObject_m1170635899(L_127, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_128, /*hidden argument*/NULL);
+	}
+
+IL_033a:
+	{
+		int32_t L_129 = V_16;
+		V_16 = ((int32_t)((int32_t)L_129+(int32_t)1));
+	}
+
+IL_0340:
+	{
+		int32_t L_130 = V_16;
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_131 = V_15;
+		NullCheck(L_131);
+		if ((((int32_t)L_130) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_131)->max_length)))))))
+		{
+			goto IL_0307;
+		}
+	}
+	{
+		List_1_t1375417109 * L_132 = V_13;
+		NullCheck(L_132);
+		int32_t L_133 = List_1_get_Count_m935595982(L_132, /*hidden argument*/List_1_get_Count_m935595982_MethodInfo_var);
+		if ((((int32_t)L_133) <= ((int32_t)0)))
+		{
+			goto IL_03b2;
+		}
+	}
+	{
+		V_17 = _stringLiteral3504801402;
+		V_18 = 0;
+		goto IL_039d;
+	}
+
+IL_0367:
+	{
+		String_t* L_134 = V_17;
+		List_1_t1375417109 * L_135 = V_13;
+		int32_t L_136 = V_18;
+		NullCheck(L_135);
+		String_t* L_137 = List_1_get_Item_m1424439513(L_135, L_136, /*hidden argument*/List_1_get_Item_m1424439513_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_138 = String_Concat_m138640077(NULL /*static, unused*/, L_134, L_137, /*hidden argument*/NULL);
+		V_17 = L_138;
+		int32_t L_139 = V_18;
+		List_1_t1375417109 * L_140 = V_13;
+		NullCheck(L_140);
+		int32_t L_141 = List_1_get_Count_m935595982(L_140, /*hidden argument*/List_1_get_Count_m935595982_MethodInfo_var);
+		if ((((int32_t)L_139) == ((int32_t)((int32_t)((int32_t)L_141-(int32_t)1)))))
+		{
+			goto IL_0397;
+		}
+	}
+	{
+		String_t* L_142 = V_17;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_143 = String_Concat_m138640077(NULL /*static, unused*/, L_142, _stringLiteral44, /*hidden argument*/NULL);
+		V_17 = L_143;
+	}
+
+IL_0397:
+	{
+		int32_t L_144 = V_18;
+		V_18 = ((int32_t)((int32_t)L_144+(int32_t)1));
+	}
+
+IL_039d:
+	{
+		int32_t L_145 = V_18;
+		List_1_t1375417109 * L_146 = V_13;
+		NullCheck(L_146);
+		int32_t L_147 = List_1_get_Count_m935595982(L_146, /*hidden argument*/List_1_get_Count_m935595982_MethodInfo_var);
+		if ((((int32_t)L_145) < ((int32_t)L_147)))
+		{
+			goto IL_0367;
+		}
+	}
+	{
+		String_t* L_148 = V_17;
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m3123317694(NULL /*static, unused*/, L_148, /*hidden argument*/NULL);
+	}
+
+IL_03b2:
+	{
+		bool L_149 = __this->get_disableIK_6();
+		if (!L_149)
+		{
+			goto IL_03fe;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_150 = __this->get_skeleton_17();
+		NullCheck(L_150);
+		ExposedList_1_t2496032397 * L_151 = Skeleton_get_IkConstraints_m168078261(L_150, /*hidden argument*/NULL);
+		V_19 = L_151;
+		V_20 = 0;
+		ExposedList_1_t2496032397 * L_152 = V_19;
+		NullCheck(L_152);
+		int32_t L_153 = L_152->get_Count_2();
+		V_21 = L_153;
+		goto IL_03f5;
+	}
+
+IL_03db:
+	{
+		ExposedList_1_t2496032397 * L_154 = V_19;
+		NullCheck(L_154);
+		IkConstraintU5BU5D_t2201310810* L_155 = L_154->get_Items_1();
+		int32_t L_156 = V_20;
+		NullCheck(L_155);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_155, L_156);
+		int32_t L_157 = L_156;
+		IkConstraint_t1121099739 * L_158 = (L_155)->GetAt(static_cast<il2cpp_array_size_t>(L_157));
+		NullCheck(L_158);
+		L_158->set_mix_3((0.0f));
+		int32_t L_159 = V_20;
+		V_20 = ((int32_t)((int32_t)L_159+(int32_t)1));
+	}
+
+IL_03f5:
+	{
+		int32_t L_160 = V_20;
+		int32_t L_161 = V_21;
+		if ((((int32_t)L_160) < ((int32_t)L_161)))
+		{
+			goto IL_03db;
+		}
+	}
+
+IL_03fe:
+	{
+		bool L_162 = __this->get_disableOtherConstraints_7();
+		if (!L_162)
+		{
+			goto IL_04db;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_163 = __this->get_skeleton_17();
+		NullCheck(L_163);
+		ExposedList_1_t326730273 * L_164 = L_163->get_transformConstraints_6();
+		V_22 = L_164;
+		V_23 = 0;
+		ExposedList_1_t326730273 * L_165 = V_22;
+		NullCheck(L_165);
+		int32_t L_166 = L_165->get_Count_2();
+		V_24 = L_166;
+		goto IL_047d;
+	}
+
+IL_0427:
+	{
+		ExposedList_1_t326730273 * L_167 = V_22;
+		NullCheck(L_167);
+		TransformConstraintU5BU5D_t2270346742* L_168 = L_167->get_Items_1();
+		int32_t L_169 = V_23;
+		NullCheck(L_168);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_168, L_169);
+		int32_t L_170 = L_169;
+		TransformConstraint_t3246764911 * L_171 = (L_168)->GetAt(static_cast<il2cpp_array_size_t>(L_170));
+		NullCheck(L_171);
+		L_171->set_rotateMix_3((0.0f));
+		ExposedList_1_t326730273 * L_172 = V_22;
+		NullCheck(L_172);
+		TransformConstraintU5BU5D_t2270346742* L_173 = L_172->get_Items_1();
+		int32_t L_174 = V_23;
+		NullCheck(L_173);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_173, L_174);
+		int32_t L_175 = L_174;
+		TransformConstraint_t3246764911 * L_176 = (L_173)->GetAt(static_cast<il2cpp_array_size_t>(L_175));
+		NullCheck(L_176);
+		L_176->set_scaleMix_5((0.0f));
+		ExposedList_1_t326730273 * L_177 = V_22;
+		NullCheck(L_177);
+		TransformConstraintU5BU5D_t2270346742* L_178 = L_177->get_Items_1();
+		int32_t L_179 = V_23;
+		NullCheck(L_178);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_178, L_179);
+		int32_t L_180 = L_179;
+		TransformConstraint_t3246764911 * L_181 = (L_178)->GetAt(static_cast<il2cpp_array_size_t>(L_180));
+		NullCheck(L_181);
+		L_181->set_shearMix_6((0.0f));
+		ExposedList_1_t326730273 * L_182 = V_22;
+		NullCheck(L_182);
+		TransformConstraintU5BU5D_t2270346742* L_183 = L_182->get_Items_1();
+		int32_t L_184 = V_23;
+		NullCheck(L_183);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_183, L_184);
+		int32_t L_185 = L_184;
+		TransformConstraint_t3246764911 * L_186 = (L_183)->GetAt(static_cast<il2cpp_array_size_t>(L_185));
+		NullCheck(L_186);
+		L_186->set_translateMix_4((0.0f));
+		int32_t L_187 = V_23;
+		V_23 = ((int32_t)((int32_t)L_187+(int32_t)1));
+	}
+
+IL_047d:
+	{
+		int32_t L_188 = V_23;
+		int32_t L_189 = V_24;
+		if ((((int32_t)L_188) < ((int32_t)L_189)))
+		{
+			goto IL_0427;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_190 = __this->get_skeleton_17();
+		NullCheck(L_190);
+		ExposedList_1_t2012139280 * L_191 = L_190->get_pathConstraints_7();
+		V_25 = L_191;
+		V_26 = 0;
+		ExposedList_1_t2012139280 * L_192 = V_25;
+		NullCheck(L_192);
+		int32_t L_193 = L_192->get_Count_2();
+		V_27 = L_193;
+		goto IL_04d2;
+	}
+
+IL_04a4:
+	{
+		ExposedList_1_t2012139280 * L_194 = V_25;
+		NullCheck(L_194);
+		PathConstraintU5BU5D_t4156607595* L_195 = L_194->get_Items_1();
+		int32_t L_196 = V_26;
+		NullCheck(L_195);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_195, L_196);
+		int32_t L_197 = L_196;
+		PathConstraint_t637206622 * L_198 = (L_195)->GetAt(static_cast<il2cpp_array_size_t>(L_197));
+		NullCheck(L_198);
+		L_198->set_rotateMix_8((0.0f));
+		ExposedList_1_t2012139280 * L_199 = V_25;
+		NullCheck(L_199);
+		PathConstraintU5BU5D_t4156607595* L_200 = L_199->get_Items_1();
+		int32_t L_201 = V_26;
+		NullCheck(L_200);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_200, L_201);
+		int32_t L_202 = L_201;
+		PathConstraint_t637206622 * L_203 = (L_200)->GetAt(static_cast<il2cpp_array_size_t>(L_202));
+		NullCheck(L_203);
+		L_203->set_translateMix_9((0.0f));
+		int32_t L_204 = V_26;
+		V_26 = ((int32_t)((int32_t)L_204+(int32_t)1));
+	}
+
+IL_04d2:
+	{
+		int32_t L_205 = V_26;
+		int32_t L_206 = V_27;
+		if ((((int32_t)L_205) < ((int32_t)L_206)))
+		{
+			goto IL_04a4;
+		}
+	}
+
+IL_04db:
+	{
+		Il2CppObject * L_207 = __this->get_targetSkeletonComponent_16();
+		IntPtr_t L_208;
+		L_208.set_m_value_0((void*)(void*)SkeletonRagdoll2D_UpdateSpineSkeleton_m409121345_MethodInfo_var);
+		UpdateBonesDelegate_t4020151189 * L_209 = (UpdateBonesDelegate_t4020151189 *)il2cpp_codegen_object_new(UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var);
+		UpdateBonesDelegate__ctor_m2218992318(L_209, __this, L_208, /*hidden argument*/NULL);
+		NullCheck(L_207);
+		InterfaceActionInvoker1< UpdateBonesDelegate_t4020151189 * >::Invoke(2 /* System.Void Spine.Unity.ISkeletonAnimation::add_UpdateWorld(Spine.Unity.UpdateBonesDelegate) */, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var, L_207, L_209);
+		return;
+	}
+}
+// UnityEngine.Coroutine Spine.Unity.Modules.SkeletonRagdoll2D::SmoothMix(System.Single,System.Single)
+extern "C"  Coroutine_t3621161934 * SkeletonRagdoll2D_SmoothMix_m3717832996 (SkeletonRagdoll2D_t1262458094 * __this, float ___target0, float ___duration1, const MethodInfo* method)
+{
+	{
+		float L_0 = ___target0;
+		float L_1 = ___duration1;
+		Il2CppObject * L_2 = SkeletonRagdoll2D_SmoothMixCoroutine_m2365265272(__this, L_0, L_1, /*hidden argument*/NULL);
+		Coroutine_t3621161934 * L_3 = MonoBehaviour_StartCoroutine_m2135303124(__this, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Collections.IEnumerator Spine.Unity.Modules.SkeletonRagdoll2D::SmoothMixCoroutine(System.Single,System.Single)
+extern Il2CppClass* U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonRagdoll2D_SmoothMixCoroutine_m2365265272_MetadataUsageId;
+extern "C"  Il2CppObject * SkeletonRagdoll2D_SmoothMixCoroutine_m2365265272 (SkeletonRagdoll2D_t1262458094 * __this, float ___target0, float ___duration1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll2D_SmoothMixCoroutine_m2365265272_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909 * V_0 = NULL;
+	{
+		U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909 * L_0 = (U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909 *)il2cpp_codegen_object_new(U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909_il2cpp_TypeInfo_var);
+		U3CSmoothMixCoroutineU3Ec__IteratorD__ctor_m3026540126(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909 * L_1 = V_0;
+		float L_2 = ___target0;
+		NullCheck(L_1);
+		L_1->set_target_2(L_2);
+		U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909 * L_3 = V_0;
+		float L_4 = ___duration1;
+		NullCheck(L_3);
+		L_3->set_duration_3(L_4);
+		U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909 * L_5 = V_0;
+		float L_6 = ___target0;
+		NullCheck(L_5);
+		L_5->set_U3CU24U3Etarget_6(L_6);
+		U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909 * L_7 = V_0;
+		float L_8 = ___duration1;
+		NullCheck(L_7);
+		L_7->set_U3CU24U3Eduration_7(L_8);
+		U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909 * L_9 = V_0;
+		NullCheck(L_9);
+		L_9->set_U3CU3Ef__this_8(__this);
+		U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909 * L_10 = V_0;
+		return L_10;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll2D::SetSkeletonPosition(UnityEngine.Vector3)
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t2247846365_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Values_m4257690398_MethodInfo_var;
+extern const MethodInfo* ValueCollection_GetEnumerator_m3250200228_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2652612534_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2860981703_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4128841867;
+extern const uint32_t SkeletonRagdoll2D_SetSkeletonPosition_m2066691989_MetadataUsageId;
+extern "C"  void SkeletonRagdoll2D_SetSkeletonPosition_m2066691989 (SkeletonRagdoll2D_t1262458094 * __this, Vector3_t4282066566  ___worldPosition0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll2D_SetSkeletonPosition_m2066691989_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Vector3_t4282066566  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Transform_t1659122786 * V_1 = NULL;
+	Enumerator_t2247846365  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		bool L_0 = __this->get_isActive_21();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m3123317694(NULL /*static, unused*/, _stringLiteral4128841867, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0016:
+	{
+		Vector3_t4282066566  L_1 = ___worldPosition0;
+		Transform_t1659122786 * L_2 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Vector3_t4282066566  L_3 = Transform_get_position_m2211398607(L_2, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_4 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_1, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		Transform_t1659122786 * L_5 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_6 = ___worldPosition0;
+		NullCheck(L_5);
+		Transform_set_position_m3111394108(L_5, L_6, /*hidden argument*/NULL);
+		Dictionary_2_t21045661 * L_7 = __this->get_boneTable_18();
+		NullCheck(L_7);
+		ValueCollection_t3016618670 * L_8 = Dictionary_2_get_Values_m4257690398(L_7, /*hidden argument*/Dictionary_2_get_Values_m4257690398_MethodInfo_var);
+		NullCheck(L_8);
+		Enumerator_t2247846365  L_9 = ValueCollection_GetEnumerator_m3250200228(L_8, /*hidden argument*/ValueCollection_GetEnumerator_m3250200228_MethodInfo_var);
+		V_2 = L_9;
+	}
+
+IL_0045:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0064;
+		}
+
+IL_004a:
+		{
+			Transform_t1659122786 * L_10 = Enumerator_get_Current_m2652612534((&V_2), /*hidden argument*/Enumerator_get_Current_m2652612534_MethodInfo_var);
+			V_1 = L_10;
+			Transform_t1659122786 * L_11 = V_1;
+			Transform_t1659122786 * L_12 = L_11;
+			NullCheck(L_12);
+			Vector3_t4282066566  L_13 = Transform_get_position_m2211398607(L_12, /*hidden argument*/NULL);
+			Vector3_t4282066566  L_14 = V_0;
+			Vector3_t4282066566  L_15 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_13, L_14, /*hidden argument*/NULL);
+			NullCheck(L_12);
+			Transform_set_position_m3111394108(L_12, L_15, /*hidden argument*/NULL);
+		}
+
+IL_0064:
+		{
+			bool L_16 = Enumerator_MoveNext_m2860981703((&V_2), /*hidden argument*/Enumerator_MoveNext_m2860981703_MethodInfo_var);
+			if (L_16)
+			{
+				goto IL_004a;
+			}
+		}
+
+IL_0070:
+		{
+			IL2CPP_LEAVE(0x81, FINALLY_0075);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_0075;
+	}
+
+FINALLY_0075:
+	{ // begin finally (depth: 1)
+		Enumerator_t2247846365  L_17 = V_2;
+		Enumerator_t2247846365  L_18 = L_17;
+		Il2CppObject * L_19 = Box(Enumerator_t2247846365_il2cpp_TypeInfo_var, &L_18);
+		NullCheck((Il2CppObject *)L_19);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_19);
+		IL2CPP_END_FINALLY(117)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(117)
+	{
+		IL2CPP_JUMP_TBL(0x81, IL_0081)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_0081:
+	{
+		SkeletonRagdoll2D_UpdateSpineSkeleton_m409121345(__this, (Il2CppObject *)NULL, /*hidden argument*/NULL);
+		Skeleton_t2209335561 * L_20 = __this->get_skeleton_17();
+		NullCheck(L_20);
+		Skeleton_UpdateWorldTransform_m2487614308(L_20, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll2D::Remove()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t2247846365_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Values_m4257690398_MethodInfo_var;
+extern const MethodInfo* ValueCollection_GetEnumerator_m3250200228_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2652612534_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2860981703_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Clear_m4235108693_MethodInfo_var;
+extern const MethodInfo* SkeletonRagdoll2D_UpdateSpineSkeleton_m409121345_MethodInfo_var;
+extern const uint32_t SkeletonRagdoll2D_Remove_m1066929402_MetadataUsageId;
+extern "C"  void SkeletonRagdoll2D_Remove_m1066929402 (SkeletonRagdoll2D_t1262458094 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll2D_Remove_m1066929402_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Transform_t1659122786 * V_0 = NULL;
+	Enumerator_t2247846365  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		__this->set_isActive_21((bool)0);
+		Dictionary_2_t21045661 * L_0 = __this->get_boneTable_18();
+		NullCheck(L_0);
+		ValueCollection_t3016618670 * L_1 = Dictionary_2_get_Values_m4257690398(L_0, /*hidden argument*/Dictionary_2_get_Values_m4257690398_MethodInfo_var);
+		NullCheck(L_1);
+		Enumerator_t2247846365  L_2 = ValueCollection_GetEnumerator_m3250200228(L_1, /*hidden argument*/ValueCollection_GetEnumerator_m3250200228_MethodInfo_var);
+		V_1 = L_2;
+	}
+
+IL_0018:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0030;
+		}
+
+IL_001d:
+		{
+			Transform_t1659122786 * L_3 = Enumerator_get_Current_m2652612534((&V_1), /*hidden argument*/Enumerator_get_Current_m2652612534_MethodInfo_var);
+			V_0 = L_3;
+			Transform_t1659122786 * L_4 = V_0;
+			NullCheck(L_4);
+			GameObject_t3674682005 * L_5 = Component_get_gameObject_m1170635899(L_4, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+			Object_Destroy_m176400816(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		}
+
+IL_0030:
+		{
+			bool L_6 = Enumerator_MoveNext_m2860981703((&V_1), /*hidden argument*/Enumerator_MoveNext_m2860981703_MethodInfo_var);
+			if (L_6)
+			{
+				goto IL_001d;
+			}
+		}
+
+IL_003c:
+		{
+			IL2CPP_LEAVE(0x4D, FINALLY_0041);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_0041;
+	}
+
+FINALLY_0041:
+	{ // begin finally (depth: 1)
+		Enumerator_t2247846365  L_7 = V_1;
+		Enumerator_t2247846365  L_8 = L_7;
+		Il2CppObject * L_9 = Box(Enumerator_t2247846365_il2cpp_TypeInfo_var, &L_8);
+		NullCheck((Il2CppObject *)L_9);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_9);
+		IL2CPP_END_FINALLY(65)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(65)
+	{
+		IL2CPP_JUMP_TBL(0x4D, IL_004d)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_004d:
+	{
+		Transform_t1659122786 * L_10 = __this->get_ragdollRoot_19();
+		NullCheck(L_10);
+		GameObject_t3674682005 * L_11 = Component_get_gameObject_m1170635899(L_10, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		Dictionary_2_t21045661 * L_12 = __this->get_boneTable_18();
+		NullCheck(L_12);
+		Dictionary_2_Clear_m4235108693(L_12, /*hidden argument*/Dictionary_2_Clear_m4235108693_MethodInfo_var);
+		Il2CppObject * L_13 = __this->get_targetSkeletonComponent_16();
+		IntPtr_t L_14;
+		L_14.set_m_value_0((void*)(void*)SkeletonRagdoll2D_UpdateSpineSkeleton_m409121345_MethodInfo_var);
+		UpdateBonesDelegate_t4020151189 * L_15 = (UpdateBonesDelegate_t4020151189 *)il2cpp_codegen_object_new(UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var);
+		UpdateBonesDelegate__ctor_m2218992318(L_15, __this, L_14, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		InterfaceActionInvoker1< UpdateBonesDelegate_t4020151189 * >::Invoke(3 /* System.Void Spine.Unity.ISkeletonAnimation::remove_UpdateWorld(Spine.Unity.UpdateBonesDelegate) */, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var, L_13, L_15);
+		return;
+	}
+}
+// UnityEngine.Rigidbody2D Spine.Unity.Modules.SkeletonRagdoll2D::GetRigidbody(System.String)
+extern const MethodInfo* Dictionary_2_ContainsKey_m3178134637_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m684300090_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRigidbody2D_t1743771669_m2201104241_MethodInfo_var;
+extern const uint32_t SkeletonRagdoll2D_GetRigidbody_m1640140320_MetadataUsageId;
+extern "C"  Rigidbody2D_t1743771669 * SkeletonRagdoll2D_GetRigidbody_m1640140320 (SkeletonRagdoll2D_t1262458094 * __this, String_t* ___boneName0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll2D_GetRigidbody_m1640140320_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Bone_t1650489600 * V_0 = NULL;
+	Rigidbody2D_t1743771669 * G_B4_0 = NULL;
+	{
+		Skeleton_t2209335561 * L_0 = __this->get_skeleton_17();
+		String_t* L_1 = ___boneName0;
+		NullCheck(L_0);
+		Bone_t1650489600 * L_2 = Skeleton_FindBone_m2568164470(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		Bone_t1650489600 * L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		Dictionary_2_t21045661 * L_4 = __this->get_boneTable_18();
+		Bone_t1650489600 * L_5 = V_0;
+		NullCheck(L_4);
+		bool L_6 = Dictionary_2_ContainsKey_m3178134637(L_4, L_5, /*hidden argument*/Dictionary_2_ContainsKey_m3178134637_MethodInfo_var);
+		if (!L_6)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		Dictionary_2_t21045661 * L_7 = __this->get_boneTable_18();
+		Bone_t1650489600 * L_8 = V_0;
+		NullCheck(L_7);
+		Transform_t1659122786 * L_9 = Dictionary_2_get_Item_m684300090(L_7, L_8, /*hidden argument*/Dictionary_2_get_Item_m684300090_MethodInfo_var);
+		NullCheck(L_9);
+		Rigidbody2D_t1743771669 * L_10 = Component_GetComponent_TisRigidbody2D_t1743771669_m2201104241(L_9, /*hidden argument*/Component_GetComponent_TisRigidbody2D_t1743771669_m2201104241_MethodInfo_var);
+		G_B4_0 = L_10;
+		goto IL_003b;
+	}
+
+IL_003a:
+	{
+		G_B4_0 = ((Rigidbody2D_t1743771669 *)(NULL));
+	}
+
+IL_003b:
+	{
+		return G_B4_0;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll2D::RecursivelyCreateBoneProxies(Spine.Bone)
+extern Il2CppClass* GameObject_t3674682005_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t1535068636_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Contains_m3796021657_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m2324150972_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m721230394_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisCircleCollider2D_t3380110778_m3552727141_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisBoxCollider2D_t2212926951_m3702860690_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisRigidbody2D_t1743771669_m2457016804_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_GetEnumerator_m4205972584_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2949583624_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3508483779_MethodInfo_var;
+extern const uint32_t SkeletonRagdoll2D_RecursivelyCreateBoneProxies_m641748532_MetadataUsageId;
+extern "C"  void SkeletonRagdoll2D_RecursivelyCreateBoneProxies_m641748532 (SkeletonRagdoll2D_t1262458094 * __this, Bone_t1650489600 * ___b0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll2D_RecursivelyCreateBoneProxies_m641748532_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = NULL;
+	GameObject_t3674682005 * V_1 = NULL;
+	Transform_t1659122786 * V_2 = NULL;
+	List_1_t2920210650 * V_3 = NULL;
+	float V_4 = 0.0f;
+	CircleCollider2D_t3380110778 * V_5 = NULL;
+	BoxCollider2D_t2212926951 * V_6 = NULL;
+	Rigidbody2D_t1743771669 * V_7 = NULL;
+	Bone_t1650489600 * V_8 = NULL;
+	Enumerator_t1535068636  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Bone_t1650489600 * L_0 = ___b0;
+		NullCheck(L_0);
+		BoneData_t2151574858 * L_1 = L_0->get_data_1();
+		NullCheck(L_1);
+		String_t* L_2 = L_1->get_name_1();
+		V_0 = L_2;
+		List_1_t1375417109 * L_3 = __this->get_stopBoneNames_4();
+		String_t* L_4 = V_0;
+		NullCheck(L_3);
+		bool L_5 = List_1_Contains_m3796021657(L_3, L_4, /*hidden argument*/List_1_Contains_m3796021657_MethodInfo_var);
+		if (!L_5)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001e:
+	{
+		String_t* L_6 = V_0;
+		GameObject_t3674682005 * L_7 = (GameObject_t3674682005 *)il2cpp_codegen_object_new(GameObject_t3674682005_il2cpp_TypeInfo_var);
+		GameObject__ctor_m3920833606(L_7, L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
+		GameObject_t3674682005 * L_8 = V_1;
+		int32_t L_9 = __this->get_colliderLayer_14();
+		NullCheck(L_8);
+		GameObject_set_layer_m1872241535(L_8, L_9, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_10 = V_1;
+		NullCheck(L_10);
+		Transform_t1659122786 * L_11 = GameObject_get_transform_m1278640159(L_10, /*hidden argument*/NULL);
+		V_2 = L_11;
+		Dictionary_2_t21045661 * L_12 = __this->get_boneTable_18();
+		Bone_t1650489600 * L_13 = ___b0;
+		Transform_t1659122786 * L_14 = V_2;
+		NullCheck(L_12);
+		Dictionary_2_Add_m2324150972(L_12, L_13, L_14, /*hidden argument*/Dictionary_2_Add_m2324150972_MethodInfo_var);
+		Transform_t1659122786 * L_15 = V_2;
+		Transform_t1659122786 * L_16 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		Transform_set_parent_m3231272063(L_15, L_16, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_17 = V_2;
+		Bone_t1650489600 * L_18 = ___b0;
+		NullCheck(L_18);
+		float L_19 = Bone_get_WorldX_m3532706771(L_18, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_20 = ___b0;
+		NullCheck(L_20);
+		float L_21 = Bone_get_WorldY_m3532707732(L_20, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_22;
+		memset(&L_22, 0, sizeof(L_22));
+		Vector3__ctor_m2926210380(&L_22, L_19, L_21, (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Transform_set_localPosition_m3504330903(L_17, L_22, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_23 = V_2;
+		Bone_t1650489600 * L_24 = ___b0;
+		NullCheck(L_24);
+		float L_25 = Bone_get_WorldRotationX_m2678405493(L_24, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_26 = ___b0;
+		NullCheck(L_26);
+		float L_27 = L_26->get_shearX_10();
+		Quaternion_t1553702882  L_28 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, (0.0f), (0.0f), ((float)((float)L_25-(float)L_27)), /*hidden argument*/NULL);
+		NullCheck(L_23);
+		Transform_set_localRotation_m3719981474(L_23, L_28, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_29 = V_2;
+		Bone_t1650489600 * L_30 = ___b0;
+		NullCheck(L_30);
+		float L_31 = Bone_get_WorldScaleX_m1298392501(L_30, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_32 = ___b0;
+		NullCheck(L_32);
+		float L_33 = Bone_get_WorldScaleY_m1298393462(L_32, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_34;
+		memset(&L_34, 0, sizeof(L_34));
+		Vector3__ctor_m2926210380(&L_34, L_31, L_33, (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_29);
+		Transform_set_localScale_m310756934(L_29, L_34, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_35 = ___b0;
+		GameObject_t3674682005 * L_36 = V_1;
+		Skeleton_t2209335561 * L_37 = __this->get_skeleton_17();
+		List_1_t2920210650 * L_38 = SkeletonRagdoll2D_AttachBoundingBoxRagdollColliders_m3075023355(NULL /*static, unused*/, L_35, L_36, L_37, /*hidden argument*/NULL);
+		V_3 = L_38;
+		List_1_t2920210650 * L_39 = V_3;
+		NullCheck(L_39);
+		int32_t L_40 = List_1_get_Count_m721230394(L_39, /*hidden argument*/List_1_get_Count_m721230394_MethodInfo_var);
+		if (L_40)
+		{
+			goto IL_0132;
+		}
+	}
+	{
+		Bone_t1650489600 * L_41 = ___b0;
+		NullCheck(L_41);
+		BoneData_t2151574858 * L_42 = L_41->get_data_1();
+		NullCheck(L_42);
+		float L_43 = L_42->get_length_3();
+		V_4 = L_43;
+		float L_44 = V_4;
+		if ((!(((float)L_44) == ((float)(0.0f)))))
+		{
+			goto IL_00fd;
+		}
+	}
+	{
+		GameObject_t3674682005 * L_45 = V_1;
+		NullCheck(L_45);
+		CircleCollider2D_t3380110778 * L_46 = GameObject_AddComponent_TisCircleCollider2D_t3380110778_m3552727141(L_45, /*hidden argument*/GameObject_AddComponent_TisCircleCollider2D_t3380110778_m3552727141_MethodInfo_var);
+		V_5 = L_46;
+		CircleCollider2D_t3380110778 * L_47 = V_5;
+		float L_48 = __this->get_thickness_10();
+		NullCheck(L_47);
+		CircleCollider2D_set_radius_m1280410767(L_47, ((float)((float)L_48*(float)(0.5f))), /*hidden argument*/NULL);
+		goto IL_0132;
+	}
+
+IL_00fd:
+	{
+		GameObject_t3674682005 * L_49 = V_1;
+		NullCheck(L_49);
+		BoxCollider2D_t2212926951 * L_50 = GameObject_AddComponent_TisBoxCollider2D_t2212926951_m3702860690(L_49, /*hidden argument*/GameObject_AddComponent_TisBoxCollider2D_t2212926951_m3702860690_MethodInfo_var);
+		V_6 = L_50;
+		BoxCollider2D_t2212926951 * L_51 = V_6;
+		float L_52 = V_4;
+		float L_53 = __this->get_thickness_10();
+		Vector2_t4282066565  L_54;
+		memset(&L_54, 0, sizeof(L_54));
+		Vector2__ctor_m1517109030(&L_54, L_52, L_53, /*hidden argument*/NULL);
+		NullCheck(L_51);
+		BoxCollider2D_set_size_m1211670560(L_51, L_54, /*hidden argument*/NULL);
+		BoxCollider2D_t2212926951 * L_55 = V_6;
+		float L_56 = V_4;
+		Vector2_t4282066565  L_57;
+		memset(&L_57, 0, sizeof(L_57));
+		Vector2__ctor_m1517109030(&L_57, ((float)((float)L_56*(float)(0.5f))), (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_55);
+		Collider2D_set_offset_m2776803501(L_55, L_57, /*hidden argument*/NULL);
+	}
+
+IL_0132:
+	{
+		GameObject_t3674682005 * L_58 = V_1;
+		NullCheck(L_58);
+		Rigidbody2D_t1743771669 * L_59 = GameObject_AddComponent_TisRigidbody2D_t1743771669_m2457016804(L_58, /*hidden argument*/GameObject_AddComponent_TisRigidbody2D_t1743771669_m2457016804_MethodInfo_var);
+		V_7 = L_59;
+		Rigidbody2D_t1743771669 * L_60 = V_7;
+		float L_61 = __this->get_gravityScale_9();
+		NullCheck(L_60);
+		Rigidbody2D_set_gravityScale_m2024998120(L_60, L_61, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_62 = ___b0;
+		NullCheck(L_62);
+		ExposedList_1_t3025422258 * L_63 = Bone_get_Children_m834854748(L_62, /*hidden argument*/NULL);
+		NullCheck(L_63);
+		Enumerator_t1535068636  L_64 = ExposedList_1_GetEnumerator_m4205972584(L_63, /*hidden argument*/ExposedList_1_GetEnumerator_m4205972584_MethodInfo_var);
+		V_9 = L_64;
+	}
+
+IL_0154:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_016a;
+		}
+
+IL_0159:
+		{
+			Bone_t1650489600 * L_65 = Enumerator_get_Current_m2949583624((&V_9), /*hidden argument*/Enumerator_get_Current_m2949583624_MethodInfo_var);
+			V_8 = L_65;
+			Bone_t1650489600 * L_66 = V_8;
+			SkeletonRagdoll2D_RecursivelyCreateBoneProxies_m641748532(__this, L_66, /*hidden argument*/NULL);
+		}
+
+IL_016a:
+		{
+			bool L_67 = Enumerator_MoveNext_m3508483779((&V_9), /*hidden argument*/Enumerator_MoveNext_m3508483779_MethodInfo_var);
+			if (L_67)
+			{
+				goto IL_0159;
+			}
+		}
+
+IL_0176:
+		{
+			IL2CPP_LEAVE(0x188, FINALLY_017b);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_017b;
+	}
+
+FINALLY_017b:
+	{ // begin finally (depth: 1)
+		Enumerator_t1535068636  L_68 = V_9;
+		Enumerator_t1535068636  L_69 = L_68;
+		Il2CppObject * L_70 = Box(Enumerator_t1535068636_il2cpp_TypeInfo_var, &L_69);
+		NullCheck((Il2CppObject *)L_70);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_70);
+		IL2CPP_END_FINALLY(379)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(379)
+	{
+		IL2CPP_JUMP_TBL(0x188, IL_0188)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_0188:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll2D::UpdateSpineSkeleton(Spine.Unity.ISkeletonAnimation)
+extern Il2CppClass* SkeletonRagdoll2D_t1262458094_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t4203372500_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t1338369053_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m1258019364_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3438782534_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m3038660598_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m1562041383_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m684300090_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3952993927_MethodInfo_var;
+extern const uint32_t SkeletonRagdoll2D_UpdateSpineSkeleton_m409121345_MetadataUsageId;
+extern "C"  void SkeletonRagdoll2D_UpdateSpineSkeleton_m409121345 (SkeletonRagdoll2D_t1262458094 * __this, Il2CppObject * ___animatedSkeleton0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll2D_UpdateSpineSkeleton_m409121345_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	Bone_t1650489600 * V_4 = NULL;
+	KeyValuePair_2_t4214793663  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Enumerator_t1338369053  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Bone_t1650489600 * V_7 = NULL;
+	Transform_t1659122786 * V_8 = NULL;
+	bool V_9 = false;
+	Transform_t1659122786 * V_10 = NULL;
+	Vector3_t4282066566  V_11;
+	memset(&V_11, 0, sizeof(V_11));
+	Quaternion_t1553702882  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	Vector3_t4282066566  V_13;
+	memset(&V_13, 0, sizeof(V_13));
+	Vector3_t4282066566  V_14;
+	memset(&V_14, 0, sizeof(V_14));
+	Vector3_t4282066566  V_15;
+	memset(&V_15, 0, sizeof(V_15));
+	float V_16 = 0.0f;
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	int32_t G_B3_0 = 0;
+	Transform_t1659122786 * G_B8_0 = NULL;
+	float G_B16_0 = 0.0f;
+	float G_B15_0 = 0.0f;
+	float G_B17_0 = 0.0f;
+	float G_B17_1 = 0.0f;
+	{
+		Skeleton_t2209335561 * L_0 = __this->get_skeleton_17();
+		NullCheck(L_0);
+		bool L_1 = L_0->get_flipX_15();
+		V_0 = L_1;
+		Skeleton_t2209335561 * L_2 = __this->get_skeleton_17();
+		NullCheck(L_2);
+		bool L_3 = L_2->get_flipY_16();
+		V_1 = L_3;
+		bool L_4 = V_0;
+		bool L_5 = V_1;
+		V_2 = (bool)((int32_t)((int32_t)L_4^(int32_t)L_5));
+		bool L_6 = V_0;
+		if (L_6)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		bool L_7 = V_1;
+		G_B3_0 = ((int32_t)(L_7));
+		goto IL_0026;
+	}
+
+IL_0025:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0026:
+	{
+		V_3 = (bool)G_B3_0;
+		Bone_t1650489600 * L_8 = SkeletonRagdoll2D_get_StartingBone_m2323915125(__this, /*hidden argument*/NULL);
+		V_4 = L_8;
+		Dictionary_2_t21045661 * L_9 = __this->get_boneTable_18();
+		NullCheck(L_9);
+		Enumerator_t1338369053  L_10 = Dictionary_2_GetEnumerator_m1258019364(L_9, /*hidden argument*/Dictionary_2_GetEnumerator_m1258019364_MethodInfo_var);
+		V_6 = L_10;
+	}
+
+IL_003c:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0211;
+		}
+
+IL_0041:
+		{
+			KeyValuePair_2_t4214793663  L_11 = Enumerator_get_Current_m3438782534((&V_6), /*hidden argument*/Enumerator_get_Current_m3438782534_MethodInfo_var);
+			V_5 = L_11;
+			Bone_t1650489600 * L_12 = KeyValuePair_2_get_Key_m3038660598((&V_5), /*hidden argument*/KeyValuePair_2_get_Key_m3038660598_MethodInfo_var);
+			V_7 = L_12;
+			Transform_t1659122786 * L_13 = KeyValuePair_2_get_Value_m1562041383((&V_5), /*hidden argument*/KeyValuePair_2_get_Value_m1562041383_MethodInfo_var);
+			V_8 = L_13;
+			Bone_t1650489600 * L_14 = V_7;
+			Bone_t1650489600 * L_15 = V_4;
+			V_9 = (bool)((((Il2CppObject*)(Bone_t1650489600 *)L_14) == ((Il2CppObject*)(Bone_t1650489600 *)L_15))? 1 : 0);
+			bool L_16 = V_9;
+			if (!L_16)
+			{
+				goto IL_0076;
+			}
+		}
+
+IL_006b:
+		{
+			Transform_t1659122786 * L_17 = __this->get_ragdollRoot_19();
+			G_B8_0 = L_17;
+			goto IL_0088;
+		}
+
+IL_0076:
+		{
+			Dictionary_2_t21045661 * L_18 = __this->get_boneTable_18();
+			Bone_t1650489600 * L_19 = V_7;
+			NullCheck(L_19);
+			Bone_t1650489600 * L_20 = Bone_get_Parent_m3059819865(L_19, /*hidden argument*/NULL);
+			NullCheck(L_18);
+			Transform_t1659122786 * L_21 = Dictionary_2_get_Item_m684300090(L_18, L_20, /*hidden argument*/Dictionary_2_get_Item_m684300090_MethodInfo_var);
+			G_B8_0 = L_21;
+		}
+
+IL_0088:
+		{
+			V_10 = G_B8_0;
+			Transform_t1659122786 * L_22 = V_10;
+			NullCheck(L_22);
+			Vector3_t4282066566  L_23 = Transform_get_position_m2211398607(L_22, /*hidden argument*/NULL);
+			V_11 = L_23;
+			Transform_t1659122786 * L_24 = V_10;
+			NullCheck(L_24);
+			Quaternion_t1553702882  L_25 = Transform_get_rotation_m11483428(L_24, /*hidden argument*/NULL);
+			V_12 = L_25;
+			Transform_t1659122786 * L_26 = ((SkeletonRagdoll2D_t1262458094_StaticFields*)SkeletonRagdoll2D_t1262458094_il2cpp_TypeInfo_var->static_fields)->get_parentSpaceHelper_2();
+			Vector3_t4282066566  L_27 = V_11;
+			NullCheck(L_26);
+			Transform_set_position_m3111394108(L_26, L_27, /*hidden argument*/NULL);
+			Transform_t1659122786 * L_28 = ((SkeletonRagdoll2D_t1262458094_StaticFields*)SkeletonRagdoll2D_t1262458094_il2cpp_TypeInfo_var->static_fields)->get_parentSpaceHelper_2();
+			Quaternion_t1553702882  L_29 = V_12;
+			NullCheck(L_28);
+			Transform_set_rotation_m1525803229(L_28, L_29, /*hidden argument*/NULL);
+			Transform_t1659122786 * L_30 = ((SkeletonRagdoll2D_t1262458094_StaticFields*)SkeletonRagdoll2D_t1262458094_il2cpp_TypeInfo_var->static_fields)->get_parentSpaceHelper_2();
+			Transform_t1659122786 * L_31 = V_10;
+			NullCheck(L_31);
+			Vector3_t4282066566  L_32 = Transform_get_localScale_m3886572677(L_31, /*hidden argument*/NULL);
+			NullCheck(L_30);
+			Transform_set_localScale_m310756934(L_30, L_32, /*hidden argument*/NULL);
+			Transform_t1659122786 * L_33 = V_8;
+			NullCheck(L_33);
+			Vector3_t4282066566  L_34 = Transform_get_position_m2211398607(L_33, /*hidden argument*/NULL);
+			V_13 = L_34;
+			Transform_t1659122786 * L_35 = ((SkeletonRagdoll2D_t1262458094_StaticFields*)SkeletonRagdoll2D_t1262458094_il2cpp_TypeInfo_var->static_fields)->get_parentSpaceHelper_2();
+			Transform_t1659122786 * L_36 = V_8;
+			NullCheck(L_36);
+			Vector3_t4282066566  L_37 = Transform_get_right_m2070836824(L_36, /*hidden argument*/NULL);
+			NullCheck(L_35);
+			Vector3_t4282066566  L_38 = Transform_InverseTransformDirection_m416562129(L_35, L_37, /*hidden argument*/NULL);
+			V_14 = L_38;
+			Transform_t1659122786 * L_39 = ((SkeletonRagdoll2D_t1262458094_StaticFields*)SkeletonRagdoll2D_t1262458094_il2cpp_TypeInfo_var->static_fields)->get_parentSpaceHelper_2();
+			Vector3_t4282066566  L_40 = V_13;
+			NullCheck(L_39);
+			Vector3_t4282066566  L_41 = Transform_InverseTransformPoint_m1626812000(L_39, L_40, /*hidden argument*/NULL);
+			V_15 = L_41;
+			float L_42 = (&V_14)->get_y_2();
+			float L_43 = (&V_14)->get_x_1();
+			IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+			float L_44 = atan2f(L_42, L_43);
+			V_16 = ((float)((float)L_44*(float)(57.29578f)));
+			bool L_45 = V_3;
+			if (!L_45)
+			{
+				goto IL_019b;
+			}
+		}
+
+IL_0110:
+		{
+			bool L_46 = V_9;
+			if (!L_46)
+			{
+				goto IL_0178;
+			}
+		}
+
+IL_0117:
+		{
+			bool L_47 = V_0;
+			if (!L_47)
+			{
+				goto IL_0130;
+			}
+		}
+
+IL_011d:
+		{
+			Vector3_t4282066566 * L_48 = (&V_15);
+			float L_49 = L_48->get_x_1();
+			L_48->set_x_1(((float)((float)L_49*(float)(-1.0f))));
+		}
+
+IL_0130:
+		{
+			bool L_50 = V_1;
+			if (!L_50)
+			{
+				goto IL_0149;
+			}
+		}
+
+IL_0136:
+		{
+			Vector3_t4282066566 * L_51 = (&V_15);
+			float L_52 = L_51->get_y_2();
+			L_51->set_y_2(((float)((float)L_52*(float)(-1.0f))));
+		}
+
+IL_0149:
+		{
+			float L_53 = V_16;
+			bool L_54 = V_2;
+			G_B15_0 = L_53;
+			if (!L_54)
+			{
+				G_B16_0 = L_53;
+				goto IL_015b;
+			}
+		}
+
+IL_0151:
+		{
+			G_B17_0 = (-1.0f);
+			G_B17_1 = G_B15_0;
+			goto IL_0160;
+		}
+
+IL_015b:
+		{
+			G_B17_0 = (1.0f);
+			G_B17_1 = G_B16_0;
+		}
+
+IL_0160:
+		{
+			V_16 = ((float)((float)G_B17_1*(float)G_B17_0));
+			bool L_55 = V_0;
+			if (!L_55)
+			{
+				goto IL_0173;
+			}
+		}
+
+IL_0169:
+		{
+			float L_56 = V_16;
+			V_16 = ((float)((float)L_56+(float)(180.0f)));
+		}
+
+IL_0173:
+		{
+			goto IL_019b;
+		}
+
+IL_0178:
+		{
+			bool L_57 = V_2;
+			if (!L_57)
+			{
+				goto IL_019b;
+			}
+		}
+
+IL_017e:
+		{
+			float L_58 = V_16;
+			V_16 = ((float)((float)L_58*(float)(-1.0f)));
+			Vector3_t4282066566 * L_59 = (&V_15);
+			float L_60 = L_59->get_y_2();
+			L_59->set_y_2(((float)((float)L_60*(float)(-1.0f))));
+		}
+
+IL_019b:
+		{
+			Bone_t1650489600 * L_61 = V_7;
+			Bone_t1650489600 * L_62 = V_7;
+			NullCheck(L_62);
+			float L_63 = L_62->get_x_5();
+			float L_64 = (&V_15)->get_x_1();
+			float L_65 = __this->get_mix_15();
+			IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+			float L_66 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_63, L_64, L_65, /*hidden argument*/NULL);
+			NullCheck(L_61);
+			L_61->set_x_5(L_66);
+			Bone_t1650489600 * L_67 = V_7;
+			Bone_t1650489600 * L_68 = V_7;
+			NullCheck(L_68);
+			float L_69 = L_68->get_y_6();
+			float L_70 = (&V_15)->get_y_2();
+			float L_71 = __this->get_mix_15();
+			float L_72 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_69, L_70, L_71, /*hidden argument*/NULL);
+			NullCheck(L_67);
+			L_67->set_y_6(L_72);
+			Bone_t1650489600 * L_73 = V_7;
+			Bone_t1650489600 * L_74 = V_7;
+			NullCheck(L_74);
+			float L_75 = L_74->get_rotation_7();
+			float L_76 = V_16;
+			float L_77 = __this->get_mix_15();
+			float L_78 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_75, L_76, L_77, /*hidden argument*/NULL);
+			NullCheck(L_73);
+			L_73->set_rotation_7(L_78);
+			Bone_t1650489600 * L_79 = V_7;
+			Bone_t1650489600 * L_80 = V_7;
+			NullCheck(L_80);
+			float L_81 = L_80->get_appliedRotation_12();
+			float L_82 = V_16;
+			float L_83 = __this->get_mix_15();
+			float L_84 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_81, L_82, L_83, /*hidden argument*/NULL);
+			NullCheck(L_79);
+			L_79->set_appliedRotation_12(L_84);
+		}
+
+IL_0211:
+		{
+			bool L_85 = Enumerator_MoveNext_m3952993927((&V_6), /*hidden argument*/Enumerator_MoveNext_m3952993927_MethodInfo_var);
+			if (L_85)
+			{
+				goto IL_0041;
+			}
+		}
+
+IL_021d:
+		{
+			IL2CPP_LEAVE(0x22F, FINALLY_0222);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_0222;
+	}
+
+FINALLY_0222:
+	{ // begin finally (depth: 1)
+		Enumerator_t1338369053  L_86 = V_6;
+		Enumerator_t1338369053  L_87 = L_86;
+		Il2CppObject * L_88 = Box(Enumerator_t1338369053_il2cpp_TypeInfo_var, &L_87);
+		NullCheck((Il2CppObject *)L_88);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_88);
+		IL2CPP_END_FINALLY(546)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(546)
+	{
+		IL2CPP_JUMP_TBL(0x22F, IL_022f)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_022f:
+	{
+		return;
+	}
+}
+// System.Collections.Generic.List`1<UnityEngine.Collider2D> Spine.Unity.Modules.SkeletonRagdoll2D::AttachBoundingBoxRagdollColliders(Spine.Bone,UnityEngine.GameObject,Spine.Skeleton)
+extern Il2CppClass* List_1_t2920210650_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t4217918959_il2cpp_TypeInfo_var;
+extern Il2CppClass* BoundingBoxAttachment_t3933059536_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t4237591729_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t1535572246_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3737220776_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m443909113_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_GetEnumerator_m3093700898_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m655691330_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_IndexOf_m3857670939_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2131213318_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3828472754_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m3431581592_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m127921642_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m495687113_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral971444067;
+extern const uint32_t SkeletonRagdoll2D_AttachBoundingBoxRagdollColliders_m3075023355_MetadataUsageId;
+extern "C"  List_1_t2920210650 * SkeletonRagdoll2D_AttachBoundingBoxRagdollColliders_m3075023355 (Il2CppObject * __this /* static, unused */, Bone_t1650489600 * ___b0, GameObject_t3674682005 * ___go1, Skeleton_t2209335561 * ___skeleton2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRagdoll2D_AttachBoundingBoxRagdollColliders_m3075023355_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = NULL;
+	List_1_t2920210650 * V_1 = NULL;
+	Skin_t1650992057 * V_2 = NULL;
+	List_1_t4217918959 * V_3 = NULL;
+	Slot_t1650993210 * V_4 = NULL;
+	Enumerator_t1535572246  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Attachment_t2849733407 * V_6 = NULL;
+	Enumerator_t4237591729  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	BoundingBoxAttachment_t3933059536 * V_8 = NULL;
+	PolygonCollider2D_t2156524054 * V_9 = NULL;
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	Skin_t1650992057 * G_B2_0 = NULL;
+	Skin_t1650992057 * G_B1_0 = NULL;
+	{
+		List_1_t2920210650 * L_0 = (List_1_t2920210650 *)il2cpp_codegen_object_new(List_1_t2920210650_il2cpp_TypeInfo_var);
+		List_1__ctor_m3737220776(L_0, /*hidden argument*/List_1__ctor_m3737220776_MethodInfo_var);
+		V_1 = L_0;
+		Skeleton_t2209335561 * L_1 = ___skeleton2;
+		NullCheck(L_1);
+		Skin_t1650992057 * L_2 = Skeleton_get_Skin_m937084444(L_1, /*hidden argument*/NULL);
+		Skin_t1650992057 * L_3 = L_2;
+		G_B1_0 = L_3;
+		if (L_3)
+		{
+			G_B2_0 = L_3;
+			goto IL_001e;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_4 = ___skeleton2;
+		NullCheck(L_4);
+		SkeletonData_t3387199699 * L_5 = Skeleton_get_Data_m427316911(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Skin_t1650992057 * L_6 = SkeletonData_get_DefaultSkin_m1855694519(L_5, /*hidden argument*/NULL);
+		G_B2_0 = L_6;
+	}
+
+IL_001e:
+	{
+		V_2 = G_B2_0;
+		List_1_t4217918959 * L_7 = (List_1_t4217918959 *)il2cpp_codegen_object_new(List_1_t4217918959_il2cpp_TypeInfo_var);
+		List_1__ctor_m443909113(L_7, /*hidden argument*/List_1__ctor_m443909113_MethodInfo_var);
+		V_3 = L_7;
+		Skeleton_t2209335561 * L_8 = ___skeleton2;
+		NullCheck(L_8);
+		ExposedList_1_t3025925868 * L_9 = Skeleton_get_Slots_m616231671(L_8, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Enumerator_t1535572246  L_10 = ExposedList_1_GetEnumerator_m3093700898(L_9, /*hidden argument*/ExposedList_1_GetEnumerator_m3093700898_MethodInfo_var);
+		V_5 = L_10;
+	}
+
+IL_0032:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_00d8;
+		}
+
+IL_0037:
+		{
+			Slot_t1650993210 * L_11 = Enumerator_get_Current_m655691330((&V_5), /*hidden argument*/Enumerator_get_Current_m655691330_MethodInfo_var);
+			V_4 = L_11;
+			Slot_t1650993210 * L_12 = V_4;
+			NullCheck(L_12);
+			Bone_t1650489600 * L_13 = L_12->get_bone_1();
+			Bone_t1650489600 * L_14 = ___b0;
+			if ((!(((Il2CppObject*)(Bone_t1650489600 *)L_13) == ((Il2CppObject*)(Bone_t1650489600 *)L_14))))
+			{
+				goto IL_00d8;
+			}
+		}
+
+IL_004d:
+		{
+			Skin_t1650992057 * L_15 = V_2;
+			Skeleton_t2209335561 * L_16 = ___skeleton2;
+			NullCheck(L_16);
+			ExposedList_1_t3025925868 * L_17 = Skeleton_get_Slots_m616231671(L_16, /*hidden argument*/NULL);
+			Slot_t1650993210 * L_18 = V_4;
+			NullCheck(L_17);
+			int32_t L_19 = ExposedList_1_IndexOf_m3857670939(L_17, L_18, /*hidden argument*/ExposedList_1_IndexOf_m3857670939_MethodInfo_var);
+			List_1_t4217918959 * L_20 = V_3;
+			NullCheck(L_15);
+			Skin_FindAttachmentsForSlot_m1082383852(L_15, L_19, L_20, /*hidden argument*/NULL);
+			List_1_t4217918959 * L_21 = V_3;
+			NullCheck(L_21);
+			Enumerator_t4237591729  L_22 = List_1_GetEnumerator_m2131213318(L_21, /*hidden argument*/List_1_GetEnumerator_m2131213318_MethodInfo_var);
+			V_7 = L_22;
+		}
+
+IL_0069:
+		try
+		{ // begin try (depth: 2)
+			{
+				goto IL_00ba;
+			}
+
+IL_006e:
+			{
+				Attachment_t2849733407 * L_23 = Enumerator_get_Current_m3828472754((&V_7), /*hidden argument*/Enumerator_get_Current_m3828472754_MethodInfo_var);
+				V_6 = L_23;
+				Attachment_t2849733407 * L_24 = V_6;
+				V_8 = ((BoundingBoxAttachment_t3933059536 *)IsInstClass(L_24, BoundingBoxAttachment_t3933059536_il2cpp_TypeInfo_var));
+				BoundingBoxAttachment_t3933059536 * L_25 = V_8;
+				if (!L_25)
+				{
+					goto IL_00ba;
+				}
+			}
+
+IL_0087:
+			{
+				Attachment_t2849733407 * L_26 = V_6;
+				NullCheck(L_26);
+				String_t* L_27 = Attachment_get_Name_m4098311822(L_26, /*hidden argument*/NULL);
+				NullCheck(L_27);
+				String_t* L_28 = String_ToLower_m2421900555(L_27, /*hidden argument*/NULL);
+				NullCheck(L_28);
+				bool L_29 = String_Contains_m3032019141(L_28, _stringLiteral971444067, /*hidden argument*/NULL);
+				if (L_29)
+				{
+					goto IL_00a7;
+				}
+			}
+
+IL_00a2:
+			{
+				goto IL_00ba;
+			}
+
+IL_00a7:
+			{
+				BoundingBoxAttachment_t3933059536 * L_30 = V_8;
+				GameObject_t3674682005 * L_31 = ___go1;
+				PolygonCollider2D_t2156524054 * L_32 = SkeletonUtility_AddBoundingBoxAsComponent_m642219253(NULL /*static, unused*/, L_30, L_31, (bool)0, /*hidden argument*/NULL);
+				V_9 = L_32;
+				List_1_t2920210650 * L_33 = V_1;
+				PolygonCollider2D_t2156524054 * L_34 = V_9;
+				NullCheck(L_33);
+				List_1_Add_m3431581592(L_33, L_34, /*hidden argument*/List_1_Add_m3431581592_MethodInfo_var);
+			}
+
+IL_00ba:
+			{
+				bool L_35 = Enumerator_MoveNext_m127921642((&V_7), /*hidden argument*/Enumerator_MoveNext_m127921642_MethodInfo_var);
+				if (L_35)
+				{
+					goto IL_006e;
+				}
+			}
+
+IL_00c6:
+			{
+				IL2CPP_LEAVE(0xD8, FINALLY_00cb);
+			}
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+			goto FINALLY_00cb;
+		}
+
+FINALLY_00cb:
+		{ // begin finally (depth: 2)
+			Enumerator_t4237591729  L_36 = V_7;
+			Enumerator_t4237591729  L_37 = L_36;
+			Il2CppObject * L_38 = Box(Enumerator_t4237591729_il2cpp_TypeInfo_var, &L_37);
+			NullCheck((Il2CppObject *)L_38);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_38);
+			IL2CPP_END_FINALLY(203)
+		} // end finally (depth: 2)
+		IL2CPP_CLEANUP(203)
+		{
+			IL2CPP_JUMP_TBL(0xD8, IL_00d8)
+			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+		}
+
+IL_00d8:
+		{
+			bool L_39 = Enumerator_MoveNext_m495687113((&V_5), /*hidden argument*/Enumerator_MoveNext_m495687113_MethodInfo_var);
+			if (L_39)
+			{
+				goto IL_0037;
+			}
+		}
+
+IL_00e4:
+		{
+			IL2CPP_LEAVE(0xF6, FINALLY_00e9);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_00e9;
+	}
+
+FINALLY_00e9:
+	{ // begin finally (depth: 1)
+		Enumerator_t1535572246  L_40 = V_5;
+		Enumerator_t1535572246  L_41 = L_40;
+		Il2CppObject * L_42 = Box(Enumerator_t1535572246_il2cpp_TypeInfo_var, &L_41);
+		NullCheck((Il2CppObject *)L_42);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_42);
+		IL2CPP_END_FINALLY(233)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(233)
+	{
+		IL2CPP_JUMP_TBL(0xF6, IL_00f6)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_00f6:
+	{
+		List_1_t2920210650 * L_43 = V_1;
+		return L_43;
+	}
+}
+// System.Single Spine.Unity.Modules.SkeletonRagdoll2D::GetPropagatedRotation(Spine.Bone)
+extern "C"  float SkeletonRagdoll2D_GetPropagatedRotation_m659991448 (Il2CppObject * __this /* static, unused */, Bone_t1650489600 * ___b0, const MethodInfo* method)
+{
+	Bone_t1650489600 * V_0 = NULL;
+	float V_1 = 0.0f;
+	{
+		Bone_t1650489600 * L_0 = ___b0;
+		NullCheck(L_0);
+		Bone_t1650489600 * L_1 = Bone_get_Parent_m3059819865(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Bone_t1650489600 * L_2 = ___b0;
+		NullCheck(L_2);
+		float L_3 = Bone_get_AppliedRotation_m1950815632(L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		goto IL_0023;
+	}
+
+IL_0013:
+	{
+		float L_4 = V_1;
+		Bone_t1650489600 * L_5 = V_0;
+		NullCheck(L_5);
+		float L_6 = Bone_get_AppliedRotation_m1950815632(L_5, /*hidden argument*/NULL);
+		V_1 = ((float)((float)L_4+(float)L_6));
+		Bone_t1650489600 * L_7 = V_0;
+		NullCheck(L_7);
+		Bone_t1650489600 * L_8 = L_7->get_parent_3();
+		V_0 = L_8;
+	}
+
+IL_0023:
+	{
+		Bone_t1650489600 * L_9 = V_0;
+		if (L_9)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		float L_10 = V_1;
+		return L_10;
+	}
+}
+// UnityEngine.Vector3 Spine.Unity.Modules.SkeletonRagdoll2D::FlipScale(System.Boolean,System.Boolean)
+extern "C"  Vector3_t4282066566  SkeletonRagdoll2D_FlipScale_m1089747715 (Il2CppObject * __this /* static, unused */, bool ___flipX0, bool ___flipY1, const MethodInfo* method)
+{
+	float G_B3_0 = 0.0f;
+	float G_B5_0 = 0.0f;
+	float G_B4_0 = 0.0f;
+	float G_B6_0 = 0.0f;
+	float G_B6_1 = 0.0f;
+	{
+		bool L_0 = ___flipX0;
+		if (!L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		G_B3_0 = (-1.0f);
+		goto IL_0015;
+	}
+
+IL_0010:
+	{
+		G_B3_0 = (1.0f);
+	}
+
+IL_0015:
+	{
+		bool L_1 = ___flipY1;
+		G_B4_0 = G_B3_0;
+		if (!L_1)
+		{
+			G_B5_0 = G_B3_0;
+			goto IL_0025;
+		}
+	}
+	{
+		G_B6_0 = (-1.0f);
+		G_B6_1 = G_B4_0;
+		goto IL_002a;
+	}
+
+IL_0025:
+	{
+		G_B6_0 = (1.0f);
+		G_B6_1 = G_B5_0;
+	}
+
+IL_002a:
+	{
+		Vector3_t4282066566  L_2;
+		memset(&L_2, 0, sizeof(L_2));
+		Vector3__ctor_m2926210380(&L_2, G_B6_1, G_B6_0, (1.0f), /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll2D/<SmoothMixCoroutine>c__IteratorD::.ctor()
+extern "C"  void U3CSmoothMixCoroutineU3Ec__IteratorD__ctor_m3026540126 (U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object Spine.Unity.Modules.SkeletonRagdoll2D/<SmoothMixCoroutine>c__IteratorD::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CSmoothMixCoroutineU3Ec__IteratorD_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2732909182 (U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_5();
+		return L_0;
+	}
+}
+// System.Object Spine.Unity.Modules.SkeletonRagdoll2D/<SmoothMixCoroutine>c__IteratorD::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CSmoothMixCoroutineU3Ec__IteratorD_System_Collections_IEnumerator_get_Current_m2675417618 (U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_5();
+		return L_0;
+	}
+}
+// System.Boolean Spine.Unity.Modules.SkeletonRagdoll2D/<SmoothMixCoroutine>c__IteratorD::MoveNext()
+extern Il2CppClass* Mathf_t4203372500_il2cpp_TypeInfo_var;
+extern const uint32_t U3CSmoothMixCoroutineU3Ec__IteratorD_MoveNext_m715514814_MetadataUsageId;
+extern "C"  bool U3CSmoothMixCoroutineU3Ec__IteratorD_MoveNext_m715514814 (U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CSmoothMixCoroutineU3Ec__IteratorD_MoveNext_m715514814_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->get_U24PC_4();
+		V_0 = L_0;
+		__this->set_U24PC_4((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0084;
+		}
+	}
+	{
+		goto IL_00a0;
+	}
+
+IL_0021:
+	{
+		float L_2 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_U3CstartTimeU3E__0_0(L_2);
+		SkeletonRagdoll2D_t1262458094 * L_3 = __this->get_U3CU3Ef__this_8();
+		NullCheck(L_3);
+		float L_4 = L_3->get_mix_15();
+		__this->set_U3CstartMixU3E__1_1(L_4);
+		goto IL_0084;
+	}
+
+IL_0042:
+	{
+		SkeletonRagdoll2D_t1262458094 * L_5 = __this->get_U3CU3Ef__this_8();
+		float L_6 = __this->get_U3CstartMixU3E__1_1();
+		float L_7 = __this->get_target_2();
+		float L_8 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_9 = __this->get_U3CstartTimeU3E__0_0();
+		float L_10 = __this->get_duration_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_11 = Mathf_SmoothStep_m1876640478(NULL /*static, unused*/, L_6, L_7, ((float)((float)((float)((float)L_8-(float)L_9))/(float)L_10)), /*hidden argument*/NULL);
+		NullCheck(L_5);
+		L_5->set_mix_15(L_11);
+		__this->set_U24current_5(NULL);
+		__this->set_U24PC_4(1);
+		goto IL_00a2;
+	}
+
+IL_0084:
+	{
+		SkeletonRagdoll2D_t1262458094 * L_12 = __this->get_U3CU3Ef__this_8();
+		NullCheck(L_12);
+		float L_13 = L_12->get_mix_15();
+		if ((((float)L_13) > ((float)(0.0f))))
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		__this->set_U24PC_4((-1));
+	}
+
+IL_00a0:
+	{
+		return (bool)0;
+	}
+
+IL_00a2:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_00a4: ldloc.1
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll2D/<SmoothMixCoroutine>c__IteratorD::Dispose()
+extern "C"  void U3CSmoothMixCoroutineU3Ec__IteratorD_Dispose_m710484763 (U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_4((-1));
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll2D/<SmoothMixCoroutine>c__IteratorD::Reset()
+extern Il2CppClass* NotSupportedException_t1732551818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CSmoothMixCoroutineU3Ec__IteratorD_Reset_m672973067_MetadataUsageId;
+extern "C"  void U3CSmoothMixCoroutineU3Ec__IteratorD_Reset_m672973067 (U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CSmoothMixCoroutineU3Ec__IteratorD_Reset_m672973067_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1732551818 * L_0 = (NotSupportedException_t1732551818 *)il2cpp_codegen_object_new(NotSupportedException_t1732551818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll2D/<Start>c__IteratorC::.ctor()
+extern "C"  void U3CStartU3Ec__IteratorC__ctor_m3524932467 (U3CStartU3Ec__IteratorC_t3170568440 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object Spine.Unity.Modules.SkeletonRagdoll2D/<Start>c__IteratorC::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CStartU3Ec__IteratorC_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1811530239 (U3CStartU3Ec__IteratorC_t3170568440 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Object Spine.Unity.Modules.SkeletonRagdoll2D/<Start>c__IteratorC::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CStartU3Ec__IteratorC_System_Collections_IEnumerator_get_Current_m353739667 (U3CStartU3Ec__IteratorC_t3170568440 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Boolean Spine.Unity.Modules.SkeletonRagdoll2D/<Start>c__IteratorC::MoveNext()
+extern Il2CppClass* SkeletonRagdoll2D_t1262458094_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObject_t3674682005_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral302852062;
+extern Il2CppCodeGenString* _stringLiteral3508277567;
+extern const uint32_t U3CStartU3Ec__IteratorC_MoveNext_m2659232417_MetadataUsageId;
+extern "C"  bool U3CStartU3Ec__IteratorC_MoveNext_m2659232417 (U3CStartU3Ec__IteratorC_t3170568440 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStartU3Ec__IteratorC_MoveNext_m2659232417_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->get_U24PC_0();
+		V_0 = L_0;
+		__this->set_U24PC_0((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		goto IL_00d5;
+	}
+
+IL_0021:
+	{
+		Transform_t1659122786 * L_2 = ((SkeletonRagdoll2D_t1262458094_StaticFields*)SkeletonRagdoll2D_t1262458094_il2cpp_TypeInfo_var->static_fields)->get_parentSpaceHelper_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_2, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		GameObject_t3674682005 * L_4 = (GameObject_t3674682005 *)il2cpp_codegen_object_new(GameObject_t3674682005_il2cpp_TypeInfo_var);
+		GameObject__ctor_m3920833606(L_4, _stringLiteral302852062, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Transform_t1659122786 * L_5 = GameObject_get_transform_m1278640159(L_4, /*hidden argument*/NULL);
+		((SkeletonRagdoll2D_t1262458094_StaticFields*)SkeletonRagdoll2D_t1262458094_il2cpp_TypeInfo_var->static_fields)->set_parentSpaceHelper_2(L_5);
+		Transform_t1659122786 * L_6 = ((SkeletonRagdoll2D_t1262458094_StaticFields*)SkeletonRagdoll2D_t1262458094_il2cpp_TypeInfo_var->static_fields)->get_parentSpaceHelper_2();
+		NullCheck(L_6);
+		Object_set_hideFlags_m41317712(L_6, 1, /*hidden argument*/NULL);
+	}
+
+IL_0050:
+	{
+		SkeletonRagdoll2D_t1262458094 * L_7 = __this->get_U3CU3Ef__this_2();
+		SkeletonRagdoll2D_t1262458094 * L_8 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_8);
+		SkeletonRenderer_t3766155010 * L_9 = Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865(L_8, /*hidden argument*/Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var);
+		NullCheck(L_7);
+		L_7->set_targetSkeletonComponent_16(((Il2CppObject *)IsInst(L_9, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var)));
+		SkeletonRagdoll2D_t1262458094 * L_10 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_10);
+		Il2CppObject * L_11 = L_10->get_targetSkeletonComponent_16();
+		if (L_11)
+		{
+			goto IL_0085;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, _stringLiteral3508277567, /*hidden argument*/NULL);
+	}
+
+IL_0085:
+	{
+		SkeletonRagdoll2D_t1262458094 * L_12 = __this->get_U3CU3Ef__this_2();
+		SkeletonRagdoll2D_t1262458094 * L_13 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_13);
+		Il2CppObject * L_14 = L_13->get_targetSkeletonComponent_16();
+		NullCheck(L_14);
+		Skeleton_t2209335561 * L_15 = InterfaceFuncInvoker0< Skeleton_t2209335561 * >::Invoke(7 /* Spine.Skeleton Spine.Unity.ISkeletonAnimation::get_Skeleton() */, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var, L_14);
+		NullCheck(L_12);
+		L_12->set_skeleton_17(L_15);
+		SkeletonRagdoll2D_t1262458094 * L_16 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_16);
+		bool L_17 = L_16->get_applyOnStart_5();
+		if (!L_17)
+		{
+			goto IL_00ce;
+		}
+	}
+	{
+		__this->set_U24current_1(NULL);
+		__this->set_U24PC_0(1);
+		goto IL_00d7;
+	}
+
+IL_00c3:
+	{
+		SkeletonRagdoll2D_t1262458094 * L_18 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_18);
+		SkeletonRagdoll2D_Apply_m1197400538(L_18, /*hidden argument*/NULL);
+	}
+
+IL_00ce:
+	{
+		__this->set_U24PC_0((-1));
+	}
+
+IL_00d5:
+	{
+		return (bool)0;
+	}
+
+IL_00d7:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_00d9: ldloc.1
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll2D/<Start>c__IteratorC::Dispose()
+extern "C"  void U3CStartU3Ec__IteratorC_Dispose_m2924154608 (U3CStartU3Ec__IteratorC_t3170568440 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_0((-1));
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRagdoll2D/<Start>c__IteratorC::Reset()
+extern Il2CppClass* NotSupportedException_t1732551818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CStartU3Ec__IteratorC_Reset_m1171365408_MetadataUsageId;
+extern "C"  void U3CStartU3Ec__IteratorC_Reset_m1171365408 (U3CStartU3Ec__IteratorC_t3170568440 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStartU3Ec__IteratorC_Reset_m1171365408_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1732551818 * L_0 = (NotSupportedException_t1732551818 *)il2cpp_codegen_object_new(NotSupportedException_t1732551818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRendererCustomMaterials::.ctor()
+extern Il2CppClass* List_1_t3109896976_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t3740439903_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m1845092331_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m1546214638_MethodInfo_var;
+extern const uint32_t SkeletonRendererCustomMaterials__ctor_m3442947243_MetadataUsageId;
+extern "C"  void SkeletonRendererCustomMaterials__ctor_m3442947243 (SkeletonRendererCustomMaterials_t2297186929 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRendererCustomMaterials__ctor_m3442947243_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		List_1_t3109896976 * L_0 = (List_1_t3109896976 *)il2cpp_codegen_object_new(List_1_t3109896976_il2cpp_TypeInfo_var);
+		List_1__ctor_m1845092331(L_0, /*hidden argument*/List_1__ctor_m1845092331_MethodInfo_var);
+		__this->set_customSlotMaterials_3(L_0);
+		List_1_t3740439903 * L_1 = (List_1_t3740439903 *)il2cpp_codegen_object_new(List_1_t3740439903_il2cpp_TypeInfo_var);
+		List_1__ctor_m1546214638(L_1, /*hidden argument*/List_1__ctor_m1546214638_MethodInfo_var);
+		__this->set_customMaterialOverrides_4(L_1);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRendererCustomMaterials::SetCustomSlotMaterials()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m3334081592_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m1678671498_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m2874796669_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3208306199;
+extern const uint32_t SkeletonRendererCustomMaterials_SetCustomSlotMaterials_m3731026580_MetadataUsageId;
+extern "C"  void SkeletonRendererCustomMaterials_SetCustomSlotMaterials_m3731026580 (SkeletonRendererCustomMaterials_t2297186929 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRendererCustomMaterials_SetCustomSlotMaterials_m3731026580_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	SlotMaterialOverride_t1741711424  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Slot_t1650993210 * V_2 = NULL;
+	{
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, _stringLiteral3208306199, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_001c:
+	{
+		V_0 = 0;
+		goto IL_0086;
+	}
+
+IL_0023:
+	{
+		List_1_t3109896976 * L_2 = __this->get_customSlotMaterials_3();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		SlotMaterialOverride_t1741711424  L_4 = List_1_get_Item_m3334081592(L_2, L_3, /*hidden argument*/List_1_get_Item_m3334081592_MethodInfo_var);
+		V_1 = L_4;
+		bool L_5 = (&V_1)->get_overrideDisabled_0();
+		if (L_5)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		String_t* L_6 = (&V_1)->get_slotName_1();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_7 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0052;
+		}
+	}
+
+IL_004d:
+	{
+		goto IL_0082;
+	}
+
+IL_0052:
+	{
+		SkeletonRenderer_t3766155010 * L_8 = __this->get_skeletonRenderer_2();
+		NullCheck(L_8);
+		Skeleton_t2209335561 * L_9 = L_8->get_skeleton_20();
+		String_t* L_10 = (&V_1)->get_slotName_1();
+		NullCheck(L_9);
+		Slot_t1650993210 * L_11 = Skeleton_FindSlot_m43661110(L_9, L_10, /*hidden argument*/NULL);
+		V_2 = L_11;
+		SkeletonRenderer_t3766155010 * L_12 = __this->get_skeletonRenderer_2();
+		NullCheck(L_12);
+		Dictionary_2_t3744150404 * L_13 = SkeletonRenderer_get_CustomSlotMaterials_m305974590(L_12, /*hidden argument*/NULL);
+		Slot_t1650993210 * L_14 = V_2;
+		Material_t3870600107 * L_15 = (&V_1)->get_material_2();
+		NullCheck(L_13);
+		Dictionary_2_set_Item_m1678671498(L_13, L_14, L_15, /*hidden argument*/Dictionary_2_set_Item_m1678671498_MethodInfo_var);
+	}
+
+IL_0082:
+	{
+		int32_t L_16 = V_0;
+		V_0 = ((int32_t)((int32_t)L_16+(int32_t)1));
+	}
+
+IL_0086:
+	{
+		int32_t L_17 = V_0;
+		List_1_t3109896976 * L_18 = __this->get_customSlotMaterials_3();
+		NullCheck(L_18);
+		int32_t L_19 = List_1_get_Count_m2874796669(L_18, /*hidden argument*/List_1_get_Count_m2874796669_MethodInfo_var);
+		if ((((int32_t)L_17) < ((int32_t)L_19)))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRendererCustomMaterials::RemoveCustomSlotMaterials()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m3334081592_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_TryGetValue_m850853568_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Remove_m1032914420_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m2874796669_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3208306199;
+extern const uint32_t SkeletonRendererCustomMaterials_RemoveCustomSlotMaterials_m4039756866_MetadataUsageId;
+extern "C"  void SkeletonRendererCustomMaterials_RemoveCustomSlotMaterials_m4039756866 (SkeletonRendererCustomMaterials_t2297186929 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRendererCustomMaterials_RemoveCustomSlotMaterials_m4039756866_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	SlotMaterialOverride_t1741711424  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Slot_t1650993210 * V_2 = NULL;
+	Material_t3870600107 * V_3 = NULL;
+	{
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, _stringLiteral3208306199, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_001c:
+	{
+		V_0 = 0;
+		goto IL_00a8;
+	}
+
+IL_0023:
+	{
+		List_1_t3109896976 * L_2 = __this->get_customSlotMaterials_3();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		SlotMaterialOverride_t1741711424  L_4 = List_1_get_Item_m3334081592(L_2, L_3, /*hidden argument*/List_1_get_Item_m3334081592_MethodInfo_var);
+		V_1 = L_4;
+		String_t* L_5 = (&V_1)->get_slotName_1();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_6 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		goto IL_00a4;
+	}
+
+IL_0046:
+	{
+		SkeletonRenderer_t3766155010 * L_7 = __this->get_skeletonRenderer_2();
+		NullCheck(L_7);
+		Skeleton_t2209335561 * L_8 = L_7->get_skeleton_20();
+		String_t* L_9 = (&V_1)->get_slotName_1();
+		NullCheck(L_8);
+		Slot_t1650993210 * L_10 = Skeleton_FindSlot_m43661110(L_8, L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
+		SkeletonRenderer_t3766155010 * L_11 = __this->get_skeletonRenderer_2();
+		NullCheck(L_11);
+		Dictionary_2_t3744150404 * L_12 = SkeletonRenderer_get_CustomSlotMaterials_m305974590(L_11, /*hidden argument*/NULL);
+		Slot_t1650993210 * L_13 = V_2;
+		NullCheck(L_12);
+		bool L_14 = Dictionary_2_TryGetValue_m850853568(L_12, L_13, (&V_3), /*hidden argument*/Dictionary_2_TryGetValue_m850853568_MethodInfo_var);
+		if (L_14)
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		goto IL_00a4;
+	}
+
+IL_007b:
+	{
+		Material_t3870600107 * L_15 = V_3;
+		Material_t3870600107 * L_16 = (&V_1)->get_material_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_17 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_15, L_16, /*hidden argument*/NULL);
+		if (!L_17)
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		goto IL_00a4;
+	}
+
+IL_0092:
+	{
+		SkeletonRenderer_t3766155010 * L_18 = __this->get_skeletonRenderer_2();
+		NullCheck(L_18);
+		Dictionary_2_t3744150404 * L_19 = SkeletonRenderer_get_CustomSlotMaterials_m305974590(L_18, /*hidden argument*/NULL);
+		Slot_t1650993210 * L_20 = V_2;
+		NullCheck(L_19);
+		Dictionary_2_Remove_m1032914420(L_19, L_20, /*hidden argument*/Dictionary_2_Remove_m1032914420_MethodInfo_var);
+	}
+
+IL_00a4:
+	{
+		int32_t L_21 = V_0;
+		V_0 = ((int32_t)((int32_t)L_21+(int32_t)1));
+	}
+
+IL_00a8:
+	{
+		int32_t L_22 = V_0;
+		List_1_t3109896976 * L_23 = __this->get_customSlotMaterials_3();
+		NullCheck(L_23);
+		int32_t L_24 = List_1_get_Count_m2874796669(L_23, /*hidden argument*/List_1_get_Count_m2874796669_MethodInfo_var);
+		if ((((int32_t)L_22) < ((int32_t)L_24)))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRendererCustomMaterials::SetCustomMaterialOverrides()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m1956365553_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m4144724661_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m417779620_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3208306199;
+extern const uint32_t SkeletonRendererCustomMaterials_SetCustomMaterialOverrides_m3880481926_MetadataUsageId;
+extern "C"  void SkeletonRendererCustomMaterials_SetCustomMaterialOverrides_m3880481926 (SkeletonRendererCustomMaterials_t2297186929 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRendererCustomMaterials_SetCustomMaterialOverrides_m3880481926_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	AtlasMaterialOverride_t2372254351  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, _stringLiteral3208306199, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_001c:
+	{
+		V_0 = 0;
+		goto IL_0063;
+	}
+
+IL_0023:
+	{
+		List_1_t3740439903 * L_2 = __this->get_customMaterialOverrides_4();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		AtlasMaterialOverride_t2372254351  L_4 = List_1_get_Item_m1956365553(L_2, L_3, /*hidden argument*/List_1_get_Item_m1956365553_MethodInfo_var);
+		V_1 = L_4;
+		bool L_5 = (&V_1)->get_overrideDisabled_0();
+		if (!L_5)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		goto IL_005f;
+	}
+
+IL_0041:
+	{
+		SkeletonRenderer_t3766155010 * L_6 = __this->get_skeletonRenderer_2();
+		NullCheck(L_6);
+		Dictionary_2_t807872303 * L_7 = SkeletonRenderer_get_CustomMaterialOverride_m2720035376(L_6, /*hidden argument*/NULL);
+		Material_t3870600107 * L_8 = (&V_1)->get_originalMaterial_1();
+		Material_t3870600107 * L_9 = (&V_1)->get_replacementMaterial_2();
+		NullCheck(L_7);
+		Dictionary_2_set_Item_m4144724661(L_7, L_8, L_9, /*hidden argument*/Dictionary_2_set_Item_m4144724661_MethodInfo_var);
+	}
+
+IL_005f:
+	{
+		int32_t L_10 = V_0;
+		V_0 = ((int32_t)((int32_t)L_10+(int32_t)1));
+	}
+
+IL_0063:
+	{
+		int32_t L_11 = V_0;
+		List_1_t3740439903 * L_12 = __this->get_customMaterialOverrides_4();
+		NullCheck(L_12);
+		int32_t L_13 = List_1_get_Count_m417779620(L_12, /*hidden argument*/List_1_get_Count_m417779620_MethodInfo_var);
+		if ((((int32_t)L_11) < ((int32_t)L_13)))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRendererCustomMaterials::RemoveCustomMaterialOverrides()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m1956365553_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_TryGetValue_m4134674027_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Remove_m2887944681_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m417779620_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3208306199;
+extern const uint32_t SkeletonRendererCustomMaterials_RemoveCustomMaterialOverrides_m1378993972_MetadataUsageId;
+extern "C"  void SkeletonRendererCustomMaterials_RemoveCustomMaterialOverrides_m1378993972 (SkeletonRendererCustomMaterials_t2297186929 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRendererCustomMaterials_RemoveCustomMaterialOverrides_m1378993972_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	AtlasMaterialOverride_t2372254351  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Material_t3870600107 * V_2 = NULL;
+	{
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, _stringLiteral3208306199, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_001c:
+	{
+		V_0 = 0;
+		goto IL_0086;
+	}
+
+IL_0023:
+	{
+		List_1_t3740439903 * L_2 = __this->get_customMaterialOverrides_4();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		AtlasMaterialOverride_t2372254351  L_4 = List_1_get_Item_m1956365553(L_2, L_3, /*hidden argument*/List_1_get_Item_m1956365553_MethodInfo_var);
+		V_1 = L_4;
+		SkeletonRenderer_t3766155010 * L_5 = __this->get_skeletonRenderer_2();
+		NullCheck(L_5);
+		Dictionary_2_t807872303 * L_6 = SkeletonRenderer_get_CustomMaterialOverride_m2720035376(L_5, /*hidden argument*/NULL);
+		Material_t3870600107 * L_7 = (&V_1)->get_originalMaterial_1();
+		NullCheck(L_6);
+		bool L_8 = Dictionary_2_TryGetValue_m4134674027(L_6, L_7, (&V_2), /*hidden argument*/Dictionary_2_TryGetValue_m4134674027_MethodInfo_var);
+		if (L_8)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		goto IL_0082;
+	}
+
+IL_0053:
+	{
+		Material_t3870600107 * L_9 = V_2;
+		Material_t3870600107 * L_10 = (&V_1)->get_replacementMaterial_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_11 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		if (!L_11)
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		goto IL_0082;
+	}
+
+IL_006a:
+	{
+		SkeletonRenderer_t3766155010 * L_12 = __this->get_skeletonRenderer_2();
+		NullCheck(L_12);
+		Dictionary_2_t807872303 * L_13 = SkeletonRenderer_get_CustomMaterialOverride_m2720035376(L_12, /*hidden argument*/NULL);
+		Material_t3870600107 * L_14 = (&V_1)->get_originalMaterial_1();
+		NullCheck(L_13);
+		Dictionary_2_Remove_m2887944681(L_13, L_14, /*hidden argument*/Dictionary_2_Remove_m2887944681_MethodInfo_var);
+	}
+
+IL_0082:
+	{
+		int32_t L_15 = V_0;
+		V_0 = ((int32_t)((int32_t)L_15+(int32_t)1));
+	}
+
+IL_0086:
+	{
+		int32_t L_16 = V_0;
+		List_1_t3740439903 * L_17 = __this->get_customMaterialOverrides_4();
+		NullCheck(L_17);
+		int32_t L_18 = List_1_get_Count_m417779620(L_17, /*hidden argument*/List_1_get_Count_m417779620_MethodInfo_var);
+		if ((((int32_t)L_16) < ((int32_t)L_18)))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRendererCustomMaterials::OnEnable()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3208306199;
+extern const uint32_t SkeletonRendererCustomMaterials_OnEnable_m2798898939_MetadataUsageId;
+extern "C"  void SkeletonRendererCustomMaterials_OnEnable_m2798898939 (SkeletonRendererCustomMaterials_t2297186929 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRendererCustomMaterials_OnEnable_m2798898939_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		SkeletonRenderer_t3766155010 * L_2 = Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865(__this, /*hidden argument*/Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var);
+		__this->set_skeletonRenderer_2(L_2);
+	}
+
+IL_001d:
+	{
+		SkeletonRenderer_t3766155010 * L_3 = __this->get_skeletonRenderer_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_3, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, _stringLiteral3208306199, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0039:
+	{
+		SkeletonRenderer_t3766155010 * L_5 = __this->get_skeletonRenderer_2();
+		NullCheck(L_5);
+		VirtActionInvoker1< bool >::Invoke(7 /* System.Void Spine.Unity.SkeletonRenderer::Initialize(System.Boolean) */, L_5, (bool)0);
+		SkeletonRendererCustomMaterials_SetCustomMaterialOverrides_m3880481926(__this, /*hidden argument*/NULL);
+		SkeletonRendererCustomMaterials_SetCustomSlotMaterials_m3731026580(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRendererCustomMaterials::OnDisable()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3208306199;
+extern const uint32_t SkeletonRendererCustomMaterials_OnDisable_m1307458450_MetadataUsageId;
+extern "C"  void SkeletonRendererCustomMaterials_OnDisable_m1307458450 (SkeletonRendererCustomMaterials_t2297186929 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRendererCustomMaterials_OnDisable_m1307458450_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, _stringLiteral3208306199, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_001c:
+	{
+		SkeletonRendererCustomMaterials_RemoveCustomMaterialOverrides_m1378993972(__this, /*hidden argument*/NULL);
+		SkeletonRendererCustomMaterials_RemoveCustomSlotMaterials_m4039756866(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Spine.Unity.Modules.SkeletonRendererCustomMaterials/AtlasMaterialOverride::Equals(Spine.Unity.Modules.SkeletonRendererCustomMaterials/AtlasMaterialOverride)
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const uint32_t AtlasMaterialOverride_Equals_m3355509200_MetadataUsageId;
+extern "C"  bool AtlasMaterialOverride_Equals_m3355509200 (AtlasMaterialOverride_t2372254351 * __this, AtlasMaterialOverride_t2372254351  ___other0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AtlasMaterialOverride_Equals_m3355509200_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t G_B4_0 = 0;
+	{
+		bool L_0 = __this->get_overrideDisabled_0();
+		bool L_1 = (&___other0)->get_overrideDisabled_0();
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		Material_t3870600107 * L_2 = __this->get_originalMaterial_1();
+		Material_t3870600107 * L_3 = (&___other0)->get_originalMaterial_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		Material_t3870600107 * L_5 = __this->get_replacementMaterial_2();
+		Material_t3870600107 * L_6 = (&___other0)->get_replacementMaterial_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_7 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		G_B4_0 = ((int32_t)(L_7));
+		goto IL_003e;
+	}
+
+IL_003d:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_003e:
+	{
+		return (bool)G_B4_0;
+	}
+}
+extern "C"  bool AtlasMaterialOverride_Equals_m3355509200_AdjustorThunk (Il2CppObject * __this, AtlasMaterialOverride_t2372254351  ___other0, const MethodInfo* method)
+{
+	AtlasMaterialOverride_t2372254351 * _thisAdjusted = reinterpret_cast<AtlasMaterialOverride_t2372254351 *>(__this + 1);
+	return AtlasMaterialOverride_Equals_m3355509200(_thisAdjusted, ___other0, method);
+}
+// Conversion methods for marshalling of: Spine.Unity.Modules.SkeletonRendererCustomMaterials/AtlasMaterialOverride
+extern "C" void AtlasMaterialOverride_t2372254351_marshal_pinvoke(const AtlasMaterialOverride_t2372254351& unmarshaled, AtlasMaterialOverride_t2372254351_marshaled_pinvoke& marshaled)
+{
+	Il2CppCodeGenException* ___originalMaterial_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'originalMaterial' of type 'AtlasMaterialOverride': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___originalMaterial_1Exception);
+}
+extern "C" void AtlasMaterialOverride_t2372254351_marshal_pinvoke_back(const AtlasMaterialOverride_t2372254351_marshaled_pinvoke& marshaled, AtlasMaterialOverride_t2372254351& unmarshaled)
+{
+	Il2CppCodeGenException* ___originalMaterial_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'originalMaterial' of type 'AtlasMaterialOverride': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___originalMaterial_1Exception);
+}
+// Conversion method for clean up from marshalling of: Spine.Unity.Modules.SkeletonRendererCustomMaterials/AtlasMaterialOverride
+extern "C" void AtlasMaterialOverride_t2372254351_marshal_pinvoke_cleanup(AtlasMaterialOverride_t2372254351_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Spine.Unity.Modules.SkeletonRendererCustomMaterials/AtlasMaterialOverride
+extern "C" void AtlasMaterialOverride_t2372254351_marshal_com(const AtlasMaterialOverride_t2372254351& unmarshaled, AtlasMaterialOverride_t2372254351_marshaled_com& marshaled)
+{
+	Il2CppCodeGenException* ___originalMaterial_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'originalMaterial' of type 'AtlasMaterialOverride': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___originalMaterial_1Exception);
+}
+extern "C" void AtlasMaterialOverride_t2372254351_marshal_com_back(const AtlasMaterialOverride_t2372254351_marshaled_com& marshaled, AtlasMaterialOverride_t2372254351& unmarshaled)
+{
+	Il2CppCodeGenException* ___originalMaterial_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'originalMaterial' of type 'AtlasMaterialOverride': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___originalMaterial_1Exception);
+}
+// Conversion method for clean up from marshalling of: Spine.Unity.Modules.SkeletonRendererCustomMaterials/AtlasMaterialOverride
+extern "C" void AtlasMaterialOverride_t2372254351_marshal_com_cleanup(AtlasMaterialOverride_t2372254351_marshaled_com& marshaled)
+{
+}
+// System.Boolean Spine.Unity.Modules.SkeletonRendererCustomMaterials/SlotMaterialOverride::Equals(Spine.Unity.Modules.SkeletonRendererCustomMaterials/SlotMaterialOverride)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const uint32_t SlotMaterialOverride_Equals_m561672188_MetadataUsageId;
+extern "C"  bool SlotMaterialOverride_Equals_m561672188 (SlotMaterialOverride_t1741711424 * __this, SlotMaterialOverride_t1741711424  ___other0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SlotMaterialOverride_Equals_m561672188_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t G_B4_0 = 0;
+	{
+		bool L_0 = __this->get_overrideDisabled_0();
+		bool L_1 = (&___other0)->get_overrideDisabled_0();
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		String_t* L_2 = __this->get_slotName_1();
+		String_t* L_3 = (&___other0)->get_slotName_1();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_4 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		Material_t3870600107 * L_5 = __this->get_material_2();
+		Material_t3870600107 * L_6 = (&___other0)->get_material_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_7 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		G_B4_0 = ((int32_t)(L_7));
+		goto IL_003e;
+	}
+
+IL_003d:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_003e:
+	{
+		return (bool)G_B4_0;
+	}
+}
+extern "C"  bool SlotMaterialOverride_Equals_m561672188_AdjustorThunk (Il2CppObject * __this, SlotMaterialOverride_t1741711424  ___other0, const MethodInfo* method)
+{
+	SlotMaterialOverride_t1741711424 * _thisAdjusted = reinterpret_cast<SlotMaterialOverride_t1741711424 *>(__this + 1);
+	return SlotMaterialOverride_Equals_m561672188(_thisAdjusted, ___other0, method);
+}
+// Conversion methods for marshalling of: Spine.Unity.Modules.SkeletonRendererCustomMaterials/SlotMaterialOverride
+extern "C" void SlotMaterialOverride_t1741711424_marshal_pinvoke(const SlotMaterialOverride_t1741711424& unmarshaled, SlotMaterialOverride_t1741711424_marshaled_pinvoke& marshaled)
+{
+	Il2CppCodeGenException* ___material_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'material' of type 'SlotMaterialOverride': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___material_2Exception);
+}
+extern "C" void SlotMaterialOverride_t1741711424_marshal_pinvoke_back(const SlotMaterialOverride_t1741711424_marshaled_pinvoke& marshaled, SlotMaterialOverride_t1741711424& unmarshaled)
+{
+	Il2CppCodeGenException* ___material_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'material' of type 'SlotMaterialOverride': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___material_2Exception);
+}
+// Conversion method for clean up from marshalling of: Spine.Unity.Modules.SkeletonRendererCustomMaterials/SlotMaterialOverride
+extern "C" void SlotMaterialOverride_t1741711424_marshal_pinvoke_cleanup(SlotMaterialOverride_t1741711424_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Spine.Unity.Modules.SkeletonRendererCustomMaterials/SlotMaterialOverride
+extern "C" void SlotMaterialOverride_t1741711424_marshal_com(const SlotMaterialOverride_t1741711424& unmarshaled, SlotMaterialOverride_t1741711424_marshaled_com& marshaled)
+{
+	Il2CppCodeGenException* ___material_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'material' of type 'SlotMaterialOverride': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___material_2Exception);
+}
+extern "C" void SlotMaterialOverride_t1741711424_marshal_com_back(const SlotMaterialOverride_t1741711424_marshaled_com& marshaled, SlotMaterialOverride_t1741711424& unmarshaled)
+{
+	Il2CppCodeGenException* ___material_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'material' of type 'SlotMaterialOverride': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___material_2Exception);
+}
+// Conversion method for clean up from marshalling of: Spine.Unity.Modules.SkeletonRendererCustomMaterials/SlotMaterialOverride
+extern "C" void SlotMaterialOverride_t1741711424_marshal_com_cleanup(SlotMaterialOverride_t1741711424_marshaled_com& marshaled)
+{
+}
+// System.Void Spine.Unity.Modules.SkeletonRenderSeparator::.ctor()
+extern Il2CppClass* List_1_t735126156_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m488682346_MethodInfo_var;
+extern const uint32_t SkeletonRenderSeparator__ctor_m632651028_MetadataUsageId;
+extern "C"  void SkeletonRenderSeparator__ctor_m632651028 (SkeletonRenderSeparator_t3234766824 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRenderSeparator__ctor_m632651028_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		List_1_t735126156 * L_0 = (List_1_t735126156 *)il2cpp_codegen_object_new(List_1_t735126156_il2cpp_TypeInfo_var);
+		List_1__ctor_m488682346(L_0, /*hidden argument*/List_1__ctor_m488682346_MethodInfo_var);
+		__this->set_partsRenderers_7(L_0);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Spine.Unity.SkeletonRenderer Spine.Unity.Modules.SkeletonRenderSeparator::get_SkeletonRenderer()
+extern "C"  SkeletonRenderer_t3766155010 * SkeletonRenderSeparator_get_SkeletonRenderer_m3431031776 (SkeletonRenderSeparator_t3234766824 * __this, const MethodInfo* method)
+{
+	{
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_3();
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRenderSeparator::set_SkeletonRenderer(Spine.Unity.SkeletonRenderer)
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* InstructionDelegate_t1629107544_il2cpp_TypeInfo_var;
+extern const MethodInfo* SkeletonRenderSeparator_HandleRender_m3660581364_MethodInfo_var;
+extern const uint32_t SkeletonRenderSeparator_set_SkeletonRenderer_m4274814857_MetadataUsageId;
+extern "C"  void SkeletonRenderSeparator_set_SkeletonRenderer_m4274814857 (SkeletonRenderSeparator_t3234766824 * __this, SkeletonRenderer_t3766155010 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRenderSeparator_set_SkeletonRenderer_m4274814857_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		SkeletonRenderer_t3766155010 * L_2 = __this->get_skeletonRenderer_3();
+		IntPtr_t L_3;
+		L_3.set_m_value_0((void*)(void*)SkeletonRenderSeparator_HandleRender_m3660581364_MethodInfo_var);
+		InstructionDelegate_t1629107544 * L_4 = (InstructionDelegate_t1629107544 *)il2cpp_codegen_object_new(InstructionDelegate_t1629107544_il2cpp_TypeInfo_var);
+		InstructionDelegate__ctor_m1088583167(L_4, __this, L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		SkeletonRenderer_remove_GenerateMeshOverride_m1207192790(L_2, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0028:
+	{
+		SkeletonRenderer_t3766155010 * L_5 = ___value0;
+		__this->set_skeletonRenderer_3(L_5);
+		Behaviour_set_enabled_m2046806933(__this, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRenderSeparator::OnEnable()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* MaterialPropertyBlock_t1322387783_il2cpp_TypeInfo_var;
+extern Il2CppClass* InstructionDelegate_t1629107544_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisMeshRenderer_t2804666580_m3731621022_MethodInfo_var;
+extern const MethodInfo* SkeletonRenderSeparator_HandleRender_m3660581364_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1460494069_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m62509088_MethodInfo_var;
+extern const uint32_t SkeletonRenderSeparator_OnEnable_m3061858802_MetadataUsageId;
+extern "C"  void SkeletonRenderSeparator_OnEnable_m3061858802 (SkeletonRenderSeparator_t3234766824 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRenderSeparator_OnEnable_m3061858802_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	SkeletonPartsRenderer_t3661907900 * V_3 = NULL;
+	MeshRenderer_t2804666580 * V_4 = NULL;
+	{
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		MaterialPropertyBlock_t1322387783 * L_2 = __this->get_copiedBlock_8();
+		if (L_2)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		MaterialPropertyBlock_t1322387783 * L_3 = (MaterialPropertyBlock_t1322387783 *)il2cpp_codegen_object_new(MaterialPropertyBlock_t1322387783_il2cpp_TypeInfo_var);
+		MaterialPropertyBlock__ctor_m2730424616(L_3, /*hidden argument*/NULL);
+		__this->set_copiedBlock_8(L_3);
+	}
+
+IL_0028:
+	{
+		SkeletonRenderer_t3766155010 * L_4 = __this->get_skeletonRenderer_3();
+		NullCheck(L_4);
+		MeshRenderer_t2804666580 * L_5 = Component_GetComponent_TisMeshRenderer_t2804666580_m3731621022(L_4, /*hidden argument*/Component_GetComponent_TisMeshRenderer_t2804666580_m3731621022_MethodInfo_var);
+		__this->set_mainMeshRenderer_4(L_5);
+		SkeletonRenderer_t3766155010 * L_6 = __this->get_skeletonRenderer_3();
+		IntPtr_t L_7;
+		L_7.set_m_value_0((void*)(void*)SkeletonRenderSeparator_HandleRender_m3660581364_MethodInfo_var);
+		InstructionDelegate_t1629107544 * L_8 = (InstructionDelegate_t1629107544 *)il2cpp_codegen_object_new(InstructionDelegate_t1629107544_il2cpp_TypeInfo_var);
+		InstructionDelegate__ctor_m1088583167(L_8, __this, L_7, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		SkeletonRenderer_remove_GenerateMeshOverride_m1207192790(L_6, L_8, /*hidden argument*/NULL);
+		SkeletonRenderer_t3766155010 * L_9 = __this->get_skeletonRenderer_3();
+		IntPtr_t L_10;
+		L_10.set_m_value_0((void*)(void*)SkeletonRenderSeparator_HandleRender_m3660581364_MethodInfo_var);
+		InstructionDelegate_t1629107544 * L_11 = (InstructionDelegate_t1629107544 *)il2cpp_codegen_object_new(InstructionDelegate_t1629107544_il2cpp_TypeInfo_var);
+		InstructionDelegate__ctor_m1088583167(L_11, __this, L_10, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		SkeletonRenderer_add_GenerateMeshOverride_m1949528977(L_9, L_11, /*hidden argument*/NULL);
+		bool L_12 = __this->get_copyMeshRendererFlags_6();
+		if (!L_12)
+		{
+			goto IL_00dc;
+		}
+	}
+	{
+		MeshRenderer_t2804666580 * L_13 = __this->get_mainMeshRenderer_4();
+		NullCheck(L_13);
+		int32_t L_14 = Renderer_get_lightProbeUsage_m479959265(L_13, /*hidden argument*/NULL);
+		V_0 = L_14;
+		MeshRenderer_t2804666580 * L_15 = __this->get_mainMeshRenderer_4();
+		NullCheck(L_15);
+		bool L_16 = Renderer_get_receiveShadows_m194827321(L_15, /*hidden argument*/NULL);
+		V_1 = L_16;
+		V_2 = 0;
+		goto IL_00cb;
+	}
+
+IL_0091:
+	{
+		List_1_t735126156 * L_17 = __this->get_partsRenderers_7();
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		SkeletonPartsRenderer_t3661907900 * L_19 = List_1_get_Item_m1460494069(L_17, L_18, /*hidden argument*/List_1_get_Item_m1460494069_MethodInfo_var);
+		V_3 = L_19;
+		SkeletonPartsRenderer_t3661907900 * L_20 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_21 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_20, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		goto IL_00c7;
+	}
+
+IL_00af:
+	{
+		SkeletonPartsRenderer_t3661907900 * L_22 = V_3;
+		NullCheck(L_22);
+		MeshRenderer_t2804666580 * L_23 = SkeletonPartsRenderer_get_MeshRenderer_m1306459527(L_22, /*hidden argument*/NULL);
+		V_4 = L_23;
+		MeshRenderer_t2804666580 * L_24 = V_4;
+		int32_t L_25 = V_0;
+		NullCheck(L_24);
+		Renderer_set_lightProbeUsage_m1594071250(L_24, L_25, /*hidden argument*/NULL);
+		MeshRenderer_t2804666580 * L_26 = V_4;
+		bool L_27 = V_1;
+		NullCheck(L_26);
+		Renderer_set_receiveShadows_m2634864254(L_26, L_27, /*hidden argument*/NULL);
+	}
+
+IL_00c7:
+	{
+		int32_t L_28 = V_2;
+		V_2 = ((int32_t)((int32_t)L_28+(int32_t)1));
+	}
+
+IL_00cb:
+	{
+		int32_t L_29 = V_2;
+		List_1_t735126156 * L_30 = __this->get_partsRenderers_7();
+		NullCheck(L_30);
+		int32_t L_31 = List_1_get_Count_m62509088(L_30, /*hidden argument*/List_1_get_Count_m62509088_MethodInfo_var);
+		if ((((int32_t)L_29) < ((int32_t)L_31)))
+		{
+			goto IL_0091;
+		}
+	}
+
+IL_00dc:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRenderSeparator::OnDisable()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* InstructionDelegate_t1629107544_il2cpp_TypeInfo_var;
+extern Il2CppClass* Enumerator_t754798926_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern const MethodInfo* SkeletonRenderSeparator_HandleRender_m3660581364_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m3968471213_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2622460333_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m483906179_MethodInfo_var;
+extern const uint32_t SkeletonRenderSeparator_OnDisable_m869279611_MetadataUsageId;
+extern "C"  void SkeletonRenderSeparator_OnDisable_m869279611 (SkeletonRenderSeparator_t3234766824 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRenderSeparator_OnDisable_m869279611_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	SkeletonPartsRenderer_t3661907900 * V_0 = NULL;
+	Enumerator_t754798926  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		SkeletonRenderer_t3766155010 * L_2 = __this->get_skeletonRenderer_3();
+		IntPtr_t L_3;
+		L_3.set_m_value_0((void*)(void*)SkeletonRenderSeparator_HandleRender_m3660581364_MethodInfo_var);
+		InstructionDelegate_t1629107544 * L_4 = (InstructionDelegate_t1629107544 *)il2cpp_codegen_object_new(InstructionDelegate_t1629107544_il2cpp_TypeInfo_var);
+		InstructionDelegate__ctor_m1088583167(L_4, __this, L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		SkeletonRenderer_remove_GenerateMeshOverride_m1207192790(L_2, L_4, /*hidden argument*/NULL);
+		List_1_t735126156 * L_5 = __this->get_partsRenderers_7();
+		NullCheck(L_5);
+		Enumerator_t754798926  L_6 = List_1_GetEnumerator_m3968471213(L_5, /*hidden argument*/List_1_GetEnumerator_m3968471213_MethodInfo_var);
+		V_1 = L_6;
+	}
+
+IL_0035:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0048;
+		}
+
+IL_003a:
+		{
+			SkeletonPartsRenderer_t3661907900 * L_7 = Enumerator_get_Current_m2622460333((&V_1), /*hidden argument*/Enumerator_get_Current_m2622460333_MethodInfo_var);
+			V_0 = L_7;
+			SkeletonPartsRenderer_t3661907900 * L_8 = V_0;
+			NullCheck(L_8);
+			SkeletonPartsRenderer_ClearMesh_m1375432632(L_8, /*hidden argument*/NULL);
+		}
+
+IL_0048:
+		{
+			bool L_9 = Enumerator_MoveNext_m483906179((&V_1), /*hidden argument*/Enumerator_MoveNext_m483906179_MethodInfo_var);
+			if (L_9)
+			{
+				goto IL_003a;
+			}
+		}
+
+IL_0054:
+		{
+			IL2CPP_LEAVE(0x65, FINALLY_0059);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_0059;
+	}
+
+FINALLY_0059:
+	{ // begin finally (depth: 1)
+		Enumerator_t754798926  L_10 = V_1;
+		Enumerator_t754798926  L_11 = L_10;
+		Il2CppObject * L_12 = Box(Enumerator_t754798926_il2cpp_TypeInfo_var, &L_11);
+		NullCheck((Il2CppObject *)L_12);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_12);
+		IL2CPP_END_FINALLY(89)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(89)
+	{
+		IL2CPP_JUMP_TBL(0x65, IL_0065)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_0065:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonRenderSeparator::HandleRender(Spine.Unity.SkeletonRenderer/SmartMesh/Instruction)
+extern Il2CppClass* ISubmeshSetMeshGenerator_t3306192096_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m62509088_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1460494069_MethodInfo_var;
+extern const uint32_t SkeletonRenderSeparator_HandleRender_m3660581364_MetadataUsageId;
+extern "C"  void SkeletonRenderSeparator_HandleRender_m3660581364 (SkeletonRenderSeparator_t3234766824 * __this, Instruction_t629699354 * ___instruction0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRenderSeparator_HandleRender_m3660581364_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	ExposedList_1_t723286955 * V_2 = NULL;
+	SubmeshInstructionU5BU5D_t2859174660* V_3 = NULL;
+	int32_t V_4 = 0;
+	SkeletonPartsRenderer_t3661907900 * V_5 = NULL;
+	bool V_6 = false;
+	bool V_7 = false;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	Il2CppObject * V_10 = NULL;
+	{
+		List_1_t735126156 * L_0 = __this->get_partsRenderers_7();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m62509088(L_0, /*hidden argument*/List_1_get_Count_m62509088_MethodInfo_var);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) > ((int32_t)0)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0014:
+	{
+		V_1 = 0;
+		bool L_3 = __this->get_copyPropertyBlock_5();
+		if (!L_3)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		MeshRenderer_t2804666580 * L_4 = __this->get_mainMeshRenderer_4();
+		MaterialPropertyBlock_t1322387783 * L_5 = __this->get_copiedBlock_8();
+		NullCheck(L_4);
+		Renderer_GetPropertyBlock_m908502780(L_4, L_5, /*hidden argument*/NULL);
+	}
+
+IL_0032:
+	{
+		Instruction_t629699354 * L_6 = ___instruction0;
+		NullCheck(L_6);
+		ExposedList_1_t723286955 * L_7 = L_6->get_submeshInstructions_3();
+		V_2 = L_7;
+		ExposedList_1_t723286955 * L_8 = V_2;
+		NullCheck(L_8);
+		SubmeshInstructionU5BU5D_t2859174660* L_9 = L_8->get_Items_1();
+		V_3 = L_9;
+		ExposedList_1_t723286955 * L_10 = V_2;
+		NullCheck(L_10);
+		int32_t L_11 = L_10->get_Count_2();
+		V_4 = ((int32_t)((int32_t)L_11-(int32_t)1));
+		List_1_t735126156 * L_12 = __this->get_partsRenderers_7();
+		int32_t L_13 = V_1;
+		NullCheck(L_12);
+		SkeletonPartsRenderer_t3661907900 * L_14 = List_1_get_Item_m1460494069(L_12, L_13, /*hidden argument*/List_1_get_Item_m1460494069_MethodInfo_var);
+		V_5 = L_14;
+		SkeletonRenderer_t3766155010 * L_15 = __this->get_skeletonRenderer_3();
+		NullCheck(L_15);
+		bool L_16 = L_15->get_calculateNormals_11();
+		V_6 = L_16;
+		SkeletonRenderer_t3766155010 * L_17 = __this->get_skeletonRenderer_3();
+		NullCheck(L_17);
+		bool L_18 = L_17->get_calculateTangents_12();
+		V_7 = L_18;
+		V_8 = 0;
+		V_9 = 0;
+		goto IL_010d;
+	}
+
+IL_007d:
+	{
+		SubmeshInstructionU5BU5D_t2859174660* L_19 = V_3;
+		int32_t L_20 = V_8;
+		NullCheck(L_19);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_19, L_20);
+		bool L_21 = ((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20)))->get_forceSeparate_7();
+		if (L_21)
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		int32_t L_22 = V_8;
+		int32_t L_23 = V_4;
+		if ((!(((uint32_t)L_22) == ((uint32_t)L_23))))
+		{
+			goto IL_0107;
+		}
+	}
+
+IL_0098:
+	{
+		SkeletonPartsRenderer_t3661907900 * L_24 = V_5;
+		NullCheck(L_24);
+		Il2CppObject * L_25 = SkeletonPartsRenderer_get_MeshGenerator_m3096151393(L_24, /*hidden argument*/NULL);
+		V_10 = L_25;
+		Il2CppObject * L_26 = V_10;
+		bool L_27 = V_6;
+		NullCheck(L_26);
+		InterfaceActionInvoker1< bool >::Invoke(4 /* System.Void Spine.Unity.MeshGeneration.ISubmeshSetMeshGenerator::set_AddNormals(System.Boolean) */, ISubmeshSetMeshGenerator_t3306192096_il2cpp_TypeInfo_var, L_26, L_27);
+		Il2CppObject * L_28 = V_10;
+		bool L_29 = V_7;
+		NullCheck(L_28);
+		InterfaceActionInvoker1< bool >::Invoke(6 /* System.Void Spine.Unity.MeshGeneration.ISubmeshSetMeshGenerator::set_AddTangents(System.Boolean) */, ISubmeshSetMeshGenerator_t3306192096_il2cpp_TypeInfo_var, L_28, L_29);
+		bool L_30 = __this->get_copyPropertyBlock_5();
+		if (!L_30)
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		SkeletonPartsRenderer_t3661907900 * L_31 = V_5;
+		MaterialPropertyBlock_t1322387783 * L_32 = __this->get_copiedBlock_8();
+		NullCheck(L_31);
+		SkeletonPartsRenderer_SetPropertyBlock_m3147267262(L_31, L_32, /*hidden argument*/NULL);
+	}
+
+IL_00cb:
+	{
+		SkeletonPartsRenderer_t3661907900 * L_33 = V_5;
+		Instruction_t629699354 * L_34 = ___instruction0;
+		NullCheck(L_34);
+		ExposedList_1_t723286955 * L_35 = L_34->get_submeshInstructions_3();
+		int32_t L_36 = V_9;
+		int32_t L_37 = V_8;
+		NullCheck(L_33);
+		SkeletonPartsRenderer_RenderParts_m4026733528(L_33, L_35, L_36, ((int32_t)((int32_t)L_37+(int32_t)1)), /*hidden argument*/NULL);
+		int32_t L_38 = V_8;
+		V_9 = ((int32_t)((int32_t)L_38+(int32_t)1));
+		int32_t L_39 = V_1;
+		V_1 = ((int32_t)((int32_t)L_39+(int32_t)1));
+		int32_t L_40 = V_1;
+		int32_t L_41 = V_0;
+		if ((((int32_t)L_40) >= ((int32_t)L_41)))
+		{
+			goto IL_0102;
+		}
+	}
+	{
+		List_1_t735126156 * L_42 = __this->get_partsRenderers_7();
+		int32_t L_43 = V_1;
+		NullCheck(L_42);
+		SkeletonPartsRenderer_t3661907900 * L_44 = List_1_get_Item_m1460494069(L_42, L_43, /*hidden argument*/List_1_get_Item_m1460494069_MethodInfo_var);
+		V_5 = L_44;
+		goto IL_0107;
+	}
+
+IL_0102:
+	{
+		goto IL_0116;
+	}
+
+IL_0107:
+	{
+		int32_t L_45 = V_8;
+		V_8 = ((int32_t)((int32_t)L_45+(int32_t)1));
+	}
+
+IL_010d:
+	{
+		int32_t L_46 = V_8;
+		int32_t L_47 = V_4;
+		if ((((int32_t)L_46) <= ((int32_t)L_47)))
+		{
+			goto IL_007d;
+		}
+	}
+
+IL_0116:
+	{
+		goto IL_0130;
+	}
+
+IL_011b:
+	{
+		List_1_t735126156 * L_48 = __this->get_partsRenderers_7();
+		int32_t L_49 = V_1;
+		NullCheck(L_48);
+		SkeletonPartsRenderer_t3661907900 * L_50 = List_1_get_Item_m1460494069(L_48, L_49, /*hidden argument*/List_1_get_Item_m1460494069_MethodInfo_var);
+		NullCheck(L_50);
+		SkeletonPartsRenderer_ClearMesh_m1375432632(L_50, /*hidden argument*/NULL);
+		int32_t L_51 = V_1;
+		V_1 = ((int32_t)((int32_t)L_51+(int32_t)1));
+	}
+
+IL_0130:
+	{
+		int32_t L_52 = V_1;
+		int32_t L_53 = V_0;
+		if ((((int32_t)L_52) < ((int32_t)L_53)))
+		{
+			goto IL_011b;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilityEyeConstraint::.ctor()
+extern "C"  void SkeletonUtilityEyeConstraint__ctor_m3766782017 (SkeletonUtilityEyeConstraint_t1100357451 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_radius_5((0.5f));
+		__this->set_speed_8((10.0f));
+		SkeletonUtilityConstraint__ctor_m1138123763(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilityEyeConstraint::OnEnable()
+extern Il2CppClass* Vector3U5BU5D_t215400611_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonUtilityEyeConstraint_OnEnable_m3664104357_MetadataUsageId;
+extern "C"  void SkeletonUtilityEyeConstraint_OnEnable_m3664104357 (SkeletonUtilityEyeConstraint_t1100357451 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtilityEyeConstraint_OnEnable_m3664104357_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Bounds_t2711641849  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	{
+		bool L_0 = Application_get_isPlaying_m987993960(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000b:
+	{
+		SkeletonUtilityConstraint_OnEnable_m3444767411(__this, /*hidden argument*/NULL);
+		TransformU5BU5D_t3792884695* L_1 = __this->get_eyes_4();
+		NullCheck(L_1);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
+		int32_t L_2 = 0;
+		Transform_t1659122786 * L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		NullCheck(L_3);
+		Vector3_t4282066566  L_4 = Transform_get_localPosition_m668140784(L_3, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_5 = Vector3_get_zero_m2017759730(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Bounds__ctor_m4160293652((&V_0), L_4, L_5, /*hidden argument*/NULL);
+		TransformU5BU5D_t3792884695* L_6 = __this->get_eyes_4();
+		NullCheck(L_6);
+		__this->set_origins_9(((Vector3U5BU5D_t215400611*)SZArrayNew(Vector3U5BU5D_t215400611_il2cpp_TypeInfo_var, (uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_6)->max_length)))))));
+		V_1 = 0;
+		goto IL_007e;
+	}
+
+IL_0044:
+	{
+		Vector3U5BU5D_t215400611* L_7 = __this->get_origins_9();
+		int32_t L_8 = V_1;
+		NullCheck(L_7);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, L_8);
+		TransformU5BU5D_t3792884695* L_9 = __this->get_eyes_4();
+		int32_t L_10 = V_1;
+		NullCheck(L_9);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_9, L_10);
+		int32_t L_11 = L_10;
+		Transform_t1659122786 * L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		NullCheck(L_12);
+		Vector3_t4282066566  L_13 = Transform_get_localPosition_m668140784(L_12, /*hidden argument*/NULL);
+		(*(Vector3_t4282066566 *)((L_7)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_8)))) = L_13;
+		Vector3U5BU5D_t215400611* L_14 = __this->get_origins_9();
+		int32_t L_15 = V_1;
+		NullCheck(L_14);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_14, L_15);
+		Bounds_Encapsulate_m3624685234((&V_0), (*(Vector3_t4282066566 *)((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))), /*hidden argument*/NULL);
+		int32_t L_16 = V_1;
+		V_1 = ((int32_t)((int32_t)L_16+(int32_t)1));
+	}
+
+IL_007e:
+	{
+		int32_t L_17 = V_1;
+		TransformU5BU5D_t3792884695* L_18 = __this->get_eyes_4();
+		NullCheck(L_18);
+		if ((((int32_t)L_17) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_18)->max_length)))))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		Vector3_t4282066566  L_19 = Bounds_get_center_m4084610404((&V_0), /*hidden argument*/NULL);
+		__this->set_centerPoint_10(L_19);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilityEyeConstraint::OnDisable()
+extern "C"  void SkeletonUtilityEyeConstraint_OnDisable_m2359022632 (SkeletonUtilityEyeConstraint_t1100357451 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = Application_get_isPlaying_m987993960(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000b:
+	{
+		SkeletonUtilityConstraint_OnDisable_m4149511898(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilityEyeConstraint::DoUpdate()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonUtilityEyeConstraint_DoUpdate_m3698702359_MetadataUsageId;
+extern "C"  void SkeletonUtilityEyeConstraint_DoUpdate_m3698702359 (SkeletonUtilityEyeConstraint_t1100357451 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtilityEyeConstraint_DoUpdate_m3698702359_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Vector3_t4282066566  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t4282066566  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t4282066566  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	{
+		Transform_t1659122786 * L_0 = __this->get_target_6();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		Transform_t1659122786 * L_2 = __this->get_target_6();
+		NullCheck(L_2);
+		Vector3_t4282066566  L_3 = Transform_get_position_m2211398607(L_2, /*hidden argument*/NULL);
+		__this->set_targetPosition_7(L_3);
+	}
+
+IL_0022:
+	{
+		Vector3_t4282066566  L_4 = __this->get_targetPosition_7();
+		V_0 = L_4;
+		Transform_t1659122786 * L_5 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_6 = __this->get_centerPoint_10();
+		NullCheck(L_5);
+		Vector3_t4282066566  L_7 = Transform_TransformPoint_m437395512(L_5, L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
+		Vector3_t4282066566  L_8 = V_0;
+		Vector3_t4282066566  L_9 = V_1;
+		Vector3_t4282066566  L_10 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
+		float L_11 = Vector3_get_magnitude_m989985786((&V_2), /*hidden argument*/NULL);
+		if ((!(((float)L_11) > ((float)(1.0f)))))
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		Vector3_Normalize_m3984983796((&V_2), /*hidden argument*/NULL);
+	}
+
+IL_005b:
+	{
+		V_3 = 0;
+		goto IL_00c0;
+	}
+
+IL_0062:
+	{
+		Transform_t1659122786 * L_12 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Vector3U5BU5D_t215400611* L_13 = __this->get_origins_9();
+		int32_t L_14 = V_3;
+		NullCheck(L_13);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, L_14);
+		NullCheck(L_12);
+		Vector3_t4282066566  L_15 = Transform_TransformPoint_m437395512(L_12, (*(Vector3_t4282066566 *)((L_13)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_14)))), /*hidden argument*/NULL);
+		V_1 = L_15;
+		TransformU5BU5D_t3792884695* L_16 = __this->get_eyes_4();
+		int32_t L_17 = V_3;
+		NullCheck(L_16);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, L_17);
+		int32_t L_18 = L_17;
+		Transform_t1659122786 * L_19 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		TransformU5BU5D_t3792884695* L_20 = __this->get_eyes_4();
+		int32_t L_21 = V_3;
+		NullCheck(L_20);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_20, L_21);
+		int32_t L_22 = L_21;
+		Transform_t1659122786 * L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_23);
+		Vector3_t4282066566  L_24 = Transform_get_position_m2211398607(L_23, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_25 = V_1;
+		Vector3_t4282066566  L_26 = V_2;
+		float L_27 = __this->get_radius_5();
+		Vector3_t4282066566  L_28 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_26, L_27, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_29 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_25, L_28, /*hidden argument*/NULL);
+		float L_30 = __this->get_speed_8();
+		float L_31 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_32 = Vector3_MoveTowards_m2405650085(NULL /*static, unused*/, L_24, L_29, ((float)((float)L_30*(float)L_31)), /*hidden argument*/NULL);
+		NullCheck(L_19);
+		Transform_set_position_m3111394108(L_19, L_32, /*hidden argument*/NULL);
+		int32_t L_33 = V_3;
+		V_3 = ((int32_t)((int32_t)L_33+(int32_t)1));
+	}
+
+IL_00c0:
+	{
+		int32_t L_34 = V_3;
+		TransformU5BU5D_t3792884695* L_35 = __this->get_eyes_4();
+		NullCheck(L_35);
+		if ((((int32_t)L_34) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_35)->max_length)))))))
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilityGroundConstraint::.ctor()
+extern "C"  void SkeletonUtilityGroundConstraint__ctor_m567138259 (SkeletonUtilityGroundConstraint_t3057777225 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_castRadius_7((0.1f));
+		__this->set_castDistance_8((5.0f));
+		__this->set_adjustSpeed_11((5.0f));
+		Vector3_t4282066566  L_0;
+		memset(&L_0, 0, sizeof(L_0));
+		Vector3__ctor_m2926210380(&L_0, (0.0f), (-1.0f), (0.0f), /*hidden argument*/NULL);
+		__this->set_rayDir_13(L_0);
+		SkeletonUtilityConstraint__ctor_m1138123763(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilityGroundConstraint::OnEnable()
+extern "C"  void SkeletonUtilityGroundConstraint_OnEnable_m1286109907 (SkeletonUtilityGroundConstraint_t3057777225 * __this, const MethodInfo* method)
+{
+	Vector3_t4282066566  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		SkeletonUtilityConstraint_OnEnable_m3444767411(__this, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Vector3_t4282066566  L_1 = Transform_get_position_m2211398607(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		float L_2 = (&V_0)->get_y_2();
+		__this->set_lastHitY_15(L_2);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilityGroundConstraint::OnDisable()
+extern "C"  void SkeletonUtilityGroundConstraint_OnDisable_m1655638714 (SkeletonUtilityGroundConstraint_t3057777225 * __this, const MethodInfo* method)
+{
+	{
+		SkeletonUtilityConstraint_OnDisable_m4149511898(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilityGroundConstraint::DoUpdate()
+extern Il2CppClass* Physics2D_t9846735_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t4203372500_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonUtilityGroundConstraint_DoUpdate_m1320707909_MetadataUsageId;
+extern "C"  void SkeletonUtilityGroundConstraint_DoUpdate_m1320707909 (SkeletonUtilityGroundConstraint_t3057777225 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtilityGroundConstraint_DoUpdate_m1320707909_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	RaycastHit2D_t1374744384  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	RaycastHit_t4003175726  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	bool V_2 = false;
+	Vector3_t4282066566  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Vector2_t4282066565  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Vector3_t4282066566  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Vector3_t4282066566  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Vector3_t4282066566  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	Vector3_t4282066566  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	Vector3_t4282066566  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	{
+		Transform_t1659122786 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Vector3_t4282066566  L_1 = Transform_get_position_m2211398607(L_0, /*hidden argument*/NULL);
+		float L_2 = __this->get_castOffset_9();
+		float L_3 = __this->get_castDistance_8();
+		Vector3_t4282066566  L_4;
+		memset(&L_4, 0, sizeof(L_4));
+		Vector3__ctor_m2926210380(&L_4, L_2, L_3, (0.0f), /*hidden argument*/NULL);
+		Vector3_t4282066566  L_5 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_1, L_4, /*hidden argument*/NULL);
+		__this->set_rayOrigin_12(L_5);
+		__this->set_hitY_14((-std::numeric_limits<float>::max()));
+		bool L_6 = __this->get_use2D_5();
+		if (!L_6)
+		{
+			goto IL_0161;
+		}
+	}
+	{
+		bool L_7 = __this->get_useRadius_6();
+		if (!L_7)
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		Vector3_t4282066566  L_8 = __this->get_rayOrigin_12();
+		Vector2_t4282066565  L_9 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		float L_10 = __this->get_castRadius_7();
+		Vector3_t4282066566  L_11 = __this->get_rayDir_13();
+		Vector2_t4282066565  L_12 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		float L_13 = __this->get_castDistance_8();
+		float L_14 = __this->get_groundOffset_10();
+		LayerMask_t3236759763  L_15 = __this->get_groundMask_4();
+		int32_t L_16 = LayerMask_op_Implicit_m1595580047(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t9846735_il2cpp_TypeInfo_var);
+		RaycastHit2D_t1374744384  L_17 = Physics2D_CircleCast_m1344858070(NULL /*static, unused*/, L_9, L_10, L_12, ((float)((float)L_13+(float)L_14)), L_16, /*hidden argument*/NULL);
+		V_0 = L_17;
+		goto IL_00c0;
+	}
+
+IL_008c:
+	{
+		Vector3_t4282066566  L_18 = __this->get_rayOrigin_12();
+		Vector2_t4282066565  L_19 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_20 = __this->get_rayDir_13();
+		Vector2_t4282066565  L_21 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		float L_22 = __this->get_castDistance_8();
+		float L_23 = __this->get_groundOffset_10();
+		LayerMask_t3236759763  L_24 = __this->get_groundMask_4();
+		int32_t L_25 = LayerMask_op_Implicit_m1595580047(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t9846735_il2cpp_TypeInfo_var);
+		RaycastHit2D_t1374744384  L_26 = Physics2D_Raycast_m1435321255(NULL /*static, unused*/, L_19, L_21, ((float)((float)L_22+(float)L_23)), L_25, /*hidden argument*/NULL);
+		V_0 = L_26;
+	}
+
+IL_00c0:
+	{
+		Collider2D_t1552025098 * L_27 = RaycastHit2D_get_collider_m789902306((&V_0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_28 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_27, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_28)
+		{
+			goto IL_0121;
+		}
+	}
+	{
+		Vector2_t4282066565  L_29 = RaycastHit2D_get_point_m2072691227((&V_0), /*hidden argument*/NULL);
+		V_4 = L_29;
+		float L_30 = (&V_4)->get_y_2();
+		float L_31 = __this->get_groundOffset_10();
+		__this->set_hitY_14(((float)((float)L_30+(float)L_31)));
+		bool L_32 = Application_get_isPlaying_m987993960(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_32)
+		{
+			goto IL_011c;
+		}
+	}
+	{
+		float L_33 = __this->get_lastHitY_15();
+		float L_34 = __this->get_hitY_14();
+		float L_35 = __this->get_adjustSpeed_11();
+		float L_36 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_37 = Mathf_MoveTowards_m2701916357(NULL /*static, unused*/, L_33, L_34, ((float)((float)L_35*(float)L_36)), /*hidden argument*/NULL);
+		__this->set_hitY_14(L_37);
+	}
+
+IL_011c:
+	{
+		goto IL_015c;
+	}
+
+IL_0121:
+	{
+		bool L_38 = Application_get_isPlaying_m987993960(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_38)
+		{
+			goto IL_015c;
+		}
+	}
+	{
+		float L_39 = __this->get_lastHitY_15();
+		Transform_t1659122786 * L_40 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_40);
+		Vector3_t4282066566  L_41 = Transform_get_position_m2211398607(L_40, /*hidden argument*/NULL);
+		V_5 = L_41;
+		float L_42 = (&V_5)->get_y_2();
+		float L_43 = __this->get_adjustSpeed_11();
+		float L_44 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_45 = Mathf_MoveTowards_m2701916357(NULL /*static, unused*/, L_39, L_42, ((float)((float)L_43*(float)L_44)), /*hidden argument*/NULL);
+		__this->set_hitY_14(L_45);
+	}
+
+IL_015c:
+	{
+		goto IL_0261;
+	}
+
+IL_0161:
+	{
+		V_2 = (bool)0;
+		bool L_46 = __this->get_useRadius_6();
+		if (!L_46)
+		{
+			goto IL_01a5;
+		}
+	}
+	{
+		Vector3_t4282066566  L_47 = __this->get_rayOrigin_12();
+		float L_48 = __this->get_castRadius_7();
+		Vector3_t4282066566  L_49 = __this->get_rayDir_13();
+		float L_50 = __this->get_castDistance_8();
+		float L_51 = __this->get_groundOffset_10();
+		LayerMask_t3236759763  L_52 = __this->get_groundMask_4();
+		int32_t L_53 = LayerMask_op_Implicit_m1595580047(NULL /*static, unused*/, L_52, /*hidden argument*/NULL);
+		bool L_54 = Physics_SphereCast_m3031395826(NULL /*static, unused*/, L_47, L_48, L_49, (&V_1), ((float)((float)L_50+(float)L_51)), L_53, /*hidden argument*/NULL);
+		V_2 = L_54;
+		goto IL_01d1;
+	}
+
+IL_01a5:
+	{
+		Vector3_t4282066566  L_55 = __this->get_rayOrigin_12();
+		Vector3_t4282066566  L_56 = __this->get_rayDir_13();
+		float L_57 = __this->get_castDistance_8();
+		float L_58 = __this->get_groundOffset_10();
+		LayerMask_t3236759763  L_59 = __this->get_groundMask_4();
+		int32_t L_60 = LayerMask_op_Implicit_m1595580047(NULL /*static, unused*/, L_59, /*hidden argument*/NULL);
+		bool L_61 = Physics_Raycast_m267364350(NULL /*static, unused*/, L_55, L_56, (&V_1), ((float)((float)L_57+(float)L_58)), L_60, /*hidden argument*/NULL);
+		V_2 = L_61;
+	}
+
+IL_01d1:
+	{
+		bool L_62 = V_2;
+		if (!L_62)
+		{
+			goto IL_0226;
+		}
+	}
+	{
+		Vector3_t4282066566  L_63 = RaycastHit_get_point_m4165497838((&V_1), /*hidden argument*/NULL);
+		V_6 = L_63;
+		float L_64 = (&V_6)->get_y_2();
+		float L_65 = __this->get_groundOffset_10();
+		__this->set_hitY_14(((float)((float)L_64+(float)L_65)));
+		bool L_66 = Application_get_isPlaying_m987993960(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_66)
+		{
+			goto IL_0221;
+		}
+	}
+	{
+		float L_67 = __this->get_lastHitY_15();
+		float L_68 = __this->get_hitY_14();
+		float L_69 = __this->get_adjustSpeed_11();
+		float L_70 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_71 = Mathf_MoveTowards_m2701916357(NULL /*static, unused*/, L_67, L_68, ((float)((float)L_69*(float)L_70)), /*hidden argument*/NULL);
+		__this->set_hitY_14(L_71);
+	}
+
+IL_0221:
+	{
+		goto IL_0261;
+	}
+
+IL_0226:
+	{
+		bool L_72 = Application_get_isPlaying_m987993960(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_72)
+		{
+			goto IL_0261;
+		}
+	}
+	{
+		float L_73 = __this->get_lastHitY_15();
+		Transform_t1659122786 * L_74 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_74);
+		Vector3_t4282066566  L_75 = Transform_get_position_m2211398607(L_74, /*hidden argument*/NULL);
+		V_7 = L_75;
+		float L_76 = (&V_7)->get_y_2();
+		float L_77 = __this->get_adjustSpeed_11();
+		float L_78 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_79 = Mathf_MoveTowards_m2701916357(NULL /*static, unused*/, L_73, L_76, ((float)((float)L_77*(float)L_78)), /*hidden argument*/NULL);
+		__this->set_hitY_14(L_79);
+	}
+
+IL_0261:
+	{
+		Transform_t1659122786 * L_80 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_80);
+		Vector3_t4282066566  L_81 = Transform_get_position_m2211398607(L_80, /*hidden argument*/NULL);
+		V_3 = L_81;
+		float L_82 = (&V_3)->get_y_2();
+		float L_83 = __this->get_lastHitY_15();
+		float L_84 = __this->get_hitY_14();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_85 = Mathf_Min_m2322067385(NULL /*static, unused*/, L_83, L_84, /*hidden argument*/NULL);
+		float L_86 = Mathf_Clamp_m3872743893(NULL /*static, unused*/, L_82, L_85, (std::numeric_limits<float>::max()), /*hidden argument*/NULL);
+		(&V_3)->set_y_2(L_86);
+		Transform_t1659122786 * L_87 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_88 = V_3;
+		NullCheck(L_87);
+		Transform_set_position_m3111394108(L_87, L_88, /*hidden argument*/NULL);
+		SkeletonUtilityBone_t1973204173 * L_89 = ((SkeletonUtilityConstraint_t3501047718 *)__this)->get_utilBone_2();
+		NullCheck(L_89);
+		Bone_t1650489600 * L_90 = L_89->get_bone_4();
+		Transform_t1659122786 * L_91 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_91);
+		Vector3_t4282066566  L_92 = Transform_get_localPosition_m668140784(L_91, /*hidden argument*/NULL);
+		V_8 = L_92;
+		float L_93 = (&V_8)->get_x_1();
+		NullCheck(L_90);
+		Bone_set_X_m1843272646(L_90, L_93, /*hidden argument*/NULL);
+		SkeletonUtilityBone_t1973204173 * L_94 = ((SkeletonUtilityConstraint_t3501047718 *)__this)->get_utilBone_2();
+		NullCheck(L_94);
+		Bone_t1650489600 * L_95 = L_94->get_bone_4();
+		Transform_t1659122786 * L_96 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_96);
+		Vector3_t4282066566  L_97 = Transform_get_localPosition_m668140784(L_96, /*hidden argument*/NULL);
+		V_9 = L_97;
+		float L_98 = (&V_9)->get_y_2();
+		NullCheck(L_95);
+		Bone_set_Y_m1332738469(L_95, L_98, /*hidden argument*/NULL);
+		float L_99 = __this->get_hitY_14();
+		__this->set_lastHitY_15(L_99);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilityGroundConstraint::OnDrawGizmos()
+extern Il2CppClass* Mathf_t4203372500_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonUtilityGroundConstraint_OnDrawGizmos_m1357141485_MetadataUsageId;
+extern "C"  void SkeletonUtilityGroundConstraint_OnDrawGizmos_m1357141485 (SkeletonUtilityGroundConstraint_t3057777225 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtilityGroundConstraint_OnDrawGizmos_m1357141485_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Vector3_t4282066566  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t4282066566  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Vector3_t4282066566  L_0 = __this->get_rayOrigin_12();
+		Vector3_t4282066566  L_1 = __this->get_rayDir_13();
+		float L_2 = __this->get_castDistance_8();
+		Vector3_t4282066566 * L_3 = __this->get_address_of_rayOrigin_12();
+		float L_4 = L_3->get_y_2();
+		float L_5 = __this->get_hitY_14();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_6 = Mathf_Min_m2322067385(NULL /*static, unused*/, L_2, ((float)((float)L_4-(float)L_5)), /*hidden argument*/NULL);
+		Vector3_t4282066566  L_7 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_1, L_6, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_8 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_0, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
+		Vector3_t4282066566  L_9 = __this->get_rayOrigin_12();
+		Vector3_t4282066566  L_10 = __this->get_rayDir_13();
+		float L_11 = __this->get_castDistance_8();
+		Vector3_t4282066566  L_12 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_13 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_9, L_12, /*hidden argument*/NULL);
+		V_1 = L_13;
+		Vector3_t4282066566  L_14 = __this->get_rayOrigin_12();
+		Vector3_t4282066566  L_15 = V_0;
+		Gizmos_DrawLine_m4199765284(NULL /*static, unused*/, L_14, L_15, /*hidden argument*/NULL);
+		bool L_16 = __this->get_useRadius_6();
+		if (!L_16)
+		{
+			goto IL_0104;
+		}
+	}
+	{
+		float L_17 = (&V_0)->get_x_1();
+		float L_18 = __this->get_castRadius_7();
+		float L_19 = (&V_0)->get_y_2();
+		float L_20 = __this->get_groundOffset_10();
+		float L_21 = (&V_0)->get_z_3();
+		Vector3_t4282066566  L_22;
+		memset(&L_22, 0, sizeof(L_22));
+		Vector3__ctor_m2926210380(&L_22, ((float)((float)L_17-(float)L_18)), ((float)((float)L_19-(float)L_20)), L_21, /*hidden argument*/NULL);
+		float L_23 = (&V_0)->get_x_1();
+		float L_24 = __this->get_castRadius_7();
+		float L_25 = (&V_0)->get_y_2();
+		float L_26 = __this->get_groundOffset_10();
+		float L_27 = (&V_0)->get_z_3();
+		Vector3_t4282066566  L_28;
+		memset(&L_28, 0, sizeof(L_28));
+		Vector3__ctor_m2926210380(&L_28, ((float)((float)L_23+(float)L_24)), ((float)((float)L_25-(float)L_26)), L_27, /*hidden argument*/NULL);
+		Gizmos_DrawLine_m4199765284(NULL /*static, unused*/, L_22, L_28, /*hidden argument*/NULL);
+		float L_29 = (&V_1)->get_x_1();
+		float L_30 = __this->get_castRadius_7();
+		float L_31 = (&V_1)->get_y_2();
+		float L_32 = (&V_1)->get_z_3();
+		Vector3_t4282066566  L_33;
+		memset(&L_33, 0, sizeof(L_33));
+		Vector3__ctor_m2926210380(&L_33, ((float)((float)L_29-(float)L_30)), L_31, L_32, /*hidden argument*/NULL);
+		float L_34 = (&V_1)->get_x_1();
+		float L_35 = __this->get_castRadius_7();
+		float L_36 = (&V_1)->get_y_2();
+		float L_37 = (&V_1)->get_z_3();
+		Vector3_t4282066566  L_38;
+		memset(&L_38, 0, sizeof(L_38));
+		Vector3__ctor_m2926210380(&L_38, ((float)((float)L_34+(float)L_35)), L_36, L_37, /*hidden argument*/NULL);
+		Gizmos_DrawLine_m4199765284(NULL /*static, unused*/, L_33, L_38, /*hidden argument*/NULL);
+	}
+
+IL_0104:
+	{
+		Color_t4194546905  L_39 = Color_get_red_m4288945411(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Gizmos_set_color_m3649224910(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_40 = V_0;
+		Vector3_t4282066566  L_41 = V_1;
+		Gizmos_DrawLine_m4199765284(NULL /*static, unused*/, L_40, L_41, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilityKinematicShadow::.ctor()
+extern Il2CppClass* List_1_t2719412408_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m776184211_MethodInfo_var;
+extern const uint32_t SkeletonUtilityKinematicShadow__ctor_m3161720970_MetadataUsageId;
+extern "C"  void SkeletonUtilityKinematicShadow__ctor_m3161720970 (SkeletonUtilityKinematicShadow_t2419233506 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtilityKinematicShadow__ctor_m3161720970_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		__this->set_hideShadow_4((bool)1);
+		List_1_t2719412408 * L_0 = (List_1_t2719412408 *)il2cpp_codegen_object_new(List_1_t2719412408_il2cpp_TypeInfo_var);
+		List_1__ctor_m776184211(L_0, /*hidden argument*/List_1__ctor_m776184211_MethodInfo_var);
+		__this->set_shadowTable_6(L_0);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilityKinematicShadow::Start()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* TransformPair_t1351226856_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_Instantiate_TisGameObject_t3674682005_m3917608929_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisSkeletonUtilityKinematicShadow_t2419233506_m2161859212_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponentsInChildren_TisJoint_t4201008640_m1983852969_MethodInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisSkeletonUtilityBone_t1973204173_m1854961193_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponentsInChildren_TisSkeletonUtilityBone_t1973204173_m80683901_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRigidbody_t3346577219_m2174365699_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m470545027_MethodInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisJoint_t4201008640_m991125845_MethodInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisRigidbody_t3346577219_m912101554_MethodInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisCollider_t2939674232_m2374436075_MethodInfo_var;
+extern const uint32_t SkeletonUtilityKinematicShadow_Start_m2108858762_MetadataUsageId;
+extern "C"  void SkeletonUtilityKinematicShadow_Start_m2108858762 (SkeletonUtilityKinematicShadow_t2419233506 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtilityKinematicShadow_Start_m2108858762_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Transform_t1659122786 * V_0 = NULL;
+	Vector3_t4282066566  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	JointU5BU5D_t518044161* V_3 = NULL;
+	Joint_t4201008640 * V_4 = NULL;
+	JointU5BU5D_t518044161* V_5 = NULL;
+	int32_t V_6 = 0;
+	SkeletonUtilityBoneU5BU5D_t3282724192* V_7 = NULL;
+	SkeletonUtilityBoneU5BU5D_t3282724192* V_8 = NULL;
+	SkeletonUtilityBone_t1973204173 * V_9 = NULL;
+	SkeletonUtilityBoneU5BU5D_t3282724192* V_10 = NULL;
+	int32_t V_11 = 0;
+	SkeletonUtilityBone_t1973204173 * V_12 = NULL;
+	SkeletonUtilityBoneU5BU5D_t3282724192* V_13 = NULL;
+	int32_t V_14 = 0;
+	TransformPair_t1351226856  V_15;
+	memset(&V_15, 0, sizeof(V_15));
+	{
+		GameObject_t3674682005 * L_0 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		GameObject_t3674682005 * L_1 = Object_Instantiate_TisGameObject_t3674682005_m3917608929(NULL /*static, unused*/, L_0, /*hidden argument*/Object_Instantiate_TisGameObject_t3674682005_m3917608929_MethodInfo_var);
+		__this->set_shadowRoot_5(L_1);
+		GameObject_t3674682005 * L_2 = __this->get_shadowRoot_5();
+		NullCheck(L_2);
+		SkeletonUtilityKinematicShadow_t2419233506 * L_3 = GameObject_GetComponent_TisSkeletonUtilityKinematicShadow_t2419233506_m2161859212(L_2, /*hidden argument*/GameObject_GetComponent_TisSkeletonUtilityKinematicShadow_t2419233506_m2161859212_MethodInfo_var);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_4 = __this->get_shadowRoot_5();
+		NullCheck(L_4);
+		Transform_t1659122786 * L_5 = GameObject_get_transform_m1278640159(L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		Transform_t1659122786 * L_6 = V_0;
+		Transform_t1659122786 * L_7 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Vector3_t4282066566  L_8 = Transform_get_position_m2211398607(L_7, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Transform_set_position_m3111394108(L_6, L_8, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_9 = V_0;
+		Transform_t1659122786 * L_10 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Quaternion_t1553702882  L_11 = Transform_get_rotation_m11483428(L_10, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Transform_set_rotation_m1525803229(L_9, L_11, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_12 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_13 = Vector3_get_right_m4015137012(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Vector3_t4282066566  L_14 = Transform_TransformPoint_m437395512(L_12, L_13, /*hidden argument*/NULL);
+		V_1 = L_14;
+		Transform_t1659122786 * L_15 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		Vector3_t4282066566  L_16 = Transform_get_position_m2211398607(L_15, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_17 = V_1;
+		float L_18 = Vector3_Distance_m3366690344(NULL /*static, unused*/, L_16, L_17, /*hidden argument*/NULL);
+		V_2 = L_18;
+		Transform_t1659122786 * L_19 = V_0;
+		Vector3_t4282066566  L_20 = Vector3_get_one_m886467710(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		Transform_set_localScale_m310756934(L_19, L_20, /*hidden argument*/NULL);
+		bool L_21 = __this->get_detachedShadow_2();
+		if (L_21)
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		Transform_t1659122786 * L_22 = __this->get_parent_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_23 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_22, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_23)
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		Transform_t1659122786 * L_24 = V_0;
+		Transform_t1659122786 * L_25 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_25);
+		Transform_t1659122786 * L_26 = Transform_get_root_m1064615716(L_25, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		Transform_set_parent_m3231272063(L_24, L_26, /*hidden argument*/NULL);
+		goto IL_00bb;
+	}
+
+IL_00af:
+	{
+		Transform_t1659122786 * L_27 = V_0;
+		Transform_t1659122786 * L_28 = __this->get_parent_3();
+		NullCheck(L_27);
+		Transform_set_parent_m3231272063(L_27, L_28, /*hidden argument*/NULL);
+	}
+
+IL_00bb:
+	{
+		bool L_29 = __this->get_hideShadow_4();
+		if (!L_29)
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		GameObject_t3674682005 * L_30 = __this->get_shadowRoot_5();
+		NullCheck(L_30);
+		Object_set_hideFlags_m41317712(L_30, 1, /*hidden argument*/NULL);
+	}
+
+IL_00d2:
+	{
+		GameObject_t3674682005 * L_31 = __this->get_shadowRoot_5();
+		NullCheck(L_31);
+		JointU5BU5D_t518044161* L_32 = GameObject_GetComponentsInChildren_TisJoint_t4201008640_m1983852969(L_31, /*hidden argument*/GameObject_GetComponentsInChildren_TisJoint_t4201008640_m1983852969_MethodInfo_var);
+		V_3 = L_32;
+		JointU5BU5D_t518044161* L_33 = V_3;
+		V_5 = L_33;
+		V_6 = 0;
+		goto IL_0109;
+	}
+
+IL_00e9:
+	{
+		JointU5BU5D_t518044161* L_34 = V_5;
+		int32_t L_35 = V_6;
+		NullCheck(L_34);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_34, L_35);
+		int32_t L_36 = L_35;
+		Joint_t4201008640 * L_37 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_36));
+		V_4 = L_37;
+		Joint_t4201008640 * L_38 = V_4;
+		Joint_t4201008640 * L_39 = L_38;
+		NullCheck(L_39);
+		Vector3_t4282066566  L_40 = Joint_get_connectedAnchor_m2103479868(L_39, /*hidden argument*/NULL);
+		float L_41 = V_2;
+		Vector3_t4282066566  L_42 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_40, L_41, /*hidden argument*/NULL);
+		NullCheck(L_39);
+		Joint_set_connectedAnchor_m1591545163(L_39, L_42, /*hidden argument*/NULL);
+		int32_t L_43 = V_6;
+		V_6 = ((int32_t)((int32_t)L_43+(int32_t)1));
+	}
+
+IL_0109:
+	{
+		int32_t L_44 = V_6;
+		JointU5BU5D_t518044161* L_45 = V_5;
+		NullCheck(L_45);
+		if ((((int32_t)L_44) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_45)->max_length)))))))
+		{
+			goto IL_00e9;
+		}
+	}
+	{
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_46 = Component_GetComponentsInChildren_TisSkeletonUtilityBone_t1973204173_m1854961193(__this, /*hidden argument*/Component_GetComponentsInChildren_TisSkeletonUtilityBone_t1973204173_m1854961193_MethodInfo_var);
+		V_7 = L_46;
+		GameObject_t3674682005 * L_47 = __this->get_shadowRoot_5();
+		NullCheck(L_47);
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_48 = GameObject_GetComponentsInChildren_TisSkeletonUtilityBone_t1973204173_m80683901(L_47, /*hidden argument*/GameObject_GetComponentsInChildren_TisSkeletonUtilityBone_t1973204173_m80683901_MethodInfo_var);
+		V_8 = L_48;
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_49 = V_7;
+		V_10 = L_49;
+		V_11 = 0;
+		goto IL_01e2;
+	}
+
+IL_0135:
+	{
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_50 = V_10;
+		int32_t L_51 = V_11;
+		NullCheck(L_50);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_50, L_51);
+		int32_t L_52 = L_51;
+		SkeletonUtilityBone_t1973204173 * L_53 = (L_50)->GetAt(static_cast<il2cpp_array_size_t>(L_52));
+		V_9 = L_53;
+		SkeletonUtilityBone_t1973204173 * L_54 = V_9;
+		NullCheck(L_54);
+		GameObject_t3674682005 * L_55 = Component_get_gameObject_m1170635899(L_54, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_56 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_57 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_55, L_56, /*hidden argument*/NULL);
+		if (!L_57)
+		{
+			goto IL_0158;
+		}
+	}
+	{
+		goto IL_01dc;
+	}
+
+IL_0158:
+	{
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_58 = V_8;
+		V_13 = L_58;
+		V_14 = 0;
+		goto IL_01d1;
+	}
+
+IL_0164:
+	{
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_59 = V_13;
+		int32_t L_60 = V_14;
+		NullCheck(L_59);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_59, L_60);
+		int32_t L_61 = L_60;
+		SkeletonUtilityBone_t1973204173 * L_62 = (L_59)->GetAt(static_cast<il2cpp_array_size_t>(L_61));
+		V_12 = L_62;
+		SkeletonUtilityBone_t1973204173 * L_63 = V_12;
+		NullCheck(L_63);
+		Rigidbody_t3346577219 * L_64 = Component_GetComponent_TisRigidbody_t3346577219_m2174365699(L_63, /*hidden argument*/Component_GetComponent_TisRigidbody_t3346577219_m2174365699_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_65 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_64, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_65)
+		{
+			goto IL_01cb;
+		}
+	}
+	{
+		SkeletonUtilityBone_t1973204173 * L_66 = V_12;
+		NullCheck(L_66);
+		String_t* L_67 = L_66->get_boneName_13();
+		SkeletonUtilityBone_t1973204173 * L_68 = V_9;
+		NullCheck(L_68);
+		String_t* L_69 = L_68->get_boneName_13();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_70 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_67, L_69, /*hidden argument*/NULL);
+		if (!L_70)
+		{
+			goto IL_01cb;
+		}
+	}
+	{
+		List_1_t2719412408 * L_71 = __this->get_shadowTable_6();
+		Initobj (TransformPair_t1351226856_il2cpp_TypeInfo_var, (&V_15));
+		SkeletonUtilityBone_t1973204173 * L_72 = V_9;
+		NullCheck(L_72);
+		Transform_t1659122786 * L_73 = Component_get_transform_m4257140443(L_72, /*hidden argument*/NULL);
+		(&V_15)->set_dest_0(L_73);
+		SkeletonUtilityBone_t1973204173 * L_74 = V_12;
+		NullCheck(L_74);
+		Transform_t1659122786 * L_75 = Component_get_transform_m4257140443(L_74, /*hidden argument*/NULL);
+		(&V_15)->set_src_1(L_75);
+		TransformPair_t1351226856  L_76 = V_15;
+		NullCheck(L_71);
+		List_1_Add_m470545027(L_71, L_76, /*hidden argument*/List_1_Add_m470545027_MethodInfo_var);
+		goto IL_01dc;
+	}
+
+IL_01cb:
+	{
+		int32_t L_77 = V_14;
+		V_14 = ((int32_t)((int32_t)L_77+(int32_t)1));
+	}
+
+IL_01d1:
+	{
+		int32_t L_78 = V_14;
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_79 = V_13;
+		NullCheck(L_79);
+		if ((((int32_t)L_78) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_79)->max_length)))))))
+		{
+			goto IL_0164;
+		}
+	}
+
+IL_01dc:
+	{
+		int32_t L_80 = V_11;
+		V_11 = ((int32_t)((int32_t)L_80+(int32_t)1));
+	}
+
+IL_01e2:
+	{
+		int32_t L_81 = V_11;
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_82 = V_10;
+		NullCheck(L_82);
+		if ((((int32_t)L_81) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_82)->max_length)))))))
+		{
+			goto IL_0135;
+		}
+	}
+	{
+		SkeletonUtilityBoneU5BU5D_t3282724192* L_83 = V_8;
+		SkeletonUtilityKinematicShadow_DestroyComponents_m2189570834(NULL /*static, unused*/, (ComponentU5BU5D_t663911650*)(ComponentU5BU5D_t663911650*)L_83, /*hidden argument*/NULL);
+		JointU5BU5D_t518044161* L_84 = Component_GetComponentsInChildren_TisJoint_t4201008640_m991125845(__this, /*hidden argument*/Component_GetComponentsInChildren_TisJoint_t4201008640_m991125845_MethodInfo_var);
+		SkeletonUtilityKinematicShadow_DestroyComponents_m2189570834(NULL /*static, unused*/, (ComponentU5BU5D_t663911650*)(ComponentU5BU5D_t663911650*)L_84, /*hidden argument*/NULL);
+		RigidbodyU5BU5D_t1403726930* L_85 = Component_GetComponentsInChildren_TisRigidbody_t3346577219_m912101554(__this, /*hidden argument*/Component_GetComponentsInChildren_TisRigidbody_t3346577219_m912101554_MethodInfo_var);
+		SkeletonUtilityKinematicShadow_DestroyComponents_m2189570834(NULL /*static, unused*/, (ComponentU5BU5D_t663911650*)(ComponentU5BU5D_t663911650*)L_85, /*hidden argument*/NULL);
+		ColliderU5BU5D_t2697150633* L_86 = Component_GetComponentsInChildren_TisCollider_t2939674232_m2374436075(__this, /*hidden argument*/Component_GetComponentsInChildren_TisCollider_t2939674232_m2374436075_MethodInfo_var);
+		SkeletonUtilityKinematicShadow_DestroyComponents_m2189570834(NULL /*static, unused*/, (ComponentU5BU5D_t663911650*)(ComponentU5BU5D_t663911650*)L_86, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilityKinematicShadow::DestroyComponents(UnityEngine.Component[])
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonUtilityKinematicShadow_DestroyComponents_m2189570834_MetadataUsageId;
+extern "C"  void SkeletonUtilityKinematicShadow_DestroyComponents_m2189570834 (Il2CppObject * __this /* static, unused */, ComponentU5BU5D_t663911650* ___components0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtilityKinematicShadow_DestroyComponents_m2189570834_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		V_0 = 0;
+		ComponentU5BU5D_t663911650* L_0 = ___components0;
+		NullCheck(L_0);
+		V_1 = (((int32_t)((int32_t)(((Il2CppArray *)L_0)->max_length))));
+		goto IL_0017;
+	}
+
+IL_000b:
+	{
+		ComponentU5BU5D_t663911650* L_1 = ___components0;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, L_2);
+		int32_t L_3 = L_2;
+		Component_t3501516275 * L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		int32_t L_5 = V_0;
+		V_0 = ((int32_t)((int32_t)L_5+(int32_t)1));
+	}
+
+IL_0017:
+	{
+		int32_t L_6 = V_0;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)L_7)))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilityKinematicShadow::FixedUpdate()
+extern const MethodInfo* GameObject_GetComponent_TisRigidbody_t3346577219_m2158183595_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m224036389_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2685728656_MethodInfo_var;
+extern const uint32_t SkeletonUtilityKinematicShadow_FixedUpdate_m561239685_MetadataUsageId;
+extern "C"  void SkeletonUtilityKinematicShadow_FixedUpdate_m561239685 (SkeletonUtilityKinematicShadow_t2419233506 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtilityKinematicShadow_FixedUpdate_m561239685_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Rigidbody_t3346577219 * V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	TransformPair_t1351226856  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	{
+		GameObject_t3674682005 * L_0 = __this->get_shadowRoot_5();
+		NullCheck(L_0);
+		Rigidbody_t3346577219 * L_1 = GameObject_GetComponent_TisRigidbody_t3346577219_m2158183595(L_0, /*hidden argument*/GameObject_GetComponent_TisRigidbody_t3346577219_m2158183595_MethodInfo_var);
+		V_0 = L_1;
+		Rigidbody_t3346577219 * L_2 = V_0;
+		Transform_t1659122786 * L_3 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Vector3_t4282066566  L_4 = Transform_get_position_m2211398607(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Rigidbody_MovePosition_m1515094375(L_2, L_4, /*hidden argument*/NULL);
+		Rigidbody_t3346577219 * L_5 = V_0;
+		Transform_t1659122786 * L_6 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Quaternion_t1553702882  L_7 = Transform_get_rotation_m11483428(L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Rigidbody_MoveRotation_m38358738(L_5, L_7, /*hidden argument*/NULL);
+		V_1 = 0;
+		List_1_t2719412408 * L_8 = __this->get_shadowTable_6();
+		NullCheck(L_8);
+		int32_t L_9 = List_1_get_Count_m224036389(L_8, /*hidden argument*/List_1_get_Count_m224036389_MethodInfo_var);
+		V_2 = L_9;
+		goto IL_0082;
+	}
+
+IL_0041:
+	{
+		List_1_t2719412408 * L_10 = __this->get_shadowTable_6();
+		int32_t L_11 = V_1;
+		NullCheck(L_10);
+		TransformPair_t1351226856  L_12 = List_1_get_Item_m2685728656(L_10, L_11, /*hidden argument*/List_1_get_Item_m2685728656_MethodInfo_var);
+		V_3 = L_12;
+		Transform_t1659122786 * L_13 = (&V_3)->get_dest_0();
+		Transform_t1659122786 * L_14 = (&V_3)->get_src_1();
+		NullCheck(L_14);
+		Vector3_t4282066566  L_15 = Transform_get_localPosition_m668140784(L_14, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		Transform_set_localPosition_m3504330903(L_13, L_15, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_16 = (&V_3)->get_dest_0();
+		Transform_t1659122786 * L_17 = (&V_3)->get_src_1();
+		NullCheck(L_17);
+		Quaternion_t1553702882  L_18 = Transform_get_localRotation_m3343229381(L_17, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		Transform_set_localRotation_m3719981474(L_16, L_18, /*hidden argument*/NULL);
+		int32_t L_19 = V_1;
+		V_1 = ((int32_t)((int32_t)L_19+(int32_t)1));
+	}
+
+IL_0082:
+	{
+		int32_t L_20 = V_1;
+		int32_t L_21 = V_2;
+		if ((((int32_t)L_20) < ((int32_t)L_21)))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		return;
+	}
+}
+// Conversion methods for marshalling of: Spine.Unity.Modules.SkeletonUtilityKinematicShadow/TransformPair
+extern "C" void TransformPair_t1351226856_marshal_pinvoke(const TransformPair_t1351226856& unmarshaled, TransformPair_t1351226856_marshaled_pinvoke& marshaled)
+{
+	Il2CppCodeGenException* ___dest_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'dest' of type 'TransformPair': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___dest_0Exception);
+}
+extern "C" void TransformPair_t1351226856_marshal_pinvoke_back(const TransformPair_t1351226856_marshaled_pinvoke& marshaled, TransformPair_t1351226856& unmarshaled)
+{
+	Il2CppCodeGenException* ___dest_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'dest' of type 'TransformPair': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___dest_0Exception);
+}
+// Conversion method for clean up from marshalling of: Spine.Unity.Modules.SkeletonUtilityKinematicShadow/TransformPair
+extern "C" void TransformPair_t1351226856_marshal_pinvoke_cleanup(TransformPair_t1351226856_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Spine.Unity.Modules.SkeletonUtilityKinematicShadow/TransformPair
+extern "C" void TransformPair_t1351226856_marshal_com(const TransformPair_t1351226856& unmarshaled, TransformPair_t1351226856_marshaled_com& marshaled)
+{
+	Il2CppCodeGenException* ___dest_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'dest' of type 'TransformPair': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___dest_0Exception);
+}
+extern "C" void TransformPair_t1351226856_marshal_com_back(const TransformPair_t1351226856_marshaled_com& marshaled, TransformPair_t1351226856& unmarshaled)
+{
+	Il2CppCodeGenException* ___dest_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'dest' of type 'TransformPair': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___dest_0Exception);
+}
+// Conversion method for clean up from marshalling of: Spine.Unity.Modules.SkeletonUtilityKinematicShadow/TransformPair
+extern "C" void TransformPair_t1351226856_marshal_com_cleanup(TransformPair_t1351226856_marshaled_com& marshaled)
+{
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilitySubmeshRenderer::.ctor()
+extern "C"  void SkeletonUtilitySubmeshRenderer__ctor_m895416927 (SkeletonUtilitySubmeshRenderer_t3659091309 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilitySubmeshRenderer::Awake()
+extern Il2CppClass* MaterialU5BU5D_t170856778_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t3076687687_m500377675_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisMeshFilter_t3839065225_m3816897097_MethodInfo_var;
+extern const uint32_t SkeletonUtilitySubmeshRenderer_Awake_m1133022146_MetadataUsageId;
+extern "C"  void SkeletonUtilitySubmeshRenderer_Awake_m1133022146 (SkeletonUtilitySubmeshRenderer_t3659091309 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtilitySubmeshRenderer_Awake_m1133022146_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Renderer_t3076687687 * L_0 = Component_GetComponent_TisRenderer_t3076687687_m500377675(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t3076687687_m500377675_MethodInfo_var);
+		__this->set_cachedRenderer_5(L_0);
+		MeshFilter_t3839065225 * L_1 = Component_GetComponent_TisMeshFilter_t3839065225_m3816897097(__this, /*hidden argument*/Component_GetComponent_TisMeshFilter_t3839065225_m3816897097_MethodInfo_var);
+		__this->set_filter_6(L_1);
+		__this->set_sharedMaterials_7(((MaterialU5BU5D_t170856778*)SZArrayNew(MaterialU5BU5D_t170856778_il2cpp_TypeInfo_var, (uint32_t)0)));
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SkeletonUtilitySubmeshRenderer::SetMesh(UnityEngine.Renderer,UnityEngine.Mesh,UnityEngine.Material)
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonUtilitySubmeshRenderer_SetMesh_m445768632_MetadataUsageId;
+extern "C"  void SkeletonUtilitySubmeshRenderer_SetMesh_m445768632 (SkeletonUtilitySubmeshRenderer_t3659091309 * __this, Renderer_t3076687687 * ___parentRenderer0, Mesh_t4241756145 * ___mesh1, Material_t3870600107 * ___mat2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtilitySubmeshRenderer_SetMesh_m445768632_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		Renderer_t3076687687 * L_0 = __this->get_cachedRenderer_5();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Renderer_t3076687687 * L_2 = __this->get_cachedRenderer_5();
+		NullCheck(L_2);
+		Renderer_set_enabled_m2514140131(L_2, (bool)1, /*hidden argument*/NULL);
+		MeshFilter_t3839065225 * L_3 = __this->get_filter_6();
+		Mesh_t4241756145 * L_4 = ___mesh1;
+		NullCheck(L_3);
+		MeshFilter_set_sharedMesh_m793190055(L_3, L_4, /*hidden argument*/NULL);
+		Renderer_t3076687687 * L_5 = __this->get_cachedRenderer_5();
+		NullCheck(L_5);
+		MaterialU5BU5D_t170856778* L_6 = Renderer_get_sharedMaterials_m1981818007(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Renderer_t3076687687 * L_7 = ___parentRenderer0;
+		NullCheck(L_7);
+		MaterialU5BU5D_t170856778* L_8 = Renderer_get_sharedMaterials_m1981818007(L_7, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_6)->max_length))))) == ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_8)->max_length)))))))
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		Renderer_t3076687687 * L_9 = ___parentRenderer0;
+		NullCheck(L_9);
+		MaterialU5BU5D_t170856778* L_10 = Renderer_get_sharedMaterials_m1981818007(L_9, /*hidden argument*/NULL);
+		__this->set_sharedMaterials_7(L_10);
+	}
+
+IL_0050:
+	{
+		V_0 = 0;
+		goto IL_0083;
+	}
+
+IL_0057:
+	{
+		int32_t L_11 = V_0;
+		int32_t L_12 = __this->get_submeshIndex_3();
+		if ((!(((uint32_t)L_11) == ((uint32_t)L_12))))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		MaterialU5BU5D_t170856778* L_13 = __this->get_sharedMaterials_7();
+		int32_t L_14 = V_0;
+		Material_t3870600107 * L_15 = ___mat2;
+		NullCheck(L_13);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, L_14);
+		ArrayElementTypeCheck (L_13, L_15);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(L_14), (Material_t3870600107 *)L_15);
+		goto IL_007f;
+	}
+
+IL_0071:
+	{
+		MaterialU5BU5D_t170856778* L_16 = __this->get_sharedMaterials_7();
+		int32_t L_17 = V_0;
+		Material_t3870600107 * L_18 = __this->get_hiddenPassMaterial_4();
+		NullCheck(L_16);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, L_17);
+		ArrayElementTypeCheck (L_16, L_18);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(L_17), (Material_t3870600107 *)L_18);
+	}
+
+IL_007f:
+	{
+		int32_t L_19 = V_0;
+		V_0 = ((int32_t)((int32_t)L_19+(int32_t)1));
+	}
+
+IL_0083:
+	{
+		int32_t L_20 = V_0;
+		MaterialU5BU5D_t170856778* L_21 = __this->get_sharedMaterials_7();
+		NullCheck(L_21);
+		if ((((int32_t)L_20) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_21)->max_length)))))))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		Renderer_t3076687687 * L_22 = __this->get_cachedRenderer_5();
+		MaterialU5BU5D_t170856778* L_23 = __this->get_sharedMaterials_7();
+		NullCheck(L_22);
+		Renderer_set_sharedMaterials_m1255100914(L_22, L_23, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SpriteAttacher::.ctor()
+extern "C"  void SpriteAttacher__ctor_m2031329593 (SpriteAttacher_t3811563859 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_attachOnStart_2((bool)1);
+		__this->set_keepLoaderInMemory_3((bool)1);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SpriteAttacher::Start()
+extern "C"  void SpriteAttacher_Start_m978467385 (SpriteAttacher_t3811563859 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_attachOnStart_2();
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		SpriteAttacher_Attach_m3784679280(__this, /*hidden argument*/NULL);
+	}
+
+IL_0011:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SpriteAttacher::Attach()
+extern Il2CppClass* SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3432921273;
+extern const uint32_t SpriteAttacher_Attach_m3784679280_MetadataUsageId;
+extern "C"  void SpriteAttacher_Attach_m3784679280 (SpriteAttacher_t3811563859 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpriteAttacher_Attach_m3784679280_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	SkeletonRenderer_t3766155010 * V_0 = NULL;
+	{
+		SkeletonRenderer_t3766155010 * L_0 = Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865(__this, /*hidden argument*/Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var);
+		V_0 = L_0;
+		SpriteAttachmentLoader_t3928570551 * L_1 = __this->get_loader_6();
+		if (L_1)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		Sprite_t3199167241 * L_2 = __this->get_sprite_4();
+		Shader_t3191267369 * L_3 = Shader_Find_m4048047578(NULL /*static, unused*/, _stringLiteral3432921273, /*hidden argument*/NULL);
+		SpriteAttachmentLoader_t3928570551 * L_4 = (SpriteAttachmentLoader_t3928570551 *)il2cpp_codegen_object_new(SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var);
+		SpriteAttachmentLoader__ctor_m2461146161(L_4, L_2, L_3, /*hidden argument*/NULL);
+		__this->set_loader_6(L_4);
+	}
+
+IL_002d:
+	{
+		RegionAttachment_t2459988211 * L_5 = __this->get_attachment_7();
+		if (L_5)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		SpriteAttachmentLoader_t3928570551 * L_6 = __this->get_loader_6();
+		Sprite_t3199167241 * L_7 = __this->get_sprite_4();
+		NullCheck(L_7);
+		String_t* L_8 = Object_get_name_m3709440845(L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_9 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		NullCheck(L_6);
+		RegionAttachment_t2459988211 * L_10 = SpriteAttachmentLoader_NewRegionAttachment_m921951743(L_6, (Skin_t1650992057 *)NULL, L_8, L_9, /*hidden argument*/NULL);
+		__this->set_attachment_7(L_10);
+	}
+
+IL_005a:
+	{
+		SkeletonRenderer_t3766155010 * L_11 = V_0;
+		NullCheck(L_11);
+		Skeleton_t2209335561 * L_12 = L_11->get_skeleton_20();
+		String_t* L_13 = __this->get_slot_5();
+		NullCheck(L_12);
+		Slot_t1650993210 * L_14 = Skeleton_FindSlot_m43661110(L_12, L_13, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_15 = __this->get_attachment_7();
+		NullCheck(L_14);
+		Slot_set_Attachment_m3001848068(L_14, L_15, /*hidden argument*/NULL);
+		bool L_16 = __this->get_keepLoaderInMemory_3();
+		if (L_16)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		__this->set_loader_6((SpriteAttachmentLoader_t3928570551 *)NULL);
+	}
+
+IL_0088:
+	{
+		return;
+	}
+}
+// Spine.Attachment Spine.Unity.Modules.SpriteAttachmentExtensions::AttachUnitySprite(Spine.Skeleton,System.String,UnityEngine.Sprite,System.String)
+extern "C"  Attachment_t2849733407 * SpriteAttachmentExtensions_AttachUnitySprite_m3856489130 (Il2CppObject * __this /* static, unused */, Skeleton_t2209335561 * ___skeleton0, String_t* ___slotName1, Sprite_t3199167241 * ___sprite2, String_t* ___shaderName3, const MethodInfo* method)
+{
+	RegionAttachment_t2459988211 * V_0 = NULL;
+	{
+		Sprite_t3199167241 * L_0 = ___sprite2;
+		String_t* L_1 = ___shaderName3;
+		RegionAttachment_t2459988211 * L_2 = SpriteAttachmentExtensions_ToRegionAttachment_m1494211645(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		Skeleton_t2209335561 * L_3 = ___skeleton0;
+		String_t* L_4 = ___slotName1;
+		NullCheck(L_3);
+		Slot_t1650993210 * L_5 = Skeleton_FindSlot_m43661110(L_3, L_4, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_6 = V_0;
+		NullCheck(L_5);
+		Slot_set_Attachment_m3001848068(L_5, L_6, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_7 = V_0;
+		return L_7;
+	}
+}
+// Spine.Attachment Spine.Unity.Modules.SpriteAttachmentExtensions::AddUnitySprite(Spine.SkeletonData,System.String,UnityEngine.Sprite,System.String,System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t SpriteAttachmentExtensions_AddUnitySprite_m641810384_MetadataUsageId;
+extern "C"  Attachment_t2849733407 * SpriteAttachmentExtensions_AddUnitySprite_m641810384 (Il2CppObject * __this /* static, unused */, SkeletonData_t3387199699 * ___skeletonData0, String_t* ___slotName1, Sprite_t3199167241 * ___sprite2, String_t* ___skinName3, String_t* ___shaderName4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpriteAttachmentExtensions_AddUnitySprite_m641810384_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	RegionAttachment_t2459988211 * V_0 = NULL;
+	int32_t V_1 = 0;
+	Skin_t1650992057 * V_2 = NULL;
+	{
+		Sprite_t3199167241 * L_0 = ___sprite2;
+		String_t* L_1 = ___shaderName4;
+		RegionAttachment_t2459988211 * L_2 = SpriteAttachmentExtensions_ToRegionAttachment_m1494211645(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		SkeletonData_t3387199699 * L_3 = ___skeletonData0;
+		String_t* L_4 = ___slotName1;
+		NullCheck(L_3);
+		int32_t L_5 = SkeletonData_FindSlotIndex_m4183630046(L_3, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		SkeletonData_t3387199699 * L_6 = ___skeletonData0;
+		NullCheck(L_6);
+		Skin_t1650992057 * L_7 = L_6->get_defaultSkin_4();
+		V_2 = L_7;
+		String_t* L_8 = ___skinName3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_9 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		bool L_10 = String_op_Inequality_m2125462205(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		SkeletonData_t3387199699 * L_11 = ___skeletonData0;
+		String_t* L_12 = ___skinName3;
+		NullCheck(L_11);
+		Skin_t1650992057 * L_13 = SkeletonData_FindSkin_m94438476(L_11, L_12, /*hidden argument*/NULL);
+		V_2 = L_13;
+	}
+
+IL_0030:
+	{
+		Skin_t1650992057 * L_14 = V_2;
+		int32_t L_15 = V_1;
+		RegionAttachment_t2459988211 * L_16 = V_0;
+		NullCheck(L_16);
+		String_t* L_17 = Attachment_get_Name_m4098311822(L_16, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_18 = V_0;
+		NullCheck(L_14);
+		Skin_AddAttachment_m2154207030(L_14, L_15, L_17, L_18, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_19 = V_0;
+		return L_19;
+	}
+}
+// Spine.RegionAttachment Spine.Unity.Modules.SpriteAttachmentExtensions::ToRegionAttachment(UnityEngine.Sprite,System.String)
+extern Il2CppClass* SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t SpriteAttachmentExtensions_ToRegionAttachment_m1494211645_MetadataUsageId;
+extern "C"  RegionAttachment_t2459988211 * SpriteAttachmentExtensions_ToRegionAttachment_m1494211645 (Il2CppObject * __this /* static, unused */, Sprite_t3199167241 * ___sprite0, String_t* ___shaderName1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpriteAttachmentExtensions_ToRegionAttachment_m1494211645_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	SpriteAttachmentLoader_t3928570551 * V_0 = NULL;
+	RegionAttachment_t2459988211 * V_1 = NULL;
+	{
+		Sprite_t3199167241 * L_0 = ___sprite0;
+		String_t* L_1 = ___shaderName1;
+		Shader_t3191267369 * L_2 = Shader_Find_m4048047578(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		SpriteAttachmentLoader_t3928570551 * L_3 = (SpriteAttachmentLoader_t3928570551 *)il2cpp_codegen_object_new(SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var);
+		SpriteAttachmentLoader__ctor_m2461146161(L_3, L_0, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		SpriteAttachmentLoader_t3928570551 * L_4 = V_0;
+		Sprite_t3199167241 * L_5 = ___sprite0;
+		NullCheck(L_5);
+		String_t* L_6 = Object_get_name_m3709440845(L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_7 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		NullCheck(L_4);
+		RegionAttachment_t2459988211 * L_8 = SpriteAttachmentLoader_NewRegionAttachment_m921951743(L_4, (Skin_t1650992057 *)NULL, L_6, L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
+		V_0 = (SpriteAttachmentLoader_t3928570551 *)NULL;
+		RegionAttachment_t2459988211 * L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void Spine.Unity.Modules.SpriteAttachmentLoader::.ctor(UnityEngine.Sprite,UnityEngine.Shader)
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var;
+extern Il2CppClass* Il2CppObject_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Contains_m3022205798_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m352670381_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1231806670;
+extern const uint32_t SpriteAttachmentLoader__ctor_m2461146161_MetadataUsageId;
+extern "C"  void SpriteAttachmentLoader__ctor_m2461146161 (SpriteAttachmentLoader_t3928570551 * __this, Sprite_t3199167241 * ___sprite0, Shader_t3191267369 * ___shader1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpriteAttachmentLoader__ctor_m2461146161_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Texture2D_t3884108195 * V_0 = NULL;
+	int32_t V_1 = 0;
+	ColorU5BU5D_t2441545636* V_2 = NULL;
+	Color_t4194546905  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	int32_t V_5 = 0;
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		Sprite_t3199167241 * L_0 = ___sprite0;
+		NullCheck(L_0);
+		bool L_1 = Sprite_get_packed_m2853429571(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		Sprite_t3199167241 * L_2 = ___sprite0;
+		NullCheck(L_2);
+		int32_t L_3 = Sprite_get_packingMode_m2064215782(L_2, /*hidden argument*/NULL);
+		if (L_3)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, _stringLiteral1231806670, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0027:
+	{
+		Sprite_t3199167241 * L_4 = ___sprite0;
+		__this->set_sprite_2(L_4);
+		Shader_t3191267369 * L_5 = ___shader1;
+		__this->set_shader_3(L_5);
+		Sprite_t3199167241 * L_6 = ___sprite0;
+		NullCheck(L_6);
+		Texture2D_t3884108195 * L_7 = Sprite_get_texture_m1481489947(L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+		Texture2D_t3884108195 * L_8 = V_0;
+		NullCheck(L_8);
+		int32_t L_9 = Object_GetInstanceID_m200424466(L_8, /*hidden argument*/NULL);
+		V_1 = L_9;
+		IL2CPP_RUNTIME_CLASS_INIT(SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var);
+		List_1_t2522024052 * L_10 = ((SpriteAttachmentLoader_t3928570551_StaticFields*)SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var->static_fields)->get_premultipliedAtlasIds_1();
+		int32_t L_11 = V_1;
+		NullCheck(L_10);
+		bool L_12 = List_1_Contains_m3022205798(L_10, L_11, /*hidden argument*/List_1_Contains_m3022205798_MethodInfo_var);
+		if (L_12)
+		{
+			goto IL_00ea;
+		}
+	}
+
+IL_0053:
+	try
+	{ // begin try (depth: 1)
+		{
+			Texture2D_t3884108195 * L_13 = V_0;
+			NullCheck(L_13);
+			ColorU5BU5D_t2441545636* L_14 = Texture2D_GetPixels_m1759701362(L_13, /*hidden argument*/NULL);
+			V_2 = L_14;
+			V_5 = 0;
+			goto IL_00bd;
+		}
+
+IL_0062:
+		{
+			ColorU5BU5D_t2441545636* L_15 = V_2;
+			int32_t L_16 = V_5;
+			NullCheck(L_15);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_15, L_16);
+			V_3 = (*(Color_t4194546905 *)((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16))));
+			float L_17 = (&V_3)->get_a_3();
+			V_4 = L_17;
+			Color_t4194546905 * L_18 = (&V_3);
+			float L_19 = L_18->get_r_0();
+			float L_20 = V_4;
+			L_18->set_r_0(((float)((float)L_19*(float)L_20)));
+			Color_t4194546905 * L_21 = (&V_3);
+			float L_22 = L_21->get_g_1();
+			float L_23 = V_4;
+			L_21->set_g_1(((float)((float)L_22*(float)L_23)));
+			Color_t4194546905 * L_24 = (&V_3);
+			float L_25 = L_24->get_b_2();
+			float L_26 = V_4;
+			L_24->set_b_2(((float)((float)L_25*(float)L_26)));
+			ColorU5BU5D_t2441545636* L_27 = V_2;
+			int32_t L_28 = V_5;
+			NullCheck(L_27);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_27, L_28);
+			Color_t4194546905  L_29 = V_3;
+			(*(Color_t4194546905 *)((L_27)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_28)))) = L_29;
+			int32_t L_30 = V_5;
+			V_5 = ((int32_t)((int32_t)L_30+(int32_t)1));
+		}
+
+IL_00bd:
+		{
+			int32_t L_31 = V_5;
+			ColorU5BU5D_t2441545636* L_32 = V_2;
+			NullCheck(L_32);
+			if ((((int32_t)L_31) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_32)->max_length)))))))
+			{
+				goto IL_0062;
+			}
+		}
+
+IL_00c7:
+		{
+			Texture2D_t3884108195 * L_33 = V_0;
+			ColorU5BU5D_t2441545636* L_34 = V_2;
+			NullCheck(L_33);
+			Texture2D_SetPixels_m1289331147(L_33, L_34, /*hidden argument*/NULL);
+			Texture2D_t3884108195 * L_35 = V_0;
+			NullCheck(L_35);
+			Texture2D_Apply_m1364130776(L_35, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var);
+			List_1_t2522024052 * L_36 = ((SpriteAttachmentLoader_t3928570551_StaticFields*)SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var->static_fields)->get_premultipliedAtlasIds_1();
+			int32_t L_37 = V_1;
+			NullCheck(L_36);
+			List_1_Add_m352670381(L_36, L_37, /*hidden argument*/List_1_Add_m352670381_MethodInfo_var);
+			goto IL_00ea;
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t3991598821 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Il2CppObject_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_00e4;
+		throw e;
+	}
+
+CATCH_00e4:
+	{ // begin catch(System.Object)
+		goto IL_00ea;
+	} // end catch (depth: 1)
+
+IL_00ea:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.Modules.SpriteAttachmentLoader::.cctor()
+extern Il2CppClass* Dictionary_2_t1134293740_il2cpp_TypeInfo_var;
+extern Il2CppClass* SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t2522024052_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m26851721_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m1634217978_MethodInfo_var;
+extern const uint32_t SpriteAttachmentLoader__cctor_m2283331064_MetadataUsageId;
+extern "C"  void SpriteAttachmentLoader__cctor_m2283331064 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpriteAttachmentLoader__cctor_m2283331064_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Dictionary_2_t1134293740 * L_0 = (Dictionary_2_t1134293740 *)il2cpp_codegen_object_new(Dictionary_2_t1134293740_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m26851721(L_0, /*hidden argument*/Dictionary_2__ctor_m26851721_MethodInfo_var);
+		((SpriteAttachmentLoader_t3928570551_StaticFields*)SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var->static_fields)->set_atlasTable_0(L_0);
+		List_1_t2522024052 * L_1 = (List_1_t2522024052 *)il2cpp_codegen_object_new(List_1_t2522024052_il2cpp_TypeInfo_var);
+		List_1__ctor_m1634217978(L_1, /*hidden argument*/List_1__ctor_m1634217978_MethodInfo_var);
+		((SpriteAttachmentLoader_t3928570551_StaticFields*)SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var->static_fields)->set_premultipliedAtlasIds_1(L_1);
+		return;
+	}
+}
+// Spine.RegionAttachment Spine.Unity.Modules.SpriteAttachmentLoader::NewRegionAttachment(Spine.Skin,System.String,System.String)
+extern Il2CppClass* RegionAttachment_t2459988211_il2cpp_TypeInfo_var;
+extern Il2CppClass* SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var;
+extern Il2CppClass* Material_t3870600107_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* AtlasRegion_t1137030501_il2cpp_TypeInfo_var;
+extern Il2CppClass* AtlasPage_t3096131840_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t4203372500_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_ContainsKey_m1948344012_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m1705004795_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m3444452858_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral85639621;
+extern Il2CppCodeGenString* _stringLiteral4201867266;
+extern const uint32_t SpriteAttachmentLoader_NewRegionAttachment_m921951743_MetadataUsageId;
+extern "C"  RegionAttachment_t2459988211 * SpriteAttachmentLoader_NewRegionAttachment_m921951743 (SpriteAttachmentLoader_t3928570551 * __this, Skin_t1650992057 * ___skin0, String_t* ___name1, String_t* ___path2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpriteAttachmentLoader_NewRegionAttachment_m921951743_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	RegionAttachment_t2459988211 * V_0 = NULL;
+	Texture2D_t3884108195 * V_1 = NULL;
+	int32_t V_2 = 0;
+	AtlasRegion_t1137030501 * V_3 = NULL;
+	Material_t3870600107 * V_4 = NULL;
+	AtlasPage_t3096131840 * V_5 = NULL;
+	Rect_t4241904616  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Bounds_t2711641849  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	Vector3_t4282066566  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	bool V_9 = false;
+	Rect_t4241904616  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	Vector3_t4282066566  V_11;
+	memset(&V_11, 0, sizeof(V_11));
+	Vector3_t4282066566  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	Rect_t4241904616  V_13;
+	memset(&V_13, 0, sizeof(V_13));
+	Vector3_t4282066566  V_14;
+	memset(&V_14, 0, sizeof(V_14));
+	Vector3_t4282066566  V_15;
+	memset(&V_15, 0, sizeof(V_15));
+	{
+		String_t* L_0 = ___name1;
+		RegionAttachment_t2459988211 * L_1 = (RegionAttachment_t2459988211 *)il2cpp_codegen_object_new(RegionAttachment_t2459988211_il2cpp_TypeInfo_var);
+		RegionAttachment__ctor_m1794484841(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Sprite_t3199167241 * L_2 = __this->get_sprite_2();
+		NullCheck(L_2);
+		Texture2D_t3884108195 * L_3 = Sprite_get_texture_m1481489947(L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		Texture2D_t3884108195 * L_4 = V_1;
+		NullCheck(L_4);
+		int32_t L_5 = Object_GetInstanceID_m200424466(L_4, /*hidden argument*/NULL);
+		V_2 = L_5;
+		IL2CPP_RUNTIME_CLASS_INIT(SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var);
+		Dictionary_2_t1134293740 * L_6 = ((SpriteAttachmentLoader_t3928570551_StaticFields*)SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var->static_fields)->get_atlasTable_0();
+		int32_t L_7 = V_2;
+		NullCheck(L_6);
+		bool L_8 = Dictionary_2_ContainsKey_m1948344012(L_6, L_7, /*hidden argument*/Dictionary_2_ContainsKey_m1948344012_MethodInfo_var);
+		if (!L_8)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var);
+		Dictionary_2_t1134293740 * L_9 = ((SpriteAttachmentLoader_t3928570551_StaticFields*)SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var->static_fields)->get_atlasTable_0();
+		int32_t L_10 = V_2;
+		NullCheck(L_9);
+		AtlasRegion_t1137030501 * L_11 = Dictionary_2_get_Item_m1705004795(L_9, L_10, /*hidden argument*/Dictionary_2_get_Item_m1705004795_MethodInfo_var);
+		V_3 = L_11;
+		goto IL_00b7;
+	}
+
+IL_003b:
+	{
+		Shader_t3191267369 * L_12 = __this->get_shader_3();
+		Material_t3870600107 * L_13 = (Material_t3870600107 *)il2cpp_codegen_object_new(Material_t3870600107_il2cpp_TypeInfo_var);
+		Material__ctor_m2685909642(L_13, L_12, /*hidden argument*/NULL);
+		V_4 = L_13;
+		Sprite_t3199167241 * L_14 = __this->get_sprite_2();
+		NullCheck(L_14);
+		bool L_15 = Sprite_get_packed_m2853429571(L_14, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		Material_t3870600107 * L_16 = V_4;
+		NullCheck(L_16);
+		Object_set_name_m1123518500(L_16, _stringLiteral85639621, /*hidden argument*/NULL);
+		goto IL_0085;
+	}
+
+IL_0069:
+	{
+		Material_t3870600107 * L_17 = V_4;
+		Sprite_t3199167241 * L_18 = __this->get_sprite_2();
+		NullCheck(L_18);
+		String_t* L_19 = Object_get_name_m3709440845(L_18, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_20 = String_Concat_m138640077(NULL /*static, unused*/, L_19, _stringLiteral4201867266, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Object_set_name_m1123518500(L_17, L_20, /*hidden argument*/NULL);
+	}
+
+IL_0085:
+	{
+		Material_t3870600107 * L_21 = V_4;
+		Texture2D_t3884108195 * L_22 = V_1;
+		NullCheck(L_21);
+		Material_set_mainTexture_m3116438437(L_21, L_22, /*hidden argument*/NULL);
+		AtlasRegion_t1137030501 * L_23 = (AtlasRegion_t1137030501 *)il2cpp_codegen_object_new(AtlasRegion_t1137030501_il2cpp_TypeInfo_var);
+		AtlasRegion__ctor_m4167929303(L_23, /*hidden argument*/NULL);
+		V_3 = L_23;
+		AtlasPage_t3096131840 * L_24 = (AtlasPage_t3096131840 *)il2cpp_codegen_object_new(AtlasPage_t3096131840_il2cpp_TypeInfo_var);
+		AtlasPage__ctor_m3371631260(L_24, /*hidden argument*/NULL);
+		V_5 = L_24;
+		AtlasPage_t3096131840 * L_25 = V_5;
+		Material_t3870600107 * L_26 = V_4;
+		NullCheck(L_25);
+		L_25->set_rendererObject_6(L_26);
+		AtlasRegion_t1137030501 * L_27 = V_3;
+		AtlasPage_t3096131840 * L_28 = V_5;
+		NullCheck(L_27);
+		L_27->set_page_0(L_28);
+		IL2CPP_RUNTIME_CLASS_INIT(SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var);
+		Dictionary_2_t1134293740 * L_29 = ((SpriteAttachmentLoader_t3928570551_StaticFields*)SpriteAttachmentLoader_t3928570551_il2cpp_TypeInfo_var->static_fields)->get_atlasTable_0();
+		int32_t L_30 = V_2;
+		AtlasRegion_t1137030501 * L_31 = V_3;
+		NullCheck(L_29);
+		Dictionary_2_set_Item_m3444452858(L_29, L_30, L_31, /*hidden argument*/Dictionary_2_set_Item_m3444452858_MethodInfo_var);
+	}
+
+IL_00b7:
+	{
+		Sprite_t3199167241 * L_32 = __this->get_sprite_2();
+		NullCheck(L_32);
+		Rect_t4241904616  L_33 = Sprite_get_textureRect_m3946160520(L_32, /*hidden argument*/NULL);
+		V_6 = L_33;
+		Texture2D_t3884108195 * L_34 = V_1;
+		NullCheck(L_34);
+		int32_t L_35 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_34);
+		float L_36 = Rect_get_x_m982385354((&V_6), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_37 = Mathf_InverseLerp_m152689993(NULL /*static, unused*/, (0.0f), (((float)((float)L_35))), L_36, /*hidden argument*/NULL);
+		Rect_set_x_m577970569((&V_6), L_37, /*hidden argument*/NULL);
+		Texture2D_t3884108195 * L_38 = V_1;
+		NullCheck(L_38);
+		int32_t L_39 = VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_height() */, L_38);
+		float L_40 = Rect_get_y_m982386315((&V_6), /*hidden argument*/NULL);
+		float L_41 = Mathf_InverseLerp_m152689993(NULL /*static, unused*/, (0.0f), (((float)((float)L_39))), L_40, /*hidden argument*/NULL);
+		Rect_set_y_m67436392((&V_6), L_41, /*hidden argument*/NULL);
+		Texture2D_t3884108195 * L_42 = V_1;
+		NullCheck(L_42);
+		int32_t L_43 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_42);
+		float L_44 = Rect_get_width_m2824209432((&V_6), /*hidden argument*/NULL);
+		float L_45 = Mathf_InverseLerp_m152689993(NULL /*static, unused*/, (0.0f), (((float)((float)L_43))), L_44, /*hidden argument*/NULL);
+		Rect_set_width_m3771513595((&V_6), L_45, /*hidden argument*/NULL);
+		Texture2D_t3884108195 * L_46 = V_1;
+		NullCheck(L_46);
+		int32_t L_47 = VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_height() */, L_46);
+		float L_48 = Rect_get_height_m2154960823((&V_6), /*hidden argument*/NULL);
+		float L_49 = Mathf_InverseLerp_m152689993(NULL /*static, unused*/, (0.0f), (((float)((float)L_47))), L_48, /*hidden argument*/NULL);
+		Rect_set_height_m3398820332((&V_6), L_49, /*hidden argument*/NULL);
+		Sprite_t3199167241 * L_50 = __this->get_sprite_2();
+		NullCheck(L_50);
+		Bounds_t2711641849  L_51 = Sprite_get_bounds_m2293110365(L_50, /*hidden argument*/NULL);
+		V_7 = L_51;
+		Vector3_t4282066566  L_52 = Bounds_get_size_m3666348432((&V_7), /*hidden argument*/NULL);
+		V_8 = L_52;
+		V_9 = (bool)0;
+		Sprite_t3199167241 * L_53 = __this->get_sprite_2();
+		NullCheck(L_53);
+		bool L_54 = Sprite_get_packed_m2853429571(L_53, /*hidden argument*/NULL);
+		if (!L_54)
+		{
+			goto IL_017a;
+		}
+	}
+	{
+		Sprite_t3199167241 * L_55 = __this->get_sprite_2();
+		NullCheck(L_55);
+		int32_t L_56 = Sprite_get_packingRotation_m22845340(L_55, /*hidden argument*/NULL);
+		V_9 = (bool)((((int32_t)L_56) == ((int32_t)((int32_t)15)))? 1 : 0);
+	}
+
+IL_017a:
+	{
+		RegionAttachment_t2459988211 * L_57 = V_0;
+		float L_58 = Rect_get_xMin_m371109962((&V_6), /*hidden argument*/NULL);
+		float L_59 = Rect_get_yMax_m399510395((&V_6), /*hidden argument*/NULL);
+		float L_60 = Rect_get_xMax_m370881244((&V_6), /*hidden argument*/NULL);
+		float L_61 = Rect_get_yMin_m399739113((&V_6), /*hidden argument*/NULL);
+		bool L_62 = V_9;
+		NullCheck(L_57);
+		RegionAttachment_SetUVs_m3704935006(L_57, L_58, L_59, L_60, L_61, L_62, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_63 = V_0;
+		AtlasRegion_t1137030501 * L_64 = V_3;
+		NullCheck(L_63);
+		RegionAttachment_set_RendererObject_m2356458186(L_63, L_64, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_65 = V_0;
+		Color_t4194546905  L_66 = Color_get_white_m3038282331(NULL /*static, unused*/, /*hidden argument*/NULL);
+		SkeletonExtensions_SetColor_m2414534605(NULL /*static, unused*/, L_65, L_66, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_67 = V_0;
+		NullCheck(L_67);
+		RegionAttachment_set_ScaleX_m3952830453(L_67, (1.0f), /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_68 = V_0;
+		NullCheck(L_68);
+		RegionAttachment_set_ScaleY_m3442296276(L_68, (1.0f), /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_69 = V_0;
+		Sprite_t3199167241 * L_70 = __this->get_sprite_2();
+		NullCheck(L_70);
+		Rect_t4241904616  L_71 = Sprite_get_rect_m132626493(L_70, /*hidden argument*/NULL);
+		V_10 = L_71;
+		float L_72 = Rect_get_width_m2824209432((&V_10), /*hidden argument*/NULL);
+		Vector3_t4282066566  L_73 = Bounds_get_min_m2329472069((&V_7), /*hidden argument*/NULL);
+		V_11 = L_73;
+		float L_74 = (&V_11)->get_x_1();
+		Vector3_t4282066566  L_75 = Bounds_get_max_m2329243351((&V_7), /*hidden argument*/NULL);
+		V_12 = L_75;
+		float L_76 = (&V_12)->get_x_1();
+		float L_77 = SpriteAttachmentLoader_InverseLerp_m4171754567(__this, L_74, L_76, (0.0f), /*hidden argument*/NULL);
+		Sprite_t3199167241 * L_78 = __this->get_sprite_2();
+		NullCheck(L_78);
+		float L_79 = Sprite_get_pixelsPerUnit_m2438708453(L_78, /*hidden argument*/NULL);
+		NullCheck(L_69);
+		RegionAttachment_set_RegionOffsetX_m1813902272(L_69, ((float)((float)((float)((float)L_72*(float)((float)((float)(0.5f)-(float)L_77))))/(float)L_79)), /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_80 = V_0;
+		Sprite_t3199167241 * L_81 = __this->get_sprite_2();
+		NullCheck(L_81);
+		Rect_t4241904616  L_82 = Sprite_get_rect_m132626493(L_81, /*hidden argument*/NULL);
+		V_13 = L_82;
+		float L_83 = Rect_get_height_m2154960823((&V_13), /*hidden argument*/NULL);
+		Vector3_t4282066566  L_84 = Bounds_get_min_m2329472069((&V_7), /*hidden argument*/NULL);
+		V_14 = L_84;
+		float L_85 = (&V_14)->get_y_2();
+		Vector3_t4282066566  L_86 = Bounds_get_max_m2329243351((&V_7), /*hidden argument*/NULL);
+		V_15 = L_86;
+		float L_87 = (&V_15)->get_y_2();
+		float L_88 = SpriteAttachmentLoader_InverseLerp_m4171754567(__this, L_85, L_87, (0.0f), /*hidden argument*/NULL);
+		Sprite_t3199167241 * L_89 = __this->get_sprite_2();
+		NullCheck(L_89);
+		float L_90 = Sprite_get_pixelsPerUnit_m2438708453(L_89, /*hidden argument*/NULL);
+		NullCheck(L_80);
+		RegionAttachment_set_RegionOffsetY_m1303368095(L_80, ((float)((float)((float)((float)L_83*(float)((float)((float)(0.5f)-(float)L_88))))/(float)L_90)), /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_91 = V_0;
+		float L_92 = (&V_8)->get_x_1();
+		NullCheck(L_91);
+		RegionAttachment_set_Width_m3300741355(L_91, L_92, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_93 = V_0;
+		float L_94 = (&V_8)->get_y_2();
+		NullCheck(L_93);
+		RegionAttachment_set_Height_m1689782780(L_93, L_94, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_95 = V_0;
+		float L_96 = (&V_8)->get_x_1();
+		NullCheck(L_95);
+		RegionAttachment_set_RegionWidth_m309260479(L_95, L_96, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_97 = V_0;
+		float L_98 = (&V_8)->get_y_2();
+		NullCheck(L_97);
+		RegionAttachment_set_RegionHeight_m3443156136(L_97, L_98, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_99 = V_0;
+		float L_100 = (&V_8)->get_x_1();
+		NullCheck(L_99);
+		RegionAttachment_set_RegionOriginalWidth_m1724215600(L_99, L_100, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_101 = V_0;
+		float L_102 = (&V_8)->get_y_2();
+		NullCheck(L_101);
+		RegionAttachment_set_RegionOriginalHeight_m62124631(L_101, L_102, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_103 = V_0;
+		NullCheck(L_103);
+		RegionAttachment_UpdateOffset_m1076850343(L_103, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_104 = V_0;
+		return L_104;
+	}
+}
+// Spine.MeshAttachment Spine.Unity.Modules.SpriteAttachmentLoader::NewMeshAttachment(Spine.Skin,System.String,System.String)
+extern "C"  MeshAttachment_t3373030252 * SpriteAttachmentLoader_NewMeshAttachment_m777959665 (SpriteAttachmentLoader_t3928570551 * __this, Skin_t1650992057 * ___skin0, String_t* ___name1, String_t* ___path2, const MethodInfo* method)
+{
+	{
+		return (MeshAttachment_t3373030252 *)NULL;
+	}
+}
+// Spine.BoundingBoxAttachment Spine.Unity.Modules.SpriteAttachmentLoader::NewBoundingBoxAttachment(Spine.Skin,System.String)
+extern "C"  BoundingBoxAttachment_t3933059536 * SpriteAttachmentLoader_NewBoundingBoxAttachment_m846453793 (SpriteAttachmentLoader_t3928570551 * __this, Skin_t1650992057 * ___skin0, String_t* ___name1, const MethodInfo* method)
+{
+	{
+		return (BoundingBoxAttachment_t3933059536 *)NULL;
+	}
+}
+// Spine.PathAttachment Spine.Unity.Modules.SpriteAttachmentLoader::NewPathAttachment(Spine.Skin,System.String)
+extern "C"  PathAttachment_t3159049124 * SpriteAttachmentLoader_NewPathAttachment_m585520101 (SpriteAttachmentLoader_t3928570551 * __this, Skin_t1650992057 * ___skin0, String_t* ___name1, const MethodInfo* method)
+{
+	{
+		return (PathAttachment_t3159049124 *)NULL;
+	}
+}
+// System.Single Spine.Unity.Modules.SpriteAttachmentLoader::InverseLerp(System.Single,System.Single,System.Single)
+extern "C"  float SpriteAttachmentLoader_InverseLerp_m4171754567 (SpriteAttachmentLoader_t3928570551 * __this, float ___a0, float ___b1, float ___value2, const MethodInfo* method)
+{
+	{
+		float L_0 = ___value2;
+		float L_1 = ___a0;
+		float L_2 = ___b1;
+		float L_3 = ___a0;
+		return ((float)((float)((float)((float)L_0-(float)L_1))/(float)((float)((float)L_2-(float)L_3))));
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::.ctor()
+extern "C"  void SkeletonAnimation__ctor_m3269823544 (SkeletonAnimation_t3721178561 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_timeScale_37((1.0f));
+		SkeletonRenderer__ctor_m428100935(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::add_UpdateLocal(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimation_add_UpdateLocal_m1029704465_MetadataUsageId;
+extern "C"  void SkeletonAnimation_add_UpdateLocal_m1029704465 (SkeletonAnimation_t3721178561 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_add_UpdateLocal_m1029704465_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateLocal_38();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateLocal_38(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::remove_UpdateLocal(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimation_remove_UpdateLocal_m1419199960_MetadataUsageId;
+extern "C"  void SkeletonAnimation_remove_UpdateLocal_m1419199960 (SkeletonAnimation_t3721178561 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_remove_UpdateLocal_m1419199960_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateLocal_38();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateLocal_38(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::add_UpdateWorld(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimation_add_UpdateWorld_m3186831306_MetadataUsageId;
+extern "C"  void SkeletonAnimation_add_UpdateWorld_m3186831306 (SkeletonAnimation_t3721178561 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_add_UpdateWorld_m3186831306_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateWorld_39();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateWorld_39(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::remove_UpdateWorld(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimation_remove_UpdateWorld_m3576326801_MetadataUsageId;
+extern "C"  void SkeletonAnimation_remove_UpdateWorld_m3576326801 (SkeletonAnimation_t3721178561 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_remove_UpdateWorld_m3576326801_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateWorld_39();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateWorld_39(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::add_UpdateComplete(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimation_add_UpdateComplete_m1396820255_MetadataUsageId;
+extern "C"  void SkeletonAnimation_add_UpdateComplete_m1396820255 (SkeletonAnimation_t3721178561 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_add_UpdateComplete_m1396820255_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateComplete_40();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateComplete_40(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::remove_UpdateComplete(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimation_remove_UpdateComplete_m4150445304_MetadataUsageId;
+extern "C"  void SkeletonAnimation_remove_UpdateComplete_m4150445304 (SkeletonAnimation_t3721178561 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_remove_UpdateComplete_m4150445304_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateComplete_40();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateComplete_40(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::add__UpdateLocal(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimation_add__UpdateLocal_m723322366_MetadataUsageId;
+extern "C"  void SkeletonAnimation_add__UpdateLocal_m723322366 (SkeletonAnimation_t3721178561 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_add__UpdateLocal_m723322366_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateLocal_38();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateLocal_38(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::remove__UpdateLocal(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimation_remove__UpdateLocal_m4207748119_MetadataUsageId;
+extern "C"  void SkeletonAnimation_remove__UpdateLocal_m4207748119 (SkeletonAnimation_t3721178561 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_remove__UpdateLocal_m4207748119_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateLocal_38();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateLocal_38(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::add__UpdateWorld(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimation_add__UpdateWorld_m2880449207_MetadataUsageId;
+extern "C"  void SkeletonAnimation_add__UpdateWorld_m2880449207 (SkeletonAnimation_t3721178561 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_add__UpdateWorld_m2880449207_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateWorld_39();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateWorld_39(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::remove__UpdateWorld(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimation_remove__UpdateWorld_m2069907664_MetadataUsageId;
+extern "C"  void SkeletonAnimation_remove__UpdateWorld_m2069907664 (SkeletonAnimation_t3721178561 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_remove__UpdateWorld_m2069907664_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateWorld_39();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateWorld_39(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::add__UpdateComplete(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimation_add__UpdateComplete_m773212946_MetadataUsageId;
+extern "C"  void SkeletonAnimation_add__UpdateComplete_m773212946 (SkeletonAnimation_t3721178561 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_add__UpdateComplete_m773212946_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateComplete_40();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateComplete_40(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::remove__UpdateComplete(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimation_remove__UpdateComplete_m236243545_MetadataUsageId;
+extern "C"  void SkeletonAnimation_remove__UpdateComplete_m236243545 (SkeletonAnimation_t3721178561 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_remove__UpdateComplete_m236243545_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateComplete_40();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateComplete_40(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// Spine.AnimationState Spine.Unity.SkeletonAnimation::get_AnimationState()
+extern "C"  AnimationState_t964829161 * SkeletonAnimation_get_AnimationState_m1306921213 (SkeletonAnimation_t3721178561 * __this, const MethodInfo* method)
+{
+	{
+		AnimationState_t964829161 * L_0 = __this->get_state_34();
+		return L_0;
+	}
+}
+// System.String Spine.Unity.SkeletonAnimation::get_AnimationName()
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1279681376;
+extern const uint32_t SkeletonAnimation_get_AnimationName_m1477060287_MetadataUsageId;
+extern "C"  String_t* SkeletonAnimation_get_AnimationName_m1477060287 (SkeletonAnimation_t3721178561 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_get_AnimationName_m1477060287_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	TrackEntry_t1654022115 * V_0 = NULL;
+	String_t* G_B5_0 = NULL;
+	{
+		bool L_0 = ((SkeletonRenderer_t3766155010 *)__this)->get_valid_19();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m3123317694(NULL /*static, unused*/, _stringLiteral1279681376, /*hidden argument*/NULL);
+		return (String_t*)NULL;
+	}
+
+IL_0017:
+	{
+		AnimationState_t964829161 * L_1 = __this->get_state_34();
+		NullCheck(L_1);
+		TrackEntry_t1654022115 * L_2 = AnimationState_GetCurrent_m1811721696(L_1, 0, /*hidden argument*/NULL);
+		V_0 = L_2;
+		TrackEntry_t1654022115 * L_3 = V_0;
+		if (L_3)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		G_B5_0 = ((String_t*)(NULL));
+		goto IL_003b;
+	}
+
+IL_0030:
+	{
+		TrackEntry_t1654022115 * L_4 = V_0;
+		NullCheck(L_4);
+		Animation_t3189667530 * L_5 = TrackEntry_get_Animation_m3572371976(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		String_t* L_6 = Animation_get_Name_m1328158531(L_5, /*hidden argument*/NULL);
+		G_B5_0 = L_6;
+	}
+
+IL_003b:
+	{
+		return G_B5_0;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::set_AnimationName(System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3302922237;
+extern const uint32_t SkeletonAnimation_set_AnimationName_m2242058138_MetadataUsageId;
+extern "C"  void SkeletonAnimation_set_AnimationName_m2242058138 (SkeletonAnimation_t3721178561 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_set_AnimationName_m2242058138_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = __this->get__animationName_35();
+		String_t* L_1 = ___value0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_2 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		String_t* L_3 = ___value0;
+		__this->set__animationName_35(L_3);
+		bool L_4 = ((SkeletonRenderer_t3766155010 *)__this)->get_valid_19();
+		if (L_4)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m3123317694(NULL /*static, unused*/, _stringLiteral3302922237, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_002f:
+	{
+		String_t* L_5 = ___value0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_6 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		AnimationState_t964829161 * L_7 = __this->get_state_34();
+		NullCheck(L_7);
+		AnimationState_ClearTrack_m4031479344(L_7, 0, /*hidden argument*/NULL);
+		goto IL_005f;
+	}
+
+IL_004b:
+	{
+		AnimationState_t964829161 * L_8 = __this->get_state_34();
+		String_t* L_9 = ___value0;
+		bool L_10 = __this->get_loop_36();
+		NullCheck(L_8);
+		AnimationState_SetAnimation_m3671010114(L_8, 0, L_9, L_10, /*hidden argument*/NULL);
+	}
+
+IL_005f:
+	{
+		return;
+	}
+}
+// Spine.Unity.SkeletonAnimation Spine.Unity.SkeletonAnimation::AddToGameObject(UnityEngine.GameObject,Spine.Unity.SkeletonDataAsset)
+extern const MethodInfo* SkeletonRenderer_AddSpineComponent_TisSkeletonAnimation_t3721178561_m2094994491_MethodInfo_var;
+extern const uint32_t SkeletonAnimation_AddToGameObject_m639048050_MetadataUsageId;
+extern "C"  SkeletonAnimation_t3721178561 * SkeletonAnimation_AddToGameObject_m639048050 (Il2CppObject * __this /* static, unused */, GameObject_t3674682005 * ___gameObject0, SkeletonDataAsset_t2211567523 * ___skeletonDataAsset1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_AddToGameObject_m639048050_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		GameObject_t3674682005 * L_0 = ___gameObject0;
+		SkeletonDataAsset_t2211567523 * L_1 = ___skeletonDataAsset1;
+		SkeletonAnimation_t3721178561 * L_2 = SkeletonRenderer_AddSpineComponent_TisSkeletonAnimation_t3721178561_m2094994491(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/SkeletonRenderer_AddSpineComponent_TisSkeletonAnimation_t3721178561_m2094994491_MethodInfo_var);
+		return L_2;
+	}
+}
+// Spine.Unity.SkeletonAnimation Spine.Unity.SkeletonAnimation::NewSkeletonAnimationGameObject(Spine.Unity.SkeletonDataAsset)
+extern const MethodInfo* SkeletonRenderer_NewSpineGameObject_TisSkeletonAnimation_t3721178561_m2597672072_MethodInfo_var;
+extern const uint32_t SkeletonAnimation_NewSkeletonAnimationGameObject_m37529481_MetadataUsageId;
+extern "C"  SkeletonAnimation_t3721178561 * SkeletonAnimation_NewSkeletonAnimationGameObject_m37529481 (Il2CppObject * __this /* static, unused */, SkeletonDataAsset_t2211567523 * ___skeletonDataAsset0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_NewSkeletonAnimationGameObject_m37529481_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SkeletonDataAsset_t2211567523 * L_0 = ___skeletonDataAsset0;
+		SkeletonAnimation_t3721178561 * L_1 = SkeletonRenderer_NewSpineGameObject_TisSkeletonAnimation_t3721178561_m2597672072(NULL /*static, unused*/, L_0, /*hidden argument*/SkeletonRenderer_NewSpineGameObject_TisSkeletonAnimation_t3721178561_m2597672072_MethodInfo_var);
+		return L_1;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::Initialize(System.Boolean)
+extern Il2CppClass* AnimationState_t964829161_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimation_Initialize_m2684080595_MetadataUsageId;
+extern "C"  void SkeletonAnimation_Initialize_m2684080595 (SkeletonAnimation_t3721178561 * __this, bool ___overwrite0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimation_Initialize_m2684080595_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		bool L_0 = ((SkeletonRenderer_t3766155010 *)__this)->get_valid_19();
+		if (!L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		bool L_1 = ___overwrite0;
+		if (L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		bool L_2 = ___overwrite0;
+		SkeletonRenderer_Initialize_m1840709732(__this, L_2, /*hidden argument*/NULL);
+		bool L_3 = ((SkeletonRenderer_t3766155010 *)__this)->get_valid_19();
+		if (L_3)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0025:
+	{
+		SkeletonDataAsset_t2211567523 * L_4 = ((SkeletonRenderer_t3766155010 *)__this)->get_skeletonDataAsset_3();
+		NullCheck(L_4);
+		AnimationStateData_t250640307 * L_5 = SkeletonDataAsset_GetAnimationStateData_m86724476(L_4, /*hidden argument*/NULL);
+		AnimationState_t964829161 * L_6 = (AnimationState_t964829161 *)il2cpp_codegen_object_new(AnimationState_t964829161_il2cpp_TypeInfo_var);
+		AnimationState__ctor_m1915063009(L_6, L_5, /*hidden argument*/NULL);
+		__this->set_state_34(L_6);
+		String_t* L_7 = __this->get__animationName_35();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_8 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		AnimationState_t964829161 * L_9 = __this->get_state_34();
+		String_t* L_10 = __this->get__animationName_35();
+		bool L_11 = __this->get_loop_36();
+		NullCheck(L_9);
+		AnimationState_SetAnimation_m3671010114(L_9, 0, L_10, L_11, /*hidden argument*/NULL);
+		VirtActionInvoker1< float >::Invoke(19 /* System.Void Spine.Unity.SkeletonAnimation::Update(System.Single) */, __this, (0.0f));
+	}
+
+IL_006f:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::Update()
+extern "C"  void SkeletonAnimation_Update_m12176853 (SkeletonAnimation_t3721178561 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		VirtActionInvoker1< float >::Invoke(19 /* System.Void Spine.Unity.SkeletonAnimation::Update(System.Single) */, __this, L_0);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimation::Update(System.Single)
+extern "C"  void SkeletonAnimation_Update_m4282848758 (SkeletonAnimation_t3721178561 * __this, float ___deltaTime0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ((SkeletonRenderer_t3766155010 *)__this)->get_valid_19();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		float L_1 = ___deltaTime0;
+		float L_2 = __this->get_timeScale_37();
+		___deltaTime0 = ((float)((float)L_1*(float)L_2));
+		Skeleton_t2209335561 * L_3 = ((SkeletonRenderer_t3766155010 *)__this)->get_skeleton_20();
+		float L_4 = ___deltaTime0;
+		NullCheck(L_3);
+		Skeleton_Update_m3065263201(L_3, L_4, /*hidden argument*/NULL);
+		AnimationState_t964829161 * L_5 = __this->get_state_34();
+		float L_6 = ___deltaTime0;
+		NullCheck(L_5);
+		AnimationState_Update_m3128962945(L_5, L_6, /*hidden argument*/NULL);
+		AnimationState_t964829161 * L_7 = __this->get_state_34();
+		Skeleton_t2209335561 * L_8 = ((SkeletonRenderer_t3766155010 *)__this)->get_skeleton_20();
+		NullCheck(L_7);
+		AnimationState_Apply_m2165066967(L_7, L_8, /*hidden argument*/NULL);
+		UpdateBonesDelegate_t4020151189 * L_9 = __this->get__UpdateLocal_38();
+		if (!L_9)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_10 = __this->get__UpdateLocal_38();
+		NullCheck(L_10);
+		UpdateBonesDelegate_Invoke_m4280713126(L_10, __this, /*hidden argument*/NULL);
+	}
+
+IL_0056:
+	{
+		Skeleton_t2209335561 * L_11 = ((SkeletonRenderer_t3766155010 *)__this)->get_skeleton_20();
+		NullCheck(L_11);
+		Skeleton_UpdateWorldTransform_m2487614308(L_11, /*hidden argument*/NULL);
+		UpdateBonesDelegate_t4020151189 * L_12 = __this->get__UpdateWorld_39();
+		if (!L_12)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_13 = __this->get__UpdateWorld_39();
+		NullCheck(L_13);
+		UpdateBonesDelegate_Invoke_m4280713126(L_13, __this, /*hidden argument*/NULL);
+		Skeleton_t2209335561 * L_14 = ((SkeletonRenderer_t3766155010 *)__this)->get_skeleton_20();
+		NullCheck(L_14);
+		Skeleton_UpdateWorldTransform_m2487614308(L_14, /*hidden argument*/NULL);
+	}
+
+IL_0083:
+	{
+		UpdateBonesDelegate_t4020151189 * L_15 = __this->get__UpdateComplete_40();
+		if (!L_15)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_16 = __this->get__UpdateComplete_40();
+		NullCheck(L_16);
+		UpdateBonesDelegate_Invoke_m4280713126(L_16, __this, /*hidden argument*/NULL);
+	}
+
+IL_009a:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimator::.ctor()
+extern Il2CppClass* MixModeU5BU5D_t213042809_il2cpp_TypeInfo_var;
+extern Il2CppClass* Dictionary_2_t3186930769_il2cpp_TypeInfo_var;
+extern Il2CppClass* Dictionary_2_t2106381709_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3005521070_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3781799504_MethodInfo_var;
+extern const uint32_t SkeletonAnimator__ctor_m36080547_MetadataUsageId;
+extern "C"  void SkeletonAnimator__ctor_m36080547 (SkeletonAnimator_t3465797926 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator__ctor_m36080547_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		__this->set_layerMixModes_34(((MixModeU5BU5D_t213042809*)SZArrayNew(MixModeU5BU5D_t213042809_il2cpp_TypeInfo_var, (uint32_t)0)));
+		Dictionary_2_t3186930769 * L_0 = (Dictionary_2_t3186930769 *)il2cpp_codegen_object_new(Dictionary_2_t3186930769_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m3005521070(L_0, /*hidden argument*/Dictionary_2__ctor_m3005521070_MethodInfo_var);
+		__this->set_animationTable_35(L_0);
+		Dictionary_2_t2106381709 * L_1 = (Dictionary_2_t2106381709 *)il2cpp_codegen_object_new(Dictionary_2_t2106381709_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m3781799504(L_1, /*hidden argument*/Dictionary_2__ctor_m3781799504_MethodInfo_var);
+		__this->set_clipNameHashCodeTable_36(L_1);
+		SkeletonRenderer__ctor_m428100935(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimator::add_UpdateLocal(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimator_add_UpdateLocal_m223813638_MetadataUsageId;
+extern "C"  void SkeletonAnimator_add_UpdateLocal_m223813638 (SkeletonAnimator_t3465797926 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator_add_UpdateLocal_m223813638_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateLocal_40();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateLocal_40(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimator::remove_UpdateLocal(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimator_remove_UpdateLocal_m1992757443_MetadataUsageId;
+extern "C"  void SkeletonAnimator_remove_UpdateLocal_m1992757443 (SkeletonAnimator_t3465797926 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator_remove_UpdateLocal_m1992757443_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateLocal_40();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateLocal_40(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimator::add_UpdateWorld(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimator_add_UpdateWorld_m2380940479_MetadataUsageId;
+extern "C"  void SkeletonAnimator_add_UpdateWorld_m2380940479 (SkeletonAnimator_t3465797926 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator_add_UpdateWorld_m2380940479_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateWorld_41();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateWorld_41(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimator::remove_UpdateWorld(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimator_remove_UpdateWorld_m4149884284_MetadataUsageId;
+extern "C"  void SkeletonAnimator_remove_UpdateWorld_m4149884284 (SkeletonAnimator_t3465797926 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator_remove_UpdateWorld_m4149884284_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateWorld_41();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateWorld_41(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimator::add_UpdateComplete(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimator_add_UpdateComplete_m1970377738_MetadataUsageId;
+extern "C"  void SkeletonAnimator_add_UpdateComplete_m1970377738 (SkeletonAnimator_t3465797926 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator_add_UpdateComplete_m1970377738_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateComplete_42();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateComplete_42(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimator::remove_UpdateComplete(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimator_remove_UpdateComplete_m1326550573_MetadataUsageId;
+extern "C"  void SkeletonAnimator_remove_UpdateComplete_m1326550573 (SkeletonAnimator_t3465797926 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator_remove_UpdateComplete_m1326550573_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateComplete_42();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateComplete_42(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimator::add__UpdateLocal(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimator_add__UpdateLocal_m1510510505_MetadataUsageId;
+extern "C"  void SkeletonAnimator_add__UpdateLocal_m1510510505 (SkeletonAnimator_t3465797926 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator_add__UpdateLocal_m1510510505_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateLocal_40();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateLocal_40(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimator::remove__UpdateLocal(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimator_remove__UpdateLocal_m513193612_MetadataUsageId;
+extern "C"  void SkeletonAnimator_remove__UpdateLocal_m513193612 (SkeletonAnimator_t3465797926 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator_remove__UpdateLocal_m513193612_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateLocal_40();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateLocal_40(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimator::add__UpdateWorld(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimator_add__UpdateWorld_m3667637346_MetadataUsageId;
+extern "C"  void SkeletonAnimator_add__UpdateWorld_m3667637346 (SkeletonAnimator_t3465797926 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator_add__UpdateWorld_m3667637346_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateWorld_41();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateWorld_41(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimator::remove__UpdateWorld(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimator_remove__UpdateWorld_m2670320453_MetadataUsageId;
+extern "C"  void SkeletonAnimator_remove__UpdateWorld_m2670320453 (SkeletonAnimator_t3465797926 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator_remove__UpdateWorld_m2670320453_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateWorld_41();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateWorld_41(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimator::add__UpdateComplete(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimator_add__UpdateComplete_m1373625735_MetadataUsageId;
+extern "C"  void SkeletonAnimator_add__UpdateComplete_m1373625735 (SkeletonAnimator_t3465797926 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator_add__UpdateComplete_m1373625735_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateComplete_42();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateComplete_42(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimator::remove__UpdateComplete(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonAnimator_remove__UpdateComplete_m2889820100_MetadataUsageId;
+extern "C"  void SkeletonAnimator_remove__UpdateComplete_m2889820100 (SkeletonAnimator_t3465797926 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator_remove__UpdateComplete_m2889820100_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get__UpdateComplete_42();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set__UpdateComplete_42(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimator::Initialize(System.Boolean)
+extern Il2CppClass* Enumerator_t3074246566_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t1423340799_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_Clear_m411654361_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Clear_m1187932795_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_GetEnumerator_m3969159418_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1351724102_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m328836280_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3877348475_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisAnimator_t2776330603_m4147395588_MethodInfo_var;
+extern const uint32_t SkeletonAnimator_Initialize_m2649296008_MetadataUsageId;
+extern "C"  void SkeletonAnimator_Initialize_m2649296008 (SkeletonAnimator_t3465797926 * __this, bool ___overwrite0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator_Initialize_m2649296008_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	SkeletonData_t3387199699 * V_0 = NULL;
+	Animation_t3189667530 * V_1 = NULL;
+	Enumerator_t3074246566  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		bool L_0 = ((SkeletonRenderer_t3766155010 *)__this)->get_valid_19();
+		if (!L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		bool L_1 = ___overwrite0;
+		if (L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		bool L_2 = ___overwrite0;
+		SkeletonRenderer_Initialize_m1840709732(__this, L_2, /*hidden argument*/NULL);
+		bool L_3 = ((SkeletonRenderer_t3766155010 *)__this)->get_valid_19();
+		if (L_3)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0025:
+	{
+		Dictionary_2_t3186930769 * L_4 = __this->get_animationTable_35();
+		NullCheck(L_4);
+		Dictionary_2_Clear_m411654361(L_4, /*hidden argument*/Dictionary_2_Clear_m411654361_MethodInfo_var);
+		Dictionary_2_t2106381709 * L_5 = __this->get_clipNameHashCodeTable_36();
+		NullCheck(L_5);
+		Dictionary_2_Clear_m1187932795(L_5, /*hidden argument*/Dictionary_2_Clear_m1187932795_MethodInfo_var);
+		SkeletonDataAsset_t2211567523 * L_6 = ((SkeletonRenderer_t3766155010 *)__this)->get_skeletonDataAsset_3();
+		NullCheck(L_6);
+		SkeletonData_t3387199699 * L_7 = SkeletonDataAsset_GetSkeletonData_m1404790387(L_6, (bool)1, /*hidden argument*/NULL);
+		V_0 = L_7;
+		SkeletonData_t3387199699 * L_8 = V_0;
+		NullCheck(L_8);
+		ExposedList_1_t269632892 * L_9 = SkeletonData_get_Animations_m2691815971(L_8, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Enumerator_t3074246566  L_10 = ExposedList_1_GetEnumerator_m3969159418(L_9, /*hidden argument*/ExposedList_1_GetEnumerator_m3969159418_MethodInfo_var);
+		V_2 = L_10;
+	}
+
+IL_0054:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0078;
+		}
+
+IL_0059:
+		{
+			Animation_t3189667530 * L_11 = Enumerator_get_Current_m1351724102((&V_2), /*hidden argument*/Enumerator_get_Current_m1351724102_MethodInfo_var);
+			V_1 = L_11;
+			Dictionary_2_t3186930769 * L_12 = __this->get_animationTable_35();
+			Animation_t3189667530 * L_13 = V_1;
+			NullCheck(L_13);
+			String_t* L_14 = Animation_get_Name_m1328158531(L_13, /*hidden argument*/NULL);
+			NullCheck(L_14);
+			int32_t L_15 = String_GetHashCode_m471729487(L_14, /*hidden argument*/NULL);
+			Animation_t3189667530 * L_16 = V_1;
+			NullCheck(L_12);
+			Dictionary_2_Add_m328836280(L_12, L_15, L_16, /*hidden argument*/Dictionary_2_Add_m328836280_MethodInfo_var);
+		}
+
+IL_0078:
+		{
+			bool L_17 = Enumerator_MoveNext_m3877348475((&V_2), /*hidden argument*/Enumerator_MoveNext_m3877348475_MethodInfo_var);
+			if (L_17)
+			{
+				goto IL_0059;
+			}
+		}
+
+IL_0084:
+		{
+			IL2CPP_LEAVE(0x95, FINALLY_0089);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_0089;
+	}
+
+FINALLY_0089:
+	{ // begin finally (depth: 1)
+		Enumerator_t3074246566  L_18 = V_2;
+		Enumerator_t3074246566  L_19 = L_18;
+		Il2CppObject * L_20 = Box(Enumerator_t3074246566_il2cpp_TypeInfo_var, &L_19);
+		NullCheck((Il2CppObject *)L_20);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1423340799_il2cpp_TypeInfo_var, (Il2CppObject *)L_20);
+		IL2CPP_END_FINALLY(137)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(137)
+	{
+		IL2CPP_JUMP_TBL(0x95, IL_0095)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_0095:
+	{
+		Animator_t2776330603 * L_21 = Component_GetComponent_TisAnimator_t2776330603_m4147395588(__this, /*hidden argument*/Component_GetComponent_TisAnimator_t2776330603_m4147395588_MethodInfo_var);
+		__this->set_animator_37(L_21);
+		float L_22 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_lastTime_38(L_22);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonAnimator::Update()
+extern Il2CppClass* Mathf_t4203372500_il2cpp_TypeInfo_var;
+extern const MethodInfo* Array_Resize_TisMixMode_t1511821544_m1343055226_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m686257078_MethodInfo_var;
+extern const uint32_t SkeletonAnimator_Update_m2845359050_MetadataUsageId;
+extern "C"  void SkeletonAnimator_Update_m2845359050 (SkeletonAnimator_t3465797926 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator_Update_m2845359050_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	AnimatorStateInfo_t323110318  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	AnimatorStateInfo_t323110318  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	AnimatorClipInfoU5BU5D_t3117370260* V_6 = NULL;
+	AnimatorClipInfoU5BU5D_t3117370260* V_7 = NULL;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	AnimatorClipInfo_t2746035113  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	int32_t V_13 = 0;
+	AnimatorClipInfo_t2746035113  V_14;
+	memset(&V_14, 0, sizeof(V_14));
+	float V_15 = 0.0f;
+	float V_16 = 0.0f;
+	int32_t V_17 = 0;
+	AnimatorClipInfo_t2746035113  V_18;
+	memset(&V_18, 0, sizeof(V_18));
+	float V_19 = 0.0f;
+	float V_20 = 0.0f;
+	AnimatorClipInfo_t2746035113  V_21;
+	memset(&V_21, 0, sizeof(V_21));
+	float V_22 = 0.0f;
+	float V_23 = 0.0f;
+	AnimatorClipInfo_t2746035113  V_24;
+	memset(&V_24, 0, sizeof(V_24));
+	float V_25 = 0.0f;
+	float V_26 = 0.0f;
+	AnimatorClipInfo_t2746035113  V_27;
+	memset(&V_27, 0, sizeof(V_27));
+	float V_28 = 0.0f;
+	float V_29 = 0.0f;
+	{
+		bool L_0 = ((SkeletonRenderer_t3766155010 *)__this)->get_valid_19();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		MixModeU5BU5D_t213042809* L_1 = __this->get_layerMixModes_34();
+		NullCheck(L_1);
+		Animator_t2776330603 * L_2 = __this->get_animator_37();
+		NullCheck(L_2);
+		int32_t L_3 = Animator_get_layerCount_m3326924613(L_2, /*hidden argument*/NULL);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length))))) == ((int32_t)L_3)))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		MixModeU5BU5D_t213042809** L_4 = __this->get_address_of_layerMixModes_34();
+		Animator_t2776330603 * L_5 = __this->get_animator_37();
+		NullCheck(L_5);
+		int32_t L_6 = Animator_get_layerCount_m3326924613(L_5, /*hidden argument*/NULL);
+		Array_Resize_TisMixMode_t1511821544_m1343055226(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/Array_Resize_TisMixMode_t1511821544_m1343055226_MethodInfo_var);
+	}
+
+IL_003a:
+	{
+		float L_7 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_8 = __this->get_lastTime_38();
+		V_0 = ((float)((float)L_7-(float)L_8));
+		Skeleton_t2209335561 * L_9 = ((SkeletonRenderer_t3766155010 *)__this)->get_skeleton_20();
+		float L_10 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Skeleton_Update_m3065263201(L_9, L_10, /*hidden argument*/NULL);
+		Animator_t2776330603 * L_11 = __this->get_animator_37();
+		NullCheck(L_11);
+		int32_t L_12 = Animator_get_layerCount_m3326924613(L_11, /*hidden argument*/NULL);
+		V_1 = L_12;
+		V_2 = 0;
+		goto IL_04ab;
+	}
+
+IL_006a:
+	{
+		Animator_t2776330603 * L_13 = __this->get_animator_37();
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		float L_15 = Animator_GetLayerWeight_m3878421230(L_13, L_14, /*hidden argument*/NULL);
+		V_3 = L_15;
+		int32_t L_16 = V_2;
+		if (L_16)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		V_3 = (1.0f);
+	}
+
+IL_0083:
+	{
+		Animator_t2776330603 * L_17 = __this->get_animator_37();
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		AnimatorStateInfo_t323110318  L_19 = Animator_GetCurrentAnimatorStateInfo_m3061859448(L_17, L_18, /*hidden argument*/NULL);
+		V_4 = L_19;
+		Animator_t2776330603 * L_20 = __this->get_animator_37();
+		int32_t L_21 = V_2;
+		NullCheck(L_20);
+		AnimatorStateInfo_t323110318  L_22 = Animator_GetNextAnimatorStateInfo_m791156688(L_20, L_21, /*hidden argument*/NULL);
+		V_5 = L_22;
+		Animator_t2776330603 * L_23 = __this->get_animator_37();
+		int32_t L_24 = V_2;
+		NullCheck(L_23);
+		AnimatorClipInfoU5BU5D_t3117370260* L_25 = Animator_GetCurrentAnimatorClipInfo_m4182556072(L_23, L_24, /*hidden argument*/NULL);
+		V_6 = L_25;
+		Animator_t2776330603 * L_26 = __this->get_animator_37();
+		int32_t L_27 = V_2;
+		NullCheck(L_26);
+		AnimatorClipInfoU5BU5D_t3117370260* L_28 = Animator_GetNextAnimatorClipInfo_m162731378(L_26, L_27, /*hidden argument*/NULL);
+		V_7 = L_28;
+		MixModeU5BU5D_t213042809* L_29 = __this->get_layerMixModes_34();
+		int32_t L_30 = V_2;
+		NullCheck(L_29);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_29, L_30);
+		int32_t L_31 = L_30;
+		int32_t L_32 = (L_29)->GetAt(static_cast<il2cpp_array_size_t>(L_31));
+		V_8 = L_32;
+		int32_t L_33 = V_8;
+		if (L_33)
+		{
+			goto IL_0217;
+		}
+	}
+	{
+		V_9 = 0;
+		goto IL_015e;
+	}
+
+IL_00d4:
+	{
+		AnimatorClipInfoU5BU5D_t3117370260* L_34 = V_6;
+		int32_t L_35 = V_9;
+		NullCheck(L_34);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_34, L_35);
+		V_10 = (*(AnimatorClipInfo_t2746035113 *)((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35))));
+		float L_36 = AnimatorClipInfo_get_weight_m3987235401((&V_10), /*hidden argument*/NULL);
+		float L_37 = V_3;
+		V_11 = ((float)((float)L_36*(float)L_37));
+		float L_38 = V_11;
+		if ((!(((float)L_38) == ((float)(0.0f)))))
+		{
+			goto IL_0100;
+		}
+	}
+	{
+		goto IL_0158;
+	}
+
+IL_0100:
+	{
+		float L_39 = AnimatorStateInfo_get_normalizedTime_m2531821060((&V_4), /*hidden argument*/NULL);
+		AnimationClip_t2007702890 * L_40 = AnimatorClipInfo_get_clip_m1947050667((&V_10), /*hidden argument*/NULL);
+		NullCheck(L_40);
+		float L_41 = AnimationClip_get_length_m4218495554(L_40, /*hidden argument*/NULL);
+		V_12 = ((float)((float)L_39*(float)L_41));
+		Dictionary_2_t3186930769 * L_42 = __this->get_animationTable_35();
+		AnimationClip_t2007702890 * L_43 = AnimatorClipInfo_get_clip_m1947050667((&V_10), /*hidden argument*/NULL);
+		int32_t L_44 = SkeletonAnimator_GetAnimationClipNameHashCode_m2909469858(__this, L_43, /*hidden argument*/NULL);
+		NullCheck(L_42);
+		Animation_t3189667530 * L_45 = Dictionary_2_get_Item_m686257078(L_42, L_44, /*hidden argument*/Dictionary_2_get_Item_m686257078_MethodInfo_var);
+		Skeleton_t2209335561 * L_46 = ((SkeletonRenderer_t3766155010 *)__this)->get_skeleton_20();
+		float L_47 = V_12;
+		float L_48 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_49 = Mathf_Max_m3923796455(NULL /*static, unused*/, (0.0f), ((float)((float)L_47-(float)L_48)), /*hidden argument*/NULL);
+		float L_50 = V_12;
+		bool L_51 = AnimatorStateInfo_get_loop_m1495892586((&V_4), /*hidden argument*/NULL);
+		ExposedList_1_t1740365586 * L_52 = __this->get_events_39();
+		float L_53 = V_11;
+		NullCheck(L_45);
+		Animation_Mix_m2862104997(L_45, L_46, L_49, L_50, L_51, L_52, L_53, /*hidden argument*/NULL);
+	}
+
+IL_0158:
+	{
+		int32_t L_54 = V_9;
+		V_9 = ((int32_t)((int32_t)L_54+(int32_t)1));
+	}
+
+IL_015e:
+	{
+		int32_t L_55 = V_9;
+		AnimatorClipInfoU5BU5D_t3117370260* L_56 = V_6;
+		NullCheck(L_56);
+		if ((((int32_t)L_55) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_56)->max_length)))))))
+		{
+			goto IL_00d4;
+		}
+	}
+	{
+		int32_t L_57 = AnimatorStateInfo_get_fullPathHash_m3257074542((&V_5), /*hidden argument*/NULL);
+		if (!L_57)
+		{
+			goto IL_0212;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0207;
+	}
+
+IL_017d:
+	{
+		AnimatorClipInfoU5BU5D_t3117370260* L_58 = V_7;
+		int32_t L_59 = V_13;
+		NullCheck(L_58);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_58, L_59);
+		V_14 = (*(AnimatorClipInfo_t2746035113 *)((L_58)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_59))));
+		float L_60 = AnimatorClipInfo_get_weight_m3987235401((&V_14), /*hidden argument*/NULL);
+		float L_61 = V_3;
+		V_15 = ((float)((float)L_60*(float)L_61));
+		float L_62 = V_15;
+		if ((!(((float)L_62) == ((float)(0.0f)))))
+		{
+			goto IL_01a9;
+		}
+	}
+	{
+		goto IL_0201;
+	}
+
+IL_01a9:
+	{
+		float L_63 = AnimatorStateInfo_get_normalizedTime_m2531821060((&V_5), /*hidden argument*/NULL);
+		AnimationClip_t2007702890 * L_64 = AnimatorClipInfo_get_clip_m1947050667((&V_14), /*hidden argument*/NULL);
+		NullCheck(L_64);
+		float L_65 = AnimationClip_get_length_m4218495554(L_64, /*hidden argument*/NULL);
+		V_16 = ((float)((float)L_63*(float)L_65));
+		Dictionary_2_t3186930769 * L_66 = __this->get_animationTable_35();
+		AnimationClip_t2007702890 * L_67 = AnimatorClipInfo_get_clip_m1947050667((&V_14), /*hidden argument*/NULL);
+		int32_t L_68 = SkeletonAnimator_GetAnimationClipNameHashCode_m2909469858(__this, L_67, /*hidden argument*/NULL);
+		NullCheck(L_66);
+		Animation_t3189667530 * L_69 = Dictionary_2_get_Item_m686257078(L_66, L_68, /*hidden argument*/Dictionary_2_get_Item_m686257078_MethodInfo_var);
+		Skeleton_t2209335561 * L_70 = ((SkeletonRenderer_t3766155010 *)__this)->get_skeleton_20();
+		float L_71 = V_16;
+		float L_72 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_73 = Mathf_Max_m3923796455(NULL /*static, unused*/, (0.0f), ((float)((float)L_71-(float)L_72)), /*hidden argument*/NULL);
+		float L_74 = V_16;
+		bool L_75 = AnimatorStateInfo_get_loop_m1495892586((&V_5), /*hidden argument*/NULL);
+		ExposedList_1_t1740365586 * L_76 = __this->get_events_39();
+		float L_77 = V_15;
+		NullCheck(L_69);
+		Animation_Mix_m2862104997(L_69, L_70, L_73, L_74, L_75, L_76, L_77, /*hidden argument*/NULL);
+	}
+
+IL_0201:
+	{
+		int32_t L_78 = V_13;
+		V_13 = ((int32_t)((int32_t)L_78+(int32_t)1));
+	}
+
+IL_0207:
+	{
+		int32_t L_79 = V_13;
+		AnimatorClipInfoU5BU5D_t3117370260* L_80 = V_7;
+		NullCheck(L_80);
+		if ((((int32_t)L_79) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_80)->max_length)))))))
+		{
+			goto IL_017d;
+		}
+	}
+
+IL_0212:
+	{
+		goto IL_04a7;
+	}
+
+IL_0217:
+	{
+		int32_t L_81 = V_8;
+		if ((((int32_t)L_81) < ((int32_t)1)))
+		{
+			goto IL_04a7;
+		}
+	}
+	{
+		V_17 = 0;
+		goto IL_02b4;
+	}
+
+IL_0227:
+	{
+		AnimatorClipInfoU5BU5D_t3117370260* L_82 = V_6;
+		int32_t L_83 = V_17;
+		NullCheck(L_82);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_82, L_83);
+		V_18 = (*(AnimatorClipInfo_t2746035113 *)((L_82)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_83))));
+		float L_84 = AnimatorClipInfo_get_weight_m3987235401((&V_18), /*hidden argument*/NULL);
+		float L_85 = V_3;
+		V_19 = ((float)((float)L_84*(float)L_85));
+		float L_86 = V_19;
+		if ((!(((float)L_86) == ((float)(0.0f)))))
+		{
+			goto IL_0253;
+		}
+	}
+	{
+		goto IL_02ae;
+	}
+
+IL_0253:
+	{
+		float L_87 = AnimatorStateInfo_get_normalizedTime_m2531821060((&V_4), /*hidden argument*/NULL);
+		AnimationClip_t2007702890 * L_88 = AnimatorClipInfo_get_clip_m1947050667((&V_18), /*hidden argument*/NULL);
+		NullCheck(L_88);
+		float L_89 = AnimationClip_get_length_m4218495554(L_88, /*hidden argument*/NULL);
+		V_20 = ((float)((float)L_87*(float)L_89));
+		Dictionary_2_t3186930769 * L_90 = __this->get_animationTable_35();
+		AnimationClip_t2007702890 * L_91 = AnimatorClipInfo_get_clip_m1947050667((&V_18), /*hidden argument*/NULL);
+		int32_t L_92 = SkeletonAnimator_GetAnimationClipNameHashCode_m2909469858(__this, L_91, /*hidden argument*/NULL);
+		NullCheck(L_90);
+		Animation_t3189667530 * L_93 = Dictionary_2_get_Item_m686257078(L_90, L_92, /*hidden argument*/Dictionary_2_get_Item_m686257078_MethodInfo_var);
+		Skeleton_t2209335561 * L_94 = ((SkeletonRenderer_t3766155010 *)__this)->get_skeleton_20();
+		float L_95 = V_20;
+		float L_96 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_97 = Mathf_Max_m3923796455(NULL /*static, unused*/, (0.0f), ((float)((float)L_95-(float)L_96)), /*hidden argument*/NULL);
+		float L_98 = V_20;
+		bool L_99 = AnimatorStateInfo_get_loop_m1495892586((&V_4), /*hidden argument*/NULL);
+		ExposedList_1_t1740365586 * L_100 = __this->get_events_39();
+		NullCheck(L_93);
+		Animation_Apply_m430003474(L_93, L_94, L_97, L_98, L_99, L_100, /*hidden argument*/NULL);
+		goto IL_02bf;
+	}
+
+IL_02ae:
+	{
+		int32_t L_101 = V_17;
+		V_17 = ((int32_t)((int32_t)L_101+(int32_t)1));
+	}
+
+IL_02b4:
+	{
+		int32_t L_102 = V_17;
+		AnimatorClipInfoU5BU5D_t3117370260* L_103 = V_6;
+		NullCheck(L_103);
+		if ((((int32_t)L_102) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_103)->max_length)))))))
+		{
+			goto IL_0227;
+		}
+	}
+
+IL_02bf:
+	{
+		goto IL_034e;
+	}
+
+IL_02c4:
+	{
+		AnimatorClipInfoU5BU5D_t3117370260* L_104 = V_6;
+		int32_t L_105 = V_17;
+		NullCheck(L_104);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_104, L_105);
+		V_21 = (*(AnimatorClipInfo_t2746035113 *)((L_104)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_105))));
+		float L_106 = AnimatorClipInfo_get_weight_m3987235401((&V_21), /*hidden argument*/NULL);
+		float L_107 = V_3;
+		V_22 = ((float)((float)L_106*(float)L_107));
+		float L_108 = V_22;
+		if ((!(((float)L_108) == ((float)(0.0f)))))
+		{
+			goto IL_02f0;
+		}
+	}
+	{
+		goto IL_0348;
+	}
+
+IL_02f0:
+	{
+		float L_109 = AnimatorStateInfo_get_normalizedTime_m2531821060((&V_4), /*hidden argument*/NULL);
+		AnimationClip_t2007702890 * L_110 = AnimatorClipInfo_get_clip_m1947050667((&V_21), /*hidden argument*/NULL);
+		NullCheck(L_110);
+		float L_111 = AnimationClip_get_length_m4218495554(L_110, /*hidden argument*/NULL);
+		V_23 = ((float)((float)L_109*(float)L_111));
+		Dictionary_2_t3186930769 * L_112 = __this->get_animationTable_35();
+		AnimationClip_t2007702890 * L_113 = AnimatorClipInfo_get_clip_m1947050667((&V_21), /*hidden argument*/NULL);
+		int32_t L_114 = SkeletonAnimator_GetAnimationClipNameHashCode_m2909469858(__this, L_113, /*hidden argument*/NULL);
+		NullCheck(L_112);
+		Animation_t3189667530 * L_115 = Dictionary_2_get_Item_m686257078(L_112, L_114, /*hidden argument*/Dictionary_2_get_Item_m686257078_MethodInfo_var);
+		Skeleton_t2209335561 * L_116 = ((SkeletonRenderer_t3766155010 *)__this)->get_skeleton_20();
+		float L_117 = V_23;
+		float L_118 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_119 = Mathf_Max_m3923796455(NULL /*static, unused*/, (0.0f), ((float)((float)L_117-(float)L_118)), /*hidden argument*/NULL);
+		float L_120 = V_23;
+		bool L_121 = AnimatorStateInfo_get_loop_m1495892586((&V_4), /*hidden argument*/NULL);
+		ExposedList_1_t1740365586 * L_122 = __this->get_events_39();
+		float L_123 = V_22;
+		NullCheck(L_115);
+		Animation_Mix_m2862104997(L_115, L_116, L_119, L_120, L_121, L_122, L_123, /*hidden argument*/NULL);
+	}
+
+IL_0348:
+	{
+		int32_t L_124 = V_17;
+		V_17 = ((int32_t)((int32_t)L_124+(int32_t)1));
+	}
+
+IL_034e:
+	{
+		int32_t L_125 = V_17;
+		AnimatorClipInfoU5BU5D_t3117370260* L_126 = V_6;
+		NullCheck(L_126);
+		if ((((int32_t)L_125) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_126)->max_length)))))))
+		{
+			goto IL_02c4;
+		}
+	}
+	{
+		V_17 = 0;
+		int32_t L_127 = AnimatorStateInfo_get_fullPathHash_m3257074542((&V_5), /*hidden argument*/NULL);
+		if (!L_127)
+		{
+			goto IL_04a7;
+		}
+	}
+	{
+		int32_t L_128 = V_8;
+		if ((!(((uint32_t)L_128) == ((uint32_t)2))))
+		{
+			goto IL_040d;
+		}
+	}
+	{
+		goto IL_0402;
+	}
+
+IL_0375:
+	{
+		AnimatorClipInfoU5BU5D_t3117370260* L_129 = V_7;
+		int32_t L_130 = V_17;
+		NullCheck(L_129);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_129, L_130);
+		V_24 = (*(AnimatorClipInfo_t2746035113 *)((L_129)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_130))));
+		float L_131 = AnimatorClipInfo_get_weight_m3987235401((&V_24), /*hidden argument*/NULL);
+		float L_132 = V_3;
+		V_25 = ((float)((float)L_131*(float)L_132));
+		float L_133 = V_25;
+		if ((!(((float)L_133) == ((float)(0.0f)))))
+		{
+			goto IL_03a1;
+		}
+	}
+	{
+		goto IL_03fc;
+	}
+
+IL_03a1:
+	{
+		float L_134 = AnimatorStateInfo_get_normalizedTime_m2531821060((&V_5), /*hidden argument*/NULL);
+		AnimationClip_t2007702890 * L_135 = AnimatorClipInfo_get_clip_m1947050667((&V_24), /*hidden argument*/NULL);
+		NullCheck(L_135);
+		float L_136 = AnimationClip_get_length_m4218495554(L_135, /*hidden argument*/NULL);
+		V_26 = ((float)((float)L_134*(float)L_136));
+		Dictionary_2_t3186930769 * L_137 = __this->get_animationTable_35();
+		AnimationClip_t2007702890 * L_138 = AnimatorClipInfo_get_clip_m1947050667((&V_24), /*hidden argument*/NULL);
+		int32_t L_139 = SkeletonAnimator_GetAnimationClipNameHashCode_m2909469858(__this, L_138, /*hidden argument*/NULL);
+		NullCheck(L_137);
+		Animation_t3189667530 * L_140 = Dictionary_2_get_Item_m686257078(L_137, L_139, /*hidden argument*/Dictionary_2_get_Item_m686257078_MethodInfo_var);
+		Skeleton_t2209335561 * L_141 = ((SkeletonRenderer_t3766155010 *)__this)->get_skeleton_20();
+		float L_142 = V_26;
+		float L_143 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_144 = Mathf_Max_m3923796455(NULL /*static, unused*/, (0.0f), ((float)((float)L_142-(float)L_143)), /*hidden argument*/NULL);
+		float L_145 = V_26;
+		bool L_146 = AnimatorStateInfo_get_loop_m1495892586((&V_5), /*hidden argument*/NULL);
+		ExposedList_1_t1740365586 * L_147 = __this->get_events_39();
+		NullCheck(L_140);
+		Animation_Apply_m430003474(L_140, L_141, L_144, L_145, L_146, L_147, /*hidden argument*/NULL);
+		goto IL_040d;
+	}
+
+IL_03fc:
+	{
+		int32_t L_148 = V_17;
+		V_17 = ((int32_t)((int32_t)L_148+(int32_t)1));
+	}
+
+IL_0402:
+	{
+		int32_t L_149 = V_17;
+		AnimatorClipInfoU5BU5D_t3117370260* L_150 = V_7;
+		NullCheck(L_150);
+		if ((((int32_t)L_149) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_150)->max_length)))))))
+		{
+			goto IL_0375;
+		}
+	}
+
+IL_040d:
+	{
+		goto IL_049c;
+	}
+
+IL_0412:
+	{
+		AnimatorClipInfoU5BU5D_t3117370260* L_151 = V_7;
+		int32_t L_152 = V_17;
+		NullCheck(L_151);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_151, L_152);
+		V_27 = (*(AnimatorClipInfo_t2746035113 *)((L_151)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_152))));
+		float L_153 = AnimatorClipInfo_get_weight_m3987235401((&V_27), /*hidden argument*/NULL);
+		float L_154 = V_3;
+		V_28 = ((float)((float)L_153*(float)L_154));
+		float L_155 = V_28;
+		if ((!(((float)L_155) == ((float)(0.0f)))))
+		{
+			goto IL_043e;
+		}
+	}
+	{
+		goto IL_0496;
+	}
+
+IL_043e:
+	{
+		float L_156 = AnimatorStateInfo_get_normalizedTime_m2531821060((&V_5), /*hidden argument*/NULL);
+		AnimationClip_t2007702890 * L_157 = AnimatorClipInfo_get_clip_m1947050667((&V_27), /*hidden argument*/NULL);
+		NullCheck(L_157);
+		float L_158 = AnimationClip_get_length_m4218495554(L_157, /*hidden argument*/NULL);
+		V_29 = ((float)((float)L_156*(float)L_158));
+		Dictionary_2_t3186930769 * L_159 = __this->get_animationTable_35();
+		AnimationClip_t2007702890 * L_160 = AnimatorClipInfo_get_clip_m1947050667((&V_27), /*hidden argument*/NULL);
+		int32_t L_161 = SkeletonAnimator_GetAnimationClipNameHashCode_m2909469858(__this, L_160, /*hidden argument*/NULL);
+		NullCheck(L_159);
+		Animation_t3189667530 * L_162 = Dictionary_2_get_Item_m686257078(L_159, L_161, /*hidden argument*/Dictionary_2_get_Item_m686257078_MethodInfo_var);
+		Skeleton_t2209335561 * L_163 = ((SkeletonRenderer_t3766155010 *)__this)->get_skeleton_20();
+		float L_164 = V_29;
+		float L_165 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_166 = Mathf_Max_m3923796455(NULL /*static, unused*/, (0.0f), ((float)((float)L_164-(float)L_165)), /*hidden argument*/NULL);
+		float L_167 = V_29;
+		bool L_168 = AnimatorStateInfo_get_loop_m1495892586((&V_5), /*hidden argument*/NULL);
+		ExposedList_1_t1740365586 * L_169 = __this->get_events_39();
+		float L_170 = V_28;
+		NullCheck(L_162);
+		Animation_Mix_m2862104997(L_162, L_163, L_166, L_167, L_168, L_169, L_170, /*hidden argument*/NULL);
+	}
+
+IL_0496:
+	{
+		int32_t L_171 = V_17;
+		V_17 = ((int32_t)((int32_t)L_171+(int32_t)1));
+	}
+
+IL_049c:
+	{
+		int32_t L_172 = V_17;
+		AnimatorClipInfoU5BU5D_t3117370260* L_173 = V_7;
+		NullCheck(L_173);
+		if ((((int32_t)L_172) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_173)->max_length)))))))
+		{
+			goto IL_0412;
+		}
+	}
+
+IL_04a7:
+	{
+		int32_t L_174 = V_2;
+		V_2 = ((int32_t)((int32_t)L_174+(int32_t)1));
+	}
+
+IL_04ab:
+	{
+		int32_t L_175 = V_2;
+		int32_t L_176 = V_1;
+		if ((((int32_t)L_175) < ((int32_t)L_176)))
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_177 = __this->get__UpdateLocal_40();
+		if (!L_177)
+		{
+			goto IL_04c9;
+		}
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_178 = __this->get__UpdateLocal_40();
+		NullCheck(L_178);
+		UpdateBonesDelegate_Invoke_m4280713126(L_178, __this, /*hidden argument*/NULL);
+	}
+
+IL_04c9:
+	{
+		Skeleton_t2209335561 * L_179 = ((SkeletonRenderer_t3766155010 *)__this)->get_skeleton_20();
+		NullCheck(L_179);
+		Skeleton_UpdateWorldTransform_m2487614308(L_179, /*hidden argument*/NULL);
+		UpdateBonesDelegate_t4020151189 * L_180 = __this->get__UpdateWorld_41();
+		if (!L_180)
+		{
+			goto IL_04f6;
+		}
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_181 = __this->get__UpdateWorld_41();
+		NullCheck(L_181);
+		UpdateBonesDelegate_Invoke_m4280713126(L_181, __this, /*hidden argument*/NULL);
+		Skeleton_t2209335561 * L_182 = ((SkeletonRenderer_t3766155010 *)__this)->get_skeleton_20();
+		NullCheck(L_182);
+		Skeleton_UpdateWorldTransform_m2487614308(L_182, /*hidden argument*/NULL);
+	}
+
+IL_04f6:
+	{
+		UpdateBonesDelegate_t4020151189 * L_183 = __this->get__UpdateComplete_42();
+		if (!L_183)
+		{
+			goto IL_050d;
+		}
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_184 = __this->get__UpdateComplete_42();
+		NullCheck(L_184);
+		UpdateBonesDelegate_Invoke_m4280713126(L_184, __this, /*hidden argument*/NULL);
+	}
+
+IL_050d:
+	{
+		float L_185 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_lastTime_38(L_185);
+		return;
+	}
+}
+// System.Int32 Spine.Unity.SkeletonAnimator::GetAnimationClipNameHashCode(UnityEngine.AnimationClip)
+extern const MethodInfo* Dictionary_2_TryGetValue_m173039455_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m2335741910_MethodInfo_var;
+extern const uint32_t SkeletonAnimator_GetAnimationClipNameHashCode_m2909469858_MetadataUsageId;
+extern "C"  int32_t SkeletonAnimator_GetAnimationClipNameHashCode_m2909469858 (SkeletonAnimator_t3465797926 * __this, AnimationClip_t2007702890 * ___clip0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonAnimator_GetAnimationClipNameHashCode_m2909469858_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		Dictionary_2_t2106381709 * L_0 = __this->get_clipNameHashCodeTable_36();
+		AnimationClip_t2007702890 * L_1 = ___clip0;
+		NullCheck(L_0);
+		bool L_2 = Dictionary_2_TryGetValue_m173039455(L_0, L_1, (&V_0), /*hidden argument*/Dictionary_2_TryGetValue_m173039455_MethodInfo_var);
+		if (L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		AnimationClip_t2007702890 * L_3 = ___clip0;
+		NullCheck(L_3);
+		String_t* L_4 = Object_get_name_m3709440845(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		int32_t L_5 = String_GetHashCode_m471729487(L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		Dictionary_2_t2106381709 * L_6 = __this->get_clipNameHashCodeTable_36();
+		AnimationClip_t2007702890 * L_7 = ___clip0;
+		int32_t L_8 = V_0;
+		NullCheck(L_6);
+		Dictionary_2_Add_m2335741910(L_6, L_7, L_8, /*hidden argument*/Dictionary_2_Add_m2335741910_MethodInfo_var);
+	}
+
+IL_002c:
+	{
+		int32_t L_9 = V_0;
+		return L_9;
+	}
+}
+// System.Void Spine.Unity.SkeletonDataAsset::.ctor()
+extern "C"  void SkeletonDataAsset__ctor_m2121556118 (SkeletonDataAsset_t2211567523 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_scale_3((0.01f));
+		ScriptableObject__ctor_m1827087273(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonDataAsset::OnEnable()
+extern Il2CppClass* AtlasAssetU5BU5D_t79606606_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonDataAsset_OnEnable_m611161904_MetadataUsageId;
+extern "C"  void SkeletonDataAsset_OnEnable_m611161904 (SkeletonDataAsset_t2211567523 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonDataAsset_OnEnable_m611161904_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AtlasAssetU5BU5D_t79606606* L_0 = __this->get_atlasAssets_2();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		__this->set_atlasAssets_2(((AtlasAssetU5BU5D_t79606606*)SZArrayNew(AtlasAssetU5BU5D_t79606606_il2cpp_TypeInfo_var, (uint32_t)0)));
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonDataAsset::Reset()
+extern "C"  void SkeletonDataAsset_Reset_m4062956355 (SkeletonDataAsset_t2211567523 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_skeletonData_10((SkeletonData_t3387199699 *)NULL);
+		__this->set_stateData_11((AnimationStateData_t250640307 *)NULL);
+		return;
+	}
+}
+// Spine.SkeletonData Spine.Unity.SkeletonDataAsset::GetSkeletonData(System.Boolean)
+extern Il2CppClass* AtlasAssetU5BU5D_t79606606_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* AtlasU5BU5D_t3146571084_il2cpp_TypeInfo_var;
+extern Il2CppClass* AtlasAttachmentLoader_t384955783_il2cpp_TypeInfo_var;
+extern Il2CppClass* MemoryStream_t418716369_il2cpp_TypeInfo_var;
+extern Il2CppClass* SkeletonBinary_t1569363754_il2cpp_TypeInfo_var;
+extern Il2CppClass* StringReader_t4061477668_il2cpp_TypeInfo_var;
+extern Il2CppClass* SkeletonJson_t3387395601_il2cpp_TypeInfo_var;
+extern Il2CppClass* Exception_t3991598821_il2cpp_TypeInfo_var;
+extern Il2CppClass* StringU5BU5D_t4054002952_il2cpp_TypeInfo_var;
+extern Il2CppClass* AnimationStateData_t250640307_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral44846308;
+extern Il2CppCodeGenString* _stringLiteral3926144590;
+extern Il2CppCodeGenString* _stringLiteral46013997;
+extern Il2CppCodeGenString* _stringLiteral4016705399;
+extern Il2CppCodeGenString* _stringLiteral10;
+extern const uint32_t SkeletonDataAsset_GetSkeletonData_m1404790387_MetadataUsageId;
+extern "C"  SkeletonData_t3387199699 * SkeletonDataAsset_GetSkeletonData_m1404790387 (SkeletonDataAsset_t2211567523 * __this, bool ___quiet0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonDataAsset_GetSkeletonData_m1404790387_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	AtlasU5BU5D_t3146571084* V_0 = NULL;
+	int32_t V_1 = 0;
+	Il2CppObject * V_2 = NULL;
+	float V_3 = 0.0f;
+	MemoryStream_t418716369 * V_4 = NULL;
+	SkeletonBinary_t1569363754 * V_5 = NULL;
+	StringReader_t4061477668 * V_6 = NULL;
+	SkeletonJson_t3387395601 * V_7 = NULL;
+	Exception_t3991598821 * V_8 = NULL;
+	SkeletonData_t3387199699 * V_9 = NULL;
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		AtlasAssetU5BU5D_t79606606* L_0 = __this->get_atlasAssets_2();
+		if (L_0)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		__this->set_atlasAssets_2(((AtlasAssetU5BU5D_t79606606*)SZArrayNew(AtlasAssetU5BU5D_t79606606_il2cpp_TypeInfo_var, (uint32_t)0)));
+		bool L_1 = ___quiet0;
+		if (L_1)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		String_t* L_2 = Object_get_name_m3709440845(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral44846308, L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogError_m214246398(NULL /*static, unused*/, L_3, __this, /*hidden argument*/NULL);
+	}
+
+IL_0033:
+	{
+		SkeletonDataAsset_Reset_m4062956355(__this, /*hidden argument*/NULL);
+		return (SkeletonData_t3387199699 *)NULL;
+	}
+
+IL_003b:
+	{
+		TextAsset_t3836129977 * L_4 = __this->get_skeletonJSON_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_4, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		bool L_6 = ___quiet0;
+		if (L_6)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		String_t* L_7 = Object_get_name_m3709440845(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_8 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral3926144590, L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogError_m214246398(NULL /*static, unused*/, L_8, __this, /*hidden argument*/NULL);
+	}
+
+IL_0068:
+	{
+		SkeletonDataAsset_Reset_m4062956355(__this, /*hidden argument*/NULL);
+		return (SkeletonData_t3387199699 *)NULL;
+	}
+
+IL_0070:
+	{
+		AtlasAssetU5BU5D_t79606606* L_9 = __this->get_atlasAssets_2();
+		NullCheck(L_9);
+		if ((((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))
+		{
+			goto IL_0085;
+		}
+	}
+	{
+		SkeletonDataAsset_Reset_m4062956355(__this, /*hidden argument*/NULL);
+		return (SkeletonData_t3387199699 *)NULL;
+	}
+
+IL_0085:
+	{
+		AtlasAssetU5BU5D_t79606606* L_10 = __this->get_atlasAssets_2();
+		NullCheck(L_10);
+		V_0 = ((AtlasU5BU5D_t3146571084*)SZArrayNew(AtlasU5BU5D_t3146571084_il2cpp_TypeInfo_var, (uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length))))));
+		V_1 = 0;
+		goto IL_00d9;
+	}
+
+IL_009a:
+	{
+		AtlasAssetU5BU5D_t79606606* L_11 = __this->get_atlasAssets_2();
+		int32_t L_12 = V_1;
+		NullCheck(L_11);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_11, L_12);
+		int32_t L_13 = L_12;
+		AtlasAsset_t1266833143 * L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_15 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_14, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		SkeletonDataAsset_Reset_m4062956355(__this, /*hidden argument*/NULL);
+		return (SkeletonData_t3387199699 *)NULL;
+	}
+
+IL_00b5:
+	{
+		AtlasU5BU5D_t3146571084* L_16 = V_0;
+		int32_t L_17 = V_1;
+		AtlasAssetU5BU5D_t79606606* L_18 = __this->get_atlasAssets_2();
+		int32_t L_19 = V_1;
+		NullCheck(L_18);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_18, L_19);
+		int32_t L_20 = L_19;
+		AtlasAsset_t1266833143 * L_21 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
+		NullCheck(L_21);
+		Atlas_t361685585 * L_22 = AtlasAsset_GetAtlas_m580989178(L_21, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, L_17);
+		ArrayElementTypeCheck (L_16, L_22);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(L_17), (Atlas_t361685585 *)L_22);
+		AtlasU5BU5D_t3146571084* L_23 = V_0;
+		int32_t L_24 = V_1;
+		NullCheck(L_23);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_23, L_24);
+		int32_t L_25 = L_24;
+		Atlas_t361685585 * L_26 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
+		if (L_26)
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		SkeletonDataAsset_Reset_m4062956355(__this, /*hidden argument*/NULL);
+		return (SkeletonData_t3387199699 *)NULL;
+	}
+
+IL_00d5:
+	{
+		int32_t L_27 = V_1;
+		V_1 = ((int32_t)((int32_t)L_27+(int32_t)1));
+	}
+
+IL_00d9:
+	{
+		int32_t L_28 = V_1;
+		AtlasAssetU5BU5D_t79606606* L_29 = __this->get_atlasAssets_2();
+		NullCheck(L_29);
+		if ((((int32_t)L_28) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_29)->max_length)))))))
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		SkeletonData_t3387199699 * L_30 = __this->get_skeletonData_10();
+		if (!L_30)
+		{
+			goto IL_00f9;
+		}
+	}
+	{
+		SkeletonData_t3387199699 * L_31 = __this->get_skeletonData_10();
+		return L_31;
+	}
+
+IL_00f9:
+	{
+		AtlasU5BU5D_t3146571084* L_32 = V_0;
+		AtlasAttachmentLoader_t384955783 * L_33 = (AtlasAttachmentLoader_t384955783 *)il2cpp_codegen_object_new(AtlasAttachmentLoader_t384955783_il2cpp_TypeInfo_var);
+		AtlasAttachmentLoader__ctor_m2851248059(L_33, L_32, /*hidden argument*/NULL);
+		V_2 = L_33;
+		float L_34 = __this->get_scale_3();
+		V_3 = L_34;
+	}
+
+IL_0107:
+	try
+	{ // begin try (depth: 1)
+		{
+			TextAsset_t3836129977 * L_35 = __this->get_skeletonJSON_4();
+			NullCheck(L_35);
+			String_t* L_36 = Object_get_name_m3709440845(L_35, /*hidden argument*/NULL);
+			NullCheck(L_36);
+			String_t* L_37 = String_ToLower_m2421900555(L_36, /*hidden argument*/NULL);
+			NullCheck(L_37);
+			bool L_38 = String_Contains_m3032019141(L_37, _stringLiteral46013997, /*hidden argument*/NULL);
+			if (!L_38)
+			{
+				goto IL_015c;
+			}
+		}
+
+IL_0126:
+		{
+			TextAsset_t3836129977 * L_39 = __this->get_skeletonJSON_4();
+			NullCheck(L_39);
+			ByteU5BU5D_t4260760469* L_40 = TextAsset_get_bytes_m2395427488(L_39, /*hidden argument*/NULL);
+			MemoryStream_t418716369 * L_41 = (MemoryStream_t418716369 *)il2cpp_codegen_object_new(MemoryStream_t418716369_il2cpp_TypeInfo_var);
+			MemoryStream__ctor_m1231145921(L_41, L_40, /*hidden argument*/NULL);
+			V_4 = L_41;
+			Il2CppObject * L_42 = V_2;
+			SkeletonBinary_t1569363754 * L_43 = (SkeletonBinary_t1569363754 *)il2cpp_codegen_object_new(SkeletonBinary_t1569363754_il2cpp_TypeInfo_var);
+			SkeletonBinary__ctor_m1105424577(L_43, L_42, /*hidden argument*/NULL);
+			V_5 = L_43;
+			SkeletonBinary_t1569363754 * L_44 = V_5;
+			float L_45 = V_3;
+			NullCheck(L_44);
+			SkeletonBinary_set_Scale_m3702740574(L_44, L_45, /*hidden argument*/NULL);
+			SkeletonBinary_t1569363754 * L_46 = V_5;
+			MemoryStream_t418716369 * L_47 = V_4;
+			NullCheck(L_46);
+			SkeletonData_t3387199699 * L_48 = SkeletonBinary_ReadSkeletonData_m932817025(L_46, L_47, /*hidden argument*/NULL);
+			__this->set_skeletonData_10(L_48);
+			goto IL_018d;
+		}
+
+IL_015c:
+		{
+			TextAsset_t3836129977 * L_49 = __this->get_skeletonJSON_4();
+			NullCheck(L_49);
+			String_t* L_50 = TextAsset_get_text_m655578209(L_49, /*hidden argument*/NULL);
+			StringReader_t4061477668 * L_51 = (StringReader_t4061477668 *)il2cpp_codegen_object_new(StringReader_t4061477668_il2cpp_TypeInfo_var);
+			StringReader__ctor_m1181104909(L_51, L_50, /*hidden argument*/NULL);
+			V_6 = L_51;
+			Il2CppObject * L_52 = V_2;
+			SkeletonJson_t3387395601 * L_53 = (SkeletonJson_t3387395601 *)il2cpp_codegen_object_new(SkeletonJson_t3387395601_il2cpp_TypeInfo_var);
+			SkeletonJson__ctor_m3918430970(L_53, L_52, /*hidden argument*/NULL);
+			V_7 = L_53;
+			SkeletonJson_t3387395601 * L_54 = V_7;
+			float L_55 = V_3;
+			NullCheck(L_54);
+			SkeletonJson_set_Scale_m1032979589(L_54, L_55, /*hidden argument*/NULL);
+			SkeletonJson_t3387395601 * L_56 = V_7;
+			StringReader_t4061477668 * L_57 = V_6;
+			NullCheck(L_56);
+			SkeletonData_t3387199699 * L_58 = SkeletonJson_ReadSkeletonData_m2639692376(L_56, L_57, /*hidden argument*/NULL);
+			__this->set_skeletonData_10(L_58);
+		}
+
+IL_018d:
+		{
+			goto IL_01ed;
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t3991598821 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t3991598821_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0192;
+		throw e;
+	}
+
+CATCH_0192:
+	{ // begin catch(System.Exception)
+		{
+			V_8 = ((Exception_t3991598821 *)__exception_local);
+			bool L_59 = ___quiet0;
+			if (L_59)
+			{
+				goto IL_01e0;
+			}
+		}
+
+IL_019a:
+		{
+			StringU5BU5D_t4054002952* L_60 = ((StringU5BU5D_t4054002952*)SZArrayNew(StringU5BU5D_t4054002952_il2cpp_TypeInfo_var, (uint32_t)6));
+			NullCheck(L_60);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_60, 0);
+			ArrayElementTypeCheck (L_60, _stringLiteral4016705399);
+			(L_60)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral4016705399);
+			StringU5BU5D_t4054002952* L_61 = L_60;
+			String_t* L_62 = Object_get_name_m3709440845(__this, /*hidden argument*/NULL);
+			NullCheck(L_61);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_61, 1);
+			ArrayElementTypeCheck (L_61, L_62);
+			(L_61)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_62);
+			StringU5BU5D_t4054002952* L_63 = L_61;
+			NullCheck(L_63);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_63, 2);
+			ArrayElementTypeCheck (L_63, _stringLiteral10);
+			(L_63)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral10);
+			StringU5BU5D_t4054002952* L_64 = L_63;
+			Exception_t3991598821 * L_65 = V_8;
+			NullCheck(L_65);
+			String_t* L_66 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_65);
+			NullCheck(L_64);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_64, 3);
+			ArrayElementTypeCheck (L_64, L_66);
+			(L_64)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_66);
+			StringU5BU5D_t4054002952* L_67 = L_64;
+			NullCheck(L_67);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_67, 4);
+			ArrayElementTypeCheck (L_67, _stringLiteral10);
+			(L_67)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral10);
+			StringU5BU5D_t4054002952* L_68 = L_67;
+			Exception_t3991598821 * L_69 = V_8;
+			NullCheck(L_69);
+			String_t* L_70 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Exception::get_StackTrace() */, L_69);
+			NullCheck(L_68);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_68, 5);
+			ArrayElementTypeCheck (L_68, L_70);
+			(L_68)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_70);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_71 = String_Concat_m21867311(NULL /*static, unused*/, L_68, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+			Debug_LogError_m214246398(NULL /*static, unused*/, L_71, __this, /*hidden argument*/NULL);
+		}
+
+IL_01e0:
+		{
+			V_9 = (SkeletonData_t3387199699 *)NULL;
+			goto IL_020b;
+		}
+
+IL_01e8:
+		{
+			; // IL_01e8: leave IL_01ed
+		}
+	} // end catch (depth: 1)
+
+IL_01ed:
+	{
+		SkeletonData_t3387199699 * L_72 = __this->get_skeletonData_10();
+		AnimationStateData_t250640307 * L_73 = (AnimationStateData_t250640307 *)il2cpp_codegen_object_new(AnimationStateData_t250640307_il2cpp_TypeInfo_var);
+		AnimationStateData__ctor_m1979486007(L_73, L_72, /*hidden argument*/NULL);
+		__this->set_stateData_11(L_73);
+		SkeletonDataAsset_FillStateData_m3628958284(__this, /*hidden argument*/NULL);
+		SkeletonData_t3387199699 * L_74 = __this->get_skeletonData_10();
+		return L_74;
+	}
+
+IL_020b:
+	{
+		SkeletonData_t3387199699 * L_75 = V_9;
+		return L_75;
+	}
+}
+// System.Void Spine.Unity.SkeletonDataAsset::FillStateData()
+extern "C"  void SkeletonDataAsset_FillStateData_m3628958284 (SkeletonDataAsset_t2211567523 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		AnimationStateData_t250640307 * L_0 = __this->get_stateData_11();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		AnimationStateData_t250640307 * L_1 = __this->get_stateData_11();
+		float L_2 = __this->get_defaultMix_8();
+		NullCheck(L_1);
+		AnimationStateData_set_DefaultMix_m2472451848(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = 0;
+		StringU5BU5D_t4054002952* L_3 = __this->get_fromAnimation_5();
+		NullCheck(L_3);
+		V_1 = (((int32_t)((int32_t)(((Il2CppArray *)L_3)->max_length))));
+		goto IL_007d;
+	}
+
+IL_002d:
+	{
+		StringU5BU5D_t4054002952* L_4 = __this->get_fromAnimation_5();
+		int32_t L_5 = V_0;
+		NullCheck(L_4);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, L_5);
+		int32_t L_6 = L_5;
+		String_t* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		NullCheck(L_7);
+		int32_t L_8 = String_get_Length_m2979997331(L_7, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		StringU5BU5D_t4054002952* L_9 = __this->get_toAnimation_6();
+		int32_t L_10 = V_0;
+		NullCheck(L_9);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_9, L_10);
+		int32_t L_11 = L_10;
+		String_t* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		NullCheck(L_12);
+		int32_t L_13 = String_get_Length_m2979997331(L_12, /*hidden argument*/NULL);
+		if (L_13)
+		{
+			goto IL_0056;
+		}
+	}
+
+IL_0051:
+	{
+		goto IL_0079;
+	}
+
+IL_0056:
+	{
+		AnimationStateData_t250640307 * L_14 = __this->get_stateData_11();
+		StringU5BU5D_t4054002952* L_15 = __this->get_fromAnimation_5();
+		int32_t L_16 = V_0;
+		NullCheck(L_15);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_15, L_16);
+		int32_t L_17 = L_16;
+		String_t* L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		StringU5BU5D_t4054002952* L_19 = __this->get_toAnimation_6();
+		int32_t L_20 = V_0;
+		NullCheck(L_19);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_19, L_20);
+		int32_t L_21 = L_20;
+		String_t* L_22 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		SingleU5BU5D_t2316563989* L_23 = __this->get_duration_7();
+		int32_t L_24 = V_0;
+		NullCheck(L_23);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_23, L_24);
+		int32_t L_25 = L_24;
+		float L_26 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
+		NullCheck(L_14);
+		AnimationStateData_SetMix_m1223237758(L_14, L_18, L_22, L_26, /*hidden argument*/NULL);
+	}
+
+IL_0079:
+	{
+		int32_t L_27 = V_0;
+		V_0 = ((int32_t)((int32_t)L_27+(int32_t)1));
+	}
+
+IL_007d:
+	{
+		int32_t L_28 = V_0;
+		int32_t L_29 = V_1;
+		if ((((int32_t)L_28) < ((int32_t)L_29)))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		return;
+	}
+}
+// Spine.AnimationStateData Spine.Unity.SkeletonDataAsset::GetAnimationStateData()
+extern "C"  AnimationStateData_t250640307 * SkeletonDataAsset_GetAnimationStateData_m86724476 (SkeletonDataAsset_t2211567523 * __this, const MethodInfo* method)
+{
+	{
+		AnimationStateData_t250640307 * L_0 = __this->get_stateData_11();
+		if (!L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		AnimationStateData_t250640307 * L_1 = __this->get_stateData_11();
+		return L_1;
+	}
+
+IL_0012:
+	{
+		SkeletonDataAsset_GetSkeletonData_m1404790387(__this, (bool)0, /*hidden argument*/NULL);
+		AnimationStateData_t250640307 * L_2 = __this->get_stateData_11();
+		return L_2;
+	}
+}
+// UnityEngine.Color Spine.Unity.SkeletonExtensions::GetColor(Spine.Skeleton)
+extern "C"  Color_t4194546905  SkeletonExtensions_GetColor_m1947104298 (Il2CppObject * __this /* static, unused */, Skeleton_t2209335561 * ___s0, const MethodInfo* method)
+{
+	{
+		Skeleton_t2209335561 * L_0 = ___s0;
+		NullCheck(L_0);
+		float L_1 = L_0->get_r_10();
+		Skeleton_t2209335561 * L_2 = ___s0;
+		NullCheck(L_2);
+		float L_3 = L_2->get_g_11();
+		Skeleton_t2209335561 * L_4 = ___s0;
+		NullCheck(L_4);
+		float L_5 = L_4->get_b_12();
+		Skeleton_t2209335561 * L_6 = ___s0;
+		NullCheck(L_6);
+		float L_7 = L_6->get_a_13();
+		Color_t4194546905  L_8;
+		memset(&L_8, 0, sizeof(L_8));
+		Color__ctor_m2252924356(&L_8, L_1, L_3, L_5, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+}
+// UnityEngine.Color Spine.Unity.SkeletonExtensions::GetColor(Spine.RegionAttachment)
+extern "C"  Color_t4194546905  SkeletonExtensions_GetColor_m1681981568 (Il2CppObject * __this /* static, unused */, RegionAttachment_t2459988211 * ___a0, const MethodInfo* method)
+{
+	{
+		RegionAttachment_t2459988211 * L_0 = ___a0;
+		NullCheck(L_0);
+		float L_1 = L_0->get_r_24();
+		RegionAttachment_t2459988211 * L_2 = ___a0;
+		NullCheck(L_2);
+		float L_3 = L_2->get_g_25();
+		RegionAttachment_t2459988211 * L_4 = ___a0;
+		NullCheck(L_4);
+		float L_5 = L_4->get_b_26();
+		RegionAttachment_t2459988211 * L_6 = ___a0;
+		NullCheck(L_6);
+		float L_7 = L_6->get_a_27();
+		Color_t4194546905  L_8;
+		memset(&L_8, 0, sizeof(L_8));
+		Color__ctor_m2252924356(&L_8, L_1, L_3, L_5, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+}
+// UnityEngine.Color Spine.Unity.SkeletonExtensions::GetColor(Spine.MeshAttachment)
+extern "C"  Color_t4194546905  SkeletonExtensions_GetColor_m2596831079 (Il2CppObject * __this /* static, unused */, MeshAttachment_t3373030252 * ___a0, const MethodInfo* method)
+{
+	{
+		MeshAttachment_t3373030252 * L_0 = ___a0;
+		NullCheck(L_0);
+		float L_1 = L_0->get_r_13();
+		MeshAttachment_t3373030252 * L_2 = ___a0;
+		NullCheck(L_2);
+		float L_3 = L_2->get_g_14();
+		MeshAttachment_t3373030252 * L_4 = ___a0;
+		NullCheck(L_4);
+		float L_5 = L_4->get_b_15();
+		MeshAttachment_t3373030252 * L_6 = ___a0;
+		NullCheck(L_6);
+		float L_7 = L_6->get_a_16();
+		Color_t4194546905  L_8;
+		memset(&L_8, 0, sizeof(L_8));
+		Color__ctor_m2252924356(&L_8, L_1, L_3, L_5, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+}
+// System.Void Spine.Unity.SkeletonExtensions::SetColor(Spine.Skeleton,UnityEngine.Color)
+extern "C"  void SkeletonExtensions_SetColor_m3209738743 (Il2CppObject * __this /* static, unused */, Skeleton_t2209335561 * ___skeleton0, Color_t4194546905  ___color1, const MethodInfo* method)
+{
+	{
+		Skeleton_t2209335561 * L_0 = ___skeleton0;
+		float L_1 = (&___color1)->get_a_3();
+		NullCheck(L_0);
+		Skeleton_set_A_m3160353798(L_0, L_1, /*hidden argument*/NULL);
+		Skeleton_t2209335561 * L_2 = ___skeleton0;
+		float L_3 = (&___color1)->get_r_0();
+		NullCheck(L_2);
+		Skeleton_set_R_m3071207381(L_2, L_3, /*hidden argument*/NULL);
+		Skeleton_t2209335561 * L_4 = ___skeleton0;
+		float L_5 = (&___color1)->get_g_1();
+		NullCheck(L_4);
+		Skeleton_set_G_m97148736(L_4, L_5, /*hidden argument*/NULL);
+		Skeleton_t2209335561 * L_6 = ___skeleton0;
+		float L_7 = (&___color1)->get_b_2();
+		NullCheck(L_6);
+		Skeleton_set_B_m2649819621(L_6, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonExtensions::SetColor(Spine.Skeleton,UnityEngine.Color32)
+extern "C"  void SkeletonExtensions_SetColor_m772424696 (Il2CppObject * __this /* static, unused */, Skeleton_t2209335561 * ___skeleton0, Color32_t598853688  ___color1, const MethodInfo* method)
+{
+	{
+		Skeleton_t2209335561 * L_0 = ___skeleton0;
+		uint8_t L_1 = (&___color1)->get_a_3();
+		NullCheck(L_0);
+		Skeleton_set_A_m3160353798(L_0, ((float)((float)(((float)((float)L_1)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		Skeleton_t2209335561 * L_2 = ___skeleton0;
+		uint8_t L_3 = (&___color1)->get_r_0();
+		NullCheck(L_2);
+		Skeleton_set_R_m3071207381(L_2, ((float)((float)(((float)((float)L_3)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		Skeleton_t2209335561 * L_4 = ___skeleton0;
+		uint8_t L_5 = (&___color1)->get_g_1();
+		NullCheck(L_4);
+		Skeleton_set_G_m97148736(L_4, ((float)((float)(((float)((float)L_5)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		Skeleton_t2209335561 * L_6 = ___skeleton0;
+		uint8_t L_7 = (&___color1)->get_b_2();
+		NullCheck(L_6);
+		Skeleton_set_B_m2649819621(L_6, ((float)((float)(((float)((float)L_7)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonExtensions::SetColor(Spine.Slot,UnityEngine.Color)
+extern "C"  void SkeletonExtensions_SetColor_m1787569702 (Il2CppObject * __this /* static, unused */, Slot_t1650993210 * ___slot0, Color_t4194546905  ___color1, const MethodInfo* method)
+{
+	{
+		Slot_t1650993210 * L_0 = ___slot0;
+		float L_1 = (&___color1)->get_a_3();
+		NullCheck(L_0);
+		Slot_set_A_m294278263(L_0, L_1, /*hidden argument*/NULL);
+		Slot_t1650993210 * L_2 = ___slot0;
+		float L_3 = (&___color1)->get_r_0();
+		NullCheck(L_2);
+		Slot_set_R_m205131846(L_2, L_3, /*hidden argument*/NULL);
+		Slot_t1650993210 * L_4 = ___slot0;
+		float L_5 = (&___color1)->get_g_1();
+		NullCheck(L_4);
+		Slot_set_G_m1526040497(L_4, L_5, /*hidden argument*/NULL);
+		Slot_t1650993210 * L_6 = ___slot0;
+		float L_7 = (&___color1)->get_b_2();
+		NullCheck(L_6);
+		Slot_set_B_m4078711382(L_6, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonExtensions::SetColor(Spine.Slot,UnityEngine.Color32)
+extern "C"  void SkeletonExtensions_SetColor_m4162543719 (Il2CppObject * __this /* static, unused */, Slot_t1650993210 * ___slot0, Color32_t598853688  ___color1, const MethodInfo* method)
+{
+	{
+		Slot_t1650993210 * L_0 = ___slot0;
+		uint8_t L_1 = (&___color1)->get_a_3();
+		NullCheck(L_0);
+		Slot_set_A_m294278263(L_0, ((float)((float)(((float)((float)L_1)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		Slot_t1650993210 * L_2 = ___slot0;
+		uint8_t L_3 = (&___color1)->get_r_0();
+		NullCheck(L_2);
+		Slot_set_R_m205131846(L_2, ((float)((float)(((float)((float)L_3)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		Slot_t1650993210 * L_4 = ___slot0;
+		uint8_t L_5 = (&___color1)->get_g_1();
+		NullCheck(L_4);
+		Slot_set_G_m1526040497(L_4, ((float)((float)(((float)((float)L_5)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		Slot_t1650993210 * L_6 = ___slot0;
+		uint8_t L_7 = (&___color1)->get_b_2();
+		NullCheck(L_6);
+		Slot_set_B_m4078711382(L_6, ((float)((float)(((float)((float)L_7)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonExtensions::SetColor(Spine.RegionAttachment,UnityEngine.Color)
+extern "C"  void SkeletonExtensions_SetColor_m2414534605 (Il2CppObject * __this /* static, unused */, RegionAttachment_t2459988211 * ___attachment0, Color_t4194546905  ___color1, const MethodInfo* method)
+{
+	{
+		RegionAttachment_t2459988211 * L_0 = ___attachment0;
+		float L_1 = (&___color1)->get_a_3();
+		NullCheck(L_0);
+		RegionAttachment_set_A_m711016560(L_0, L_1, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_2 = ___attachment0;
+		float L_3 = (&___color1)->get_r_0();
+		NullCheck(L_2);
+		RegionAttachment_set_R_m621870143(L_2, L_3, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_4 = ___attachment0;
+		float L_5 = (&___color1)->get_g_1();
+		NullCheck(L_4);
+		RegionAttachment_set_G_m1942778794(L_4, L_5, /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_6 = ___attachment0;
+		float L_7 = (&___color1)->get_b_2();
+		NullCheck(L_6);
+		RegionAttachment_set_B_m200482383(L_6, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonExtensions::SetColor(Spine.RegionAttachment,UnityEngine.Color32)
+extern "C"  void SkeletonExtensions_SetColor_m1085426766 (Il2CppObject * __this /* static, unused */, RegionAttachment_t2459988211 * ___attachment0, Color32_t598853688  ___color1, const MethodInfo* method)
+{
+	{
+		RegionAttachment_t2459988211 * L_0 = ___attachment0;
+		uint8_t L_1 = (&___color1)->get_a_3();
+		NullCheck(L_0);
+		RegionAttachment_set_A_m711016560(L_0, ((float)((float)(((float)((float)L_1)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_2 = ___attachment0;
+		uint8_t L_3 = (&___color1)->get_r_0();
+		NullCheck(L_2);
+		RegionAttachment_set_R_m621870143(L_2, ((float)((float)(((float)((float)L_3)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_4 = ___attachment0;
+		uint8_t L_5 = (&___color1)->get_g_1();
+		NullCheck(L_4);
+		RegionAttachment_set_G_m1942778794(L_4, ((float)((float)(((float)((float)L_5)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		RegionAttachment_t2459988211 * L_6 = ___attachment0;
+		uint8_t L_7 = (&___color1)->get_b_2();
+		NullCheck(L_6);
+		RegionAttachment_set_B_m200482383(L_6, ((float)((float)(((float)((float)L_7)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonExtensions::SetColor(Spine.MeshAttachment,UnityEngine.Color)
+extern "C"  void SkeletonExtensions_SetColor_m271084084 (Il2CppObject * __this /* static, unused */, MeshAttachment_t3373030252 * ___attachment0, Color_t4194546905  ___color1, const MethodInfo* method)
+{
+	{
+		MeshAttachment_t3373030252 * L_0 = ___attachment0;
+		float L_1 = (&___color1)->get_a_3();
+		NullCheck(L_0);
+		MeshAttachment_set_A_m1901376553(L_0, L_1, /*hidden argument*/NULL);
+		MeshAttachment_t3373030252 * L_2 = ___attachment0;
+		float L_3 = (&___color1)->get_r_0();
+		NullCheck(L_2);
+		MeshAttachment_set_R_m1812230136(L_2, L_3, /*hidden argument*/NULL);
+		MeshAttachment_t3373030252 * L_4 = ___attachment0;
+		float L_5 = (&___color1)->get_g_1();
+		NullCheck(L_4);
+		MeshAttachment_set_G_m3133138787(L_4, L_5, /*hidden argument*/NULL);
+		MeshAttachment_t3373030252 * L_6 = ___attachment0;
+		float L_7 = (&___color1)->get_b_2();
+		NullCheck(L_6);
+		MeshAttachment_set_B_m1390842376(L_6, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonExtensions::SetColor(Spine.MeshAttachment,UnityEngine.Color32)
+extern "C"  void SkeletonExtensions_SetColor_m2813778165 (Il2CppObject * __this /* static, unused */, MeshAttachment_t3373030252 * ___attachment0, Color32_t598853688  ___color1, const MethodInfo* method)
+{
+	{
+		MeshAttachment_t3373030252 * L_0 = ___attachment0;
+		uint8_t L_1 = (&___color1)->get_a_3();
+		NullCheck(L_0);
+		MeshAttachment_set_A_m1901376553(L_0, ((float)((float)(((float)((float)L_1)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		MeshAttachment_t3373030252 * L_2 = ___attachment0;
+		uint8_t L_3 = (&___color1)->get_r_0();
+		NullCheck(L_2);
+		MeshAttachment_set_R_m1812230136(L_2, ((float)((float)(((float)((float)L_3)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		MeshAttachment_t3373030252 * L_4 = ___attachment0;
+		uint8_t L_5 = (&___color1)->get_g_1();
+		NullCheck(L_4);
+		MeshAttachment_set_G_m3133138787(L_4, ((float)((float)(((float)((float)L_5)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		MeshAttachment_t3373030252 * L_6 = ___attachment0;
+		uint8_t L_7 = (&___color1)->get_b_2();
+		NullCheck(L_6);
+		MeshAttachment_set_B_m1390842376(L_6, ((float)((float)(((float)((float)L_7)))*(float)(0.003921569f))), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonExtensions::SetPosition(Spine.Bone,UnityEngine.Vector2)
+extern "C"  void SkeletonExtensions_SetPosition_m742553924 (Il2CppObject * __this /* static, unused */, Bone_t1650489600 * ___bone0, Vector2_t4282066565  ___position1, const MethodInfo* method)
+{
+	{
+		Bone_t1650489600 * L_0 = ___bone0;
+		float L_1 = (&___position1)->get_x_1();
+		NullCheck(L_0);
+		Bone_set_X_m1843272646(L_0, L_1, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_2 = ___bone0;
+		float L_3 = (&___position1)->get_y_2();
+		NullCheck(L_2);
+		Bone_set_Y_m1332738469(L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonExtensions::SetPosition(Spine.Bone,UnityEngine.Vector3)
+extern "C"  void SkeletonExtensions_SetPosition_m742553955 (Il2CppObject * __this /* static, unused */, Bone_t1650489600 * ___bone0, Vector3_t4282066566  ___position1, const MethodInfo* method)
+{
+	{
+		Bone_t1650489600 * L_0 = ___bone0;
+		float L_1 = (&___position1)->get_x_1();
+		NullCheck(L_0);
+		Bone_set_X_m1843272646(L_0, L_1, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_2 = ___bone0;
+		float L_3 = (&___position1)->get_y_2();
+		NullCheck(L_2);
+		Bone_set_Y_m1332738469(L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Vector2 Spine.Unity.SkeletonExtensions::GetSkeletonSpacePosition(Spine.Bone)
+extern "C"  Vector2_t4282066565  SkeletonExtensions_GetSkeletonSpacePosition_m1148021190 (Il2CppObject * __this /* static, unused */, Bone_t1650489600 * ___bone0, const MethodInfo* method)
+{
+	{
+		Bone_t1650489600 * L_0 = ___bone0;
+		NullCheck(L_0);
+		float L_1 = L_0->get_worldX_15();
+		Bone_t1650489600 * L_2 = ___bone0;
+		NullCheck(L_2);
+		float L_3 = L_2->get_worldY_18();
+		Vector2_t4282066565  L_4;
+		memset(&L_4, 0, sizeof(L_4));
+		Vector2__ctor_m1517109030(&L_4, L_1, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// UnityEngine.Vector3 Spine.Unity.SkeletonExtensions::GetWorldPosition(Spine.Bone,UnityEngine.Transform)
+extern "C"  Vector3_t4282066566  SkeletonExtensions_GetWorldPosition_m3325823925 (Il2CppObject * __this /* static, unused */, Bone_t1650489600 * ___bone0, Transform_t1659122786 * ___parentTransform1, const MethodInfo* method)
+{
+	{
+		Transform_t1659122786 * L_0 = ___parentTransform1;
+		Bone_t1650489600 * L_1 = ___bone0;
+		NullCheck(L_1);
+		float L_2 = L_1->get_worldX_15();
+		Bone_t1650489600 * L_3 = ___bone0;
+		NullCheck(L_3);
+		float L_4 = L_3->get_worldY_18();
+		Vector3_t4282066566  L_5;
+		memset(&L_5, 0, sizeof(L_5));
+		Vector3__ctor_m1846874791(&L_5, L_2, L_4, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Vector3_t4282066566  L_6 = Transform_TransformPoint_m437395512(L_0, L_5, /*hidden argument*/NULL);
+		return L_6;
+	}
+}
+// UnityEngine.Matrix4x4 Spine.Unity.SkeletonExtensions::GetMatrix4x4(Spine.Bone)
+extern Il2CppClass* Matrix4x4_t1651859333_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonExtensions_GetMatrix4x4_m166672147_MetadataUsageId;
+extern "C"  Matrix4x4_t1651859333  SkeletonExtensions_GetMatrix4x4_m166672147 (Il2CppObject * __this /* static, unused */, Bone_t1650489600 * ___bone0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonExtensions_GetMatrix4x4_m166672147_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Matrix4x4_t1651859333  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Initobj (Matrix4x4_t1651859333_il2cpp_TypeInfo_var, (&V_0));
+		Bone_t1650489600 * L_0 = ___bone0;
+		NullCheck(L_0);
+		float L_1 = L_0->get_a_13();
+		(&V_0)->set_m00_0(L_1);
+		Bone_t1650489600 * L_2 = ___bone0;
+		NullCheck(L_2);
+		float L_3 = L_2->get_b_14();
+		(&V_0)->set_m01_4(L_3);
+		Bone_t1650489600 * L_4 = ___bone0;
+		NullCheck(L_4);
+		float L_5 = L_4->get_worldX_15();
+		(&V_0)->set_m03_12(L_5);
+		Bone_t1650489600 * L_6 = ___bone0;
+		NullCheck(L_6);
+		float L_7 = L_6->get_c_16();
+		(&V_0)->set_m10_1(L_7);
+		Bone_t1650489600 * L_8 = ___bone0;
+		NullCheck(L_8);
+		float L_9 = L_8->get_d_17();
+		(&V_0)->set_m11_5(L_9);
+		Bone_t1650489600 * L_10 = ___bone0;
+		NullCheck(L_10);
+		float L_11 = L_10->get_worldY_18();
+		(&V_0)->set_m13_13(L_11);
+		(&V_0)->set_m33_15((1.0f));
+		Matrix4x4_t1651859333  L_12 = V_0;
+		return L_12;
+	}
+}
+// System.Void Spine.Unity.SkeletonGraphic::.ctor()
+extern Il2CppCodeGenString* _stringLiteral1544803905;
+extern const uint32_t SkeletonGraphic__ctor_m3911344020_MetadataUsageId;
+extern "C"  void SkeletonGraphic__ctor_m3911344020 (SkeletonGraphic_t438418661 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGraphic__ctor_m3911344020_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		__this->set_initialSkinName_29(_stringLiteral1544803905);
+		__this->set_timeScale_32((1.0f));
+		MaskableGraphic__ctor_m3514233785(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonGraphic::add_UpdateLocal(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonGraphic_add_UpdateLocal_m1573629749_MetadataUsageId;
+extern "C"  void SkeletonGraphic_add_UpdateLocal_m1573629749 (SkeletonGraphic_t438418661 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGraphic_add_UpdateLocal_m1573629749_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get_UpdateLocal_37();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_UpdateLocal_37(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonGraphic::remove_UpdateLocal(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonGraphic_remove_UpdateLocal_m585727796_MetadataUsageId;
+extern "C"  void SkeletonGraphic_remove_UpdateLocal_m585727796 (SkeletonGraphic_t438418661 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGraphic_remove_UpdateLocal_m585727796_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get_UpdateLocal_37();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_UpdateLocal_37(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonGraphic::add_UpdateWorld(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonGraphic_add_UpdateWorld_m3730756590_MetadataUsageId;
+extern "C"  void SkeletonGraphic_add_UpdateWorld_m3730756590 (SkeletonGraphic_t438418661 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGraphic_add_UpdateWorld_m3730756590_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get_UpdateWorld_38();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_UpdateWorld_38(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonGraphic::remove_UpdateWorld(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonGraphic_remove_UpdateWorld_m2742854637_MetadataUsageId;
+extern "C"  void SkeletonGraphic_remove_UpdateWorld_m2742854637 (SkeletonGraphic_t438418661 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGraphic_remove_UpdateWorld_m2742854637_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get_UpdateWorld_38();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_UpdateWorld_38(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonGraphic::add_UpdateComplete(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonGraphic_add_UpdateComplete_m563348091_MetadataUsageId;
+extern "C"  void SkeletonGraphic_add_UpdateComplete_m563348091 (SkeletonGraphic_t438418661 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGraphic_add_UpdateComplete_m563348091_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get_UpdateComplete_39();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_UpdateComplete_39(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonGraphic::remove_UpdateComplete(Spine.Unity.UpdateBonesDelegate)
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonGraphic_remove_UpdateComplete_m3387145756_MetadataUsageId;
+extern "C"  void SkeletonGraphic_remove_UpdateComplete_m3387145756 (SkeletonGraphic_t438418661 * __this, UpdateBonesDelegate_t4020151189 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGraphic_remove_UpdateComplete_m3387145756_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_0 = __this->get_UpdateComplete_39();
+		UpdateBonesDelegate_t4020151189 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_UpdateComplete_39(((UpdateBonesDelegate_t4020151189 *)CastclassSealed(L_2, UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// Spine.Unity.SkeletonDataAsset Spine.Unity.SkeletonGraphic::get_SkeletonDataAsset()
+extern "C"  SkeletonDataAsset_t2211567523 * SkeletonGraphic_get_SkeletonDataAsset_m1654373280 (SkeletonGraphic_t438418661 * __this, const MethodInfo* method)
+{
+	{
+		SkeletonDataAsset_t2211567523 * L_0 = __this->get_skeletonDataAsset_28();
+		return L_0;
+	}
+}
+// UnityEngine.Texture Spine.Unity.SkeletonGraphic::get_mainTexture()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonGraphic_get_mainTexture_m2667856346_MetadataUsageId;
+extern "C"  Texture_t2526458961 * SkeletonGraphic_get_mainTexture_m2667856346 (SkeletonGraphic_t438418661 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGraphic_get_mainTexture_m2667856346_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Texture_t2526458961 * G_B3_0 = NULL;
+	{
+		SkeletonDataAsset_t2211567523 * L_0 = __this->get_skeletonDataAsset_28();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		G_B3_0 = ((Texture_t2526458961 *)(NULL));
+		goto IL_0030;
+	}
+
+IL_0017:
+	{
+		SkeletonDataAsset_t2211567523 * L_2 = __this->get_skeletonDataAsset_28();
+		NullCheck(L_2);
+		AtlasAssetU5BU5D_t79606606* L_3 = L_2->get_atlasAssets_2();
+		NullCheck(L_3);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, 0);
+		int32_t L_4 = 0;
+		AtlasAsset_t1266833143 * L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		NullCheck(L_5);
+		MaterialU5BU5D_t170856778* L_6 = L_5->get_materials_3();
+		NullCheck(L_6);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 0);
+		int32_t L_7 = 0;
+		Material_t3870600107 * L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		NullCheck(L_8);
+		Texture_t2526458961 * L_9 = Material_get_mainTexture_m1012267054(L_8, /*hidden argument*/NULL);
+		G_B3_0 = L_9;
+	}
+
+IL_0030:
+	{
+		return G_B3_0;
+	}
+}
+// System.Void Spine.Unity.SkeletonGraphic::Awake()
+extern "C"  void SkeletonGraphic_Awake_m4148949239 (SkeletonGraphic_t438418661 * __this, const MethodInfo* method)
+{
+	{
+		UIBehaviour_Awake_m1499158687(__this, /*hidden argument*/NULL);
+		bool L_0 = SkeletonGraphic_get_IsValid_m4216943(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		SkeletonGraphic_Initialize_m2585340151(__this, (bool)0, /*hidden argument*/NULL);
+		VirtActionInvoker1< int32_t >::Invoke(34 /* System.Void Spine.Unity.SkeletonGraphic::Rebuild(UnityEngine.UI.CanvasUpdate) */, __this, 3);
+	}
+
+IL_001f:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonGraphic::Rebuild(UnityEngine.UI.CanvasUpdate)
+extern "C"  void SkeletonGraphic_Rebuild_m6627585 (SkeletonGraphic_t438418661 * __this, int32_t ___update0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___update0;
+		Graphic_Rebuild_m444579746(__this, L_0, /*hidden argument*/NULL);
+		CanvasRenderer_t3950887807 * L_1 = Graphic_get_canvasRenderer_m184553434(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		bool L_2 = CanvasRenderer_get_cull_m3343855795(L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0018:
+	{
+		int32_t L_3 = ___update0;
+		if ((!(((uint32_t)L_3) == ((uint32_t)3))))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		SkeletonGraphic_UpdateMesh_m2654495942(__this, /*hidden argument*/NULL);
+	}
+
+IL_0025:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonGraphic::Update()
+extern "C"  void SkeletonGraphic_Update_m2719442425 (SkeletonGraphic_t438418661 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_freeze_33();
+		if (!L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		float L_1 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		VirtActionInvoker1< float >::Invoke(76 /* System.Void Spine.Unity.SkeletonGraphic::Update(System.Single) */, __this, L_1);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonGraphic::Update(System.Single)
+extern "C"  void SkeletonGraphic_Update_m2951796818 (SkeletonGraphic_t438418661 * __this, float ___deltaTime0, const MethodInfo* method)
+{
+	{
+		bool L_0 = SkeletonGraphic_get_IsValid_m4216943(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		float L_1 = ___deltaTime0;
+		float L_2 = __this->get_timeScale_32();
+		___deltaTime0 = ((float)((float)L_1*(float)L_2));
+		Skeleton_t2209335561 * L_3 = __this->get_skeleton_34();
+		float L_4 = ___deltaTime0;
+		NullCheck(L_3);
+		Skeleton_Update_m3065263201(L_3, L_4, /*hidden argument*/NULL);
+		AnimationState_t964829161 * L_5 = __this->get_state_35();
+		float L_6 = ___deltaTime0;
+		NullCheck(L_5);
+		AnimationState_Update_m3128962945(L_5, L_6, /*hidden argument*/NULL);
+		AnimationState_t964829161 * L_7 = __this->get_state_35();
+		Skeleton_t2209335561 * L_8 = __this->get_skeleton_34();
+		NullCheck(L_7);
+		AnimationState_Apply_m2165066967(L_7, L_8, /*hidden argument*/NULL);
+		UpdateBonesDelegate_t4020151189 * L_9 = __this->get_UpdateLocal_37();
+		if (!L_9)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_10 = __this->get_UpdateLocal_37();
+		NullCheck(L_10);
+		UpdateBonesDelegate_Invoke_m4280713126(L_10, __this, /*hidden argument*/NULL);
+	}
+
+IL_0056:
+	{
+		Skeleton_t2209335561 * L_11 = __this->get_skeleton_34();
+		NullCheck(L_11);
+		Skeleton_UpdateWorldTransform_m2487614308(L_11, /*hidden argument*/NULL);
+		UpdateBonesDelegate_t4020151189 * L_12 = __this->get_UpdateWorld_38();
+		if (!L_12)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_13 = __this->get_UpdateWorld_38();
+		NullCheck(L_13);
+		UpdateBonesDelegate_Invoke_m4280713126(L_13, __this, /*hidden argument*/NULL);
+		Skeleton_t2209335561 * L_14 = __this->get_skeleton_34();
+		NullCheck(L_14);
+		Skeleton_UpdateWorldTransform_m2487614308(L_14, /*hidden argument*/NULL);
+	}
+
+IL_0083:
+	{
+		UpdateBonesDelegate_t4020151189 * L_15 = __this->get_UpdateComplete_39();
+		if (!L_15)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		UpdateBonesDelegate_t4020151189 * L_16 = __this->get_UpdateComplete_39();
+		NullCheck(L_16);
+		UpdateBonesDelegate_Invoke_m4280713126(L_16, __this, /*hidden argument*/NULL);
+	}
+
+IL_009a:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonGraphic::LateUpdate()
+extern "C"  void SkeletonGraphic_LateUpdate_m233015103 (SkeletonGraphic_t438418661 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_freeze_33();
+		if (!L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		SkeletonGraphic_UpdateMesh_m2654495942(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Spine.Skeleton Spine.Unity.SkeletonGraphic::get_Skeleton()
+extern "C"  Skeleton_t2209335561 * SkeletonGraphic_get_Skeleton_m2651590241 (SkeletonGraphic_t438418661 * __this, const MethodInfo* method)
+{
+	{
+		Skeleton_t2209335561 * L_0 = __this->get_skeleton_34();
+		return L_0;
+	}
+}
+// Spine.SkeletonData Spine.Unity.SkeletonGraphic::get_SkeletonData()
+extern "C"  SkeletonData_t3387199699 * SkeletonGraphic_get_SkeletonData_m3506109941 (SkeletonGraphic_t438418661 * __this, const MethodInfo* method)
+{
+	SkeletonData_t3387199699 * G_B3_0 = NULL;
+	{
+		Skeleton_t2209335561 * L_0 = __this->get_skeleton_34();
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		G_B3_0 = ((SkeletonData_t3387199699 *)(NULL));
+		goto IL_001c;
+	}
+
+IL_0011:
+	{
+		Skeleton_t2209335561 * L_1 = __this->get_skeleton_34();
+		NullCheck(L_1);
+		SkeletonData_t3387199699 * L_2 = L_1->get_data_0();
+		G_B3_0 = L_2;
+	}
+
+IL_001c:
+	{
+		return G_B3_0;
+	}
+}
+// System.Boolean Spine.Unity.SkeletonGraphic::get_IsValid()
+extern "C"  bool SkeletonGraphic_get_IsValid_m4216943 (SkeletonGraphic_t438418661 * __this, const MethodInfo* method)
+{
+	{
+		Skeleton_t2209335561 * L_0 = __this->get_skeleton_34();
+		return (bool)((((int32_t)((((Il2CppObject*)(Skeleton_t2209335561 *)L_0) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Spine.AnimationState Spine.Unity.SkeletonGraphic::get_AnimationState()
+extern "C"  AnimationState_t964829161 * SkeletonGraphic_get_AnimationState_m622681569 (SkeletonGraphic_t438418661 * __this, const MethodInfo* method)
+{
+	{
+		AnimationState_t964829161 * L_0 = __this->get_state_35();
+		return L_0;
+	}
+}
+// Spine.Unity.MeshGeneration.ISimpleMeshGenerator Spine.Unity.SkeletonGraphic::get_SpineMeshGenerator()
+extern "C"  Il2CppObject * SkeletonGraphic_get_SpineMeshGenerator_m1083772569 (SkeletonGraphic_t438418661 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_spineMeshGenerator_36();
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.SkeletonGraphic::Clear()
+extern "C"  void SkeletonGraphic_Clear_m1317477311 (SkeletonGraphic_t438418661 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_skeleton_34((Skeleton_t2209335561 *)NULL);
+		CanvasRenderer_t3950887807 * L_0 = Graphic_get_canvasRenderer_m184553434(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		CanvasRenderer_Clear_m1606508093(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonGraphic::Initialize(System.Boolean)
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* AnimationState_t964829161_il2cpp_TypeInfo_var;
+extern Il2CppClass* Skeleton_t2209335561_il2cpp_TypeInfo_var;
+extern Il2CppClass* ArraysSimpleMeshGenerator_t2506830120_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonGraphic_Initialize_m2585340151_MetadataUsageId;
+extern "C"  void SkeletonGraphic_Initialize_m2585340151 (SkeletonGraphic_t438418661 * __this, bool ___overwrite0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGraphic_Initialize_m2585340151_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	SkeletonData_t3387199699 * V_0 = NULL;
+	{
+		bool L_0 = SkeletonGraphic_get_IsValid_m4216943(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		bool L_1 = ___overwrite0;
+		if (L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		SkeletonDataAsset_t2211567523 * L_2 = __this->get_skeletonDataAsset_28();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_2, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0024:
+	{
+		SkeletonDataAsset_t2211567523 * L_4 = __this->get_skeletonDataAsset_28();
+		NullCheck(L_4);
+		SkeletonData_t3387199699 * L_5 = SkeletonDataAsset_GetSkeletonData_m1404790387(L_4, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_5;
+		SkeletonData_t3387199699 * L_6 = V_0;
+		if (L_6)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0038:
+	{
+		SkeletonDataAsset_t2211567523 * L_7 = __this->get_skeletonDataAsset_28();
+		NullCheck(L_7);
+		AtlasAssetU5BU5D_t79606606* L_8 = L_7->get_atlasAssets_2();
+		NullCheck(L_8);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_8)->max_length))))) <= ((int32_t)0)))
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		SkeletonDataAsset_t2211567523 * L_9 = __this->get_skeletonDataAsset_28();
+		NullCheck(L_9);
+		AtlasAssetU5BU5D_t79606606* L_10 = L_9->get_atlasAssets_2();
+		NullCheck(L_10);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 0);
+		int32_t L_11 = 0;
+		AtlasAsset_t1266833143 * L_12 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		NullCheck(L_12);
+		MaterialU5BU5D_t170856778* L_13 = L_12->get_materials_3();
+		NullCheck(L_13);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_13)->max_length))))) > ((int32_t)0)))
+		{
+			goto IL_0066;
+		}
+	}
+
+IL_0065:
+	{
+		return;
+	}
+
+IL_0066:
+	{
+		SkeletonDataAsset_t2211567523 * L_14 = __this->get_skeletonDataAsset_28();
+		NullCheck(L_14);
+		AnimationStateData_t250640307 * L_15 = SkeletonDataAsset_GetAnimationStateData_m86724476(L_14, /*hidden argument*/NULL);
+		AnimationState_t964829161 * L_16 = (AnimationState_t964829161 *)il2cpp_codegen_object_new(AnimationState_t964829161_il2cpp_TypeInfo_var);
+		AnimationState__ctor_m1915063009(L_16, L_15, /*hidden argument*/NULL);
+		__this->set_state_35(L_16);
+		AnimationState_t964829161 * L_17 = __this->get_state_35();
+		if (L_17)
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		SkeletonGraphic_Clear_m1317477311(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_008e:
+	{
+		SkeletonData_t3387199699 * L_18 = V_0;
+		Skeleton_t2209335561 * L_19 = (Skeleton_t2209335561 *)il2cpp_codegen_object_new(Skeleton_t2209335561_il2cpp_TypeInfo_var);
+		Skeleton__ctor_m652989985(L_19, L_18, /*hidden argument*/NULL);
+		__this->set_skeleton_34(L_19);
+		ArraysSimpleMeshGenerator_t2506830120 * L_20 = (ArraysSimpleMeshGenerator_t2506830120 *)il2cpp_codegen_object_new(ArraysSimpleMeshGenerator_t2506830120_il2cpp_TypeInfo_var);
+		ArraysSimpleMeshGenerator__ctor_m403445062(L_20, /*hidden argument*/NULL);
+		__this->set_spineMeshGenerator_36(L_20);
+		String_t* L_21 = __this->get_initialSkinName_29();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_22 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
+		if (L_22)
+		{
+			goto IL_00c6;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_23 = __this->get_skeleton_34();
+		String_t* L_24 = __this->get_initialSkinName_29();
+		NullCheck(L_23);
+		Skeleton_SetSkin_m3396853442(L_23, L_24, /*hidden argument*/NULL);
+	}
+
+IL_00c6:
+	{
+		String_t* L_25 = __this->get_startingAnimation_30();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_26 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
+		if (L_26)
+		{
+			goto IL_00ef;
+		}
+	}
+	{
+		AnimationState_t964829161 * L_27 = __this->get_state_35();
+		String_t* L_28 = __this->get_startingAnimation_30();
+		bool L_29 = __this->get_startingLoop_31();
+		NullCheck(L_27);
+		AnimationState_SetAnimation_m3671010114(L_27, 0, L_28, L_29, /*hidden argument*/NULL);
+	}
+
+IL_00ef:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonGraphic::UpdateMesh()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISimpleMeshGenerator_t1368828227_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonGraphic_UpdateMesh_m2654495942_MetadataUsageId;
+extern "C"  void SkeletonGraphic_UpdateMesh_m2654495942 (SkeletonGraphic_t438418661 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonGraphic_UpdateMesh_m2654495942_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		bool L_0 = SkeletonGraphic_get_IsValid_m4216943(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_1 = __this->get_skeleton_34();
+		Color_t4194546905  L_2 = VirtFuncInvoker0< Color_t4194546905  >::Invoke(21 /* UnityEngine.Color UnityEngine.UI.Graphic::get_color() */, __this);
+		SkeletonExtensions_SetColor_m3209738743(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		Canvas_t2727140764 * L_3 = Graphic_get_canvas_m4291384250(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_3, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		Il2CppObject * L_5 = __this->get_spineMeshGenerator_36();
+		Canvas_t2727140764 * L_6 = Graphic_get_canvas_m4291384250(__this, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		float L_7 = Canvas_get_referencePixelsPerUnit_m3759589197(L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		InterfaceActionInvoker1< float >::Invoke(2 /* System.Void Spine.Unity.MeshGeneration.ISimpleMeshGenerator::set_Scale(System.Single) */, ISimpleMeshGenerator_t1368828227_il2cpp_TypeInfo_var, L_5, L_7);
+	}
+
+IL_0043:
+	{
+		CanvasRenderer_t3950887807 * L_8 = Graphic_get_canvasRenderer_m184553434(__this, /*hidden argument*/NULL);
+		Il2CppObject * L_9 = __this->get_spineMeshGenerator_36();
+		Skeleton_t2209335561 * L_10 = __this->get_skeleton_34();
+		NullCheck(L_9);
+		Mesh_t4241756145 * L_11 = InterfaceFuncInvoker1< Mesh_t4241756145 *, Skeleton_t2209335561 * >::Invoke(0 /* UnityEngine.Mesh Spine.Unity.MeshGeneration.ISimpleMeshGenerator::GenerateMesh(Spine.Skeleton) */, ISimpleMeshGenerator_t1368828227_il2cpp_TypeInfo_var, L_9, L_10);
+		NullCheck(L_8);
+		CanvasRenderer_SetMesh_m1150548475(L_8, L_11, /*hidden argument*/NULL);
+	}
+
+IL_005f:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonRenderer::.ctor()
+extern Il2CppClass* StringU5BU5D_t4054002952_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t3019178762_il2cpp_TypeInfo_var;
+extern Il2CppClass* Dictionary_2_t807872303_il2cpp_TypeInfo_var;
+extern Il2CppClass* Dictionary_2_t3744150404_il2cpp_TypeInfo_var;
+extern Il2CppClass* Instruction_t629699354_il2cpp_TypeInfo_var;
+extern Il2CppClass* ExposedList_1_t1435450047_il2cpp_TypeInfo_var;
+extern Il2CppClass* ExposedList_1_t950565469_il2cpp_TypeInfo_var;
+extern Il2CppClass* MaterialU5BU5D_t170856778_il2cpp_TypeInfo_var;
+extern Il2CppClass* SingleU5BU5D_t2316563989_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2097807316_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m8450372_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m29071897_MethodInfo_var;
+extern const MethodInfo* ExposedList_1__ctor_m875623890_MethodInfo_var;
+extern const MethodInfo* ExposedList_1__ctor_m976986083_MethodInfo_var;
+extern const uint32_t SkeletonRenderer__ctor_m428100935_MetadataUsageId;
+extern "C"  void SkeletonRenderer__ctor_m428100935 (SkeletonRenderer_t3766155010 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRenderer__ctor_m428100935_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		__this->set_separatorSlotNames_5(((StringU5BU5D_t4054002952*)SZArrayNew(StringU5BU5D_t4054002952_il2cpp_TypeInfo_var, (uint32_t)0)));
+		List_1_t3019178762 * L_0 = (List_1_t3019178762 *)il2cpp_codegen_object_new(List_1_t3019178762_il2cpp_TypeInfo_var);
+		List_1__ctor_m2097807316(L_0, /*hidden argument*/List_1__ctor_m2097807316_MethodInfo_var);
+		__this->set_separatorSlots_6(L_0);
+		__this->set_renderMeshes_8((bool)1);
+		__this->set_pmaVertexColors_10((bool)1);
+		__this->set_disableRenderingOnOverride_14((bool)1);
+		Dictionary_2_t807872303 * L_1 = (Dictionary_2_t807872303 *)il2cpp_codegen_object_new(Dictionary_2_t807872303_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m8450372(L_1, /*hidden argument*/Dictionary_2__ctor_m8450372_MethodInfo_var);
+		__this->set_customMaterialOverride_15(L_1);
+		Dictionary_2_t3744150404 * L_2 = (Dictionary_2_t3744150404 *)il2cpp_codegen_object_new(Dictionary_2_t3744150404_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m29071897(L_2, /*hidden argument*/Dictionary_2__ctor_m29071897_MethodInfo_var);
+		__this->set_customSlotMaterials_16(L_2);
+		Instruction_t629699354 * L_3 = (Instruction_t629699354 *)il2cpp_codegen_object_new(Instruction_t629699354_il2cpp_TypeInfo_var);
+		Instruction__ctor_m2034109121(L_3, /*hidden argument*/NULL);
+		__this->set_currentInstructions_22(L_3);
+		ExposedList_1_t1435450047 * L_4 = (ExposedList_1_t1435450047 *)il2cpp_codegen_object_new(ExposedList_1_t1435450047_il2cpp_TypeInfo_var);
+		ExposedList_1__ctor_m875623890(L_4, /*hidden argument*/ExposedList_1__ctor_m875623890_MethodInfo_var);
+		__this->set_submeshes_23(L_4);
+		ExposedList_1_t950565469 * L_5 = (ExposedList_1_t950565469 *)il2cpp_codegen_object_new(ExposedList_1_t950565469_il2cpp_TypeInfo_var);
+		ExposedList_1__ctor_m976986083(L_5, /*hidden argument*/ExposedList_1__ctor_m976986083_MethodInfo_var);
+		__this->set_submeshMaterials_24(L_5);
+		__this->set_sharedMaterials_25(((MaterialU5BU5D_t170856778*)SZArrayNew(MaterialU5BU5D_t170856778_il2cpp_TypeInfo_var, (uint32_t)0)));
+		__this->set_tempVertices_26(((SingleU5BU5D_t2316563989*)SZArrayNew(SingleU5BU5D_t2316563989_il2cpp_TypeInfo_var, (uint32_t)8)));
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonRenderer::add_generateMeshOverride(Spine.Unity.SkeletonRenderer/InstructionDelegate)
+extern Il2CppClass* InstructionDelegate_t1629107544_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonRenderer_add_generateMeshOverride_m2420082545_MetadataUsageId;
+extern "C"  void SkeletonRenderer_add_generateMeshOverride_m2420082545 (SkeletonRenderer_t3766155010 * __this, InstructionDelegate_t1629107544 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRenderer_add_generateMeshOverride_m2420082545_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		InstructionDelegate_t1629107544 * L_0 = __this->get_generateMeshOverride_33();
+		InstructionDelegate_t1629107544 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_generateMeshOverride_33(((InstructionDelegate_t1629107544 *)CastclassSealed(L_2, InstructionDelegate_t1629107544_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonRenderer::remove_generateMeshOverride(Spine.Unity.SkeletonRenderer/InstructionDelegate)
+extern Il2CppClass* InstructionDelegate_t1629107544_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonRenderer_remove_generateMeshOverride_m1677746358_MetadataUsageId;
+extern "C"  void SkeletonRenderer_remove_generateMeshOverride_m1677746358 (SkeletonRenderer_t3766155010 * __this, InstructionDelegate_t1629107544 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRenderer_remove_generateMeshOverride_m1677746358_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		InstructionDelegate_t1629107544 * L_0 = __this->get_generateMeshOverride_33();
+		InstructionDelegate_t1629107544 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_generateMeshOverride_33(((InstructionDelegate_t1629107544 *)CastclassSealed(L_2, InstructionDelegate_t1629107544_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonRenderer::add_GenerateMeshOverride(Spine.Unity.SkeletonRenderer/InstructionDelegate)
+extern Il2CppClass* InstructionDelegate_t1629107544_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonRenderer_add_GenerateMeshOverride_m1949528977_MetadataUsageId;
+extern "C"  void SkeletonRenderer_add_GenerateMeshOverride_m1949528977 (SkeletonRenderer_t3766155010 * __this, InstructionDelegate_t1629107544 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRenderer_add_GenerateMeshOverride_m1949528977_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		InstructionDelegate_t1629107544 * L_0 = __this->get_generateMeshOverride_33();
+		InstructionDelegate_t1629107544 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_generateMeshOverride_33(((InstructionDelegate_t1629107544 *)CastclassSealed(L_2, InstructionDelegate_t1629107544_il2cpp_TypeInfo_var)));
+		bool L_3 = __this->get_disableRenderingOnOverride_14();
+		if (!L_3)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		InstructionDelegate_t1629107544 * L_4 = __this->get_generateMeshOverride_33();
+		if (!L_4)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		VirtActionInvoker1< bool >::Invoke(7 /* System.Void Spine.Unity.SkeletonRenderer::Initialize(System.Boolean) */, __this, (bool)0);
+		MeshRenderer_t2804666580 * L_5 = __this->get_meshRenderer_17();
+		NullCheck(L_5);
+		Renderer_set_enabled_m2514140131(L_5, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_0040:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonRenderer::remove_GenerateMeshOverride(Spine.Unity.SkeletonRenderer/InstructionDelegate)
+extern Il2CppClass* InstructionDelegate_t1629107544_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonRenderer_remove_GenerateMeshOverride_m1207192790_MetadataUsageId;
+extern "C"  void SkeletonRenderer_remove_GenerateMeshOverride_m1207192790 (SkeletonRenderer_t3766155010 * __this, InstructionDelegate_t1629107544 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRenderer_remove_GenerateMeshOverride_m1207192790_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		InstructionDelegate_t1629107544 * L_0 = __this->get_generateMeshOverride_33();
+		InstructionDelegate_t1629107544 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_generateMeshOverride_33(((InstructionDelegate_t1629107544 *)CastclassSealed(L_2, InstructionDelegate_t1629107544_il2cpp_TypeInfo_var)));
+		bool L_3 = __this->get_disableRenderingOnOverride_14();
+		if (!L_3)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		InstructionDelegate_t1629107544 * L_4 = __this->get_generateMeshOverride_33();
+		if (L_4)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		VirtActionInvoker1< bool >::Invoke(7 /* System.Void Spine.Unity.SkeletonRenderer::Initialize(System.Boolean) */, __this, (bool)0);
+		MeshRenderer_t2804666580 * L_5 = __this->get_meshRenderer_17();
+		NullCheck(L_5);
+		Renderer_set_enabled_m2514140131(L_5, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0040:
+	{
+		return;
+	}
+}
+// Spine.Unity.SkeletonDataAsset Spine.Unity.SkeletonRenderer::get_SkeletonDataAsset()
+extern "C"  SkeletonDataAsset_t2211567523 * SkeletonRenderer_get_SkeletonDataAsset_m3774422807 (SkeletonRenderer_t3766155010 * __this, const MethodInfo* method)
+{
+	{
+		SkeletonDataAsset_t2211567523 * L_0 = __this->get_skeletonDataAsset_3();
+		return L_0;
+	}
+}
+// System.Collections.Generic.Dictionary`2<UnityEngine.Material,UnityEngine.Material> Spine.Unity.SkeletonRenderer::get_CustomMaterialOverride()
+extern "C"  Dictionary_2_t807872303 * SkeletonRenderer_get_CustomMaterialOverride_m2720035376 (SkeletonRenderer_t3766155010 * __this, const MethodInfo* method)
+{
+	{
+		Dictionary_2_t807872303 * L_0 = __this->get_customMaterialOverride_15();
+		return L_0;
+	}
+}
+// System.Collections.Generic.Dictionary`2<Spine.Slot,UnityEngine.Material> Spine.Unity.SkeletonRenderer::get_CustomSlotMaterials()
+extern "C"  Dictionary_2_t3744150404 * SkeletonRenderer_get_CustomSlotMaterials_m305974590 (SkeletonRenderer_t3766155010 * __this, const MethodInfo* method)
+{
+	{
+		Dictionary_2_t3744150404 * L_0 = __this->get_customSlotMaterials_16();
+		return L_0;
+	}
+}
+// Spine.Skeleton Spine.Unity.SkeletonRenderer::get_Skeleton()
+extern "C"  Skeleton_t2209335561 * SkeletonRenderer_get_Skeleton_m3528944504 (SkeletonRenderer_t3766155010 * __this, const MethodInfo* method)
+{
+	{
+		VirtActionInvoker1< bool >::Invoke(7 /* System.Void Spine.Unity.SkeletonRenderer::Initialize(System.Boolean) */, __this, (bool)0);
+		Skeleton_t2209335561 * L_0 = __this->get_skeleton_20();
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.SkeletonRenderer::Awake()
+extern "C"  void SkeletonRenderer_Awake_m665706154 (SkeletonRenderer_t3766155010 * __this, const MethodInfo* method)
+{
+	{
+		VirtActionInvoker1< bool >::Invoke(7 /* System.Void Spine.Unity.SkeletonRenderer::Initialize(System.Boolean) */, __this, (bool)0);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonRenderer::Initialize(System.Boolean)
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* MaterialU5BU5D_t170856778_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* DoubleBuffered_1_t2301498939_il2cpp_TypeInfo_var;
+extern Il2CppClass* Vector3U5BU5D_t215400611_il2cpp_TypeInfo_var;
+extern Il2CppClass* Skeleton_t2209335561_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisMeshRenderer_t2804666580_m3731621022_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Clear_m2385895685_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Clear_m898279604_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisMeshFilter_t3839065225_m3816897097_MethodInfo_var;
+extern const MethodInfo* DoubleBuffered_1__ctor_m3989526703_MethodInfo_var;
+extern const MethodInfo* List_1_Clear_m3798907903_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m1792168132_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral557356013;
+extern Il2CppCodeGenString* _stringLiteral1544803905;
+extern const uint32_t SkeletonRenderer_Initialize_m1840709732_MetadataUsageId;
+extern "C"  void SkeletonRenderer_Initialize_m1840709732 (SkeletonRenderer_t3766155010 * __this, bool ___overwrite0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRenderer_Initialize_m1840709732_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	SkeletonData_t3387199699 * V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		bool L_0 = __this->get_valid_19();
+		if (!L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		bool L_1 = ___overwrite0;
+		if (L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		MeshFilter_t3839065225 * L_2 = __this->get_meshFilter_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_2, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		MeshFilter_t3839065225 * L_4 = __this->get_meshFilter_18();
+		NullCheck(L_4);
+		MeshFilter_set_sharedMesh_m793190055(L_4, (Mesh_t4241756145 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_002f:
+	{
+		MeshRenderer_t2804666580 * L_5 = Component_GetComponent_TisMeshRenderer_t2804666580_m3731621022(__this, /*hidden argument*/Component_GetComponent_TisMeshRenderer_t2804666580_m3731621022_MethodInfo_var);
+		__this->set_meshRenderer_17(L_5);
+		MeshRenderer_t2804666580 * L_6 = __this->get_meshRenderer_17();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_7 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_6, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		MeshRenderer_t2804666580 * L_8 = __this->get_meshRenderer_17();
+		NullCheck(L_8);
+		Renderer_set_sharedMaterial_m1064371045(L_8, (Material_t3870600107 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_0058:
+	{
+		Instruction_t629699354 * L_9 = __this->get_currentInstructions_22();
+		NullCheck(L_9);
+		Instruction_Clear_m3735209708(L_9, /*hidden argument*/NULL);
+		__this->set_vertices_27((Vector3U5BU5D_t215400611*)NULL);
+		__this->set_colors_28((Color32U5BU5D_t2960766953*)NULL);
+		__this->set_uvs_29((Vector2U5BU5D_t4024180168*)NULL);
+		__this->set_sharedMaterials_25(((MaterialU5BU5D_t170856778*)SZArrayNew(MaterialU5BU5D_t170856778_il2cpp_TypeInfo_var, (uint32_t)0)));
+		ExposedList_1_t950565469 * L_10 = __this->get_submeshMaterials_24();
+		NullCheck(L_10);
+		ExposedList_1_Clear_m2385895685(L_10, (bool)1, /*hidden argument*/ExposedList_1_Clear_m2385895685_MethodInfo_var);
+		ExposedList_1_t1435450047 * L_11 = __this->get_submeshes_23();
+		NullCheck(L_11);
+		ExposedList_1_Clear_m898279604(L_11, (bool)1, /*hidden argument*/ExposedList_1_Clear_m898279604_MethodInfo_var);
+		__this->set_skeleton_20((Skeleton_t2209335561 *)NULL);
+		__this->set_valid_19((bool)0);
+		SkeletonDataAsset_t2211567523 * L_12 = __this->get_skeletonDataAsset_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_13 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		if (L_13)
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		bool L_14 = __this->get_logErrors_13();
+		if (!L_14)
+		{
+			goto IL_00d0;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogError_m214246398(NULL /*static, unused*/, _stringLiteral557356013, __this, /*hidden argument*/NULL);
+	}
+
+IL_00d0:
+	{
+		return;
+	}
+
+IL_00d1:
+	{
+		SkeletonDataAsset_t2211567523 * L_15 = __this->get_skeletonDataAsset_3();
+		NullCheck(L_15);
+		SkeletonData_t3387199699 * L_16 = SkeletonDataAsset_GetSkeletonData_m1404790387(L_15, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_16;
+		SkeletonData_t3387199699 * L_17 = V_0;
+		if (L_17)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		return;
+	}
+
+IL_00e5:
+	{
+		__this->set_valid_19((bool)1);
+		MeshFilter_t3839065225 * L_18 = Component_GetComponent_TisMeshFilter_t3839065225_m3816897097(__this, /*hidden argument*/Component_GetComponent_TisMeshFilter_t3839065225_m3816897097_MethodInfo_var);
+		__this->set_meshFilter_18(L_18);
+		MeshRenderer_t2804666580 * L_19 = Component_GetComponent_TisMeshRenderer_t2804666580_m3731621022(__this, /*hidden argument*/Component_GetComponent_TisMeshRenderer_t2804666580_m3731621022_MethodInfo_var);
+		__this->set_meshRenderer_17(L_19);
+		DoubleBuffered_1_t2301498939 * L_20 = (DoubleBuffered_1_t2301498939 *)il2cpp_codegen_object_new(DoubleBuffered_1_t2301498939_il2cpp_TypeInfo_var);
+		DoubleBuffered_1__ctor_m3989526703(L_20, /*hidden argument*/DoubleBuffered_1__ctor_m3989526703_MethodInfo_var);
+		__this->set_doubleBufferedMesh_21(L_20);
+		__this->set_vertices_27(((Vector3U5BU5D_t215400611*)SZArrayNew(Vector3U5BU5D_t215400611_il2cpp_TypeInfo_var, (uint32_t)0)));
+		SkeletonData_t3387199699 * L_21 = V_0;
+		Skeleton_t2209335561 * L_22 = (Skeleton_t2209335561 *)il2cpp_codegen_object_new(Skeleton_t2209335561_il2cpp_TypeInfo_var);
+		Skeleton__ctor_m652989985(L_22, L_21, /*hidden argument*/NULL);
+		__this->set_skeleton_20(L_22);
+		String_t* L_23 = __this->get_initialSkinName_4();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_24 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
+		if (L_24)
+		{
+			goto IL_015d;
+		}
+	}
+	{
+		String_t* L_25 = __this->get_initialSkinName_4();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_26 = String_op_Inequality_m2125462205(NULL /*static, unused*/, L_25, _stringLiteral1544803905, /*hidden argument*/NULL);
+		if (!L_26)
+		{
+			goto IL_015d;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_27 = __this->get_skeleton_20();
+		String_t* L_28 = __this->get_initialSkinName_4();
+		NullCheck(L_27);
+		Skeleton_SetSkin_m3396853442(L_27, L_28, /*hidden argument*/NULL);
+	}
+
+IL_015d:
+	{
+		List_1_t3019178762 * L_29 = __this->get_separatorSlots_6();
+		NullCheck(L_29);
+		List_1_Clear_m3798907903(L_29, /*hidden argument*/List_1_Clear_m3798907903_MethodInfo_var);
+		V_1 = 0;
+		goto IL_0191;
+	}
+
+IL_016f:
+	{
+		List_1_t3019178762 * L_30 = __this->get_separatorSlots_6();
+		Skeleton_t2209335561 * L_31 = __this->get_skeleton_20();
+		StringU5BU5D_t4054002952* L_32 = __this->get_separatorSlotNames_5();
+		int32_t L_33 = V_1;
+		NullCheck(L_32);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_32, L_33);
+		int32_t L_34 = L_33;
+		String_t* L_35 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		NullCheck(L_31);
+		Slot_t1650993210 * L_36 = Skeleton_FindSlot_m43661110(L_31, L_35, /*hidden argument*/NULL);
+		NullCheck(L_30);
+		List_1_Add_m1792168132(L_30, L_36, /*hidden argument*/List_1_Add_m1792168132_MethodInfo_var);
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)((int32_t)L_37+(int32_t)1));
+	}
+
+IL_0191:
+	{
+		int32_t L_38 = V_1;
+		StringU5BU5D_t4054002952* L_39 = __this->get_separatorSlotNames_5();
+		NullCheck(L_39);
+		if ((((int32_t)L_38) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_39)->max_length)))))))
+		{
+			goto IL_016f;
+		}
+	}
+	{
+		VirtActionInvoker0::Invoke(8 /* System.Void Spine.Unity.SkeletonRenderer::LateUpdate() */, __this);
+		SkeletonRendererDelegate_t1530399696 * L_40 = __this->get_OnRebuild_2();
+		if (!L_40)
+		{
+			goto IL_01bc;
+		}
+	}
+	{
+		SkeletonRendererDelegate_t1530399696 * L_41 = __this->get_OnRebuild_2();
+		NullCheck(L_41);
+		SkeletonRendererDelegate_Invoke_m1692446061(L_41, __this, /*hidden argument*/NULL);
+	}
+
+IL_01bc:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonRenderer::LateUpdate()
+extern Il2CppClass* RegionAttachment_t2459988211_il2cpp_TypeInfo_var;
+extern Il2CppClass* MeshAttachment_t3373030252_il2cpp_TypeInfo_var;
+extern Il2CppClass* AtlasRegion_t1137030501_il2cpp_TypeInfo_var;
+extern Il2CppClass* Material_t3870600107_il2cpp_TypeInfo_var;
+extern Il2CppClass* SubmeshInstruction_t3643321593_il2cpp_TypeInfo_var;
+extern Il2CppClass* Vector3U5BU5D_t215400611_il2cpp_TypeInfo_var;
+extern Il2CppClass* SubmeshTriangleBuffer_t60517389_il2cpp_TypeInfo_var;
+extern const MethodInfo* ExposedList_1_Clear_m1335215477_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_GrowIfNeeded_m398750215_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Clear_m527332973_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Count_m569929807_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_TryGetValue_m850853568_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m330666598_MethodInfo_var;
+extern const MethodInfo* List_1_Contains_m2384215756_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Add_m3711082452_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Count_m3696362362_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_TryGetValue_m4134674027_MethodInfo_var;
+extern const MethodInfo* DoubleBuffered_1_GetNext_m3546445463_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Clear_m2385895685_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_set_Capacity_m3952974394_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Add_m4039530556_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_CopyTo_m537365899_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_ToArray_m2697498684_MethodInfo_var;
+extern const uint32_t SkeletonRenderer_LateUpdate_m2418094444_MetadataUsageId;
+extern "C"  void SkeletonRenderer_LateUpdate_m2418094444 (SkeletonRenderer_t3766155010 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonRenderer_LateUpdate_m2418094444_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	ExposedList_1_t3025925868 * V_0 = NULL;
+	SlotU5BU5D_t3107134879* V_1 = NULL;
+	int32_t V_2 = 0;
+	bool V_3 = false;
+	Instruction_t629699354 * V_4 = NULL;
+	ExposedList_1_t4224666065 * V_5 = NULL;
+	AttachmentU5BU5D_t3539071366* V_6 = NULL;
+	ExposedList_1_t723286955 * V_7 = NULL;
+	bool V_8 = false;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	int32_t V_12 = 0;
+	int32_t V_13 = 0;
+	Material_t3870600107 * V_14 = NULL;
+	int32_t V_15 = 0;
+	Slot_t1650993210 * V_16 = NULL;
+	Attachment_t2849733407 * V_17 = NULL;
+	Il2CppObject * V_18 = NULL;
+	int32_t V_19 = 0;
+	int32_t V_20 = 0;
+	RegionAttachment_t2459988211 * V_21 = NULL;
+	MeshAttachment_t3373030252 * V_22 = NULL;
+	Material_t3870600107 * V_23 = NULL;
+	bool V_24 = false;
+	SubmeshInstructionU5BU5D_t2859174660* V_25 = NULL;
+	int32_t V_26 = 0;
+	Material_t3870600107 * V_27 = NULL;
+	Material_t3870600107 * V_28 = NULL;
+	bool V_29 = false;
+	Vector3U5BU5D_t215400611* V_30 = NULL;
+	Vector3_t4282066566  V_31;
+	memset(&V_31, 0, sizeof(V_31));
+	int32_t V_32 = 0;
+	Vector3_t4282066566  V_33;
+	memset(&V_33, 0, sizeof(V_33));
+	Vector3_t4282066566  V_34;
+	memset(&V_34, 0, sizeof(V_34));
+	int32_t V_35 = 0;
+	SmartMesh_t2976236219 * V_36 = NULL;
+	Mesh_t4241756145 * V_37 = NULL;
+	Instruction_t629699354 * V_38 = NULL;
+	bool V_39 = false;
+	int32_t V_40 = 0;
+	ExposedList_1_t950565469 * V_41 = NULL;
+	int32_t V_42 = 0;
+	int32_t V_43 = 0;
+	bool V_44 = false;
+	int32_t V_45 = 0;
+	int32_t V_46 = 0;
+	SubmeshInstruction_t3643321593  V_47;
+	memset(&V_47, 0, sizeof(V_47));
+	SubmeshTriangleBuffer_t60517389 * V_48 = NULL;
+	int32_t V_49 = 0;
+	int32_t V_50 = 0;
+	int32_t V_51 = 0;
+	SubmeshTriangleBuffer_t60517389 * V_52 = NULL;
+	MaterialU5BU5D_t170856778* V_53 = NULL;
+	bool V_54 = false;
+	SubmeshInstructionU5BU5D_t2859174660* V_55 = NULL;
+	int32_t V_56 = 0;
+	int32_t V_57 = 0;
+	SubmeshInstruction_t3643321593  V_58;
+	memset(&V_58, 0, sizeof(V_58));
+	SubmeshInstruction_t3643321593  V_59;
+	memset(&V_59, 0, sizeof(V_59));
+	Vector3U5BU5D_t215400611* V_60 = NULL;
+	int32_t G_B21_0 = 0;
+	int32_t G_B75_0 = 0;
+	{
+		bool L_0 = __this->get_valid_19();
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		MeshRenderer_t2804666580 * L_1 = __this->get_meshRenderer_17();
+		NullCheck(L_1);
+		bool L_2 = Renderer_get_enabled_m1971819706(L_1, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		InstructionDelegate_t1629107544 * L_3 = __this->get_generateMeshOverride_33();
+		if (L_3)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0028:
+	{
+		Skeleton_t2209335561 * L_4 = __this->get_skeleton_20();
+		NullCheck(L_4);
+		ExposedList_1_t3025925868 * L_5 = L_4->get_drawOrder_3();
+		V_0 = L_5;
+		ExposedList_1_t3025925868 * L_6 = V_0;
+		NullCheck(L_6);
+		SlotU5BU5D_t3107134879* L_7 = L_6->get_Items_1();
+		V_1 = L_7;
+		ExposedList_1_t3025925868 * L_8 = V_0;
+		NullCheck(L_8);
+		int32_t L_9 = L_8->get_Count_2();
+		V_2 = L_9;
+		bool L_10 = __this->get_renderMeshes_8();
+		V_3 = L_10;
+		Instruction_t629699354 * L_11 = __this->get_currentInstructions_22();
+		V_4 = L_11;
+		Instruction_t629699354 * L_12 = V_4;
+		NullCheck(L_12);
+		ExposedList_1_t4224666065 * L_13 = L_12->get_attachments_2();
+		V_5 = L_13;
+		ExposedList_1_t4224666065 * L_14 = V_5;
+		NullCheck(L_14);
+		ExposedList_1_Clear_m1335215477(L_14, (bool)0, /*hidden argument*/ExposedList_1_Clear_m1335215477_MethodInfo_var);
+		ExposedList_1_t4224666065 * L_15 = V_5;
+		int32_t L_16 = V_2;
+		NullCheck(L_15);
+		ExposedList_1_GrowIfNeeded_m398750215(L_15, L_16, /*hidden argument*/ExposedList_1_GrowIfNeeded_m398750215_MethodInfo_var);
+		ExposedList_1_t4224666065 * L_17 = V_5;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		L_17->set_Count_2(L_18);
+		Instruction_t629699354 * L_19 = V_4;
+		NullCheck(L_19);
+		ExposedList_1_t4224666065 * L_20 = L_19->get_attachments_2();
+		NullCheck(L_20);
+		AttachmentU5BU5D_t3539071366* L_21 = L_20->get_Items_1();
+		V_6 = L_21;
+		Instruction_t629699354 * L_22 = V_4;
+		NullCheck(L_22);
+		ExposedList_1_t723286955 * L_23 = L_22->get_submeshInstructions_3();
+		V_7 = L_23;
+		ExposedList_1_t723286955 * L_24 = V_7;
+		NullCheck(L_24);
+		ExposedList_1_Clear_m527332973(L_24, (bool)0, /*hidden argument*/ExposedList_1_Clear_m527332973_MethodInfo_var);
+		Dictionary_2_t3744150404 * L_25 = __this->get_customSlotMaterials_16();
+		NullCheck(L_25);
+		int32_t L_26 = Dictionary_2_get_Count_m569929807(L_25, /*hidden argument*/Dictionary_2_get_Count_m569929807_MethodInfo_var);
+		V_8 = (bool)((((int32_t)L_26) > ((int32_t)0))? 1 : 0);
+		V_9 = 0;
+		V_10 = 0;
+		V_11 = 0;
+		V_12 = 0;
+		V_13 = 0;
+		V_14 = (Material_t3870600107 *)NULL;
+		V_15 = 0;
+		goto IL_0258;
+	}
+
+IL_00bb:
+	{
+		SlotU5BU5D_t3107134879* L_27 = V_1;
+		int32_t L_28 = V_15;
+		NullCheck(L_27);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_27, L_28);
+		int32_t L_29 = L_28;
+		Slot_t1650993210 * L_30 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		V_16 = L_30;
+		Slot_t1650993210 * L_31 = V_16;
+		NullCheck(L_31);
+		Attachment_t2849733407 * L_32 = L_31->get_attachment_6();
+		V_17 = L_32;
+		AttachmentU5BU5D_t3539071366* L_33 = V_6;
+		int32_t L_34 = V_15;
+		Attachment_t2849733407 * L_35 = V_17;
+		NullCheck(L_33);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_33, L_34);
+		ArrayElementTypeCheck (L_33, L_35);
+		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(L_34), (Attachment_t2849733407 *)L_35);
+		Attachment_t2849733407 * L_36 = V_17;
+		V_21 = ((RegionAttachment_t2459988211 *)IsInstClass(L_36, RegionAttachment_t2459988211_il2cpp_TypeInfo_var));
+		RegionAttachment_t2459988211 * L_37 = V_21;
+		if (!L_37)
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		RegionAttachment_t2459988211 * L_38 = V_21;
+		NullCheck(L_38);
+		Il2CppObject * L_39 = RegionAttachment_get_RendererObject_m2849547211(L_38, /*hidden argument*/NULL);
+		V_18 = L_39;
+		V_19 = 4;
+		V_20 = 6;
+		goto IL_0139;
+	}
+
+IL_00f5:
+	{
+		bool L_40 = V_3;
+		if (L_40)
+		{
+			goto IL_0100;
+		}
+	}
+	{
+		goto IL_0252;
+	}
+
+IL_0100:
+	{
+		Attachment_t2849733407 * L_41 = V_17;
+		V_22 = ((MeshAttachment_t3373030252 *)IsInstClass(L_41, MeshAttachment_t3373030252_il2cpp_TypeInfo_var));
+		MeshAttachment_t3373030252 * L_42 = V_22;
+		if (!L_42)
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		MeshAttachment_t3373030252 * L_43 = V_22;
+		NullCheck(L_43);
+		Il2CppObject * L_44 = MeshAttachment_get_RendererObject_m2766987460(L_43, /*hidden argument*/NULL);
+		V_18 = L_44;
+		MeshAttachment_t3373030252 * L_45 = V_22;
+		NullCheck(L_45);
+		int32_t L_46 = ((VertexAttachment_t2433703843 *)L_45)->get_worldVerticesLength_3();
+		V_19 = ((int32_t)((int32_t)L_46>>(int32_t)1));
+		MeshAttachment_t3373030252 * L_47 = V_22;
+		NullCheck(L_47);
+		Int32U5BU5D_t3230847821* L_48 = L_47->get_triangles_12();
+		NullCheck(L_48);
+		V_20 = (((int32_t)((int32_t)(((Il2CppArray *)L_48)->max_length))));
+		goto IL_0139;
+	}
+
+IL_0134:
+	{
+		goto IL_0252;
+	}
+
+IL_0139:
+	{
+		bool L_49 = V_8;
+		if (!L_49)
+		{
+			goto IL_0171;
+		}
+	}
+	{
+		Dictionary_2_t3744150404 * L_50 = __this->get_customSlotMaterials_16();
+		Slot_t1650993210 * L_51 = V_16;
+		NullCheck(L_50);
+		bool L_52 = Dictionary_2_TryGetValue_m850853568(L_50, L_51, (&V_23), /*hidden argument*/Dictionary_2_TryGetValue_m850853568_MethodInfo_var);
+		if (L_52)
+		{
+			goto IL_016c;
+		}
+	}
+	{
+		Il2CppObject * L_53 = V_18;
+		NullCheck(((AtlasRegion_t1137030501 *)CastclassClass(L_53, AtlasRegion_t1137030501_il2cpp_TypeInfo_var)));
+		AtlasPage_t3096131840 * L_54 = ((AtlasRegion_t1137030501 *)CastclassClass(L_53, AtlasRegion_t1137030501_il2cpp_TypeInfo_var))->get_page_0();
+		NullCheck(L_54);
+		Il2CppObject * L_55 = L_54->get_rendererObject_6();
+		V_23 = ((Material_t3870600107 *)CastclassClass(L_55, Material_t3870600107_il2cpp_TypeInfo_var));
+	}
+
+IL_016c:
+	{
+		goto IL_0189;
+	}
+
+IL_0171:
+	{
+		Il2CppObject * L_56 = V_18;
+		NullCheck(((AtlasRegion_t1137030501 *)CastclassClass(L_56, AtlasRegion_t1137030501_il2cpp_TypeInfo_var)));
+		AtlasPage_t3096131840 * L_57 = ((AtlasRegion_t1137030501 *)CastclassClass(L_56, AtlasRegion_t1137030501_il2cpp_TypeInfo_var))->get_page_0();
+		NullCheck(L_57);
+		Il2CppObject * L_58 = L_57->get_rendererObject_6();
+		V_23 = ((Material_t3870600107 *)CastclassClass(L_58, Material_t3870600107_il2cpp_TypeInfo_var));
+	}
+
+IL_0189:
+	{
+		List_1_t3019178762 * L_59 = __this->get_separatorSlots_6();
+		NullCheck(L_59);
+		int32_t L_60 = List_1_get_Count_m330666598(L_59, /*hidden argument*/List_1_get_Count_m330666598_MethodInfo_var);
+		if ((((int32_t)L_60) <= ((int32_t)0)))
+		{
+			goto IL_01a9;
+		}
+	}
+	{
+		List_1_t3019178762 * L_61 = __this->get_separatorSlots_6();
+		Slot_t1650993210 * L_62 = V_16;
+		NullCheck(L_61);
+		bool L_63 = List_1_Contains_m2384215756(L_61, L_62, /*hidden argument*/List_1_Contains_m2384215756_MethodInfo_var);
+		G_B21_0 = ((int32_t)(L_63));
+		goto IL_01aa;
+	}
+
+IL_01a9:
+	{
+		G_B21_0 = 0;
+	}
+
+IL_01aa:
+	{
+		V_24 = (bool)G_B21_0;
+		int32_t L_64 = V_9;
+		if ((((int32_t)L_64) <= ((int32_t)0)))
+		{
+			goto IL_0239;
+		}
+	}
+	{
+		Material_t3870600107 * L_65 = V_14;
+		NullCheck(L_65);
+		int32_t L_66 = Object_GetInstanceID_m200424466(L_65, /*hidden argument*/NULL);
+		Material_t3870600107 * L_67 = V_23;
+		NullCheck(L_67);
+		int32_t L_68 = Object_GetInstanceID_m200424466(L_67, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_66) == ((uint32_t)L_68))))
+		{
+			goto IL_01ce;
+		}
+	}
+	{
+		bool L_69 = V_24;
+		if (!L_69)
+		{
+			goto IL_0239;
+		}
+	}
+
+IL_01ce:
+	{
+		ExposedList_1_t723286955 * L_70 = V_7;
+		Initobj (SubmeshInstruction_t3643321593_il2cpp_TypeInfo_var, (&V_58));
+		Skeleton_t2209335561 * L_71 = __this->get_skeleton_20();
+		(&V_58)->set_skeleton_0(L_71);
+		Material_t3870600107 * L_72 = V_14;
+		(&V_58)->set_material_3(L_72);
+		int32_t L_73 = V_13;
+		(&V_58)->set_startSlot_1(L_73);
+		int32_t L_74 = V_15;
+		(&V_58)->set_endSlot_2(L_74);
+		int32_t L_75 = V_11;
+		(&V_58)->set_triangleCount_4(L_75);
+		int32_t L_76 = V_12;
+		(&V_58)->set_firstVertexIndex_6(L_76);
+		int32_t L_77 = V_10;
+		(&V_58)->set_vertexCount_5(L_77);
+		bool L_78 = V_24;
+		(&V_58)->set_forceSeparate_7(L_78);
+		SubmeshInstruction_t3643321593  L_79 = V_58;
+		NullCheck(L_70);
+		ExposedList_1_Add_m3711082452(L_70, L_79, /*hidden argument*/ExposedList_1_Add_m3711082452_MethodInfo_var);
+		V_11 = 0;
+		V_10 = 0;
+		int32_t L_80 = V_9;
+		V_12 = L_80;
+		int32_t L_81 = V_15;
+		V_13 = L_81;
+	}
+
+IL_0239:
+	{
+		Material_t3870600107 * L_82 = V_23;
+		V_14 = L_82;
+		int32_t L_83 = V_11;
+		int32_t L_84 = V_20;
+		V_11 = ((int32_t)((int32_t)L_83+(int32_t)L_84));
+		int32_t L_85 = V_9;
+		int32_t L_86 = V_19;
+		V_9 = ((int32_t)((int32_t)L_85+(int32_t)L_86));
+		int32_t L_87 = V_10;
+		int32_t L_88 = V_19;
+		V_10 = ((int32_t)((int32_t)L_87+(int32_t)L_88));
+	}
+
+IL_0252:
+	{
+		int32_t L_89 = V_15;
+		V_15 = ((int32_t)((int32_t)L_89+(int32_t)1));
+	}
+
+IL_0258:
+	{
+		int32_t L_90 = V_15;
+		int32_t L_91 = V_2;
+		if ((((int32_t)L_90) < ((int32_t)L_91)))
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		int32_t L_92 = V_10;
+		if (!L_92)
+		{
+			goto IL_02c2;
+		}
+	}
+	{
+		ExposedList_1_t723286955 * L_93 = V_7;
+		Initobj (SubmeshInstruction_t3643321593_il2cpp_TypeInfo_var, (&V_59));
+		Skeleton_t2209335561 * L_94 = __this->get_skeleton_20();
+		(&V_59)->set_skeleton_0(L_94);
+		Material_t3870600107 * L_95 = V_14;
+		(&V_59)->set_material_3(L_95);
+		int32_t L_96 = V_13;
+		(&V_59)->set_startSlot_1(L_96);
+		int32_t L_97 = V_2;
+		(&V_59)->set_endSlot_2(L_97);
+		int32_t L_98 = V_11;
+		(&V_59)->set_triangleCount_4(L_98);
+		int32_t L_99 = V_12;
+		(&V_59)->set_firstVertexIndex_6(L_99);
+		int32_t L_100 = V_10;
+		(&V_59)->set_vertexCount_5(L_100);
+		(&V_59)->set_forceSeparate_7((bool)0);
+		SubmeshInstruction_t3643321593  L_101 = V_59;
+		NullCheck(L_93);
+		ExposedList_1_Add_m3711082452(L_93, L_101, /*hidden argument*/ExposedList_1_Add_m3711082452_MethodInfo_var);
+	}
+
+IL_02c2:
+	{
+		Instruction_t629699354 * L_102 = V_4;
+		int32_t L_103 = V_9;
+		NullCheck(L_102);
+		L_102->set_vertexCount_1(L_103);
+		Instruction_t629699354 * L_104 = V_4;
+		bool L_105 = __this->get_immutableTriangles_9();
+		NullCheck(L_104);
+		L_104->set_immutableTriangles_0(L_105);
+		Dictionary_2_t807872303 * L_106 = __this->get_customMaterialOverride_15();
+		NullCheck(L_106);
+		int32_t L_107 = Dictionary_2_get_Count_m3696362362(L_106, /*hidden argument*/Dictionary_2_get_Count_m3696362362_MethodInfo_var);
+		if ((((int32_t)L_107) <= ((int32_t)0)))
+		{
+			goto IL_0342;
+		}
+	}
+	{
+		ExposedList_1_t723286955 * L_108 = V_7;
+		NullCheck(L_108);
+		SubmeshInstructionU5BU5D_t2859174660* L_109 = L_108->get_Items_1();
+		V_25 = L_109;
+		V_26 = 0;
+		goto IL_0334;
+	}
+
+IL_02fa:
+	{
+		SubmeshInstructionU5BU5D_t2859174660* L_110 = V_25;
+		int32_t L_111 = V_26;
+		NullCheck(L_110);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_110, L_111);
+		Material_t3870600107 * L_112 = ((L_110)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_111)))->get_material_3();
+		V_27 = L_112;
+		Dictionary_2_t807872303 * L_113 = __this->get_customMaterialOverride_15();
+		Material_t3870600107 * L_114 = V_27;
+		NullCheck(L_113);
+		bool L_115 = Dictionary_2_TryGetValue_m4134674027(L_113, L_114, (&V_28), /*hidden argument*/Dictionary_2_TryGetValue_m4134674027_MethodInfo_var);
+		if (!L_115)
+		{
+			goto IL_032e;
+		}
+	}
+	{
+		SubmeshInstructionU5BU5D_t2859174660* L_116 = V_25;
+		int32_t L_117 = V_26;
+		NullCheck(L_116);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_116, L_117);
+		Material_t3870600107 * L_118 = V_28;
+		((L_116)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_117)))->set_material_3(L_118);
+	}
+
+IL_032e:
+	{
+		int32_t L_119 = V_26;
+		V_26 = ((int32_t)((int32_t)L_119+(int32_t)1));
+	}
+
+IL_0334:
+	{
+		int32_t L_120 = V_26;
+		ExposedList_1_t723286955 * L_121 = V_7;
+		NullCheck(L_121);
+		int32_t L_122 = L_121->get_Count_2();
+		if ((((int32_t)L_120) < ((int32_t)L_122)))
+		{
+			goto IL_02fa;
+		}
+	}
+
+IL_0342:
+	{
+		InstructionDelegate_t1629107544 * L_123 = __this->get_generateMeshOverride_33();
+		if (!L_123)
+		{
+			goto IL_0366;
+		}
+	}
+	{
+		InstructionDelegate_t1629107544 * L_124 = __this->get_generateMeshOverride_33();
+		Instruction_t629699354 * L_125 = V_4;
+		NullCheck(L_124);
+		InstructionDelegate_Invoke_m917272383(L_124, L_125, /*hidden argument*/NULL);
+		bool L_126 = __this->get_disableRenderingOnOverride_14();
+		if (!L_126)
+		{
+			goto IL_0366;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0366:
+	{
+		int32_t L_127 = V_9;
+		Vector3U5BU5D_t215400611** L_128 = __this->get_address_of_vertices_27();
+		Vector2U5BU5D_t4024180168** L_129 = __this->get_address_of_uvs_29();
+		Color32U5BU5D_t2960766953** L_130 = __this->get_address_of_colors_28();
+		bool L_131 = ArraysMeshGenerator_EnsureSize_m2934786490(NULL /*static, unused*/, L_127, L_128, L_129, L_130, /*hidden argument*/NULL);
+		V_29 = L_131;
+		bool L_132 = V_29;
+		if (!L_132)
+		{
+			goto IL_03e4;
+		}
+	}
+	{
+		bool L_133 = __this->get_calculateNormals_11();
+		if (!L_133)
+		{
+			goto IL_03e4;
+		}
+	}
+	{
+		int32_t L_134 = V_9;
+		Vector3U5BU5D_t215400611* L_135 = ((Vector3U5BU5D_t215400611*)SZArrayNew(Vector3U5BU5D_t215400611_il2cpp_TypeInfo_var, (uint32_t)L_134));
+		V_60 = L_135;
+		__this->set_normals_30(L_135);
+		Vector3U5BU5D_t215400611* L_136 = V_60;
+		V_30 = L_136;
+		Vector3__ctor_m2926210380((&V_31), (0.0f), (0.0f), (-1.0f), /*hidden argument*/NULL);
+		V_32 = 0;
+		goto IL_03db;
+	}
+
+IL_03c5:
+	{
+		Vector3U5BU5D_t215400611* L_137 = V_30;
+		int32_t L_138 = V_32;
+		NullCheck(L_137);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_137, L_138);
+		Vector3_t4282066566  L_139 = V_31;
+		(*(Vector3_t4282066566 *)((L_137)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_138)))) = L_139;
+		int32_t L_140 = V_32;
+		V_32 = ((int32_t)((int32_t)L_140+(int32_t)1));
+	}
+
+IL_03db:
+	{
+		int32_t L_141 = V_32;
+		int32_t L_142 = V_9;
+		if ((((int32_t)L_141) < ((int32_t)L_142)))
+		{
+			goto IL_03c5;
+		}
+	}
+
+IL_03e4:
+	{
+		int32_t L_143 = V_9;
+		if ((((int32_t)L_143) > ((int32_t)0)))
+		{
+			goto IL_041d;
+		}
+	}
+	{
+		Vector3__ctor_m2926210380((&V_33), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380((&V_34), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		goto IL_049e;
+	}
+
+IL_041d:
+	{
+		(&V_33)->set_x_1((2.14748365E+09f));
+		(&V_33)->set_y_2((2.14748365E+09f));
+		(&V_34)->set_x_1((-2.14748365E+09f));
+		(&V_34)->set_y_2((-2.14748365E+09f));
+		float L_144 = __this->get_zSpacing_7();
+		if ((!(((float)L_144) > ((float)(0.0f)))))
+		{
+			goto IL_0480;
+		}
+	}
+	{
+		(&V_33)->set_z_3((0.0f));
+		float L_145 = __this->get_zSpacing_7();
+		int32_t L_146 = V_2;
+		(&V_34)->set_z_3(((float)((float)L_145*(float)(((float)((float)((int32_t)((int32_t)L_146-(int32_t)1))))))));
+		goto IL_049e;
+	}
+
+IL_0480:
+	{
+		float L_147 = __this->get_zSpacing_7();
+		int32_t L_148 = V_2;
+		(&V_33)->set_z_3(((float)((float)L_147*(float)(((float)((float)((int32_t)((int32_t)L_148-(int32_t)1))))))));
+		(&V_34)->set_z_3((0.0f));
+	}
+
+IL_049e:
+	{
+		V_35 = 0;
+		Skeleton_t2209335561 * L_149 = __this->get_skeleton_20();
+		int32_t L_150 = V_2;
+		float L_151 = __this->get_zSpacing_7();
+		bool L_152 = __this->get_pmaVertexColors_10();
+		Vector3U5BU5D_t215400611* L_153 = __this->get_vertices_27();
+		Vector2U5BU5D_t4024180168* L_154 = __this->get_uvs_29();
+		Color32U5BU5D_t2960766953* L_155 = __this->get_colors_28();
+		SingleU5BU5D_t2316563989** L_156 = __this->get_address_of_tempVertices_26();
+		bool L_157 = V_3;
+		ArraysMeshGenerator_FillVerts_m2669771114(NULL /*static, unused*/, L_149, 0, L_150, L_151, L_152, L_153, L_154, L_155, (&V_35), L_156, (&V_33), (&V_34), L_157, /*hidden argument*/NULL);
+		DoubleBuffered_1_t2301498939 * L_158 = __this->get_doubleBufferedMesh_21();
+		NullCheck(L_158);
+		SmartMesh_t2976236219 * L_159 = DoubleBuffered_1_GetNext_m3546445463(L_158, /*hidden argument*/DoubleBuffered_1_GetNext_m3546445463_MethodInfo_var);
+		V_36 = L_159;
+		SmartMesh_t2976236219 * L_160 = V_36;
+		NullCheck(L_160);
+		Mesh_t4241756145 * L_161 = L_160->get_mesh_0();
+		V_37 = L_161;
+		Mesh_t4241756145 * L_162 = V_37;
+		Vector3U5BU5D_t215400611* L_163 = __this->get_vertices_27();
+		NullCheck(L_162);
+		Mesh_set_vertices_m2628866109(L_162, L_163, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_164 = V_37;
+		Color32U5BU5D_t2960766953* L_165 = __this->get_colors_28();
+		NullCheck(L_164);
+		Mesh_set_colors32_m119130293(L_164, L_165, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_166 = V_37;
+		Vector2U5BU5D_t4024180168* L_167 = __this->get_uvs_29();
+		NullCheck(L_166);
+		Mesh_set_uv_m498907190(L_166, L_167, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_168 = V_37;
+		Vector3_t4282066566  L_169 = V_33;
+		Vector3_t4282066566  L_170 = V_34;
+		Bounds_t2711641849  L_171 = ArraysMeshGenerator_ToBounds_m1571046811(NULL /*static, unused*/, L_169, L_170, /*hidden argument*/NULL);
+		NullCheck(L_168);
+		Mesh_set_bounds_m1860910602(L_168, L_171, /*hidden argument*/NULL);
+		SmartMesh_t2976236219 * L_172 = V_36;
+		NullCheck(L_172);
+		Instruction_t629699354 * L_173 = L_172->get_instructionUsed_1();
+		V_38 = L_173;
+		bool L_174 = __this->get_calculateNormals_11();
+		if (!L_174)
+		{
+			goto IL_0555;
+		}
+	}
+	{
+		Instruction_t629699354 * L_175 = V_38;
+		NullCheck(L_175);
+		int32_t L_176 = L_175->get_vertexCount_1();
+		int32_t L_177 = V_9;
+		if ((((int32_t)L_176) >= ((int32_t)L_177)))
+		{
+			goto IL_0555;
+		}
+	}
+	{
+		Mesh_t4241756145 * L_178 = V_37;
+		Vector3U5BU5D_t215400611* L_179 = __this->get_normals_30();
+		NullCheck(L_178);
+		Mesh_set_normals_m3763698282(L_178, L_179, /*hidden argument*/NULL);
+	}
+
+IL_0555:
+	{
+		Instruction_t629699354 * L_180 = V_4;
+		Instruction_t629699354 * L_181 = V_38;
+		bool L_182 = SkeletonRenderer_CheckIfMustUpdateMeshStructure_m3815453766(NULL /*static, unused*/, L_180, L_181, /*hidden argument*/NULL);
+		V_39 = L_182;
+		ExposedList_1_t723286955 * L_183 = V_7;
+		NullCheck(L_183);
+		int32_t L_184 = L_183->get_Count_2();
+		V_40 = L_184;
+		bool L_185 = V_39;
+		if (!L_185)
+		{
+			goto IL_06f5;
+		}
+	}
+	{
+		ExposedList_1_t950565469 * L_186 = __this->get_submeshMaterials_24();
+		V_41 = L_186;
+		ExposedList_1_t950565469 * L_187 = V_41;
+		NullCheck(L_187);
+		ExposedList_1_Clear_m2385895685(L_187, (bool)0, /*hidden argument*/ExposedList_1_Clear_m2385895685_MethodInfo_var);
+		ExposedList_1_t1435450047 * L_188 = __this->get_submeshes_23();
+		NullCheck(L_188);
+		int32_t L_189 = L_188->get_Count_2();
+		V_42 = L_189;
+		ExposedList_1_t1435450047 * L_190 = __this->get_submeshes_23();
+		int32_t L_191 = V_40;
+		NullCheck(L_190);
+		ExposedList_1_set_Capacity_m3952974394(L_190, L_191, /*hidden argument*/ExposedList_1_set_Capacity_m3952974394_MethodInfo_var);
+		int32_t L_192 = V_42;
+		V_43 = L_192;
+		goto IL_05cf;
+	}
+
+IL_05a3:
+	{
+		ExposedList_1_t1435450047 * L_193 = __this->get_submeshes_23();
+		NullCheck(L_193);
+		SubmeshTriangleBufferU5BU5D_t1627892000* L_194 = L_193->get_Items_1();
+		int32_t L_195 = V_43;
+		ExposedList_1_t723286955 * L_196 = V_7;
+		NullCheck(L_196);
+		SubmeshInstructionU5BU5D_t2859174660* L_197 = L_196->get_Items_1();
+		int32_t L_198 = V_43;
+		NullCheck(L_197);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_197, L_198);
+		int32_t L_199 = ((L_197)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_198)))->get_triangleCount_4();
+		SubmeshTriangleBuffer_t60517389 * L_200 = (SubmeshTriangleBuffer_t60517389 *)il2cpp_codegen_object_new(SubmeshTriangleBuffer_t60517389_il2cpp_TypeInfo_var);
+		SubmeshTriangleBuffer__ctor_m422641023(L_200, L_199, /*hidden argument*/NULL);
+		NullCheck(L_194);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_194, L_195);
+		ArrayElementTypeCheck (L_194, L_200);
+		(L_194)->SetAt(static_cast<il2cpp_array_size_t>(L_195), (SubmeshTriangleBuffer_t60517389 *)L_200);
+		int32_t L_201 = V_43;
+		V_43 = ((int32_t)((int32_t)L_201+(int32_t)1));
+	}
+
+IL_05cf:
+	{
+		int32_t L_202 = V_43;
+		int32_t L_203 = V_40;
+		if ((((int32_t)L_202) < ((int32_t)L_203)))
+		{
+			goto IL_05a3;
+		}
+	}
+	{
+		Instruction_t629699354 * L_204 = V_4;
+		NullCheck(L_204);
+		bool L_205 = L_204->get_immutableTriangles_0();
+		V_44 = (bool)((((int32_t)L_205) == ((int32_t)0))? 1 : 0);
+		V_45 = 0;
+		int32_t L_206 = V_40;
+		V_46 = ((int32_t)((int32_t)L_206-(int32_t)1));
+		goto IL_06b0;
+	}
+
+IL_05f2:
+	{
+		ExposedList_1_t723286955 * L_207 = V_7;
+		NullCheck(L_207);
+		SubmeshInstructionU5BU5D_t2859174660* L_208 = L_207->get_Items_1();
+		int32_t L_209 = V_45;
+		NullCheck(L_208);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_208, L_209);
+		V_47 = (*(SubmeshInstruction_t3643321593 *)((L_208)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_209))));
+		bool L_210 = V_44;
+		if (L_210)
+		{
+			goto IL_0617;
+		}
+	}
+	{
+		int32_t L_211 = V_45;
+		int32_t L_212 = V_42;
+		if ((((int32_t)L_211) < ((int32_t)L_212)))
+		{
+			goto IL_069c;
+		}
+	}
+
+IL_0617:
+	{
+		ExposedList_1_t1435450047 * L_213 = __this->get_submeshes_23();
+		NullCheck(L_213);
+		SubmeshTriangleBufferU5BU5D_t1627892000* L_214 = L_213->get_Items_1();
+		int32_t L_215 = V_45;
+		NullCheck(L_214);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_214, L_215);
+		int32_t L_216 = L_215;
+		SubmeshTriangleBuffer_t60517389 * L_217 = (L_214)->GetAt(static_cast<il2cpp_array_size_t>(L_216));
+		V_48 = L_217;
+		int32_t L_218 = (&V_47)->get_triangleCount_4();
+		V_49 = L_218;
+		bool L_219 = V_3;
+		if (!L_219)
+		{
+			goto IL_0673;
+		}
+	}
+	{
+		SubmeshTriangleBuffer_t60517389 * L_220 = V_48;
+		NullCheck(L_220);
+		Int32U5BU5D_t3230847821** L_221 = L_220->get_address_of_triangles_0();
+		Skeleton_t2209335561 * L_222 = __this->get_skeleton_20();
+		int32_t L_223 = V_49;
+		int32_t L_224 = (&V_47)->get_firstVertexIndex_6();
+		int32_t L_225 = (&V_47)->get_startSlot_1();
+		int32_t L_226 = (&V_47)->get_endSlot_2();
+		int32_t L_227 = V_45;
+		int32_t L_228 = V_46;
+		ArraysMeshGenerator_FillTriangles_m877837554(NULL /*static, unused*/, L_221, L_222, L_223, L_224, L_225, L_226, (bool)((((int32_t)L_227) == ((int32_t)L_228))? 1 : 0), /*hidden argument*/NULL);
+		SubmeshTriangleBuffer_t60517389 * L_229 = V_48;
+		int32_t L_230 = V_49;
+		NullCheck(L_229);
+		L_229->set_triangleCount_1(L_230);
+		goto IL_069c;
+	}
+
+IL_0673:
+	{
+		SubmeshTriangleBuffer_t60517389 * L_231 = V_48;
+		NullCheck(L_231);
+		Int32U5BU5D_t3230847821** L_232 = L_231->get_address_of_triangles_0();
+		SubmeshTriangleBuffer_t60517389 * L_233 = V_48;
+		NullCheck(L_233);
+		int32_t* L_234 = L_233->get_address_of_triangleCount_1();
+		SubmeshTriangleBuffer_t60517389 * L_235 = V_48;
+		NullCheck(L_235);
+		int32_t* L_236 = L_235->get_address_of_firstVertex_2();
+		int32_t L_237 = (&V_47)->get_firstVertexIndex_6();
+		int32_t L_238 = V_49;
+		int32_t L_239 = V_45;
+		int32_t L_240 = V_46;
+		ArraysMeshGenerator_FillTrianglesQuads_m2854729258(NULL /*static, unused*/, L_232, L_234, L_236, L_237, L_238, (bool)((((int32_t)L_239) == ((int32_t)L_240))? 1 : 0), /*hidden argument*/NULL);
+	}
+
+IL_069c:
+	{
+		ExposedList_1_t950565469 * L_241 = V_41;
+		Material_t3870600107 * L_242 = (&V_47)->get_material_3();
+		NullCheck(L_241);
+		ExposedList_1_Add_m4039530556(L_241, L_242, /*hidden argument*/ExposedList_1_Add_m4039530556_MethodInfo_var);
+		int32_t L_243 = V_45;
+		V_45 = ((int32_t)((int32_t)L_243+(int32_t)1));
+	}
+
+IL_06b0:
+	{
+		int32_t L_244 = V_45;
+		int32_t L_245 = V_40;
+		if ((((int32_t)L_244) < ((int32_t)L_245)))
+		{
+			goto IL_05f2;
+		}
+	}
+	{
+		Mesh_t4241756145 * L_246 = V_37;
+		int32_t L_247 = V_40;
+		NullCheck(L_246);
+		Mesh_set_subMeshCount_m1647706132(L_246, L_247, /*hidden argument*/NULL);
+		V_50 = 0;
+		goto IL_06ec;
+	}
+
+IL_06ca:
+	{
+		Mesh_t4241756145 * L_248 = V_37;
+		ExposedList_1_t1435450047 * L_249 = __this->get_submeshes_23();
+		NullCheck(L_249);
+		SubmeshTriangleBufferU5BU5D_t1627892000* L_250 = L_249->get_Items_1();
+		int32_t L_251 = V_50;
+		NullCheck(L_250);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_250, L_251);
+		int32_t L_252 = L_251;
+		SubmeshTriangleBuffer_t60517389 * L_253 = (L_250)->GetAt(static_cast<il2cpp_array_size_t>(L_252));
+		NullCheck(L_253);
+		Int32U5BU5D_t3230847821* L_254 = L_253->get_triangles_0();
+		int32_t L_255 = V_50;
+		NullCheck(L_248);
+		Mesh_SetTriangles_m636210907(L_248, L_254, L_255, /*hidden argument*/NULL);
+		int32_t L_256 = V_50;
+		V_50 = ((int32_t)((int32_t)L_256+(int32_t)1));
+	}
+
+IL_06ec:
+	{
+		int32_t L_257 = V_50;
+		int32_t L_258 = V_40;
+		if ((((int32_t)L_257) < ((int32_t)L_258)))
+		{
+			goto IL_06ca;
+		}
+	}
+
+IL_06f5:
+	{
+		bool L_259 = __this->get_calculateTangents_12();
+		if (!L_259)
+		{
+			goto IL_0787;
+		}
+	}
+	{
+		Vector4U5BU5D_t701588350** L_260 = __this->get_address_of_tangents_31();
+		Vector2U5BU5D_t4024180168** L_261 = __this->get_address_of_tempTanBuffer_32();
+		Vector3U5BU5D_t215400611* L_262 = __this->get_vertices_27();
+		NullCheck(L_262);
+		ArraysMeshGenerator_SolveTangents2DEnsureSize_m4137525859(NULL /*static, unused*/, L_260, L_261, (((int32_t)((int32_t)(((Il2CppArray *)L_262)->max_length)))), /*hidden argument*/NULL);
+		V_51 = 0;
+		goto IL_075e;
+	}
+
+IL_0721:
+	{
+		ExposedList_1_t1435450047 * L_263 = __this->get_submeshes_23();
+		NullCheck(L_263);
+		SubmeshTriangleBufferU5BU5D_t1627892000* L_264 = L_263->get_Items_1();
+		int32_t L_265 = V_51;
+		NullCheck(L_264);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_264, L_265);
+		int32_t L_266 = L_265;
+		SubmeshTriangleBuffer_t60517389 * L_267 = (L_264)->GetAt(static_cast<il2cpp_array_size_t>(L_266));
+		V_52 = L_267;
+		Vector2U5BU5D_t4024180168* L_268 = __this->get_tempTanBuffer_32();
+		SubmeshTriangleBuffer_t60517389 * L_269 = V_52;
+		NullCheck(L_269);
+		Int32U5BU5D_t3230847821* L_270 = L_269->get_triangles_0();
+		SubmeshTriangleBuffer_t60517389 * L_271 = V_52;
+		NullCheck(L_271);
+		int32_t L_272 = L_271->get_triangleCount_1();
+		Vector3U5BU5D_t215400611* L_273 = __this->get_vertices_27();
+		Vector2U5BU5D_t4024180168* L_274 = __this->get_uvs_29();
+		int32_t L_275 = V_9;
+		ArraysMeshGenerator_SolveTangents2DTriangles_m3522333974(NULL /*static, unused*/, L_268, L_270, L_272, L_273, L_274, L_275, /*hidden argument*/NULL);
+		int32_t L_276 = V_51;
+		V_51 = ((int32_t)((int32_t)L_276+(int32_t)1));
+	}
+
+IL_075e:
+	{
+		int32_t L_277 = V_51;
+		int32_t L_278 = V_40;
+		if ((((int32_t)L_277) < ((int32_t)L_278)))
+		{
+			goto IL_0721;
+		}
+	}
+	{
+		Vector4U5BU5D_t701588350* L_279 = __this->get_tangents_31();
+		Vector2U5BU5D_t4024180168* L_280 = __this->get_tempTanBuffer_32();
+		int32_t L_281 = V_9;
+		ArraysMeshGenerator_SolveTangents2DBuffer_m3725871264(NULL /*static, unused*/, L_279, L_280, L_281, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_282 = V_37;
+		Vector4U5BU5D_t701588350* L_283 = __this->get_tangents_31();
+		NullCheck(L_282);
+		Mesh_set_tangents_m2117559847(L_282, L_283, /*hidden argument*/NULL);
+	}
+
+IL_0787:
+	{
+		MaterialU5BU5D_t170856778* L_284 = __this->get_sharedMaterials_25();
+		V_53 = L_284;
+		bool L_285 = V_39;
+		if (L_285)
+		{
+			goto IL_07a3;
+		}
+	}
+	{
+		MaterialU5BU5D_t170856778* L_286 = V_53;
+		NullCheck(L_286);
+		int32_t L_287 = V_40;
+		G_B75_0 = ((((int32_t)((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_286)->max_length))))) == ((int32_t)L_287))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_07a4;
+	}
+
+IL_07a3:
+	{
+		G_B75_0 = 1;
+	}
+
+IL_07a4:
+	{
+		V_54 = (bool)G_B75_0;
+		bool L_288 = V_54;
+		if (L_288)
+		{
+			goto IL_07fd;
+		}
+	}
+	{
+		ExposedList_1_t723286955 * L_289 = V_7;
+		NullCheck(L_289);
+		SubmeshInstructionU5BU5D_t2859174660* L_290 = L_289->get_Items_1();
+		V_55 = L_290;
+		V_56 = 0;
+		MaterialU5BU5D_t170856778* L_291 = V_53;
+		NullCheck(L_291);
+		V_57 = (((int32_t)((int32_t)(((Il2CppArray *)L_291)->max_length))));
+		goto IL_07f4;
+	}
+
+IL_07c4:
+	{
+		MaterialU5BU5D_t170856778* L_292 = V_53;
+		int32_t L_293 = V_56;
+		NullCheck(L_292);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_292, L_293);
+		int32_t L_294 = L_293;
+		Material_t3870600107 * L_295 = (L_292)->GetAt(static_cast<il2cpp_array_size_t>(L_294));
+		NullCheck(L_295);
+		int32_t L_296 = Object_GetInstanceID_m200424466(L_295, /*hidden argument*/NULL);
+		SubmeshInstructionU5BU5D_t2859174660* L_297 = V_55;
+		int32_t L_298 = V_56;
+		NullCheck(L_297);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_297, L_298);
+		Material_t3870600107 * L_299 = ((L_297)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_298)))->get_material_3();
+		NullCheck(L_299);
+		int32_t L_300 = Object_GetInstanceID_m200424466(L_299, /*hidden argument*/NULL);
+		if ((((int32_t)L_296) == ((int32_t)L_300)))
+		{
+			goto IL_07ee;
+		}
+	}
+	{
+		V_54 = (bool)1;
+		goto IL_07fd;
+	}
+
+IL_07ee:
+	{
+		int32_t L_301 = V_56;
+		V_56 = ((int32_t)((int32_t)L_301+(int32_t)1));
+	}
+
+IL_07f4:
+	{
+		int32_t L_302 = V_56;
+		int32_t L_303 = V_57;
+		if ((((int32_t)L_302) < ((int32_t)L_303)))
+		{
+			goto IL_07c4;
+		}
+	}
+
+IL_07fd:
+	{
+		bool L_304 = V_54;
+		if (!L_304)
+		{
+			goto IL_0854;
+		}
+	}
+	{
+		ExposedList_1_t950565469 * L_305 = __this->get_submeshMaterials_24();
+		NullCheck(L_305);
+		int32_t L_306 = L_305->get_Count_2();
+		MaterialU5BU5D_t170856778* L_307 = __this->get_sharedMaterials_25();
+		NullCheck(L_307);
+		if ((!(((uint32_t)L_306) == ((uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_307)->max_length))))))))
+		{
+			goto IL_0832;
+		}
+	}
+	{
+		ExposedList_1_t950565469 * L_308 = __this->get_submeshMaterials_24();
+		MaterialU5BU5D_t170856778* L_309 = __this->get_sharedMaterials_25();
+		NullCheck(L_308);
+		ExposedList_1_CopyTo_m537365899(L_308, L_309, /*hidden argument*/ExposedList_1_CopyTo_m537365899_MethodInfo_var);
+		goto IL_0843;
+	}
+
+IL_0832:
+	{
+		ExposedList_1_t950565469 * L_310 = __this->get_submeshMaterials_24();
+		NullCheck(L_310);
+		MaterialU5BU5D_t170856778* L_311 = ExposedList_1_ToArray_m2697498684(L_310, /*hidden argument*/ExposedList_1_ToArray_m2697498684_MethodInfo_var);
+		__this->set_sharedMaterials_25(L_311);
+	}
+
+IL_0843:
+	{
+		MeshRenderer_t2804666580 * L_312 = __this->get_meshRenderer_17();
+		MaterialU5BU5D_t170856778* L_313 = __this->get_sharedMaterials_25();
+		NullCheck(L_312);
+		Renderer_set_sharedMaterials_m1255100914(L_312, L_313, /*hidden argument*/NULL);
+	}
+
+IL_0854:
+	{
+		MeshFilter_t3839065225 * L_314 = __this->get_meshFilter_18();
+		Mesh_t4241756145 * L_315 = V_37;
+		NullCheck(L_314);
+		MeshFilter_set_sharedMesh_m793190055(L_314, L_315, /*hidden argument*/NULL);
+		SmartMesh_t2976236219 * L_316 = V_36;
+		NullCheck(L_316);
+		Instruction_t629699354 * L_317 = L_316->get_instructionUsed_1();
+		Instruction_t629699354 * L_318 = V_4;
+		NullCheck(L_317);
+		Instruction_Set_m173716839(L_317, L_318, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Spine.Unity.SkeletonRenderer::CheckIfMustUpdateMeshStructure(Spine.Unity.SkeletonRenderer/SmartMesh/Instruction,Spine.Unity.SkeletonRenderer/SmartMesh/Instruction)
+extern "C"  bool SkeletonRenderer_CheckIfMustUpdateMeshStructure_m3815453766 (Il2CppObject * __this /* static, unused */, Instruction_t629699354 * ___a0, Instruction_t629699354 * ___b1, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	AttachmentU5BU5D_t3539071366* V_1 = NULL;
+	AttachmentU5BU5D_t3539071366* V_2 = NULL;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	SubmeshInstructionU5BU5D_t2859174660* V_6 = NULL;
+	SubmeshInstructionU5BU5D_t2859174660* V_7 = NULL;
+	int32_t V_8 = 0;
+	SubmeshInstruction_t3643321593  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	SubmeshInstruction_t3643321593  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	{
+		Instruction_t629699354 * L_0 = ___a0;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_vertexCount_1();
+		Instruction_t629699354 * L_2 = ___b1;
+		NullCheck(L_2);
+		int32_t L_3 = L_2->get_vertexCount_1();
+		if ((((int32_t)L_1) == ((int32_t)L_3)))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0013:
+	{
+		Instruction_t629699354 * L_4 = ___a0;
+		NullCheck(L_4);
+		bool L_5 = L_4->get_immutableTriangles_0();
+		Instruction_t629699354 * L_6 = ___b1;
+		NullCheck(L_6);
+		bool L_7 = L_6->get_immutableTriangles_0();
+		if ((((int32_t)L_5) == ((int32_t)L_7)))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0026:
+	{
+		Instruction_t629699354 * L_8 = ___b1;
+		NullCheck(L_8);
+		ExposedList_1_t4224666065 * L_9 = L_8->get_attachments_2();
+		NullCheck(L_9);
+		int32_t L_10 = L_9->get_Count_2();
+		V_0 = L_10;
+		Instruction_t629699354 * L_11 = ___a0;
+		NullCheck(L_11);
+		ExposedList_1_t4224666065 * L_12 = L_11->get_attachments_2();
+		NullCheck(L_12);
+		int32_t L_13 = L_12->get_Count_2();
+		int32_t L_14 = V_0;
+		if ((((int32_t)L_13) == ((int32_t)L_14)))
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0045:
+	{
+		Instruction_t629699354 * L_15 = ___a0;
+		NullCheck(L_15);
+		ExposedList_1_t4224666065 * L_16 = L_15->get_attachments_2();
+		NullCheck(L_16);
+		AttachmentU5BU5D_t3539071366* L_17 = L_16->get_Items_1();
+		V_1 = L_17;
+		Instruction_t629699354 * L_18 = ___b1;
+		NullCheck(L_18);
+		ExposedList_1_t4224666065 * L_19 = L_18->get_attachments_2();
+		NullCheck(L_19);
+		AttachmentU5BU5D_t3539071366* L_20 = L_19->get_Items_1();
+		V_2 = L_20;
+		V_3 = 0;
+		goto IL_0075;
+	}
+
+IL_0064:
+	{
+		AttachmentU5BU5D_t3539071366* L_21 = V_1;
+		int32_t L_22 = V_3;
+		NullCheck(L_21);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_21, L_22);
+		int32_t L_23 = L_22;
+		Attachment_t2849733407 * L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		AttachmentU5BU5D_t3539071366* L_25 = V_2;
+		int32_t L_26 = V_3;
+		NullCheck(L_25);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_25, L_26);
+		int32_t L_27 = L_26;
+		Attachment_t2849733407 * L_28 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+		if ((((Il2CppObject*)(Attachment_t2849733407 *)L_24) == ((Il2CppObject*)(Attachment_t2849733407 *)L_28)))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0071:
+	{
+		int32_t L_29 = V_3;
+		V_3 = ((int32_t)((int32_t)L_29+(int32_t)1));
+	}
+
+IL_0075:
+	{
+		int32_t L_30 = V_3;
+		int32_t L_31 = V_0;
+		if ((((int32_t)L_30) < ((int32_t)L_31)))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		Instruction_t629699354 * L_32 = ___a0;
+		NullCheck(L_32);
+		ExposedList_1_t723286955 * L_33 = L_32->get_submeshInstructions_3();
+		NullCheck(L_33);
+		int32_t L_34 = L_33->get_Count_2();
+		V_4 = L_34;
+		Instruction_t629699354 * L_35 = ___b1;
+		NullCheck(L_35);
+		ExposedList_1_t723286955 * L_36 = L_35->get_submeshInstructions_3();
+		NullCheck(L_36);
+		int32_t L_37 = L_36->get_Count_2();
+		V_5 = L_37;
+		int32_t L_38 = V_4;
+		int32_t L_39 = V_5;
+		if ((((int32_t)L_38) == ((int32_t)L_39)))
+		{
+			goto IL_00a1;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_00a1:
+	{
+		Instruction_t629699354 * L_40 = ___a0;
+		NullCheck(L_40);
+		ExposedList_1_t723286955 * L_41 = L_40->get_submeshInstructions_3();
+		NullCheck(L_41);
+		SubmeshInstructionU5BU5D_t2859174660* L_42 = L_41->get_Items_1();
+		V_6 = L_42;
+		Instruction_t629699354 * L_43 = ___b1;
+		NullCheck(L_43);
+		ExposedList_1_t723286955 * L_44 = L_43->get_submeshInstructions_3();
+		NullCheck(L_44);
+		SubmeshInstructionU5BU5D_t2859174660* L_45 = L_44->get_Items_1();
+		V_7 = L_45;
+		V_8 = 0;
+		goto IL_014a;
+	}
+
+IL_00c3:
+	{
+		SubmeshInstructionU5BU5D_t2859174660* L_46 = V_6;
+		int32_t L_47 = V_8;
+		NullCheck(L_46);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_46, L_47);
+		V_9 = (*(SubmeshInstruction_t3643321593 *)((L_46)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_47))));
+		SubmeshInstructionU5BU5D_t2859174660* L_48 = V_7;
+		int32_t L_49 = V_8;
+		NullCheck(L_48);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_48, L_49);
+		V_10 = (*(SubmeshInstruction_t3643321593 *)((L_48)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_49))));
+		int32_t L_50 = (&V_9)->get_vertexCount_5();
+		int32_t L_51 = (&V_10)->get_vertexCount_5();
+		if ((!(((uint32_t)L_50) == ((uint32_t)L_51))))
+		{
+			goto IL_0142;
+		}
+	}
+	{
+		int32_t L_52 = (&V_9)->get_startSlot_1();
+		int32_t L_53 = (&V_10)->get_startSlot_1();
+		if ((!(((uint32_t)L_52) == ((uint32_t)L_53))))
+		{
+			goto IL_0142;
+		}
+	}
+	{
+		int32_t L_54 = (&V_9)->get_endSlot_2();
+		int32_t L_55 = (&V_10)->get_endSlot_2();
+		if ((!(((uint32_t)L_54) == ((uint32_t)L_55))))
+		{
+			goto IL_0142;
+		}
+	}
+	{
+		int32_t L_56 = (&V_9)->get_triangleCount_4();
+		int32_t L_57 = (&V_10)->get_triangleCount_4();
+		if ((!(((uint32_t)L_56) == ((uint32_t)L_57))))
+		{
+			goto IL_0142;
+		}
+	}
+	{
+		int32_t L_58 = (&V_9)->get_firstVertexIndex_6();
+		int32_t L_59 = (&V_10)->get_firstVertexIndex_6();
+		if ((((int32_t)L_58) == ((int32_t)L_59)))
+		{
+			goto IL_0144;
+		}
+	}
+
+IL_0142:
+	{
+		return (bool)1;
+	}
+
+IL_0144:
+	{
+		int32_t L_60 = V_8;
+		V_8 = ((int32_t)((int32_t)L_60+(int32_t)1));
+	}
+
+IL_014a:
+	{
+		int32_t L_61 = V_8;
+		int32_t L_62 = V_5;
+		if ((((int32_t)L_61) < ((int32_t)L_62)))
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		return (bool)0;
+	}
+}
+// System.Void Spine.Unity.SkeletonRenderer/InstructionDelegate::.ctor(System.Object,System.IntPtr)
+extern "C"  void InstructionDelegate__ctor_m1088583167 (InstructionDelegate_t1629107544 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void Spine.Unity.SkeletonRenderer/InstructionDelegate::Invoke(Spine.Unity.SkeletonRenderer/SmartMesh/Instruction)
+extern "C"  void InstructionDelegate_Invoke_m917272383 (InstructionDelegate_t1629107544 * __this, Instruction_t629699354 * ___instruction0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		InstructionDelegate_Invoke_m917272383((InstructionDelegate_t1629107544 *)__this->get_prev_9(),___instruction0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, Instruction_t629699354 * ___instruction0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,il2cpp_codegen_get_delegate_this(__this),___instruction0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, Instruction_t629699354 * ___instruction0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(il2cpp_codegen_get_delegate_this(__this),___instruction0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___instruction0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult Spine.Unity.SkeletonRenderer/InstructionDelegate::BeginInvoke(Spine.Unity.SkeletonRenderer/SmartMesh/Instruction,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * InstructionDelegate_BeginInvoke_m2837612462 (InstructionDelegate_t1629107544 * __this, Instruction_t629699354 * ___instruction0, AsyncCallback_t1369114871 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	void *__d_args[2] = {0};
+	__d_args[0] = ___instruction0;
+	return (Il2CppObject *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void Spine.Unity.SkeletonRenderer/InstructionDelegate::EndInvoke(System.IAsyncResult)
+extern "C"  void InstructionDelegate_EndInvoke_m1185333135 (InstructionDelegate_t1629107544 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void Spine.Unity.SkeletonRenderer/SkeletonRendererDelegate::.ctor(System.Object,System.IntPtr)
+extern "C"  void SkeletonRendererDelegate__ctor_m4163935143 (SkeletonRendererDelegate_t1530399696 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void Spine.Unity.SkeletonRenderer/SkeletonRendererDelegate::Invoke(Spine.Unity.SkeletonRenderer)
+extern "C"  void SkeletonRendererDelegate_Invoke_m1692446061 (SkeletonRendererDelegate_t1530399696 * __this, SkeletonRenderer_t3766155010 * ___skeletonRenderer0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		SkeletonRendererDelegate_Invoke_m1692446061((SkeletonRendererDelegate_t1530399696 *)__this->get_prev_9(),___skeletonRenderer0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, SkeletonRenderer_t3766155010 * ___skeletonRenderer0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,il2cpp_codegen_get_delegate_this(__this),___skeletonRenderer0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, SkeletonRenderer_t3766155010 * ___skeletonRenderer0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(il2cpp_codegen_get_delegate_this(__this),___skeletonRenderer0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___skeletonRenderer0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult Spine.Unity.SkeletonRenderer/SkeletonRendererDelegate::BeginInvoke(Spine.Unity.SkeletonRenderer,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * SkeletonRendererDelegate_BeginInvoke_m454515400 (SkeletonRendererDelegate_t1530399696 * __this, SkeletonRenderer_t3766155010 * ___skeletonRenderer0, AsyncCallback_t1369114871 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	void *__d_args[2] = {0};
+	__d_args[0] = ___skeletonRenderer0;
+	return (Il2CppObject *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void Spine.Unity.SkeletonRenderer/SkeletonRendererDelegate::EndInvoke(System.IAsyncResult)
+extern "C"  void SkeletonRendererDelegate_EndInvoke_m855243063 (SkeletonRendererDelegate_t1530399696 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void Spine.Unity.SkeletonRenderer/SmartMesh::.ctor()
+extern Il2CppClass* Instruction_t629699354_il2cpp_TypeInfo_var;
+extern const uint32_t SmartMesh__ctor_m933962816_MetadataUsageId;
+extern "C"  void SmartMesh__ctor_m933962816 (SmartMesh_t2976236219 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SmartMesh__ctor_m933962816_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Mesh_t4241756145 * L_0 = SpineMesh_NewMesh_m740765763(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_mesh_0(L_0);
+		Instruction_t629699354 * L_1 = (Instruction_t629699354 *)il2cpp_codegen_object_new(Instruction_t629699354_il2cpp_TypeInfo_var);
+		Instruction__ctor_m2034109121(L_1, /*hidden argument*/NULL);
+		__this->set_instructionUsed_1(L_1);
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonRenderer/SmartMesh/Instruction::.ctor()
+extern Il2CppClass* ExposedList_1_t4224666065_il2cpp_TypeInfo_var;
+extern Il2CppClass* ExposedList_1_t723286955_il2cpp_TypeInfo_var;
+extern const MethodInfo* ExposedList_1__ctor_m2763196499_MethodInfo_var;
+extern const MethodInfo* ExposedList_1__ctor_m3679996747_MethodInfo_var;
+extern const uint32_t Instruction__ctor_m2034109121_MetadataUsageId;
+extern "C"  void Instruction__ctor_m2034109121 (Instruction_t629699354 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Instruction__ctor_m2034109121_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		__this->set_vertexCount_1((-1));
+		ExposedList_1_t4224666065 * L_0 = (ExposedList_1_t4224666065 *)il2cpp_codegen_object_new(ExposedList_1_t4224666065_il2cpp_TypeInfo_var);
+		ExposedList_1__ctor_m2763196499(L_0, /*hidden argument*/ExposedList_1__ctor_m2763196499_MethodInfo_var);
+		__this->set_attachments_2(L_0);
+		ExposedList_1_t723286955 * L_1 = (ExposedList_1_t723286955 *)il2cpp_codegen_object_new(ExposedList_1_t723286955_il2cpp_TypeInfo_var);
+		ExposedList_1__ctor_m3679996747(L_1, /*hidden argument*/ExposedList_1__ctor_m3679996747_MethodInfo_var);
+		__this->set_submeshInstructions_3(L_1);
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonRenderer/SmartMesh/Instruction::Clear()
+extern const MethodInfo* ExposedList_1_Clear_m1335215477_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Clear_m527332973_MethodInfo_var;
+extern const uint32_t Instruction_Clear_m3735209708_MetadataUsageId;
+extern "C"  void Instruction_Clear_m3735209708 (Instruction_t629699354 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Instruction_Clear_m3735209708_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		ExposedList_1_t4224666065 * L_0 = __this->get_attachments_2();
+		NullCheck(L_0);
+		ExposedList_1_Clear_m1335215477(L_0, (bool)0, /*hidden argument*/ExposedList_1_Clear_m1335215477_MethodInfo_var);
+		ExposedList_1_t723286955 * L_1 = __this->get_submeshInstructions_3();
+		NullCheck(L_1);
+		ExposedList_1_Clear_m527332973(L_1, (bool)0, /*hidden argument*/ExposedList_1_Clear_m527332973_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonRenderer/SmartMesh/Instruction::Set(Spine.Unity.SkeletonRenderer/SmartMesh/Instruction)
+extern const MethodInfo* ExposedList_1_Clear_m1335215477_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_get_Capacity_m2952797190_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_GrowIfNeeded_m398750215_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_CopyTo_m917847547_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Clear_m527332973_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_get_Capacity_m2922746346_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_GrowIfNeeded_m1795922959_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_CopyTo_m1116751091_MethodInfo_var;
+extern const uint32_t Instruction_Set_m173716839_MetadataUsageId;
+extern "C"  void Instruction_Set_m173716839 (Instruction_t629699354 * __this, Instruction_t629699354 * ___other0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Instruction_Set_m173716839_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Instruction_t629699354 * L_0 = ___other0;
+		NullCheck(L_0);
+		bool L_1 = L_0->get_immutableTriangles_0();
+		__this->set_immutableTriangles_0(L_1);
+		Instruction_t629699354 * L_2 = ___other0;
+		NullCheck(L_2);
+		int32_t L_3 = L_2->get_vertexCount_1();
+		__this->set_vertexCount_1(L_3);
+		ExposedList_1_t4224666065 * L_4 = __this->get_attachments_2();
+		NullCheck(L_4);
+		ExposedList_1_Clear_m1335215477(L_4, (bool)0, /*hidden argument*/ExposedList_1_Clear_m1335215477_MethodInfo_var);
+		ExposedList_1_t4224666065 * L_5 = __this->get_attachments_2();
+		Instruction_t629699354 * L_6 = ___other0;
+		NullCheck(L_6);
+		ExposedList_1_t4224666065 * L_7 = L_6->get_attachments_2();
+		NullCheck(L_7);
+		int32_t L_8 = ExposedList_1_get_Capacity_m2952797190(L_7, /*hidden argument*/ExposedList_1_get_Capacity_m2952797190_MethodInfo_var);
+		NullCheck(L_5);
+		ExposedList_1_GrowIfNeeded_m398750215(L_5, L_8, /*hidden argument*/ExposedList_1_GrowIfNeeded_m398750215_MethodInfo_var);
+		ExposedList_1_t4224666065 * L_9 = __this->get_attachments_2();
+		Instruction_t629699354 * L_10 = ___other0;
+		NullCheck(L_10);
+		ExposedList_1_t4224666065 * L_11 = L_10->get_attachments_2();
+		NullCheck(L_11);
+		int32_t L_12 = L_11->get_Count_2();
+		NullCheck(L_9);
+		L_9->set_Count_2(L_12);
+		Instruction_t629699354 * L_13 = ___other0;
+		NullCheck(L_13);
+		ExposedList_1_t4224666065 * L_14 = L_13->get_attachments_2();
+		ExposedList_1_t4224666065 * L_15 = __this->get_attachments_2();
+		NullCheck(L_15);
+		AttachmentU5BU5D_t3539071366* L_16 = L_15->get_Items_1();
+		NullCheck(L_14);
+		ExposedList_1_CopyTo_m917847547(L_14, L_16, /*hidden argument*/ExposedList_1_CopyTo_m917847547_MethodInfo_var);
+		ExposedList_1_t723286955 * L_17 = __this->get_submeshInstructions_3();
+		NullCheck(L_17);
+		ExposedList_1_Clear_m527332973(L_17, (bool)0, /*hidden argument*/ExposedList_1_Clear_m527332973_MethodInfo_var);
+		ExposedList_1_t723286955 * L_18 = __this->get_submeshInstructions_3();
+		Instruction_t629699354 * L_19 = ___other0;
+		NullCheck(L_19);
+		ExposedList_1_t723286955 * L_20 = L_19->get_submeshInstructions_3();
+		NullCheck(L_20);
+		int32_t L_21 = ExposedList_1_get_Capacity_m2922746346(L_20, /*hidden argument*/ExposedList_1_get_Capacity_m2922746346_MethodInfo_var);
+		NullCheck(L_18);
+		ExposedList_1_GrowIfNeeded_m1795922959(L_18, L_21, /*hidden argument*/ExposedList_1_GrowIfNeeded_m1795922959_MethodInfo_var);
+		ExposedList_1_t723286955 * L_22 = __this->get_submeshInstructions_3();
+		Instruction_t629699354 * L_23 = ___other0;
+		NullCheck(L_23);
+		ExposedList_1_t723286955 * L_24 = L_23->get_submeshInstructions_3();
+		NullCheck(L_24);
+		int32_t L_25 = L_24->get_Count_2();
+		NullCheck(L_22);
+		L_22->set_Count_2(L_25);
+		Instruction_t629699354 * L_26 = ___other0;
+		NullCheck(L_26);
+		ExposedList_1_t723286955 * L_27 = L_26->get_submeshInstructions_3();
+		ExposedList_1_t723286955 * L_28 = __this->get_submeshInstructions_3();
+		NullCheck(L_28);
+		SubmeshInstructionU5BU5D_t2859174660* L_29 = L_28->get_Items_1();
+		NullCheck(L_27);
+		ExposedList_1_CopyTo_m1116751091(L_27, L_29, /*hidden argument*/ExposedList_1_CopyTo_m1116751091_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::.ctor()
+extern Il2CppClass* List_1_t3341389725_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t574265974_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3184685182_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m1941038231_MethodInfo_var;
+extern const uint32_t SkeletonUtility__ctor_m3012203920_MetadataUsageId;
+extern "C"  void SkeletonUtility__ctor_m3012203920 (SkeletonUtility_t43096937 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility__ctor_m3012203920_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		List_1_t3341389725 * L_0 = (List_1_t3341389725 *)il2cpp_codegen_object_new(List_1_t3341389725_il2cpp_TypeInfo_var);
+		List_1__ctor_m3184685182(L_0, /*hidden argument*/List_1__ctor_m3184685182_MethodInfo_var);
+		__this->set_utilityBones_5(L_0);
+		List_1_t574265974 * L_1 = (List_1_t574265974 *)il2cpp_codegen_object_new(List_1_t574265974_il2cpp_TypeInfo_var);
+		List_1__ctor_m1941038231(L_1, /*hidden argument*/List_1__ctor_m1941038231_MethodInfo_var);
+		__this->set_utilityConstraints_6(L_1);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::add_OnReset(Spine.Unity.SkeletonUtility/SkeletonUtilityDelegate)
+extern Il2CppClass* SkeletonUtilityDelegate_t3470925072_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonUtility_add_OnReset_m2389394018_MetadataUsageId;
+extern "C"  void SkeletonUtility_add_OnReset_m2389394018 (SkeletonUtility_t43096937 * __this, SkeletonUtilityDelegate_t3470925072 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_add_OnReset_m2389394018_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SkeletonUtilityDelegate_t3470925072 * L_0 = __this->get_OnReset_10();
+		SkeletonUtilityDelegate_t3470925072 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_OnReset_10(((SkeletonUtilityDelegate_t3470925072 *)CastclassSealed(L_2, SkeletonUtilityDelegate_t3470925072_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::remove_OnReset(Spine.Unity.SkeletonUtility/SkeletonUtilityDelegate)
+extern Il2CppClass* SkeletonUtilityDelegate_t3470925072_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonUtility_remove_OnReset_m1743239897_MetadataUsageId;
+extern "C"  void SkeletonUtility_remove_OnReset_m1743239897 (SkeletonUtility_t43096937 * __this, SkeletonUtilityDelegate_t3470925072 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_remove_OnReset_m1743239897_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SkeletonUtilityDelegate_t3470925072 * L_0 = __this->get_OnReset_10();
+		SkeletonUtilityDelegate_t3470925072 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_OnReset_10(((SkeletonUtilityDelegate_t3470925072 *)CastclassSealed(L_2, SkeletonUtilityDelegate_t3470925072_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// UnityEngine.PolygonCollider2D Spine.Unity.SkeletonUtility::AddBoundingBox(Spine.Skeleton,System.String,System.String,System.String,UnityEngine.Transform,System.Boolean)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* BoundingBoxAttachment_t3933059536_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObject_t3674682005_il2cpp_TypeInfo_var;
+extern Il2CppClass* Vector2U5BU5D_t4024180168_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisPolygonCollider2D_t2156524054_m3343978115_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral79944227;
+extern Il2CppCodeGenString* _stringLiteral1090661100;
+extern Il2CppCodeGenString* _stringLiteral3060131761;
+extern const uint32_t SkeletonUtility_AddBoundingBox_m2926004794_MetadataUsageId;
+extern "C"  PolygonCollider2D_t2156524054 * SkeletonUtility_AddBoundingBox_m2926004794 (Il2CppObject * __this /* static, unused */, Skeleton_t2209335561 * ___skeleton0, String_t* ___skinName1, String_t* ___slotName2, String_t* ___attachmentName3, Transform_t1659122786 * ___parent4, bool ___isTrigger5, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_AddBoundingBox_m2926004794_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Skin_t1650992057 * V_0 = NULL;
+	Attachment_t2849733407 * V_1 = NULL;
+	GameObject_t3674682005 * V_2 = NULL;
+	PolygonCollider2D_t2156524054 * V_3 = NULL;
+	BoundingBoxAttachment_t3933059536 * V_4 = NULL;
+	SingleU5BU5D_t2316563989* V_5 = NULL;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	Vector2U5BU5D_t4024180168* V_8 = NULL;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	{
+		String_t* L_0 = ___skinName1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		bool L_2 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_3 = ___skeleton0;
+		NullCheck(L_3);
+		SkeletonData_t3387199699 * L_4 = Skeleton_get_Data_m427316911(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Skin_t1650992057 * L_5 = SkeletonData_get_DefaultSkin_m1855694519(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		String_t* L_6 = Skin_get_Name_m2524273768(L_5, /*hidden argument*/NULL);
+		___skinName1 = L_6;
+	}
+
+IL_0022:
+	{
+		Skeleton_t2209335561 * L_7 = ___skeleton0;
+		NullCheck(L_7);
+		SkeletonData_t3387199699 * L_8 = Skeleton_get_Data_m427316911(L_7, /*hidden argument*/NULL);
+		String_t* L_9 = ___skinName1;
+		NullCheck(L_8);
+		Skin_t1650992057 * L_10 = SkeletonData_FindSkin_m94438476(L_8, L_9, /*hidden argument*/NULL);
+		V_0 = L_10;
+		Skin_t1650992057 * L_11 = V_0;
+		if (L_11)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		String_t* L_12 = ___skinName1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_13 = String_Concat_m1825781833(NULL /*static, unused*/, _stringLiteral79944227, L_12, _stringLiteral1090661100, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		return (PolygonCollider2D_t2156524054 *)NULL;
+	}
+
+IL_004c:
+	{
+		Skin_t1650992057 * L_14 = V_0;
+		Skeleton_t2209335561 * L_15 = ___skeleton0;
+		String_t* L_16 = ___slotName2;
+		NullCheck(L_15);
+		int32_t L_17 = Skeleton_FindSlotIndex_m2031976852(L_15, L_16, /*hidden argument*/NULL);
+		String_t* L_18 = ___attachmentName3;
+		NullCheck(L_14);
+		Attachment_t2849733407 * L_19 = Skin_GetAttachment_m662684200(L_14, L_17, L_18, /*hidden argument*/NULL);
+		V_1 = L_19;
+		Attachment_t2849733407 * L_20 = V_1;
+		if (!((BoundingBoxAttachment_t3933059536 *)IsInstClass(L_20, BoundingBoxAttachment_t3933059536_il2cpp_TypeInfo_var)))
+		{
+			goto IL_013c;
+		}
+	}
+	{
+		String_t* L_21 = ___attachmentName3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_22 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral3060131761, L_21, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_23 = (GameObject_t3674682005 *)il2cpp_codegen_object_new(GameObject_t3674682005_il2cpp_TypeInfo_var);
+		GameObject__ctor_m3920833606(L_23, L_22, /*hidden argument*/NULL);
+		V_2 = L_23;
+		GameObject_t3674682005 * L_24 = V_2;
+		NullCheck(L_24);
+		Transform_t1659122786 * L_25 = GameObject_get_transform_m1278640159(L_24, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_26 = ___parent4;
+		NullCheck(L_25);
+		Transform_set_parent_m3231272063(L_25, L_26, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_27 = V_2;
+		NullCheck(L_27);
+		Transform_t1659122786 * L_28 = GameObject_get_transform_m1278640159(L_27, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_29 = Vector3_get_zero_m2017759730(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_28);
+		Transform_set_localPosition_m3504330903(L_28, L_29, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_30 = V_2;
+		NullCheck(L_30);
+		Transform_t1659122786 * L_31 = GameObject_get_transform_m1278640159(L_30, /*hidden argument*/NULL);
+		Quaternion_t1553702882  L_32 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		Transform_set_localRotation_m3719981474(L_31, L_32, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_33 = V_2;
+		NullCheck(L_33);
+		Transform_t1659122786 * L_34 = GameObject_get_transform_m1278640159(L_33, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_35 = Vector3_get_one_m886467710(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_34);
+		Transform_set_localScale_m310756934(L_34, L_35, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_36 = V_2;
+		NullCheck(L_36);
+		PolygonCollider2D_t2156524054 * L_37 = GameObject_AddComponent_TisPolygonCollider2D_t2156524054_m3343978115(L_36, /*hidden argument*/GameObject_AddComponent_TisPolygonCollider2D_t2156524054_m3343978115_MethodInfo_var);
+		V_3 = L_37;
+		PolygonCollider2D_t2156524054 * L_38 = V_3;
+		bool L_39 = ___isTrigger5;
+		NullCheck(L_38);
+		Collider2D_set_isTrigger_m4005580269(L_38, L_39, /*hidden argument*/NULL);
+		Attachment_t2849733407 * L_40 = V_1;
+		V_4 = ((BoundingBoxAttachment_t3933059536 *)CastclassClass(L_40, BoundingBoxAttachment_t3933059536_il2cpp_TypeInfo_var));
+		BoundingBoxAttachment_t3933059536 * L_41 = V_4;
+		NullCheck(L_41);
+		SingleU5BU5D_t2316563989* L_42 = VertexAttachment_get_Vertices_m2450331911(L_41, /*hidden argument*/NULL);
+		V_5 = L_42;
+		SingleU5BU5D_t2316563989* L_43 = V_5;
+		NullCheck(L_43);
+		V_6 = (((int32_t)((int32_t)(((Il2CppArray *)L_43)->max_length))));
+		int32_t L_44 = V_6;
+		V_7 = ((int32_t)((int32_t)L_44/(int32_t)2));
+		int32_t L_45 = V_7;
+		V_8 = ((Vector2U5BU5D_t4024180168*)SZArrayNew(Vector2U5BU5D_t4024180168_il2cpp_TypeInfo_var, (uint32_t)L_45));
+		V_9 = 0;
+		V_10 = 0;
+		goto IL_0128;
+	}
+
+IL_00f4:
+	{
+		Vector2U5BU5D_t4024180168* L_46 = V_8;
+		int32_t L_47 = V_9;
+		NullCheck(L_46);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_46, L_47);
+		SingleU5BU5D_t2316563989* L_48 = V_5;
+		int32_t L_49 = V_10;
+		NullCheck(L_48);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_48, L_49);
+		int32_t L_50 = L_49;
+		float L_51 = (L_48)->GetAt(static_cast<il2cpp_array_size_t>(L_50));
+		((L_46)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_47)))->set_x_1(L_51);
+		Vector2U5BU5D_t4024180168* L_52 = V_8;
+		int32_t L_53 = V_9;
+		NullCheck(L_52);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_52, L_53);
+		SingleU5BU5D_t2316563989* L_54 = V_5;
+		int32_t L_55 = V_10;
+		NullCheck(L_54);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_54, ((int32_t)((int32_t)L_55+(int32_t)1)));
+		int32_t L_56 = ((int32_t)((int32_t)L_55+(int32_t)1));
+		float L_57 = (L_54)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
+		((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_53)))->set_y_2(L_57);
+		int32_t L_58 = V_10;
+		V_10 = ((int32_t)((int32_t)L_58+(int32_t)2));
+		int32_t L_59 = V_9;
+		V_9 = ((int32_t)((int32_t)L_59+(int32_t)1));
+	}
+
+IL_0128:
+	{
+		int32_t L_60 = V_10;
+		int32_t L_61 = V_6;
+		if ((((int32_t)L_60) < ((int32_t)L_61)))
+		{
+			goto IL_00f4;
+		}
+	}
+	{
+		PolygonCollider2D_t2156524054 * L_62 = V_3;
+		Vector2U5BU5D_t4024180168* L_63 = V_8;
+		NullCheck(L_62);
+		PolygonCollider2D_SetPath_m1487888609(L_62, 0, L_63, /*hidden argument*/NULL);
+		PolygonCollider2D_t2156524054 * L_64 = V_3;
+		return L_64;
+	}
+
+IL_013c:
+	{
+		return (PolygonCollider2D_t2156524054 *)NULL;
+	}
+}
+// UnityEngine.PolygonCollider2D Spine.Unity.SkeletonUtility::AddBoundingBoxAsComponent(Spine.BoundingBoxAttachment,UnityEngine.GameObject,System.Boolean)
+extern Il2CppClass* Vector2U5BU5D_t4024180168_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisPolygonCollider2D_t2156524054_m3343978115_MethodInfo_var;
+extern const uint32_t SkeletonUtility_AddBoundingBoxAsComponent_m642219253_MetadataUsageId;
+extern "C"  PolygonCollider2D_t2156524054 * SkeletonUtility_AddBoundingBoxAsComponent_m642219253 (Il2CppObject * __this /* static, unused */, BoundingBoxAttachment_t3933059536 * ___boundingBox0, GameObject_t3674682005 * ___gameObject1, bool ___isTrigger2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_AddBoundingBoxAsComponent_m642219253_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	PolygonCollider2D_t2156524054 * V_0 = NULL;
+	SingleU5BU5D_t2316563989* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	Vector2U5BU5D_t4024180168* V_4 = NULL;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	{
+		BoundingBoxAttachment_t3933059536 * L_0 = ___boundingBox0;
+		if (L_0)
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		return (PolygonCollider2D_t2156524054 *)NULL;
+	}
+
+IL_0008:
+	{
+		GameObject_t3674682005 * L_1 = ___gameObject1;
+		NullCheck(L_1);
+		PolygonCollider2D_t2156524054 * L_2 = GameObject_AddComponent_TisPolygonCollider2D_t2156524054_m3343978115(L_1, /*hidden argument*/GameObject_AddComponent_TisPolygonCollider2D_t2156524054_m3343978115_MethodInfo_var);
+		V_0 = L_2;
+		PolygonCollider2D_t2156524054 * L_3 = V_0;
+		bool L_4 = ___isTrigger2;
+		NullCheck(L_3);
+		Collider2D_set_isTrigger_m4005580269(L_3, L_4, /*hidden argument*/NULL);
+		BoundingBoxAttachment_t3933059536 * L_5 = ___boundingBox0;
+		NullCheck(L_5);
+		SingleU5BU5D_t2316563989* L_6 = VertexAttachment_get_Vertices_m2450331911(L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		SingleU5BU5D_t2316563989* L_7 = V_1;
+		NullCheck(L_7);
+		V_2 = (((int32_t)((int32_t)(((Il2CppArray *)L_7)->max_length))));
+		int32_t L_8 = V_2;
+		V_3 = ((int32_t)((int32_t)L_8/(int32_t)2));
+		int32_t L_9 = V_3;
+		V_4 = ((Vector2U5BU5D_t4024180168*)SZArrayNew(Vector2U5BU5D_t4024180168_il2cpp_TypeInfo_var, (uint32_t)L_9));
+		V_5 = 0;
+		V_6 = 0;
+		goto IL_006a;
+	}
+
+IL_0038:
+	{
+		Vector2U5BU5D_t4024180168* L_10 = V_4;
+		int32_t L_11 = V_5;
+		NullCheck(L_10);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, L_11);
+		SingleU5BU5D_t2316563989* L_12 = V_1;
+		int32_t L_13 = V_6;
+		NullCheck(L_12);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, L_13);
+		int32_t L_14 = L_13;
+		float L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		((L_10)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_11)))->set_x_1(L_15);
+		Vector2U5BU5D_t4024180168* L_16 = V_4;
+		int32_t L_17 = V_5;
+		NullCheck(L_16);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, L_17);
+		SingleU5BU5D_t2316563989* L_18 = V_1;
+		int32_t L_19 = V_6;
+		NullCheck(L_18);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_18, ((int32_t)((int32_t)L_19+(int32_t)1)));
+		int32_t L_20 = ((int32_t)((int32_t)L_19+(int32_t)1));
+		float L_21 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
+		((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17)))->set_y_2(L_21);
+		int32_t L_22 = V_6;
+		V_6 = ((int32_t)((int32_t)L_22+(int32_t)2));
+		int32_t L_23 = V_5;
+		V_5 = ((int32_t)((int32_t)L_23+(int32_t)1));
+	}
+
+IL_006a:
+	{
+		int32_t L_24 = V_6;
+		int32_t L_25 = V_2;
+		if ((((int32_t)L_24) < ((int32_t)L_25)))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		PolygonCollider2D_t2156524054 * L_26 = V_0;
+		Vector2U5BU5D_t4024180168* L_27 = V_4;
+		NullCheck(L_26);
+		PolygonCollider2D_SetPath_m1487888609(L_26, 0, L_27, /*hidden argument*/NULL);
+		PolygonCollider2D_t2156524054 * L_28 = V_0;
+		return L_28;
+	}
+}
+// UnityEngine.Bounds Spine.Unity.SkeletonUtility::GetBoundingBoxBounds(Spine.BoundingBoxAttachment,System.Single)
+extern Il2CppClass* Bounds_t2711641849_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonUtility_GetBoundingBoxBounds_m162189167_MetadataUsageId;
+extern "C"  Bounds_t2711641849  SkeletonUtility_GetBoundingBoxBounds_m162189167 (Il2CppObject * __this /* static, unused */, BoundingBoxAttachment_t3933059536 * ___boundingBox0, float ___depth1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_GetBoundingBoxBounds_m162189167_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	SingleU5BU5D_t2316563989* V_0 = NULL;
+	int32_t V_1 = 0;
+	Bounds_t2711641849  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	Vector3_t4282066566  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	{
+		BoundingBoxAttachment_t3933059536 * L_0 = ___boundingBox0;
+		NullCheck(L_0);
+		SingleU5BU5D_t2316563989* L_1 = VertexAttachment_get_Vertices_m2450331911(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		SingleU5BU5D_t2316563989* L_2 = V_0;
+		NullCheck(L_2);
+		V_1 = (((int32_t)((int32_t)(((Il2CppArray *)L_2)->max_length))));
+		Initobj (Bounds_t2711641849_il2cpp_TypeInfo_var, (&V_2));
+		SingleU5BU5D_t2316563989* L_3 = V_0;
+		NullCheck(L_3);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, 0);
+		int32_t L_4 = 0;
+		float L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		SingleU5BU5D_t2316563989* L_6 = V_0;
+		NullCheck(L_6);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 1);
+		int32_t L_7 = 1;
+		float L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		Vector3_t4282066566  L_9;
+		memset(&L_9, 0, sizeof(L_9));
+		Vector3__ctor_m2926210380(&L_9, L_5, L_8, (0.0f), /*hidden argument*/NULL);
+		Bounds_set_center_m2605643707((&V_2), L_9, /*hidden argument*/NULL);
+		V_3 = 2;
+		goto IL_004e;
+	}
+
+IL_0031:
+	{
+		SingleU5BU5D_t2316563989* L_10 = V_0;
+		int32_t L_11 = V_3;
+		NullCheck(L_10);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, L_11);
+		int32_t L_12 = L_11;
+		float L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		SingleU5BU5D_t2316563989* L_14 = V_0;
+		int32_t L_15 = V_3;
+		NullCheck(L_14);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_14, ((int32_t)((int32_t)L_15+(int32_t)1)));
+		int32_t L_16 = ((int32_t)((int32_t)L_15+(int32_t)1));
+		float L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		Vector3_t4282066566  L_18;
+		memset(&L_18, 0, sizeof(L_18));
+		Vector3__ctor_m2926210380(&L_18, L_13, L_17, (0.0f), /*hidden argument*/NULL);
+		Bounds_Encapsulate_m3624685234((&V_2), L_18, /*hidden argument*/NULL);
+		int32_t L_19 = V_3;
+		V_3 = ((int32_t)((int32_t)L_19+(int32_t)2));
+	}
+
+IL_004e:
+	{
+		int32_t L_20 = V_3;
+		int32_t L_21 = V_1;
+		if ((((int32_t)L_20) < ((int32_t)L_21)))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		Vector3_t4282066566  L_22 = Bounds_get_size_m3666348432((&V_2), /*hidden argument*/NULL);
+		V_4 = L_22;
+		float L_23 = ___depth1;
+		(&V_4)->set_z_3(L_23);
+		Vector3_t4282066566  L_24 = V_4;
+		Bounds_set_size_m4109809039((&V_2), L_24, /*hidden argument*/NULL);
+		Bounds_t2711641849  L_25 = V_2;
+		return L_25;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::Update()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const uint32_t SkeletonUtility_Update_m615903101_MetadataUsageId;
+extern "C"  void SkeletonUtility_Update_m615903101 (SkeletonUtility_t43096937 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_Update_m615903101_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Vector3_t4282066566  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Transform_t1659122786 * L_0 = __this->get_boneRoot_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		SkeletonRenderer_t3766155010 * L_2 = __this->get_skeletonRenderer_3();
+		NullCheck(L_2);
+		Skeleton_t2209335561 * L_3 = L_2->get_skeleton_20();
+		if (!L_3)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		Vector3_t4282066566  L_4 = Vector3_get_one_m886467710(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_4;
+		SkeletonRenderer_t3766155010 * L_5 = __this->get_skeletonRenderer_3();
+		NullCheck(L_5);
+		Skeleton_t2209335561 * L_6 = L_5->get_skeleton_20();
+		NullCheck(L_6);
+		bool L_7 = Skeleton_get_FlipX_m955621039(L_6, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		(&V_0)->set_x_1((-1.0f));
+	}
+
+IL_0048:
+	{
+		SkeletonRenderer_t3766155010 * L_8 = __this->get_skeletonRenderer_3();
+		NullCheck(L_8);
+		Skeleton_t2209335561 * L_9 = L_8->get_skeleton_20();
+		NullCheck(L_9);
+		bool L_10 = Skeleton_get_FlipY_m955622000(L_9, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		(&V_0)->set_y_2((-1.0f));
+	}
+
+IL_0069:
+	{
+		Transform_t1659122786 * L_11 = __this->get_boneRoot_2();
+		Vector3_t4282066566  L_12 = V_0;
+		NullCheck(L_11);
+		Transform_set_localScale_m310756934(L_11, L_12, /*hidden argument*/NULL);
+	}
+
+IL_0075:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::OnEnable()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* SkeletonRendererDelegate_t1530399696_il2cpp_TypeInfo_var;
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisSkeletonAnimation_t3721178561_m3586698566_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisSkeletonAnimator_t3465797926_m2892230285_MethodInfo_var;
+extern const MethodInfo* SkeletonUtility_HandleRendererReset_m894871326_MethodInfo_var;
+extern const MethodInfo* SkeletonUtility_UpdateLocal_m1985154462_MethodInfo_var;
+extern const uint32_t SkeletonUtility_OnEnable_m3886843894_MetadataUsageId;
+extern "C"  void SkeletonUtility_OnEnable_m3886843894 (SkeletonUtility_t43096937 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_OnEnable_m3886843894_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		SkeletonRenderer_t3766155010 * L_2 = Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865(__this, /*hidden argument*/Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var);
+		__this->set_skeletonRenderer_3(L_2);
+	}
+
+IL_001d:
+	{
+		Il2CppObject * L_3 = __this->get_skeletonAnimation_4();
+		if (L_3)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		SkeletonAnimation_t3721178561 * L_4 = Component_GetComponent_TisSkeletonAnimation_t3721178561_m3586698566(__this, /*hidden argument*/Component_GetComponent_TisSkeletonAnimation_t3721178561_m3586698566_MethodInfo_var);
+		__this->set_skeletonAnimation_4(L_4);
+		Il2CppObject * L_5 = __this->get_skeletonAnimation_4();
+		if (L_5)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		SkeletonAnimator_t3465797926 * L_6 = Component_GetComponent_TisSkeletonAnimator_t3465797926_m2892230285(__this, /*hidden argument*/Component_GetComponent_TisSkeletonAnimator_t3465797926_m2892230285_MethodInfo_var);
+		__this->set_skeletonAnimation_4(L_6);
+	}
+
+IL_004b:
+	{
+		SkeletonRenderer_t3766155010 * L_7 = __this->get_skeletonRenderer_3();
+		SkeletonRenderer_t3766155010 * L_8 = L_7;
+		NullCheck(L_8);
+		SkeletonRendererDelegate_t1530399696 * L_9 = L_8->get_OnRebuild_2();
+		IntPtr_t L_10;
+		L_10.set_m_value_0((void*)(void*)SkeletonUtility_HandleRendererReset_m894871326_MethodInfo_var);
+		SkeletonRendererDelegate_t1530399696 * L_11 = (SkeletonRendererDelegate_t1530399696 *)il2cpp_codegen_object_new(SkeletonRendererDelegate_t1530399696_il2cpp_TypeInfo_var);
+		SkeletonRendererDelegate__ctor_m4163935143(L_11, __this, L_10, /*hidden argument*/NULL);
+		Delegate_t3310234105 * L_12 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_9, L_11, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		L_8->set_OnRebuild_2(((SkeletonRendererDelegate_t1530399696 *)CastclassSealed(L_12, SkeletonRendererDelegate_t1530399696_il2cpp_TypeInfo_var)));
+		SkeletonRenderer_t3766155010 * L_13 = __this->get_skeletonRenderer_3();
+		SkeletonRenderer_t3766155010 * L_14 = L_13;
+		NullCheck(L_14);
+		SkeletonRendererDelegate_t1530399696 * L_15 = L_14->get_OnRebuild_2();
+		IntPtr_t L_16;
+		L_16.set_m_value_0((void*)(void*)SkeletonUtility_HandleRendererReset_m894871326_MethodInfo_var);
+		SkeletonRendererDelegate_t1530399696 * L_17 = (SkeletonRendererDelegate_t1530399696 *)il2cpp_codegen_object_new(SkeletonRendererDelegate_t1530399696_il2cpp_TypeInfo_var);
+		SkeletonRendererDelegate__ctor_m4163935143(L_17, __this, L_16, /*hidden argument*/NULL);
+		Delegate_t3310234105 * L_18 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_15, L_17, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		L_14->set_OnRebuild_2(((SkeletonRendererDelegate_t1530399696 *)CastclassSealed(L_18, SkeletonRendererDelegate_t1530399696_il2cpp_TypeInfo_var)));
+		Il2CppObject * L_19 = __this->get_skeletonAnimation_4();
+		if (!L_19)
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		Il2CppObject * L_20 = __this->get_skeletonAnimation_4();
+		IntPtr_t L_21;
+		L_21.set_m_value_0((void*)(void*)SkeletonUtility_UpdateLocal_m1985154462_MethodInfo_var);
+		UpdateBonesDelegate_t4020151189 * L_22 = (UpdateBonesDelegate_t4020151189 *)il2cpp_codegen_object_new(UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var);
+		UpdateBonesDelegate__ctor_m2218992318(L_22, __this, L_21, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		InterfaceActionInvoker1< UpdateBonesDelegate_t4020151189 * >::Invoke(1 /* System.Void Spine.Unity.ISkeletonAnimation::remove_UpdateLocal(Spine.Unity.UpdateBonesDelegate) */, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var, L_20, L_22);
+		Il2CppObject * L_23 = __this->get_skeletonAnimation_4();
+		IntPtr_t L_24;
+		L_24.set_m_value_0((void*)(void*)SkeletonUtility_UpdateLocal_m1985154462_MethodInfo_var);
+		UpdateBonesDelegate_t4020151189 * L_25 = (UpdateBonesDelegate_t4020151189 *)il2cpp_codegen_object_new(UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var);
+		UpdateBonesDelegate__ctor_m2218992318(L_25, __this, L_24, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		InterfaceActionInvoker1< UpdateBonesDelegate_t4020151189 * >::Invoke(0 /* System.Void Spine.Unity.ISkeletonAnimation::add_UpdateLocal(Spine.Unity.UpdateBonesDelegate) */, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var, L_23, L_25);
+	}
+
+IL_00d2:
+	{
+		SkeletonUtility_CollectBones_m3994911897(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::Start()
+extern "C"  void SkeletonUtility_Start_m1959341712 (SkeletonUtility_t43096937 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::OnDisable()
+extern Il2CppClass* SkeletonRendererDelegate_t1530399696_il2cpp_TypeInfo_var;
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var;
+extern const MethodInfo* SkeletonUtility_HandleRendererReset_m894871326_MethodInfo_var;
+extern const MethodInfo* SkeletonUtility_UpdateLocal_m1985154462_MethodInfo_var;
+extern const MethodInfo* SkeletonUtility_UpdateWorld_m115076549_MethodInfo_var;
+extern const MethodInfo* SkeletonUtility_UpdateComplete_m199296292_MethodInfo_var;
+extern const uint32_t SkeletonUtility_OnDisable_m674013687_MetadataUsageId;
+extern "C"  void SkeletonUtility_OnDisable_m674013687 (SkeletonUtility_t43096937 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_OnDisable_m674013687_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_3();
+		SkeletonRenderer_t3766155010 * L_1 = L_0;
+		NullCheck(L_1);
+		SkeletonRendererDelegate_t1530399696 * L_2 = L_1->get_OnRebuild_2();
+		IntPtr_t L_3;
+		L_3.set_m_value_0((void*)(void*)SkeletonUtility_HandleRendererReset_m894871326_MethodInfo_var);
+		SkeletonRendererDelegate_t1530399696 * L_4 = (SkeletonRendererDelegate_t1530399696 *)il2cpp_codegen_object_new(SkeletonRendererDelegate_t1530399696_il2cpp_TypeInfo_var);
+		SkeletonRendererDelegate__ctor_m4163935143(L_4, __this, L_3, /*hidden argument*/NULL);
+		Delegate_t3310234105 * L_5 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		L_1->set_OnRebuild_2(((SkeletonRendererDelegate_t1530399696 *)CastclassSealed(L_5, SkeletonRendererDelegate_t1530399696_il2cpp_TypeInfo_var)));
+		Il2CppObject * L_6 = __this->get_skeletonAnimation_4();
+		if (!L_6)
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		Il2CppObject * L_7 = __this->get_skeletonAnimation_4();
+		IntPtr_t L_8;
+		L_8.set_m_value_0((void*)(void*)SkeletonUtility_UpdateLocal_m1985154462_MethodInfo_var);
+		UpdateBonesDelegate_t4020151189 * L_9 = (UpdateBonesDelegate_t4020151189 *)il2cpp_codegen_object_new(UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var);
+		UpdateBonesDelegate__ctor_m2218992318(L_9, __this, L_8, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		InterfaceActionInvoker1< UpdateBonesDelegate_t4020151189 * >::Invoke(1 /* System.Void Spine.Unity.ISkeletonAnimation::remove_UpdateLocal(Spine.Unity.UpdateBonesDelegate) */, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var, L_7, L_9);
+		Il2CppObject * L_10 = __this->get_skeletonAnimation_4();
+		IntPtr_t L_11;
+		L_11.set_m_value_0((void*)(void*)SkeletonUtility_UpdateWorld_m115076549_MethodInfo_var);
+		UpdateBonesDelegate_t4020151189 * L_12 = (UpdateBonesDelegate_t4020151189 *)il2cpp_codegen_object_new(UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var);
+		UpdateBonesDelegate__ctor_m2218992318(L_12, __this, L_11, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		InterfaceActionInvoker1< UpdateBonesDelegate_t4020151189 * >::Invoke(3 /* System.Void Spine.Unity.ISkeletonAnimation::remove_UpdateWorld(Spine.Unity.UpdateBonesDelegate) */, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var, L_10, L_12);
+		Il2CppObject * L_13 = __this->get_skeletonAnimation_4();
+		IntPtr_t L_14;
+		L_14.set_m_value_0((void*)(void*)SkeletonUtility_UpdateComplete_m199296292_MethodInfo_var);
+		UpdateBonesDelegate_t4020151189 * L_15 = (UpdateBonesDelegate_t4020151189 *)il2cpp_codegen_object_new(UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var);
+		UpdateBonesDelegate__ctor_m2218992318(L_15, __this, L_14, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		InterfaceActionInvoker1< UpdateBonesDelegate_t4020151189 * >::Invoke(5 /* System.Void Spine.Unity.ISkeletonAnimation::remove_UpdateComplete(Spine.Unity.UpdateBonesDelegate) */, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var, L_13, L_15);
+	}
+
+IL_0077:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::HandleRendererReset(Spine.Unity.SkeletonRenderer)
+extern "C"  void SkeletonUtility_HandleRendererReset_m894871326 (SkeletonUtility_t43096937 * __this, SkeletonRenderer_t3766155010 * ___r0, const MethodInfo* method)
+{
+	{
+		SkeletonUtilityDelegate_t3470925072 * L_0 = __this->get_OnReset_10();
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		SkeletonUtilityDelegate_t3470925072 * L_1 = __this->get_OnReset_10();
+		NullCheck(L_1);
+		SkeletonUtilityDelegate_Invoke_m3272520193(L_1, /*hidden argument*/NULL);
+	}
+
+IL_0016:
+	{
+		SkeletonUtility_CollectBones_m3994911897(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::RegisterBone(Spine.Unity.SkeletonUtilityBone)
+extern const MethodInfo* List_1_Contains_m2092678730_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m2879045998_MethodInfo_var;
+extern const uint32_t SkeletonUtility_RegisterBone_m4029327192_MetadataUsageId;
+extern "C"  void SkeletonUtility_RegisterBone_m4029327192 (SkeletonUtility_t43096937 * __this, SkeletonUtilityBone_t1973204173 * ___bone0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_RegisterBone_m4029327192_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		List_1_t3341389725 * L_0 = __this->get_utilityBones_5();
+		SkeletonUtilityBone_t1973204173 * L_1 = ___bone0;
+		NullCheck(L_0);
+		bool L_2 = List_1_Contains_m2092678730(L_0, L_1, /*hidden argument*/List_1_Contains_m2092678730_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		List_1_t3341389725 * L_3 = __this->get_utilityBones_5();
+		SkeletonUtilityBone_t1973204173 * L_4 = ___bone0;
+		NullCheck(L_3);
+		List_1_Add_m2879045998(L_3, L_4, /*hidden argument*/List_1_Add_m2879045998_MethodInfo_var);
+		__this->set_needToReprocessBones_9((bool)1);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::UnregisterBone(Spine.Unity.SkeletonUtilityBone)
+extern const MethodInfo* List_1_Remove_m1190981743_MethodInfo_var;
+extern const uint32_t SkeletonUtility_UnregisterBone_m1312405023_MetadataUsageId;
+extern "C"  void SkeletonUtility_UnregisterBone_m1312405023 (SkeletonUtility_t43096937 * __this, SkeletonUtilityBone_t1973204173 * ___bone0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_UnregisterBone_m1312405023_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		List_1_t3341389725 * L_0 = __this->get_utilityBones_5();
+		SkeletonUtilityBone_t1973204173 * L_1 = ___bone0;
+		NullCheck(L_0);
+		List_1_Remove_m1190981743(L_0, L_1, /*hidden argument*/List_1_Remove_m1190981743_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::RegisterConstraint(Spine.Unity.SkeletonUtilityConstraint)
+extern const MethodInfo* List_1_Contains_m2483755729_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m1635399047_MethodInfo_var;
+extern const uint32_t SkeletonUtility_RegisterConstraint_m3423144038_MetadataUsageId;
+extern "C"  void SkeletonUtility_RegisterConstraint_m3423144038 (SkeletonUtility_t43096937 * __this, SkeletonUtilityConstraint_t3501047718 * ___constraint0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_RegisterConstraint_m3423144038_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		List_1_t574265974 * L_0 = __this->get_utilityConstraints_6();
+		SkeletonUtilityConstraint_t3501047718 * L_1 = ___constraint0;
+		NullCheck(L_0);
+		bool L_2 = List_1_Contains_m2483755729(L_0, L_1, /*hidden argument*/List_1_Contains_m2483755729_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		List_1_t574265974 * L_3 = __this->get_utilityConstraints_6();
+		SkeletonUtilityConstraint_t3501047718 * L_4 = ___constraint0;
+		NullCheck(L_3);
+		List_1_Add_m1635399047(L_3, L_4, /*hidden argument*/List_1_Add_m1635399047_MethodInfo_var);
+		__this->set_needToReprocessBones_9((bool)1);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::UnregisterConstraint(Spine.Unity.SkeletonUtilityConstraint)
+extern const MethodInfo* List_1_Remove_m565691062_MethodInfo_var;
+extern const uint32_t SkeletonUtility_UnregisterConstraint_m499983533_MetadataUsageId;
+extern "C"  void SkeletonUtility_UnregisterConstraint_m499983533 (SkeletonUtility_t43096937 * __this, SkeletonUtilityConstraint_t3501047718 * ___constraint0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_UnregisterConstraint_m499983533_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		List_1_t574265974 * L_0 = __this->get_utilityConstraints_6();
+		SkeletonUtilityConstraint_t3501047718 * L_1 = ___constraint0;
+		NullCheck(L_0);
+		List_1_Remove_m565691062(L_0, L_1, /*hidden argument*/List_1_Remove_m565691062_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::CollectBones()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1375417109_il2cpp_TypeInfo_var;
+extern Il2CppClass* UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var;
+extern Il2CppClass* ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m459821414_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m4975193_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m1462761908_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m3674724577_MethodInfo_var;
+extern const MethodInfo* List_1_Contains_m3796021657_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m3265874893_MethodInfo_var;
+extern const MethodInfo* SkeletonUtility_UpdateWorld_m115076549_MethodInfo_var;
+extern const MethodInfo* SkeletonUtility_UpdateComplete_m199296292_MethodInfo_var;
+extern const MethodInfo* List_1_Clear_m590818473_MethodInfo_var;
+extern const MethodInfo* List_1_Clear_m3642138818_MethodInfo_var;
+extern const uint32_t SkeletonUtility_CollectBones_m3994911897_MetadataUsageId;
+extern "C"  void SkeletonUtility_CollectBones_m3994911897 (SkeletonUtility_t43096937 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_CollectBones_m3994911897_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t1375417109 * V_0 = NULL;
+	ExposedList_1_t2496032397 * V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	List_1_t3341389725 * V_4 = NULL;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	SkeletonUtilityBone_t1973204173 * V_7 = NULL;
+	{
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_3();
+		NullCheck(L_0);
+		Skeleton_t2209335561 * L_1 = L_0->get_skeleton_20();
+		if (L_1)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0011:
+	{
+		Transform_t1659122786 * L_2 = __this->get_boneRoot_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_2, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0192;
+		}
+	}
+	{
+		List_1_t1375417109 * L_4 = (List_1_t1375417109 *)il2cpp_codegen_object_new(List_1_t1375417109_il2cpp_TypeInfo_var);
+		List_1__ctor_m459821414(L_4, /*hidden argument*/List_1__ctor_m459821414_MethodInfo_var);
+		V_0 = L_4;
+		SkeletonRenderer_t3766155010 * L_5 = __this->get_skeletonRenderer_3();
+		NullCheck(L_5);
+		Skeleton_t2209335561 * L_6 = L_5->get_skeleton_20();
+		NullCheck(L_6);
+		ExposedList_1_t2496032397 * L_7 = Skeleton_get_IkConstraints_m168078261(L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
+		V_2 = 0;
+		ExposedList_1_t2496032397 * L_8 = V_1;
+		NullCheck(L_8);
+		int32_t L_9 = L_8->get_Count_2();
+		V_3 = L_9;
+		goto IL_0068;
+	}
+
+IL_0047:
+	{
+		List_1_t1375417109 * L_10 = V_0;
+		ExposedList_1_t2496032397 * L_11 = V_1;
+		NullCheck(L_11);
+		IkConstraintU5BU5D_t2201310810* L_12 = L_11->get_Items_1();
+		int32_t L_13 = V_2;
+		NullCheck(L_12);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, L_13);
+		int32_t L_14 = L_13;
+		IkConstraint_t1121099739 * L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		NullCheck(L_15);
+		Bone_t1650489600 * L_16 = IkConstraint_get_Target_m290620955(L_15, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		BoneData_t2151574858 * L_17 = Bone_get_Data_m2284260815(L_16, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		String_t* L_18 = BoneData_get_Name_m1159100153(L_17, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		List_1_Add_m4975193(L_10, L_18, /*hidden argument*/List_1_Add_m4975193_MethodInfo_var);
+		int32_t L_19 = V_2;
+		V_2 = ((int32_t)((int32_t)L_19+(int32_t)1));
+	}
+
+IL_0068:
+	{
+		int32_t L_20 = V_2;
+		int32_t L_21 = V_3;
+		if ((((int32_t)L_20) < ((int32_t)L_21)))
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		List_1_t3341389725 * L_22 = __this->get_utilityBones_5();
+		V_4 = L_22;
+		V_5 = 0;
+		List_1_t3341389725 * L_23 = V_4;
+		NullCheck(L_23);
+		int32_t L_24 = List_1_get_Count_m1462761908(L_23, /*hidden argument*/List_1_get_Count_m1462761908_MethodInfo_var);
+		V_6 = L_24;
+		goto IL_00dd;
+	}
+
+IL_0088:
+	{
+		List_1_t3341389725 * L_25 = V_4;
+		int32_t L_26 = V_5;
+		NullCheck(L_25);
+		SkeletonUtilityBone_t1973204173 * L_27 = List_1_get_Item_m3674724577(L_25, L_26, /*hidden argument*/List_1_get_Item_m3674724577_MethodInfo_var);
+		V_7 = L_27;
+		SkeletonUtilityBone_t1973204173 * L_28 = V_7;
+		NullCheck(L_28);
+		Bone_t1650489600 * L_29 = L_28->get_bone_4();
+		if (L_29)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		return;
+	}
+
+IL_00a0:
+	{
+		SkeletonUtilityBone_t1973204173 * L_30 = V_7;
+		NullCheck(L_30);
+		int32_t L_31 = L_30->get_mode_5();
+		if ((!(((uint32_t)L_31) == ((uint32_t)1))))
+		{
+			goto IL_00b4;
+		}
+	}
+	{
+		__this->set_hasTransformBones_7((bool)1);
+	}
+
+IL_00b4:
+	{
+		List_1_t1375417109 * L_32 = V_0;
+		SkeletonUtilityBone_t1973204173 * L_33 = V_7;
+		NullCheck(L_33);
+		Bone_t1650489600 * L_34 = L_33->get_bone_4();
+		NullCheck(L_34);
+		BoneData_t2151574858 * L_35 = Bone_get_Data_m2284260815(L_34, /*hidden argument*/NULL);
+		NullCheck(L_35);
+		String_t* L_36 = BoneData_get_Name_m1159100153(L_35, /*hidden argument*/NULL);
+		NullCheck(L_32);
+		bool L_37 = List_1_Contains_m3796021657(L_32, L_36, /*hidden argument*/List_1_Contains_m3796021657_MethodInfo_var);
+		if (!L_37)
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		__this->set_hasUtilityConstraints_8((bool)1);
+	}
+
+IL_00d7:
+	{
+		int32_t L_38 = V_5;
+		V_5 = ((int32_t)((int32_t)L_38+(int32_t)1));
+	}
+
+IL_00dd:
+	{
+		int32_t L_39 = V_5;
+		int32_t L_40 = V_6;
+		if ((((int32_t)L_39) < ((int32_t)L_40)))
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		List_1_t574265974 * L_41 = __this->get_utilityConstraints_6();
+		NullCheck(L_41);
+		int32_t L_42 = List_1_get_Count_m3265874893(L_41, /*hidden argument*/List_1_get_Count_m3265874893_MethodInfo_var);
+		if ((((int32_t)L_42) <= ((int32_t)0)))
+		{
+			goto IL_00fe;
+		}
+	}
+	{
+		__this->set_hasUtilityConstraints_8((bool)1);
+	}
+
+IL_00fe:
+	{
+		Il2CppObject * L_43 = __this->get_skeletonAnimation_4();
+		if (!L_43)
+		{
+			goto IL_0186;
+		}
+	}
+	{
+		Il2CppObject * L_44 = __this->get_skeletonAnimation_4();
+		IntPtr_t L_45;
+		L_45.set_m_value_0((void*)(void*)SkeletonUtility_UpdateWorld_m115076549_MethodInfo_var);
+		UpdateBonesDelegate_t4020151189 * L_46 = (UpdateBonesDelegate_t4020151189 *)il2cpp_codegen_object_new(UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var);
+		UpdateBonesDelegate__ctor_m2218992318(L_46, __this, L_45, /*hidden argument*/NULL);
+		NullCheck(L_44);
+		InterfaceActionInvoker1< UpdateBonesDelegate_t4020151189 * >::Invoke(3 /* System.Void Spine.Unity.ISkeletonAnimation::remove_UpdateWorld(Spine.Unity.UpdateBonesDelegate) */, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var, L_44, L_46);
+		Il2CppObject * L_47 = __this->get_skeletonAnimation_4();
+		IntPtr_t L_48;
+		L_48.set_m_value_0((void*)(void*)SkeletonUtility_UpdateComplete_m199296292_MethodInfo_var);
+		UpdateBonesDelegate_t4020151189 * L_49 = (UpdateBonesDelegate_t4020151189 *)il2cpp_codegen_object_new(UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var);
+		UpdateBonesDelegate__ctor_m2218992318(L_49, __this, L_48, /*hidden argument*/NULL);
+		NullCheck(L_47);
+		InterfaceActionInvoker1< UpdateBonesDelegate_t4020151189 * >::Invoke(5 /* System.Void Spine.Unity.ISkeletonAnimation::remove_UpdateComplete(Spine.Unity.UpdateBonesDelegate) */, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var, L_47, L_49);
+		bool L_50 = __this->get_hasTransformBones_7();
+		if (L_50)
+		{
+			goto IL_014d;
+		}
+	}
+	{
+		bool L_51 = __this->get_hasUtilityConstraints_8();
+		if (!L_51)
+		{
+			goto IL_0164;
+		}
+	}
+
+IL_014d:
+	{
+		Il2CppObject * L_52 = __this->get_skeletonAnimation_4();
+		IntPtr_t L_53;
+		L_53.set_m_value_0((void*)(void*)SkeletonUtility_UpdateWorld_m115076549_MethodInfo_var);
+		UpdateBonesDelegate_t4020151189 * L_54 = (UpdateBonesDelegate_t4020151189 *)il2cpp_codegen_object_new(UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var);
+		UpdateBonesDelegate__ctor_m2218992318(L_54, __this, L_53, /*hidden argument*/NULL);
+		NullCheck(L_52);
+		InterfaceActionInvoker1< UpdateBonesDelegate_t4020151189 * >::Invoke(2 /* System.Void Spine.Unity.ISkeletonAnimation::add_UpdateWorld(Spine.Unity.UpdateBonesDelegate) */, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var, L_52, L_54);
+	}
+
+IL_0164:
+	{
+		bool L_55 = __this->get_hasUtilityConstraints_8();
+		if (!L_55)
+		{
+			goto IL_0186;
+		}
+	}
+	{
+		Il2CppObject * L_56 = __this->get_skeletonAnimation_4();
+		IntPtr_t L_57;
+		L_57.set_m_value_0((void*)(void*)SkeletonUtility_UpdateComplete_m199296292_MethodInfo_var);
+		UpdateBonesDelegate_t4020151189 * L_58 = (UpdateBonesDelegate_t4020151189 *)il2cpp_codegen_object_new(UpdateBonesDelegate_t4020151189_il2cpp_TypeInfo_var);
+		UpdateBonesDelegate__ctor_m2218992318(L_58, __this, L_57, /*hidden argument*/NULL);
+		NullCheck(L_56);
+		InterfaceActionInvoker1< UpdateBonesDelegate_t4020151189 * >::Invoke(4 /* System.Void Spine.Unity.ISkeletonAnimation::add_UpdateComplete(Spine.Unity.UpdateBonesDelegate) */, ISkeletonAnimation_t1666901536_il2cpp_TypeInfo_var, L_56, L_58);
+	}
+
+IL_0186:
+	{
+		__this->set_needToReprocessBones_9((bool)0);
+		goto IL_01a8;
+	}
+
+IL_0192:
+	{
+		List_1_t3341389725 * L_59 = __this->get_utilityBones_5();
+		NullCheck(L_59);
+		List_1_Clear_m590818473(L_59, /*hidden argument*/List_1_Clear_m590818473_MethodInfo_var);
+		List_1_t574265974 * L_60 = __this->get_utilityConstraints_6();
+		NullCheck(L_60);
+		List_1_Clear_m3642138818(L_60, /*hidden argument*/List_1_Clear_m3642138818_MethodInfo_var);
+	}
+
+IL_01a8:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::UpdateLocal(Spine.Unity.ISkeletonAnimation)
+extern const MethodInfo* List_1_get_Count_m1462761908_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m3674724577_MethodInfo_var;
+extern const uint32_t SkeletonUtility_UpdateLocal_m1985154462_MetadataUsageId;
+extern "C"  void SkeletonUtility_UpdateLocal_m1985154462 (SkeletonUtility_t43096937 * __this, Il2CppObject * ___anim0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_UpdateLocal_m1985154462_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t3341389725 * V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		bool L_0 = __this->get_needToReprocessBones_9();
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		SkeletonUtility_CollectBones_m3994911897(__this, /*hidden argument*/NULL);
+	}
+
+IL_0011:
+	{
+		List_1_t3341389725 * L_1 = __this->get_utilityBones_5();
+		V_0 = L_1;
+		List_1_t3341389725 * L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001f:
+	{
+		V_1 = 0;
+		List_1_t3341389725 * L_3 = V_0;
+		NullCheck(L_3);
+		int32_t L_4 = List_1_get_Count_m1462761908(L_3, /*hidden argument*/List_1_get_Count_m1462761908_MethodInfo_var);
+		V_2 = L_4;
+		goto IL_003e;
+	}
+
+IL_002d:
+	{
+		List_1_t3341389725 * L_5 = V_0;
+		int32_t L_6 = V_1;
+		NullCheck(L_5);
+		SkeletonUtilityBone_t1973204173 * L_7 = List_1_get_Item_m3674724577(L_5, L_6, /*hidden argument*/List_1_get_Item_m3674724577_MethodInfo_var);
+		NullCheck(L_7);
+		L_7->set_transformLerpComplete_15((bool)0);
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_003e:
+	{
+		int32_t L_9 = V_1;
+		int32_t L_10 = V_2;
+		if ((((int32_t)L_9) < ((int32_t)L_10)))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		SkeletonUtility_UpdateAllBones_m3419936043(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::UpdateWorld(Spine.Unity.ISkeletonAnimation)
+extern const MethodInfo* List_1_get_Count_m3265874893_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m1980159272_MethodInfo_var;
+extern const uint32_t SkeletonUtility_UpdateWorld_m115076549_MetadataUsageId;
+extern "C"  void SkeletonUtility_UpdateWorld_m115076549 (SkeletonUtility_t43096937 * __this, Il2CppObject * ___anim0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_UpdateWorld_m115076549_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		SkeletonUtility_UpdateAllBones_m3419936043(__this, /*hidden argument*/NULL);
+		V_0 = 0;
+		List_1_t574265974 * L_0 = __this->get_utilityConstraints_6();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m3265874893(L_0, /*hidden argument*/List_1_get_Count_m3265874893_MethodInfo_var);
+		V_1 = L_1;
+		goto IL_002e;
+	}
+
+IL_0019:
+	{
+		List_1_t574265974 * L_2 = __this->get_utilityConstraints_6();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		SkeletonUtilityConstraint_t3501047718 * L_4 = List_1_get_Item_m1980159272(L_2, L_3, /*hidden argument*/List_1_get_Item_m1980159272_MethodInfo_var);
+		NullCheck(L_4);
+		VirtActionInvoker0::Invoke(6 /* System.Void Spine.Unity.SkeletonUtilityConstraint::DoUpdate() */, L_4);
+		int32_t L_5 = V_0;
+		V_0 = ((int32_t)((int32_t)L_5+(int32_t)1));
+	}
+
+IL_002e:
+	{
+		int32_t L_6 = V_0;
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)L_7)))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::UpdateComplete(Spine.Unity.ISkeletonAnimation)
+extern "C"  void SkeletonUtility_UpdateComplete_m199296292 (SkeletonUtility_t43096937 * __this, Il2CppObject * ___anim0, const MethodInfo* method)
+{
+	{
+		SkeletonUtility_UpdateAllBones_m3419936043(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility::UpdateAllBones()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m1462761908_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m3674724577_MethodInfo_var;
+extern const uint32_t SkeletonUtility_UpdateAllBones_m3419936043_MetadataUsageId;
+extern "C"  void SkeletonUtility_UpdateAllBones_m3419936043 (SkeletonUtility_t43096937 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_UpdateAllBones_m3419936043_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t3341389725 * V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		Transform_t1659122786 * L_0 = __this->get_boneRoot_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		SkeletonUtility_CollectBones_m3994911897(__this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		List_1_t3341389725 * L_2 = __this->get_utilityBones_5();
+		V_0 = L_2;
+		List_1_t3341389725 * L_3 = V_0;
+		if (L_3)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0025:
+	{
+		V_1 = 0;
+		List_1_t3341389725 * L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5 = List_1_get_Count_m1462761908(L_4, /*hidden argument*/List_1_get_Count_m1462761908_MethodInfo_var);
+		V_2 = L_5;
+		goto IL_0043;
+	}
+
+IL_0033:
+	{
+		List_1_t3341389725 * L_6 = V_0;
+		int32_t L_7 = V_1;
+		NullCheck(L_6);
+		SkeletonUtilityBone_t1973204173 * L_8 = List_1_get_Item_m3674724577(L_6, L_7, /*hidden argument*/List_1_get_Item_m3674724577_MethodInfo_var);
+		NullCheck(L_8);
+		SkeletonUtilityBone_DoUpdate_m3997223884(L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0043:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_2;
+		if ((((int32_t)L_10) < ((int32_t)L_11)))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		return;
+	}
+}
+// UnityEngine.Transform Spine.Unity.SkeletonUtility::GetBoneRoot()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObject_t3674682005_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4022074832;
+extern const uint32_t SkeletonUtility_GetBoneRoot_m4176065544_MetadataUsageId;
+extern "C"  Transform_t1659122786 * SkeletonUtility_GetBoneRoot_m4176065544 (SkeletonUtility_t43096937 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_GetBoneRoot_m4176065544_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Transform_t1659122786 * L_0 = __this->get_boneRoot_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		Transform_t1659122786 * L_2 = __this->get_boneRoot_2();
+		return L_2;
+	}
+
+IL_0018:
+	{
+		GameObject_t3674682005 * L_3 = (GameObject_t3674682005 *)il2cpp_codegen_object_new(GameObject_t3674682005_il2cpp_TypeInfo_var);
+		GameObject__ctor_m3920833606(L_3, _stringLiteral4022074832, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Transform_t1659122786 * L_4 = GameObject_get_transform_m1278640159(L_3, /*hidden argument*/NULL);
+		__this->set_boneRoot_2(L_4);
+		Transform_t1659122786 * L_5 = __this->get_boneRoot_2();
+		Transform_t1659122786 * L_6 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Transform_set_parent_m3231272063(L_5, L_6, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_7 = __this->get_boneRoot_2();
+		Vector3_t4282066566  L_8 = Vector3_get_zero_m2017759730(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Transform_set_localPosition_m3504330903(L_7, L_8, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_9 = __this->get_boneRoot_2();
+		Quaternion_t1553702882  L_10 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Transform_set_localRotation_m3719981474(L_9, L_10, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_11 = __this->get_boneRoot_2();
+		Vector3_t4282066566  L_12 = Vector3_get_one_m886467710(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		Transform_set_localScale_m310756934(L_11, L_12, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_13 = __this->get_boneRoot_2();
+		return L_13;
+	}
+}
+// UnityEngine.GameObject Spine.Unity.SkeletonUtility::SpawnRoot(Spine.Unity.SkeletonUtilityBone/Mode,System.Boolean,System.Boolean,System.Boolean)
+extern "C"  GameObject_t3674682005 * SkeletonUtility_SpawnRoot_m1464120816 (SkeletonUtility_t43096937 * __this, int32_t ___mode0, bool ___pos1, bool ___rot2, bool ___sca3, const MethodInfo* method)
+{
+	Skeleton_t2209335561 * V_0 = NULL;
+	GameObject_t3674682005 * V_1 = NULL;
+	{
+		SkeletonUtility_GetBoneRoot_m4176065544(__this, /*hidden argument*/NULL);
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_3();
+		NullCheck(L_0);
+		Skeleton_t2209335561 * L_1 = L_0->get_skeleton_20();
+		V_0 = L_1;
+		Skeleton_t2209335561 * L_2 = V_0;
+		NullCheck(L_2);
+		Bone_t1650489600 * L_3 = Skeleton_get_RootBone_m2819736574(L_2, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_4 = __this->get_boneRoot_2();
+		int32_t L_5 = ___mode0;
+		bool L_6 = ___pos1;
+		bool L_7 = ___rot2;
+		bool L_8 = ___sca3;
+		GameObject_t3674682005 * L_9 = SkeletonUtility_SpawnBone_m810931060(__this, L_3, L_4, L_5, L_6, L_7, L_8, /*hidden argument*/NULL);
+		V_1 = L_9;
+		SkeletonUtility_CollectBones_m3994911897(__this, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_10 = V_1;
+		return L_10;
+	}
+}
+// UnityEngine.GameObject Spine.Unity.SkeletonUtility::SpawnHierarchy(Spine.Unity.SkeletonUtilityBone/Mode,System.Boolean,System.Boolean,System.Boolean)
+extern "C"  GameObject_t3674682005 * SkeletonUtility_SpawnHierarchy_m1416188119 (SkeletonUtility_t43096937 * __this, int32_t ___mode0, bool ___pos1, bool ___rot2, bool ___sca3, const MethodInfo* method)
+{
+	Skeleton_t2209335561 * V_0 = NULL;
+	GameObject_t3674682005 * V_1 = NULL;
+	{
+		SkeletonUtility_GetBoneRoot_m4176065544(__this, /*hidden argument*/NULL);
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_3();
+		NullCheck(L_0);
+		Skeleton_t2209335561 * L_1 = L_0->get_skeleton_20();
+		V_0 = L_1;
+		Skeleton_t2209335561 * L_2 = V_0;
+		NullCheck(L_2);
+		Bone_t1650489600 * L_3 = Skeleton_get_RootBone_m2819736574(L_2, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_4 = __this->get_boneRoot_2();
+		int32_t L_5 = ___mode0;
+		bool L_6 = ___pos1;
+		bool L_7 = ___rot2;
+		bool L_8 = ___sca3;
+		GameObject_t3674682005 * L_9 = SkeletonUtility_SpawnBoneRecursively_m1624915185(__this, L_3, L_4, L_5, L_6, L_7, L_8, /*hidden argument*/NULL);
+		V_1 = L_9;
+		SkeletonUtility_CollectBones_m3994911897(__this, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_10 = V_1;
+		return L_10;
+	}
+}
+// UnityEngine.GameObject Spine.Unity.SkeletonUtility::SpawnBoneRecursively(Spine.Bone,UnityEngine.Transform,Spine.Unity.SkeletonUtilityBone/Mode,System.Boolean,System.Boolean,System.Boolean)
+extern "C"  GameObject_t3674682005 * SkeletonUtility_SpawnBoneRecursively_m1624915185 (SkeletonUtility_t43096937 * __this, Bone_t1650489600 * ___bone0, Transform_t1659122786 * ___parent1, int32_t ___mode2, bool ___pos3, bool ___rot4, bool ___sca5, const MethodInfo* method)
+{
+	GameObject_t3674682005 * V_0 = NULL;
+	ExposedList_1_t3025422258 * V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	Bone_t1650489600 * V_4 = NULL;
+	{
+		Bone_t1650489600 * L_0 = ___bone0;
+		Transform_t1659122786 * L_1 = ___parent1;
+		int32_t L_2 = ___mode2;
+		bool L_3 = ___pos3;
+		bool L_4 = ___rot4;
+		bool L_5 = ___sca5;
+		GameObject_t3674682005 * L_6 = SkeletonUtility_SpawnBone_m810931060(__this, L_0, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+		Bone_t1650489600 * L_7 = ___bone0;
+		NullCheck(L_7);
+		ExposedList_1_t3025422258 * L_8 = Bone_get_Children_m834854748(L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
+		V_2 = 0;
+		ExposedList_1_t3025422258 * L_9 = V_1;
+		NullCheck(L_9);
+		int32_t L_10 = L_9->get_Count_2();
+		V_3 = L_10;
+		goto IL_0049;
+	}
+
+IL_0025:
+	{
+		ExposedList_1_t3025422258 * L_11 = V_1;
+		NullCheck(L_11);
+		BoneU5BU5D_t1595507457* L_12 = L_11->get_Items_1();
+		int32_t L_13 = V_2;
+		NullCheck(L_12);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, L_13);
+		int32_t L_14 = L_13;
+		Bone_t1650489600 * L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		V_4 = L_15;
+		Bone_t1650489600 * L_16 = V_4;
+		GameObject_t3674682005 * L_17 = V_0;
+		NullCheck(L_17);
+		Transform_t1659122786 * L_18 = GameObject_get_transform_m1278640159(L_17, /*hidden argument*/NULL);
+		int32_t L_19 = ___mode2;
+		bool L_20 = ___pos3;
+		bool L_21 = ___rot4;
+		bool L_22 = ___sca5;
+		SkeletonUtility_SpawnBoneRecursively_m1624915185(__this, L_16, L_18, L_19, L_20, L_21, L_22, /*hidden argument*/NULL);
+		int32_t L_23 = V_2;
+		V_2 = ((int32_t)((int32_t)L_23+(int32_t)1));
+	}
+
+IL_0049:
+	{
+		int32_t L_24 = V_2;
+		int32_t L_25 = V_3;
+		if ((((int32_t)L_24) < ((int32_t)L_25)))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		GameObject_t3674682005 * L_26 = V_0;
+		return L_26;
+	}
+}
+// UnityEngine.GameObject Spine.Unity.SkeletonUtility::SpawnBone(Spine.Bone,UnityEngine.Transform,Spine.Unity.SkeletonUtilityBone/Mode,System.Boolean,System.Boolean,System.Boolean)
+extern Il2CppClass* GameObject_t3674682005_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisSkeletonUtilityBone_t1973204173_m4255361965_MethodInfo_var;
+extern const uint32_t SkeletonUtility_SpawnBone_m810931060_MetadataUsageId;
+extern "C"  GameObject_t3674682005 * SkeletonUtility_SpawnBone_m810931060 (SkeletonUtility_t43096937 * __this, Bone_t1650489600 * ___bone0, Transform_t1659122786 * ___parent1, int32_t ___mode2, bool ___pos3, bool ___rot4, bool ___sca5, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtility_SpawnBone_m810931060_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	GameObject_t3674682005 * V_0 = NULL;
+	SkeletonUtilityBone_t1973204173 * V_1 = NULL;
+	{
+		Bone_t1650489600 * L_0 = ___bone0;
+		NullCheck(L_0);
+		BoneData_t2151574858 * L_1 = Bone_get_Data_m2284260815(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		String_t* L_2 = BoneData_get_Name_m1159100153(L_1, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_3 = (GameObject_t3674682005 *)il2cpp_codegen_object_new(GameObject_t3674682005_il2cpp_TypeInfo_var);
+		GameObject__ctor_m3920833606(L_3, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		GameObject_t3674682005 * L_4 = V_0;
+		NullCheck(L_4);
+		Transform_t1659122786 * L_5 = GameObject_get_transform_m1278640159(L_4, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_6 = ___parent1;
+		NullCheck(L_5);
+		Transform_set_parent_m3231272063(L_5, L_6, /*hidden argument*/NULL);
+		GameObject_t3674682005 * L_7 = V_0;
+		NullCheck(L_7);
+		SkeletonUtilityBone_t1973204173 * L_8 = GameObject_AddComponent_TisSkeletonUtilityBone_t1973204173_m4255361965(L_7, /*hidden argument*/GameObject_AddComponent_TisSkeletonUtilityBone_t1973204173_m4255361965_MethodInfo_var);
+		V_1 = L_8;
+		SkeletonUtilityBone_t1973204173 * L_9 = V_1;
+		NullCheck(L_9);
+		L_9->set_skeletonUtility_3(__this);
+		SkeletonUtilityBone_t1973204173 * L_10 = V_1;
+		bool L_11 = ___pos3;
+		NullCheck(L_10);
+		L_10->set_position_7(L_11);
+		SkeletonUtilityBone_t1973204173 * L_12 = V_1;
+		bool L_13 = ___rot4;
+		NullCheck(L_12);
+		L_12->set_rotation_8(L_13);
+		SkeletonUtilityBone_t1973204173 * L_14 = V_1;
+		bool L_15 = ___sca5;
+		NullCheck(L_14);
+		L_14->set_scale_9(L_15);
+		SkeletonUtilityBone_t1973204173 * L_16 = V_1;
+		int32_t L_17 = ___mode2;
+		NullCheck(L_16);
+		L_16->set_mode_5(L_17);
+		SkeletonUtilityBone_t1973204173 * L_18 = V_1;
+		NullCheck(L_18);
+		L_18->set_zPosition_6((bool)1);
+		SkeletonUtilityBone_t1973204173 * L_19 = V_1;
+		NullCheck(L_19);
+		SkeletonUtilityBone_Reset_m4265050969(L_19, /*hidden argument*/NULL);
+		SkeletonUtilityBone_t1973204173 * L_20 = V_1;
+		Bone_t1650489600 * L_21 = ___bone0;
+		NullCheck(L_20);
+		L_20->set_bone_4(L_21);
+		SkeletonUtilityBone_t1973204173 * L_22 = V_1;
+		Bone_t1650489600 * L_23 = ___bone0;
+		NullCheck(L_23);
+		BoneData_t2151574858 * L_24 = Bone_get_Data_m2284260815(L_23, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		String_t* L_25 = BoneData_get_Name_m1159100153(L_24, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		L_22->set_boneName_13(L_25);
+		SkeletonUtilityBone_t1973204173 * L_26 = V_1;
+		NullCheck(L_26);
+		L_26->set_valid_2((bool)1);
+		int32_t L_27 = ___mode2;
+		if ((!(((uint32_t)L_27) == ((uint32_t)1))))
+		{
+			goto IL_0106;
+		}
+	}
+	{
+		bool L_28 = ___rot4;
+		if (!L_28)
+		{
+			goto IL_00a9;
+		}
+	}
+	{
+		GameObject_t3674682005 * L_29 = V_0;
+		NullCheck(L_29);
+		Transform_t1659122786 * L_30 = GameObject_get_transform_m1278640159(L_29, /*hidden argument*/NULL);
+		SkeletonUtilityBone_t1973204173 * L_31 = V_1;
+		NullCheck(L_31);
+		Bone_t1650489600 * L_32 = L_31->get_bone_4();
+		NullCheck(L_32);
+		float L_33 = Bone_get_AppliedRotation_m1950815632(L_32, /*hidden argument*/NULL);
+		Quaternion_t1553702882  L_34 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, (0.0f), (0.0f), L_33, /*hidden argument*/NULL);
+		NullCheck(L_30);
+		Transform_set_localRotation_m3719981474(L_30, L_34, /*hidden argument*/NULL);
+	}
+
+IL_00a9:
+	{
+		bool L_35 = ___pos3;
+		if (!L_35)
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		GameObject_t3674682005 * L_36 = V_0;
+		NullCheck(L_36);
+		Transform_t1659122786 * L_37 = GameObject_get_transform_m1278640159(L_36, /*hidden argument*/NULL);
+		SkeletonUtilityBone_t1973204173 * L_38 = V_1;
+		NullCheck(L_38);
+		Bone_t1650489600 * L_39 = L_38->get_bone_4();
+		NullCheck(L_39);
+		float L_40 = Bone_get_X_m3280275117(L_39, /*hidden argument*/NULL);
+		SkeletonUtilityBone_t1973204173 * L_41 = V_1;
+		NullCheck(L_41);
+		Bone_t1650489600 * L_42 = L_41->get_bone_4();
+		NullCheck(L_42);
+		float L_43 = Bone_get_Y_m3280276078(L_42, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_44;
+		memset(&L_44, 0, sizeof(L_44));
+		Vector3__ctor_m2926210380(&L_44, L_40, L_43, (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_37);
+		Transform_set_localPosition_m3504330903(L_37, L_44, /*hidden argument*/NULL);
+	}
+
+IL_00db:
+	{
+		GameObject_t3674682005 * L_45 = V_0;
+		NullCheck(L_45);
+		Transform_t1659122786 * L_46 = GameObject_get_transform_m1278640159(L_45, /*hidden argument*/NULL);
+		SkeletonUtilityBone_t1973204173 * L_47 = V_1;
+		NullCheck(L_47);
+		Bone_t1650489600 * L_48 = L_47->get_bone_4();
+		NullCheck(L_48);
+		float L_49 = L_48->get_scaleX_8();
+		SkeletonUtilityBone_t1973204173 * L_50 = V_1;
+		NullCheck(L_50);
+		Bone_t1650489600 * L_51 = L_50->get_bone_4();
+		NullCheck(L_51);
+		float L_52 = L_51->get_scaleY_9();
+		Vector3_t4282066566  L_53;
+		memset(&L_53, 0, sizeof(L_53));
+		Vector3__ctor_m2926210380(&L_53, L_49, L_52, (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_46);
+		Transform_set_localScale_m310756934(L_46, L_53, /*hidden argument*/NULL);
+	}
+
+IL_0106:
+	{
+		GameObject_t3674682005 * L_54 = V_0;
+		return L_54;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtility/SkeletonUtilityDelegate::.ctor(System.Object,System.IntPtr)
+extern "C"  void SkeletonUtilityDelegate__ctor_m325825255 (SkeletonUtilityDelegate_t3470925072 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void Spine.Unity.SkeletonUtility/SkeletonUtilityDelegate::Invoke()
+extern "C"  void SkeletonUtilityDelegate_Invoke_m3272520193 (SkeletonUtilityDelegate_t3470925072 * __this, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		SkeletonUtilityDelegate_Invoke_m3272520193((SkeletonUtilityDelegate_t3470925072 *)__this->get_prev_9(), method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if ((__this->get_m_target_2() != NULL || MethodHasParameters((MethodInfo*)(__this->get_method_3().get_m_value_0()))) && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,il2cpp_codegen_get_delegate_this(__this),(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(il2cpp_codegen_get_delegate_this(__this),(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+extern "C"  void DelegatePInvokeWrapper_SkeletonUtilityDelegate_t3470925072 (SkeletonUtilityDelegate_t3470925072 * __this, const MethodInfo* method)
+{
+	typedef void (STDCALL *PInvokeFunc)();
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
+
+	// Native function invocation
+	il2cppPInvokeFunc();
+
+}
+// System.IAsyncResult Spine.Unity.SkeletonUtility/SkeletonUtilityDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * SkeletonUtilityDelegate_BeginInvoke_m4272306282 (SkeletonUtilityDelegate_t3470925072 * __this, AsyncCallback_t1369114871 * ___callback0, Il2CppObject * ___object1, const MethodInfo* method)
+{
+	void *__d_args[1] = {0};
+	return (Il2CppObject *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback0, (Il2CppObject*)___object1);
+}
+// System.Void Spine.Unity.SkeletonUtility/SkeletonUtilityDelegate::EndInvoke(System.IAsyncResult)
+extern "C"  void SkeletonUtilityDelegate_EndInvoke_m3957502071 (SkeletonUtilityDelegate_t3470925072 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void Spine.Unity.SkeletonUtilityBone::.ctor()
+extern "C"  void SkeletonUtilityBone__ctor_m2323650732 (SkeletonUtilityBone_t1973204173 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_zPosition_6((bool)1);
+		__this->set_overrideAlpha_12((1.0f));
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Spine.Unity.SkeletonUtilityBone::get_DisableInheritScaleWarning()
+extern "C"  bool SkeletonUtilityBone_get_DisableInheritScaleWarning_m1537926834 (SkeletonUtilityBone_t1973204173 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_disableInheritScaleWarning_18();
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtilityBone::Reset()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* SkeletonUtilityDelegate_t3470925072_il2cpp_TypeInfo_var;
+extern const MethodInfo* SkeletonUtilityBone_HandleOnReset_m2238040626_MethodInfo_var;
+extern const uint32_t SkeletonUtilityBone_Reset_m4265050969_MetadataUsageId;
+extern "C"  void SkeletonUtilityBone_Reset_m4265050969 (SkeletonUtilityBone_t1973204173 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtilityBone_Reset_m4265050969_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	SkeletonUtilityBone_t1973204173 * G_B3_0 = NULL;
+	SkeletonUtilityBone_t1973204173 * G_B1_0 = NULL;
+	SkeletonUtilityBone_t1973204173 * G_B2_0 = NULL;
+	int32_t G_B4_0 = 0;
+	SkeletonUtilityBone_t1973204173 * G_B4_1 = NULL;
+	{
+		__this->set_bone_4((Bone_t1650489600 *)NULL);
+		Transform_t1659122786 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		__this->set_cachedTransform_16(L_0);
+		SkeletonUtility_t43096937 * L_1 = __this->get_skeletonUtility_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_1, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		G_B1_0 = __this;
+		if (!L_2)
+		{
+			G_B3_0 = __this;
+			goto IL_004d;
+		}
+	}
+	{
+		SkeletonUtility_t43096937 * L_3 = __this->get_skeletonUtility_3();
+		NullCheck(L_3);
+		SkeletonRenderer_t3766155010 * L_4 = L_3->get_skeletonRenderer_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_4, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		G_B2_0 = G_B1_0;
+		if (!L_5)
+		{
+			G_B3_0 = G_B1_0;
+			goto IL_004d;
+		}
+	}
+	{
+		SkeletonUtility_t43096937 * L_6 = __this->get_skeletonUtility_3();
+		NullCheck(L_6);
+		SkeletonRenderer_t3766155010 * L_7 = L_6->get_skeletonRenderer_3();
+		NullCheck(L_7);
+		bool L_8 = L_7->get_valid_19();
+		G_B4_0 = ((int32_t)(L_8));
+		G_B4_1 = G_B2_0;
+		goto IL_004e;
+	}
+
+IL_004d:
+	{
+		G_B4_0 = 0;
+		G_B4_1 = G_B3_0;
+	}
+
+IL_004e:
+	{
+		NullCheck(G_B4_1);
+		G_B4_1->set_valid_2((bool)G_B4_0);
+		bool L_9 = __this->get_valid_2();
+		if (L_9)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		return;
+	}
+
+IL_005f:
+	{
+		SkeletonUtility_t43096937 * L_10 = __this->get_skeletonUtility_3();
+		NullCheck(L_10);
+		Transform_t1659122786 * L_11 = Component_get_transform_m4257140443(L_10, /*hidden argument*/NULL);
+		__this->set_skeletonTransform_17(L_11);
+		SkeletonUtility_t43096937 * L_12 = __this->get_skeletonUtility_3();
+		IntPtr_t L_13;
+		L_13.set_m_value_0((void*)(void*)SkeletonUtilityBone_HandleOnReset_m2238040626_MethodInfo_var);
+		SkeletonUtilityDelegate_t3470925072 * L_14 = (SkeletonUtilityDelegate_t3470925072 *)il2cpp_codegen_object_new(SkeletonUtilityDelegate_t3470925072_il2cpp_TypeInfo_var);
+		SkeletonUtilityDelegate__ctor_m325825255(L_14, __this, L_13, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		SkeletonUtility_remove_OnReset_m1743239897(L_12, L_14, /*hidden argument*/NULL);
+		SkeletonUtility_t43096937 * L_15 = __this->get_skeletonUtility_3();
+		IntPtr_t L_16;
+		L_16.set_m_value_0((void*)(void*)SkeletonUtilityBone_HandleOnReset_m2238040626_MethodInfo_var);
+		SkeletonUtilityDelegate_t3470925072 * L_17 = (SkeletonUtilityDelegate_t3470925072 *)il2cpp_codegen_object_new(SkeletonUtilityDelegate_t3470925072_il2cpp_TypeInfo_var);
+		SkeletonUtilityDelegate__ctor_m325825255(L_17, __this, L_16, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		SkeletonUtility_add_OnReset_m2389394018(L_15, L_17, /*hidden argument*/NULL);
+		SkeletonUtilityBone_DoUpdate_m3997223884(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtilityBone::OnEnable()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* SkeletonUtilityDelegate_t3470925072_il2cpp_TypeInfo_var;
+extern const MethodInfo* SkeletonUtility_GetInParent_TisSkeletonUtility_t43096937_m207893554_MethodInfo_var;
+extern const MethodInfo* SkeletonUtilityBone_HandleOnReset_m2238040626_MethodInfo_var;
+extern const uint32_t SkeletonUtilityBone_OnEnable_m3962625882_MetadataUsageId;
+extern "C"  void SkeletonUtilityBone_OnEnable_m3962625882 (SkeletonUtilityBone_t1973204173 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtilityBone_OnEnable_m3962625882_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Transform_t1659122786 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		SkeletonUtility_t43096937 * L_1 = SkeletonUtility_GetInParent_TisSkeletonUtility_t43096937_m207893554(NULL /*static, unused*/, L_0, /*hidden argument*/SkeletonUtility_GetInParent_TisSkeletonUtility_t43096937_m207893554_MethodInfo_var);
+		__this->set_skeletonUtility_3(L_1);
+		SkeletonUtility_t43096937 * L_2 = __this->get_skeletonUtility_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_2, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0023:
+	{
+		SkeletonUtility_t43096937 * L_4 = __this->get_skeletonUtility_3();
+		NullCheck(L_4);
+		SkeletonUtility_RegisterBone_m4029327192(L_4, __this, /*hidden argument*/NULL);
+		SkeletonUtility_t43096937 * L_5 = __this->get_skeletonUtility_3();
+		IntPtr_t L_6;
+		L_6.set_m_value_0((void*)(void*)SkeletonUtilityBone_HandleOnReset_m2238040626_MethodInfo_var);
+		SkeletonUtilityDelegate_t3470925072 * L_7 = (SkeletonUtilityDelegate_t3470925072 *)il2cpp_codegen_object_new(SkeletonUtilityDelegate_t3470925072_il2cpp_TypeInfo_var);
+		SkeletonUtilityDelegate__ctor_m325825255(L_7, __this, L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		SkeletonUtility_add_OnReset_m2389394018(L_5, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtilityBone::HandleOnReset()
+extern "C"  void SkeletonUtilityBone_HandleOnReset_m2238040626 (SkeletonUtilityBone_t1973204173 * __this, const MethodInfo* method)
+{
+	{
+		SkeletonUtilityBone_Reset_m4265050969(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtilityBone::OnDisable()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* SkeletonUtilityDelegate_t3470925072_il2cpp_TypeInfo_var;
+extern const MethodInfo* SkeletonUtilityBone_HandleOnReset_m2238040626_MethodInfo_var;
+extern const uint32_t SkeletonUtilityBone_OnDisable_m3023255315_MetadataUsageId;
+extern "C"  void SkeletonUtilityBone_OnDisable_m3023255315 (SkeletonUtilityBone_t1973204173 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtilityBone_OnDisable_m3023255315_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SkeletonUtility_t43096937 * L_0 = __this->get_skeletonUtility_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		SkeletonUtility_t43096937 * L_2 = __this->get_skeletonUtility_3();
+		IntPtr_t L_3;
+		L_3.set_m_value_0((void*)(void*)SkeletonUtilityBone_HandleOnReset_m2238040626_MethodInfo_var);
+		SkeletonUtilityDelegate_t3470925072 * L_4 = (SkeletonUtilityDelegate_t3470925072 *)il2cpp_codegen_object_new(SkeletonUtilityDelegate_t3470925072_il2cpp_TypeInfo_var);
+		SkeletonUtilityDelegate__ctor_m325825255(L_4, __this, L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		SkeletonUtility_remove_OnReset_m1743239897(L_2, L_4, /*hidden argument*/NULL);
+		SkeletonUtility_t43096937 * L_5 = __this->get_skeletonUtility_3();
+		NullCheck(L_5);
+		SkeletonUtility_UnregisterBone_m1312405023(L_5, __this, /*hidden argument*/NULL);
+	}
+
+IL_0034:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtilityBone::DoUpdate()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t4203372500_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral603958943;
+extern const uint32_t SkeletonUtilityBone_DoUpdate_m3997223884_MetadataUsageId;
+extern "C"  void SkeletonUtilityBone_DoUpdate_m3997223884 (SkeletonUtilityBone_t1973204173 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtilityBone_DoUpdate_m3997223884_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Skeleton_t2209335561 * V_0 = NULL;
+	float V_1 = 0.0f;
+	Vector3_t4282066566  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	float V_3 = 0.0f;
+	Vector3_t4282066566  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	float V_5 = 0.0f;
+	Quaternion_t1553702882  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Vector3_t4282066566  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	Vector3_t4282066566  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	Quaternion_t1553702882  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	Vector3_t4282066566  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	Vector3_t4282066566  V_11;
+	memset(&V_11, 0, sizeof(V_11));
+	Vector3_t4282066566  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	Quaternion_t1553702882  V_13;
+	memset(&V_13, 0, sizeof(V_13));
+	Vector3_t4282066566  V_14;
+	memset(&V_14, 0, sizeof(V_14));
+	Vector3_t4282066566  V_15;
+	memset(&V_15, 0, sizeof(V_15));
+	Vector3_t4282066566  V_16;
+	memset(&V_16, 0, sizeof(V_16));
+	float G_B11_0 = 0.0f;
+	float G_B39_0 = 0.0f;
+	float G_B38_0 = 0.0f;
+	Vector3_t4282066566  G_B40_0;
+	memset(&G_B40_0, 0, sizeof(G_B40_0));
+	float G_B40_1 = 0.0f;
+	{
+		bool L_0 = __this->get_valid_2();
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		SkeletonUtilityBone_Reset_m4265050969(__this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0012:
+	{
+		SkeletonUtility_t43096937 * L_1 = __this->get_skeletonUtility_3();
+		NullCheck(L_1);
+		SkeletonRenderer_t3766155010 * L_2 = L_1->get_skeletonRenderer_3();
+		NullCheck(L_2);
+		Skeleton_t2209335561 * L_3 = L_2->get_skeleton_20();
+		V_0 = L_3;
+		Bone_t1650489600 * L_4 = __this->get_bone_4();
+		if (L_4)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		String_t* L_5 = __this->get_boneName_13();
+		if (!L_5)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		String_t* L_6 = __this->get_boneName_13();
+		NullCheck(L_6);
+		int32_t L_7 = String_get_Length_m2979997331(L_6, /*hidden argument*/NULL);
+		if (L_7)
+		{
+			goto IL_004a;
+		}
+	}
+
+IL_0049:
+	{
+		return;
+	}
+
+IL_004a:
+	{
+		Skeleton_t2209335561 * L_8 = V_0;
+		String_t* L_9 = __this->get_boneName_13();
+		NullCheck(L_8);
+		Bone_t1650489600 * L_10 = Skeleton_FindBone_m2568164470(L_8, L_9, /*hidden argument*/NULL);
+		__this->set_bone_4(L_10);
+		Bone_t1650489600 * L_11 = __this->get_bone_4();
+		if (L_11)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		String_t* L_12 = __this->get_boneName_13();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_13 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral603958943, L_12, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogError_m214246398(NULL /*static, unused*/, L_13, __this, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_007e:
+	{
+		Skeleton_t2209335561 * L_14 = V_0;
+		NullCheck(L_14);
+		bool L_15 = L_14->get_flipX_15();
+		Skeleton_t2209335561 * L_16 = V_0;
+		NullCheck(L_16);
+		bool L_17 = L_16->get_flipY_16();
+		if (!((int32_t)((int32_t)L_15^(int32_t)L_17)))
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		G_B11_0 = (-1.0f);
+		goto IL_009f;
+	}
+
+IL_009a:
+	{
+		G_B11_0 = (1.0f);
+	}
+
+IL_009f:
+	{
+		V_1 = G_B11_0;
+		int32_t L_18 = __this->get_mode_5();
+		if (L_18)
+		{
+			goto IL_01cd;
+		}
+	}
+	{
+		bool L_19 = __this->get_position_7();
+		if (!L_19)
+		{
+			goto IL_00e1;
+		}
+	}
+	{
+		Transform_t1659122786 * L_20 = __this->get_cachedTransform_16();
+		Bone_t1650489600 * L_21 = __this->get_bone_4();
+		NullCheck(L_21);
+		float L_22 = L_21->get_x_5();
+		Bone_t1650489600 * L_23 = __this->get_bone_4();
+		NullCheck(L_23);
+		float L_24 = L_23->get_y_6();
+		Vector3_t4282066566  L_25;
+		memset(&L_25, 0, sizeof(L_25));
+		Vector3__ctor_m2926210380(&L_25, L_22, L_24, (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_20);
+		Transform_set_localPosition_m3504330903(L_20, L_25, /*hidden argument*/NULL);
+	}
+
+IL_00e1:
+	{
+		bool L_26 = __this->get_rotation_8();
+		if (!L_26)
+		{
+			goto IL_0173;
+		}
+	}
+	{
+		Bone_t1650489600 * L_27 = __this->get_bone_4();
+		NullCheck(L_27);
+		BoneData_t2151574858 * L_28 = Bone_get_Data_m2284260815(L_27, /*hidden argument*/NULL);
+		NullCheck(L_28);
+		bool L_29 = BoneData_get_InheritRotation_m3733570076(L_28, /*hidden argument*/NULL);
+		if (!L_29)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		Transform_t1659122786 * L_30 = __this->get_cachedTransform_16();
+		Bone_t1650489600 * L_31 = __this->get_bone_4();
+		NullCheck(L_31);
+		float L_32 = Bone_get_AppliedRotation_m1950815632(L_31, /*hidden argument*/NULL);
+		Quaternion_t1553702882  L_33 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, (0.0f), (0.0f), L_32, /*hidden argument*/NULL);
+		NullCheck(L_30);
+		Transform_set_localRotation_m3719981474(L_30, L_33, /*hidden argument*/NULL);
+		goto IL_0173;
+	}
+
+IL_012b:
+	{
+		Transform_t1659122786 * L_34 = __this->get_skeletonTransform_17();
+		NullCheck(L_34);
+		Quaternion_t1553702882  L_35 = Transform_get_rotation_m11483428(L_34, /*hidden argument*/NULL);
+		V_6 = L_35;
+		Vector3_t4282066566  L_36 = Quaternion_get_eulerAngles_m997303795((&V_6), /*hidden argument*/NULL);
+		V_2 = L_36;
+		Transform_t1659122786 * L_37 = __this->get_cachedTransform_16();
+		float L_38 = (&V_2)->get_x_1();
+		float L_39 = (&V_2)->get_y_2();
+		float L_40 = (&V_2)->get_z_3();
+		Bone_t1650489600 * L_41 = __this->get_bone_4();
+		NullCheck(L_41);
+		float L_42 = Bone_get_WorldRotationX_m2678405493(L_41, /*hidden argument*/NULL);
+		float L_43 = V_1;
+		Quaternion_t1553702882  L_44 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, L_38, L_39, ((float)((float)L_40+(float)((float)((float)L_42*(float)L_43)))), /*hidden argument*/NULL);
+		NullCheck(L_37);
+		Transform_set_rotation_m1525803229(L_37, L_44, /*hidden argument*/NULL);
+	}
+
+IL_0173:
+	{
+		bool L_45 = __this->get_scale_9();
+		if (!L_45)
+		{
+			goto IL_01c8;
+		}
+	}
+	{
+		Transform_t1659122786 * L_46 = __this->get_cachedTransform_16();
+		Bone_t1650489600 * L_47 = __this->get_bone_4();
+		NullCheck(L_47);
+		float L_48 = L_47->get_scaleX_8();
+		Bone_t1650489600 * L_49 = __this->get_bone_4();
+		NullCheck(L_49);
+		float L_50 = L_49->get_scaleY_9();
+		Bone_t1650489600 * L_51 = __this->get_bone_4();
+		NullCheck(L_51);
+		float L_52 = Bone_get_WorldSignX_m496339926(L_51, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_53;
+		memset(&L_53, 0, sizeof(L_53));
+		Vector3__ctor_m2926210380(&L_53, L_48, L_50, L_52, /*hidden argument*/NULL);
+		NullCheck(L_46);
+		Transform_set_localScale_m310756934(L_46, L_53, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_54 = __this->get_bone_4();
+		NullCheck(L_54);
+		BoneData_t2151574858 * L_55 = L_54->get_data_1();
+		NullCheck(L_55);
+		bool L_56 = L_55->get_inheritScale_12();
+		__this->set_disableInheritScaleWarning_18((bool)((((int32_t)L_56) == ((int32_t)0))? 1 : 0));
+	}
+
+IL_01c8:
+	{
+		goto IL_04de;
+	}
+
+IL_01cd:
+	{
+		int32_t L_57 = __this->get_mode_5();
+		if ((!(((uint32_t)L_57) == ((uint32_t)1))))
+		{
+			goto IL_04de;
+		}
+	}
+	{
+		bool L_58 = __this->get_transformLerpComplete_15();
+		if (!L_58)
+		{
+			goto IL_01e5;
+		}
+	}
+	{
+		return;
+	}
+
+IL_01e5:
+	{
+		Transform_t1659122786 * L_59 = __this->get_parentReference_14();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_60 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_59, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_60)
+		{
+			goto IL_033c;
+		}
+	}
+	{
+		bool L_61 = __this->get_position_7();
+		if (!L_61)
+		{
+			goto IL_026b;
+		}
+	}
+	{
+		Bone_t1650489600 * L_62 = __this->get_bone_4();
+		Bone_t1650489600 * L_63 = __this->get_bone_4();
+		NullCheck(L_63);
+		float L_64 = L_63->get_x_5();
+		Transform_t1659122786 * L_65 = __this->get_cachedTransform_16();
+		NullCheck(L_65);
+		Vector3_t4282066566  L_66 = Transform_get_localPosition_m668140784(L_65, /*hidden argument*/NULL);
+		V_7 = L_66;
+		float L_67 = (&V_7)->get_x_1();
+		float L_68 = __this->get_overrideAlpha_12();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_69 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_64, L_67, L_68, /*hidden argument*/NULL);
+		NullCheck(L_62);
+		L_62->set_x_5(L_69);
+		Bone_t1650489600 * L_70 = __this->get_bone_4();
+		Bone_t1650489600 * L_71 = __this->get_bone_4();
+		NullCheck(L_71);
+		float L_72 = L_71->get_y_6();
+		Transform_t1659122786 * L_73 = __this->get_cachedTransform_16();
+		NullCheck(L_73);
+		Vector3_t4282066566  L_74 = Transform_get_localPosition_m668140784(L_73, /*hidden argument*/NULL);
+		V_8 = L_74;
+		float L_75 = (&V_8)->get_y_2();
+		float L_76 = __this->get_overrideAlpha_12();
+		float L_77 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_72, L_75, L_76, /*hidden argument*/NULL);
+		NullCheck(L_70);
+		L_70->set_y_6(L_77);
+	}
+
+IL_026b:
+	{
+		bool L_78 = __this->get_rotation_8();
+		if (!L_78)
+		{
+			goto IL_02c2;
+		}
+	}
+	{
+		Bone_t1650489600 * L_79 = __this->get_bone_4();
+		NullCheck(L_79);
+		float L_80 = Bone_get_Rotation_m1383607115(L_79, /*hidden argument*/NULL);
+		Transform_t1659122786 * L_81 = __this->get_cachedTransform_16();
+		NullCheck(L_81);
+		Quaternion_t1553702882  L_82 = Transform_get_localRotation_m3343229381(L_81, /*hidden argument*/NULL);
+		V_9 = L_82;
+		Vector3_t4282066566  L_83 = Quaternion_get_eulerAngles_m997303795((&V_9), /*hidden argument*/NULL);
+		V_10 = L_83;
+		float L_84 = (&V_10)->get_z_3();
+		float L_85 = __this->get_overrideAlpha_12();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_86 = Mathf_LerpAngle_m1852538964(NULL /*static, unused*/, L_80, L_84, L_85, /*hidden argument*/NULL);
+		V_3 = L_86;
+		Bone_t1650489600 * L_87 = __this->get_bone_4();
+		float L_88 = V_3;
+		NullCheck(L_87);
+		Bone_set_Rotation_m823278488(L_87, L_88, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_89 = __this->get_bone_4();
+		float L_90 = V_3;
+		NullCheck(L_89);
+		Bone_set_AppliedRotation_m505941955(L_89, L_90, /*hidden argument*/NULL);
+	}
+
+IL_02c2:
+	{
+		bool L_91 = __this->get_scale_9();
+		if (!L_91)
+		{
+			goto IL_0337;
+		}
+	}
+	{
+		Bone_t1650489600 * L_92 = __this->get_bone_4();
+		Bone_t1650489600 * L_93 = __this->get_bone_4();
+		NullCheck(L_93);
+		float L_94 = L_93->get_scaleX_8();
+		Transform_t1659122786 * L_95 = __this->get_cachedTransform_16();
+		NullCheck(L_95);
+		Vector3_t4282066566  L_96 = Transform_get_localScale_m3886572677(L_95, /*hidden argument*/NULL);
+		V_11 = L_96;
+		float L_97 = (&V_11)->get_x_1();
+		float L_98 = __this->get_overrideAlpha_12();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_99 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_94, L_97, L_98, /*hidden argument*/NULL);
+		NullCheck(L_92);
+		L_92->set_scaleX_8(L_99);
+		Bone_t1650489600 * L_100 = __this->get_bone_4();
+		Bone_t1650489600 * L_101 = __this->get_bone_4();
+		NullCheck(L_101);
+		float L_102 = L_101->get_scaleY_9();
+		Transform_t1659122786 * L_103 = __this->get_cachedTransform_16();
+		NullCheck(L_103);
+		Vector3_t4282066566  L_104 = Transform_get_localScale_m3886572677(L_103, /*hidden argument*/NULL);
+		V_12 = L_104;
+		float L_105 = (&V_12)->get_y_2();
+		float L_106 = __this->get_overrideAlpha_12();
+		float L_107 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_102, L_105, L_106, /*hidden argument*/NULL);
+		NullCheck(L_100);
+		L_100->set_scaleY_9(L_107);
+	}
+
+IL_0337:
+	{
+		goto IL_04d7;
+	}
+
+IL_033c:
+	{
+		bool L_108 = __this->get_transformLerpComplete_15();
+		if (!L_108)
+		{
+			goto IL_0348;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0348:
+	{
+		bool L_109 = __this->get_position_7();
+		if (!L_109)
+		{
+			goto IL_03bb;
+		}
+	}
+	{
+		Transform_t1659122786 * L_110 = __this->get_parentReference_14();
+		Transform_t1659122786 * L_111 = __this->get_cachedTransform_16();
+		NullCheck(L_111);
+		Vector3_t4282066566  L_112 = Transform_get_position_m2211398607(L_111, /*hidden argument*/NULL);
+		NullCheck(L_110);
+		Vector3_t4282066566  L_113 = Transform_InverseTransformPoint_m1626812000(L_110, L_112, /*hidden argument*/NULL);
+		V_4 = L_113;
+		Bone_t1650489600 * L_114 = __this->get_bone_4();
+		Bone_t1650489600 * L_115 = __this->get_bone_4();
+		NullCheck(L_115);
+		float L_116 = L_115->get_x_5();
+		float L_117 = (&V_4)->get_x_1();
+		float L_118 = __this->get_overrideAlpha_12();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_119 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_116, L_117, L_118, /*hidden argument*/NULL);
+		NullCheck(L_114);
+		L_114->set_x_5(L_119);
+		Bone_t1650489600 * L_120 = __this->get_bone_4();
+		Bone_t1650489600 * L_121 = __this->get_bone_4();
+		NullCheck(L_121);
+		float L_122 = L_121->get_y_6();
+		float L_123 = (&V_4)->get_y_2();
+		float L_124 = __this->get_overrideAlpha_12();
+		float L_125 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_122, L_123, L_124, /*hidden argument*/NULL);
+		NullCheck(L_120);
+		L_120->set_y_6(L_125);
+	}
+
+IL_03bb:
+	{
+		bool L_126 = __this->get_rotation_8();
+		if (!L_126)
+		{
+			goto IL_0449;
+		}
+	}
+	{
+		Bone_t1650489600 * L_127 = __this->get_bone_4();
+		NullCheck(L_127);
+		float L_128 = Bone_get_Rotation_m1383607115(L_127, /*hidden argument*/NULL);
+		bool L_129 = __this->get_flipX_11();
+		G_B38_0 = L_128;
+		if (!L_129)
+		{
+			G_B39_0 = L_128;
+			goto IL_03f0;
+		}
+	}
+	{
+		Vector3_t4282066566  L_130 = Vector3_get_forward_m1039372701(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_131 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_130, (-1.0f), /*hidden argument*/NULL);
+		G_B40_0 = L_131;
+		G_B40_1 = G_B38_0;
+		goto IL_03f5;
+	}
+
+IL_03f0:
+	{
+		Vector3_t4282066566  L_132 = Vector3_get_forward_m1039372701(NULL /*static, unused*/, /*hidden argument*/NULL);
+		G_B40_0 = L_132;
+		G_B40_1 = G_B39_0;
+	}
+
+IL_03f5:
+	{
+		Transform_t1659122786 * L_133 = __this->get_parentReference_14();
+		Transform_t1659122786 * L_134 = __this->get_cachedTransform_16();
+		NullCheck(L_134);
+		Vector3_t4282066566  L_135 = Transform_get_up_m297874561(L_134, /*hidden argument*/NULL);
+		NullCheck(L_133);
+		Vector3_t4282066566  L_136 = Transform_InverseTransformDirection_m416562129(L_133, L_135, /*hidden argument*/NULL);
+		Quaternion_t1553702882  L_137 = Quaternion_LookRotation_m2869326048(NULL /*static, unused*/, G_B40_0, L_136, /*hidden argument*/NULL);
+		V_13 = L_137;
+		Vector3_t4282066566  L_138 = Quaternion_get_eulerAngles_m997303795((&V_13), /*hidden argument*/NULL);
+		V_14 = L_138;
+		float L_139 = (&V_14)->get_z_3();
+		float L_140 = __this->get_overrideAlpha_12();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_141 = Mathf_LerpAngle_m1852538964(NULL /*static, unused*/, G_B40_1, L_139, L_140, /*hidden argument*/NULL);
+		V_5 = L_141;
+		Bone_t1650489600 * L_142 = __this->get_bone_4();
+		float L_143 = V_5;
+		NullCheck(L_142);
+		Bone_set_Rotation_m823278488(L_142, L_143, /*hidden argument*/NULL);
+		Bone_t1650489600 * L_144 = __this->get_bone_4();
+		float L_145 = V_5;
+		NullCheck(L_144);
+		Bone_set_AppliedRotation_m505941955(L_144, L_145, /*hidden argument*/NULL);
+	}
+
+IL_0449:
+	{
+		bool L_146 = __this->get_scale_9();
+		if (!L_146)
+		{
+			goto IL_04be;
+		}
+	}
+	{
+		Bone_t1650489600 * L_147 = __this->get_bone_4();
+		Bone_t1650489600 * L_148 = __this->get_bone_4();
+		NullCheck(L_148);
+		float L_149 = L_148->get_scaleX_8();
+		Transform_t1659122786 * L_150 = __this->get_cachedTransform_16();
+		NullCheck(L_150);
+		Vector3_t4282066566  L_151 = Transform_get_localScale_m3886572677(L_150, /*hidden argument*/NULL);
+		V_15 = L_151;
+		float L_152 = (&V_15)->get_x_1();
+		float L_153 = __this->get_overrideAlpha_12();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t4203372500_il2cpp_TypeInfo_var);
+		float L_154 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_149, L_152, L_153, /*hidden argument*/NULL);
+		NullCheck(L_147);
+		L_147->set_scaleX_8(L_154);
+		Bone_t1650489600 * L_155 = __this->get_bone_4();
+		Bone_t1650489600 * L_156 = __this->get_bone_4();
+		NullCheck(L_156);
+		float L_157 = L_156->get_scaleY_9();
+		Transform_t1659122786 * L_158 = __this->get_cachedTransform_16();
+		NullCheck(L_158);
+		Vector3_t4282066566  L_159 = Transform_get_localScale_m3886572677(L_158, /*hidden argument*/NULL);
+		V_16 = L_159;
+		float L_160 = (&V_16)->get_y_2();
+		float L_161 = __this->get_overrideAlpha_12();
+		float L_162 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_157, L_160, L_161, /*hidden argument*/NULL);
+		NullCheck(L_155);
+		L_155->set_scaleY_9(L_162);
+	}
+
+IL_04be:
+	{
+		Bone_t1650489600 * L_163 = __this->get_bone_4();
+		NullCheck(L_163);
+		BoneData_t2151574858 * L_164 = L_163->get_data_1();
+		NullCheck(L_164);
+		bool L_165 = L_164->get_inheritScale_12();
+		__this->set_disableInheritScaleWarning_18((bool)((((int32_t)L_165) == ((int32_t)0))? 1 : 0));
+	}
+
+IL_04d7:
+	{
+		__this->set_transformLerpComplete_15((bool)1);
+	}
+
+IL_04de:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtilityBone::AddBoundingBox(System.String,System.String,System.String)
+extern "C"  void SkeletonUtilityBone_AddBoundingBox_m3861449276 (SkeletonUtilityBone_t1973204173 * __this, String_t* ___skinName0, String_t* ___slotName1, String_t* ___attachmentName2, const MethodInfo* method)
+{
+	{
+		Bone_t1650489600 * L_0 = __this->get_bone_4();
+		NullCheck(L_0);
+		Skeleton_t2209335561 * L_1 = L_0->get_skeleton_2();
+		String_t* L_2 = ___skinName0;
+		String_t* L_3 = ___slotName1;
+		String_t* L_4 = ___attachmentName2;
+		Transform_t1659122786 * L_5 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		SkeletonUtility_AddBoundingBox_m2926004794(NULL /*static, unused*/, L_1, L_2, L_3, L_4, L_5, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtilityConstraint::.ctor()
+extern "C"  void SkeletonUtilityConstraint__ctor_m1138123763 (SkeletonUtilityConstraint_t3501047718 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtilityConstraint::OnEnable()
+extern const MethodInfo* Component_GetComponent_TisSkeletonUtilityBone_t1973204173_m103736378_MethodInfo_var;
+extern const MethodInfo* SkeletonUtility_GetInParent_TisSkeletonUtility_t43096937_m207893554_MethodInfo_var;
+extern const uint32_t SkeletonUtilityConstraint_OnEnable_m3444767411_MetadataUsageId;
+extern "C"  void SkeletonUtilityConstraint_OnEnable_m3444767411 (SkeletonUtilityConstraint_t3501047718 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SkeletonUtilityConstraint_OnEnable_m3444767411_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SkeletonUtilityBone_t1973204173 * L_0 = Component_GetComponent_TisSkeletonUtilityBone_t1973204173_m103736378(__this, /*hidden argument*/Component_GetComponent_TisSkeletonUtilityBone_t1973204173_m103736378_MethodInfo_var);
+		__this->set_utilBone_2(L_0);
+		Transform_t1659122786 * L_1 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		SkeletonUtility_t43096937 * L_2 = SkeletonUtility_GetInParent_TisSkeletonUtility_t43096937_m207893554(NULL /*static, unused*/, L_1, /*hidden argument*/SkeletonUtility_GetInParent_TisSkeletonUtility_t43096937_m207893554_MethodInfo_var);
+		__this->set_skeletonUtility_3(L_2);
+		SkeletonUtility_t43096937 * L_3 = __this->get_skeletonUtility_3();
+		NullCheck(L_3);
+		SkeletonUtility_RegisterConstraint_m3423144038(L_3, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SkeletonUtilityConstraint::OnDisable()
+extern "C"  void SkeletonUtilityConstraint_OnDisable_m4149511898 (SkeletonUtilityConstraint_t3501047718 * __this, const MethodInfo* method)
+{
+	{
+		SkeletonUtility_t43096937 * L_0 = __this->get_skeletonUtility_3();
+		NullCheck(L_0);
+		SkeletonUtility_UnregisterConstraint_m499983533(L_0, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SpineAnimation::.ctor(System.String,System.String)
+extern "C"  void SpineAnimation__ctor_m1370624712 (SpineAnimation_t1374059059 * __this, String_t* ___startsWith0, String_t* ___dataField1, const MethodInfo* method)
+{
+	{
+		SpineAttributeBase__ctor_m1462886861(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___startsWith0;
+		((SpineAttributeBase_t1862282684 *)__this)->set_startsWith_1(L_0);
+		String_t* L_1 = ___dataField1;
+		((SpineAttributeBase_t1862282684 *)__this)->set_dataField_0(L_1);
+		return;
+	}
+}
+// System.Void Spine.Unity.SpineAtlasRegion::.ctor()
+extern "C"  void SpineAtlasRegion__ctor_m1185752059 (SpineAtlasRegion_t3299345870 * __this, const MethodInfo* method)
+{
+	{
+		PropertyAttribute__ctor_m1741701746(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SpineAttachment::.ctor(System.Boolean,System.Boolean,System.Boolean,System.String,System.String)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t SpineAttachment__ctor_m3676563320_MetadataUsageId;
+extern "C"  void SpineAttachment__ctor_m3676563320 (SpineAttachment_t1024217328 * __this, bool ___currentSkinOnly0, bool ___returnAttachmentPath1, bool ___placeholdersOnly2, String_t* ___slotField3, String_t* ___dataField4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineAttachment__ctor_m3676563320_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_slotField_5(L_0);
+		SpineAttributeBase__ctor_m1462886861(__this, /*hidden argument*/NULL);
+		bool L_1 = ___currentSkinOnly0;
+		__this->set_currentSkinOnly_3(L_1);
+		bool L_2 = ___returnAttachmentPath1;
+		__this->set_returnAttachmentPath_2(L_2);
+		bool L_3 = ___placeholdersOnly2;
+		__this->set_placeholdersOnly_4(L_3);
+		String_t* L_4 = ___slotField3;
+		__this->set_slotField_5(L_4);
+		String_t* L_5 = ___dataField4;
+		((SpineAttributeBase_t1862282684 *)__this)->set_dataField_0(L_5);
+		return;
+	}
+}
+// Spine.Unity.SpineAttachment/Hierarchy Spine.Unity.SpineAttachment::GetHierarchy(System.String)
+extern "C"  Hierarchy_t262310408  SpineAttachment_GetHierarchy_m2003944723 (Il2CppObject * __this /* static, unused */, String_t* ___fullPath0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___fullPath0;
+		Hierarchy_t262310408  L_1;
+		memset(&L_1, 0, sizeof(L_1));
+		Hierarchy__ctor_m2821926783(&L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// Spine.Attachment Spine.Unity.SpineAttachment::GetAttachment(System.String,Spine.SkeletonData)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t SpineAttachment_GetAttachment_m3399742673_MetadataUsageId;
+extern "C"  Attachment_t2849733407 * SpineAttachment_GetAttachment_m3399742673 (Il2CppObject * __this /* static, unused */, String_t* ___attachmentPath0, SkeletonData_t3387199699 * ___skeletonData1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineAttachment_GetAttachment_m3399742673_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Hierarchy_t262310408  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		String_t* L_0 = ___attachmentPath0;
+		Hierarchy_t262310408  L_1 = SpineAttachment_GetHierarchy_m2003944723(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		String_t* L_2 = (&V_0)->get_name_2();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		bool L_4 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		return (Attachment_t2849733407 *)NULL;
+	}
+
+IL_001f:
+	{
+		SkeletonData_t3387199699 * L_5 = ___skeletonData1;
+		String_t* L_6 = (&V_0)->get_skin_0();
+		NullCheck(L_5);
+		Skin_t1650992057 * L_7 = SkeletonData_FindSkin_m94438476(L_5, L_6, /*hidden argument*/NULL);
+		SkeletonData_t3387199699 * L_8 = ___skeletonData1;
+		String_t* L_9 = (&V_0)->get_slot_1();
+		NullCheck(L_8);
+		int32_t L_10 = SkeletonData_FindSlotIndex_m4183630046(L_8, L_9, /*hidden argument*/NULL);
+		String_t* L_11 = (&V_0)->get_name_2();
+		NullCheck(L_7);
+		Attachment_t2849733407 * L_12 = Skin_GetAttachment_m662684200(L_7, L_10, L_11, /*hidden argument*/NULL);
+		return L_12;
+	}
+}
+// Spine.Attachment Spine.Unity.SpineAttachment::GetAttachment(System.String,Spine.Unity.SkeletonDataAsset)
+extern "C"  Attachment_t2849733407 * SpineAttachment_GetAttachment_m3148733994 (Il2CppObject * __this /* static, unused */, String_t* ___attachmentPath0, SkeletonDataAsset_t2211567523 * ___skeletonDataAsset1, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___attachmentPath0;
+		SkeletonDataAsset_t2211567523 * L_1 = ___skeletonDataAsset1;
+		NullCheck(L_1);
+		SkeletonData_t3387199699 * L_2 = SkeletonDataAsset_GetSkeletonData_m1404790387(L_1, (bool)1, /*hidden argument*/NULL);
+		Attachment_t2849733407 * L_3 = SpineAttachment_GetAttachment_m3399742673(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Void Spine.Unity.SpineAttachment/Hierarchy::.ctor(System.String)
+extern Il2CppClass* CharU5BU5D_t3324145743_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Exception_t3991598821_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2445901295;
+extern Il2CppCodeGenString* _stringLiteral93;
+extern const uint32_t Hierarchy__ctor_m2821926783_MetadataUsageId;
+extern "C"  void Hierarchy__ctor_m2821926783 (Hierarchy_t262310408 * __this, String_t* ___fullPath0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Hierarchy__ctor_m2821926783_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	StringU5BU5D_t4054002952* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		String_t* L_0 = ___fullPath0;
+		CharU5BU5D_t3324145743* L_1 = ((CharU5BU5D_t3324145743*)SZArrayNew(CharU5BU5D_t3324145743_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_1);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)47));
+		NullCheck(L_0);
+		StringU5BU5D_t4054002952* L_2 = String_Split_m4066821654(L_0, L_1, 1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		StringU5BU5D_t4054002952* L_3 = V_0;
+		NullCheck(L_3);
+		if ((((int32_t)((int32_t)(((Il2CppArray *)L_3)->max_length)))))
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_skin_0(L_4);
+		String_t* L_5 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_slot_1(L_5);
+		String_t* L_6 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_name_2(L_6);
+		return;
+	}
+
+IL_003d:
+	{
+		StringU5BU5D_t4054002952* L_7 = V_0;
+		NullCheck(L_7);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_7)->max_length))))) >= ((int32_t)2)))
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		String_t* L_8 = ___fullPath0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_9 = String_Concat_m1825781833(NULL /*static, unused*/, _stringLiteral2445901295, L_8, _stringLiteral93, /*hidden argument*/NULL);
+		Exception_t3991598821 * L_10 = (Exception_t3991598821 *)il2cpp_codegen_object_new(Exception_t3991598821_il2cpp_TypeInfo_var);
+		Exception__ctor_m3870771296(L_10, L_9, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10);
+	}
+
+IL_005c:
+	{
+		StringU5BU5D_t4054002952* L_11 = V_0;
+		NullCheck(L_11);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_11, 0);
+		int32_t L_12 = 0;
+		String_t* L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		__this->set_skin_0(L_13);
+		StringU5BU5D_t4054002952* L_14 = V_0;
+		NullCheck(L_14);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_14, 1);
+		int32_t L_15 = 1;
+		String_t* L_16 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		__this->set_slot_1(L_16);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_17 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_name_2(L_17);
+		V_1 = 2;
+		goto IL_0098;
+	}
+
+IL_0080:
+	{
+		String_t* L_18 = __this->get_name_2();
+		StringU5BU5D_t4054002952* L_19 = V_0;
+		int32_t L_20 = V_1;
+		NullCheck(L_19);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_19, L_20);
+		int32_t L_21 = L_20;
+		String_t* L_22 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_23 = String_Concat_m138640077(NULL /*static, unused*/, L_18, L_22, /*hidden argument*/NULL);
+		__this->set_name_2(L_23);
+		int32_t L_24 = V_1;
+		V_1 = ((int32_t)((int32_t)L_24+(int32_t)1));
+	}
+
+IL_0098:
+	{
+		int32_t L_25 = V_1;
+		StringU5BU5D_t4054002952* L_26 = V_0;
+		NullCheck(L_26);
+		if ((((int32_t)L_25) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_26)->max_length)))))))
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		return;
+	}
+}
+extern "C"  void Hierarchy__ctor_m2821926783_AdjustorThunk (Il2CppObject * __this, String_t* ___fullPath0, const MethodInfo* method)
+{
+	Hierarchy_t262310408 * _thisAdjusted = reinterpret_cast<Hierarchy_t262310408 *>(__this + 1);
+	Hierarchy__ctor_m2821926783(_thisAdjusted, ___fullPath0, method);
+}
+// Conversion methods for marshalling of: Spine.Unity.SpineAttachment/Hierarchy
+extern "C" void Hierarchy_t262310408_marshal_pinvoke(const Hierarchy_t262310408& unmarshaled, Hierarchy_t262310408_marshaled_pinvoke& marshaled)
+{
+	marshaled.___skin_0 = il2cpp_codegen_marshal_string(unmarshaled.get_skin_0());
+	marshaled.___slot_1 = il2cpp_codegen_marshal_string(unmarshaled.get_slot_1());
+	marshaled.___name_2 = il2cpp_codegen_marshal_string(unmarshaled.get_name_2());
+}
+extern "C" void Hierarchy_t262310408_marshal_pinvoke_back(const Hierarchy_t262310408_marshaled_pinvoke& marshaled, Hierarchy_t262310408& unmarshaled)
+{
+	unmarshaled.set_skin_0(il2cpp_codegen_marshal_string_result(marshaled.___skin_0));
+	unmarshaled.set_slot_1(il2cpp_codegen_marshal_string_result(marshaled.___slot_1));
+	unmarshaled.set_name_2(il2cpp_codegen_marshal_string_result(marshaled.___name_2));
+}
+// Conversion method for clean up from marshalling of: Spine.Unity.SpineAttachment/Hierarchy
+extern "C" void Hierarchy_t262310408_marshal_pinvoke_cleanup(Hierarchy_t262310408_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___skin_0);
+	marshaled.___skin_0 = NULL;
+	il2cpp_codegen_marshal_free(marshaled.___slot_1);
+	marshaled.___slot_1 = NULL;
+	il2cpp_codegen_marshal_free(marshaled.___name_2);
+	marshaled.___name_2 = NULL;
+}
+// Conversion methods for marshalling of: Spine.Unity.SpineAttachment/Hierarchy
+extern "C" void Hierarchy_t262310408_marshal_com(const Hierarchy_t262310408& unmarshaled, Hierarchy_t262310408_marshaled_com& marshaled)
+{
+	marshaled.___skin_0 = il2cpp_codegen_marshal_bstring(unmarshaled.get_skin_0());
+	marshaled.___slot_1 = il2cpp_codegen_marshal_bstring(unmarshaled.get_slot_1());
+	marshaled.___name_2 = il2cpp_codegen_marshal_bstring(unmarshaled.get_name_2());
+}
+extern "C" void Hierarchy_t262310408_marshal_com_back(const Hierarchy_t262310408_marshaled_com& marshaled, Hierarchy_t262310408& unmarshaled)
+{
+	unmarshaled.set_skin_0(il2cpp_codegen_marshal_bstring_result(marshaled.___skin_0));
+	unmarshaled.set_slot_1(il2cpp_codegen_marshal_bstring_result(marshaled.___slot_1));
+	unmarshaled.set_name_2(il2cpp_codegen_marshal_bstring_result(marshaled.___name_2));
+}
+// Conversion method for clean up from marshalling of: Spine.Unity.SpineAttachment/Hierarchy
+extern "C" void Hierarchy_t262310408_marshal_com_cleanup(Hierarchy_t262310408_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___skin_0);
+	marshaled.___skin_0 = NULL;
+	il2cpp_codegen_marshal_free_bstring(marshaled.___slot_1);
+	marshaled.___slot_1 = NULL;
+	il2cpp_codegen_marshal_free_bstring(marshaled.___name_2);
+	marshaled.___name_2 = NULL;
+}
+// System.Void Spine.Unity.SpineAttributeBase::.ctor()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t SpineAttributeBase__ctor_m1462886861_MetadataUsageId;
+extern "C"  void SpineAttributeBase__ctor_m1462886861 (SpineAttributeBase_t1862282684 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineAttributeBase__ctor_m1462886861_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_dataField_0(L_0);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_startsWith_1(L_1);
+		PropertyAttribute__ctor_m1741701746(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.SpineBone::.ctor(System.String,System.String)
+extern "C"  void SpineBone__ctor_m2800411798 (SpineBone_t1341052369 * __this, String_t* ___startsWith0, String_t* ___dataField1, const MethodInfo* method)
+{
+	{
+		SpineAttributeBase__ctor_m1462886861(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___startsWith0;
+		((SpineAttributeBase_t1862282684 *)__this)->set_startsWith_1(L_0);
+		String_t* L_1 = ___dataField1;
+		((SpineAttributeBase_t1862282684 *)__this)->set_dataField_0(L_1);
+		return;
+	}
+}
+// Spine.Bone Spine.Unity.SpineBone::GetBone(System.String,Spine.Unity.SkeletonRenderer)
+extern "C"  Bone_t1650489600 * SpineBone_GetBone_m2660568798 (Il2CppObject * __this /* static, unused */, String_t* ___boneName0, SkeletonRenderer_t3766155010 * ___renderer1, const MethodInfo* method)
+{
+	Bone_t1650489600 * G_B3_0 = NULL;
+	{
+		SkeletonRenderer_t3766155010 * L_0 = ___renderer1;
+		NullCheck(L_0);
+		Skeleton_t2209335561 * L_1 = L_0->get_skeleton_20();
+		if (L_1)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		G_B3_0 = ((Bone_t1650489600 *)(NULL));
+		goto IL_001d;
+	}
+
+IL_0011:
+	{
+		SkeletonRenderer_t3766155010 * L_2 = ___renderer1;
+		NullCheck(L_2);
+		Skeleton_t2209335561 * L_3 = L_2->get_skeleton_20();
+		String_t* L_4 = ___boneName0;
+		NullCheck(L_3);
+		Bone_t1650489600 * L_5 = Skeleton_FindBone_m2568164470(L_3, L_4, /*hidden argument*/NULL);
+		G_B3_0 = L_5;
+	}
+
+IL_001d:
+	{
+		return G_B3_0;
+	}
+}
+// Spine.BoneData Spine.Unity.SpineBone::GetBoneData(System.String,Spine.Unity.SkeletonDataAsset)
+extern "C"  BoneData_t2151574858 * SpineBone_GetBoneData_m638560555 (Il2CppObject * __this /* static, unused */, String_t* ___boneName0, SkeletonDataAsset_t2211567523 * ___skeletonDataAsset1, const MethodInfo* method)
+{
+	SkeletonData_t3387199699 * V_0 = NULL;
+	{
+		SkeletonDataAsset_t2211567523 * L_0 = ___skeletonDataAsset1;
+		NullCheck(L_0);
+		SkeletonData_t3387199699 * L_1 = SkeletonDataAsset_GetSkeletonData_m1404790387(L_0, (bool)1, /*hidden argument*/NULL);
+		V_0 = L_1;
+		SkeletonData_t3387199699 * L_2 = V_0;
+		String_t* L_3 = ___boneName0;
+		NullCheck(L_2);
+		BoneData_t2151574858 * L_4 = SkeletonData_FindBone_m1719912118(L_2, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Void Spine.Unity.SpineEvent::.ctor(System.String,System.String)
+extern "C"  void SpineEvent__ctor_m2923983710 (SpineEvent_t2281552329 * __this, String_t* ___startsWith0, String_t* ___dataField1, const MethodInfo* method)
+{
+	{
+		SpineAttributeBase__ctor_m1462886861(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___startsWith0;
+		((SpineAttributeBase_t1862282684 *)__this)->set_startsWith_1(L_0);
+		String_t* L_1 = ___dataField1;
+		((SpineAttributeBase_t1862282684 *)__this)->set_dataField_0(L_1);
+		return;
+	}
+}
+// UnityEngine.Mesh Spine.Unity.SpineMesh::NewMesh()
+extern Il2CppClass* Mesh_t4241756145_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2540296672;
+extern const uint32_t SpineMesh_NewMesh_m740765763_MetadataUsageId;
+extern "C"  Mesh_t4241756145 * SpineMesh_NewMesh_m740765763 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineMesh_NewMesh_m740765763_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Mesh_t4241756145 * V_0 = NULL;
+	{
+		Mesh_t4241756145 * L_0 = (Mesh_t4241756145 *)il2cpp_codegen_object_new(Mesh_t4241756145_il2cpp_TypeInfo_var);
+		Mesh__ctor_m2684203808(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		Mesh_t4241756145 * L_1 = V_0;
+		NullCheck(L_1);
+		Mesh_MarkDynamic_m2243343024(L_1, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_2 = V_0;
+		NullCheck(L_2);
+		Object_set_name_m1123518500(L_2, _stringLiteral2540296672, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_3 = V_0;
+		NullCheck(L_3);
+		Object_set_hideFlags_m41317712(L_3, ((int32_t)20), /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void Spine.Unity.SpineSkin::.ctor(System.String,System.String)
+extern "C"  void SpineSkin__ctor_m372074191 (SpineSkin_t1341554826 * __this, String_t* ___startsWith0, String_t* ___dataField1, const MethodInfo* method)
+{
+	{
+		SpineAttributeBase__ctor_m1462886861(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___startsWith0;
+		((SpineAttributeBase_t1862282684 *)__this)->set_startsWith_1(L_0);
+		String_t* L_1 = ___dataField1;
+		((SpineAttributeBase_t1862282684 *)__this)->set_dataField_0(L_1);
+		return;
+	}
+}
+// System.Void Spine.Unity.SpineSlot::.ctor(System.String,System.String,System.Boolean)
+extern "C"  void SpineSlot__ctor_m895212205 (SpineSlot_t1341555979 * __this, String_t* ___startsWith0, String_t* ___dataField1, bool ___containsBoundingBoxes2, const MethodInfo* method)
+{
+	{
+		SpineAttributeBase__ctor_m1462886861(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___startsWith0;
+		((SpineAttributeBase_t1862282684 *)__this)->set_startsWith_1(L_0);
+		String_t* L_1 = ___dataField1;
+		((SpineAttributeBase_t1862282684 *)__this)->set_dataField_0(L_1);
+		bool L_2 = ___containsBoundingBoxes2;
+		__this->set_containsBoundingBoxes_2(L_2);
+		return;
+	}
+}
+// System.Void Spine.Unity.UpdateBonesDelegate::.ctor(System.Object,System.IntPtr)
+extern "C"  void UpdateBonesDelegate__ctor_m2218992318 (UpdateBonesDelegate_t4020151189 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void Spine.Unity.UpdateBonesDelegate::Invoke(Spine.Unity.ISkeletonAnimation)
+extern "C"  void UpdateBonesDelegate_Invoke_m4280713126 (UpdateBonesDelegate_t4020151189 * __this, Il2CppObject * ___animatedSkeletonComponent0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		UpdateBonesDelegate_Invoke_m4280713126((UpdateBonesDelegate_t4020151189 *)__this->get_prev_9(),___animatedSkeletonComponent0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, Il2CppObject * ___animatedSkeletonComponent0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,il2cpp_codegen_get_delegate_this(__this),___animatedSkeletonComponent0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, Il2CppObject * ___animatedSkeletonComponent0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(il2cpp_codegen_get_delegate_this(__this),___animatedSkeletonComponent0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___animatedSkeletonComponent0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult Spine.Unity.UpdateBonesDelegate::BeginInvoke(Spine.Unity.ISkeletonAnimation,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * UpdateBonesDelegate_BeginInvoke_m2340217277 (UpdateBonesDelegate_t4020151189 * __this, Il2CppObject * ___animatedSkeletonComponent0, AsyncCallback_t1369114871 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	void *__d_args[2] = {0};
+	__d_args[0] = ___animatedSkeletonComponent0;
+	return (Il2CppObject *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void Spine.Unity.UpdateBonesDelegate::EndInvoke(System.IAsyncResult)
+extern "C"  void UpdateBonesDelegate_EndInvoke_m2258740174 (UpdateBonesDelegate_t4020151189 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void Spine.Unity.WaitForSpineAnimationComplete::.ctor(Spine.TrackEntry)
+extern "C"  void WaitForSpineAnimationComplete__ctor_m4248177807 (WaitForSpineAnimationComplete_t2719088888 * __this, TrackEntry_t1654022115 * ___trackEntry0, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		TrackEntry_t1654022115 * L_0 = ___trackEntry0;
+		WaitForSpineAnimationComplete_SafeSubscribe_m2757512874(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Spine.Unity.WaitForSpineAnimationComplete::System.Collections.IEnumerator.MoveNext()
+extern Il2CppClass* IEnumerator_t3464575207_il2cpp_TypeInfo_var;
+extern const uint32_t WaitForSpineAnimationComplete_System_Collections_IEnumerator_MoveNext_m596388624_MetadataUsageId;
+extern "C"  bool WaitForSpineAnimationComplete_System_Collections_IEnumerator_MoveNext_m596388624 (WaitForSpineAnimationComplete_t2719088888 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (WaitForSpineAnimationComplete_System_Collections_IEnumerator_MoveNext_m596388624_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		bool L_0 = __this->get_m_WasFired_0();
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Collections.IEnumerator::Reset() */, IEnumerator_t3464575207_il2cpp_TypeInfo_var, __this);
+		return (bool)0;
+	}
+
+IL_0013:
+	{
+		return (bool)1;
+	}
+}
+// System.Void Spine.Unity.WaitForSpineAnimationComplete::System.Collections.IEnumerator.Reset()
+extern "C"  void WaitForSpineAnimationComplete_System_Collections_IEnumerator_Reset_m1860406777 (WaitForSpineAnimationComplete_t2719088888 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_m_WasFired_0((bool)0);
+		return;
+	}
+}
+// System.Object Spine.Unity.WaitForSpineAnimationComplete::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * WaitForSpineAnimationComplete_System_Collections_IEnumerator_get_Current_m829517541 (WaitForSpineAnimationComplete_t2719088888 * __this, const MethodInfo* method)
+{
+	{
+		return NULL;
+	}
+}
+// System.Void Spine.Unity.WaitForSpineAnimationComplete::HandleComplete(Spine.AnimationState,System.Int32,System.Int32)
+extern "C"  void WaitForSpineAnimationComplete_HandleComplete_m3650212940 (WaitForSpineAnimationComplete_t2719088888 * __this, AnimationState_t964829161 * ___state0, int32_t ___trackIndex1, int32_t ___loopCount2, const MethodInfo* method)
+{
+	{
+		__this->set_m_WasFired_0((bool)1);
+		return;
+	}
+}
+// System.Void Spine.Unity.WaitForSpineAnimationComplete::SafeSubscribe(Spine.TrackEntry)
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* CompleteDelegate_t1469797013_il2cpp_TypeInfo_var;
+extern const MethodInfo* WaitForSpineAnimationComplete_HandleComplete_m3650212940_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1231747116;
+extern const uint32_t WaitForSpineAnimationComplete_SafeSubscribe_m2757512874_MetadataUsageId;
+extern "C"  void WaitForSpineAnimationComplete_SafeSubscribe_m2757512874 (WaitForSpineAnimationComplete_t2719088888 * __this, TrackEntry_t1654022115 * ___trackEntry0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (WaitForSpineAnimationComplete_SafeSubscribe_m2757512874_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		TrackEntry_t1654022115 * L_0 = ___trackEntry0;
+		if (L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m3123317694(NULL /*static, unused*/, _stringLiteral1231747116, /*hidden argument*/NULL);
+		__this->set_m_WasFired_0((bool)1);
+		goto IL_002e;
+	}
+
+IL_001c:
+	{
+		TrackEntry_t1654022115 * L_1 = ___trackEntry0;
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)WaitForSpineAnimationComplete_HandleComplete_m3650212940_MethodInfo_var);
+		CompleteDelegate_t1469797013 * L_3 = (CompleteDelegate_t1469797013 *)il2cpp_codegen_object_new(CompleteDelegate_t1469797013_il2cpp_TypeInfo_var);
+		CompleteDelegate__ctor_m1123931116(L_3, __this, L_2, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		TrackEntry_add_Complete_m3838800075(L_1, L_3, /*hidden argument*/NULL);
+	}
+
+IL_002e:
+	{
+		return;
+	}
+}
+// Spine.Unity.WaitForSpineAnimationComplete Spine.Unity.WaitForSpineAnimationComplete::NowWaitFor(Spine.TrackEntry)
+extern "C"  WaitForSpineAnimationComplete_t2719088888 * WaitForSpineAnimationComplete_NowWaitFor_m2779200614 (WaitForSpineAnimationComplete_t2719088888 * __this, TrackEntry_t1654022115 * ___trackEntry0, const MethodInfo* method)
+{
+	{
+		TrackEntry_t1654022115 * L_0 = ___trackEntry0;
+		WaitForSpineAnimationComplete_SafeSubscribe_m2757512874(__this, L_0, /*hidden argument*/NULL);
+		return __this;
+	}
+}
+// System.Void Spine.Unity.WaitForSpineEvent::.ctor(Spine.AnimationState,Spine.EventData,System.Boolean)
+extern "C"  void WaitForSpineEvent__ctor_m2587289726 (WaitForSpineEvent_t3828335157 * __this, AnimationState_t964829161 * ___state0, EventData_t2102088874 * ___eventDataReference1, bool ___unsubscribeAfterFiring2, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		AnimationState_t964829161 * L_0 = ___state0;
+		EventData_t2102088874 * L_1 = ___eventDataReference1;
+		bool L_2 = ___unsubscribeAfterFiring2;
+		WaitForSpineEvent_Subscribe_m3409985558(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.WaitForSpineEvent::.ctor(Spine.Unity.SkeletonAnimation,Spine.EventData,System.Boolean)
+extern "C"  void WaitForSpineEvent__ctor_m2552410127 (WaitForSpineEvent_t3828335157 * __this, SkeletonAnimation_t3721178561 * ___skeletonAnimation0, EventData_t2102088874 * ___eventDataReference1, bool ___unsubscribeAfterFiring2, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		SkeletonAnimation_t3721178561 * L_0 = ___skeletonAnimation0;
+		NullCheck(L_0);
+		AnimationState_t964829161 * L_1 = L_0->get_state_34();
+		EventData_t2102088874 * L_2 = ___eventDataReference1;
+		bool L_3 = ___unsubscribeAfterFiring2;
+		WaitForSpineEvent_Subscribe_m3409985558(__this, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.WaitForSpineEvent::.ctor(Spine.AnimationState,System.String,System.Boolean)
+extern "C"  void WaitForSpineEvent__ctor_m2099001877 (WaitForSpineEvent_t3828335157 * __this, AnimationState_t964829161 * ___state0, String_t* ___eventName1, bool ___unsubscribeAfterFiring2, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		AnimationState_t964829161 * L_0 = ___state0;
+		String_t* L_1 = ___eventName1;
+		bool L_2 = ___unsubscribeAfterFiring2;
+		WaitForSpineEvent_SubscribeByName_m2096883979(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.WaitForSpineEvent::.ctor(Spine.Unity.SkeletonAnimation,System.String,System.Boolean)
+extern "C"  void WaitForSpineEvent__ctor_m2076619238 (WaitForSpineEvent_t3828335157 * __this, SkeletonAnimation_t3721178561 * ___skeletonAnimation0, String_t* ___eventName1, bool ___unsubscribeAfterFiring2, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		SkeletonAnimation_t3721178561 * L_0 = ___skeletonAnimation0;
+		NullCheck(L_0);
+		AnimationState_t964829161 * L_1 = L_0->get_state_34();
+		String_t* L_2 = ___eventName1;
+		bool L_3 = ___unsubscribeAfterFiring2;
+		WaitForSpineEvent_SubscribeByName_m2096883979(__this, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Spine.Unity.WaitForSpineEvent::System.Collections.IEnumerator.MoveNext()
+extern Il2CppClass* IEnumerator_t3464575207_il2cpp_TypeInfo_var;
+extern const uint32_t WaitForSpineEvent_System_Collections_IEnumerator_MoveNext_m1236430771_MetadataUsageId;
+extern "C"  bool WaitForSpineEvent_System_Collections_IEnumerator_MoveNext_m1236430771 (WaitForSpineEvent_t3828335157 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (WaitForSpineEvent_System_Collections_IEnumerator_MoveNext_m1236430771_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		bool L_0 = __this->get_m_WasFired_3();
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Collections.IEnumerator::Reset() */, IEnumerator_t3464575207_il2cpp_TypeInfo_var, __this);
+		return (bool)0;
+	}
+
+IL_0013:
+	{
+		return (bool)1;
+	}
+}
+// System.Void Spine.Unity.WaitForSpineEvent::System.Collections.IEnumerator.Reset()
+extern "C"  void WaitForSpineEvent_System_Collections_IEnumerator_Reset_m893710902 (WaitForSpineEvent_t3828335157 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_m_WasFired_3((bool)0);
+		return;
+	}
+}
+// System.Object Spine.Unity.WaitForSpineEvent::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * WaitForSpineEvent_System_Collections_IEnumerator_get_Current_m1566956002 (WaitForSpineEvent_t3828335157 * __this, const MethodInfo* method)
+{
+	{
+		return NULL;
+	}
+}
+// System.Void Spine.Unity.WaitForSpineEvent::Subscribe(Spine.AnimationState,Spine.EventData,System.Boolean)
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* EventDelegate_t3743540456_il2cpp_TypeInfo_var;
+extern const MethodInfo* WaitForSpineEvent_HandleAnimationStateEvent_m31936197_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2581377315;
+extern Il2CppCodeGenString* _stringLiteral1286265309;
+extern const uint32_t WaitForSpineEvent_Subscribe_m3409985558_MetadataUsageId;
+extern "C"  void WaitForSpineEvent_Subscribe_m3409985558 (WaitForSpineEvent_t3828335157 * __this, AnimationState_t964829161 * ___state0, EventData_t2102088874 * ___eventDataReference1, bool ___unsubscribe2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (WaitForSpineEvent_Subscribe_m3409985558_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AnimationState_t964829161 * L_0 = ___state0;
+		if (L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m3123317694(NULL /*static, unused*/, _stringLiteral2581377315, /*hidden argument*/NULL);
+		__this->set_m_WasFired_3((bool)1);
+		return;
+	}
+
+IL_0018:
+	{
+		EventData_t2102088874 * L_1 = ___eventDataReference1;
+		if (L_1)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m3123317694(NULL /*static, unused*/, _stringLiteral1286265309, /*hidden argument*/NULL);
+		__this->set_m_WasFired_3((bool)1);
+		return;
+	}
+
+IL_0030:
+	{
+		AnimationState_t964829161 * L_2 = ___state0;
+		__this->set_m_AnimationState_2(L_2);
+		EventData_t2102088874 * L_3 = ___eventDataReference1;
+		__this->set_m_TargetEvent_0(L_3);
+		AnimationState_t964829161 * L_4 = ___state0;
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)WaitForSpineEvent_HandleAnimationStateEvent_m31936197_MethodInfo_var);
+		EventDelegate_t3743540456 * L_6 = (EventDelegate_t3743540456 *)il2cpp_codegen_object_new(EventDelegate_t3743540456_il2cpp_TypeInfo_var);
+		EventDelegate__ctor_m2728612751(L_6, __this, L_5, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		AnimationState_add_Event_m3939231669(L_4, L_6, /*hidden argument*/NULL);
+		bool L_7 = ___unsubscribe2;
+		__this->set_m_unsubscribeAfterFiring_4(L_7);
+		return;
+	}
+}
+// System.Void Spine.Unity.WaitForSpineEvent::SubscribeByName(Spine.AnimationState,System.String,System.Boolean)
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* EventDelegate_t3743540456_il2cpp_TypeInfo_var;
+extern const MethodInfo* WaitForSpineEvent_HandleAnimationStateEventByName_m980330339_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2581377315;
+extern Il2CppCodeGenString* _stringLiteral613389787;
+extern const uint32_t WaitForSpineEvent_SubscribeByName_m2096883979_MetadataUsageId;
+extern "C"  void WaitForSpineEvent_SubscribeByName_m2096883979 (WaitForSpineEvent_t3828335157 * __this, AnimationState_t964829161 * ___state0, String_t* ___eventName1, bool ___unsubscribe2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (WaitForSpineEvent_SubscribeByName_m2096883979_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AnimationState_t964829161 * L_0 = ___state0;
+		if (L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m3123317694(NULL /*static, unused*/, _stringLiteral2581377315, /*hidden argument*/NULL);
+		__this->set_m_WasFired_3((bool)1);
+		return;
+	}
+
+IL_0018:
+	{
+		String_t* L_1 = ___eventName1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_2 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m3123317694(NULL /*static, unused*/, _stringLiteral613389787, /*hidden argument*/NULL);
+		__this->set_m_WasFired_3((bool)1);
+		return;
+	}
+
+IL_0035:
+	{
+		AnimationState_t964829161 * L_3 = ___state0;
+		__this->set_m_AnimationState_2(L_3);
+		String_t* L_4 = ___eventName1;
+		__this->set_m_EventName_1(L_4);
+		AnimationState_t964829161 * L_5 = ___state0;
+		IntPtr_t L_6;
+		L_6.set_m_value_0((void*)(void*)WaitForSpineEvent_HandleAnimationStateEventByName_m980330339_MethodInfo_var);
+		EventDelegate_t3743540456 * L_7 = (EventDelegate_t3743540456 *)il2cpp_codegen_object_new(EventDelegate_t3743540456_il2cpp_TypeInfo_var);
+		EventDelegate__ctor_m2728612751(L_7, __this, L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		AnimationState_add_Event_m3939231669(L_5, L_7, /*hidden argument*/NULL);
+		bool L_8 = ___unsubscribe2;
+		__this->set_m_unsubscribeAfterFiring_4(L_8);
+		return;
+	}
+}
+// System.Void Spine.Unity.WaitForSpineEvent::HandleAnimationStateEventByName(Spine.AnimationState,System.Int32,Spine.Event)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* EventDelegate_t3743540456_il2cpp_TypeInfo_var;
+extern const MethodInfo* WaitForSpineEvent_HandleAnimationStateEventByName_m980330339_MethodInfo_var;
+extern const uint32_t WaitForSpineEvent_HandleAnimationStateEventByName_m980330339_MetadataUsageId;
+extern "C"  void WaitForSpineEvent_HandleAnimationStateEventByName_m980330339 (WaitForSpineEvent_t3828335157 * __this, AnimationState_t964829161 * ___state0, int32_t ___trackIndex1, Event_t365432928 * ___e2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (WaitForSpineEvent_HandleAnimationStateEventByName_m980330339_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AnimationState_t964829161 * L_0 = ___state0;
+		AnimationState_t964829161 * L_1 = __this->get_m_AnimationState_2();
+		if ((((Il2CppObject*)(AnimationState_t964829161 *)L_0) == ((Il2CppObject*)(AnimationState_t964829161 *)L_1)))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000d:
+	{
+		bool L_2 = __this->get_m_WasFired_3();
+		Event_t365432928 * L_3 = ___e2;
+		NullCheck(L_3);
+		EventData_t2102088874 * L_4 = Event_get_Data_m2079788065(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		String_t* L_5 = EventData_get_Name_m2073634083(L_4, /*hidden argument*/NULL);
+		String_t* L_6 = __this->get_m_EventName_1();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_7 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		__this->set_m_WasFired_3((bool)((int32_t)((int32_t)L_2|(int32_t)L_7)));
+		bool L_8 = __this->get_m_WasFired_3();
+		if (!L_8)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		bool L_9 = __this->get_m_unsubscribeAfterFiring_4();
+		if (!L_9)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		AnimationState_t964829161 * L_10 = ___state0;
+		IntPtr_t L_11;
+		L_11.set_m_value_0((void*)(void*)WaitForSpineEvent_HandleAnimationStateEventByName_m980330339_MethodInfo_var);
+		EventDelegate_t3743540456 * L_12 = (EventDelegate_t3743540456 *)il2cpp_codegen_object_new(EventDelegate_t3743540456_il2cpp_TypeInfo_var);
+		EventDelegate__ctor_m2728612751(L_12, __this, L_11, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		AnimationState_remove_Event_m3780073816(L_10, L_12, /*hidden argument*/NULL);
+	}
+
+IL_0058:
+	{
+		return;
+	}
+}
+// System.Void Spine.Unity.WaitForSpineEvent::HandleAnimationStateEvent(Spine.AnimationState,System.Int32,Spine.Event)
+extern Il2CppClass* EventDelegate_t3743540456_il2cpp_TypeInfo_var;
+extern const MethodInfo* WaitForSpineEvent_HandleAnimationStateEvent_m31936197_MethodInfo_var;
+extern const uint32_t WaitForSpineEvent_HandleAnimationStateEvent_m31936197_MetadataUsageId;
+extern "C"  void WaitForSpineEvent_HandleAnimationStateEvent_m31936197 (WaitForSpineEvent_t3828335157 * __this, AnimationState_t964829161 * ___state0, int32_t ___trackIndex1, Event_t365432928 * ___e2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (WaitForSpineEvent_HandleAnimationStateEvent_m31936197_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AnimationState_t964829161 * L_0 = ___state0;
+		AnimationState_t964829161 * L_1 = __this->get_m_AnimationState_2();
+		if ((((Il2CppObject*)(AnimationState_t964829161 *)L_0) == ((Il2CppObject*)(AnimationState_t964829161 *)L_1)))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000d:
+	{
+		bool L_2 = __this->get_m_WasFired_3();
+		Event_t365432928 * L_3 = ___e2;
+		NullCheck(L_3);
+		EventData_t2102088874 * L_4 = Event_get_Data_m2079788065(L_3, /*hidden argument*/NULL);
+		EventData_t2102088874 * L_5 = __this->get_m_TargetEvent_0();
+		__this->set_m_WasFired_3((bool)((int32_t)((int32_t)L_2|(int32_t)((((Il2CppObject*)(EventData_t2102088874 *)L_4) == ((Il2CppObject*)(EventData_t2102088874 *)L_5))? 1 : 0))));
+		bool L_6 = __this->get_m_WasFired_3();
+		if (!L_6)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		bool L_7 = __this->get_m_unsubscribeAfterFiring_4();
+		if (!L_7)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		AnimationState_t964829161 * L_8 = ___state0;
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)WaitForSpineEvent_HandleAnimationStateEvent_m31936197_MethodInfo_var);
+		EventDelegate_t3743540456 * L_10 = (EventDelegate_t3743540456 *)il2cpp_codegen_object_new(EventDelegate_t3743540456_il2cpp_TypeInfo_var);
+		EventDelegate__ctor_m2728612751(L_10, __this, L_9, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		AnimationState_remove_Event_m3780073816(L_8, L_10, /*hidden argument*/NULL);
+	}
+
+IL_0050:
+	{
+		return;
+	}
+}
+// System.Boolean Spine.Unity.WaitForSpineEvent::get_WillUnsubscribeAfterFiring()
+extern "C"  bool WaitForSpineEvent_get_WillUnsubscribeAfterFiring_m2520711717 (WaitForSpineEvent_t3828335157 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_m_unsubscribeAfterFiring_4();
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.WaitForSpineEvent::set_WillUnsubscribeAfterFiring(System.Boolean)
+extern "C"  void WaitForSpineEvent_set_WillUnsubscribeAfterFiring_m281870468 (WaitForSpineEvent_t3828335157 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set_m_unsubscribeAfterFiring_4(L_0);
+		return;
+	}
+}
+// Spine.Unity.WaitForSpineEvent Spine.Unity.WaitForSpineEvent::NowWaitFor(Spine.AnimationState,Spine.EventData,System.Boolean)
+extern Il2CppClass* IEnumerator_t3464575207_il2cpp_TypeInfo_var;
+extern const uint32_t WaitForSpineEvent_NowWaitFor_m1629351184_MetadataUsageId;
+extern "C"  WaitForSpineEvent_t3828335157 * WaitForSpineEvent_NowWaitFor_m1629351184 (WaitForSpineEvent_t3828335157 * __this, AnimationState_t964829161 * ___state0, EventData_t2102088874 * ___eventDataReference1, bool ___unsubscribeAfterFiring2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (WaitForSpineEvent_NowWaitFor_m1629351184_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Collections.IEnumerator::Reset() */, IEnumerator_t3464575207_il2cpp_TypeInfo_var, __this);
+		AnimationState_t964829161 * L_0 = ___state0;
+		WaitForSpineEvent_Clear_m3128494551(__this, L_0, /*hidden argument*/NULL);
+		AnimationState_t964829161 * L_1 = ___state0;
+		EventData_t2102088874 * L_2 = ___eventDataReference1;
+		bool L_3 = ___unsubscribeAfterFiring2;
+		WaitForSpineEvent_Subscribe_m3409985558(__this, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return __this;
+	}
+}
+// Spine.Unity.WaitForSpineEvent Spine.Unity.WaitForSpineEvent::NowWaitFor(Spine.AnimationState,System.String,System.Boolean)
+extern Il2CppClass* IEnumerator_t3464575207_il2cpp_TypeInfo_var;
+extern const uint32_t WaitForSpineEvent_NowWaitFor_m2696887079_MetadataUsageId;
+extern "C"  WaitForSpineEvent_t3828335157 * WaitForSpineEvent_NowWaitFor_m2696887079 (WaitForSpineEvent_t3828335157 * __this, AnimationState_t964829161 * ___state0, String_t* ___eventName1, bool ___unsubscribeAfterFiring2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (WaitForSpineEvent_NowWaitFor_m2696887079_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Collections.IEnumerator::Reset() */, IEnumerator_t3464575207_il2cpp_TypeInfo_var, __this);
+		AnimationState_t964829161 * L_0 = ___state0;
+		WaitForSpineEvent_Clear_m3128494551(__this, L_0, /*hidden argument*/NULL);
+		AnimationState_t964829161 * L_1 = ___state0;
+		String_t* L_2 = ___eventName1;
+		bool L_3 = ___unsubscribeAfterFiring2;
+		WaitForSpineEvent_SubscribeByName_m2096883979(__this, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return __this;
+	}
+}
+// System.Void Spine.Unity.WaitForSpineEvent::Clear(Spine.AnimationState)
+extern Il2CppClass* EventDelegate_t3743540456_il2cpp_TypeInfo_var;
+extern const MethodInfo* WaitForSpineEvent_HandleAnimationStateEvent_m31936197_MethodInfo_var;
+extern const MethodInfo* WaitForSpineEvent_HandleAnimationStateEventByName_m980330339_MethodInfo_var;
+extern const uint32_t WaitForSpineEvent_Clear_m3128494551_MetadataUsageId;
+extern "C"  void WaitForSpineEvent_Clear_m3128494551 (WaitForSpineEvent_t3828335157 * __this, AnimationState_t964829161 * ___state0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (WaitForSpineEvent_Clear_m3128494551_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AnimationState_t964829161 * L_0 = ___state0;
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)WaitForSpineEvent_HandleAnimationStateEvent_m31936197_MethodInfo_var);
+		EventDelegate_t3743540456 * L_2 = (EventDelegate_t3743540456 *)il2cpp_codegen_object_new(EventDelegate_t3743540456_il2cpp_TypeInfo_var);
+		EventDelegate__ctor_m2728612751(L_2, __this, L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		AnimationState_remove_Event_m3780073816(L_0, L_2, /*hidden argument*/NULL);
+		AnimationState_t964829161 * L_3 = ___state0;
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)WaitForSpineEvent_HandleAnimationStateEventByName_m980330339_MethodInfo_var);
+		EventDelegate_t3743540456 * L_5 = (EventDelegate_t3743540456 *)il2cpp_codegen_object_new(EventDelegate_t3743540456_il2cpp_TypeInfo_var);
+		EventDelegate__ctor_m2728612751(L_5, __this, L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		AnimationState_remove_Event_m3780073816(L_3, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.VertexAttachment::.ctor(System.String)
+extern "C"  void VertexAttachment__ctor_m3782702361 (VertexAttachment_t2433703843 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___name0;
+		Attachment__ctor_m2461260181(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32[] Spine.VertexAttachment::get_Bones()
+extern "C"  Int32U5BU5D_t3230847821* VertexAttachment_get_Bones_m3831264321 (VertexAttachment_t2433703843 * __this, const MethodInfo* method)
+{
+	{
+		Int32U5BU5D_t3230847821* L_0 = __this->get_bones_1();
+		return L_0;
+	}
+}
+// System.Void Spine.VertexAttachment::set_Bones(System.Int32[])
+extern "C"  void VertexAttachment_set_Bones_m2246993576 (VertexAttachment_t2433703843 * __this, Int32U5BU5D_t3230847821* ___value0, const MethodInfo* method)
+{
+	{
+		Int32U5BU5D_t3230847821* L_0 = ___value0;
+		__this->set_bones_1(L_0);
+		return;
+	}
+}
+// System.Single[] Spine.VertexAttachment::get_Vertices()
+extern "C"  SingleU5BU5D_t2316563989* VertexAttachment_get_Vertices_m2450331911 (VertexAttachment_t2433703843 * __this, const MethodInfo* method)
+{
+	{
+		SingleU5BU5D_t2316563989* L_0 = __this->get_vertices_2();
+		return L_0;
+	}
+}
+// System.Void Spine.VertexAttachment::set_Vertices(System.Single[])
+extern "C"  void VertexAttachment_set_Vertices_m4022495896 (VertexAttachment_t2433703843 * __this, SingleU5BU5D_t2316563989* ___value0, const MethodInfo* method)
+{
+	{
+		SingleU5BU5D_t2316563989* L_0 = ___value0;
+		__this->set_vertices_2(L_0);
+		return;
+	}
+}
+// System.Int32 Spine.VertexAttachment::get_WorldVerticesLength()
+extern "C"  int32_t VertexAttachment_get_WorldVerticesLength_m1337450465 (VertexAttachment_t2433703843 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_worldVerticesLength_3();
+		return L_0;
+	}
+}
+// System.Void Spine.VertexAttachment::set_WorldVerticesLength(System.Int32)
+extern "C"  void VertexAttachment_set_WorldVerticesLength_m3864755468 (VertexAttachment_t2433703843 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set_worldVerticesLength_3(L_0);
+		return;
+	}
+}
+// System.Void Spine.VertexAttachment::ComputeWorldVertices(Spine.Slot,System.Single[])
+extern "C"  void VertexAttachment_ComputeWorldVertices_m2404147913 (VertexAttachment_t2433703843 * __this, Slot_t1650993210 * ___slot0, SingleU5BU5D_t2316563989* ___worldVertices1, const MethodInfo* method)
+{
+	{
+		Slot_t1650993210 * L_0 = ___slot0;
+		int32_t L_1 = __this->get_worldVerticesLength_3();
+		SingleU5BU5D_t2316563989* L_2 = ___worldVertices1;
+		VertexAttachment_ComputeWorldVertices_m208427726(__this, L_0, 0, L_1, L_2, 0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.VertexAttachment::ComputeWorldVertices(Spine.Slot,System.Int32,System.Int32,System.Single[],System.Int32)
+extern "C"  void VertexAttachment_ComputeWorldVertices_m208427726 (VertexAttachment_t2433703843 * __this, Slot_t1650993210 * ___slot0, int32_t ___start1, int32_t ___count2, SingleU5BU5D_t2316563989* ___worldVertices3, int32_t ___offset4, const MethodInfo* method)
+{
+	Skeleton_t2209335561 * V_0 = NULL;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	ExposedList_1_t1371884334 * V_3 = NULL;
+	SingleU5BU5D_t2316563989* V_4 = NULL;
+	Int32U5BU5D_t3230847821* V_5 = NULL;
+	Bone_t1650489600 * V_6 = NULL;
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	int32_t V_11 = 0;
+	int32_t V_12 = 0;
+	float V_13 = 0.0f;
+	float V_14 = 0.0f;
+	int32_t V_15 = 0;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	BoneU5BU5D_t1595507457* V_19 = NULL;
+	int32_t V_20 = 0;
+	int32_t V_21 = 0;
+	float V_22 = 0.0f;
+	float V_23 = 0.0f;
+	int32_t V_24 = 0;
+	Bone_t1650489600 * V_25 = NULL;
+	float V_26 = 0.0f;
+	float V_27 = 0.0f;
+	float V_28 = 0.0f;
+	SingleU5BU5D_t2316563989* V_29 = NULL;
+	int32_t V_30 = 0;
+	int32_t V_31 = 0;
+	int32_t V_32 = 0;
+	float V_33 = 0.0f;
+	float V_34 = 0.0f;
+	int32_t V_35 = 0;
+	Bone_t1650489600 * V_36 = NULL;
+	float V_37 = 0.0f;
+	float V_38 = 0.0f;
+	float V_39 = 0.0f;
+	{
+		int32_t L_0 = ___count2;
+		int32_t L_1 = ___offset4;
+		___count2 = ((int32_t)((int32_t)L_0+(int32_t)L_1));
+		Slot_t1650993210 * L_2 = ___slot0;
+		NullCheck(L_2);
+		Skeleton_t2209335561 * L_3 = Slot_get_Skeleton_m1696548813(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Skeleton_t2209335561 * L_4 = V_0;
+		NullCheck(L_4);
+		float L_5 = L_4->get_x_17();
+		V_1 = L_5;
+		Skeleton_t2209335561 * L_6 = V_0;
+		NullCheck(L_6);
+		float L_7 = L_6->get_y_18();
+		V_2 = L_7;
+		Slot_t1650993210 * L_8 = ___slot0;
+		NullCheck(L_8);
+		ExposedList_1_t1371884334 * L_9 = L_8->get_attachmentVertices_8();
+		V_3 = L_9;
+		SingleU5BU5D_t2316563989* L_10 = __this->get_vertices_2();
+		V_4 = L_10;
+		Int32U5BU5D_t3230847821* L_11 = __this->get_bones_1();
+		V_5 = L_11;
+		Int32U5BU5D_t3230847821* L_12 = V_5;
+		if (L_12)
+		{
+			goto IL_00e4;
+		}
+	}
+	{
+		ExposedList_1_t1371884334 * L_13 = V_3;
+		NullCheck(L_13);
+		int32_t L_14 = L_13->get_Count_2();
+		if ((((int32_t)L_14) <= ((int32_t)0)))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		ExposedList_1_t1371884334 * L_15 = V_3;
+		NullCheck(L_15);
+		SingleU5BU5D_t2316563989* L_16 = L_15->get_Items_1();
+		V_4 = L_16;
+	}
+
+IL_004d:
+	{
+		Slot_t1650993210 * L_17 = ___slot0;
+		NullCheck(L_17);
+		Bone_t1650489600 * L_18 = L_17->get_bone_1();
+		V_6 = L_18;
+		float L_19 = V_1;
+		Bone_t1650489600 * L_20 = V_6;
+		NullCheck(L_20);
+		float L_21 = L_20->get_worldX_15();
+		V_1 = ((float)((float)L_19+(float)L_21));
+		float L_22 = V_2;
+		Bone_t1650489600 * L_23 = V_6;
+		NullCheck(L_23);
+		float L_24 = L_23->get_worldY_18();
+		V_2 = ((float)((float)L_22+(float)L_24));
+		Bone_t1650489600 * L_25 = V_6;
+		NullCheck(L_25);
+		float L_26 = L_25->get_a_13();
+		V_7 = L_26;
+		Bone_t1650489600 * L_27 = V_6;
+		NullCheck(L_27);
+		float L_28 = L_27->get_b_14();
+		V_8 = L_28;
+		Bone_t1650489600 * L_29 = V_6;
+		NullCheck(L_29);
+		float L_30 = L_29->get_c_16();
+		V_9 = L_30;
+		Bone_t1650489600 * L_31 = V_6;
+		NullCheck(L_31);
+		float L_32 = L_31->get_d_17();
+		V_10 = L_32;
+		int32_t L_33 = ___start1;
+		V_11 = L_33;
+		int32_t L_34 = ___offset4;
+		V_12 = L_34;
+		goto IL_00db;
+	}
+
+IL_0099:
+	{
+		SingleU5BU5D_t2316563989* L_35 = V_4;
+		int32_t L_36 = V_11;
+		NullCheck(L_35);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_35, L_36);
+		int32_t L_37 = L_36;
+		float L_38 = (L_35)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
+		V_13 = L_38;
+		SingleU5BU5D_t2316563989* L_39 = V_4;
+		int32_t L_40 = V_11;
+		NullCheck(L_39);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_39, ((int32_t)((int32_t)L_40+(int32_t)1)));
+		int32_t L_41 = ((int32_t)((int32_t)L_40+(int32_t)1));
+		float L_42 = (L_39)->GetAt(static_cast<il2cpp_array_size_t>(L_41));
+		V_14 = L_42;
+		SingleU5BU5D_t2316563989* L_43 = ___worldVertices3;
+		int32_t L_44 = V_12;
+		float L_45 = V_13;
+		float L_46 = V_7;
+		float L_47 = V_14;
+		float L_48 = V_8;
+		float L_49 = V_1;
+		NullCheck(L_43);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_43, L_44);
+		(L_43)->SetAt(static_cast<il2cpp_array_size_t>(L_44), (float)((float)((float)((float)((float)((float)((float)L_45*(float)L_46))+(float)((float)((float)L_47*(float)L_48))))+(float)L_49)));
+		SingleU5BU5D_t2316563989* L_50 = ___worldVertices3;
+		int32_t L_51 = V_12;
+		float L_52 = V_13;
+		float L_53 = V_9;
+		float L_54 = V_14;
+		float L_55 = V_10;
+		float L_56 = V_2;
+		NullCheck(L_50);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_50, ((int32_t)((int32_t)L_51+(int32_t)1)));
+		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_51+(int32_t)1))), (float)((float)((float)((float)((float)((float)((float)L_52*(float)L_53))+(float)((float)((float)L_54*(float)L_55))))+(float)L_56)));
+		int32_t L_57 = V_11;
+		V_11 = ((int32_t)((int32_t)L_57+(int32_t)2));
+		int32_t L_58 = V_12;
+		V_12 = ((int32_t)((int32_t)L_58+(int32_t)2));
+	}
+
+IL_00db:
+	{
+		int32_t L_59 = V_12;
+		int32_t L_60 = ___count2;
+		if ((((int32_t)L_59) < ((int32_t)L_60)))
+		{
+			goto IL_0099;
+		}
+	}
+	{
+		return;
+	}
+
+IL_00e4:
+	{
+		V_15 = 0;
+		V_16 = 0;
+		V_17 = 0;
+		goto IL_010f;
+	}
+
+IL_00f2:
+	{
+		Int32U5BU5D_t3230847821* L_61 = V_5;
+		int32_t L_62 = V_15;
+		NullCheck(L_61);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_61, L_62);
+		int32_t L_63 = L_62;
+		int32_t L_64 = (L_61)->GetAt(static_cast<il2cpp_array_size_t>(L_63));
+		V_18 = L_64;
+		int32_t L_65 = V_15;
+		int32_t L_66 = V_18;
+		V_15 = ((int32_t)((int32_t)L_65+(int32_t)((int32_t)((int32_t)L_66+(int32_t)1))));
+		int32_t L_67 = V_16;
+		int32_t L_68 = V_18;
+		V_16 = ((int32_t)((int32_t)L_67+(int32_t)L_68));
+		int32_t L_69 = V_17;
+		V_17 = ((int32_t)((int32_t)L_69+(int32_t)2));
+	}
+
+IL_010f:
+	{
+		int32_t L_70 = V_17;
+		int32_t L_71 = ___start1;
+		if ((((int32_t)L_70) < ((int32_t)L_71)))
+		{
+			goto IL_00f2;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_72 = V_0;
+		NullCheck(L_72);
+		ExposedList_1_t3025422258 * L_73 = Skeleton_get_Bones_m3299938667(L_72, /*hidden argument*/NULL);
+		NullCheck(L_73);
+		BoneU5BU5D_t1595507457* L_74 = L_73->get_Items_1();
+		V_19 = L_74;
+		ExposedList_1_t1371884334 * L_75 = V_3;
+		NullCheck(L_75);
+		int32_t L_76 = L_75->get_Count_2();
+		if (L_76)
+		{
+			goto IL_0201;
+		}
+	}
+	{
+		int32_t L_77 = ___offset4;
+		V_20 = L_77;
+		int32_t L_78 = V_16;
+		V_21 = ((int32_t)((int32_t)L_78*(int32_t)3));
+		goto IL_01f4;
+	}
+
+IL_013e:
+	{
+		float L_79 = V_1;
+		V_22 = L_79;
+		float L_80 = V_2;
+		V_23 = L_80;
+		Int32U5BU5D_t3230847821* L_81 = V_5;
+		int32_t L_82 = V_15;
+		int32_t L_83 = L_82;
+		V_15 = ((int32_t)((int32_t)L_83+(int32_t)1));
+		NullCheck(L_81);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_81, L_83);
+		int32_t L_84 = L_83;
+		int32_t L_85 = (L_81)->GetAt(static_cast<il2cpp_array_size_t>(L_84));
+		V_24 = L_85;
+		int32_t L_86 = V_24;
+		int32_t L_87 = V_15;
+		V_24 = ((int32_t)((int32_t)L_86+(int32_t)L_87));
+		goto IL_01d5;
+	}
+
+IL_015c:
+	{
+		BoneU5BU5D_t1595507457* L_88 = V_19;
+		Int32U5BU5D_t3230847821* L_89 = V_5;
+		int32_t L_90 = V_15;
+		NullCheck(L_89);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_89, L_90);
+		int32_t L_91 = L_90;
+		int32_t L_92 = (L_89)->GetAt(static_cast<il2cpp_array_size_t>(L_91));
+		NullCheck(L_88);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_88, L_92);
+		int32_t L_93 = L_92;
+		Bone_t1650489600 * L_94 = (L_88)->GetAt(static_cast<il2cpp_array_size_t>(L_93));
+		V_25 = L_94;
+		SingleU5BU5D_t2316563989* L_95 = V_4;
+		int32_t L_96 = V_21;
+		NullCheck(L_95);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_95, L_96);
+		int32_t L_97 = L_96;
+		float L_98 = (L_95)->GetAt(static_cast<il2cpp_array_size_t>(L_97));
+		V_26 = L_98;
+		SingleU5BU5D_t2316563989* L_99 = V_4;
+		int32_t L_100 = V_21;
+		NullCheck(L_99);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_99, ((int32_t)((int32_t)L_100+(int32_t)1)));
+		int32_t L_101 = ((int32_t)((int32_t)L_100+(int32_t)1));
+		float L_102 = (L_99)->GetAt(static_cast<il2cpp_array_size_t>(L_101));
+		V_27 = L_102;
+		SingleU5BU5D_t2316563989* L_103 = V_4;
+		int32_t L_104 = V_21;
+		NullCheck(L_103);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_103, ((int32_t)((int32_t)L_104+(int32_t)2)));
+		int32_t L_105 = ((int32_t)((int32_t)L_104+(int32_t)2));
+		float L_106 = (L_103)->GetAt(static_cast<il2cpp_array_size_t>(L_105));
+		V_28 = L_106;
+		float L_107 = V_22;
+		float L_108 = V_26;
+		Bone_t1650489600 * L_109 = V_25;
+		NullCheck(L_109);
+		float L_110 = L_109->get_a_13();
+		float L_111 = V_27;
+		Bone_t1650489600 * L_112 = V_25;
+		NullCheck(L_112);
+		float L_113 = L_112->get_b_14();
+		Bone_t1650489600 * L_114 = V_25;
+		NullCheck(L_114);
+		float L_115 = L_114->get_worldX_15();
+		float L_116 = V_28;
+		V_22 = ((float)((float)L_107+(float)((float)((float)((float)((float)((float)((float)((float)((float)L_108*(float)L_110))+(float)((float)((float)L_111*(float)L_113))))+(float)L_115))*(float)L_116))));
+		float L_117 = V_23;
+		float L_118 = V_26;
+		Bone_t1650489600 * L_119 = V_25;
+		NullCheck(L_119);
+		float L_120 = L_119->get_c_16();
+		float L_121 = V_27;
+		Bone_t1650489600 * L_122 = V_25;
+		NullCheck(L_122);
+		float L_123 = L_122->get_d_17();
+		Bone_t1650489600 * L_124 = V_25;
+		NullCheck(L_124);
+		float L_125 = L_124->get_worldY_18();
+		float L_126 = V_28;
+		V_23 = ((float)((float)L_117+(float)((float)((float)((float)((float)((float)((float)((float)((float)L_118*(float)L_120))+(float)((float)((float)L_121*(float)L_123))))+(float)L_125))*(float)L_126))));
+		int32_t L_127 = V_15;
+		V_15 = ((int32_t)((int32_t)L_127+(int32_t)1));
+		int32_t L_128 = V_21;
+		V_21 = ((int32_t)((int32_t)L_128+(int32_t)3));
+	}
+
+IL_01d5:
+	{
+		int32_t L_129 = V_15;
+		int32_t L_130 = V_24;
+		if ((((int32_t)L_129) < ((int32_t)L_130)))
+		{
+			goto IL_015c;
+		}
+	}
+	{
+		SingleU5BU5D_t2316563989* L_131 = ___worldVertices3;
+		int32_t L_132 = V_20;
+		float L_133 = V_22;
+		NullCheck(L_131);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_131, L_132);
+		(L_131)->SetAt(static_cast<il2cpp_array_size_t>(L_132), (float)L_133);
+		SingleU5BU5D_t2316563989* L_134 = ___worldVertices3;
+		int32_t L_135 = V_20;
+		float L_136 = V_23;
+		NullCheck(L_134);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_134, ((int32_t)((int32_t)L_135+(int32_t)1)));
+		(L_134)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_135+(int32_t)1))), (float)L_136);
+		int32_t L_137 = V_20;
+		V_20 = ((int32_t)((int32_t)L_137+(int32_t)2));
+	}
+
+IL_01f4:
+	{
+		int32_t L_138 = V_20;
+		int32_t L_139 = ___count2;
+		if ((((int32_t)L_138) < ((int32_t)L_139)))
+		{
+			goto IL_013e;
+		}
+	}
+	{
+		goto IL_02f0;
+	}
+
+IL_0201:
+	{
+		ExposedList_1_t1371884334 * L_140 = V_3;
+		NullCheck(L_140);
+		SingleU5BU5D_t2316563989* L_141 = L_140->get_Items_1();
+		V_29 = L_141;
+		int32_t L_142 = ___offset4;
+		V_30 = L_142;
+		int32_t L_143 = V_16;
+		V_31 = ((int32_t)((int32_t)L_143*(int32_t)3));
+		int32_t L_144 = V_16;
+		V_32 = ((int32_t)((int32_t)L_144<<(int32_t)1));
+		goto IL_02e8;
+	}
+
+IL_021e:
+	{
+		float L_145 = V_1;
+		V_33 = L_145;
+		float L_146 = V_2;
+		V_34 = L_146;
+		Int32U5BU5D_t3230847821* L_147 = V_5;
+		int32_t L_148 = V_15;
+		int32_t L_149 = L_148;
+		V_15 = ((int32_t)((int32_t)L_149+(int32_t)1));
+		NullCheck(L_147);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_147, L_149);
+		int32_t L_150 = L_149;
+		int32_t L_151 = (L_147)->GetAt(static_cast<il2cpp_array_size_t>(L_150));
+		V_35 = L_151;
+		int32_t L_152 = V_35;
+		int32_t L_153 = V_15;
+		V_35 = ((int32_t)((int32_t)L_152+(int32_t)L_153));
+		goto IL_02c9;
+	}
+
+IL_023c:
+	{
+		BoneU5BU5D_t1595507457* L_154 = V_19;
+		Int32U5BU5D_t3230847821* L_155 = V_5;
+		int32_t L_156 = V_15;
+		NullCheck(L_155);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_155, L_156);
+		int32_t L_157 = L_156;
+		int32_t L_158 = (L_155)->GetAt(static_cast<il2cpp_array_size_t>(L_157));
+		NullCheck(L_154);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_154, L_158);
+		int32_t L_159 = L_158;
+		Bone_t1650489600 * L_160 = (L_154)->GetAt(static_cast<il2cpp_array_size_t>(L_159));
+		V_36 = L_160;
+		SingleU5BU5D_t2316563989* L_161 = V_4;
+		int32_t L_162 = V_31;
+		NullCheck(L_161);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_161, L_162);
+		int32_t L_163 = L_162;
+		float L_164 = (L_161)->GetAt(static_cast<il2cpp_array_size_t>(L_163));
+		SingleU5BU5D_t2316563989* L_165 = V_29;
+		int32_t L_166 = V_32;
+		NullCheck(L_165);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_165, L_166);
+		int32_t L_167 = L_166;
+		float L_168 = (L_165)->GetAt(static_cast<il2cpp_array_size_t>(L_167));
+		V_37 = ((float)((float)L_164+(float)L_168));
+		SingleU5BU5D_t2316563989* L_169 = V_4;
+		int32_t L_170 = V_31;
+		NullCheck(L_169);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_169, ((int32_t)((int32_t)L_170+(int32_t)1)));
+		int32_t L_171 = ((int32_t)((int32_t)L_170+(int32_t)1));
+		float L_172 = (L_169)->GetAt(static_cast<il2cpp_array_size_t>(L_171));
+		SingleU5BU5D_t2316563989* L_173 = V_29;
+		int32_t L_174 = V_32;
+		NullCheck(L_173);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_173, ((int32_t)((int32_t)L_174+(int32_t)1)));
+		int32_t L_175 = ((int32_t)((int32_t)L_174+(int32_t)1));
+		float L_176 = (L_173)->GetAt(static_cast<il2cpp_array_size_t>(L_175));
+		V_38 = ((float)((float)L_172+(float)L_176));
+		SingleU5BU5D_t2316563989* L_177 = V_4;
+		int32_t L_178 = V_31;
+		NullCheck(L_177);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_177, ((int32_t)((int32_t)L_178+(int32_t)2)));
+		int32_t L_179 = ((int32_t)((int32_t)L_178+(int32_t)2));
+		float L_180 = (L_177)->GetAt(static_cast<il2cpp_array_size_t>(L_179));
+		V_39 = L_180;
+		float L_181 = V_33;
+		float L_182 = V_37;
+		Bone_t1650489600 * L_183 = V_36;
+		NullCheck(L_183);
+		float L_184 = L_183->get_a_13();
+		float L_185 = V_38;
+		Bone_t1650489600 * L_186 = V_36;
+		NullCheck(L_186);
+		float L_187 = L_186->get_b_14();
+		Bone_t1650489600 * L_188 = V_36;
+		NullCheck(L_188);
+		float L_189 = L_188->get_worldX_15();
+		float L_190 = V_39;
+		V_33 = ((float)((float)L_181+(float)((float)((float)((float)((float)((float)((float)((float)((float)L_182*(float)L_184))+(float)((float)((float)L_185*(float)L_187))))+(float)L_189))*(float)L_190))));
+		float L_191 = V_34;
+		float L_192 = V_37;
+		Bone_t1650489600 * L_193 = V_36;
+		NullCheck(L_193);
+		float L_194 = L_193->get_c_16();
+		float L_195 = V_38;
+		Bone_t1650489600 * L_196 = V_36;
+		NullCheck(L_196);
+		float L_197 = L_196->get_d_17();
+		Bone_t1650489600 * L_198 = V_36;
+		NullCheck(L_198);
+		float L_199 = L_198->get_worldY_18();
+		float L_200 = V_39;
+		V_34 = ((float)((float)L_191+(float)((float)((float)((float)((float)((float)((float)((float)((float)L_192*(float)L_194))+(float)((float)((float)L_195*(float)L_197))))+(float)L_199))*(float)L_200))));
+		int32_t L_201 = V_15;
+		V_15 = ((int32_t)((int32_t)L_201+(int32_t)1));
+		int32_t L_202 = V_31;
+		V_31 = ((int32_t)((int32_t)L_202+(int32_t)3));
+		int32_t L_203 = V_32;
+		V_32 = ((int32_t)((int32_t)L_203+(int32_t)2));
+	}
+
+IL_02c9:
+	{
+		int32_t L_204 = V_15;
+		int32_t L_205 = V_35;
+		if ((((int32_t)L_204) < ((int32_t)L_205)))
+		{
+			goto IL_023c;
+		}
+	}
+	{
+		SingleU5BU5D_t2316563989* L_206 = ___worldVertices3;
+		int32_t L_207 = V_30;
+		float L_208 = V_33;
+		NullCheck(L_206);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_206, L_207);
+		(L_206)->SetAt(static_cast<il2cpp_array_size_t>(L_207), (float)L_208);
+		SingleU5BU5D_t2316563989* L_209 = ___worldVertices3;
+		int32_t L_210 = V_30;
+		float L_211 = V_34;
+		NullCheck(L_209);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_209, ((int32_t)((int32_t)L_210+(int32_t)1)));
+		(L_209)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_210+(int32_t)1))), (float)L_211);
+		int32_t L_212 = V_30;
+		V_30 = ((int32_t)((int32_t)L_212+(int32_t)2));
+	}
+
+IL_02e8:
+	{
+		int32_t L_213 = V_30;
+		int32_t L_214 = ___count2;
+		if ((((int32_t)L_213) < ((int32_t)L_214)))
+		{
+			goto IL_021e;
+		}
+	}
+
+IL_02f0:
+	{
+		return;
+	}
+}
+// System.Boolean Spine.VertexAttachment::ApplyDeform(Spine.VertexAttachment)
+extern "C"  bool VertexAttachment_ApplyDeform_m713029172 (VertexAttachment_t2433703843 * __this, VertexAttachment_t2433703843 * ___sourceAttachment0, const MethodInfo* method)
+{
+	{
+		VertexAttachment_t2433703843 * L_0 = ___sourceAttachment0;
+		return (bool)((((Il2CppObject*)(VertexAttachment_t2433703843 *)__this) == ((Il2CppObject*)(VertexAttachment_t2433703843 *)L_0))? 1 : 0);
+	}
+}
+// System.Void SpineBeginnerTwo::.ctor()
+extern "C"  void SpineBeginnerTwo__ctor_m3311615012 (SpineBeginnerTwo_t517921879 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpineBeginnerTwo::Start()
+extern const MethodInfo* Component_GetComponent_TisSkeletonAnimation_t3721178561_m3586698566_MethodInfo_var;
+extern const uint32_t SpineBeginnerTwo_Start_m2258752804_MetadataUsageId;
+extern "C"  void SpineBeginnerTwo_Start_m2258752804 (SpineBeginnerTwo_t517921879 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineBeginnerTwo_Start_m2258752804_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SkeletonAnimation_t3721178561 * L_0 = Component_GetComponent_TisSkeletonAnimation_t3721178561_m3586698566(__this, /*hidden argument*/Component_GetComponent_TisSkeletonAnimation_t3721178561_m3586698566_MethodInfo_var);
+		__this->set_skeletonAnimation_6(L_0);
+		SkeletonAnimation_t3721178561 * L_1 = __this->get_skeletonAnimation_6();
+		NullCheck(L_1);
+		AnimationState_t964829161 * L_2 = L_1->get_state_34();
+		__this->set_spineAnimationState_7(L_2);
+		SkeletonAnimation_t3721178561 * L_3 = __this->get_skeletonAnimation_6();
+		NullCheck(L_3);
+		Skeleton_t2209335561 * L_4 = ((SkeletonRenderer_t3766155010 *)L_3)->get_skeleton_20();
+		__this->set_skeleton_8(L_4);
+		Il2CppObject * L_5 = SpineBeginnerTwo_DoDemoRoutine_m4048922960(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator SpineBeginnerTwo::DoDemoRoutine()
+extern Il2CppClass* U3CDoDemoRoutineU3Ec__Iterator1_t95077388_il2cpp_TypeInfo_var;
+extern const uint32_t SpineBeginnerTwo_DoDemoRoutine_m4048922960_MetadataUsageId;
+extern "C"  Il2CppObject * SpineBeginnerTwo_DoDemoRoutine_m4048922960 (SpineBeginnerTwo_t517921879 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineBeginnerTwo_DoDemoRoutine_m4048922960_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CDoDemoRoutineU3Ec__Iterator1_t95077388 * V_0 = NULL;
+	{
+		U3CDoDemoRoutineU3Ec__Iterator1_t95077388 * L_0 = (U3CDoDemoRoutineU3Ec__Iterator1_t95077388 *)il2cpp_codegen_object_new(U3CDoDemoRoutineU3Ec__Iterator1_t95077388_il2cpp_TypeInfo_var);
+		U3CDoDemoRoutineU3Ec__Iterator1__ctor_m1534893071(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CDoDemoRoutineU3Ec__Iterator1_t95077388 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U3CU3Ef__this_2(__this);
+		U3CDoDemoRoutineU3Ec__Iterator1_t95077388 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void SpineBeginnerTwo/<DoDemoRoutine>c__Iterator1::.ctor()
+extern "C"  void U3CDoDemoRoutineU3Ec__Iterator1__ctor_m1534893071 (U3CDoDemoRoutineU3Ec__Iterator1_t95077388 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object SpineBeginnerTwo/<DoDemoRoutine>c__Iterator1::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CDoDemoRoutineU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m644030893 (U3CDoDemoRoutineU3Ec__Iterator1_t95077388 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Object SpineBeginnerTwo/<DoDemoRoutine>c__Iterator1::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CDoDemoRoutineU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m845160257 (U3CDoDemoRoutineU3Ec__Iterator1_t95077388 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Boolean SpineBeginnerTwo/<DoDemoRoutine>c__Iterator1::MoveNext()
+extern Il2CppClass* WaitForSeconds_t1615819279_il2cpp_TypeInfo_var;
+extern const uint32_t U3CDoDemoRoutineU3Ec__Iterator1_MoveNext_m1208724845_MetadataUsageId;
+extern "C"  bool U3CDoDemoRoutineU3Ec__Iterator1_MoveNext_m1208724845 (U3CDoDemoRoutineU3Ec__Iterator1_t95077388 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CDoDemoRoutineU3Ec__Iterator1_MoveNext_m1208724845_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_0();
+		V_0 = L_0;
+		__this->set_U24PC_0((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0031;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_006b;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_00a5;
+		}
+		if (L_1 == 3)
+		{
+			goto IL_00df;
+		}
+		if (L_1 == 4)
+		{
+			goto IL_010c;
+		}
+		if (L_1 == 5)
+		{
+			goto IL_0139;
+		}
+	}
+	{
+		goto IL_0145;
+	}
+
+IL_0031:
+	{
+		SpineBeginnerTwo_t517921879 * L_2 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_2);
+		AnimationState_t964829161 * L_3 = L_2->get_spineAnimationState_7();
+		SpineBeginnerTwo_t517921879 * L_4 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_4);
+		String_t* L_5 = L_4->get_walkAnimationName_4();
+		NullCheck(L_3);
+		AnimationState_SetAnimation_m3671010114(L_3, 0, L_5, (bool)1, /*hidden argument*/NULL);
+		WaitForSeconds_t1615819279 * L_6 = (WaitForSeconds_t1615819279 *)il2cpp_codegen_object_new(WaitForSeconds_t1615819279_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_6, (1.5f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_6);
+		__this->set_U24PC_0(1);
+		goto IL_0147;
+	}
+
+IL_006b:
+	{
+		SpineBeginnerTwo_t517921879 * L_7 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_7);
+		AnimationState_t964829161 * L_8 = L_7->get_spineAnimationState_7();
+		SpineBeginnerTwo_t517921879 * L_9 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_9);
+		String_t* L_10 = L_9->get_runAnimationName_2();
+		NullCheck(L_8);
+		AnimationState_SetAnimation_m3671010114(L_8, 0, L_10, (bool)1, /*hidden argument*/NULL);
+		WaitForSeconds_t1615819279 * L_11 = (WaitForSeconds_t1615819279 *)il2cpp_codegen_object_new(WaitForSeconds_t1615819279_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_11, (1.5f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_11);
+		__this->set_U24PC_0(2);
+		goto IL_0147;
+	}
+
+IL_00a5:
+	{
+		SpineBeginnerTwo_t517921879 * L_12 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_12);
+		AnimationState_t964829161 * L_13 = L_12->get_spineAnimationState_7();
+		SpineBeginnerTwo_t517921879 * L_14 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_14);
+		String_t* L_15 = L_14->get_idleAnimationName_3();
+		NullCheck(L_13);
+		AnimationState_SetAnimation_m3671010114(L_13, 0, L_15, (bool)1, /*hidden argument*/NULL);
+		WaitForSeconds_t1615819279 * L_16 = (WaitForSeconds_t1615819279 *)il2cpp_codegen_object_new(WaitForSeconds_t1615819279_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_16, (1.0f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_16);
+		__this->set_U24PC_0(3);
+		goto IL_0147;
+	}
+
+IL_00df:
+	{
+		SpineBeginnerTwo_t517921879 * L_17 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_17);
+		Skeleton_t2209335561 * L_18 = L_17->get_skeleton_8();
+		NullCheck(L_18);
+		Skeleton_set_FlipX_m460711462(L_18, (bool)1, /*hidden argument*/NULL);
+		WaitForSeconds_t1615819279 * L_19 = (WaitForSeconds_t1615819279 *)il2cpp_codegen_object_new(WaitForSeconds_t1615819279_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_19, (0.5f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_19);
+		__this->set_U24PC_0(4);
+		goto IL_0147;
+	}
+
+IL_010c:
+	{
+		SpineBeginnerTwo_t517921879 * L_20 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_20);
+		Skeleton_t2209335561 * L_21 = L_20->get_skeleton_8();
+		NullCheck(L_21);
+		Skeleton_set_FlipX_m460711462(L_21, (bool)0, /*hidden argument*/NULL);
+		WaitForSeconds_t1615819279 * L_22 = (WaitForSeconds_t1615819279 *)il2cpp_codegen_object_new(WaitForSeconds_t1615819279_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_22, (0.5f), /*hidden argument*/NULL);
+		__this->set_U24current_1(L_22);
+		__this->set_U24PC_0(5);
+		goto IL_0147;
+	}
+
+IL_0139:
+	{
+		goto IL_0031;
+	}
+	// Dead block : IL_013e: ldarg.0
+
+IL_0145:
+	{
+		return (bool)0;
+	}
+
+IL_0147:
+	{
+		return (bool)1;
+	}
+}
+// System.Void SpineBeginnerTwo/<DoDemoRoutine>c__Iterator1::Dispose()
+extern "C"  void U3CDoDemoRoutineU3Ec__Iterator1_Dispose_m1756741772 (U3CDoDemoRoutineU3Ec__Iterator1_t95077388 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_0((-1));
+		return;
+	}
+}
+// System.Void SpineBeginnerTwo/<DoDemoRoutine>c__Iterator1::Reset()
+extern Il2CppClass* NotSupportedException_t1732551818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CDoDemoRoutineU3Ec__Iterator1_Reset_m3476293308_MetadataUsageId;
+extern "C"  void U3CDoDemoRoutineU3Ec__Iterator1_Reset_m3476293308 (U3CDoDemoRoutineU3Ec__Iterator1_t95077388 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CDoDemoRoutineU3Ec__Iterator1_Reset_m3476293308_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1732551818 * L_0 = (NotSupportedException_t1732551818 *)il2cpp_codegen_object_new(NotSupportedException_t1732551818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void SpineBlinkPlayer::.ctor()
+extern "C"  void SpineBlinkPlayer__ctor_m753316545 (SpineBlinkPlayer_t726077722 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_minimumDelay_4((0.15f));
+		__this->set_maximumDelay_5((3.0f));
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator SpineBlinkPlayer::Start()
+extern Il2CppClass* U3CStartU3Ec__Iterator2_t2936432708_il2cpp_TypeInfo_var;
+extern const uint32_t SpineBlinkPlayer_Start_m3248615033_MetadataUsageId;
+extern "C"  Il2CppObject * SpineBlinkPlayer_Start_m3248615033 (SpineBlinkPlayer_t726077722 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineBlinkPlayer_Start_m3248615033_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CStartU3Ec__Iterator2_t2936432708 * V_0 = NULL;
+	{
+		U3CStartU3Ec__Iterator2_t2936432708 * L_0 = (U3CStartU3Ec__Iterator2_t2936432708 *)il2cpp_codegen_object_new(U3CStartU3Ec__Iterator2_t2936432708_il2cpp_TypeInfo_var);
+		U3CStartU3Ec__Iterator2__ctor_m1986121431(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CStartU3Ec__Iterator2_t2936432708 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U3CU3Ef__this_3(__this);
+		U3CStartU3Ec__Iterator2_t2936432708 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void SpineBlinkPlayer/<Start>c__Iterator2::.ctor()
+extern "C"  void U3CStartU3Ec__Iterator2__ctor_m1986121431 (U3CStartU3Ec__Iterator2_t2936432708 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object SpineBlinkPlayer/<Start>c__Iterator2::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CStartU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2344902885 (U3CStartU3Ec__Iterator2_t2936432708 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_2();
+		return L_0;
+	}
+}
+// System.Object SpineBlinkPlayer/<Start>c__Iterator2::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CStartU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m2144783993 (U3CStartU3Ec__Iterator2_t2936432708 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_2();
+		return L_0;
+	}
+}
+// System.Boolean SpineBlinkPlayer/<Start>c__Iterator2::MoveNext()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* WaitForSeconds_t1615819279_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisSkeletonAnimation_t3721178561_m3586698566_MethodInfo_var;
+extern const uint32_t U3CStartU3Ec__Iterator2_MoveNext_m3969128869_MetadataUsageId;
+extern "C"  bool U3CStartU3Ec__Iterator2_MoveNext_m3969128869 (U3CStartU3Ec__Iterator2_t2936432708 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStartU3Ec__Iterator2_MoveNext_m3969128869_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_1();
+		V_0 = L_0;
+		__this->set_U24PC_1((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		goto IL_00a4;
+	}
+
+IL_0021:
+	{
+		SpineBlinkPlayer_t726077722 * L_2 = __this->get_U3CU3Ef__this_3();
+		NullCheck(L_2);
+		SkeletonAnimation_t3721178561 * L_3 = Component_GetComponent_TisSkeletonAnimation_t3721178561_m3586698566(L_2, /*hidden argument*/Component_GetComponent_TisSkeletonAnimation_t3721178561_m3586698566_MethodInfo_var);
+		__this->set_U3CskeletonAnimationU3E__0_0(L_3);
+		SkeletonAnimation_t3721178561 * L_4 = __this->get_U3CskeletonAnimationU3E__0_0();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_4, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		goto IL_00a4;
+	}
+
+IL_0048:
+	{
+		SkeletonAnimation_t3721178561 * L_6 = __this->get_U3CskeletonAnimationU3E__0_0();
+		NullCheck(L_6);
+		AnimationState_t964829161 * L_7 = L_6->get_state_34();
+		SpineBlinkPlayer_t726077722 * L_8 = __this->get_U3CU3Ef__this_3();
+		NullCheck(L_8);
+		String_t* L_9 = L_8->get_blinkAnimation_3();
+		NullCheck(L_7);
+		AnimationState_SetAnimation_m3671010114(L_7, 1, L_9, (bool)0, /*hidden argument*/NULL);
+		SpineBlinkPlayer_t726077722 * L_10 = __this->get_U3CU3Ef__this_3();
+		NullCheck(L_10);
+		float L_11 = L_10->get_minimumDelay_4();
+		SpineBlinkPlayer_t726077722 * L_12 = __this->get_U3CU3Ef__this_3();
+		NullCheck(L_12);
+		float L_13 = L_12->get_maximumDelay_5();
+		float L_14 = Random_Range_m3362417303(NULL /*static, unused*/, L_11, L_13, /*hidden argument*/NULL);
+		WaitForSeconds_t1615819279 * L_15 = (WaitForSeconds_t1615819279 *)il2cpp_codegen_object_new(WaitForSeconds_t1615819279_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_15, L_14, /*hidden argument*/NULL);
+		__this->set_U24current_2(L_15);
+		__this->set_U24PC_1(1);
+		goto IL_00a6;
+	}
+
+IL_0098:
+	{
+		goto IL_0048;
+	}
+	// Dead block : IL_009d: ldarg.0
+
+IL_00a4:
+	{
+		return (bool)0;
+	}
+
+IL_00a6:
+	{
+		return (bool)1;
+	}
+}
+// System.Void SpineBlinkPlayer/<Start>c__Iterator2::Dispose()
+extern "C"  void U3CStartU3Ec__Iterator2_Dispose_m1595498836 (U3CStartU3Ec__Iterator2_t2936432708 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_1((-1));
+		return;
+	}
+}
+// System.Void SpineBlinkPlayer/<Start>c__Iterator2::Reset()
+extern Il2CppClass* NotSupportedException_t1732551818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CStartU3Ec__Iterator2_Reset_m3927521668_MetadataUsageId;
+extern "C"  void U3CStartU3Ec__Iterator2_Reset_m3927521668 (U3CStartU3Ec__Iterator2_t2936432708 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStartU3Ec__Iterator2_Reset_m3927521668_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1732551818 * L_0 = (NotSupportedException_t1732551818 *)il2cpp_codegen_object_new(NotSupportedException_t1732551818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void Spineboy::.ctor()
+extern "C"  void Spineboy__ctor_m3645037074 (Spineboy_t2351289001 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spineboy::Start()
+extern Il2CppClass* EventDelegate_t3743540456_il2cpp_TypeInfo_var;
+extern Il2CppClass* Spineboy_t2351289001_il2cpp_TypeInfo_var;
+extern Il2CppClass* StartEndDelegate_t3416038005_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisSkeletonAnimation_t3721178561_m3586698566_MethodInfo_var;
+extern const MethodInfo* Spineboy_Event_m3886991330_MethodInfo_var;
+extern const MethodInfo* Spineboy_U3CStartU3Em__0_m102165700_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3273774;
+extern Il2CppCodeGenString* _stringLiteral113291;
+extern const uint32_t Spineboy_Start_m2592174866_MetadataUsageId;
+extern "C"  void Spineboy_Start_m2592174866 (Spineboy_t2351289001 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Spineboy_Start_m2592174866_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	AnimationState_t964829161 * G_B2_0 = NULL;
+	AnimationState_t964829161 * G_B1_0 = NULL;
+	{
+		SkeletonAnimation_t3721178561 * L_0 = Component_GetComponent_TisSkeletonAnimation_t3721178561_m3586698566(__this, /*hidden argument*/Component_GetComponent_TisSkeletonAnimation_t3721178561_m3586698566_MethodInfo_var);
+		__this->set_skeletonAnimation_2(L_0);
+		SkeletonAnimation_t3721178561 * L_1 = __this->get_skeletonAnimation_2();
+		NullCheck(L_1);
+		AnimationState_t964829161 * L_2 = L_1->get_state_34();
+		IntPtr_t L_3;
+		L_3.set_m_value_0((void*)(void*)Spineboy_Event_m3886991330_MethodInfo_var);
+		EventDelegate_t3743540456 * L_4 = (EventDelegate_t3743540456 *)il2cpp_codegen_object_new(EventDelegate_t3743540456_il2cpp_TypeInfo_var);
+		EventDelegate__ctor_m2728612751(L_4, __this, L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		AnimationState_add_Event_m3939231669(L_2, L_4, /*hidden argument*/NULL);
+		SkeletonAnimation_t3721178561 * L_5 = __this->get_skeletonAnimation_2();
+		NullCheck(L_5);
+		AnimationState_t964829161 * L_6 = L_5->get_state_34();
+		StartEndDelegate_t3416038005 * L_7 = ((Spineboy_t2351289001_StaticFields*)Spineboy_t2351289001_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_3();
+		G_B1_0 = L_6;
+		if (L_7)
+		{
+			G_B2_0 = L_6;
+			goto IL_004b;
+		}
+	}
+	{
+		IntPtr_t L_8;
+		L_8.set_m_value_0((void*)(void*)Spineboy_U3CStartU3Em__0_m102165700_MethodInfo_var);
+		StartEndDelegate_t3416038005 * L_9 = (StartEndDelegate_t3416038005 *)il2cpp_codegen_object_new(StartEndDelegate_t3416038005_il2cpp_TypeInfo_var);
+		StartEndDelegate__ctor_m1224780748(L_9, NULL, L_8, /*hidden argument*/NULL);
+		((Spineboy_t2351289001_StaticFields*)Spineboy_t2351289001_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache1_3(L_9);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_004b:
+	{
+		StartEndDelegate_t3416038005 * L_10 = ((Spineboy_t2351289001_StaticFields*)Spineboy_t2351289001_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_3();
+		NullCheck(G_B2_0);
+		AnimationState_add_End_m2590018175(G_B2_0, L_10, /*hidden argument*/NULL);
+		SkeletonAnimation_t3721178561 * L_11 = __this->get_skeletonAnimation_2();
+		NullCheck(L_11);
+		AnimationState_t964829161 * L_12 = L_11->get_state_34();
+		NullCheck(L_12);
+		AnimationState_AddAnimation_m4147252006(L_12, 0, _stringLiteral3273774, (bool)0, (2.0f), /*hidden argument*/NULL);
+		SkeletonAnimation_t3721178561 * L_13 = __this->get_skeletonAnimation_2();
+		NullCheck(L_13);
+		AnimationState_t964829161 * L_14 = L_13->get_state_34();
+		NullCheck(L_14);
+		AnimationState_AddAnimation_m4147252006(L_14, 0, _stringLiteral113291, (bool)1, (0.0f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spineboy::Event(Spine.AnimationState,System.Int32,Spine.Event)
+extern Il2CppClass* ObjectU5BU5D_t1108656482_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t1153838500_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral32;
+extern Il2CppCodeGenString* _stringLiteral3637736300;
+extern Il2CppCodeGenString* _stringLiteral1396;
+extern const uint32_t Spineboy_Event_m3886991330_MetadataUsageId;
+extern "C"  void Spineboy_Event_m3886991330 (Spineboy_t2351289001 * __this, AnimationState_t964829161 * ___state0, int32_t ___trackIndex1, Event_t365432928 * ___e2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Spineboy_Event_m3886991330_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		ObjectU5BU5D_t1108656482* L_0 = ((ObjectU5BU5D_t1108656482*)SZArrayNew(ObjectU5BU5D_t1108656482_il2cpp_TypeInfo_var, (uint32_t)7));
+		int32_t L_1 = ___trackIndex1;
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t1153838500_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		ObjectU5BU5D_t1108656482* L_4 = L_0;
+		NullCheck(L_4);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 1);
+		ArrayElementTypeCheck (L_4, _stringLiteral32);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)_stringLiteral32);
+		ObjectU5BU5D_t1108656482* L_5 = L_4;
+		AnimationState_t964829161 * L_6 = ___state0;
+		int32_t L_7 = ___trackIndex1;
+		NullCheck(L_6);
+		TrackEntry_t1654022115 * L_8 = AnimationState_GetCurrent_m1811721696(L_6, L_7, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 2);
+		ArrayElementTypeCheck (L_5, L_8);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)L_8);
+		ObjectU5BU5D_t1108656482* L_9 = L_5;
+		NullCheck(L_9);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_9, 3);
+		ArrayElementTypeCheck (L_9, _stringLiteral3637736300);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)_stringLiteral3637736300);
+		ObjectU5BU5D_t1108656482* L_10 = L_9;
+		Event_t365432928 * L_11 = ___e2;
+		NullCheck(L_10);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 4);
+		ArrayElementTypeCheck (L_10, L_11);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(4), (Il2CppObject *)L_11);
+		ObjectU5BU5D_t1108656482* L_12 = L_10;
+		NullCheck(L_12);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, 5);
+		ArrayElementTypeCheck (L_12, _stringLiteral1396);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(5), (Il2CppObject *)_stringLiteral1396);
+		ObjectU5BU5D_t1108656482* L_13 = L_12;
+		Event_t365432928 * L_14 = ___e2;
+		NullCheck(L_14);
+		int32_t L_15 = Event_get_Int_m2521891758(L_14, /*hidden argument*/NULL);
+		int32_t L_16 = L_15;
+		Il2CppObject * L_17 = Box(Int32_t1153838500_il2cpp_TypeInfo_var, &L_16);
+		NullCheck(L_13);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, 6);
+		ArrayElementTypeCheck (L_13, L_17);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(6), (Il2CppObject *)L_17);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_18 = String_Concat_m3016520001(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spineboy::OnMouseDown()
+extern Il2CppCodeGenString* _stringLiteral3273774;
+extern Il2CppCodeGenString* _stringLiteral113291;
+extern const uint32_t Spineboy_OnMouseDown_m2536441272_MetadataUsageId;
+extern "C"  void Spineboy_OnMouseDown_m2536441272 (Spineboy_t2351289001 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Spineboy_OnMouseDown_m2536441272_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SkeletonAnimation_t3721178561 * L_0 = __this->get_skeletonAnimation_2();
+		NullCheck(L_0);
+		AnimationState_t964829161 * L_1 = L_0->get_state_34();
+		NullCheck(L_1);
+		AnimationState_SetAnimation_m3671010114(L_1, 0, _stringLiteral3273774, (bool)0, /*hidden argument*/NULL);
+		SkeletonAnimation_t3721178561 * L_2 = __this->get_skeletonAnimation_2();
+		NullCheck(L_2);
+		AnimationState_t964829161 * L_3 = L_2->get_state_34();
+		NullCheck(L_3);
+		AnimationState_AddAnimation_m4147252006(L_3, 0, _stringLiteral113291, (bool)1, (0.0f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spineboy::<Start>m__0(Spine.AnimationState,System.Int32)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2397780744;
+extern const uint32_t Spineboy_U3CStartU3Em__0_m102165700_MetadataUsageId;
+extern "C"  void Spineboy_U3CStartU3Em__0_m102165700 (Il2CppObject * __this /* static, unused */, AnimationState_t964829161 * ___state0, int32_t ___trackIndex1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Spineboy_U3CStartU3Em__0_m102165700_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AnimationState_t964829161 * L_0 = ___state0;
+		int32_t L_1 = ___trackIndex1;
+		NullCheck(L_0);
+		TrackEntry_t1654022115 * L_2 = AnimationState_GetCurrent_m1811721696(L_0, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = String_Concat_m389863537(NULL /*static, unused*/, _stringLiteral2397780744, L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpineboyBeginnerInput::.ctor()
+extern Il2CppCodeGenString* _stringLiteral3381094468;
+extern Il2CppCodeGenString* _stringLiteral67887259;
+extern Il2CppCodeGenString* _stringLiteral2320462;
+extern const uint32_t SpineboyBeginnerInput__ctor_m4128425948_MetadataUsageId;
+extern "C"  void SpineboyBeginnerInput__ctor_m4128425948 (SpineboyBeginnerInput_t3247046255 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineboyBeginnerInput__ctor_m4128425948_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		__this->set_horizontalAxis_2(_stringLiteral3381094468);
+		__this->set_attackButton_3(_stringLiteral67887259);
+		__this->set_jumpButton_4(_stringLiteral2320462);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpineboyBeginnerInput::OnValidate()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisSpineboyBeginnerModel_t3250758094_m33706539_MethodInfo_var;
+extern const uint32_t SpineboyBeginnerInput_OnValidate_m566590333_MetadataUsageId;
+extern "C"  void SpineboyBeginnerInput_OnValidate_m566590333 (SpineboyBeginnerInput_t3247046255 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineboyBeginnerInput_OnValidate_m566590333_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SpineboyBeginnerModel_t3250758094 * L_0 = __this->get_model_5();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		SpineboyBeginnerModel_t3250758094 * L_2 = Component_GetComponent_TisSpineboyBeginnerModel_t3250758094_m33706539(__this, /*hidden argument*/Component_GetComponent_TisSpineboyBeginnerModel_t3250758094_m33706539_MethodInfo_var);
+		__this->set_model_5(L_2);
+	}
+
+IL_001d:
+	{
+		return;
+	}
+}
+// System.Void SpineboyBeginnerInput::Update()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* Input_t4200062272_il2cpp_TypeInfo_var;
+extern const uint32_t SpineboyBeginnerInput_Update_m859047601_MetadataUsageId;
+extern "C"  void SpineboyBeginnerInput_Update_m859047601 (SpineboyBeginnerInput_t3247046255 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineboyBeginnerInput_Update_m859047601_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		SpineboyBeginnerModel_t3250758094 * L_0 = __this->get_model_5();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		String_t* L_2 = __this->get_horizontalAxis_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t4200062272_il2cpp_TypeInfo_var);
+		float L_3 = Input_GetAxisRaw_m1900207208(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		SpineboyBeginnerModel_t3250758094 * L_4 = __this->get_model_5();
+		float L_5 = V_0;
+		NullCheck(L_4);
+		SpineboyBeginnerModel_TryMove_m3497159140(L_4, L_5, /*hidden argument*/NULL);
+		String_t* L_6 = __this->get_attackButton_3();
+		bool L_7 = Input_GetButton_m4226175975(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		SpineboyBeginnerModel_t3250758094 * L_8 = __this->get_model_5();
+		NullCheck(L_8);
+		SpineboyBeginnerModel_TryShoot_m1402843499(L_8, /*hidden argument*/NULL);
+	}
+
+IL_0045:
+	{
+		String_t* L_9 = __this->get_jumpButton_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t4200062272_il2cpp_TypeInfo_var);
+		bool L_10 = Input_GetButtonDown_m1879002085(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		SpineboyBeginnerModel_t3250758094 * L_11 = __this->get_model_5();
+		NullCheck(L_11);
+		SpineboyBeginnerModel_TryJump_m3263218756(L_11, /*hidden argument*/NULL);
+	}
+
+IL_0060:
+	{
+		return;
+	}
+}
+// System.Void SpineboyBeginnerModel::.ctor()
+extern "C"  void SpineboyBeginnerModel__ctor_m522354525 (SpineboyBeginnerModel_t3250758094 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_shootInterval_5((0.12f));
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpineboyBeginnerModel::add_ShootEvent(System.Action)
+extern Il2CppClass* Action_t3771233898_il2cpp_TypeInfo_var;
+extern const uint32_t SpineboyBeginnerModel_add_ShootEvent_m1930286301_MetadataUsageId;
+extern "C"  void SpineboyBeginnerModel_add_ShootEvent_m1930286301 (SpineboyBeginnerModel_t3250758094 * __this, Action_t3771233898 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineboyBeginnerModel_add_ShootEvent_m1930286301_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Action_t3771233898 * L_0 = __this->get_ShootEvent_7();
+		Action_t3771233898 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_ShootEvent_7(((Action_t3771233898 *)CastclassSealed(L_2, Action_t3771233898_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void SpineboyBeginnerModel::remove_ShootEvent(System.Action)
+extern Il2CppClass* Action_t3771233898_il2cpp_TypeInfo_var;
+extern const uint32_t SpineboyBeginnerModel_remove_ShootEvent_m3114324108_MetadataUsageId;
+extern "C"  void SpineboyBeginnerModel_remove_ShootEvent_m3114324108 (SpineboyBeginnerModel_t3250758094 * __this, Action_t3771233898 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineboyBeginnerModel_remove_ShootEvent_m3114324108_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Action_t3771233898 * L_0 = __this->get_ShootEvent_7();
+		Action_t3771233898 * L_1 = ___value0;
+		Delegate_t3310234105 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_ShootEvent_7(((Action_t3771233898 *)CastclassSealed(L_2, Action_t3771233898_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void SpineboyBeginnerModel::TryJump()
+extern "C"  void SpineboyBeginnerModel_TryJump_m3263218756 (SpineboyBeginnerModel_t3250758094 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = SpineboyBeginnerModel_JumpRoutine_m3490388601(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpineboyBeginnerModel::TryShoot()
+extern "C"  void SpineboyBeginnerModel_TryShoot_m1402843499 (SpineboyBeginnerModel_t3250758094 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		float L_1 = V_0;
+		float L_2 = __this->get_lastShootTime_6();
+		float L_3 = __this->get_shootInterval_5();
+		if ((!(((float)((float)((float)L_1-(float)L_2))) > ((float)L_3))))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		float L_4 = V_0;
+		__this->set_lastShootTime_6(L_4);
+		Action_t3771233898 * L_5 = __this->get_ShootEvent_7();
+		if (!L_5)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		Action_t3771233898 * L_6 = __this->get_ShootEvent_7();
+		NullCheck(L_6);
+		Action_Invoke_m1445970038(L_6, /*hidden argument*/NULL);
+	}
+
+IL_0036:
+	{
+		return;
+	}
+}
+// System.Void SpineboyBeginnerModel::TryMove(System.Single)
+extern "C"  void SpineboyBeginnerModel_TryMove_m3497159140 (SpineboyBeginnerModel_t3250758094 * __this, float ___speed0, const MethodInfo* method)
+{
+	bool V_0 = false;
+	SpineboyBeginnerModel_t3250758094 * G_B5_0 = NULL;
+	SpineboyBeginnerModel_t3250758094 * G_B4_0 = NULL;
+	int32_t G_B6_0 = 0;
+	SpineboyBeginnerModel_t3250758094 * G_B6_1 = NULL;
+	{
+		float L_0 = ___speed0;
+		__this->set_currentSpeed_4(L_0);
+		float L_1 = ___speed0;
+		if ((((float)L_1) == ((float)(0.0f))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		float L_2 = ___speed0;
+		V_0 = (bool)((((float)L_2) < ((float)(0.0f)))? 1 : 0);
+		bool L_3 = V_0;
+		__this->set_facingLeft_3(L_3);
+	}
+
+IL_0022:
+	{
+		int32_t L_4 = __this->get_state_2();
+		if ((((int32_t)L_4) == ((int32_t)2)))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		float L_5 = ___speed0;
+		G_B4_0 = __this;
+		if ((!(((float)L_5) == ((float)(0.0f)))))
+		{
+			G_B5_0 = __this;
+			goto IL_0040;
+		}
+	}
+	{
+		G_B6_0 = 0;
+		G_B6_1 = G_B4_0;
+		goto IL_0041;
+	}
+
+IL_0040:
+	{
+		G_B6_0 = 1;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_0041:
+	{
+		NullCheck(G_B6_1);
+		G_B6_1->set_state_2(G_B6_0);
+	}
+
+IL_0046:
+	{
+		return;
+	}
+}
+// System.Collections.IEnumerator SpineboyBeginnerModel::JumpRoutine()
+extern Il2CppClass* U3CJumpRoutineU3Ec__Iterator3_t3510013669_il2cpp_TypeInfo_var;
+extern const uint32_t SpineboyBeginnerModel_JumpRoutine_m3490388601_MetadataUsageId;
+extern "C"  Il2CppObject * SpineboyBeginnerModel_JumpRoutine_m3490388601 (SpineboyBeginnerModel_t3250758094 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineboyBeginnerModel_JumpRoutine_m3490388601_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	U3CJumpRoutineU3Ec__Iterator3_t3510013669 * V_3 = NULL;
+	{
+		U3CJumpRoutineU3Ec__Iterator3_t3510013669 * L_0 = (U3CJumpRoutineU3Ec__Iterator3_t3510013669 *)il2cpp_codegen_object_new(U3CJumpRoutineU3Ec__Iterator3_t3510013669_il2cpp_TypeInfo_var);
+		U3CJumpRoutineU3Ec__Iterator3__ctor_m1462602278(L_0, /*hidden argument*/NULL);
+		V_3 = L_0;
+		U3CJumpRoutineU3Ec__Iterator3_t3510013669 * L_1 = V_3;
+		NullCheck(L_1);
+		L_1->set_U3CU3Ef__this_7(__this);
+		U3CJumpRoutineU3Ec__Iterator3_t3510013669 * L_2 = V_3;
+		return L_2;
+	}
+}
+// System.Void SpineboyBeginnerModel/<JumpRoutine>c__Iterator3::.ctor()
+extern "C"  void U3CJumpRoutineU3Ec__Iterator3__ctor_m1462602278 (U3CJumpRoutineU3Ec__Iterator3_t3510013669 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object SpineboyBeginnerModel/<JumpRoutine>c__Iterator3::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CJumpRoutineU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m259473132 (U3CJumpRoutineU3Ec__Iterator3_t3510013669 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_6();
+		return L_0;
+	}
+}
+// System.Object SpineboyBeginnerModel/<JumpRoutine>c__Iterator3::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CJumpRoutineU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m1543281280 (U3CJumpRoutineU3Ec__Iterator3_t3510013669 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_6();
+		return L_0;
+	}
+}
+// System.Boolean SpineboyBeginnerModel/<JumpRoutine>c__Iterator3::MoveNext()
+extern "C"  bool U3CJumpRoutineU3Ec__Iterator3_MoveNext_m4242309646 (U3CJumpRoutineU3Ec__Iterator3_t3510013669 * __this, const MethodInfo* method)
+{
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->get_U24PC_5();
+		V_0 = L_0;
+		__this->set_U24PC_5((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0025;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_00be;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_013b;
+		}
+	}
+	{
+		goto IL_0186;
+	}
+
+IL_0025:
+	{
+		SpineboyBeginnerModel_t3250758094 * L_2 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_2);
+		int32_t L_3 = L_2->get_state_2();
+		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		goto IL_0186;
+	}
+
+IL_003b:
+	{
+		SpineboyBeginnerModel_t3250758094 * L_4 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_4);
+		L_4->set_state_2(2);
+		SpineboyBeginnerModel_t3250758094 * L_5 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_5);
+		Transform_t1659122786 * L_6 = Component_get_transform_m4257140443(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Vector3_t4282066566  L_7 = Transform_get_localPosition_m668140784(L_6, /*hidden argument*/NULL);
+		__this->set_U3CposU3E__0_0(L_7);
+		__this->set_U3CtU3E__1_1((0.0f));
+		goto IL_00d0;
+	}
+
+IL_006d:
+	{
+		float L_8 = __this->get_U3CtU3E__1_1();
+		__this->set_U3CdU3E__2_2(((float)((float)(20.0f)*(float)((float)((float)(0.6f)-(float)L_8)))));
+		SpineboyBeginnerModel_t3250758094 * L_9 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_9);
+		Transform_t1659122786 * L_10 = Component_get_transform_m4257140443(L_9, /*hidden argument*/NULL);
+		float L_11 = __this->get_U3CdU3E__2_2();
+		float L_12 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_13 = Vector3_get_up_m4046647141(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_14 = Vector3_op_Multiply_m3809076219(NULL /*static, unused*/, ((float)((float)L_11*(float)L_12)), L_13, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Transform_Translate_m2849099360(L_10, L_14, /*hidden argument*/NULL);
+		__this->set_U24current_6(NULL);
+		__this->set_U24PC_5(1);
+		goto IL_0188;
+	}
+
+IL_00be:
+	{
+		float L_15 = __this->get_U3CtU3E__1_1();
+		float L_16 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_U3CtU3E__1_1(((float)((float)L_15+(float)L_16)));
+	}
+
+IL_00d0:
+	{
+		float L_17 = __this->get_U3CtU3E__1_1();
+		if ((((float)L_17) < ((float)(0.6f))))
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		__this->set_U3CtU3E__3_3((0.0f));
+		goto IL_014d;
+	}
+
+IL_00f0:
+	{
+		float L_18 = __this->get_U3CtU3E__3_3();
+		__this->set_U3CdU3E__4_4(((float)((float)(20.0f)*(float)L_18)));
+		SpineboyBeginnerModel_t3250758094 * L_19 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_19);
+		Transform_t1659122786 * L_20 = Component_get_transform_m4257140443(L_19, /*hidden argument*/NULL);
+		float L_21 = __this->get_U3CdU3E__4_4();
+		float L_22 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_23 = Vector3_get_down_m1397301612(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_24 = Vector3_op_Multiply_m3809076219(NULL /*static, unused*/, ((float)((float)L_21*(float)L_22)), L_23, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		Transform_Translate_m2849099360(L_20, L_24, /*hidden argument*/NULL);
+		__this->set_U24current_6(NULL);
+		__this->set_U24PC_5(2);
+		goto IL_0188;
+	}
+
+IL_013b:
+	{
+		float L_25 = __this->get_U3CtU3E__3_3();
+		float L_26 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_U3CtU3E__3_3(((float)((float)L_25+(float)L_26)));
+	}
+
+IL_014d:
+	{
+		float L_27 = __this->get_U3CtU3E__3_3();
+		if ((((float)L_27) < ((float)(0.6f))))
+		{
+			goto IL_00f0;
+		}
+	}
+	{
+		SpineboyBeginnerModel_t3250758094 * L_28 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_28);
+		Transform_t1659122786 * L_29 = Component_get_transform_m4257140443(L_28, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_30 = __this->get_U3CposU3E__0_0();
+		NullCheck(L_29);
+		Transform_set_localPosition_m3504330903(L_29, L_30, /*hidden argument*/NULL);
+		SpineboyBeginnerModel_t3250758094 * L_31 = __this->get_U3CU3Ef__this_7();
+		NullCheck(L_31);
+		L_31->set_state_2(0);
+		__this->set_U24PC_5((-1));
+	}
+
+IL_0186:
+	{
+		return (bool)0;
+	}
+
+IL_0188:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_018a: ldloc.1
+}
+// System.Void SpineboyBeginnerModel/<JumpRoutine>c__Iterator3::Dispose()
+extern "C"  void U3CJumpRoutineU3Ec__Iterator3_Dispose_m1004766435 (U3CJumpRoutineU3Ec__Iterator3_t3510013669 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_5((-1));
+		return;
+	}
+}
+// System.Void SpineboyBeginnerModel/<JumpRoutine>c__Iterator3::Reset()
+extern Il2CppClass* NotSupportedException_t1732551818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CJumpRoutineU3Ec__Iterator3_Reset_m3404002515_MetadataUsageId;
+extern "C"  void U3CJumpRoutineU3Ec__Iterator3_Reset_m3404002515 (U3CJumpRoutineU3Ec__Iterator3_t3510013669 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CJumpRoutineU3Ec__Iterator3_Reset_m3404002515_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1732551818 * L_0 = (NotSupportedException_t1732551818 *)il2cpp_codegen_object_new(NotSupportedException_t1732551818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void SpineboyBeginnerView::.ctor()
+extern "C"  void SpineboyBeginnerView__ctor_m3110894395 (SpineboyBeginnerView_t1352051552 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_footstepPitchOffset_9((0.2f));
+		__this->set_gunsoundPitchOffset_10((0.13f));
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpineboyBeginnerView::Start()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3771233898_il2cpp_TypeInfo_var;
+extern Il2CppClass* EventDelegate_t3743540456_il2cpp_TypeInfo_var;
+extern const MethodInfo* SpineboyBeginnerView_PlayShoot_m1611020004_MethodInfo_var;
+extern const MethodInfo* SpineboyBeginnerView_HandleEvent_m2369844641_MethodInfo_var;
+extern const uint32_t SpineboyBeginnerView_Start_m2058032187_MetadataUsageId;
+extern "C"  void SpineboyBeginnerView_Start_m2058032187 (SpineboyBeginnerView_t1352051552 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineboyBeginnerView_Start_m2058032187_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SkeletonAnimation_t3721178561 * L_0 = __this->get_skeletonAnimation_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		SpineboyBeginnerModel_t3250758094 * L_2 = __this->get_model_2();
+		IntPtr_t L_3;
+		L_3.set_m_value_0((void*)(void*)SpineboyBeginnerView_PlayShoot_m1611020004_MethodInfo_var);
+		Action_t3771233898 * L_4 = (Action_t3771233898 *)il2cpp_codegen_object_new(Action_t3771233898_il2cpp_TypeInfo_var);
+		Action__ctor_m2957240604(L_4, __this, L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		SpineboyBeginnerModel_add_ShootEvent_m1930286301(L_2, L_4, /*hidden argument*/NULL);
+		SkeletonAnimation_t3721178561 * L_5 = __this->get_skeletonAnimation_3();
+		NullCheck(L_5);
+		AnimationState_t964829161 * L_6 = L_5->get_state_34();
+		IntPtr_t L_7;
+		L_7.set_m_value_0((void*)(void*)SpineboyBeginnerView_HandleEvent_m2369844641_MethodInfo_var);
+		EventDelegate_t3743540456 * L_8 = (EventDelegate_t3743540456 *)il2cpp_codegen_object_new(EventDelegate_t3743540456_il2cpp_TypeInfo_var);
+		EventDelegate__ctor_m2728612751(L_8, __this, L_7, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		AnimationState_add_Event_m3939231669(L_6, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpineboyBeginnerView::HandleEvent(Spine.AnimationState,System.Int32,Spine.Event)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t SpineboyBeginnerView_HandleEvent_m2369844641_MetadataUsageId;
+extern "C"  void SpineboyBeginnerView_HandleEvent_m2369844641 (SpineboyBeginnerView_t1352051552 * __this, AnimationState_t964829161 * ___state0, int32_t ___trackIndex1, Event_t365432928 * ___e2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineboyBeginnerView_HandleEvent_m2369844641_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Event_t365432928 * L_0 = ___e2;
+		NullCheck(L_0);
+		EventData_t2102088874 * L_1 = Event_get_Data_m2079788065(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		String_t* L_2 = EventData_get_Name_m2073634083(L_1, /*hidden argument*/NULL);
+		String_t* L_3 = __this->get_footstepEventName_8();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_4 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		SpineboyBeginnerView_PlayFootstepSound_m1206997562(__this, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void SpineboyBeginnerView::Update()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const uint32_t SpineboyBeginnerView_Update_m3675307826_MetadataUsageId;
+extern "C"  void SpineboyBeginnerView_Update_m3675307826 (SpineboyBeginnerView_t1352051552 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineboyBeginnerView_Update_m3675307826_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		SkeletonAnimation_t3721178561 * L_0 = __this->get_skeletonAnimation_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		SpineboyBeginnerModel_t3250758094 * L_2 = __this->get_model_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_2, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0024:
+	{
+		SkeletonAnimation_t3721178561 * L_4 = __this->get_skeletonAnimation_3();
+		NullCheck(L_4);
+		Skeleton_t2209335561 * L_5 = ((SkeletonRenderer_t3766155010 *)L_4)->get_skeleton_20();
+		NullCheck(L_5);
+		bool L_6 = Skeleton_get_FlipX_m955621039(L_5, /*hidden argument*/NULL);
+		SpineboyBeginnerModel_t3250758094 * L_7 = __this->get_model_2();
+		NullCheck(L_7);
+		bool L_8 = L_7->get_facingLeft_3();
+		if ((((int32_t)L_6) == ((int32_t)L_8)))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		SpineboyBeginnerModel_t3250758094 * L_9 = __this->get_model_2();
+		NullCheck(L_9);
+		bool L_10 = L_9->get_facingLeft_3();
+		SpineboyBeginnerView_Turn_m2379652829(__this, L_10, /*hidden argument*/NULL);
+	}
+
+IL_0055:
+	{
+		SpineboyBeginnerModel_t3250758094 * L_11 = __this->get_model_2();
+		NullCheck(L_11);
+		int32_t L_12 = L_11->get_state_2();
+		V_0 = L_12;
+		int32_t L_13 = __this->get_previousViewState_15();
+		int32_t L_14 = V_0;
+		if ((((int32_t)L_13) == ((int32_t)L_14)))
+		{
+			goto IL_0073;
+		}
+	}
+	{
+		SpineboyBeginnerView_PlayNewStableAnimation_m1257312390(__this, /*hidden argument*/NULL);
+	}
+
+IL_0073:
+	{
+		int32_t L_15 = V_0;
+		__this->set_previousViewState_15(L_15);
+		return;
+	}
+}
+// System.Void SpineboyBeginnerView::PlayNewStableAnimation()
+extern "C"  void SpineboyBeginnerView_PlayNewStableAnimation_m1257312390 (SpineboyBeginnerView_t1352051552 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	String_t* V_1 = NULL;
+	{
+		SpineboyBeginnerModel_t3250758094 * L_0 = __this->get_model_2();
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_state_2();
+		V_0 = L_1;
+		int32_t L_2 = __this->get_previousViewState_15();
+		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)2)))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		SpineboyBeginnerView_PlayFootstepSound_m1206997562(__this, /*hidden argument*/NULL);
+	}
+
+IL_0025:
+	{
+		int32_t L_4 = V_0;
+		if ((!(((uint32_t)L_4) == ((uint32_t)2))))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		AudioSource_t1740077639 * L_5 = __this->get_jumpSource_13();
+		NullCheck(L_5);
+		AudioSource_Play_m1360558992(L_5, /*hidden argument*/NULL);
+		String_t* L_6 = __this->get_jump_7();
+		V_1 = L_6;
+		goto IL_005d;
+	}
+
+IL_0043:
+	{
+		int32_t L_7 = V_0;
+		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		String_t* L_8 = __this->get_run_4();
+		V_1 = L_8;
+		goto IL_005d;
+	}
+
+IL_0056:
+	{
+		String_t* L_9 = __this->get_idle_5();
+		V_1 = L_9;
+	}
+
+IL_005d:
+	{
+		SkeletonAnimation_t3721178561 * L_10 = __this->get_skeletonAnimation_3();
+		NullCheck(L_10);
+		AnimationState_t964829161 * L_11 = L_10->get_state_34();
+		String_t* L_12 = V_1;
+		NullCheck(L_11);
+		AnimationState_SetAnimation_m3671010114(L_11, 0, L_12, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpineboyBeginnerView::PlayFootstepSound()
+extern "C"  void SpineboyBeginnerView_PlayFootstepSound_m1206997562 (SpineboyBeginnerView_t1352051552 * __this, const MethodInfo* method)
+{
+	{
+		AudioSource_t1740077639 * L_0 = __this->get_footstepSource_11();
+		NullCheck(L_0);
+		AudioSource_Play_m1360558992(L_0, /*hidden argument*/NULL);
+		AudioSource_t1740077639 * L_1 = __this->get_footstepSource_11();
+		float L_2 = __this->get_footstepPitchOffset_9();
+		float L_3 = SpineboyBeginnerView_GetRandomPitch_m3473543535(__this, L_2, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		AudioSource_set_pitch_m1518407234(L_1, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpineboyBeginnerView::PlayShoot()
+extern "C"  void SpineboyBeginnerView_PlayShoot_m1611020004 (SpineboyBeginnerView_t1352051552 * __this, const MethodInfo* method)
+{
+	{
+		SkeletonAnimation_t3721178561 * L_0 = __this->get_skeletonAnimation_3();
+		NullCheck(L_0);
+		AnimationState_t964829161 * L_1 = L_0->get_state_34();
+		String_t* L_2 = __this->get_shoot_6();
+		NullCheck(L_1);
+		AnimationState_SetAnimation_m3671010114(L_1, 1, L_2, (bool)0, /*hidden argument*/NULL);
+		AudioSource_t1740077639 * L_3 = __this->get_gunSource_12();
+		float L_4 = __this->get_gunsoundPitchOffset_10();
+		float L_5 = SpineboyBeginnerView_GetRandomPitch_m3473543535(__this, L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		AudioSource_set_pitch_m1518407234(L_3, L_5, /*hidden argument*/NULL);
+		AudioSource_t1740077639 * L_6 = __this->get_gunSource_12();
+		NullCheck(L_6);
+		AudioSource_Play_m1360558992(L_6, /*hidden argument*/NULL);
+		ParticleSystem_t381473177 * L_7 = __this->get_gunParticles_14();
+		NullCheck(L_7);
+		ParticleSystem_Play_m1237476160(L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpineboyBeginnerView::Turn(System.Boolean)
+extern "C"  void SpineboyBeginnerView_Turn_m2379652829 (SpineboyBeginnerView_t1352051552 * __this, bool ___facingLeft0, const MethodInfo* method)
+{
+	{
+		SkeletonAnimation_t3721178561 * L_0 = __this->get_skeletonAnimation_3();
+		NullCheck(L_0);
+		Skeleton_t2209335561 * L_1 = ((SkeletonRenderer_t3766155010 *)L_0)->get_skeleton_20();
+		bool L_2 = ___facingLeft0;
+		NullCheck(L_1);
+		Skeleton_set_FlipX_m460711462(L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Single SpineboyBeginnerView::GetRandomPitch(System.Single)
+extern "C"  float SpineboyBeginnerView_GetRandomPitch_m3473543535 (SpineboyBeginnerView_t1352051552 * __this, float ___maxPitchOffset0, const MethodInfo* method)
+{
+	{
+		float L_0 = ___maxPitchOffset0;
+		float L_1 = ___maxPitchOffset0;
+		float L_2 = Random_Range_m3362417303(NULL /*static, unused*/, ((-L_0)), L_1, /*hidden argument*/NULL);
+		return ((float)((float)(1.0f)+(float)L_2));
+	}
+}
+// System.Void SpineboyPole::.ctor()
+extern "C"  void SpineboyPole__ctor_m3137290682 (SpineboyPole_t2321572353 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator SpineboyPole::Start()
+extern Il2CppClass* U3CStartU3Ec__Iterator7_t2992455600_il2cpp_TypeInfo_var;
+extern const uint32_t SpineboyPole_Start_m1428724082_MetadataUsageId;
+extern "C"  Il2CppObject * SpineboyPole_Start_m1428724082 (SpineboyPole_t2321572353 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineboyPole_Start_m1428724082_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CStartU3Ec__Iterator7_t2992455600 * V_0 = NULL;
+	{
+		U3CStartU3Ec__Iterator7_t2992455600 * L_0 = (U3CStartU3Ec__Iterator7_t2992455600 *)il2cpp_codegen_object_new(U3CStartU3Ec__Iterator7_t2992455600_il2cpp_TypeInfo_var);
+		U3CStartU3Ec__Iterator7__ctor_m3873266923(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CStartU3Ec__Iterator7_t2992455600 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U3CU3Ef__this_4(__this);
+		U3CStartU3Ec__Iterator7_t2992455600 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void SpineboyPole::SetXPosition(System.Single)
+extern "C"  void SpineboyPole_SetXPosition_m3068473666 (SpineboyPole_t2321572353 * __this, float ___x0, const MethodInfo* method)
+{
+	Vector3_t4282066566  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Transform_t1659122786 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Vector3_t4282066566  L_1 = Transform_get_localPosition_m668140784(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		float L_2 = ___x0;
+		(&V_0)->set_x_1(L_2);
+		Transform_t1659122786 * L_3 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_4 = V_0;
+		NullCheck(L_3);
+		Transform_set_localPosition_m3504330903(L_3, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpineboyPole/<Start>c__Iterator7::.ctor()
+extern "C"  void U3CStartU3Ec__Iterator7__ctor_m3873266923 (U3CStartU3Ec__Iterator7_t2992455600 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object SpineboyPole/<Start>c__Iterator7::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CStartU3Ec__Iterator7_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1826322897 (U3CStartU3Ec__Iterator7_t2992455600 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_3();
+		return L_0;
+	}
+}
+// System.Object SpineboyPole/<Start>c__Iterator7::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CStartU3Ec__Iterator7_System_Collections_IEnumerator_get_Current_m792018789 (U3CStartU3Ec__Iterator7_t2992455600 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_3();
+		return L_0;
+	}
+}
+// System.Boolean SpineboyPole/<Start>c__Iterator7::MoveNext()
+extern Il2CppClass* WaitForSpineAnimationComplete_t2719088888_il2cpp_TypeInfo_var;
+extern Il2CppClass* WaitForSeconds_t1615819279_il2cpp_TypeInfo_var;
+extern const uint32_t U3CStartU3Ec__Iterator7_MoveNext_m3141426449_MetadataUsageId;
+extern "C"  bool U3CStartU3Ec__Iterator7_MoveNext_m3141426449 (U3CStartU3Ec__Iterator7_t2992455600 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStartU3Ec__Iterator7_MoveNext_m3141426449_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	Vector3_t4282066566  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		int32_t L_0 = __this->get_U24PC_2();
+		V_0 = L_0;
+		__this->set_U24PC_2((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0029;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_00d0;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_015a;
+		}
+		if (L_1 == 3)
+		{
+			goto IL_0176;
+		}
+	}
+	{
+		goto IL_0182;
+	}
+
+IL_0029:
+	{
+		SpineboyPole_t2321572353 * L_2 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_2);
+		SkeletonAnimation_t3721178561 * L_3 = L_2->get_skeletonAnimation_4();
+		NullCheck(L_3);
+		AnimationState_t964829161 * L_4 = L_3->get_state_34();
+		__this->set_U3CstateU3E__0_0(L_4);
+	}
+
+IL_003f:
+	{
+		SpineboyPole_t2321572353 * L_5 = __this->get_U3CU3Ef__this_4();
+		SpineboyPole_t2321572353 * L_6 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_6);
+		float L_7 = L_6->get_startX_8();
+		NullCheck(L_5);
+		SpineboyPole_SetXPosition_m3068473666(L_5, L_7, /*hidden argument*/NULL);
+		SpineboyPole_t2321572353 * L_8 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_8);
+		SkeletonRenderSeparator_t3234766824 * L_9 = L_8->get_separator_5();
+		NullCheck(L_9);
+		Behaviour_set_enabled_m2046806933(L_9, (bool)0, /*hidden argument*/NULL);
+		AnimationState_t964829161 * L_10 = __this->get_U3CstateU3E__0_0();
+		SpineboyPole_t2321572353 * L_11 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_11);
+		String_t* L_12 = L_11->get_run_6();
+		NullCheck(L_10);
+		AnimationState_SetAnimation_m3671010114(L_10, 0, L_12, (bool)1, /*hidden argument*/NULL);
+		AnimationState_t964829161 * L_13 = __this->get_U3CstateU3E__0_0();
+		NullCheck(L_13);
+		AnimationState_set_TimeScale_m2099045962(L_13, (1.5f), /*hidden argument*/NULL);
+		goto IL_00d0;
+	}
+
+IL_0094:
+	{
+		SpineboyPole_t2321572353 * L_14 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_14);
+		Transform_t1659122786 * L_15 = Component_get_transform_m4257140443(L_14, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_16 = Vector3_get_right_m4015137012(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_17 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_16, (18.0f), /*hidden argument*/NULL);
+		float L_18 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t4282066566  L_19 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		Transform_Translate_m2849099360(L_15, L_19, /*hidden argument*/NULL);
+		__this->set_U24current_3(NULL);
+		__this->set_U24PC_2(1);
+		goto IL_0184;
+	}
+
+IL_00d0:
+	{
+		SpineboyPole_t2321572353 * L_20 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_20);
+		Transform_t1659122786 * L_21 = Component_get_transform_m4257140443(L_20, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		Vector3_t4282066566  L_22 = Transform_get_localPosition_m668140784(L_21, /*hidden argument*/NULL);
+		V_1 = L_22;
+		float L_23 = (&V_1)->get_x_1();
+		SpineboyPole_t2321572353 * L_24 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_24);
+		float L_25 = L_24->get_endX_9();
+		if ((((float)L_23) < ((float)L_25)))
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		SpineboyPole_t2321572353 * L_26 = __this->get_U3CU3Ef__this_4();
+		SpineboyPole_t2321572353 * L_27 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_27);
+		float L_28 = L_27->get_endX_9();
+		NullCheck(L_26);
+		SpineboyPole_SetXPosition_m3068473666(L_26, L_28, /*hidden argument*/NULL);
+		SpineboyPole_t2321572353 * L_29 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_29);
+		SkeletonRenderSeparator_t3234766824 * L_30 = L_29->get_separator_5();
+		NullCheck(L_30);
+		Behaviour_set_enabled_m2046806933(L_30, (bool)1, /*hidden argument*/NULL);
+		AnimationState_t964829161 * L_31 = __this->get_U3CstateU3E__0_0();
+		SpineboyPole_t2321572353 * L_32 = __this->get_U3CU3Ef__this_4();
+		NullCheck(L_32);
+		String_t* L_33 = L_32->get_pole_7();
+		NullCheck(L_31);
+		TrackEntry_t1654022115 * L_34 = AnimationState_SetAnimation_m3671010114(L_31, 0, L_33, (bool)0, /*hidden argument*/NULL);
+		__this->set_U3CpoleTrackU3E__1_1(L_34);
+		TrackEntry_t1654022115 * L_35 = __this->get_U3CpoleTrackU3E__1_1();
+		WaitForSpineAnimationComplete_t2719088888 * L_36 = (WaitForSpineAnimationComplete_t2719088888 *)il2cpp_codegen_object_new(WaitForSpineAnimationComplete_t2719088888_il2cpp_TypeInfo_var);
+		WaitForSpineAnimationComplete__ctor_m4248177807(L_36, L_35, /*hidden argument*/NULL);
+		__this->set_U24current_3(L_36);
+		__this->set_U24PC_2(2);
+		goto IL_0184;
+	}
+
+IL_015a:
+	{
+		WaitForSeconds_t1615819279 * L_37 = (WaitForSeconds_t1615819279 *)il2cpp_codegen_object_new(WaitForSeconds_t1615819279_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_37, (1.0f), /*hidden argument*/NULL);
+		__this->set_U24current_3(L_37);
+		__this->set_U24PC_2(3);
+		goto IL_0184;
+	}
+
+IL_0176:
+	{
+		goto IL_003f;
+	}
+	// Dead block : IL_017b: ldarg.0
+
+IL_0182:
+	{
+		return (bool)0;
+	}
+
+IL_0184:
+	{
+		return (bool)1;
+	}
+}
+// System.Void SpineboyPole/<Start>c__Iterator7::Dispose()
+extern "C"  void U3CStartU3Ec__Iterator7_Dispose_m2666117736 (U3CStartU3Ec__Iterator7_t2992455600 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24PC_2((-1));
+		return;
+	}
+}
+// System.Void SpineboyPole/<Start>c__Iterator7::Reset()
+extern Il2CppClass* NotSupportedException_t1732551818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CStartU3Ec__Iterator7_Reset_m1519699864_MetadataUsageId;
+extern "C"  void U3CStartU3Ec__Iterator7_Reset_m1519699864 (U3CStartU3Ec__Iterator7_t2992455600 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStartU3Ec__Iterator7_Reset_m1519699864_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1732551818 * L_0 = (NotSupportedException_t1732551818 *)il2cpp_codegen_object_new(NotSupportedException_t1732551818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void SpineGauge::.ctor()
+extern "C"  void SpineGauge__ctor_m2434599653 (SpineGauge_t410579574 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpineGauge::Awake()
+extern const MethodInfo* Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var;
+extern const uint32_t SpineGauge_Awake_m2672204872_MetadataUsageId;
+extern "C"  void SpineGauge_Awake_m2672204872 (SpineGauge_t410579574 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineGauge_Awake_m2672204872_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		SkeletonRenderer_t3766155010 * L_0 = Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865(__this, /*hidden argument*/Component_GetComponent_TisSkeletonRenderer_t3766155010_m118274865_MethodInfo_var);
+		__this->set_skeletonRenderer_4(L_0);
+		return;
+	}
+}
+// System.Void SpineGauge::Update()
+extern "C"  void SpineGauge_Update_m4185007304 (SpineGauge_t410579574 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = __this->get_fillPercent_2();
+		SpineGauge_SetGaugePercent_m2065607866(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void SpineGauge::SetGaugePercent(System.Single)
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const uint32_t SpineGauge_SetGaugePercent_m2065607866_MetadataUsageId;
+extern "C"  void SpineGauge_SetGaugePercent_m2065607866 (SpineGauge_t410579574 * __this, float ___x0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (SpineGauge_SetGaugePercent_m2065607866_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Skeleton_t2209335561 * V_0 = NULL;
+	{
+		SkeletonRenderer_t3766155010 * L_0 = __this->get_skeletonRenderer_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		SkeletonRenderer_t3766155010 * L_2 = __this->get_skeletonRenderer_4();
+		NullCheck(L_2);
+		Skeleton_t2209335561 * L_3 = L_2->get_skeleton_20();
+		V_0 = L_3;
+		Skeleton_t2209335561 * L_4 = V_0;
+		if (L_4)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0025:
+	{
+		Animation_t3189667530 * L_5 = __this->get_fillAnimation_5();
+		if (L_5)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		Skeleton_t2209335561 * L_6 = V_0;
+		NullCheck(L_6);
+		SkeletonData_t3387199699 * L_7 = Skeleton_get_Data_m427316911(L_6, /*hidden argument*/NULL);
+		String_t* L_8 = __this->get_fillAnimationName_3();
+		NullCheck(L_7);
+		Animation_t3189667530 * L_9 = SkeletonData_FindAnimation_m1876370554(L_7, L_8, /*hidden argument*/NULL);
+		__this->set_fillAnimation_5(L_9);
+		Animation_t3189667530 * L_10 = __this->get_fillAnimation_5();
+		if (L_10)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0053:
+	{
+		Animation_t3189667530 * L_11 = __this->get_fillAnimation_5();
+		Skeleton_t2209335561 * L_12 = V_0;
+		float L_13 = ___x0;
+		NullCheck(L_11);
+		Animation_Apply_m430003474(L_11, L_12, (0.0f), L_13, (bool)0, (ExposedList_1_t1740365586 *)NULL, /*hidden argument*/NULL);
+		Skeleton_t2209335561 * L_14 = V_0;
+		float L_15 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		Skeleton_Update_m3065263201(L_14, L_15, /*hidden argument*/NULL);
+		Skeleton_t2209335561 * L_16 = V_0;
+		NullCheck(L_16);
+		Skeleton_UpdateWorldTransform_m2487614308(L_16, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Tile::.ctor()
+extern "C"  void Tile__ctor_m2580515725 (Tile_t2606798 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 Tile::get_spriteIdx()
+extern "C"  int32_t Tile_get_spriteIdx_m981711308 (Tile_t2606798 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__spriteIdx_2();
+		return L_0;
+	}
+}
+// System.Void Tile::set_spriteIdx(System.Int32)
+extern "C"  void Tile_set_spriteIdx_m2555645559 (Tile_t2606798 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set__spriteIdx_2(L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
