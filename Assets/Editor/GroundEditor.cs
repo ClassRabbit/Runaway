@@ -123,10 +123,10 @@ public class GroundEditor : Editor {
 			{
 				if (gameObject != null)
 				{
-					Debug.Log("not break");
+					//Debug.Log("not break");
 					if (gameObject.GetComponent<SpriteRenderer>().sprite.name.Equals(sprite.name))
 					{
-						Debug.Log("break");
+						//Debug.Log("break");
 						break;
 					}
 				}
@@ -203,7 +203,7 @@ public class GroundEditor : Editor {
 	void SetSelectSpritePopup(ref SelectPopup selectPopup, GameObject gameObject, Sprite[] sprites)
 	{
 		int checkSelect = selectPopup.value;
-		Debug.Log("checkSelect : " + checkSelect);
+		//Debug.Log("checkSelect : " + checkSelect);
 
 		EditorGUILayout.BeginHorizontal();
 		GUILayout.Label(gameObject.name);

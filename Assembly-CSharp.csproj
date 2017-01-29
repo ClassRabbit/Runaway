@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Resources\Orc Warrior\Scripts\MouseController.cs" />
      <Compile Include="Assets\Resources\Spine 4 char\spine-csharp\Animation.cs" />
      <Compile Include="Assets\Resources\Spine 4 char\spine-csharp\AnimationState.cs" />
      <Compile Include="Assets\Resources\Spine 4 char\spine-csharp\AnimationStateData.cs" />
@@ -137,6 +138,7 @@
      <Compile Include="Assets\Resources\Spine 4 char\spine-unity\Assets\spine-unity\SkeletonUtility\SkeletonUtilitySubmeshRenderer.cs" />
      <Compile Include="Assets\Resources\Spine 4 char\spine-unity\Assets\spine-unity\SpineAttributes.cs" />
      <Compile Include="Assets\Scripts\Controller\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Controller\OrcController.cs" />
      <Compile Include="Assets\Scripts\Controller\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Map\Ground.cs" />
      <Compile Include="Assets\Scripts\Map\Map.cs" />

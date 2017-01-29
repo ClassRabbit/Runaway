@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour {
 
 	//조이스틱 스크립트
 	public Joystick joystick;
+	public LayerMask groundLayer;
 
 	SkeletonAnimation skeletonAnimation;
 
@@ -58,7 +59,7 @@ public class PlayerController : MonoBehaviour {
 	{
 		Vector3 direction = Vector3.zero;
 
-		Debug.Log(joystick.GetHorizontalValue());
+		//Debug.Log(joystick.GetHorizontalValue());
 
 		//direction.x = joystick.GetHorizontalValue();
 		//direction.y = joystick.GetVerticalValue();
@@ -66,7 +67,7 @@ public class PlayerController : MonoBehaviour {
 
 		if (joystick.GetHorizontalValue() < 0)
 		{
-			Debug.Log("Left");
+			//Debug.Log("Left");
 			direction.x = -1;
 			skeletonAnimation.skeleton.FlipX = false;
 			skeletonAnimation.AnimationName = "02_walk";
@@ -75,7 +76,7 @@ public class PlayerController : MonoBehaviour {
 		}
 		else if (joystick.GetHorizontalValue() > 0)
 		{
-			Debug.Log("Right");
+			//Debug.Log("Right");
 			direction.x = 1;
 			skeletonAnimation.skeleton.FlipX = true;
 			skeletonAnimation.AnimationName = "02_walk";
@@ -114,7 +115,22 @@ public class PlayerController : MonoBehaviour {
 
 	public void Jump()
 	{
-		rb2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+		if (IsGrounded())
+		{
+			rb2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+		}
+	}
+
+	bool IsGrounded()
+	{
+		if (Physics2D.Raycast(this.transform.position, Vector2.down, 0.2f, groundLayer.value))
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
 	}
 
 }
