@@ -21,6 +21,11 @@ public class CameraController : MonoBehaviour {
 	{
 		Vector3 position = characterTransfrom.position;
 		position.y = position.y + 2;
+		//Debug.Log(position.x);
+		if (position.x < 0)
+		{
+			position.x = 0;
+		}
 		transform.position = Vector3.Lerp(transform.position, position, 2f * Time.deltaTime);
 		transform.Translate(0, 0, -10); //카메라를 원래 z축으로 이동
 	}

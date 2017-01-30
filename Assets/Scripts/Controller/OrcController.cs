@@ -26,9 +26,9 @@ public class OrcController : MonoBehaviour {
 		rb2D = GetComponent<Rigidbody2D>();
 		moveSpeed=20;
 		basePosition = transform.position;
-		Debug.Log("base x : " + basePosition.x);
+		//Debug.Log("base x : " + basePosition.x);
 		patrolPosition = transform.GetChild(1).position;
-		Debug.Log("patrol x : " + patrolPosition.x);
+		//Debug.Log("patrol x : " + patrolPosition.x);
 		if (isIdle)
 		{
 			state = eOrcState.idle;
@@ -84,11 +84,16 @@ public class OrcController : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		Debug.Log("Collider");
 		if (other.tag == "Player")
 		{
 			Attack();
+
 		}
+	}
+
+	void OnCollitionEnter2D(Collision2D other)
+	{
+		Debug.Log("Collition");
 	}
 
 	void Attack()

@@ -4,14 +4,19 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
+	enum ePlayerDirection
+	{
+		left = 0,
+		right,
+		die
+	}
+
 	public static PlayerController instance;
 
 	public Rigidbody2D rb2D { get; set; }
 
-	//플레이어 이동 방향
 	public Vector3 moveVector { get; set; }
 
-	//플레이어 이동 속도
 	public float moveSpeed;
 	public float jumpForce;
 
@@ -19,7 +24,11 @@ public class PlayerController : MonoBehaviour {
 	public Joystick joystick;
 	public LayerMask groundLayer;
 
+	public GameObject hearts;
+
 	SkeletonAnimation skeletonAnimation;
+	ePlayerDirection playerDirection;
+	int heartCount = 3;
 
 	void Start()
 	{
@@ -37,6 +46,7 @@ public class PlayerController : MonoBehaviour {
 		moveVector = new Vector3(0, 0, 0);
 
 		skeletonAnimation.state.SetAnimation(0, "01_idle", true);
+		playerDirection = ePlayerDirection.right;
 	}
 
 	void Update()
@@ -56,6 +66,7 @@ public class PlayerController : MonoBehaviour {
 
 	public void HandleInput()
 	{
+		
 		moveVector = PoolInput();
 	}
 
@@ -63,10 +74,10 @@ public class PlayerController : MonoBehaviour {
 	{
 		Vector3 direction = Vector3.zero;
 
-		//Debug.Log(joystick.GetHorizontalValue());
-
-		//direction.x = joystick.GetHorizontalValue();
-		//direction.y = joystick.GetVerticalValue();
+		if (playerDirection == ePlayerDirection.die)
+		{
+			return direction;
+		}
 
 		if (joystick.GetHorizontalValue() < 0)
 		{
@@ -74,7 +85,7 @@ public class PlayerController : MonoBehaviour {
 			direction.x = -1;
 			skeletonAnimation.skeleton.FlipX = false;
 			skeletonAnimation.AnimationName = "02_walk";
-			//skeletonAnimation.state.SetAnimation(1, "02_walk", true);
+			playerDirection = ePlayerDirection.left;
 
 		}
 		else if (joystick.GetHorizontalValue() > 0)
@@ -83,7 +94,7 @@ public class PlayerController : MonoBehaviour {
 			direction.x = 1;
 			skeletonAnimation.skeleton.FlipX = true;
 			skeletonAnimation.AnimationName = "02_walk";
-			//skeletonAnimation.state.SetAnimation(1, "02_walk", true);
+			playerDirection = ePlayerDirection.right;
 		}
 		else {
 			skeletonAnimation.AnimationName = "01_idle";
@@ -103,12 +114,29 @@ public class PlayerController : MonoBehaviour {
 
 	public void Attack()
 	{
+		if (playerDirection == ePlayerDirection.die)
+		{
+			return;
+		}
 		skeletonAnimation.state.SetAnimation(2, "03_fight", false);
+		IsEnemy();
 	}
 
 	public void Hit()
 	{
 		skeletonAnimation.state.SetAnimation(3, "04_hit", false);
+		heartCount--;
+		if (heartCount >= 0)
+		{
+			Transform heart = hearts.transform.GetChild(2-heartCount);
+			heart.gameObject.SetActive(false);
+		}
+		if (heartCount <= 0)
+		{
+			Debug.Log("gameover");
+			skeletonAnimation.state.SetAnimation(4, "05_die", false).EndTime = 100;
+			playerDirection = ePlayerDirection.die;
+		}
 	}
 
 	public void EaseVelocity()
@@ -123,7 +151,7 @@ public class PlayerController : MonoBehaviour {
 
 	public void Jump()
 	{
-		if (IsGrounded())
+		if (IsGrounded() && playerDirection != ePlayerDirection.die)
 		{
 			rb2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
 		}
@@ -141,4 +169,41 @@ public class PlayerController : MonoBehaviour {
 		}
 	}
 
+	void IsEnemy()
+	{
+		//Debug.Log(playerDirection);
+		if (playerDirection == ePlayerDirection.right)
+		{
+			Vector3 vector = transform.position;
+			vector.x += 0.7f;
+			vector.y += 1;
+			RaycastHit2D hit = Physics2D.Raycast(vector, Vector2.right, 0.5f);
+			if (hit.collider != null)
+			{
+				Debug.Log(hit.collider.tag);
+				Debug.Log(hit.collider.gameObject.transform.position);
+				if (hit.collider.tag == "Orc")
+				{
+					Destroy(hit.collider.gameObject);
+				}
+			}
+		}
+		else 
+		{
+			Vector3 vector = transform.position;
+			vector.x -= 0.7f;
+			vector.y += 1;
+			RaycastHit2D hit = Physics2D.Raycast(vector, Vector2.left, 0.5f);
+			if (hit.collider != null)
+			{
+				Debug.Log(hit.collider.tag);
+				Debug.Log(hit.collider.gameObject.transform.position);
+				if (hit.collider.tag == "Orc")
+				{
+					Destroy(hit.collider.gameObject);
+				}
+			}
+		}
+		
+	}
 }
