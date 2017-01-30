@@ -12,9 +12,6 @@ public class MapEditor : Editor {
 
 	Transform leftWall = null;
 	Transform rightWall = null;
-	Transform underBox = null;
-	Transform backWall = null;
-	Transform frontWall = null;
 
 	#if UNITY_EDITOR
 

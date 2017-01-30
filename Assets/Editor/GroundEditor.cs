@@ -32,7 +32,7 @@ public class GroundEditor : Editor {
 
 	void Awake()
 	{
-		Debug.Log("Awake");
+		//Debug.Log("Awake");
 		ground = target as Ground;
 
 		ground.leftTile = ground.transform.FindChild("LeftTile").gameObject;
@@ -46,10 +46,10 @@ public class GroundEditor : Editor {
 	{
 		if (selectPopupInfo != null)
 		{
-			Debug.Log("initSelectPopupInfo return");
+			//Debug.Log("initSelectPopupInfo return");
 			return;
 		}
-		Debug.Log("initSelectPopupInfo start");
+		//Debug.Log("initSelectPopupInfo start");
 		selectPopupInfo = new SelectPopup[(int)eSelectPopup.Max];
 
 
@@ -66,7 +66,7 @@ public class GroundEditor : Editor {
 
 	void OnEnable()
 	{
-		Debug.Log("OnEnable");
+		//Debug.Log("OnEnable");
 		string[] spritePathArray = { "Tiles" };
 		LoadTileSprite(spritePathArray[0], ref ground.leftSprite);
 		LoadTileSprite(spritePathArray[0], ref ground.middleSprite);
@@ -161,7 +161,7 @@ public class GroundEditor : Editor {
 	public override void OnInspectorGUI()
 	{
 		base.OnInspectorGUI();
-		Debug.Log("OnInspectorGUI");
+		//Debug.Log("OnInspectorGUI");
 		EditorGUILayout.BeginVertical();
 		EditorGUILayout.Space();
 		EditorGUILayout.EndVertical();
@@ -178,7 +178,42 @@ public class GroundEditor : Editor {
 			CreateEtc();
 		}
 
+		EditorGUILayout.BeginHorizontal();
+		if (GUILayout.Button("CreateDummy"))
+		{
+			CreateDummy();
+		}
+
+		EditorGUILayout.EndHorizontal();
+
 	}
+
+	void CreateDummy()
+	{
+		Debug.Log(ground.transform.position);
+
+		for (int i = 0; i < 5; i++)
+		{
+			for (int j = 0; j < 3; j++)
+			{
+				int random = Random.Range(1, 5);
+
+				GameObject gameObject = new GameObject();
+				gameObject.name = "Tile (" + ((i*3) + j) + ")";
+
+				SpriteRenderer spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
+				Sprite spriteObject = Resources.Load("Images/Tiles/basic" + random, typeof(Sprite)) as Sprite;
+				spriteRenderer.sprite = spriteObject;
+
+				gameObject.transform.position = new Vector3(ground.transform.position.x + (j-1) , ground.transform.position.y - (i+1),
+															ground.transform.position.z);
+
+				Transform dummy = ground.transform.FindChild("Dummy");
+				gameObject.transform.parent = dummy;
+			}
+		}
+	}
+
 
 	void CreateEtc()
 	{
@@ -190,6 +225,7 @@ public class GroundEditor : Editor {
 		if (spriteObject.Equals(null))
 		{
 			Debug.Log("isNull");
+			//return;
 		}
 		spriteRenderer.sprite = spriteObject;
 
