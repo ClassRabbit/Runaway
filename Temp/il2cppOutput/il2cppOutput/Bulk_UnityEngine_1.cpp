@@ -13457,6 +13457,19 @@ extern "C" void Keyframe_t4079056114_marshal_com_back(const Keyframe_t4079056114
 extern "C" void Keyframe_t4079056114_marshal_com_cleanup(Keyframe_t4079056114_marshaled_com& marshaled)
 {
 }
+// System.Int32 UnityEngine.LayerMask::get_value()
+extern "C"  int32_t LayerMask_get_value_m1804554274 (LayerMask_t3236759763 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_m_Mask_0();
+		return L_0;
+	}
+}
+extern "C"  int32_t LayerMask_get_value_m1804554274_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	LayerMask_t3236759763 * _thisAdjusted = reinterpret_cast<LayerMask_t3236759763 *>(__this + 1);
+	return LayerMask_get_value_m1804554274(_thisAdjusted, method);
+}
 // System.Int32 UnityEngine.LayerMask::op_Implicit(UnityEngine.LayerMask)
 extern "C"  int32_t LayerMask_op_Implicit_m1595580047 (Il2CppObject * __this /* static, unused */, LayerMask_t3236759763  ___mask0, const MethodInfo* method)
 {

@@ -6,6 +6,7 @@ UnityEngine.Animator::StringToHash
 UnityEngine.Animator::get_layerCount
 UnityEngine.Animator::GetLayerWeight
 UnityEngine.Animator::ResetTriggerString
+UnityEngine.Animator::SetFloatString
 UnityEngine.Animator::SetTriggerString
 UnityEngine.Animator::GetCurrentAnimatorClipInfo
 UnityEngine.Animator::GetNextAnimatorClipInfo

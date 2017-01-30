@@ -49,3 +49,5 @@ extern "C"  void PlayerController_Attack_m1752732366 (PlayerController_t28665265
 extern "C"  void PlayerController_EaseVelocity_m159532785 (PlayerController_t2866526589 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PlayerController::Jump()
 extern "C"  void PlayerController_Jump_m72504436 (PlayerController_t2866526589 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean PlayerController::IsGrounded()
+extern "C"  bool PlayerController_IsGrounded_m1505370986 (PlayerController_t2866526589 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

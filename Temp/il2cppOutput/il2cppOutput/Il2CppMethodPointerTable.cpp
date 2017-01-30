@@ -7398,6 +7398,7 @@ extern "C" void AnimationEvent_get_animationState_m2712753230 ();
 extern "C" void AnimationEvent_get_animatorStateInfo_m194903218 ();
 extern "C" void AnimationEvent_get_animatorClipInfo_m493861262 ();
 extern "C" void AnimationEvent_GetHash_m2586883417 ();
+extern "C" void Animator_SetFloat_m1775105839 ();
 extern "C" void Animator_SetTrigger_m514363822 ();
 extern "C" void Animator_ResetTrigger_m4152421915 ();
 extern "C" void Animator_get_layerCount_m3326924613 ();
@@ -7408,6 +7409,7 @@ extern "C" void Animator_GetCurrentAnimatorClipInfo_m4182556072 ();
 extern "C" void Animator_GetNextAnimatorClipInfo_m162731378 ();
 extern "C" void Animator_get_runtimeAnimatorController_m1822082727 ();
 extern "C" void Animator_StringToHash_m4020897098 ();
+extern "C" void Animator_SetFloatString_m82432478 ();
 extern "C" void Animator_SetTriggerString_m1378271133 ();
 extern "C" void Animator_ResetTriggerString_m1817269834 ();
 extern "C" void AnimatorClipInfo_get_clip_m1947050667_AdjustorThunk ();
@@ -8452,6 +8454,7 @@ extern "C" void Keyframe_get_outTangent_m2520753969_AdjustorThunk ();
 extern "C" void Keyframe_set_outTangent_m4071134898_AdjustorThunk ();
 extern "C" void Keyframe_get_tangentMode_m1245220572_AdjustorThunk ();
 extern "C" void Keyframe_set_tangentMode_m2444824761_AdjustorThunk ();
+extern "C" void LayerMask_get_value_m1804554274_AdjustorThunk ();
 extern "C" void LayerMask_op_Implicit_m1595580047 ();
 extern "C" void LayerMask_op_Implicit_m2608572187 ();
 extern "C" void Logger__ctor_m654679389 ();
@@ -8880,6 +8883,7 @@ extern "C" void RaycastHit2D_get_fraction_m2313516650_AdjustorThunk ();
 extern "C" void RaycastHit2D_get_collider_m789902306_AdjustorThunk ();
 extern "C" void RaycastHit2D_get_rigidbody_m1059160360_AdjustorThunk ();
 extern "C" void RaycastHit2D_get_transform_m1318597140_AdjustorThunk ();
+extern "C" void RaycastHit2D_op_Implicit_m3517997337 ();
 extern "C" void Rect__ctor_m3291325233_AdjustorThunk ();
 extern "C" void Rect_get_x_m982385354_AdjustorThunk ();
 extern "C" void Rect_set_x_m577970569_AdjustorThunk ();
@@ -9409,6 +9413,7 @@ extern "C" void Vector2_SqrMagnitude_m4007443280 ();
 extern "C" void Vector2_get_zero_m199872368 ();
 extern "C" void Vector2_get_one_m2767488832 ();
 extern "C" void Vector2_get_up_m1197831267 ();
+extern "C" void Vector2_get_down_m3874381546 ();
 extern "C" void Vector2_get_right_m3495203638 ();
 extern "C" void Vector2_op_Addition_m1173049553 ();
 extern "C" void Vector2_op_Subtraction_m2097149401 ();
@@ -10981,6 +10986,15 @@ extern "C" void Joystick_OnPointerUp_m4070119688 ();
 extern "C" void Joystick_GetHorizontalValue_m506518824 ();
 extern "C" void Joystick_GetVerticalValue_m1013950486 ();
 extern "C" void Map__ctor_m2539182511 ();
+extern "C" void MouseController__ctor_m2529496714 ();
+extern "C" void MouseController_Start_m1476634506 ();
+extern "C" void MouseController_Update_m2831848899 ();
+extern "C" void MouseController_Flip_m915226279 ();
+extern "C" void OrcController__ctor_m3752322671 ();
+extern "C" void OrcController_Start_m2699460463 ();
+extern "C" void OrcController_Update_m2084747902 ();
+extern "C" void OrcController_OnTriggerEnter2D_m2050491113 ();
+extern "C" void OrcController_Attack_m1300892733 ();
 extern "C" void PlayerController__ctor_m2658519486 ();
 extern "C" void PlayerController_get_rb2D_m12845052 ();
 extern "C" void PlayerController_set_rb2D_m937545317 ();
@@ -10995,6 +11009,7 @@ extern "C" void PlayerController_Move_m153108311 ();
 extern "C" void PlayerController_Attack_m1752732366 ();
 extern "C" void PlayerController_EaseVelocity_m159532785 ();
 extern "C" void PlayerController_Jump_m72504436 ();
+extern "C" void PlayerController_IsGrounded_m1505370986 ();
 extern "C" void RaggedySpineboy__ctor_m1273575511 ();
 extern "C" void RaggedySpineboy_Start_m220713303 ();
 extern "C" void RaggedySpineboy_AddRigidbody_m1246200249 ();
@@ -12292,7 +12307,7 @@ extern "C" void SpineGauge_SetGaugePercent_m2065607866 ();
 extern "C" void Tile__ctor_m2580515725 ();
 extern "C" void Tile_get_spriteIdx_m981711308 ();
 extern "C" void Tile_set_spriteIdx_m2555645559 ();
-extern const Il2CppMethodPointer g_MethodPointers[12281] = 
+extern const Il2CppMethodPointer g_MethodPointers[12296] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -19681,6 +19696,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12281] =
 	AnimationEvent_get_animatorStateInfo_m194903218,
 	AnimationEvent_get_animatorClipInfo_m493861262,
 	AnimationEvent_GetHash_m2586883417,
+	Animator_SetFloat_m1775105839,
 	Animator_SetTrigger_m514363822,
 	Animator_ResetTrigger_m4152421915,
 	Animator_get_layerCount_m3326924613,
@@ -19691,6 +19707,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12281] =
 	Animator_GetNextAnimatorClipInfo_m162731378,
 	Animator_get_runtimeAnimatorController_m1822082727,
 	Animator_StringToHash_m4020897098,
+	Animator_SetFloatString_m82432478,
 	Animator_SetTriggerString_m1378271133,
 	Animator_ResetTriggerString_m1817269834,
 	AnimatorClipInfo_get_clip_m1947050667_AdjustorThunk,
@@ -20735,6 +20752,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12281] =
 	Keyframe_set_outTangent_m4071134898_AdjustorThunk,
 	Keyframe_get_tangentMode_m1245220572_AdjustorThunk,
 	Keyframe_set_tangentMode_m2444824761_AdjustorThunk,
+	LayerMask_get_value_m1804554274_AdjustorThunk,
 	LayerMask_op_Implicit_m1595580047,
 	LayerMask_op_Implicit_m2608572187,
 	Logger__ctor_m654679389,
@@ -21163,6 +21181,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12281] =
 	RaycastHit2D_get_collider_m789902306_AdjustorThunk,
 	RaycastHit2D_get_rigidbody_m1059160360_AdjustorThunk,
 	RaycastHit2D_get_transform_m1318597140_AdjustorThunk,
+	RaycastHit2D_op_Implicit_m3517997337,
 	Rect__ctor_m3291325233_AdjustorThunk,
 	Rect_get_x_m982385354_AdjustorThunk,
 	Rect_set_x_m577970569_AdjustorThunk,
@@ -21692,6 +21711,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12281] =
 	Vector2_get_zero_m199872368,
 	Vector2_get_one_m2767488832,
 	Vector2_get_up_m1197831267,
+	Vector2_get_down_m3874381546,
 	Vector2_get_right_m3495203638,
 	Vector2_op_Addition_m1173049553,
 	Vector2_op_Subtraction_m2097149401,
@@ -23264,6 +23284,15 @@ extern const Il2CppMethodPointer g_MethodPointers[12281] =
 	Joystick_GetHorizontalValue_m506518824,
 	Joystick_GetVerticalValue_m1013950486,
 	Map__ctor_m2539182511,
+	MouseController__ctor_m2529496714,
+	MouseController_Start_m1476634506,
+	MouseController_Update_m2831848899,
+	MouseController_Flip_m915226279,
+	OrcController__ctor_m3752322671,
+	OrcController_Start_m2699460463,
+	OrcController_Update_m2084747902,
+	OrcController_OnTriggerEnter2D_m2050491113,
+	OrcController_Attack_m1300892733,
 	PlayerController__ctor_m2658519486,
 	PlayerController_get_rb2D_m12845052,
 	PlayerController_set_rb2D_m937545317,
@@ -23278,6 +23307,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12281] =
 	PlayerController_Attack_m1752732366,
 	PlayerController_EaseVelocity_m159532785,
 	PlayerController_Jump_m72504436,
+	PlayerController_IsGrounded_m1505370986,
 	RaggedySpineboy__ctor_m1273575511,
 	RaggedySpineboy_Start_m220713303,
 	RaggedySpineboy_AddRigidbody_m1246200249,

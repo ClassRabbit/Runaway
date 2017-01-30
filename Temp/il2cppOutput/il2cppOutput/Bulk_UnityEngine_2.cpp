@@ -697,6 +697,24 @@ extern "C"  Transform_t1659122786 * RaycastHit2D_get_transform_m1318597140_Adjus
 	RaycastHit2D_t1374744384 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t1374744384 *>(__this + 1);
 	return RaycastHit2D_get_transform_m1318597140(_thisAdjusted, method);
 }
+// System.Boolean UnityEngine.RaycastHit2D::op_Implicit(UnityEngine.RaycastHit2D)
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const uint32_t RaycastHit2D_op_Implicit_m3517997337_MetadataUsageId;
+extern "C"  bool RaycastHit2D_op_Implicit_m3517997337 (Il2CppObject * __this /* static, unused */, RaycastHit2D_t1374744384  ___hit0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (RaycastHit2D_op_Implicit_m3517997337_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Collider2D_t1552025098 * L_0 = RaycastHit2D_get_collider_m789902306((&___hit0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3071478659 *)NULL, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
 // Conversion methods for marshalling of: UnityEngine.RaycastHit2D
 extern "C" void RaycastHit2D_t1374744384_marshal_pinvoke(const RaycastHit2D_t1374744384& unmarshaled, RaycastHit2D_t1374744384_marshaled_pinvoke& marshaled)
 {
@@ -14083,6 +14101,16 @@ extern "C"  Vector2_t4282066565  Vector2_get_up_m1197831267 (Il2CppObject * __th
 		Vector2_t4282066565  L_0;
 		memset(&L_0, 0, sizeof(L_0));
 		Vector2__ctor_m1517109030(&L_0, (0.0f), (1.0f), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// UnityEngine.Vector2 UnityEngine.Vector2::get_down()
+extern "C"  Vector2_t4282066565  Vector2_get_down_m3874381546 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		Vector2_t4282066565  L_0;
+		memset(&L_0, 0, sizeof(L_0));
+		Vector2__ctor_m1517109030(&L_0, (0.0f), (-1.0f), /*hidden argument*/NULL);
 		return L_0;
 	}
 }

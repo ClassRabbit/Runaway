@@ -7440,6 +7440,13 @@ void* RuntimeInvoker_Il2CppObject_RayU26_t1925740320_Single_t4291918972_Int32_t1
 	return ret;
 }
 
+void* RuntimeInvoker_Boolean_t476798718_RaycastHit2D_t1374744384 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, RaycastHit2D_t1374744384  p1, const MethodInfo* method);
+	bool ret = ((Func)method->methodPointer)(obj, *((RaycastHit2D_t1374744384 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
 void* RuntimeInvoker_Void_t2863195528_Vector2_t4282066565_Int32_t1153838500 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Vector2_t4282066565  p1, int32_t p2, const MethodInfo* method);
@@ -10244,13 +10251,6 @@ void* RuntimeInvoker_Boolean_t476798718_RaycastHit_t4003175726 (const MethodInfo
 {
 	typedef bool (*Func)(void* obj, RaycastHit_t4003175726  p1, const MethodInfo* method);
 	bool ret = ((Func)method->methodPointer)(obj, *((RaycastHit_t4003175726 *)args[0]), method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-void* RuntimeInvoker_Boolean_t476798718_RaycastHit2D_t1374744384 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef bool (*Func)(void* obj, RaycastHit2D_t1374744384  p1, const MethodInfo* method);
-	bool ret = ((Func)method->methodPointer)(obj, *((RaycastHit2D_t1374744384 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -14361,6 +14361,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1849] =
 	RuntimeInvoker_RaycastHit2D_t1374744384_Vector2_t4282066565_Single_t4291918972_Vector2_t4282066565_Single_t4291918972_Int32_t1153838500,
 	RuntimeInvoker_RaycastHit2D_t1374744384_Vector2_t4282066565_Single_t4291918972_Vector2_t4282066565_Single_t4291918972_Int32_t1153838500_Single_t4291918972_Single_t4291918972,
 	RuntimeInvoker_Il2CppObject_RayU26_t1925740320_Single_t4291918972_Int32_t1153838500,
+	RuntimeInvoker_Boolean_t476798718_RaycastHit2D_t1374744384,
 	RuntimeInvoker_Void_t2863195528_Vector2_t4282066565_Int32_t1153838500,
 	RuntimeInvoker_Void_t2863195528_Il2CppObject_Vector2U26_t2865778115_Int32_t1153838500,
 	RuntimeInvoker_Void_t2863195528_JointAngleLimits2D_t2258250679,
@@ -14762,7 +14763,6 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1849] =
 	RuntimeInvoker_Boolean_t476798718_RaycastResult_t3762661364,
 	RuntimeInvoker_Boolean_t476798718_Keyframe_t4079056114,
 	RuntimeInvoker_Boolean_t476798718_RaycastHit_t4003175726,
-	RuntimeInvoker_Boolean_t476798718_RaycastHit2D_t1374744384,
 	RuntimeInvoker_Boolean_t476798718_GcAchievementData_t3481375915,
 	RuntimeInvoker_Boolean_t476798718_GcScoreData_t2181296590,
 	RuntimeInvoker_Boolean_t476798718_UICharInfo_t65807484,

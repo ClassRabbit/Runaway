@@ -1,5 +1,6 @@
 <linker>
 <assembly fullname="Assembly-CSharp">
+<type fullname="MouseController" preserve="all"/>
 <type fullname="BasicPlatformerController" preserve="all"/>
 <type fullname="ConstrainedCamera" preserve="all"/>
 <type fullname="Raptor" preserve="all"/>
@@ -41,6 +42,7 @@
 <type fullname="Spine.Unity.SkeletonUtilityConstraint" preserve="all"/>
 <type fullname="Spine.Unity.Modules.SkeletonUtilitySubmeshRenderer" preserve="all"/>
 <type fullname="CameraController" preserve="all"/>
+<type fullname="OrcController" preserve="all"/>
 <type fullname="PlayerController" preserve="all"/>
 <type fullname="Ground" preserve="all"/>
 <type fullname="Map" preserve="all"/>

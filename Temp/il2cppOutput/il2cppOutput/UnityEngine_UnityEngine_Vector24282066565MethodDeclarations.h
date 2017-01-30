@@ -54,6 +54,8 @@ extern "C"  Vector2_t4282066565  Vector2_get_zero_m199872368 (Il2CppObject * __t
 extern "C"  Vector2_t4282066565  Vector2_get_one_m2767488832 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Vector2::get_up()
 extern "C"  Vector2_t4282066565  Vector2_get_up_m1197831267 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector2 UnityEngine.Vector2::get_down()
+extern "C"  Vector2_t4282066565  Vector2_get_down_m3874381546 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Vector2::get_right()
 extern "C"  Vector2_t4282066565  Vector2_get_right_m3495203638 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Vector2::op_Addition(UnityEngine.Vector2,UnityEngine.Vector2)

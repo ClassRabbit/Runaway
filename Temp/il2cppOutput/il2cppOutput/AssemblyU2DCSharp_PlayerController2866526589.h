@@ -18,6 +18,7 @@ struct SkeletonAnimation_t3721178561;
 struct Rigidbody2D_t1743771669;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour667441552.h"
+#include "UnityEngine_UnityEngine_LayerMask3236759763.h"
 #include "UnityEngine_UnityEngine_Vector34282066566.h"
 
 #ifdef __clang__
@@ -36,12 +37,14 @@ public:
 	float ___jumpForce_3;
 	// Joystick PlayerController::joystick
 	Joystick_t3421498716 * ___joystick_4;
+	// UnityEngine.LayerMask PlayerController::groundLayer
+	LayerMask_t3236759763  ___groundLayer_5;
 	// Spine.Unity.SkeletonAnimation PlayerController::skeletonAnimation
-	SkeletonAnimation_t3721178561 * ___skeletonAnimation_5;
+	SkeletonAnimation_t3721178561 * ___skeletonAnimation_6;
 	// UnityEngine.Rigidbody2D PlayerController::<rb2D>k__BackingField
-	Rigidbody2D_t1743771669 * ___U3Crb2DU3Ek__BackingField_6;
+	Rigidbody2D_t1743771669 * ___U3Crb2DU3Ek__BackingField_7;
 	// UnityEngine.Vector3 PlayerController::<moveVector>k__BackingField
-	Vector3_t4282066566  ___U3CmoveVectorU3Ek__BackingField_7;
+	Vector3_t4282066566  ___U3CmoveVectorU3Ek__BackingField_8;
 
 public:
 	inline static int32_t get_offset_of_moveSpeed_2() { return static_cast<int32_t>(offsetof(PlayerController_t2866526589, ___moveSpeed_2)); }
@@ -69,30 +72,38 @@ public:
 		Il2CppCodeGenWriteBarrier(&___joystick_4, value);
 	}
 
-	inline static int32_t get_offset_of_skeletonAnimation_5() { return static_cast<int32_t>(offsetof(PlayerController_t2866526589, ___skeletonAnimation_5)); }
-	inline SkeletonAnimation_t3721178561 * get_skeletonAnimation_5() const { return ___skeletonAnimation_5; }
-	inline SkeletonAnimation_t3721178561 ** get_address_of_skeletonAnimation_5() { return &___skeletonAnimation_5; }
-	inline void set_skeletonAnimation_5(SkeletonAnimation_t3721178561 * value)
+	inline static int32_t get_offset_of_groundLayer_5() { return static_cast<int32_t>(offsetof(PlayerController_t2866526589, ___groundLayer_5)); }
+	inline LayerMask_t3236759763  get_groundLayer_5() const { return ___groundLayer_5; }
+	inline LayerMask_t3236759763 * get_address_of_groundLayer_5() { return &___groundLayer_5; }
+	inline void set_groundLayer_5(LayerMask_t3236759763  value)
 	{
-		___skeletonAnimation_5 = value;
-		Il2CppCodeGenWriteBarrier(&___skeletonAnimation_5, value);
+		___groundLayer_5 = value;
 	}
 
-	inline static int32_t get_offset_of_U3Crb2DU3Ek__BackingField_6() { return static_cast<int32_t>(offsetof(PlayerController_t2866526589, ___U3Crb2DU3Ek__BackingField_6)); }
-	inline Rigidbody2D_t1743771669 * get_U3Crb2DU3Ek__BackingField_6() const { return ___U3Crb2DU3Ek__BackingField_6; }
-	inline Rigidbody2D_t1743771669 ** get_address_of_U3Crb2DU3Ek__BackingField_6() { return &___U3Crb2DU3Ek__BackingField_6; }
-	inline void set_U3Crb2DU3Ek__BackingField_6(Rigidbody2D_t1743771669 * value)
+	inline static int32_t get_offset_of_skeletonAnimation_6() { return static_cast<int32_t>(offsetof(PlayerController_t2866526589, ___skeletonAnimation_6)); }
+	inline SkeletonAnimation_t3721178561 * get_skeletonAnimation_6() const { return ___skeletonAnimation_6; }
+	inline SkeletonAnimation_t3721178561 ** get_address_of_skeletonAnimation_6() { return &___skeletonAnimation_6; }
+	inline void set_skeletonAnimation_6(SkeletonAnimation_t3721178561 * value)
 	{
-		___U3Crb2DU3Ek__BackingField_6 = value;
-		Il2CppCodeGenWriteBarrier(&___U3Crb2DU3Ek__BackingField_6, value);
+		___skeletonAnimation_6 = value;
+		Il2CppCodeGenWriteBarrier(&___skeletonAnimation_6, value);
 	}
 
-	inline static int32_t get_offset_of_U3CmoveVectorU3Ek__BackingField_7() { return static_cast<int32_t>(offsetof(PlayerController_t2866526589, ___U3CmoveVectorU3Ek__BackingField_7)); }
-	inline Vector3_t4282066566  get_U3CmoveVectorU3Ek__BackingField_7() const { return ___U3CmoveVectorU3Ek__BackingField_7; }
-	inline Vector3_t4282066566 * get_address_of_U3CmoveVectorU3Ek__BackingField_7() { return &___U3CmoveVectorU3Ek__BackingField_7; }
-	inline void set_U3CmoveVectorU3Ek__BackingField_7(Vector3_t4282066566  value)
+	inline static int32_t get_offset_of_U3Crb2DU3Ek__BackingField_7() { return static_cast<int32_t>(offsetof(PlayerController_t2866526589, ___U3Crb2DU3Ek__BackingField_7)); }
+	inline Rigidbody2D_t1743771669 * get_U3Crb2DU3Ek__BackingField_7() const { return ___U3Crb2DU3Ek__BackingField_7; }
+	inline Rigidbody2D_t1743771669 ** get_address_of_U3Crb2DU3Ek__BackingField_7() { return &___U3Crb2DU3Ek__BackingField_7; }
+	inline void set_U3Crb2DU3Ek__BackingField_7(Rigidbody2D_t1743771669 * value)
 	{
-		___U3CmoveVectorU3Ek__BackingField_7 = value;
+		___U3Crb2DU3Ek__BackingField_7 = value;
+		Il2CppCodeGenWriteBarrier(&___U3Crb2DU3Ek__BackingField_7, value);
+	}
+
+	inline static int32_t get_offset_of_U3CmoveVectorU3Ek__BackingField_8() { return static_cast<int32_t>(offsetof(PlayerController_t2866526589, ___U3CmoveVectorU3Ek__BackingField_8)); }
+	inline Vector3_t4282066566  get_U3CmoveVectorU3Ek__BackingField_8() const { return ___U3CmoveVectorU3Ek__BackingField_8; }
+	inline Vector3_t4282066566 * get_address_of_U3CmoveVectorU3Ek__BackingField_8() { return &___U3CmoveVectorU3Ek__BackingField_8; }
+	inline void set_U3CmoveVectorU3Ek__BackingField_8(Vector3_t4282066566  value)
+	{
+		___U3CmoveVectorU3Ek__BackingField_8 = value;
 	}
 };
 

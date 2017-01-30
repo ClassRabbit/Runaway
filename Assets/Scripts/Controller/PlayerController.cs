@@ -4,6 +4,8 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
+	public static PlayerController instance;
+
 	public Rigidbody2D rb2D { get; set; }
 
 	//플레이어 이동 방향
@@ -21,6 +23,8 @@ public class PlayerController : MonoBehaviour {
 
 	void Start()
 	{
+		instance = this;
+
 		//메모리 정리
 		System.GC.Collect();
 
@@ -63,7 +67,6 @@ public class PlayerController : MonoBehaviour {
 
 		//direction.x = joystick.GetHorizontalValue();
 		//direction.y = joystick.GetVerticalValue();
-		direction.y = 0;
 
 		if (joystick.GetHorizontalValue() < 0)
 		{
@@ -101,6 +104,11 @@ public class PlayerController : MonoBehaviour {
 	public void Attack()
 	{
 		skeletonAnimation.state.SetAnimation(2, "03_fight", false);
+	}
+
+	public void Hit()
+	{
+		skeletonAnimation.state.SetAnimation(3, "04_hit", false);
 	}
 
 	public void EaseVelocity()

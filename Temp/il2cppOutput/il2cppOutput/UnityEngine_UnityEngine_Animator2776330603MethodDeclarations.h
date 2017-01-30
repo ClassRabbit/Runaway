@@ -25,6 +25,8 @@ struct RuntimeAnimatorController_t274649809;
 #include "mscorlib_System_String7231557.h"
 #include "UnityEngine_UnityEngine_AnimatorStateInfo323110318.h"
 
+// System.Void UnityEngine.Animator::SetFloat(System.String,System.Single)
+extern "C"  void Animator_SetFloat_m1775105839 (Animator_t2776330603 * __this, String_t* ___name0, float ___value1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Animator::SetTrigger(System.String)
 extern "C"  void Animator_SetTrigger_m514363822 (Animator_t2776330603 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Animator::ResetTrigger(System.String)
@@ -45,6 +47,8 @@ extern "C"  AnimatorClipInfoU5BU5D_t3117370260* Animator_GetNextAnimatorClipInfo
 extern "C"  RuntimeAnimatorController_t274649809 * Animator_get_runtimeAnimatorController_m1822082727 (Animator_t2776330603 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Animator::StringToHash(System.String)
 extern "C"  int32_t Animator_StringToHash_m4020897098 (Il2CppObject * __this /* static, unused */, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetFloatString(System.String,System.Single)
+extern "C"  void Animator_SetFloatString_m82432478 (Animator_t2776330603 * __this, String_t* ___name0, float ___value1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Animator::SetTriggerString(System.String)
 extern "C"  void Animator_SetTriggerString_m1378271133 (Animator_t2776330603 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Animator::ResetTriggerString(System.String)

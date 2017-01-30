@@ -1,4 +1,4 @@
-//Generated on : 2017-01-29 오전 7:07:58
+//Generated on : 2017-01-29 오후 5:17:48
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnchoredJoint2D
@@ -46,6 +46,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Animator::ResetTriggerString(System.String)
 		void Register_UnityEngine_Animator_ResetTriggerString();
 		Register_UnityEngine_Animator_ResetTriggerString();
+
+		//System.Void UnityEngine.Animator::SetFloatString(System.String,System.Single)
+		void Register_UnityEngine_Animator_SetFloatString();
+		Register_UnityEngine_Animator_SetFloatString();
 
 		//System.Void UnityEngine.Animator::SetTriggerString(System.String)
 		void Register_UnityEngine_Animator_SetTriggerString();

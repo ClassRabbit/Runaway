@@ -13,6 +13,18 @@
 #include <limits>
 #include <assert.h>
 
+// Spine.Unity.MeshGeneration.ArraysSimpleMeshGenerator
+struct ArraysSimpleMeshGenerator_t2506830120;
+// UnityEngine.Mesh
+struct Mesh_t4241756145;
+// Spine.Skeleton
+struct Skeleton_t2209335561;
+// Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator
+struct ArraysSubmeshedMeshGenerator_t888870828;
+// System.Collections.Generic.List`1<Spine.Slot>
+struct List_1_t3019178762;
+// Spine.Unity.MeshGeneration.SubmeshedMeshInstruction
+struct SubmeshedMeshInstruction_t1095166029;
 // Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator/SmartMesh
 struct SmartMesh_t2415772704;
 // UnityEngine.Vector3[]
@@ -21,8 +33,6 @@ struct Vector3U5BU5D_t215400611;
 struct Vector2U5BU5D_t4024180168;
 // UnityEngine.Color32[]
 struct Color32U5BU5D_t2960766953;
-// Spine.Unity.MeshGeneration.SubmeshedMeshInstruction
-struct SubmeshedMeshInstruction_t1095166029;
 // Spine.Unity.MeshGeneration.ArraysSubmeshSetMeshGenerator
 struct ArraysSubmeshSetMeshGenerator_t2045020741;
 // Spine.ExposedList`1<Spine.Unity.MeshGeneration.SubmeshInstruction>
@@ -31,8 +41,6 @@ struct ExposedList_1_t723286955;
 struct SmartMesh_t1508871033;
 // Spine.ExposedList`1<Spine.Attachment>
 struct ExposedList_1_t4224666065;
-// UnityEngine.Mesh
-struct Mesh_t4241756145;
 // UnityEngine.Material[]
 struct MaterialU5BU5D_t170856778;
 // Spine.Unity.Modules.AtlasRegionAttacher
@@ -125,8 +133,6 @@ struct BoxCollider2D_t2212926951;
 struct List_1_t2920210650;
 // UnityEngine.GameObject
 struct GameObject_t3674682005;
-// Spine.Skeleton
-struct Skeleton_t2209335561;
 // Spine.Unity.Modules.SkeletonRagdoll2D/<SmoothMixCoroutine>c__IteratorD
 struct U3CSmoothMixCoroutineU3Ec__IteratorD_t3888690909;
 // Spine.Unity.Modules.SkeletonRagdoll2D/<Start>c__IteratorC
@@ -289,53 +295,74 @@ struct Tile_t2606798;
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array1146569071.h"
-#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2415772704.h"
-#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2415772704MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2506830120.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2506830120MethodDeclarations.h"
 #include "mscorlib_System_Void2863195528.h"
-#include "AssemblyU2DCSharp_Spine_Unity_SpineMesh1341370618MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen4224666065MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen723286955MethodDeclarations.h"
-#include "mscorlib_System_Object4170816371MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_DoubleBufferedMesh286773167MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2793983610MethodDeclarations.h"
+#include "mscorlib_System_Single4291918972.h"
+#include "AssemblyU2DCSharp_Spine_Unity_DoubleBufferedMesh286773167.h"
 #include "UnityEngine_UnityEngine_Mesh4241756145.h"
-#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen4224666065.h"
-#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen723286955.h"
-#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Subme1095166029.h"
-#include "UnityEngine_ArrayTypes.h"
-#include "UnityEngine_UnityEngine_Vector34282066566.h"
-#include "UnityEngine_UnityEngine_Vector24282066565.h"
-#include "UnityEngine_UnityEngine_Color32598853688.h"
+#include "AssemblyU2DCSharp_Spine_Skeleton2209335561.h"
 #include "UnityEngine_UnityEngine_Mesh4241756145MethodDeclarations.h"
-#include "mscorlib_System_Boolean476798718.h"
 #include "mscorlib_System_Int321153838500.h"
 #include "Assembly-CSharp_ArrayTypes.h"
+#include "AssemblyU2DCSharp_Spine_Slot1650993210.h"
 #include "AssemblyU2DCSharp_Spine_Attachment2849733407.h"
-#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Subme3643321593.h"
-#include "UnityEngine_UnityEngine_Object3071478659MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_RegionAttachment2459988211.h"
+#include "AssemblyU2DCSharp_Spine_MeshAttachment3373030252.h"
+#include "UnityEngine_UnityEngine_Vector34282066566.h"
+#include "UnityEngine_ArrayTypes.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen3025925868.h"
+#include "AssemblyU2DCSharp_Spine_VertexAttachment2433703843.h"
+#include "mscorlib_ArrayTypes.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2793983610.h"
+#include "UnityEngine_UnityEngine_Vector24282066565.h"
+#include "UnityEngine_UnityEngine_Color32598853688.h"
+#include "mscorlib_System_Boolean476798718.h"
+#include "UnityEngine_UnityEngine_Vector34282066566MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Bounds2711641849.h"
+#include "UnityEngine_UnityEngine_Vector44282066567.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Arrays888870828.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Arrays888870828MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3019178762MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_DoubleBuffered_1_gen1741035424MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Subme1095166029MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen1435450047MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3019178762.h"
+#include "AssemblyU2DCSharp_Spine_Unity_DoubleBuffered_1_gen1741035424.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Subme1095166029.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen1435450047.h"
 #include "UnityEngine_UnityEngine_Material3870600107.h"
+#include "mscorlib_System_ArgumentNullException3573189601MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen723286955MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen4224666065MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_RegionAttachment2459988211MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_MeshAttachment3373030252MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Object3071478659MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen723286955.h"
+#include "mscorlib_System_Object4170816371.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Subme3643321593.h"
+#include "mscorlib_System_String7231557.h"
+#include "mscorlib_System_ArgumentNullException3573189601.h"
+#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen4224666065.h"
+#include "AssemblyU2DCSharp_Spine_AtlasRegion1137030501.h"
+#include "AssemblyU2DCSharp_Spine_AtlasPage3096131840.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_MeshAn234526394.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2415772704MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2415772704.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_ArraysM60517389.h"
+#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_MeshAn234526394MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Spine_Unity_SpineMesh1341370618MethodDeclarations.h"
+#include "mscorlib_System_Object4170816371MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2045020741.h"
 #include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2045020741MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_DoubleBuffered_1_gen834133753MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen1435450047MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2793983610MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_DoubleBuffered_1_gen834133753.h"
-#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen1435450047.h"
-#include "mscorlib_System_Single4291918972.h"
-#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_MeshAn234526394.h"
 #include "AssemblyU2DCSharp_Spine_Skeleton2209335561MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array1508871033MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Subme2454074797MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array1508871033.h"
-#include "AssemblyU2DCSharp_Spine_Skeleton2209335561.h"
-#include "AssemblyU2DCSharp_Spine_Slot1650993210.h"
-#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_ArraysM60517389.h"
-#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2793983610.h"
-#include "UnityEngine_UnityEngine_Vector34282066566MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Spine_ExposedList_1_gen3025925868.h"
-#include "mscorlib_ArrayTypes.h"
-#include "UnityEngine_UnityEngine_Bounds2711641849.h"
-#include "UnityEngine_UnityEngine_Vector44282066567.h"
-#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_MeshAn234526394MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Subme1095166029MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Subme3643321593MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Subme2454074797.h"
 #include "AssemblyU2DCSharp_Spine_Unity_Modules_AtlasRegionAt463209143.h"
@@ -347,22 +374,18 @@ struct Tile_t2606798;
 #include "AssemblyU2DCSharp_Spine_Unity_SkeletonRenderer3766155010.h"
 #include "UnityEngine_UnityEngine_Component3501516275.h"
 #include "AssemblyU2DCSharp_Spine_Unity_SkeletonRenderer_Ske1530399696.h"
-#include "mscorlib_System_Object4170816371.h"
 #include "mscorlib_System_IntPtr4010401971.h"
 #include "mscorlib_System_Delegate3310234105.h"
 #include "AssemblyU2DCSharp_Spine_Unity_AtlasAsset1266833143MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_AtlasAttachmentLoader384955783MethodDeclarations.h"
 #include "mscorlib_System_Array1146569071MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Spine_RegionAttachment2459988211MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_SkeletonExtensions924557843MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Slot1650993210MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_AtlasAttachmentLoader384955783.h"
 #include "AssemblyU2DCSharp_Spine_Unity_Modules_AtlasRegionAt202331861.h"
-#include "AssemblyU2DCSharp_Spine_RegionAttachment2459988211.h"
 #include "AssemblyU2DCSharp_Spine_Unity_AtlasAsset1266833143.h"
 #include "AssemblyU2DCSharp_Spine_Atlas361685585.h"
 #include "AssemblyU2DCSharp_Spine_Unity_SkeletonDataAsset2211567523.h"
-#include "mscorlib_System_String7231557.h"
 #include "AssemblyU2DCSharp_Spine_Skin1650992057.h"
 #include "UnityEngine_UnityEngine_Color4194546905.h"
 #include "UnityEngine_UnityEngine_Color4194546905MethodDeclarations.h"
@@ -588,14 +611,11 @@ struct Tile_t2606798;
 #include "mscorlib_System_Collections_Generic_Dictionary_2_g1134293740.h"
 #include "AssemblyU2DCSharp_Spine_AtlasRegion1137030501MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_AtlasPage3096131840MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Spine_AtlasRegion1137030501.h"
-#include "AssemblyU2DCSharp_Spine_AtlasPage3096131840.h"
 #include "UnityEngine_UnityEngine_Rect4241904616.h"
 #include "UnityEngine_UnityEngine_Texture2526458961.h"
 #include "UnityEngine_UnityEngine_Texture2526458961MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Rect4241904616MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_SpritePackingRotation1204540344.h"
-#include "AssemblyU2DCSharp_Spine_MeshAttachment3373030252.h"
 #include "AssemblyU2DCSharp_Spine_PathAttachment3159049124.h"
 #include "AssemblyU2DCSharp_Spine_Unity_SkeletonAnimation3721178561MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_TrackEntry1654022115MethodDeclarations.h"
@@ -642,7 +662,6 @@ struct Tile_t2606798;
 #include "mscorlib_System_IO_TextReader2148718976.h"
 #include "mscorlib_System_Exception3991598821MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_SkeletonExtensions924557843.h"
-#include "AssemblyU2DCSharp_Spine_MeshAttachment3373030252MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Matrix4x41651859333.h"
 #include "AssemblyU2DCSharp_Spine_Unity_SkeletonGraphic438418661.h"
 #include "AssemblyU2DCSharp_Spine_Unity_SkeletonGraphic438418661MethodDeclarations.h"
@@ -654,20 +673,15 @@ struct Tile_t2606798;
 #include "UnityEngine_UnityEngine_CanvasRenderer3950887807MethodDeclarations.h"
 #include "UnityEngine_UI_UnityEngine_UI_Graphic836799438.h"
 #include "UnityEngine_UnityEngine_CanvasRenderer3950887807.h"
-#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2506830120MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_Array2506830120.h"
 #include "UnityEngine_UnityEngine_Canvas2727140764MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Canvas2727140764.h"
-#include "mscorlib_System_Collections_Generic_List_1_gen3019178762MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_SkeletonRenderer_Smar629699354MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_ExposedList_1_gen950565469MethodDeclarations.h"
-#include "mscorlib_System_Collections_Generic_List_1_gen3019178762.h"
 #include "AssemblyU2DCSharp_Spine_ExposedList_1_gen950565469.h"
 #include "AssemblyU2DCSharp_Spine_Unity_DoubleBuffered_1_gen2301498939MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_DoubleBuffered_1_gen2301498939.h"
 #include "AssemblyU2DCSharp_Spine_Unity_MeshGeneration_ArraysM60517389MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_SkeletonRenderer_Sma2976236219.h"
-#include "AssemblyU2DCSharp_Spine_VertexAttachment2433703843.h"
 #include "mscorlib_System_AsyncCallback1369114871.h"
 #include "AssemblyU2DCSharp_Spine_Unity_SkeletonRenderer_Sma2976236219MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Spine_Unity_SkeletonUtility43096937.h"
@@ -865,6 +879,1237 @@ extern "C"  Il2CppObject * SkeletonUtility_GetInParent_TisIl2CppObject_m40393570
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void Spine.Unity.MeshGeneration.ArraysSimpleMeshGenerator::.ctor()
+extern Il2CppClass* DoubleBufferedMesh_t286773167_il2cpp_TypeInfo_var;
+extern const uint32_t ArraysSimpleMeshGenerator__ctor_m403445062_MetadataUsageId;
+extern "C"  void ArraysSimpleMeshGenerator__ctor_m403445062 (ArraysSimpleMeshGenerator_t2506830120 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ArraysSimpleMeshGenerator__ctor_m403445062_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		__this->set_scale_10((1.0f));
+		DoubleBufferedMesh_t286773167 * L_0 = (DoubleBufferedMesh_t286773167 *)il2cpp_codegen_object_new(DoubleBufferedMesh_t286773167_il2cpp_TypeInfo_var);
+		DoubleBufferedMesh__ctor_m819315002(L_0, /*hidden argument*/NULL);
+		__this->set_doubleBufferedMesh_12(L_0);
+		ArraysMeshGenerator__ctor_m2920990260(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Single Spine.Unity.MeshGeneration.ArraysSimpleMeshGenerator::get_Scale()
+extern "C"  float ArraysSimpleMeshGenerator_get_Scale_m3022077049 (ArraysSimpleMeshGenerator_t2506830120 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = __this->get_scale_10();
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.ArraysSimpleMeshGenerator::set_Scale(System.Single)
+extern "C"  void ArraysSimpleMeshGenerator_set_Scale_m1243602042 (ArraysSimpleMeshGenerator_t2506830120 * __this, float ___value0, const MethodInfo* method)
+{
+	{
+		float L_0 = ___value0;
+		__this->set_scale_10(L_0);
+		return;
+	}
+}
+// System.Single Spine.Unity.MeshGeneration.ArraysSimpleMeshGenerator::get_ZSpacing()
+extern "C"  float ArraysSimpleMeshGenerator_get_ZSpacing_m571452860 (ArraysSimpleMeshGenerator_t2506830120 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = __this->get_U3CZSpacingU3Ek__BackingField_14();
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.ArraysSimpleMeshGenerator::set_ZSpacing(System.Single)
+extern "C"  void ArraysSimpleMeshGenerator_set_ZSpacing_m3265026503 (ArraysSimpleMeshGenerator_t2506830120 * __this, float ___value0, const MethodInfo* method)
+{
+	{
+		float L_0 = ___value0;
+		__this->set_U3CZSpacingU3Ek__BackingField_14(L_0);
+		return;
+	}
+}
+// UnityEngine.Mesh Spine.Unity.MeshGeneration.ArraysSimpleMeshGenerator::get_LastGeneratedMesh()
+extern "C"  Mesh_t4241756145 * ArraysSimpleMeshGenerator_get_LastGeneratedMesh_m423171496 (ArraysSimpleMeshGenerator_t2506830120 * __this, const MethodInfo* method)
+{
+	{
+		Mesh_t4241756145 * L_0 = __this->get_lastGeneratedMesh_11();
+		return L_0;
+	}
+}
+// UnityEngine.Mesh Spine.Unity.MeshGeneration.ArraysSimpleMeshGenerator::GenerateMesh(Spine.Skeleton)
+extern Il2CppClass* RegionAttachment_t2459988211_il2cpp_TypeInfo_var;
+extern Il2CppClass* MeshAttachment_t3373030252_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32U5BU5D_t3230847821_il2cpp_TypeInfo_var;
+extern const uint32_t ArraysSimpleMeshGenerator_GenerateMesh_m2957036577_MetadataUsageId;
+extern "C"  Mesh_t4241756145 * ArraysSimpleMeshGenerator_GenerateMesh_m2957036577 (ArraysSimpleMeshGenerator_t2506830120 * __this, Skeleton_t2209335561 * ___skeleton0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ArraysSimpleMeshGenerator_GenerateMesh_m2957036577_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	SlotU5BU5D_t3107134879* V_2 = NULL;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	Slot_t1650993210 * V_5 = NULL;
+	Attachment_t2849733407 * V_6 = NULL;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	RegionAttachment_t2459988211 * V_9 = NULL;
+	MeshAttachment_t3373030252 * V_10 = NULL;
+	float V_11 = 0.0f;
+	Vector3_t4282066566  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	Vector3_t4282066566  V_13;
+	memset(&V_13, 0, sizeof(V_13));
+	int32_t V_14 = 0;
+	Vector3U5BU5D_t215400611* V_15 = NULL;
+	int32_t V_16 = 0;
+	Vector3_t4282066566  V_17;
+	memset(&V_17, 0, sizeof(V_17));
+	Mesh_t4241756145 * V_18 = NULL;
+	Int32U5BU5D_t3230847821* G_B11_0 = NULL;
+	ArraysSimpleMeshGenerator_t2506830120 * G_B11_1 = NULL;
+	Int32U5BU5D_t3230847821* G_B10_0 = NULL;
+	ArraysSimpleMeshGenerator_t2506830120 * G_B10_1 = NULL;
+	{
+		V_0 = 0;
+		V_1 = 0;
+		Skeleton_t2209335561 * L_0 = ___skeleton0;
+		NullCheck(L_0);
+		ExposedList_1_t3025925868 * L_1 = L_0->get_drawOrder_3();
+		NullCheck(L_1);
+		SlotU5BU5D_t3107134879* L_2 = L_1->get_Items_1();
+		V_2 = L_2;
+		Skeleton_t2209335561 * L_3 = ___skeleton0;
+		NullCheck(L_3);
+		ExposedList_1_t3025925868 * L_4 = L_3->get_drawOrder_3();
+		NullCheck(L_4);
+		int32_t L_5 = L_4->get_Count_2();
+		V_3 = L_5;
+		V_4 = 0;
+		goto IL_008e;
+	}
+
+IL_0024:
+	{
+		SlotU5BU5D_t3107134879* L_6 = V_2;
+		int32_t L_7 = V_4;
+		NullCheck(L_6);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, L_7);
+		int32_t L_8 = L_7;
+		Slot_t1650993210 * L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		V_5 = L_9;
+		Slot_t1650993210 * L_10 = V_5;
+		NullCheck(L_10);
+		Attachment_t2849733407 * L_11 = L_10->get_attachment_6();
+		V_6 = L_11;
+		Attachment_t2849733407 * L_12 = V_6;
+		V_9 = ((RegionAttachment_t2459988211 *)IsInstClass(L_12, RegionAttachment_t2459988211_il2cpp_TypeInfo_var));
+		RegionAttachment_t2459988211 * L_13 = V_9;
+		if (!L_13)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		V_7 = 4;
+		V_8 = 6;
+		goto IL_007e;
+	}
+
+IL_004e:
+	{
+		Attachment_t2849733407 * L_14 = V_6;
+		V_10 = ((MeshAttachment_t3373030252 *)IsInstClass(L_14, MeshAttachment_t3373030252_il2cpp_TypeInfo_var));
+		MeshAttachment_t3373030252 * L_15 = V_10;
+		if (!L_15)
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		MeshAttachment_t3373030252 * L_16 = V_10;
+		NullCheck(L_16);
+		int32_t L_17 = ((VertexAttachment_t2433703843 *)L_16)->get_worldVerticesLength_3();
+		V_7 = ((int32_t)((int32_t)L_17>>(int32_t)1));
+		MeshAttachment_t3373030252 * L_18 = V_10;
+		NullCheck(L_18);
+		Int32U5BU5D_t3230847821* L_19 = L_18->get_triangles_12();
+		NullCheck(L_19);
+		V_8 = (((int32_t)((int32_t)(((Il2CppArray *)L_19)->max_length))));
+		goto IL_007e;
+	}
+
+IL_0079:
+	{
+		goto IL_0088;
+	}
+
+IL_007e:
+	{
+		int32_t L_20 = V_1;
+		int32_t L_21 = V_8;
+		V_1 = ((int32_t)((int32_t)L_20+(int32_t)L_21));
+		int32_t L_22 = V_0;
+		int32_t L_23 = V_7;
+		V_0 = ((int32_t)((int32_t)L_22+(int32_t)L_23));
+	}
+
+IL_0088:
+	{
+		int32_t L_24 = V_4;
+		V_4 = ((int32_t)((int32_t)L_24+(int32_t)1));
+	}
+
+IL_008e:
+	{
+		int32_t L_25 = V_4;
+		int32_t L_26 = V_3;
+		if ((((int32_t)L_25) < ((int32_t)L_26)))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		int32_t L_27 = V_0;
+		Vector3U5BU5D_t215400611** L_28 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_meshVertices_3();
+		Vector2U5BU5D_t4024180168** L_29 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_meshUVs_5();
+		Color32U5BU5D_t2960766953** L_30 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_meshColors32_4();
+		ArraysMeshGenerator_EnsureSize_m2934786490(NULL /*static, unused*/, L_27, L_28, L_29, L_30, /*hidden argument*/NULL);
+		Int32U5BU5D_t3230847821* L_31 = __this->get_triangles_13();
+		Int32U5BU5D_t3230847821* L_32 = L_31;
+		G_B10_0 = L_32;
+		G_B10_1 = __this;
+		if (L_32)
+		{
+			G_B11_0 = L_32;
+			G_B11_1 = __this;
+			goto IL_00c3;
+		}
+	}
+	{
+		int32_t L_33 = V_1;
+		G_B11_0 = ((Int32U5BU5D_t3230847821*)SZArrayNew(Int32U5BU5D_t3230847821_il2cpp_TypeInfo_var, (uint32_t)L_33));
+		G_B11_1 = G_B10_1;
+	}
+
+IL_00c3:
+	{
+		NullCheck(G_B11_1);
+		G_B11_1->set_triangles_13(G_B11_0);
+		int32_t L_34 = V_0;
+		if (L_34)
+		{
+			goto IL_00ff;
+		}
+	}
+	{
+		Vector3__ctor_m2926210380((&V_12), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380((&V_13), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		goto IL_0241;
+	}
+
+IL_00ff:
+	{
+		(&V_12)->set_x_1((2.14748365E+09f));
+		(&V_12)->set_y_2((2.14748365E+09f));
+		(&V_13)->set_x_1((-2.14748365E+09f));
+		(&V_13)->set_y_2((-2.14748365E+09f));
+		float L_35 = __this->get_scale_10();
+		(&V_12)->set_z_3(((float)((float)(-0.01f)*(float)L_35)));
+		float L_36 = __this->get_scale_10();
+		(&V_13)->set_z_3(((float)((float)(0.01f)*(float)L_36)));
+		V_14 = 0;
+		Skeleton_t2209335561 * L_37 = ___skeleton0;
+		int32_t L_38 = V_3;
+		float L_39 = ArraysSimpleMeshGenerator_get_ZSpacing_m571452860(__this, /*hidden argument*/NULL);
+		bool L_40 = ArraysMeshGenerator_get_PremultiplyVertexColors_m2173277072(__this, /*hidden argument*/NULL);
+		Vector3U5BU5D_t215400611* L_41 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshVertices_3();
+		Vector2U5BU5D_t4024180168* L_42 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshUVs_5();
+		Color32U5BU5D_t2960766953* L_43 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshColors32_4();
+		SingleU5BU5D_t2316563989** L_44 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_attachmentVertexBuffer_2();
+		ArraysMeshGenerator_FillVerts_m2669771114(NULL /*static, unused*/, L_37, 0, L_38, L_39, L_40, L_41, L_42, L_43, (&V_14), L_44, (&V_12), (&V_13), (bool)1, /*hidden argument*/NULL);
+		Vector3_t4282066566 * L_45 = (&V_13);
+		float L_46 = L_45->get_x_1();
+		float L_47 = __this->get_scale_10();
+		L_45->set_x_1(((float)((float)L_46*(float)L_47)));
+		Vector3_t4282066566 * L_48 = (&V_13);
+		float L_49 = L_48->get_y_2();
+		float L_50 = __this->get_scale_10();
+		L_48->set_y_2(((float)((float)L_49*(float)L_50)));
+		Vector3_t4282066566 * L_51 = (&V_12);
+		float L_52 = L_51->get_x_1();
+		float L_53 = __this->get_scale_10();
+		L_51->set_x_1(((float)((float)L_52*(float)L_53)));
+		Vector3_t4282066566 * L_54 = (&V_13);
+		float L_55 = L_54->get_y_2();
+		float L_56 = __this->get_scale_10();
+		L_54->set_y_2(((float)((float)L_55*(float)L_56)));
+		Vector3U5BU5D_t215400611* L_57 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshVertices_3();
+		V_15 = L_57;
+		V_16 = 0;
+		goto IL_0239;
+	}
+
+IL_01eb:
+	{
+		Vector3U5BU5D_t215400611* L_58 = V_15;
+		int32_t L_59 = V_16;
+		NullCheck(L_58);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_58, L_59);
+		V_17 = (*(Vector3_t4282066566 *)((L_58)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_59))));
+		Vector3_t4282066566 * L_60 = (&V_17);
+		float L_61 = L_60->get_x_1();
+		float L_62 = __this->get_scale_10();
+		L_60->set_x_1(((float)((float)L_61*(float)L_62)));
+		Vector3_t4282066566 * L_63 = (&V_17);
+		float L_64 = L_63->get_y_2();
+		float L_65 = __this->get_scale_10();
+		L_63->set_y_2(((float)((float)L_64*(float)L_65)));
+		Vector3U5BU5D_t215400611* L_66 = V_15;
+		int32_t L_67 = V_16;
+		NullCheck(L_66);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_66, L_67);
+		Vector3_t4282066566  L_68 = V_17;
+		(*(Vector3_t4282066566 *)((L_66)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_67)))) = L_68;
+		int32_t L_69 = V_16;
+		V_16 = ((int32_t)((int32_t)L_69+(int32_t)1));
+	}
+
+IL_0239:
+	{
+		int32_t L_70 = V_16;
+		int32_t L_71 = V_0;
+		if ((((int32_t)L_70) < ((int32_t)L_71)))
+		{
+			goto IL_01eb;
+		}
+	}
+
+IL_0241:
+	{
+		Int32U5BU5D_t3230847821** L_72 = __this->get_address_of_triangles_13();
+		Skeleton_t2209335561 * L_73 = ___skeleton0;
+		int32_t L_74 = V_1;
+		int32_t L_75 = V_3;
+		ArraysMeshGenerator_FillTriangles_m877837554(NULL /*static, unused*/, L_72, L_73, L_74, 0, 0, L_75, (bool)1, /*hidden argument*/NULL);
+		DoubleBufferedMesh_t286773167 * L_76 = __this->get_doubleBufferedMesh_12();
+		NullCheck(L_76);
+		Mesh_t4241756145 * L_77 = DoubleBufferedMesh_GetNextMesh_m1008289941(L_76, /*hidden argument*/NULL);
+		V_18 = L_77;
+		Mesh_t4241756145 * L_78 = V_18;
+		Vector3U5BU5D_t215400611* L_79 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshVertices_3();
+		NullCheck(L_78);
+		Mesh_set_vertices_m2628866109(L_78, L_79, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_80 = V_18;
+		Color32U5BU5D_t2960766953* L_81 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshColors32_4();
+		NullCheck(L_80);
+		Mesh_set_colors32_m119130293(L_80, L_81, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_82 = V_18;
+		Vector2U5BU5D_t4024180168* L_83 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshUVs_5();
+		NullCheck(L_82);
+		Mesh_set_uv_m498907190(L_82, L_83, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_84 = V_18;
+		Vector3_t4282066566  L_85 = V_12;
+		Vector3_t4282066566  L_86 = V_13;
+		Bounds_t2711641849  L_87 = ArraysMeshGenerator_ToBounds_m1571046811(NULL /*static, unused*/, L_85, L_86, /*hidden argument*/NULL);
+		NullCheck(L_84);
+		Mesh_set_bounds_m1860910602(L_84, L_87, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_88 = V_18;
+		Int32U5BU5D_t3230847821* L_89 = __this->get_triangles_13();
+		NullCheck(L_88);
+		Mesh_set_triangles_m2341339867(L_88, L_89, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_90 = V_18;
+		int32_t L_91 = V_0;
+		ArraysMeshGenerator_TryAddNormalsTo_m3347834056(__this, L_90, L_91, /*hidden argument*/NULL);
+		bool L_92 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_addTangents_1();
+		if (!L_92)
+		{
+			goto IL_02fa;
+		}
+	}
+	{
+		Vector4U5BU5D_t701588350** L_93 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_meshTangents_7();
+		Vector2U5BU5D_t4024180168** L_94 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_tempTanBuffer_8();
+		int32_t L_95 = V_0;
+		ArraysMeshGenerator_SolveTangents2DEnsureSize_m4137525859(NULL /*static, unused*/, L_93, L_94, L_95, /*hidden argument*/NULL);
+		Vector2U5BU5D_t4024180168* L_96 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_tempTanBuffer_8();
+		Int32U5BU5D_t3230847821* L_97 = __this->get_triangles_13();
+		int32_t L_98 = V_1;
+		Vector3U5BU5D_t215400611* L_99 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshVertices_3();
+		Vector2U5BU5D_t4024180168* L_100 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshUVs_5();
+		int32_t L_101 = V_0;
+		ArraysMeshGenerator_SolveTangents2DTriangles_m3522333974(NULL /*static, unused*/, L_96, L_97, L_98, L_99, L_100, L_101, /*hidden argument*/NULL);
+		Vector4U5BU5D_t701588350* L_102 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshTangents_7();
+		Vector2U5BU5D_t4024180168* L_103 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_tempTanBuffer_8();
+		int32_t L_104 = V_0;
+		ArraysMeshGenerator_SolveTangents2DBuffer_m3725871264(NULL /*static, unused*/, L_102, L_103, L_104, /*hidden argument*/NULL);
+	}
+
+IL_02fa:
+	{
+		Mesh_t4241756145 * L_105 = V_18;
+		__this->set_lastGeneratedMesh_11(L_105);
+		Mesh_t4241756145 * L_106 = V_18;
+		return L_106;
+	}
+}
+// System.Boolean Spine.Unity.MeshGeneration.ArraysSimpleMeshGenerator::Spine.Unity.MeshGeneration.ISimpleMeshGenerator.get_AddNormals()
+extern "C"  bool ArraysSimpleMeshGenerator_Spine_Unity_MeshGeneration_ISimpleMeshGenerator_get_AddNormals_m2082631140 (ArraysSimpleMeshGenerator_t2506830120 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = ArraysMeshGenerator_get_AddNormals_m1870987416(__this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.ArraysSimpleMeshGenerator::Spine.Unity.MeshGeneration.ISimpleMeshGenerator.set_AddNormals(System.Boolean)
+extern "C"  void ArraysSimpleMeshGenerator_Spine_Unity_MeshGeneration_ISimpleMeshGenerator_set_AddNormals_m819256091 (ArraysSimpleMeshGenerator_t2506830120 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		ArraysMeshGenerator_set_AddNormals_m42095567(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Spine.Unity.MeshGeneration.ArraysSimpleMeshGenerator::Spine.Unity.MeshGeneration.ISimpleMeshGenerator.get_AddTangents()
+extern "C"  bool ArraysSimpleMeshGenerator_Spine_Unity_MeshGeneration_ISimpleMeshGenerator_get_AddTangents_m3492604856 (ArraysSimpleMeshGenerator_t2506830120 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = ArraysMeshGenerator_get_AddTangents_m1226616708(__this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.ArraysSimpleMeshGenerator::Spine.Unity.MeshGeneration.ISimpleMeshGenerator.set_AddTangents(System.Boolean)
+extern "C"  void ArraysSimpleMeshGenerator_Spine_Unity_MeshGeneration_ISimpleMeshGenerator_set_AddTangents_m942129263 (ArraysSimpleMeshGenerator_t2506830120 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		ArraysMeshGenerator_set_AddTangents_m2619956795(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator::.ctor()
+extern Il2CppClass* List_1_t3019178762_il2cpp_TypeInfo_var;
+extern Il2CppClass* DoubleBuffered_1_t1741035424_il2cpp_TypeInfo_var;
+extern Il2CppClass* SubmeshedMeshInstruction_t1095166029_il2cpp_TypeInfo_var;
+extern Il2CppClass* ExposedList_1_t1435450047_il2cpp_TypeInfo_var;
+extern Il2CppClass* MaterialU5BU5D_t170856778_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2097807316_MethodInfo_var;
+extern const MethodInfo* DoubleBuffered_1__ctor_m1535401750_MethodInfo_var;
+extern const MethodInfo* ExposedList_1__ctor_m875623890_MethodInfo_var;
+extern const uint32_t ArraysSubmeshedMeshGenerator__ctor_m2684094482_MetadataUsageId;
+extern "C"  void ArraysSubmeshedMeshGenerator__ctor_m2684094482 (ArraysSubmeshedMeshGenerator_t888870828 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ArraysSubmeshedMeshGenerator__ctor_m2684094482_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		List_1_t3019178762 * L_0 = (List_1_t3019178762 *)il2cpp_codegen_object_new(List_1_t3019178762_il2cpp_TypeInfo_var);
+		List_1__ctor_m2097807316(L_0, /*hidden argument*/List_1__ctor_m2097807316_MethodInfo_var);
+		__this->set_separators_10(L_0);
+		DoubleBuffered_1_t1741035424 * L_1 = (DoubleBuffered_1_t1741035424 *)il2cpp_codegen_object_new(DoubleBuffered_1_t1741035424_il2cpp_TypeInfo_var);
+		DoubleBuffered_1__ctor_m1535401750(L_1, /*hidden argument*/DoubleBuffered_1__ctor_m1535401750_MethodInfo_var);
+		__this->set_doubleBufferedSmartMesh_11(L_1);
+		SubmeshedMeshInstruction_t1095166029 * L_2 = (SubmeshedMeshInstruction_t1095166029 *)il2cpp_codegen_object_new(SubmeshedMeshInstruction_t1095166029_il2cpp_TypeInfo_var);
+		SubmeshedMeshInstruction__ctor_m644485265(L_2, /*hidden argument*/NULL);
+		__this->set_currentInstructions_12(L_2);
+		ExposedList_1_t1435450047 * L_3 = (ExposedList_1_t1435450047 *)il2cpp_codegen_object_new(ExposedList_1_t1435450047_il2cpp_TypeInfo_var);
+		ExposedList_1__ctor_m875623890(L_3, /*hidden argument*/ExposedList_1__ctor_m875623890_MethodInfo_var);
+		__this->set_submeshBuffers_13(L_3);
+		__this->set_sharedMaterials_14(((MaterialU5BU5D_t170856778*)SZArrayNew(MaterialU5BU5D_t170856778_il2cpp_TypeInfo_var, (uint32_t)0)));
+		ArraysMeshGenerator__ctor_m2920990260(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.Generic.List`1<Spine.Slot> Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator::get_Separators()
+extern "C"  List_1_t3019178762 * ArraysSubmeshedMeshGenerator_get_Separators_m2673055213 (ArraysSubmeshedMeshGenerator_t888870828 * __this, const MethodInfo* method)
+{
+	{
+		List_1_t3019178762 * L_0 = __this->get_separators_10();
+		return L_0;
+	}
+}
+// System.Single Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator::get_ZSpacing()
+extern "C"  float ArraysSubmeshedMeshGenerator_get_ZSpacing_m1873628248 (ArraysSubmeshedMeshGenerator_t888870828 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = __this->get_U3CZSpacingU3Ek__BackingField_15();
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator::set_ZSpacing(System.Single)
+extern "C"  void ArraysSubmeshedMeshGenerator_set_ZSpacing_m2667769491 (ArraysSubmeshedMeshGenerator_t888870828 * __this, float ___value0, const MethodInfo* method)
+{
+	{
+		float L_0 = ___value0;
+		__this->set_U3CZSpacingU3Ek__BackingField_15(L_0);
+		return;
+	}
+}
+// Spine.Unity.MeshGeneration.SubmeshedMeshInstruction Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator::GenerateInstruction(Spine.Skeleton)
+extern Il2CppClass* ArgumentNullException_t3573189601_il2cpp_TypeInfo_var;
+extern Il2CppClass* RegionAttachment_t2459988211_il2cpp_TypeInfo_var;
+extern Il2CppClass* MeshAttachment_t3373030252_il2cpp_TypeInfo_var;
+extern Il2CppClass* AtlasRegion_t1137030501_il2cpp_TypeInfo_var;
+extern Il2CppClass* Material_t3870600107_il2cpp_TypeInfo_var;
+extern Il2CppClass* SubmeshInstruction_t3643321593_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m330666598_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Clear_m527332973_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Clear_m1335215477_MethodInfo_var;
+extern const MethodInfo* List_1_Contains_m2384215756_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Add_m3711082452_MethodInfo_var;
+extern const MethodInfo* ExposedList_1_Add_m1049108940_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2027747405;
+extern const uint32_t ArraysSubmeshedMeshGenerator_GenerateInstruction_m3266074122_MetadataUsageId;
+extern "C"  SubmeshedMeshInstruction_t1095166029 * ArraysSubmeshedMeshGenerator_GenerateInstruction_m3266074122 (ArraysSubmeshedMeshGenerator_t888870828 * __this, Skeleton_t2209335561 * ___skeleton0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ArraysSubmeshedMeshGenerator_GenerateInstruction_m3266074122_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	Material_t3870600107 * V_5 = NULL;
+	ExposedList_1_t3025925868 * V_6 = NULL;
+	SlotU5BU5D_t3107134879* V_7 = NULL;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	ExposedList_1_t723286955 * V_10 = NULL;
+	int32_t V_11 = 0;
+	Slot_t1650993210 * V_12 = NULL;
+	Attachment_t2849733407 * V_13 = NULL;
+	Il2CppObject * V_14 = NULL;
+	int32_t V_15 = 0;
+	int32_t V_16 = 0;
+	RegionAttachment_t2459988211 * V_17 = NULL;
+	MeshAttachment_t3373030252 * V_18 = NULL;
+	Material_t3870600107 * V_19 = NULL;
+	bool V_20 = false;
+	SubmeshInstruction_t3643321593  V_21;
+	memset(&V_21, 0, sizeof(V_21));
+	SubmeshInstruction_t3643321593  V_22;
+	memset(&V_22, 0, sizeof(V_22));
+	int32_t G_B11_0 = 0;
+	{
+		Skeleton_t2209335561 * L_0 = ___skeleton0;
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		ArgumentNullException_t3573189601 * L_1 = (ArgumentNullException_t3573189601 *)il2cpp_codegen_object_new(ArgumentNullException_t3573189601_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m135444188(L_1, _stringLiteral2027747405, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0011:
+	{
+		V_0 = 0;
+		V_1 = 0;
+		V_2 = 0;
+		V_3 = 0;
+		V_4 = 0;
+		V_5 = (Material_t3870600107 *)NULL;
+		Skeleton_t2209335561 * L_2 = ___skeleton0;
+		NullCheck(L_2);
+		ExposedList_1_t3025925868 * L_3 = L_2->get_drawOrder_3();
+		V_6 = L_3;
+		ExposedList_1_t3025925868 * L_4 = V_6;
+		NullCheck(L_4);
+		SlotU5BU5D_t3107134879* L_5 = L_4->get_Items_1();
+		V_7 = L_5;
+		ExposedList_1_t3025925868 * L_6 = V_6;
+		NullCheck(L_6);
+		int32_t L_7 = L_6->get_Count_2();
+		V_8 = L_7;
+		List_1_t3019178762 * L_8 = __this->get_separators_10();
+		NullCheck(L_8);
+		int32_t L_9 = List_1_get_Count_m330666598(L_8, /*hidden argument*/List_1_get_Count_m330666598_MethodInfo_var);
+		V_9 = L_9;
+		SubmeshedMeshInstruction_t1095166029 * L_10 = __this->get_currentInstructions_12();
+		NullCheck(L_10);
+		ExposedList_1_t723286955 * L_11 = L_10->get_submeshInstructions_0();
+		V_10 = L_11;
+		ExposedList_1_t723286955 * L_12 = V_10;
+		NullCheck(L_12);
+		ExposedList_1_Clear_m527332973(L_12, (bool)0, /*hidden argument*/ExposedList_1_Clear_m527332973_MethodInfo_var);
+		SubmeshedMeshInstruction_t1095166029 * L_13 = __this->get_currentInstructions_12();
+		NullCheck(L_13);
+		ExposedList_1_t4224666065 * L_14 = L_13->get_attachmentList_1();
+		NullCheck(L_14);
+		ExposedList_1_Clear_m1335215477(L_14, (bool)0, /*hidden argument*/ExposedList_1_Clear_m1335215477_MethodInfo_var);
+		V_11 = 0;
+		goto IL_01be;
+	}
+
+IL_0074:
+	{
+		SlotU5BU5D_t3107134879* L_15 = V_7;
+		int32_t L_16 = V_11;
+		NullCheck(L_15);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_15, L_16);
+		int32_t L_17 = L_16;
+		Slot_t1650993210 * L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		V_12 = L_18;
+		Slot_t1650993210 * L_19 = V_12;
+		NullCheck(L_19);
+		Attachment_t2849733407 * L_20 = L_19->get_attachment_6();
+		V_13 = L_20;
+		Attachment_t2849733407 * L_21 = V_13;
+		V_17 = ((RegionAttachment_t2459988211 *)IsInstClass(L_21, RegionAttachment_t2459988211_il2cpp_TypeInfo_var));
+		RegionAttachment_t2459988211 * L_22 = V_17;
+		if (!L_22)
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		RegionAttachment_t2459988211 * L_23 = V_17;
+		NullCheck(L_23);
+		Il2CppObject * L_24 = RegionAttachment_get_RendererObject_m2849547211(L_23, /*hidden argument*/NULL);
+		V_14 = L_24;
+		V_15 = 4;
+		V_16 = 6;
+		goto IL_00e1;
+	}
+
+IL_00a8:
+	{
+		Attachment_t2849733407 * L_25 = V_13;
+		V_18 = ((MeshAttachment_t3373030252 *)IsInstClass(L_25, MeshAttachment_t3373030252_il2cpp_TypeInfo_var));
+		MeshAttachment_t3373030252 * L_26 = V_18;
+		if (!L_26)
+		{
+			goto IL_00dc;
+		}
+	}
+	{
+		MeshAttachment_t3373030252 * L_27 = V_18;
+		NullCheck(L_27);
+		Il2CppObject * L_28 = MeshAttachment_get_RendererObject_m2766987460(L_27, /*hidden argument*/NULL);
+		V_14 = L_28;
+		MeshAttachment_t3373030252 * L_29 = V_18;
+		NullCheck(L_29);
+		int32_t L_30 = ((VertexAttachment_t2433703843 *)L_29)->get_worldVerticesLength_3();
+		V_15 = ((int32_t)((int32_t)L_30>>(int32_t)1));
+		MeshAttachment_t3373030252 * L_31 = V_18;
+		NullCheck(L_31);
+		Int32U5BU5D_t3230847821* L_32 = L_31->get_triangles_12();
+		NullCheck(L_32);
+		V_16 = (((int32_t)((int32_t)(((Il2CppArray *)L_32)->max_length))));
+		goto IL_00e1;
+	}
+
+IL_00dc:
+	{
+		goto IL_01b8;
+	}
+
+IL_00e1:
+	{
+		Il2CppObject * L_33 = V_14;
+		NullCheck(((AtlasRegion_t1137030501 *)CastclassClass(L_33, AtlasRegion_t1137030501_il2cpp_TypeInfo_var)));
+		AtlasPage_t3096131840 * L_34 = ((AtlasRegion_t1137030501 *)CastclassClass(L_33, AtlasRegion_t1137030501_il2cpp_TypeInfo_var))->get_page_0();
+		NullCheck(L_34);
+		Il2CppObject * L_35 = L_34->get_rendererObject_6();
+		V_19 = ((Material_t3870600107 *)CastclassClass(L_35, Material_t3870600107_il2cpp_TypeInfo_var));
+		int32_t L_36 = V_9;
+		if ((((int32_t)L_36) <= ((int32_t)0)))
+		{
+			goto IL_0110;
+		}
+	}
+	{
+		List_1_t3019178762 * L_37 = __this->get_separators_10();
+		Slot_t1650993210 * L_38 = V_12;
+		NullCheck(L_37);
+		bool L_39 = List_1_Contains_m2384215756(L_37, L_38, /*hidden argument*/List_1_Contains_m2384215756_MethodInfo_var);
+		G_B11_0 = ((int32_t)(L_39));
+		goto IL_0111;
+	}
+
+IL_0110:
+	{
+		G_B11_0 = 0;
+	}
+
+IL_0111:
+	{
+		V_20 = (bool)G_B11_0;
+		int32_t L_40 = V_0;
+		if ((((int32_t)L_40) <= ((int32_t)0)))
+		{
+			goto IL_012d;
+		}
+	}
+	{
+		Material_t3870600107 * L_41 = V_5;
+		NullCheck(L_41);
+		int32_t L_42 = Object_GetInstanceID_m200424466(L_41, /*hidden argument*/NULL);
+		Material_t3870600107 * L_43 = V_19;
+		NullCheck(L_43);
+		int32_t L_44 = Object_GetInstanceID_m200424466(L_43, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_42) == ((uint32_t)L_44))))
+		{
+			goto IL_0134;
+		}
+	}
+
+IL_012d:
+	{
+		bool L_45 = V_20;
+		if (!L_45)
+		{
+			goto IL_0193;
+		}
+	}
+
+IL_0134:
+	{
+		ExposedList_1_t723286955 * L_46 = V_10;
+		Initobj (SubmeshInstruction_t3643321593_il2cpp_TypeInfo_var, (&V_21));
+		Skeleton_t2209335561 * L_47 = ___skeleton0;
+		(&V_21)->set_skeleton_0(L_47);
+		Material_t3870600107 * L_48 = V_5;
+		(&V_21)->set_material_3(L_48);
+		int32_t L_49 = V_1;
+		(&V_21)->set_triangleCount_4(L_49);
+		int32_t L_50 = V_3;
+		(&V_21)->set_vertexCount_5(L_50);
+		int32_t L_51 = V_4;
+		(&V_21)->set_startSlot_1(L_51);
+		int32_t L_52 = V_11;
+		(&V_21)->set_endSlot_2(L_52);
+		int32_t L_53 = V_2;
+		(&V_21)->set_firstVertexIndex_6(L_53);
+		bool L_54 = V_20;
+		(&V_21)->set_forceSeparate_7(L_54);
+		SubmeshInstruction_t3643321593  L_55 = V_21;
+		NullCheck(L_46);
+		ExposedList_1_Add_m3711082452(L_46, L_55, /*hidden argument*/ExposedList_1_Add_m3711082452_MethodInfo_var);
+		V_1 = 0;
+		V_3 = 0;
+		int32_t L_56 = V_0;
+		V_2 = L_56;
+		int32_t L_57 = V_11;
+		V_4 = L_57;
+	}
+
+IL_0193:
+	{
+		Material_t3870600107 * L_58 = V_19;
+		V_5 = L_58;
+		int32_t L_59 = V_1;
+		int32_t L_60 = V_16;
+		V_1 = ((int32_t)((int32_t)L_59+(int32_t)L_60));
+		int32_t L_61 = V_3;
+		int32_t L_62 = V_15;
+		V_3 = ((int32_t)((int32_t)L_61+(int32_t)L_62));
+		int32_t L_63 = V_0;
+		int32_t L_64 = V_15;
+		V_0 = ((int32_t)((int32_t)L_63+(int32_t)L_64));
+		SubmeshedMeshInstruction_t1095166029 * L_65 = __this->get_currentInstructions_12();
+		NullCheck(L_65);
+		ExposedList_1_t4224666065 * L_66 = L_65->get_attachmentList_1();
+		Attachment_t2849733407 * L_67 = V_13;
+		NullCheck(L_66);
+		ExposedList_1_Add_m1049108940(L_66, L_67, /*hidden argument*/ExposedList_1_Add_m1049108940_MethodInfo_var);
+	}
+
+IL_01b8:
+	{
+		int32_t L_68 = V_11;
+		V_11 = ((int32_t)((int32_t)L_68+(int32_t)1));
+	}
+
+IL_01be:
+	{
+		int32_t L_69 = V_11;
+		int32_t L_70 = V_8;
+		if ((((int32_t)L_69) < ((int32_t)L_70)))
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		ExposedList_1_t723286955 * L_71 = V_10;
+		Initobj (SubmeshInstruction_t3643321593_il2cpp_TypeInfo_var, (&V_22));
+		Skeleton_t2209335561 * L_72 = ___skeleton0;
+		(&V_22)->set_skeleton_0(L_72);
+		Material_t3870600107 * L_73 = V_5;
+		(&V_22)->set_material_3(L_73);
+		int32_t L_74 = V_1;
+		(&V_22)->set_triangleCount_4(L_74);
+		int32_t L_75 = V_3;
+		(&V_22)->set_vertexCount_5(L_75);
+		int32_t L_76 = V_4;
+		(&V_22)->set_startSlot_1(L_76);
+		int32_t L_77 = V_8;
+		(&V_22)->set_endSlot_2(L_77);
+		int32_t L_78 = V_2;
+		(&V_22)->set_firstVertexIndex_6(L_78);
+		(&V_22)->set_forceSeparate_7((bool)0);
+		SubmeshInstruction_t3643321593  L_79 = V_22;
+		NullCheck(L_71);
+		ExposedList_1_Add_m3711082452(L_71, L_79, /*hidden argument*/ExposedList_1_Add_m3711082452_MethodInfo_var);
+		SubmeshedMeshInstruction_t1095166029 * L_80 = __this->get_currentInstructions_12();
+		int32_t L_81 = V_0;
+		NullCheck(L_80);
+		L_80->set_vertexCount_2(L_81);
+		SubmeshedMeshInstruction_t1095166029 * L_82 = __this->get_currentInstructions_12();
+		return L_82;
+	}
+}
+// Spine.Unity.MeshGeneration.MeshAndMaterials Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator::GenerateMesh(Spine.Unity.MeshGeneration.SubmeshedMeshInstruction)
+extern const MethodInfo* DoubleBuffered_1_GetNext_m1082418524_MethodInfo_var;
+extern const uint32_t ArraysSubmeshedMeshGenerator_GenerateMesh_m3660468752_MetadataUsageId;
+extern "C"  MeshAndMaterials_t234526394  ArraysSubmeshedMeshGenerator_GenerateMesh_m3660468752 (ArraysSubmeshedMeshGenerator_t888870828 * __this, SubmeshedMeshInstruction_t1095166029 * ___meshInstructions0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ArraysSubmeshedMeshGenerator_GenerateMesh_m3660468752_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	SmartMesh_t2415772704 * V_0 = NULL;
+	Mesh_t4241756145 * V_1 = NULL;
+	int32_t V_2 = 0;
+	ExposedList_1_t723286955 * V_3 = NULL;
+	int32_t V_4 = 0;
+	bool V_5 = false;
+	bool V_6 = false;
+	Vector3U5BU5D_t215400611* V_7 = NULL;
+	float V_8 = 0.0f;
+	Vector3_t4282066566  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	Vector3_t4282066566  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	int32_t V_14 = 0;
+	SubmeshInstruction_t3643321593  V_15;
+	memset(&V_15, 0, sizeof(V_15));
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	Skeleton_t2209335561 * V_18 = NULL;
+	SubmeshTriangleBuffer_t60517389 * V_19 = NULL;
+	bool V_20 = false;
+	int32_t V_21 = 0;
+	int32_t V_22 = 0;
+	int32_t V_23 = 0;
+	SubmeshTriangleBuffer_t60517389 * V_24 = NULL;
+	int32_t G_B9_0 = 0;
+	{
+		DoubleBuffered_1_t1741035424 * L_0 = __this->get_doubleBufferedSmartMesh_11();
+		NullCheck(L_0);
+		SmartMesh_t2415772704 * L_1 = DoubleBuffered_1_GetNext_m1082418524(L_0, /*hidden argument*/DoubleBuffered_1_GetNext_m1082418524_MethodInfo_var);
+		V_0 = L_1;
+		SmartMesh_t2415772704 * L_2 = V_0;
+		NullCheck(L_2);
+		Mesh_t4241756145 * L_3 = L_2->get_mesh_0();
+		V_1 = L_3;
+		SubmeshedMeshInstruction_t1095166029 * L_4 = ___meshInstructions0;
+		NullCheck(L_4);
+		ExposedList_1_t723286955 * L_5 = L_4->get_submeshInstructions_0();
+		NullCheck(L_5);
+		int32_t L_6 = L_5->get_Count_2();
+		V_2 = L_6;
+		SubmeshedMeshInstruction_t1095166029 * L_7 = ___meshInstructions0;
+		NullCheck(L_7);
+		ExposedList_1_t723286955 * L_8 = L_7->get_submeshInstructions_0();
+		V_3 = L_8;
+		SubmeshedMeshInstruction_t1095166029 * L_9 = ___meshInstructions0;
+		NullCheck(L_9);
+		int32_t L_10 = L_9->get_vertexCount_2();
+		V_4 = L_10;
+		ExposedList_1_t1435450047 * L_11 = __this->get_submeshBuffers_13();
+		int32_t L_12 = V_2;
+		ExposedList_1_t723286955 * L_13 = V_3;
+		NullCheck(L_13);
+		SubmeshInstructionU5BU5D_t2859174660* L_14 = L_13->get_Items_1();
+		bool L_15 = ArraysMeshGenerator_EnsureTriangleBuffersSize_m2273925646(NULL /*static, unused*/, L_11, L_12, L_14, /*hidden argument*/NULL);
+		V_5 = L_15;
+		int32_t L_16 = V_4;
+		Vector3U5BU5D_t215400611** L_17 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_meshVertices_3();
+		Vector2U5BU5D_t4024180168** L_18 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_meshUVs_5();
+		Color32U5BU5D_t2960766953** L_19 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_meshColors32_4();
+		bool L_20 = ArraysMeshGenerator_EnsureSize_m2934786490(NULL /*static, unused*/, L_16, L_17, L_18, L_19, /*hidden argument*/NULL);
+		V_6 = L_20;
+		Vector3U5BU5D_t215400611* L_21 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshVertices_3();
+		V_7 = L_21;
+		float L_22 = ArraysSubmeshedMeshGenerator_get_ZSpacing_m1873628248(__this, /*hidden argument*/NULL);
+		V_8 = L_22;
+		SubmeshedMeshInstruction_t1095166029 * L_23 = ___meshInstructions0;
+		NullCheck(L_23);
+		ExposedList_1_t4224666065 * L_24 = L_23->get_attachmentList_1();
+		NullCheck(L_24);
+		int32_t L_25 = L_24->get_Count_2();
+		V_11 = L_25;
+		int32_t L_26 = V_11;
+		if ((((int32_t)L_26) > ((int32_t)0)))
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		Vector3__ctor_m2926210380((&V_9), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380((&V_10), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		goto IL_012a;
+	}
+
+IL_00b3:
+	{
+		(&V_9)->set_x_1((2.14748365E+09f));
+		(&V_9)->set_y_2((2.14748365E+09f));
+		(&V_10)->set_x_1((-2.14748365E+09f));
+		(&V_10)->set_y_2((-2.14748365E+09f));
+		float L_27 = V_8;
+		if ((!(((float)L_27) > ((float)(0.0f)))))
+		{
+			goto IL_010f;
+		}
+	}
+	{
+		(&V_9)->set_z_3((0.0f));
+		float L_28 = V_8;
+		int32_t L_29 = V_11;
+		(&V_10)->set_z_3(((float)((float)L_28*(float)(((float)((float)((int32_t)((int32_t)L_29-(int32_t)1))))))));
+		goto IL_012a;
+	}
+
+IL_010f:
+	{
+		float L_30 = V_8;
+		int32_t L_31 = V_11;
+		(&V_9)->set_z_3(((float)((float)L_30*(float)(((float)((float)((int32_t)((int32_t)L_31-(int32_t)1))))))));
+		(&V_10)->set_z_3((0.0f));
+	}
+
+IL_012a:
+	{
+		bool L_32 = V_6;
+		if (L_32)
+		{
+			goto IL_0141;
+		}
+	}
+	{
+		bool L_33 = V_5;
+		if (L_33)
+		{
+			goto IL_0141;
+		}
+	}
+	{
+		SmartMesh_t2415772704 * L_34 = V_0;
+		SubmeshedMeshInstruction_t1095166029 * L_35 = ___meshInstructions0;
+		NullCheck(L_34);
+		bool L_36 = SmartMesh_StructureDoesntMatch_m991738336(L_34, L_35, /*hidden argument*/NULL);
+		G_B9_0 = ((int32_t)(L_36));
+		goto IL_0142;
+	}
+
+IL_0141:
+	{
+		G_B9_0 = 1;
+	}
+
+IL_0142:
+	{
+		V_12 = (bool)G_B9_0;
+		V_13 = 0;
+		V_14 = 0;
+		goto IL_0210;
+	}
+
+IL_014f:
+	{
+		ExposedList_1_t723286955 * L_37 = V_3;
+		NullCheck(L_37);
+		SubmeshInstructionU5BU5D_t2859174660* L_38 = L_37->get_Items_1();
+		int32_t L_39 = V_14;
+		NullCheck(L_38);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_38, L_39);
+		V_15 = (*(SubmeshInstruction_t3643321593 *)((L_38)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_39))));
+		int32_t L_40 = (&V_15)->get_startSlot_1();
+		V_16 = L_40;
+		int32_t L_41 = (&V_15)->get_endSlot_2();
+		V_17 = L_41;
+		Skeleton_t2209335561 * L_42 = (&V_15)->get_skeleton_0();
+		V_18 = L_42;
+		Skeleton_t2209335561 * L_43 = V_18;
+		int32_t L_44 = V_16;
+		int32_t L_45 = V_17;
+		float L_46 = V_8;
+		bool L_47 = ArraysMeshGenerator_get_PremultiplyVertexColors_m2173277072(__this, /*hidden argument*/NULL);
+		Vector3U5BU5D_t215400611* L_48 = V_7;
+		Vector2U5BU5D_t4024180168* L_49 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshUVs_5();
+		Color32U5BU5D_t2960766953* L_50 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshColors32_4();
+		SingleU5BU5D_t2316563989** L_51 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_attachmentVertexBuffer_2();
+		ArraysMeshGenerator_FillVerts_m2669771114(NULL /*static, unused*/, L_43, L_44, L_45, L_46, L_47, L_48, L_49, L_50, (&V_13), L_51, (&V_9), (&V_10), (bool)1, /*hidden argument*/NULL);
+		bool L_52 = V_12;
+		if (!L_52)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		ExposedList_1_t1435450047 * L_53 = __this->get_submeshBuffers_13();
+		NullCheck(L_53);
+		SubmeshTriangleBufferU5BU5D_t1627892000* L_54 = L_53->get_Items_1();
+		int32_t L_55 = V_14;
+		NullCheck(L_54);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_54, L_55);
+		int32_t L_56 = L_55;
+		SubmeshTriangleBuffer_t60517389 * L_57 = (L_54)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
+		V_19 = L_57;
+		int32_t L_58 = V_14;
+		int32_t L_59 = V_2;
+		V_20 = (bool)((((int32_t)L_58) == ((int32_t)((int32_t)((int32_t)L_59-(int32_t)1))))? 1 : 0);
+		SubmeshTriangleBuffer_t60517389 * L_60 = V_19;
+		NullCheck(L_60);
+		Int32U5BU5D_t3230847821** L_61 = L_60->get_address_of_triangles_0();
+		Skeleton_t2209335561 * L_62 = V_18;
+		int32_t L_63 = (&V_15)->get_triangleCount_4();
+		int32_t L_64 = (&V_15)->get_firstVertexIndex_6();
+		int32_t L_65 = V_16;
+		int32_t L_66 = V_17;
+		bool L_67 = V_20;
+		ArraysMeshGenerator_FillTriangles_m877837554(NULL /*static, unused*/, L_61, L_62, L_63, L_64, L_65, L_66, L_67, /*hidden argument*/NULL);
+		SubmeshTriangleBuffer_t60517389 * L_68 = V_19;
+		int32_t L_69 = (&V_15)->get_triangleCount_4();
+		NullCheck(L_68);
+		L_68->set_triangleCount_1(L_69);
+		SubmeshTriangleBuffer_t60517389 * L_70 = V_19;
+		int32_t L_71 = (&V_15)->get_firstVertexIndex_6();
+		NullCheck(L_70);
+		L_70->set_firstVertex_2(L_71);
+	}
+
+IL_020a:
+	{
+		int32_t L_72 = V_14;
+		V_14 = ((int32_t)((int32_t)L_72+(int32_t)1));
+	}
+
+IL_0210:
+	{
+		int32_t L_73 = V_14;
+		int32_t L_74 = V_2;
+		if ((((int32_t)L_73) < ((int32_t)L_74)))
+		{
+			goto IL_014f;
+		}
+	}
+	{
+		bool L_75 = V_12;
+		if (!L_75)
+		{
+			goto IL_0237;
+		}
+	}
+	{
+		Mesh_t4241756145 * L_76 = V_1;
+		NullCheck(L_76);
+		Mesh_Clear_m90337099(L_76, /*hidden argument*/NULL);
+		SubmeshedMeshInstruction_t1095166029 * L_77 = ___meshInstructions0;
+		MaterialU5BU5D_t170856778* L_78 = __this->get_sharedMaterials_14();
+		NullCheck(L_77);
+		MaterialU5BU5D_t170856778* L_79 = SubmeshedMeshInstruction_GetUpdatedMaterialArray_m3675659929(L_77, L_78, /*hidden argument*/NULL);
+		__this->set_sharedMaterials_14(L_79);
+	}
+
+IL_0237:
+	{
+		SmartMesh_t2415772704 * L_80 = V_0;
+		Vector3U5BU5D_t215400611* L_81 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshVertices_3();
+		Vector2U5BU5D_t4024180168* L_82 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshUVs_5();
+		Color32U5BU5D_t2960766953* L_83 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshColors32_4();
+		SubmeshedMeshInstruction_t1095166029 * L_84 = ___meshInstructions0;
+		NullCheck(L_80);
+		SmartMesh_Set_m2819399087(L_80, L_81, L_82, L_83, L_84, /*hidden argument*/NULL);
+		Mesh_t4241756145 * L_85 = V_1;
+		Vector3_t4282066566  L_86 = V_9;
+		Vector3_t4282066566  L_87 = V_10;
+		Bounds_t2711641849  L_88 = ArraysMeshGenerator_ToBounds_m1571046811(NULL /*static, unused*/, L_86, L_87, /*hidden argument*/NULL);
+		NullCheck(L_85);
+		Mesh_set_bounds_m1860910602(L_85, L_88, /*hidden argument*/NULL);
+		bool L_89 = V_12;
+		if (!L_89)
+		{
+			goto IL_02a7;
+		}
+	}
+	{
+		Mesh_t4241756145 * L_90 = V_1;
+		int32_t L_91 = V_2;
+		NullCheck(L_90);
+		Mesh_set_subMeshCount_m1647706132(L_90, L_91, /*hidden argument*/NULL);
+		V_21 = 0;
+		goto IL_0296;
+	}
+
+IL_0275:
+	{
+		Mesh_t4241756145 * L_92 = V_1;
+		ExposedList_1_t1435450047 * L_93 = __this->get_submeshBuffers_13();
+		NullCheck(L_93);
+		SubmeshTriangleBufferU5BU5D_t1627892000* L_94 = L_93->get_Items_1();
+		int32_t L_95 = V_21;
+		NullCheck(L_94);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_94, L_95);
+		int32_t L_96 = L_95;
+		SubmeshTriangleBuffer_t60517389 * L_97 = (L_94)->GetAt(static_cast<il2cpp_array_size_t>(L_96));
+		NullCheck(L_97);
+		Int32U5BU5D_t3230847821* L_98 = L_97->get_triangles_0();
+		int32_t L_99 = V_21;
+		NullCheck(L_92);
+		Mesh_SetTriangles_m636210907(L_92, L_98, L_99, /*hidden argument*/NULL);
+		int32_t L_100 = V_21;
+		V_21 = ((int32_t)((int32_t)L_100+(int32_t)1));
+	}
+
+IL_0296:
+	{
+		int32_t L_101 = V_21;
+		int32_t L_102 = V_2;
+		if ((((int32_t)L_101) < ((int32_t)L_102)))
+		{
+			goto IL_0275;
+		}
+	}
+	{
+		Mesh_t4241756145 * L_103 = V_1;
+		int32_t L_104 = V_4;
+		ArraysMeshGenerator_TryAddNormalsTo_m3347834056(__this, L_103, L_104, /*hidden argument*/NULL);
+	}
+
+IL_02a7:
+	{
+		bool L_105 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_addTangents_1();
+		if (!L_105)
+		{
+			goto IL_0329;
+		}
+	}
+	{
+		Vector4U5BU5D_t701588350** L_106 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_meshTangents_7();
+		Vector2U5BU5D_t4024180168** L_107 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_address_of_tempTanBuffer_8();
+		int32_t L_108 = V_4;
+		ArraysMeshGenerator_SolveTangents2DEnsureSize_m4137525859(NULL /*static, unused*/, L_106, L_107, L_108, /*hidden argument*/NULL);
+		V_22 = 0;
+		int32_t L_109 = V_2;
+		V_23 = L_109;
+		goto IL_030d;
+	}
+
+IL_02d0:
+	{
+		ExposedList_1_t1435450047 * L_110 = __this->get_submeshBuffers_13();
+		NullCheck(L_110);
+		SubmeshTriangleBufferU5BU5D_t1627892000* L_111 = L_110->get_Items_1();
+		int32_t L_112 = V_22;
+		NullCheck(L_111);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_111, L_112);
+		int32_t L_113 = L_112;
+		SubmeshTriangleBuffer_t60517389 * L_114 = (L_111)->GetAt(static_cast<il2cpp_array_size_t>(L_113));
+		V_24 = L_114;
+		Vector2U5BU5D_t4024180168* L_115 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_tempTanBuffer_8();
+		SubmeshTriangleBuffer_t60517389 * L_116 = V_24;
+		NullCheck(L_116);
+		Int32U5BU5D_t3230847821* L_117 = L_116->get_triangles_0();
+		SubmeshTriangleBuffer_t60517389 * L_118 = V_24;
+		NullCheck(L_118);
+		int32_t L_119 = L_118->get_triangleCount_1();
+		Vector3U5BU5D_t215400611* L_120 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshVertices_3();
+		Vector2U5BU5D_t4024180168* L_121 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshUVs_5();
+		int32_t L_122 = V_4;
+		ArraysMeshGenerator_SolveTangents2DTriangles_m3522333974(NULL /*static, unused*/, L_115, L_117, L_119, L_120, L_121, L_122, /*hidden argument*/NULL);
+		int32_t L_123 = V_22;
+		V_22 = ((int32_t)((int32_t)L_123+(int32_t)1));
+	}
+
+IL_030d:
+	{
+		int32_t L_124 = V_22;
+		int32_t L_125 = V_23;
+		if ((((int32_t)L_124) < ((int32_t)L_125)))
+		{
+			goto IL_02d0;
+		}
+	}
+	{
+		Vector4U5BU5D_t701588350* L_126 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_meshTangents_7();
+		Vector2U5BU5D_t4024180168* L_127 = ((ArraysMeshGenerator_t2793983610 *)__this)->get_tempTanBuffer_8();
+		int32_t L_128 = V_4;
+		ArraysMeshGenerator_SolveTangents2DBuffer_m3725871264(NULL /*static, unused*/, L_126, L_127, L_128, /*hidden argument*/NULL);
+	}
+
+IL_0329:
+	{
+		SmartMesh_t2415772704 * L_129 = V_0;
+		NullCheck(L_129);
+		Mesh_t4241756145 * L_130 = L_129->get_mesh_0();
+		MaterialU5BU5D_t170856778* L_131 = __this->get_sharedMaterials_14();
+		MeshAndMaterials_t234526394  L_132;
+		memset(&L_132, 0, sizeof(L_132));
+		MeshAndMaterials__ctor_m354985446(&L_132, L_130, L_131, /*hidden argument*/NULL);
+		return L_132;
+	}
+}
+// System.Boolean Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator::Spine.Unity.MeshGeneration.ISubmeshedMeshGenerator.get_AddNormals()
+extern "C"  bool ArraysSubmeshedMeshGenerator_Spine_Unity_MeshGeneration_ISubmeshedMeshGenerator_get_AddNormals_m2682127400 (ArraysSubmeshedMeshGenerator_t888870828 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = ArraysMeshGenerator_get_AddNormals_m1870987416(__this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator::Spine.Unity.MeshGeneration.ISubmeshedMeshGenerator.set_AddNormals(System.Boolean)
+extern "C"  void ArraysSubmeshedMeshGenerator_Spine_Unity_MeshGeneration_ISubmeshedMeshGenerator_set_AddNormals_m1894744415 (ArraysSubmeshedMeshGenerator_t888870828 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		ArraysMeshGenerator_set_AddNormals_m42095567(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator::Spine.Unity.MeshGeneration.ISubmeshedMeshGenerator.get_AddTangents()
+extern "C"  bool ArraysSubmeshedMeshGenerator_Spine_Unity_MeshGeneration_ISubmeshedMeshGenerator_get_AddTangents_m602152436 (ArraysSubmeshedMeshGenerator_t888870828 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = ArraysMeshGenerator_get_AddTangents_m1226616708(__this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator::Spine.Unity.MeshGeneration.ISubmeshedMeshGenerator.set_AddTangents(System.Boolean)
+extern "C"  void ArraysSubmeshedMeshGenerator_Spine_Unity_MeshGeneration_ISubmeshedMeshGenerator_set_AddTangents_m4217496235 (ArraysSubmeshedMeshGenerator_t888870828 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		ArraysMeshGenerator_set_AddTangents_m2619956795(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void Spine.Unity.MeshGeneration.ArraysSubmeshedMeshGenerator/SmartMesh::.ctor()
 extern Il2CppClass* ExposedList_1_t4224666065_il2cpp_TypeInfo_var;
 extern Il2CppClass* ExposedList_1_t723286955_il2cpp_TypeInfo_var;

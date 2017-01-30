@@ -20,6 +20,8 @@ struct LayerMask_t3236759763_marshaled_com;
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UnityEngine_LayerMask3236759763.h"
 
+// System.Int32 UnityEngine.LayerMask::get_value()
+extern "C"  int32_t LayerMask_get_value_m1804554274 (LayerMask_t3236759763 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.LayerMask::op_Implicit(UnityEngine.LayerMask)
 extern "C"  int32_t LayerMask_op_Implicit_m1595580047 (Il2CppObject * __this /* static, unused */, LayerMask_t3236759763  ___mask0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.LayerMask UnityEngine.LayerMask::op_Implicit(System.Int32)
