@@ -89,7 +89,7 @@ public class MapEditor : Editor {
 			Ground groundComponent = newGround.GetComponent<Ground>();
 			groundComponent.groundPlaceName = map.gameObject.name;
 
-			Debug.Log("checkName /" + map.gameObject.name);
+			//Debug.Log("checkName /" + map.gameObject.name);
 
 			UpdateGroundsMapInfo();
 		}

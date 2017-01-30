@@ -30,6 +30,10 @@ public class PlayerController : MonoBehaviour {
 	ePlayerDirection playerDirection;
 	int heartCount = 3;
 
+	float timeBetweenButton = 0.5f;  // Allow 3 shots per second
+
+	float timestamp;
+
 	void Start()
 	{
 		instance = this;
@@ -114,12 +118,16 @@ public class PlayerController : MonoBehaviour {
 
 	public void Attack()
 	{
-		if (playerDirection == ePlayerDirection.die)
+		if (Time.time >= timestamp)
 		{
-			return;
+			timestamp = Time.time + timeBetweenButton;
+			if (playerDirection == ePlayerDirection.die)
+			{
+				return;
+			}
+			skeletonAnimation.state.SetAnimation(2, "03_fight", false);
+			IsEnemy();
 		}
-		skeletonAnimation.state.SetAnimation(2, "03_fight", false);
-		IsEnemy();
 	}
 
 	public void Hit()

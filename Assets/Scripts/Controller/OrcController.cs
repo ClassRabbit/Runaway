@@ -10,7 +10,7 @@ public class OrcController : MonoBehaviour {
 		right
 	}
 	
-	public bool lookRight = true;
+	public bool lookRight;
 	public bool isIdle = true;
 	public Rigidbody2D rb2D { get; set; }
 
@@ -36,6 +36,11 @@ public class OrcController : MonoBehaviour {
 		else 
 		{
 			state = eOrcState.right;
+		}
+
+		if (!lookRight)
+		{
+			Flip();
 		}
 	}
 	

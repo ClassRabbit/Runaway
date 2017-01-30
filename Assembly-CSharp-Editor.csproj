@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Editor\GroundEditor.cs" />
      <Compile Include="Assets\Editor\MapEditor.cs" />
+     <Compile Include="Assets\Editor\NPCEditor.cs" />
      <Compile Include="Assets\Editor\TileEditor.cs" />
      <Compile Include="Assets\Resources\Spine 4 char\spine-unity\Assets\spine-unity\Asset Types\Editor\AtlasAssetInspector.cs" />
      <Compile Include="Assets\Resources\Spine 4 char\spine-unity\Assets\spine-unity\Asset Types\Editor\SkeletonDataAssetInspector.cs" />
