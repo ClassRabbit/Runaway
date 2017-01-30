@@ -34,6 +34,8 @@ public class PlayerController : MonoBehaviour {
 
 	float timestamp;
 
+	Vector3 startPosition;
+
 	void Start()
 	{
 		instance = this;
@@ -51,6 +53,20 @@ public class PlayerController : MonoBehaviour {
 
 		skeletonAnimation.state.SetAnimation(0, "01_idle", true);
 		playerDirection = ePlayerDirection.right;
+
+		startPosition = transform.position;
+	}
+
+	public void Refresh()
+	{
+		skeletonAnimation.skeleton.FlipX = true;
+		moveVector = new Vector3(0, 0, 0);
+		skeletonAnimation.state.SetAnimation(0, "01_idle", true);
+		heartCount = 3;
+		transform.position = startPosition;
+		playerDirection = ePlayerDirection.right;
+		skeletonAnimation.state.SetAnimation(4, "01_idle", false);
+		skeletonAnimation.state.SetAnimation(2, "03_fight", false);
 	}
 
 	void Update()
@@ -144,6 +160,7 @@ public class PlayerController : MonoBehaviour {
 			Debug.Log("gameover");
 			skeletonAnimation.state.SetAnimation(4, "05_die", false).EndTime = 100;
 			playerDirection = ePlayerDirection.die;
+			GameController.instance.EndGame();
 		}
 	}
 
@@ -192,7 +209,7 @@ public class PlayerController : MonoBehaviour {
 				Debug.Log(hit.collider.gameObject.transform.position);
 				if (hit.collider.tag == "Orc")
 				{
-					Destroy(hit.collider.gameObject);
+					hit.collider.gameObject.SetActive(false);
 				}
 			}
 		}
@@ -208,7 +225,8 @@ public class PlayerController : MonoBehaviour {
 				Debug.Log(hit.collider.gameObject.transform.position);
 				if (hit.collider.tag == "Orc")
 				{
-					Destroy(hit.collider.gameObject);
+					//Destroy(hit.collider.gameObject);
+					hit.collider.gameObject.SetActive(false);
 				}
 			}
 		}

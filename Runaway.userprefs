@@ -1,16 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/GroundEditor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Controller/GameController.cs">
     <Files>
-      <File FileName="Assets/Scripts/Controller/OrcController.cs" Line="96" Column="23" />
-      <File FileName="Assets/Editor/GroundEditor.cs" Line="34" Column="3" />
+      <File FileName="Assets/Scripts/Controller/OrcController.cs" Line="6" Column="16" />
+      <File FileName="Assets/Editor/GroundEditor.cs" Line="207" Column="5" />
       <File FileName="Assets/Scripts/Map/Ground.cs" Line="14" Column="2" />
-      <File FileName="Assets/Editor/MapEditor.cs" Line="107" Column="5" />
-      <File FileName="Assets/Scripts/Map/Map.cs" Line="12" Column="26" />
-      <File FileName="Assets/Scripts/Controller/PlayerController.cs" Line="118" Column="4" NotebookId="1" />
-      <File FileName="Assets/Scripts/Controller/CameraController.cs" Line="24" Column="1" NotebookId="1" />
+      <File FileName="Assets/Editor/MapEditor.cs" Line="79" Column="4" />
+      <File FileName="Assets/Scripts/Map/Map.cs" Line="11" Column="20" />
+      <File FileName="Assets/Scripts/Controller/CameraController.cs" Line="13" Column="1" NotebookId="1" />
       <File FileName="Assets/Scripts/UI/Joystick.cs" Line="6" Column="14" NotebookId="1" />
-      <File FileName="Assets/Scripts/Controller/NPCController.cs" Line="6" Column="26" NotebookId="1" />
-      <File FileName="Assets/Editor/NPCEditor.cs" Line="6" Column="32" NotebookId="1" />
+      <File FileName="Assets/Scripts/Controller/NPCController.cs" Line="7" Column="1" NotebookId="1" />
+      <File FileName="Assets/Editor/NPCEditor.cs" Line="40" Column="61" NotebookId="1" />
+      <File FileName="Assets/Scripts/Controller/PlayerController.cs" Line="14" Column="41" NotebookId="1" />
+      <File FileName="Assets/Scripts/Controller/GameController.cs" Line="35" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

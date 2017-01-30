@@ -138,6 +138,7 @@
      <Compile Include="Assets\Resources\Spine 4 char\spine-unity\Assets\spine-unity\SkeletonUtility\SkeletonUtilitySubmeshRenderer.cs" />
      <Compile Include="Assets\Resources\Spine 4 char\spine-unity\Assets\spine-unity\SpineAttributes.cs" />
      <Compile Include="Assets\Scripts\Controller\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Controller\GameController.cs" />
      <Compile Include="Assets\Scripts\Controller\NPCController.cs" />
      <Compile Include="Assets\Scripts\Controller\OrcController.cs" />
      <Compile Include="Assets\Scripts\Controller\PlayerController.cs" />
