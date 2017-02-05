@@ -142,8 +142,10 @@
      <Compile Include="Assets\Scripts\Controller\NPCController.cs" />
      <Compile Include="Assets\Scripts\Controller\OrcController.cs" />
      <Compile Include="Assets\Scripts\Controller\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Map\Cloud.cs" />
      <Compile Include="Assets\Scripts\Map\Ground.cs" />
      <Compile Include="Assets\Scripts\Map\Map.cs" />
+     <Compile Include="Assets\Scripts\Map\Sky.cs" />
      <Compile Include="Assets\Scripts\Map\Tile.cs" />
      <Compile Include="Assets\Scripts\UI\Joystick.cs" />
      <None Include="Assets\Resources\Spine 4 char\spine-unity\Assets\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
