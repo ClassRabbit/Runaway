@@ -160,7 +160,7 @@ public class PlayerController : MonoBehaviour {
 			Debug.Log("gameover");
 			skeletonAnimation.state.SetAnimation(4, "05_die", false).EndTime = 100;
 			playerDirection = ePlayerDirection.die;
-			GameController.instance.EndGame();
+			GameController.instance.ResultFail();
 		}
 	}
 

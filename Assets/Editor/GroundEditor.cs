@@ -173,20 +173,35 @@ public class GroundEditor : Editor {
 		SetSelectSpritePopup(ref selectPopupInfo[(int)eSelectPopup.right],
 		                     ground.rightTile, ground.rightSprite);
 
-		if (GUILayout.Button("CreateEtc"))
-		{
-			CreateEtc();
-		}
+		
 
 		EditorGUILayout.BeginHorizontal();
-		if (GUILayout.Button("CreateDummy"))
+
+        if (GUILayout.Button("CreateEtc"))
+        {
+            CreateEtc();
+        }
+
+        if (GUILayout.Button("CreateDummy"))
 		{
 			CreateDummy();
 		}
 
 		EditorGUILayout.EndHorizontal();
 
-	}
+        EditorGUILayout.BeginHorizontal();
+        if (GUILayout.Button("SetActiveTrue"))
+        {
+            ground.gameObject.SetActive(true);
+        }
+
+        if (GUILayout.Button("SetActiveFalse"))
+        {
+            ground.gameObject.SetActive(false);
+        }
+
+        EditorGUILayout.EndHorizontal();
+    }
 
 	void CreateDummy()
 	{

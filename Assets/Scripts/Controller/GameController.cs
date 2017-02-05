@@ -3,25 +3,52 @@ using System.Collections;
 
 public class GameController : MonoBehaviour {
 
+    enum eGameState
+    {
+        run=0,
+        finish,
+        non
+    }
+
 	public GameObject UI;
 	public GameObject Map;
 
 	public static GameController instance;
 
 	Transform Menu;
+    eGameState state;
 
 	void Start()
 	{
 		instance = this;
 		Menu = UI.transform.FindChild("Menu");
+        state = eGameState.non;
 	}
 
-	public void StartGame()
+    private void Update()
+    {
+        if (state == eGameState.finish)
+        {
+            if (Input.GetButtonDown("Fire1"))
+            {
+                state = eGameState.non;
+                EndGame();
+            }
+        }
+    }
+
+    public void StartGame()
 	{
-		
-		StartCoroutine(FadeOut());
+        Transform Game = UI.transform.FindChild("Game");
+        Transform successImage = Game.FindChild("SuccessImage");
+        Transform failImage = Game.FindChild("FailImage");
 
+        successImage.gameObject.SetActive(false);
+        failImage.gameObject.SetActive(false);
 
+        StartCoroutine(FadeOut());
+
+        state = eGameState.run;
 	}
 
 	IEnumerator FadeOut()
@@ -77,6 +104,27 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
+    public void ResultFail()
+    {
+        Transform Game = UI.transform.FindChild("Game");
+        //Transform successImage = Game.FindChild("SuccessImage");
+        Transform failImage = Game.FindChild("FailImage");
+
+        failImage.gameObject.SetActive(true);
+
+        state = eGameState.finish;
+    }
+
+    public void ResultSuccess()
+    {
+        Transform Game = UI.transform.FindChild("Game");
+        Transform successImage = Game.FindChild("SuccessImage");
+        //Transform failImage = Game.FindChild("FailImage");
+
+        successImage.gameObject.SetActive(true);
+
+        state = eGameState.finish;
+    }
 
 
 }
