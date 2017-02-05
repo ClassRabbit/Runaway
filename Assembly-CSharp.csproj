@@ -143,8 +143,11 @@
      <Compile Include="Assets\Scripts\Controller\OrcController.cs" />
      <Compile Include="Assets\Scripts\Controller\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Map\Cloud.cs" />
+     <Compile Include="Assets\Scripts\Map\DeadLine.cs" />
      <Compile Include="Assets\Scripts\Map\Ground.cs" />
      <Compile Include="Assets\Scripts\Map\Map.cs" />
+     <Compile Include="Assets\Scripts\Map\Portal.cs" />
+     <Compile Include="Assets\Scripts\Map\Priest.cs" />
      <Compile Include="Assets\Scripts\Map\Sky.cs" />
      <Compile Include="Assets\Scripts\Map\Tile.cs" />
      <Compile Include="Assets\Scripts\UI\Joystick.cs" />

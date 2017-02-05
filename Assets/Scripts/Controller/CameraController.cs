@@ -2,40 +2,58 @@
 using System.Collections;
 
 public class CameraController : MonoBehaviour {
-	//character라는 GameObject변수 선언
-	public GameObject character;
 
-	Transform characterTransfrom;
+	//enum eCameraStage
+	//{
+	//	stage_1 = 0,
+	//	stage_2
+	//}
+
+	public GameObject character;
+	public GameObject character2;
+	public static CameraController instance;
+
+	Transform characterTransform;
 	Vector3 startPosition;
+	Vector3 endPosition;
+	//eCameraStage stage;
 
 	void Start()
 	{
-		characterTransfrom = character.transform;
-		startPosition = characterTransfrom.position;
-		//Debug.Log(characterTransfrom);
+		characterTransform = character.transform;
+		startPosition = characterTransform.position;
+		endPosition = character2.transform.position;
+		//stage = eCameraStage.stage_1;
+
+		instance = this;
 	}
 
-	//void LateUpdate()
-	//{
-	//	transform.position = new Vector3(characterTransfrom.position.x, characterTransfrom.position.y + 1, transform.position.z);
-	//}
 
 	void Update()
 	{
-		Vector3 position = characterTransfrom.position;
+		Vector3 position = characterTransform.position;
 		position.y = position.y + 2;
-		//Debug.Log(position.y);
 		if (position.x < startPosition.x + 5)
 		{
 			position.x = startPosition.x + 5;
 		}
-		if (position.y < startPosition.y - 1)
+		if (position.y < startPosition.y - 0.5f)
 		{
-			position.y = startPosition.y - 1;
+			position.y = startPosition.y - 0.5f;
+		}
+		if (position.x > endPosition.x - 5)
+		{
+			position.x = endPosition.x - 5;
 		}
 		transform.position = Vector3.Lerp(transform.position, position, 2f * Time.deltaTime);
-		transform.Translate(0, 0, -10); //카메라를 원래 z축으로 이동
+		transform.Translate(0, 0, -10); 
 	}
 
-
+	public void FocusCharacter()
+	{
+		startPosition = characterTransform.position;
+		Vector3 position = characterTransform.position;
+		position.y = position.y + 2;
+		transform.position = position;
+	}
 }

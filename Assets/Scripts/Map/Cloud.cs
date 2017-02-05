@@ -33,8 +33,6 @@ public class Cloud : MonoBehaviour {
 	void ScrollEnd()
 	{
 		transform.Translate(-1 * (endPosition - startPosition), 0, 0);
-
-		//SendMessage("OnScrollEnd", SendMessageOptions.DontRequireReceiver);
 	}
 
 }

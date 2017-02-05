@@ -98,7 +98,7 @@ public class OrcController : MonoBehaviour {
 
 	void OnCollitionEnter2D(Collision2D other)
 	{
-		Debug.Log("Collition");
+		//Debug.Log("Collition");
 	}
 
 	void Attack()
