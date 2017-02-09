@@ -210,6 +210,7 @@ public class PlayerController : MonoBehaviour {
 				if (hit.collider.tag == "Orc")
 				{
 					hit.collider.gameObject.SetActive(false);
+					GameController.instance.KillOrc ();
 				}
 			}
 		}
@@ -227,6 +228,7 @@ public class PlayerController : MonoBehaviour {
 				{
 					//Destroy(hit.collider.gameObject);
 					hit.collider.gameObject.SetActive(false);
+					GameController.instance.KillOrc ();
 				}
 			}
 		}
